@@ -25,13 +25,9 @@ const fetchPortraits = async () => {
     fs.writeFileSync(path, Buffer.from(buffer));
   });
 
-  await Promise.all(promises)
-    .catch((error) => {
-      console.error("Error fetching portraits:", error);
-    })
-    .then(() => {
-      console.log("Portraits fetched successfully!");
-    });
+  await Promise.all(promises).then(() => {
+    console.log("Portraits fetched successfully!");
+  });
 };
 
 export default fetchPortraits;
