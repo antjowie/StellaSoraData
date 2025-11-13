@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "stellasoradata",
+  "version": "1.0.0",
+  "description": "Datamined data for the game `Stella Sora`, updates automatically",
+  "main": "scripts/main.js",
+  "scripts": {
+    "start": "node scripts/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antjowie/StellaSoraData.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/antjowie/StellaSoraData/issues"
+  },
+  "homepage": "https://github.com/antjowie/StellaSoraData#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "ky": "^1.14.0"
+  }
+}
