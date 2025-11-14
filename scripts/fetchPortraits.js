@@ -2,6 +2,7 @@ import fs from "fs";
 import characterJson from "../EN/language/en_US/Character.json" with { type: "json" };
 import ky from "ky";
 import axios from "axios";
+import sharp from "sharp";
 
 const characters = Object.values(characterJson).filter((name) => name !== "???");
 
@@ -9,7 +10,7 @@ fs.mkdirSync("./portraits", { recursive: true });
 
 const fetchPortraits = async () => {
   const promises = characters.map(async (character) => {
-    const path = `./portraits/${character}.png`;
+    const path = `./portraits/${character}.webp`;
     // Skip if file already exists
     if (fs.existsSync(path)) {
       return;
@@ -28,7 +29,15 @@ const fetchPortraits = async () => {
 
     // Download and save portrait
     const buffer = await ky("https:" + imgUrl).arrayBuffer();
-    fs.writeFileSync(path, Buffer.from(buffer));
+
+    // Convert buffer to WebP
+    await sharp(buffer)
+      .webp()
+      .toBuffer()
+      .then((outputBuffer) => {
+        fs.writeFileSync(path, outputBuffer);
+      })
+      .catch((err) => console.error("Error:", err));
   });
 
   await Promise.all(promises).then(() => {

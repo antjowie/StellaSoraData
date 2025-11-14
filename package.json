@@ -19,6 +19,7 @@
   "homepage": "https://github.com/antjowie/StellaSoraData#readme",
   "dependencies": {
     "axios": "^1.13.2",
-    "ky": "^1.14.0"
+    "ky": "^1.14.0",
+    "sharp": "^0.34.5"
   }
 }
