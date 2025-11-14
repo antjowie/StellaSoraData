@@ -181,7 +181,7 @@ function generateDatabase() {
     // on array indices directly.
     // We could avoid this if parsed all param values in potential instead of desc.
     // Might be useful for data gathering but not necessary for build site.
-    let params = {};
+    let params = [];
     for (const param of paramSet) {
       if (!(param in potential)) throw new Error(`Missing param value: ${param} for potential ${potentialId}`);
 
@@ -536,7 +536,7 @@ function generateDatabase() {
         throw new Error(`Unknown param value: ${paramValue} for potential ${potentialId}`);
       }
 
-      params[paramIdx] = data;
+      params.push({ idx: paramIdx, values: data });
     }
 
     charToPotentials.get(charId).push({
