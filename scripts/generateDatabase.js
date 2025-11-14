@@ -170,7 +170,7 @@ function generateDatabase() {
     addParams(descShort);
     addParams(descLong);
     let params = [];
-    for (const param of paramSet) {
+    for (const param of [...paramSet].sort((a, b) => parseInt(a[a.length - 1]) - parseInt(b[b.length - 1]))) {
       if (!(param in potential)) throw new Error(`Missing param value: ${param} for potential ${potentialId}`);
 
       let data = [];

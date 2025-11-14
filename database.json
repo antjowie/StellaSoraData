@@ -104,9 +104,6 @@
         "type": 1,
         "params": [
           [
-            "7"
-          ],
-          [
             "13%",
             "21%",
             "29%",
@@ -122,6 +119,9 @@
           ],
           [
             "14"
+          ],
+          [
+            "7"
           ]
         ]
       },
@@ -135,17 +135,6 @@
         "type": 1,
         "params": [
           [
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage"
-          ],
-          [
             "0.7%",
             "1.1%",
             "1.5%",
@@ -155,6 +144,17 @@
             "3.1%",
             "3.5%",
             "3.9%"
+          ],
+          [
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage"
           ],
           [
             "36"
@@ -170,9 +170,6 @@
         "build": 1,
         "type": 1,
         "params": [
-          [
-            "Auto Attack Damage"
-          ],
           [
             "35%"
           ],
@@ -197,6 +194,9 @@
             "8",
             "8",
             "8"
+          ],
+          [
+            "Auto Attack Damage"
           ]
         ]
       },
@@ -209,17 +209,6 @@
         "build": 2,
         "type": 1,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "9%",
             "15%",
@@ -252,6 +241,17 @@
             "2",
             "2",
             "2"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -287,17 +287,6 @@
         "type": 1,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "14%",
             "23%",
             "32%",
@@ -310,6 +299,17 @@
           ],
           [
             "3"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -561,17 +561,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "16%",
             "25%",
             "35%",
@@ -587,6 +576,17 @@
           ],
           [
             "14"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -599,17 +599,6 @@
         "build": 2,
         "type": 2,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "1.4%",
             "2.2%",
@@ -631,6 +620,17 @@
             "20",
             "20",
             "20"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -643,17 +643,6 @@
         "build": 2,
         "type": 2,
         "params": [
-          [
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG"
-          ],
           [
             "22.5%",
             "30%",
@@ -686,6 +675,17 @@
             "2",
             "2",
             "2"
+          ],
+          [
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG"
           ]
         ]
       },
@@ -698,17 +698,6 @@
         "build": 2,
         "type": 2,
         "params": [
-          [
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG"
-          ],
           [
             "5%",
             "7%",
@@ -730,6 +719,17 @@
             "10",
             "10",
             "10"
+          ],
+          [
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG"
           ]
         ]
       },
@@ -743,17 +743,6 @@
         "type": 2,
         "params": [
           [
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG"
-          ],
-          [
             "18%",
             "29%",
             "40%",
@@ -763,6 +752,17 @@
             "83%",
             "94%",
             "104%"
+          ],
+          [
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG"
           ]
         ]
       },
@@ -776,17 +776,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "9%",
             "14%",
             "20%",
@@ -796,6 +785,17 @@
             "41%",
             "47%",
             "52%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -809,17 +809,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "15%",
             "23%",
             "32%",
@@ -829,6 +818,17 @@
             "67%",
             "75%",
             "84%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -841,17 +841,6 @@
         "build": 3,
         "type": 3,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "21%",
             "34%",
@@ -873,6 +862,17 @@
             "14",
             "14",
             "14"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -886,17 +886,6 @@
         "type": 3,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "8"
           ],
           [
@@ -909,6 +898,17 @@
             "32%",
             "36%",
             "40%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -1064,17 +1064,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "8%",
             "13%",
             "18%",
@@ -1087,6 +1076,17 @@
           ],
           [
             "8"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -1125,17 +1125,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "Aegis Protection"
           ],
           [
@@ -1153,6 +1142,17 @@
             "5"
           ],
           [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
+          ],
+          [
             "12"
           ]
         ]
@@ -1166,17 +1166,6 @@
         "build": 2,
         "type": 1,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "Aegis Protection"
           ],
@@ -1199,6 +1188,17 @@
           ],
           [
             "5"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -1212,17 +1212,6 @@
         "type": 1,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "21%",
             "33%",
             "46%",
@@ -1235,6 +1224,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -1295,17 +1295,6 @@
         "type": 1,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "13%",
             "21%",
             "29%",
@@ -1318,6 +1307,17 @@
           ],
           [
             "8"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -1500,17 +1500,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "12%",
             "19%",
             "26%",
@@ -1526,6 +1515,17 @@
           ],
           [
             "5"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -1538,17 +1538,6 @@
         "build": 2,
         "type": 2,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "4%",
             "6%",
@@ -1565,6 +1554,17 @@
           ],
           [
             "4"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -1577,17 +1577,6 @@
         "build": 2,
         "type": 2,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "4%",
             "6%",
@@ -1604,6 +1593,17 @@
           ],
           [
             "6"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -1616,6 +1616,17 @@
         "build": 2,
         "type": 2,
         "params": [
+          [
+            "35%",
+            "45%",
+            "55%",
+            "65%",
+            "75%",
+            "85%",
+            "95%",
+            "95%",
+            "95%"
+          ],
           [
             "8.8%",
             "9.6%",
@@ -1630,17 +1641,6 @@
             "21%",
             "21.9%",
             "22.8%"
-          ],
-          [
-            "35%",
-            "45%",
-            "55%",
-            "65%",
-            "75%",
-            "85%",
-            "95%",
-            "95%",
-            "95%"
           ],
           [
             "4.6%"
@@ -1666,17 +1666,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "10%",
             "17%",
             "23%",
@@ -1686,6 +1675,17 @@
             "48%",
             "54%",
             "60%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ],
           [
             "10"
@@ -1702,17 +1702,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "9%",
             "14%",
             "20%",
@@ -1722,6 +1711,17 @@
             "41%",
             "47%",
             "52%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -1821,17 +1821,6 @@
         "type": 3,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "Glorious Smite"
           ],
           [
@@ -1847,6 +1836,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       }
@@ -1903,9 +1903,6 @@
         "type": 1,
         "params": [
           [
-            "10"
-          ],
-          [
             "10.5%",
             "11.6%",
             "12.6%",
@@ -1919,6 +1916,9 @@
             "25.2%",
             "26.3%",
             "27.3%"
+          ],
+          [
+            "10"
           ]
         ]
       },
@@ -2000,17 +2000,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "3%",
             "4%",
             "6%",
@@ -2020,6 +2009,17 @@
             "12%",
             "14%",
             "16%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ],
           [
             "5"
@@ -2038,17 +2038,6 @@
         "build": 2,
         "type": 1,
         "params": [
-          [
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken"
-          ],
           [
             "0.6%",
             "1%",
@@ -2081,6 +2070,17 @@
             "10",
             "10",
             "10"
+          ],
+          [
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken"
           ]
         ]
       },
@@ -2093,17 +2093,6 @@
         "build": 2,
         "type": 1,
         "params": [
-          [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
           [
             "3%",
             "5%",
@@ -2136,6 +2125,17 @@
             "10",
             "10",
             "10"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -2185,17 +2185,6 @@
             "80"
           ],
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "20%",
             "32%",
             "43%",
@@ -2205,6 +2194,17 @@
             "91%",
             "102%",
             "114%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -2218,17 +2218,6 @@
         "type": 1,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "20%",
             "32%",
             "43%",
@@ -2238,6 +2227,17 @@
             "91%",
             "102%",
             "114%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -2250,17 +2250,6 @@
         "build": 3,
         "type": 1,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "12%",
             "20%",
@@ -2293,6 +2282,17 @@
             "4",
             "4",
             "4"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -2399,17 +2399,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG Taken",
-            "Skill DMG Taken",
-            "Skill DMG Taken",
-            "Skill DMG Taken",
-            "Skill DMG Taken",
-            "Skill DMG Taken",
-            "Skill DMG Taken",
-            "Skill DMG Taken",
-            "Skill DMG Taken"
-          ],
-          [
             "-35%",
             "-35%",
             "-35%",
@@ -2430,6 +2419,17 @@
             "41%",
             "47%",
             "52%"
+          ],
+          [
+            "Skill DMG Taken",
+            "Skill DMG Taken",
+            "Skill DMG Taken",
+            "Skill DMG Taken",
+            "Skill DMG Taken",
+            "Skill DMG Taken",
+            "Skill DMG Taken",
+            "Skill DMG Taken",
+            "Skill DMG Taken"
           ],
           [
             "10"
@@ -2471,17 +2471,6 @@
         "type": 2,
         "params": [
           [
-            "30%",
-            "30%",
-            "30%",
-            "30%",
-            "30%",
-            "30%",
-            "30%",
-            "30%",
-            "30%"
-          ],
-          [
             "6%",
             "9%",
             "12%",
@@ -2491,6 +2480,17 @@
             "25%",
             "29%",
             "32%"
+          ],
+          [
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%"
           ]
         ]
       },
@@ -2504,17 +2504,6 @@
         "type": 2,
         "params": [
           [
-            "30%",
-            "30%",
-            "30%",
-            "30%",
-            "30%",
-            "30%",
-            "30%",
-            "30%",
-            "30%"
-          ],
-          [
             "8%",
             "13%",
             "18%",
@@ -2524,6 +2513,17 @@
             "38%",
             "42%",
             "47%"
+          ],
+          [
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%"
           ]
         ]
       },
@@ -2559,17 +2559,6 @@
         "type": 2,
         "params": [
           [
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG"
-          ],
-          [
             "13%",
             "20%",
             "28%",
@@ -2579,6 +2568,17 @@
             "58%",
             "66%",
             "74%"
+          ],
+          [
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG"
           ]
         ]
       },
@@ -2592,17 +2592,6 @@
         "type": 2,
         "params": [
           [
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG"
-          ],
-          [
             "21%",
             "34%",
             "47%",
@@ -2612,6 +2601,17 @@
             "97%",
             "110%",
             "123%"
+          ],
+          [
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG"
           ]
         ]
       },
@@ -2625,17 +2625,6 @@
         "type": 2,
         "params": [
           [
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate"
-          ],
-          [
             "7%",
             "9%",
             "11%",
@@ -2645,6 +2634,17 @@
             "20%",
             "22%",
             "24%"
+          ],
+          [
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate"
           ]
         ]
       },
@@ -2657,17 +2657,6 @@
         "build": 3,
         "type": 3,
         "params": [
-          [
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken"
-          ],
           [
             "4%",
             "6%",
@@ -2700,6 +2689,17 @@
             "6",
             "6",
             "6"
+          ],
+          [
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken"
           ]
         ]
       },
@@ -2735,17 +2735,6 @@
         "type": 3,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "11%",
             "18%",
             "24%",
@@ -2777,6 +2766,17 @@
             "6",
             "6",
             "6"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       }
@@ -2813,9 +2813,6 @@
             "20"
           ],
           [
-            "Wall of Frost"
-          ],
-          [
             "147%",
             "161%",
             "176%",
@@ -2829,6 +2826,9 @@
             "337%",
             "352%",
             "367%"
+          ],
+          [
+            "Wall of Frost"
           ]
         ]
       },
@@ -2860,9 +2860,6 @@
             "305%"
           ],
           [
-            "Wall of Frost"
-          ],
-          [
             "173%",
             "190%",
             "208%",
@@ -2879,6 +2876,9 @@
           ],
           [
             "3"
+          ],
+          [
+            "Wall of Frost"
           ]
         ]
       },
@@ -2898,9 +2898,6 @@
             "50"
           ],
           [
-            "Frostflare"
-          ],
-          [
             "9.5%",
             "10.4%",
             "11.4%",
@@ -2914,6 +2911,9 @@
             "21.8%",
             "22.7%",
             "23.7%"
+          ],
+          [
+            "Frostflare"
           ]
         ]
       },
@@ -3069,20 +3069,6 @@
         "type": 1,
         "params": [
           [
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate",
-            "Skill Crit Rate"
-          ],
-          [
-            "Frozen Path"
-          ],
-          [
             "1"
           ],
           [
@@ -3098,6 +3084,20 @@
           ],
           [
             "6"
+          ],
+          [
+            "Frozen Path"
+          ],
+          [
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate",
+            "Skill Crit Rate"
           ]
         ]
       },
@@ -3336,17 +3336,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "Iceberg Surge"
           ],
           [
@@ -3365,6 +3354,17 @@
           ],
           [
             "18"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -3503,17 +3503,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "Iceberg Surge"
           ],
           [
@@ -3529,6 +3518,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -3567,17 +3567,6 @@
         "type": 3,
         "params": [
           [
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG"
-          ],
-          [
             "Arctic Vortex"
           ],
           [
@@ -3590,6 +3579,17 @@
             "49%",
             "56%",
             "62%"
+          ],
+          [
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG"
           ]
         ]
       },
@@ -3603,17 +3603,6 @@
         "type": 3,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "23%",
             "37%",
             "51%",
@@ -3623,6 +3612,17 @@
             "107%",
             "121%",
             "135%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       }
@@ -3694,12 +3694,6 @@
         "type": 1,
         "params": [
           [
-            "Skill DMG"
-          ],
-          [
-            "11.3%"
-          ],
-          [
             "20.1%",
             "22.1%",
             "24.1%",
@@ -3713,6 +3707,12 @@
             "48.2%",
             "50.3%",
             "52.3%"
+          ],
+          [
+            "11.3%"
+          ],
+          [
+            "Skill DMG"
           ]
         ]
       },
@@ -3825,17 +3825,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "12%",
             "20%",
             "27%",
@@ -3845,6 +3834,17 @@
             "56%",
             "63%",
             "71%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ],
           [
             "5"
@@ -3972,17 +3972,6 @@
         "type": 1,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "12%",
             "19%",
             "26%",
@@ -3992,6 +3981,17 @@
             "55%",
             "62%",
             "69%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -4005,17 +4005,6 @@
         "type": 1,
         "params": [
           [
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage"
-          ],
-          [
             "17%",
             "27%",
             "38%",
@@ -4025,6 +4014,17 @@
             "79%",
             "89%",
             "100%"
+          ],
+          [
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage"
           ]
         ]
       },
@@ -4110,17 +4110,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "16%",
             "25%",
             "34%",
@@ -4130,6 +4119,17 @@
             "71%",
             "81%",
             "90%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -4143,17 +4143,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "23%",
             "37%",
             "51%",
@@ -4163,6 +4152,17 @@
             "107%",
             "121%",
             "135%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -4242,15 +4242,15 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
+            "4%",
+            "4%",
+            "5%",
+            "5%",
+            "7%",
+            "7%",
+            "8%",
+            "8%",
+            "9%"
           ],
           [
             "10%",
@@ -4264,15 +4264,15 @@
             "58%"
           ],
           [
-            "4%",
-            "4%",
-            "5%",
-            "5%",
-            "7%",
-            "7%",
-            "8%",
-            "8%",
-            "9%"
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -4322,17 +4322,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "19%",
             "31%",
             "42%",
@@ -4342,6 +4331,17 @@
             "88%",
             "100%",
             "111%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -4399,17 +4399,6 @@
         "type": 3,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "21%",
             "33%",
             "45%",
@@ -4422,6 +4411,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -4491,9 +4491,6 @@
         "type": 1,
         "params": [
           [
-            "ATK"
-          ],
-          [
             "1.7%"
           ],
           [
@@ -4501,6 +4498,9 @@
           ],
           [
             "20"
+          ],
+          [
+            "ATK"
           ]
         ]
       },
@@ -4558,13 +4558,7 @@
         "type": 1,
         "params": [
           [
-            "Crit DMG"
-          ],
-          [
             "Crit Rate"
-          ],
-          [
-            "14%"
           ],
           [
             "1.6%"
@@ -4574,6 +4568,12 @@
           ],
           [
             "5"
+          ],
+          [
+            "Crit DMG"
+          ],
+          [
+            "14%"
           ]
         ]
       },
@@ -4613,17 +4613,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "6%",
             "9%",
             "12%",
@@ -4639,6 +4628,17 @@
           ],
           [
             "3"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -4651,17 +4651,6 @@
         "build": 1,
         "type": 1,
         "params": [
-          [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
           [
             "3%",
             "3%",
@@ -4683,6 +4672,17 @@
             "139%",
             "157%",
             "175%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -4823,17 +4823,6 @@
         "type": 1,
         "params": [
           [
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage"
-          ],
-          [
             "15%",
             "25%",
             "34%",
@@ -4843,6 +4832,17 @@
             "71%",
             "80%",
             "89%"
+          ],
+          [
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage"
           ]
         ]
       },
@@ -4855,20 +4855,6 @@
         "build": 3,
         "type": 1,
         "params": [
-          [
-            "Attack Speed"
-          ],
-          [
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage"
-          ],
           [
             "5%"
           ],
@@ -4888,6 +4874,20 @@
           ],
           [
             "6"
+          ],
+          [
+            "Attack Speed"
+          ],
+          [
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage"
           ]
         ]
       },
@@ -4977,9 +4977,6 @@
         "type": 2,
         "params": [
           [
-            "ATK"
-          ],
-          [
             "5.2%",
             "5.7%",
             "6.2%",
@@ -5002,6 +4999,9 @@
           ],
           [
             "20"
+          ],
+          [
+            "ATK"
           ]
         ]
       },
@@ -5018,6 +5018,9 @@
             "Skill DMG"
           ],
           [
+            "17%"
+          ],
+          [
             "45%",
             "49%",
             "54%",
@@ -5031,9 +5034,6 @@
             "108%",
             "112%",
             "116%"
-          ],
-          [
-            "17%"
           ]
         ]
       },
@@ -5061,17 +5061,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "0.6%",
             "1%",
             "1.4%",
@@ -5087,6 +5076,17 @@
           ],
           [
             "50"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -5125,17 +5125,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "1.3%",
             "2.1%",
             "2.9%",
@@ -5151,6 +5140,17 @@
           ],
           [
             "15"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -5163,17 +5163,6 @@
         "build": 2,
         "type": 2,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "4%",
             "6%",
@@ -5190,6 +5179,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -5313,17 +5313,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "10%",
             "16%",
             "22%",
@@ -5336,6 +5325,17 @@
           ],
           [
             "20"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -5349,17 +5349,6 @@
         "type": 3,
         "params": [
           [
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG"
-          ],
-          [
             "30%",
             "48%",
             "66%",
@@ -5369,6 +5358,17 @@
             "137%",
             "155%",
             "173%"
+          ],
+          [
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG"
           ]
         ]
       },
@@ -5643,17 +5643,6 @@
             "Auto Attack Damage"
           ],
           [
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency"
-          ],
-          [
             "11%",
             "17%",
             "24%",
@@ -5663,6 +5652,17 @@
             "49%",
             "56%",
             "62%"
+          ],
+          [
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency"
           ],
           [
             "30%",
@@ -6480,17 +6480,6 @@
         "type": 1,
         "params": [
           [
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage"
-          ],
-          [
             "Thunder Strike"
           ],
           [
@@ -6506,6 +6495,17 @@
           ],
           [
             "8"
+          ],
+          [
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage"
           ]
         ]
       },
@@ -6518,17 +6518,6 @@
         "build": 2,
         "type": 1,
         "params": [
-          [
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage"
-          ],
           [
             "Thunder Strike"
           ],
@@ -6545,6 +6534,17 @@
           ],
           [
             "4"
+          ],
+          [
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage"
           ]
         ]
       },
@@ -6557,17 +6557,6 @@
         "build": 3,
         "type": 1,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "Roar of the Qilin"
           ],
@@ -6598,6 +6587,17 @@
           ],
           [
             "5"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -6633,17 +6633,6 @@
         "type": 1,
         "params": [
           [
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG"
-          ],
-          [
             "34%",
             "54%",
             "75%",
@@ -6659,6 +6648,17 @@
           ],
           [
             "3"
+          ],
+          [
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG"
           ]
         ]
       },
@@ -6743,17 +6743,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "20%",
             "32%",
             "44%",
@@ -6763,6 +6752,17 @@
             "92%",
             "104%",
             "116%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -6776,17 +6776,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "2"
           ],
           [
@@ -6799,6 +6788,17 @@
             "90%",
             "102%",
             "114%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -6862,17 +6862,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "30"
           ],
           [
@@ -6888,6 +6877,17 @@
           ],
           [
             "8"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -6901,17 +6901,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "13%",
             "21%",
             "29%",
@@ -6921,6 +6910,17 @@
             "61%",
             "69%",
             "76%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -6934,9 +6934,6 @@
         "type": 2,
         "params": [
           [
-            "Roar of the Qilin"
-          ],
-          [
             "30%",
             "48%",
             "65%",
@@ -6946,6 +6943,9 @@
             "137%",
             "154%",
             "172%"
+          ],
+          [
+            "Roar of the Qilin"
           ]
         ]
       },
@@ -6959,17 +6959,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "10%",
             "15%",
             "21%",
@@ -6979,6 +6968,17 @@
             "44%",
             "49%",
             "55%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -7014,17 +7014,6 @@
         "type": 3,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "56%",
             "90%",
             "124%",
@@ -7034,6 +7023,17 @@
             "259%",
             "293%",
             "327%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -7069,17 +7069,6 @@
         "type": 3,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "1.7%",
             "2.7%",
             "3.7%",
@@ -7095,6 +7084,17 @@
           ],
           [
             "20"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       }
@@ -7125,10 +7125,10 @@
         "type": 1,
         "params": [
           [
-            "Skill DMG"
+            "27.2%"
           ],
           [
-            "27.2%"
+            "Skill DMG"
           ]
         ]
       },
@@ -7208,17 +7208,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "13%",
             "20%",
             "28%",
@@ -7228,6 +7217,17 @@
             "58%",
             "66%",
             "73%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -7263,17 +7263,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "10%",
             "16%",
             "22%",
@@ -7283,6 +7272,17 @@
             "47%",
             "53%",
             "59%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -7296,17 +7296,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "4%",
             "7%",
             "9%",
@@ -7316,6 +7305,17 @@
             "19%",
             "22%",
             "24%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -7329,17 +7329,6 @@
         "type": 1,
         "params": [
           [
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken"
-          ],
-          [
             "6%",
             "10%",
             "14%",
@@ -7352,6 +7341,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken"
           ]
         ]
       },
@@ -7365,17 +7365,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "14%",
             "22%",
             "30%",
@@ -7388,6 +7377,17 @@
           ],
           [
             "4"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -7401,17 +7401,6 @@
         "type": 1,
         "params": [
           [
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG"
-          ],
-          [
             "77%",
             "122%",
             "168%",
@@ -7421,6 +7410,17 @@
             "352%",
             "398%",
             "444%"
+          ],
+          [
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG"
           ]
         ]
       },
@@ -7467,17 +7467,6 @@
         "type": 1,
         "params": [
           [
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF"
-          ],
-          [
             "4500%",
             "6000%",
             "7600%",
@@ -7490,6 +7479,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF"
           ]
         ]
       },
@@ -7503,9 +7503,6 @@
         "type": 2,
         "params": [
           [
-            "Resilience Break Efficiency"
-          ],
-          [
             "25%",
             "27.5%",
             "30%",
@@ -7522,6 +7519,9 @@
           ],
           [
             "60%"
+          ],
+          [
+            "Resilience Break Efficiency"
           ]
         ]
       },
@@ -7535,9 +7535,6 @@
         "type": 2,
         "params": [
           [
-            "Resilience Break Efficiency"
-          ],
-          [
             "25%",
             "27.5%",
             "30%",
@@ -7554,6 +7551,9 @@
           ],
           [
             "60%"
+          ],
+          [
+            "Resilience Break Efficiency"
           ]
         ]
       },
@@ -7567,9 +7567,6 @@
         "type": 2,
         "params": [
           [
-            "Mark DMG"
-          ],
-          [
             "67%"
           ],
           [
@@ -7577,6 +7574,9 @@
           ],
           [
             "3"
+          ],
+          [
+            "Mark DMG"
           ]
         ]
       },
@@ -7627,17 +7627,6 @@
             "187%"
           ],
           [
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency"
-          ],
-          [
             "23%",
             "30%",
             "38%",
@@ -7647,6 +7636,17 @@
             "68%",
             "75%",
             "83%"
+          ],
+          [
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency"
           ]
         ]
       },
@@ -7659,17 +7659,6 @@
         "build": 1,
         "type": 2,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "6%",
             "10%",
@@ -7686,6 +7675,17 @@
           ],
           [
             "3"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -7699,17 +7699,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "11%",
             "17%",
             "24%",
@@ -7722,6 +7711,17 @@
           ],
           [
             "5"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ],
           [
             "2"
@@ -7738,17 +7738,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "168%",
             "269%",
             "370%",
@@ -7758,6 +7747,17 @@
             "773%",
             "874%",
             "974%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -7771,17 +7771,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "120%",
             "192%",
             "264%",
@@ -7791,6 +7780,17 @@
             "552%",
             "624%",
             "696%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -7804,17 +7804,6 @@
         "type": 2,
         "params": [
           [
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken"
-          ],
-          [
             "10%",
             "16%",
             "22%",
@@ -7827,6 +7816,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken"
           ]
         ]
       },
@@ -7840,17 +7840,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "19%",
             "30%",
             "41%",
@@ -7860,6 +7849,17 @@
             "87%",
             "98%",
             "109%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -7873,20 +7873,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
-            "0.05"
-          ],
-          [
             "9%",
             "14%",
             "20%",
@@ -7896,6 +7882,20 @@
             "41%",
             "47%",
             "52%"
+          ],
+          [
+            "0.05"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -7909,17 +7909,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "10%",
             "15%",
             "21%",
@@ -7929,6 +7918,17 @@
             "44%",
             "49%",
             "55%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -7942,7 +7942,7 @@
         "type": 3,
         "params": [
           [
-            "Resilience Break Efficiency"
+            "30%"
           ],
           [
             "46%",
@@ -7956,7 +7956,7 @@
             "266%"
           ],
           [
-            "30%"
+            "Resilience Break Efficiency"
           ]
         ]
       },
@@ -7970,17 +7970,6 @@
         "type": 3,
         "params": [
           [
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG",
-            "Mark DMG"
-          ],
-          [
             "63%",
             "100%",
             "138%",
@@ -7993,6 +7982,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG",
+            "Mark DMG"
           ]
         ]
       },
@@ -8124,28 +8124,6 @@
         "type": 1,
         "params": [
           [
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed"
-          ],
-          [
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage"
-          ],
-          [
             "2.7%",
             "3.6%",
             "4.5%",
@@ -8172,6 +8150,28 @@
           ],
           [
             "3"
+          ],
+          [
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed"
+          ],
+          [
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage"
           ]
         ]
       },
@@ -8185,17 +8185,6 @@
         "type": 1,
         "params": [
           [
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage"
-          ],
-          [
             "12%",
             "18%",
             "25%",
@@ -8205,6 +8194,17 @@
             "53%",
             "60%",
             "67%"
+          ],
+          [
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage"
           ]
         ]
       },
@@ -8217,28 +8217,6 @@
         "build": 1,
         "type": 1,
         "params": [
-          [
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed"
-          ],
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "20%",
             "20%",
@@ -8263,6 +8241,28 @@
           ],
           [
             "5"
+          ],
+          [
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -8298,17 +8298,6 @@
         "type": 1,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "33%",
             "52%",
             "72%",
@@ -8324,6 +8313,17 @@
           ],
           [
             "3"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -8359,17 +8359,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "15%",
             "24%",
             "33%",
@@ -8382,6 +8371,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -8395,17 +8395,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "2%",
             "3.2%",
             "4.4%",
@@ -8418,6 +8407,17 @@
           ],
           [
             "2"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ],
           [
             "6"
@@ -8434,17 +8434,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "9.3%",
             "14.9%",
             "20.5%",
@@ -8457,6 +8446,17 @@
           ],
           [
             "4"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -8671,17 +8671,6 @@
         "type": 2,
         "params": [
           [
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency",
-            "Resilience Break Efficiency"
-          ],
-          [
             "51%",
             "68%",
             "85%",
@@ -8691,6 +8680,17 @@
             "153%",
             "170%",
             "187%"
+          ],
+          [
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency",
+            "Resilience Break Efficiency"
           ]
         ]
       },
@@ -8784,17 +8784,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "19%",
             "30%",
             "42%",
@@ -8807,6 +8796,17 @@
           ],
           [
             "5"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -8842,17 +8842,6 @@
         "type": 3,
         "params": [
           [
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG"
-          ],
-          [
             "34%",
             "54%",
             "75%",
@@ -8862,6 +8851,17 @@
             "156%",
             "177%",
             "197%"
+          ],
+          [
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG"
           ]
         ]
       },
@@ -8875,15 +8875,15 @@
         "type": 3,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
+            "1%",
+            "2%",
+            "3%",
+            "4%",
+            "5%",
+            "6%",
+            "7%",
+            "7%",
+            "7%"
           ],
           [
             "7%",
@@ -8897,15 +8897,15 @@
             "43%"
           ],
           [
-            "1%",
-            "2%",
-            "3%",
-            "4%",
-            "5%",
-            "6%",
-            "7%",
-            "7%",
-            "7%"
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       }
@@ -9031,9 +9031,6 @@
             "ATK"
           ],
           [
-            "ATK"
-          ],
-          [
             "7%",
             "11%",
             "15%",
@@ -9043,6 +9040,9 @@
             "31%",
             "36%",
             "40%"
+          ],
+          [
+            "ATK"
           ],
           [
             "-10.8%"
@@ -9114,10 +9114,10 @@
             "53%"
           ],
           [
-            "8"
+            "3"
           ],
           [
-            "3"
+            "8"
           ]
         ]
       },
@@ -9239,9 +9239,6 @@
             "Ventus DMG Taken"
           ],
           [
-            "30"
-          ],
-          [
             "14%",
             "22%",
             "30%",
@@ -9254,6 +9251,9 @@
           ],
           [
             "8"
+          ],
+          [
+            "30"
           ]
         ]
       },
@@ -9393,10 +9393,10 @@
             "11.6%"
           ],
           [
-            "8"
+            "6"
           ],
           [
-            "6"
+            "8"
           ]
         ]
       },
@@ -9432,9 +9432,6 @@
         "type": 2,
         "params": [
           [
-            "Ventus DMG Taken"
-          ],
-          [
             "12%",
             "20%",
             "27%",
@@ -9444,6 +9441,9 @@
             "56%",
             "63%",
             "71%"
+          ],
+          [
+            "Ventus DMG Taken"
           ],
           [
             "20%"
@@ -9529,10 +9529,10 @@
             "11.6%"
           ],
           [
-            "3"
+            "6"
           ],
           [
-            "6"
+            "3"
           ]
         ]
       },
@@ -9918,17 +9918,6 @@
             "DEF"
           ],
           [
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed"
-          ],
-          [
             "5000%",
             "6700%",
             "8400%",
@@ -9938,6 +9927,17 @@
             "15100%",
             "16800%",
             "18500%"
+          ],
+          [
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed"
           ],
           [
             "11%",
@@ -10185,16 +10185,16 @@
         "type": 2,
         "params": [
           [
-            "ATK"
+            "10%"
           ],
           [
-            "10%"
+            "4"
           ],
           [
             "20%"
           ],
           [
-            "4"
+            "ATK"
           ]
         ]
       },
@@ -10207,9 +10207,6 @@
         "build": 2,
         "type": 2,
         "params": [
-          [
-            "Ventus DMG Taken"
-          ],
           [
             "17.1%",
             "18.8%",
@@ -10230,6 +10227,9 @@
           ],
           [
             "6"
+          ],
+          [
+            "Ventus DMG Taken"
           ]
         ]
       },
@@ -10243,10 +10243,10 @@
         "type": 2,
         "params": [
           [
-            "Ventus DMG"
+            "22.5%"
           ],
           [
-            "22.5%"
+            "Ventus DMG"
           ]
         ]
       },
@@ -10260,17 +10260,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "-8%",
             "-11%",
             "-14%",
@@ -10283,6 +10272,17 @@
           ],
           [
             "6"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -10296,17 +10296,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "17%",
             "26%",
             "36%",
@@ -10319,6 +10308,17 @@
           ],
           [
             "15"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -10332,17 +10332,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "34%",
             "55%",
             "76%",
@@ -10355,6 +10344,17 @@
           ],
           [
             "6"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -10368,17 +10368,6 @@
         "type": 2,
         "params": [
           [
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken"
-          ],
-          [
             "5%",
             "8%",
             "11%",
@@ -10391,6 +10380,17 @@
           ],
           [
             "8"
+          ],
+          [
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken"
           ],
           [
             "2"
@@ -10418,17 +10418,6 @@
             "Attack Speed"
           ],
           [
-            "Ventus DMG",
-            "Ventus DMG",
-            "Ventus DMG",
-            "Ventus DMG",
-            "Ventus DMG",
-            "Ventus DMG",
-            "Ventus DMG",
-            "Ventus DMG",
-            "Ventus DMG"
-          ],
-          [
             "10%",
             "13%",
             "17%",
@@ -10438,6 +10427,17 @@
             "30%",
             "33%",
             "36%"
+          ],
+          [
+            "Ventus DMG",
+            "Ventus DMG",
+            "Ventus DMG",
+            "Ventus DMG",
+            "Ventus DMG",
+            "Ventus DMG",
+            "Ventus DMG",
+            "Ventus DMG",
+            "Ventus DMG"
           ],
           [
             "6%",
@@ -10465,17 +10465,6 @@
         "type": 2,
         "params": [
           [
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken",
-            "Ventus DMG Taken"
-          ],
-          [
             "15%",
             "25%",
             "34%",
@@ -10485,6 +10474,17 @@
             "71%",
             "80%",
             "89%"
+          ],
+          [
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken",
+            "Ventus DMG Taken"
           ]
         ]
       },
@@ -10608,17 +10608,6 @@
         "type": 3,
         "params": [
           [
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG"
-          ],
-          [
             "34%",
             "54%",
             "74%",
@@ -10628,6 +10617,17 @@
             "156%",
             "176%",
             "196%"
+          ],
+          [
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG"
           ]
         ]
       },
@@ -11350,9 +11350,6 @@
         "type": 2,
         "params": [
           [
-            "Auto Attack Damage"
-          ],
-          [
             "Frost Bloom"
           ],
           [
@@ -11382,6 +11379,9 @@
           ],
           [
             "2"
+          ],
+          [
+            "Auto Attack Damage"
           ]
         ]
       },
@@ -11585,17 +11585,6 @@
         "type": 1,
         "params": [
           [
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken"
-          ],
-          [
             "1.4%",
             "2.2%",
             "3%",
@@ -11611,6 +11600,17 @@
           ],
           [
             "8"
+          ],
+          [
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken"
           ]
         ]
       },
@@ -11646,17 +11646,6 @@
         "type": 1,
         "params": [
           [
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken"
-          ],
-          [
             "1.4%",
             "2.2%",
             "3%",
@@ -11672,6 +11661,17 @@
           ],
           [
             "5"
+          ],
+          [
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken"
           ]
         ]
       },
@@ -11684,17 +11684,6 @@
         "build": 2,
         "type": 1,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "0.8%",
             "1.3%",
@@ -11711,6 +11700,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -11724,17 +11724,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "18%",
             "29%",
             "40%",
@@ -11744,6 +11733,17 @@
             "83%",
             "94%",
             "104%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -11756,17 +11756,6 @@
         "build": 3,
         "type": 1,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "11%",
             "17%",
@@ -11783,6 +11772,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -11824,17 +11824,6 @@
         "type": 1,
         "params": [
           [
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken"
-          ],
-          [
             "7.2%",
             "9.6%",
             "12%",
@@ -11844,6 +11833,17 @@
             "21.6%",
             "24%",
             "26.4%"
+          ],
+          [
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken"
           ]
         ]
       },
@@ -11857,10 +11857,10 @@
         "type": 2,
         "params": [
           [
-            "Ignis DMG Taken"
+            "8%"
           ],
           [
-            "8%"
+            "Ignis DMG Taken"
           ]
         ]
       },
@@ -11900,10 +11900,10 @@
         "type": 2,
         "params": [
           [
-            "Crit DMG"
+            "12%"
           ],
           [
-            "12%"
+            "Crit DMG"
           ]
         ]
       },
@@ -11946,17 +11946,6 @@
         "type": 2,
         "params": [
           [
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG"
-          ],
-          [
             "21%",
             "33%",
             "45%",
@@ -11966,6 +11955,17 @@
             "95%",
             "107%",
             "120%"
+          ],
+          [
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG"
           ]
         ]
       },
@@ -11979,17 +11979,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "1.9%",
             "3%",
             "4.1%",
@@ -12002,6 +11991,17 @@
           ],
           [
             "6"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -12014,17 +12014,6 @@
         "build": 1,
         "type": 2,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "18%",
             "28%",
@@ -12049,6 +12038,17 @@
             "26.6%",
             "29.6%",
             "32.6%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -12062,17 +12062,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "15%",
             "24%",
             "33%",
@@ -12085,6 +12074,17 @@
           ],
           [
             "3"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -12098,17 +12098,6 @@
         "type": 2,
         "params": [
           [
-            "Crit Rate",
-            "Crit Rate",
-            "Crit Rate",
-            "Crit Rate",
-            "Crit Rate",
-            "Crit Rate",
-            "Crit Rate",
-            "Crit Rate",
-            "Crit Rate"
-          ],
-          [
             "1.2%",
             "1.6%",
             "2%",
@@ -12118,6 +12107,17 @@
             "3.6%",
             "4%",
             "4.4%"
+          ],
+          [
+            "Crit Rate",
+            "Crit Rate",
+            "Crit Rate",
+            "Crit Rate",
+            "Crit Rate",
+            "Crit Rate",
+            "Crit Rate",
+            "Crit Rate",
+            "Crit Rate"
           ]
         ]
       },
@@ -12153,17 +12153,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "19%",
             "30%",
             "42%",
@@ -12173,6 +12162,17 @@
             "87%",
             "98%",
             "109%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ],
           [
             "10"
@@ -12211,17 +12211,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "-9%",
             "-12%",
             "-16%",
@@ -12231,6 +12220,17 @@
             "-28%",
             "-31%",
             "-34%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ],
           [
             "8"
@@ -12247,17 +12247,6 @@
         "type": 3,
         "params": [
           [
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken",
-            "Ignis DMG Taken"
-          ],
-          [
             "3%",
             "4%",
             "6%",
@@ -12273,6 +12262,17 @@
           ],
           [
             "7"
+          ],
+          [
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken",
+            "Ignis DMG Taken"
           ]
         ]
       },
@@ -12406,6 +12406,15 @@
             "135%"
           ],
           [
+            "10%"
+          ],
+          [
+            "6"
+          ],
+          [
+            "Aqua DMG Taken"
+          ],
+          [
             "36%",
             "40%",
             "43%",
@@ -12419,15 +12428,6 @@
             "83%",
             "87%",
             "90%"
-          ],
-          [
-            "Aqua DMG Taken"
-          ],
-          [
-            "10%"
-          ],
-          [
-            "6"
           ]
         ]
       },
@@ -12520,17 +12520,6 @@
         "type": 1,
         "params": [
           [
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken"
-          ],
-          [
             "8.8%",
             "13.6%",
             "19.2%",
@@ -12542,9 +12531,6 @@
             "50.4%"
           ],
           [
-            "6"
-          ],
-          [
             "11%",
             "17%",
             "24%",
@@ -12554,6 +12540,20 @@
             "50%",
             "56%",
             "63%"
+          ],
+          [
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken"
+          ],
+          [
+            "6"
           ]
         ]
       },
@@ -12566,17 +12566,6 @@
         "build": 1,
         "type": 1,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "2.7%",
             "4.3%",
@@ -12593,6 +12582,17 @@
           ],
           [
             "5"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -12605,17 +12605,6 @@
         "build": 2,
         "type": 1,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "7%",
             "11%",
@@ -12632,6 +12621,17 @@
           ],
           [
             "3"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -12645,15 +12645,7 @@
         "type": 1,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
+            "1"
           ],
           [
             "10%",
@@ -12667,7 +12659,15 @@
             "58%"
           ],
           [
-            "1"
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -12706,17 +12706,6 @@
         "type": 1,
         "params": [
           [
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage"
-          ],
-          [
             "41%",
             "65%",
             "89%",
@@ -12729,6 +12718,17 @@
           ],
           [
             "8"
+          ],
+          [
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage"
           ]
         ]
       },
@@ -12764,17 +12764,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "4%",
             "6%",
             "8%",
@@ -12784,6 +12773,17 @@
             "17%",
             "19%",
             "21%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -12864,15 +12864,7 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
+            "25%"
           ],
           [
             "19%",
@@ -12886,7 +12878,15 @@
             "107%"
           ],
           [
-            "25%"
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -12900,17 +12900,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "12%",
             "16%",
             "19%",
@@ -12920,6 +12909,17 @@
             "35%",
             "39%",
             "43%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -12955,17 +12955,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "1.5%",
             "2%",
             "2.5%",
@@ -12975,6 +12964,17 @@
             "4.5%",
             "5%",
             "5.5%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ],
           [
             "6"
@@ -12994,17 +12994,6 @@
         "type": 2,
         "params": [
           [
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage",
-            "Auto Attack Damage"
-          ],
-          [
             "13%",
             "20%",
             "28%",
@@ -13014,6 +13003,17 @@
             "58%",
             "66%",
             "73%"
+          ],
+          [
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage",
+            "Auto Attack Damage"
           ],
           [
             "5"
@@ -13052,17 +13052,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "11%",
             "18%",
             "24%",
@@ -13072,6 +13061,17 @@
             "51%",
             "57%",
             "64%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -13085,17 +13085,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "9%",
             "14%",
             "20%",
@@ -13105,6 +13094,17 @@
             "41%",
             "47%",
             "52%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -13118,17 +13118,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "14%",
             "22%",
             "30%",
@@ -13138,6 +13127,17 @@
             "62%",
             "70%",
             "78%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -13150,17 +13150,6 @@
         "build": 3,
         "type": 3,
         "params": [
-          [
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken",
-            "Aqua DMG Taken"
-          ],
           [
             "-90%"
           ],
@@ -13177,6 +13166,17 @@
           ],
           [
             "20"
+          ],
+          [
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken",
+            "Aqua DMG Taken"
           ]
         ]
       },
@@ -13190,17 +13190,6 @@
         "type": 3,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "18%",
             "29%",
             "40%",
@@ -13213,6 +13202,17 @@
           ],
           [
             "20"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -13484,9 +13484,6 @@
             "Syou: Pulsar Streak"
           ],
           [
-            "4"
-          ],
-          [
             "20%",
             "32%",
             "44%",
@@ -13499,6 +13496,9 @@
           ],
           [
             "5"
+          ],
+          [
+            "4"
           ]
         ]
       },
@@ -13576,20 +13576,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
-            "Syou: Pulsar Streak"
-          ],
-          [
             "25%",
             "40%",
             "55%",
@@ -13605,6 +13591,20 @@
           ],
           [
             "8"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
+          ],
+          [
+            "Syou: Pulsar Streak"
           ]
         ]
       },
@@ -13617,17 +13617,6 @@
         "build": 3,
         "type": 1,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "12%",
             "19%",
@@ -13644,6 +13633,17 @@
           ],
           [
             "2"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -13819,17 +13819,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "Gi: Supernova Burst"
           ],
           [
@@ -13848,6 +13837,17 @@
           ],
           [
             "8"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -13860,17 +13860,6 @@
         "build": 2,
         "type": 2,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "6%",
             "10%",
@@ -13887,6 +13876,17 @@
           ],
           [
             "8"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -13931,17 +13931,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "10%",
             "16%",
             "22%",
@@ -13951,6 +13940,17 @@
             "46%",
             "52%",
             "58%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -14190,17 +14190,6 @@
         "type": 1,
         "params": [
           [
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken"
-          ],
-          [
             "4%",
             "6%",
             "8%",
@@ -14216,6 +14205,17 @@
           ],
           [
             "4"
+          ],
+          [
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken"
           ]
         ]
       },
@@ -14273,17 +14273,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "2.5%",
             "4%",
             "5.5%",
@@ -14299,6 +14288,17 @@
           ],
           [
             "4"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -14337,17 +14337,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "16%",
             "25%",
             "35%",
@@ -14357,6 +14346,17 @@
             "73%",
             "82%",
             "92%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -14381,17 +14381,6 @@
             "Attack Speed"
           ],
           [
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG"
-          ],
-          [
             "16%",
             "22%",
             "27%",
@@ -14401,6 +14390,17 @@
             "49%",
             "55%",
             "60%"
+          ],
+          [
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG"
           ],
           [
             "8%",
@@ -14425,17 +14425,6 @@
         "type": 1,
         "params": [
           [
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG"
-          ],
-          [
             "10%",
             "10%",
             "15%",
@@ -14445,6 +14434,17 @@
             "20%",
             "20%",
             "20%"
+          ],
+          [
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG"
           ],
           [
             "11%",
@@ -14469,17 +14469,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "10%",
             "16%",
             "22%",
@@ -14492,6 +14481,17 @@
           ],
           [
             "5"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -14505,17 +14505,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "47%",
             "76%",
             "104%",
@@ -14528,6 +14517,17 @@
           ],
           [
             "15"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -14541,10 +14541,10 @@
         "type": 2,
         "params": [
           [
-            "Minion DMG"
+            "24%"
           ],
           [
-            "24%"
+            "Minion DMG"
           ]
         ]
       },
@@ -14558,13 +14558,13 @@
         "type": 2,
         "params": [
           [
-            "Minion DMG"
-          ],
-          [
             "17.1%"
           ],
           [
             "10"
+          ],
+          [
+            "Minion DMG"
           ]
         ]
       },
@@ -14628,17 +14628,6 @@
         "type": 2,
         "params": [
           [
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG"
-          ],
-          [
             "20%",
             "32%",
             "44%",
@@ -14648,6 +14637,17 @@
             "92%",
             "104%",
             "116%"
+          ],
+          [
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG"
           ]
         ]
       },
@@ -14705,17 +14705,6 @@
         "type": 2,
         "params": [
           [
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG"
-          ],
-          [
             "4.6%",
             "7.4%",
             "10.2%",
@@ -14731,6 +14720,17 @@
           ],
           [
             "10"
+          ],
+          [
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG"
           ]
         ]
       },
@@ -14744,17 +14744,6 @@
         "type": 2,
         "params": [
           [
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken",
-            "Umbra DMG Taken"
-          ],
-          [
             "13%",
             "21%",
             "29%",
@@ -14764,6 +14753,17 @@
             "61%",
             "69%",
             "77%"
+          ],
+          [
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken",
+            "Umbra DMG Taken"
           ]
         ]
       },
@@ -14832,17 +14832,6 @@
         "type": 2,
         "params": [
           [
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF",
-            "DEF"
-          ],
-          [
             "11500%",
             "15400%",
             "19200%",
@@ -14852,6 +14841,17 @@
             "34600%",
             "38400%",
             "42200%"
+          ],
+          [
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF",
+            "DEF"
           ]
         ]
       },
@@ -14876,10 +14876,10 @@
             "42%"
           ],
           [
-            "10"
+            "6"
           ],
           [
-            "6"
+            "10"
           ]
         ]
       },
@@ -15279,17 +15279,6 @@
         "type": 1,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "29%",
             "46%",
             "63%",
@@ -15299,6 +15288,17 @@
             "133%",
             "150%",
             "167%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -15402,9 +15402,6 @@
         "type": 2,
         "params": [
           [
-            "Awakening: Crimson Dragon"
-          ],
-          [
             "37.7%",
             "43.3%",
             "49%",
@@ -15418,6 +15415,9 @@
             "112.6%",
             "120.2%",
             "127.7%"
+          ],
+          [
+            "Awakening: Crimson Dragon"
           ]
         ]
       },
@@ -15583,17 +15583,6 @@
         "type": 2,
         "params": [
           [
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG",
-            "Minion DMG"
-          ],
-          [
             "16%",
             "26%",
             "36%",
@@ -15603,6 +15592,17 @@
             "74%",
             "84%",
             "94%"
+          ],
+          [
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG",
+            "Minion DMG"
           ]
         ]
       },
@@ -15615,17 +15615,6 @@
         "build": 3,
         "type": 2,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "18%",
             "28%",
@@ -15642,6 +15631,17 @@
           ],
           [
             "5"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -15677,17 +15677,6 @@
         "type": 3,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "16%",
             "26%",
             "36%",
@@ -15703,6 +15692,17 @@
           ],
           [
             "5"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -15777,10 +15777,10 @@
         "type": 1,
         "params": [
           [
-            "Crit Rate"
+            "30%"
           ],
           [
-            "30%"
+            "Crit Rate"
           ],
           [
             "10%"
@@ -15829,16 +15829,16 @@
             "8"
           ],
           [
-            "Auto Attack Damage"
-          ],
-          [
             "60%"
           ],
           [
-            "Attack Speed"
+            "35%"
           ],
           [
-            "35%"
+            "Auto Attack Damage"
+          ],
+          [
+            "Attack Speed"
           ]
         ]
       },
@@ -15851,9 +15851,6 @@
         "build": 2,
         "type": 1,
         "params": [
-          [
-            "Umbra DMG Taken"
-          ],
           [
             "17.1%",
             "18.8%",
@@ -15868,6 +15865,9 @@
             "41.1%",
             "42.8%",
             "44.5%"
+          ],
+          [
+            "Umbra DMG Taken"
           ],
           [
             "32%"
@@ -16142,17 +16142,6 @@
         "type": 1,
         "params": [
           [
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed",
-            "Attack Speed"
-          ],
-          [
             "11%",
             "15%",
             "18%",
@@ -16165,6 +16154,17 @@
           ],
           [
             "3"
+          ],
+          [
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed",
+            "Attack Speed"
           ]
         ]
       },
@@ -16274,9 +16274,6 @@
         "type": 2,
         "params": [
           [
-            "ATK"
-          ],
-          [
             "21%",
             "23.1%",
             "25.2%",
@@ -16290,6 +16287,9 @@
             "50.3%",
             "52.4%",
             "54.5%"
+          ],
+          [
+            "ATK"
           ],
           [
             "3.8%"
@@ -16616,17 +16616,6 @@
         "type": 3,
         "params": [
           [
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG",
-            "Ultimate DMG"
-          ],
-          [
             "48%",
             "77%",
             "106%",
@@ -16636,6 +16625,17 @@
             "222%",
             "250%",
             "279%"
+          ],
+          [
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG",
+            "Ultimate DMG"
           ]
         ]
       },
@@ -17066,17 +17066,6 @@
             "ATK"
           ],
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "6%",
             "10%",
             "13%",
@@ -17086,6 +17075,17 @@
             "28%",
             "31%",
             "35%"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ],
           [
             "8%",
@@ -17335,17 +17335,6 @@
             "Skill DMG"
           ],
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "11%",
             "17%",
             "23%",
@@ -17355,6 +17344,17 @@
             "48%",
             "55%",
             "61%"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ],
           [
             "21%",
@@ -17684,9 +17684,6 @@
         "type": 1,
         "params": [
           [
-            "Minion DMG"
-          ],
-          [
             "11.4%",
             "12.5%",
             "13.7%",
@@ -17700,6 +17697,9 @@
             "27.3%",
             "28.4%",
             "29.6%"
+          ],
+          [
+            "Minion DMG"
           ],
           [
             "18%"
@@ -18444,10 +18444,10 @@
             "Auto Attack Damage"
           ],
           [
-            "15%"
+            "47%"
           ],
           [
-            "47%"
+            "15%"
           ]
         ]
       },
@@ -19713,10 +19713,10 @@
             "2.9%"
           ],
           [
-            "20"
+            "50"
           ],
           [
-            "50"
+            "20"
           ]
         ]
       },
@@ -20017,17 +20017,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG",
-            "Skill DMG"
-          ],
-          [
             "Divine Thunderquake"
           ],
           [
@@ -20046,6 +20035,17 @@
           ],
           [
             "12"
+          ],
+          [
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG",
+            "Skill DMG"
           ]
         ]
       },
@@ -20289,9 +20289,6 @@
             "212%"
           ],
           [
-            "Lux DMG"
-          ],
-          [
             "5%"
           ],
           [
@@ -20299,6 +20296,9 @@
           ],
           [
             "10"
+          ],
+          [
+            "Lux DMG"
           ]
         ]
       },
@@ -20327,9 +20327,6 @@
             "216%"
           ],
           [
-            "Lux DMG"
-          ],
-          [
             "5%"
           ],
           [
@@ -20337,6 +20334,9 @@
           ],
           [
             "10"
+          ],
+          [
+            "Lux DMG"
           ]
         ]
       },
@@ -20372,9 +20372,6 @@
         "type": 1,
         "params": [
           [
-            "Lux DMG"
-          ],
-          [
             "Whirling Waves"
           ],
           [
@@ -20387,6 +20384,9 @@
             "196%",
             "222%",
             "247%"
+          ],
+          [
+            "Lux DMG"
           ]
         ]
       },
@@ -20399,9 +20399,6 @@
         "build": 1,
         "type": 1,
         "params": [
-          [
-            "ATK"
-          ],
           [
             "6%",
             "9%",
@@ -20418,6 +20415,9 @@
           ],
           [
             "6"
+          ],
+          [
+            "ATK"
           ]
         ]
       },
@@ -20478,9 +20478,6 @@
         "type": 1,
         "params": [
           [
-            "Skill DMG"
-          ],
-          [
             "Whirling Waves"
           ],
           [
@@ -20493,6 +20490,9 @@
             "84%",
             "95%",
             "106%"
+          ],
+          [
+            "Skill DMG"
           ]
         ]
       },
@@ -20509,9 +20509,6 @@
             "Whirling Waves"
           ],
           [
-            "Lux DMG"
-          ],
-          [
             "30%"
           ],
           [
@@ -20524,6 +20521,9 @@
             "110%",
             "125%",
             "139%"
+          ],
+          [
+            "Lux DMG"
           ]
         ]
       },
@@ -20536,17 +20536,6 @@
         "build": 3,
         "type": 1,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "5%",
             "8%",
@@ -20563,6 +20552,17 @@
           ],
           [
             "2"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -20576,9 +20576,6 @@
         "type": 1,
         "params": [
           [
-            "Lux DMG"
-          ],
-          [
             "24%",
             "38%",
             "53%",
@@ -20588,6 +20585,9 @@
             "110%",
             "125%",
             "139%"
+          ],
+          [
+            "Lux DMG"
           ]
         ]
       },
@@ -20721,7 +20721,7 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG"
+            "Surfing Rondo"
           ],
           [
             "1.4%",
@@ -20735,10 +20735,10 @@
             "7.8%"
           ],
           [
-            "24"
+            "Skill DMG"
           ],
           [
-            "Surfing Rondo"
+            "24"
           ]
         ]
       },
@@ -20752,9 +20752,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG"
-          ],
-          [
             "34%",
             "54%",
             "74%",
@@ -20764,6 +20761,9 @@
             "155%",
             "175%",
             "195%"
+          ],
+          [
+            "Skill DMG"
           ],
           [
             "5"
@@ -20780,9 +20780,6 @@
         "type": 2,
         "params": [
           [
-            "Skill DMG"
-          ],
-          [
             "3"
           ],
           [
@@ -20795,6 +20792,9 @@
             "256%",
             "289%",
             "323%"
+          ],
+          [
+            "Skill DMG"
           ]
         ]
       },
@@ -20836,17 +20836,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "Surfing Rondo"
           ],
           [
@@ -20862,6 +20851,17 @@
           ],
           [
             "12"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -20875,17 +20875,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "1.7%",
             "2.7%",
             "3.7%",
@@ -20901,6 +20890,17 @@
           ],
           [
             "6"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -20914,17 +20914,6 @@
         "type": 2,
         "params": [
           [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
-          [
             "1.7%",
             "2.7%",
             "3.7%",
@@ -20940,6 +20929,17 @@
           ],
           [
             "6"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -20953,17 +20953,6 @@
         "type": 2,
         "params": [
           [
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG",
-            "Crit DMG"
-          ],
-          [
             "30%",
             "48%",
             "66%",
@@ -20973,6 +20962,17 @@
             "138%",
             "156%",
             "174%"
+          ],
+          [
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG",
+            "Crit DMG"
           ]
         ]
       },
@@ -20985,17 +20985,6 @@
         "build": 3,
         "type": 3,
         "params": [
-          [
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK",
-            "ATK"
-          ],
           [
             "Divine Deluge"
           ],
@@ -21015,6 +21004,17 @@
           ],
           [
             "20"
+          ],
+          [
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK",
+            "ATK"
           ]
         ]
       },
@@ -21157,9 +21157,6 @@
         "type": 1,
         "params": [
           [
-            "ATK"
-          ],
-          [
             "7.1%",
             "8.1%",
             "9.2%",
@@ -21173,6 +21170,9 @@
             "21.2%",
             "22.6%",
             "24%"
+          ],
+          [
+            "ATK"
           ],
           [
             "10%"
