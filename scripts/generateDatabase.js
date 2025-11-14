@@ -124,6 +124,7 @@ function generateDatabase() {
     else if (potentialTypes.type3.includes(potentialId)) type = 3;
     else throw new Error(`Unknown potential type: ${potentialId}`);
 
+    // Patch descriptions
     // Apply special text
     // Some descriptions contain the ##Lux Mark#1015# pattern. This pattern indicates a special text
     // 1015 is the ID and in game the text is adjusted in the following ways:
@@ -147,6 +148,9 @@ function generateDatabase() {
         finalText = finalText.replace(text, `<color=#${word.Color}>${text.match(textRegex)[0].slice(2, -1)}</color>`);
       }
 
+      // Replace all color tags with span tags (valid html)
+      finalText = finalText.replace(/<color=#([0-9A-Fa-f]{6})>(.*?)<\/color>/g, '<span style="color:#$1">$2</span>');
+
       return finalText;
     };
 
@@ -169,12 +173,20 @@ function generateDatabase() {
     };
     addParams(descShort);
     addParams(descLong);
-    let params = [];
-    for (const param of [...paramSet].sort((a, b) => parseInt(a[a.length - 1]) - parseInt(b[b.length - 1]))) {
+
+    // NOTE: Some potentials like 514401 use only Param1 and Param9. I only parse
+    // the param values that are present in descriptions. Because of this
+    // we need to create a mapping of index to param values, instead of relying
+    // on array indices directly.
+    // We could avoid this if parsed all param values in potential instead of desc.
+    // Might be useful for data gathering but not necessary for build site.
+    let params = {};
+    for (const param of paramSet) {
       if (!(param in potential)) throw new Error(`Missing param value: ${param} for potential ${potentialId}`);
 
       let data = [];
       const paramValue = potential[param];
+      const paramIdx = parseIntStrict(param[param.length - 1]);
       const parts = paramValue.split(",");
       if (paramValue.startsWith("Effect,LevelUp,")) {
         if (parts.length < 4)
@@ -523,7 +535,7 @@ function generateDatabase() {
         throw new Error(`Unknown param value: ${paramValue} for potential ${potentialId}`);
       }
 
-      params.push(data);
+      params[paramIdx] = data;
     }
 
     charToPotentials.get(charId).push({
