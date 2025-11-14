@@ -131,21 +131,22 @@ function generateDatabase() {
     //  - The text will be colored
     //  - The text will be underlined and can be pressed to open a popup
     //  - The ID will be replaced with an icon
-    const patchSpecialText = (origText) => {
+    const patchDescription = (origText) => {
       const specialTextRegex = /##[^#]+#\d+#/g; // Match ##Lux Mark#1015#
       const idRegex = /#\d+#/g; // Match #1015#
       const textRegex = /##[^#]+#/g; // Match ##Lux Mark#
 
       const texts = origText.match(specialTextRegex);
-      if (texts === null) return origText;
-
       let finalText = origText;
-      for (const text of texts) {
-        const id = text.match(idRegex)[0].slice(1, -1);
-        if (!(id in binWord)) throw new Error(`Unknown special text ID: ${id}`);
-        const word = binWord[id];
 
-        finalText = finalText.replace(text, `<color=#${word.Color}>${text.match(textRegex)[0].slice(2, -1)}</color>`);
+      if (texts !== null) {
+        for (const text of texts) {
+          const id = text.match(idRegex)[0].slice(1, -1);
+          if (!(id in binWord)) throw new Error(`Unknown special text ID: ${id}`);
+          const word = binWord[id];
+
+          finalText = finalText.replace(text, `<color=#${word.Color}>${text.match(textRegex)[0].slice(2, -1)}</color>`);
+        }
       }
 
       // Replace all color tags with span tags (valid html)
@@ -154,8 +155,8 @@ function generateDatabase() {
       return finalText;
     };
 
-    const descShort = patchSpecialText(langPotential[`Potential.${potentialId}.1`]);
-    const descLong = patchSpecialText(langPotential[`Potential.${potentialId}.2`]);
+    const descShort = patchDescription(langPotential[`Potential.${potentialId}.1`]);
+    const descLong = patchDescription(langPotential[`Potential.${potentialId}.2`]);
 
     // Parse param values
     // NOTE: This approach is very brute forced with a ton of assumptions.
