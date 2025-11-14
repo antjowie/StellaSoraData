@@ -230,7 +230,7 @@ function generateDatabase() {
               break;
             case "EffectTypeParam1":
               const p1 = parseFloatStrict(binEffectValue[id]["EffectTypeParam1"]);
-              data.push(roundIfDecimal(p1 * 100) + "%");
+              data.push(roundIfDecimal(p1 * (parts[4].includes("HdPct") ? 100 : 1)) + "%");
               break;
             case "EffectTypeParam3":
               const p3 = parseFloatStrict(binEffectValue[id]["EffectTypeParam1"]);
@@ -484,13 +484,13 @@ function generateDatabase() {
           throw new Error(`Type ${type} not found for EffectValue ${id} for potential ${potentialId}`);
         switch (type) {
           case "EffectTypeParam1":
-            data.push(roundIfDecimal(parseFloatStrict(obj["EffectTypeParam1"]) * 100) + "%");
+            data.push(roundIfDecimal(parseFloatStrict(obj[type]) * (parts[4].includes("HdPct") ? 100 : 1)) + "%");
             break;
           case "EffectTypeParam2":
-            data.push(String(parseFloatStrict(obj["EffectTypeParam2"])));
+            data.push(String(parseFloatStrict(obj[type])));
             break;
           case "EffectTypeParam3":
-            data.push(parseFloatStrict(obj["EffectTypeParam3"]) + "%");
+            data.push(parseFloatStrict(obj[type]) + "%");
             break;
           case "EffectTypeFirstSubtype":
             const key = `UIText.Enums_Effect_${obj[type]}.1`;
