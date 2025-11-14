@@ -305,11 +305,11 @@ function generateDatabase() {
           switch (type) {
             case "Time":
               const time = parseIntStrict(obj["Time"]);
-              data.push(time / 10000);
+              data.push(String(time / 10000));
               break;
             case "LaminatedNum":
               const num = parseIntStrict(obj["LaminatedNum"]);
-              data.push(num);
+              data.push(String(num));
               break;
             default:
               throw new Error(`Unknown type: ${type} for Buff ${id} for potential ${potentialId}`);
@@ -342,7 +342,7 @@ function generateDatabase() {
           switch (type) {
             case "Time":
               const time = parseIntStrict(obj["Time"]);
-              data.push(time / 10000);
+              data.push(String(time / 10000));
               break;
             case "ReferenceScale":
               const scale = parseIntStrict(obj["ReferenceScale"]);
@@ -350,7 +350,7 @@ function generateDatabase() {
               break;
             case "ShieldLaminatedNum":
               const shield = parseIntStrict(obj["ShieldLaminatedNum"]);
-              data.push(shield);
+              data.push(String(shield));
               break;
             default:
               throw new Error(`Unknown type: ${type} for ShieldValue ${id} for potential ${potentialId}`);
@@ -418,11 +418,11 @@ function generateDatabase() {
         switch (type) {
           case "Time":
             const time = parseIntStrict(obj["Time"]);
-            data.push(time / 10000);
+            data.push(String(time / 10000));
             break;
           case "LaminatedNum":
             const num = parseIntStrict(obj["LaminatedNum"]);
-            data.push(num);
+            data.push(String(num));
             break;
           default:
             throw new Error(`Unknown type: ${type} for HitDamage ${id} for potential ${potentialId}`);
@@ -474,7 +474,7 @@ function generateDatabase() {
             data.push(roundIfDecimal(parseFloatStrict(obj["EffectTypeParam1"]) * 100) + "%");
             break;
           case "EffectTypeParam2":
-            data.push(parseFloatStrict(obj["EffectTypeParam2"]));
+            data.push(String(parseFloatStrict(obj["EffectTypeParam2"])));
             break;
           case "EffectTypeParam3":
             data.push(parseFloatStrict(obj["EffectTypeParam3"]) + "%");
@@ -497,7 +497,7 @@ function generateDatabase() {
           throw new Error(`Type ${type} not found for ScriptParameterValue ${id} for potential ${potentialId}`);
         switch (type) {
           case "CommonData":
-            data.push(parseIntStrict(obj["CommonData"]) / 10000);
+            data.push(String(parseIntStrict(obj["CommonData"]) / 10000));
             break;
           default:
             throw new Error(`Unknown type: ${type} for ScriptParameterValue ${id} for potential ${potentialId}`);
@@ -510,7 +510,7 @@ function generateDatabase() {
           throw new Error(`Type ${type} not found for ShieldValue ${id} for potential ${potentialId}`);
         switch (type) {
           case "Time":
-            data.push(parseIntStrict(obj["Time"]) / 10000);
+            data.push(String(parseIntStrict(obj["Time"]) / 10000));
             break;
           case "ReferenceScale":
             data.push(roundIfDecimal(parseIntStrict(obj["ReferenceScale"]) / 100) + "%");
