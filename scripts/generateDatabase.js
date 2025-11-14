@@ -186,7 +186,7 @@ function generateDatabase() {
 
       let data = [];
       const paramValue = potential[param];
-      const paramIdx = parseIntStrict(param[param.length - 1]);
+      const paramIdx = parseIntStrict(param.slice("Param".length));
       const parts = paramValue.split(",");
       if (paramValue.startsWith("Effect,LevelUp,")) {
         if (parts.length < 4)
