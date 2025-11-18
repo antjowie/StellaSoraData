@@ -197,8 +197,8 @@
       {
         "id": 510307,
         "name": "Confident Mode",
-        "descShort": "After casting the Main Skill, Amber gains Super Armor, increasing Attack Speed and &Param4&.",
-        "descLong": "After casting Fireworks Jam (Main Skill), Amber gains Super Armor, increasing Attack Speed by &Param1& and &Param4& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+        "descShort": "After casting the Main Skill, Amber gains Super Armor, increasing ATK SPD and &Param4&.",
+        "descLong": "After casting Fireworks Jam (Main Skill), Amber gains Super Armor, increasing ATK SPD by &Param1& and &Param4& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
         "rarity": 2,
         "build": 1,
         "type": 1,
@@ -636,7 +636,7 @@
       },
       {
         "id": 510326,
-        "name": "Crescendo Rhythm",
+        "name": "Crescendo Beat",
         "descShort": "The Support Skill's DMG increases with time.",
         "descLong": "Every 4s, increases the DMG of Bullet Waltz (Support Skill) by <span style=\"color:#ec6d21\">&Param1&</span>, up to 4 stacks. \u000bResets when the Support Skill ends.",
         "rarity": 1,
@@ -1701,8 +1701,8 @@
       {
         "id": 510723,
         "name": "Perfect Spiral",
-        "descShort": "Aegis of Light will shield the main Trekker and deal AoE DMG. Also increases the Skill DMG taken by nearby targets.",
-        "descLong": "Aegis of Light will shield the main Trekker before ricocheting. \u000bWhen it reaches the main Trekker, deals <span style=\"color:#0abec5\">&Param2& of Tilia's ATK</span> as AoE Lux Skill DMG and increases the Skill DMG taken by nearby enemies by <span style=\"color:#0abec5\">&Param3&</span>, lasting for &Param4&s, up to &Param5& stacks.",
+        "descShort": "Aegis of Light ricochets with the main Trekker and deals AoE DMG, while increasing the Skill DMG Taken by nearby targets.",
+        "descLong": "Aegis of Light shields the main Trekker and then ricochets.\u000bWhen it hits the main Trekker, deals <span style=\"color:#0abec5\">&Param2& of Tilia's ATK</span> as AoE Lux Skill DMG and increases the Skill DMG taken by nearby enemies by <span style=\"color:#0abec5\">&Param3&</span>, lasting for &Param4&s, up to &Param5& stacks.",
         "rarity": 3,
         "build": 2,
         "type": 2,
@@ -2947,8 +2947,8 @@
       {
         "id": 510826,
         "name": "Shocking Bombardment",
-        "descShort": "When the Support Skill hits a target, reduces the target's Movement Speed and increases their &Param3&.",
-        "descLong": "When Precision Strike (Support Skill) hits a target, reduces the target's Movement Speed by &Param1&, and increases their &Param3& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param4&s.",
+        "descShort": "When the Support Skill hits a target, reduces the target's Movement SPD and increases their &Param3&.",
+        "descLong": "When Precision Strike (Support Skill) hits a target, reduces the target's Movement SPD by &Param1&, and increases their &Param3& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param4&s.",
         "rarity": 1,
         "build": 1,
         "type": 2,
@@ -3758,8 +3758,8 @@
       {
         "id": 511110,
         "name": "Cold Snap",
-        "descShort": "When Iris changes a target's status from <span style=\"color:#6A90EB\">Cold</span> to <span style=\"color:#6A90EB\">Frozen</span>, increases &Param5& and reduces Main Skill Cooldown.",
-        "descLong": "When Iris changes a target's status from <span style=\"color:#6A90EB\">Cold</span> to <span style=\"color:#6A90EB\">Frozen</span>, reduces &Param4& (Main Skill)'s Cooldown by &Param1&s. Also increases &Param5& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s. This effect can only be triggered once every 12s.",
+        "descShort": "When Iris changes a target's status from <span style=\"color:#6A90EB\">Chill</span> to <span style=\"color:#6A90EB\">Frozen</span>, increases &Param5& and reduces Main Skill Cooldown.",
+        "descLong": "When Iris changes a target's status from <span style=\"color:#6A90EB\">Chill</span> to <span style=\"color:#6A90EB\">Frozen</span>, reduces &Param4& (Main Skill)'s Cooldown by &Param1&s. Also increases &Param5& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s. This effect can only be triggered once every 12s.",
         "rarity": 1,
         "build": 2,
         "type": 1,
@@ -3889,8 +3889,8 @@
       {
         "id": 511113,
         "name": "Turbulent Layers",
-        "descShort": "The Ultimate can trigger <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span> and inflict <span style=\"color:#6A90EB\">Cold</span>. Triggering this effect will increase Iris' ATK.",
-        "descLong": "&Param10& (Ultimate) can trigger <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, dealing &Param1& of ATK as AoE Aqua Mark DMG and inflicting <span style=\"color:#6A90EB\">Cold</span>. Triggering this effect will increase Iris' ATK by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
+        "descShort": "The Ultimate can trigger <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span> and inflict <span style=\"color:#6A90EB\">Chill</span>. Triggering this effect will increase Iris' ATK.",
+        "descLong": "&Param10& (Ultimate) can trigger <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, dealing &Param1& of ATK as AoE Aqua Mark DMG and inflicting <span style=\"color:#6A90EB\">Chill</span>. Triggering this effect will increase Iris' ATK by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
         "rarity": 1,
         "build": 3,
         "type": 1,
@@ -4094,8 +4094,8 @@
       {
         "id": 511127,
         "name": "Forced Liquidation",
-        "descShort": "When the Support Skill hits a target with <span style=\"color:#6A90EB\">Cold</span>, increases the main Trekker's &Param4&.",
-        "descLong": "When &Param10& (Support Skill) hits a target with <span style=\"color:#6A90EB\">Cold</span>, increases the main Trekker's &Param4& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, up to &Param3& stacks.",
+        "descShort": "When the Support Skill hits a target with <span style=\"color:#6A90EB\">Chill</span>, increases the main Trekker's &Param4&.",
+        "descLong": "When &Param10& (Support Skill) hits a target with <span style=\"color:#6A90EB\">Chill</span>, increases the main Trekker's &Param4& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, up to &Param3& stacks.",
         "rarity": 2,
         "build": 1,
         "type": 2,
@@ -4219,8 +4219,8 @@
       {
         "id": 511130,
         "name": "Sneaky Fisher",
-        "descShort": "While the Support Skill is active, increases the ATK of allies within its Attack Range.",
-        "descLong": "While &Param10& (Support Skill) is active, increases the ATK of allies within its Attack Range by <span style=\"color:#ec6d21\">&Param1&</span>.",
+        "descShort": "While the Support Skill is active, increases the ATK of all other friendly units within its Attack Range.",
+        "descLong": "While &Param10& (Support Skill) is active, increases the ATK of all other friendly units within its Attack Range by <span style=\"color:#ec6d21\">&Param1&</span>.",
         "rarity": 1,
         "build": 2,
         "type": 2,
@@ -4745,15 +4745,15 @@
           {
             "idx": 1,
             "values": [
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed"
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD"
             ]
           },
           {
@@ -5108,8 +5108,8 @@
       {
         "id": 511227,
         "name": "Leaf Barrier",
-        "descShort": "Increases major sword auras' DMG. Also reduces the target's Movement Speed.",
-        "descLong": "Increases major sword auras' DMG by <span style=\"color:#ec6d21\">&Param1&</span>. Also slightly reduces the target's Movement Speed.",
+        "descShort": "Increases major sword auras' DMG. Also reduces the target's Movement SPD.",
+        "descLong": "Increases major sword auras' DMG by <span style=\"color:#ec6d21\">&Param1&</span>. Also slightly reduces the target's Movement SPD.",
         "rarity": 1,
         "build": 1,
         "type": 2,
@@ -5235,7 +5235,7 @@
       },
       {
         "id": 511231,
-        "name": "Wind Glaive",
+        "name": "Cyclone Blades",
         "descShort": "When Noya triggers <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>, increases her &Param1&.",
         "descLong": "When Noya triggers <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
         "rarity": 1,
@@ -5751,8 +5751,8 @@
       {
         "id": 511307,
         "name": "Cascade Glow",
-        "descShort": "Phase 2 deals more DMG to targets with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>. The lower the target's HP, the higher the DMG.",
-        "descLong": "In Phase 2, increases the DMG dealt to targets with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span> by <span style=\"color:#ec6d21\">&Param1&</span>. The lower the target's HP, the higher the DMG, up to a <span style=\"color:#ec6d21\">&Param9&</span>.",
+        "descShort": "Phase 2 deals more DMG to targets with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>. The lower the target's HP, the higher the DMG.",
+        "descLong": "In Phase 2, increases the DMG dealt to targets with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span> by <span style=\"color:#ec6d21\">&Param1&</span>. The lower the target's HP, the higher the DMG, up to a <span style=\"color:#ec6d21\">&Param9&</span>.",
         "rarity": 1,
         "build": 1,
         "type": 1,
@@ -5944,8 +5944,8 @@
       {
         "id": 511312,
         "name": "Roaring Ocean Wave",
-        "descShort": "When Shimiao deals DMG to targets inflicted with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span> with an Auto Attack, increases her &Param5& and &Param6&.",
-        "descLong": "When Shimiao deals DMG to targets inflicted with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span> with an Auto Attack, increases her &Param5& by &Param1& and &Param6& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+        "descShort": "When Shimiao deals DMG to targets inflicted with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span> with an Auto Attack, increases her &Param5& and &Param6&.",
+        "descLong": "When Shimiao deals DMG to targets inflicted with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span> with an Auto Attack, increases her &Param5& by &Param1& and &Param6& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
         "rarity": 1,
         "build": 3,
         "type": 1,
@@ -5953,7 +5953,7 @@
           {
             "idx": 5,
             "values": [
-              "Attack Speed"
+              "ATK SPD"
             ]
           },
           {
@@ -6007,8 +6007,8 @@
       {
         "id": 511313,
         "name": "Sky-Washing Shower",
-        "descShort": "The Main Skill applies a bonus effect to targets with <span style=\"color:#6A90EB\">Cold</span>.",
-        "descLong": "Increases &Param1& of Rising Tides (Main Skill) by <span style=\"color:#ec6d21\">&Param2&</span> against targets with <span style=\"color:#6A90EB\">Cold</span>.\u000bIf the target also has <span style=\"color:#6A90EB\">Broken Resilience</span>, increases DMG by <span style=\"color:#ec6d21\">&Param4&</span>.",
+        "descShort": "The Main Skill applies a bonus effect to targets with <span style=\"color:#6A90EB\">Chill</span>.",
+        "descLong": "Increases &Param1& of Rising Tides (Main Skill) by <span style=\"color:#ec6d21\">&Param2&</span> against targets with <span style=\"color:#6A90EB\">Chill</span>.\u000bIf the target also has <span style=\"color:#6A90EB\">Broken Resilience</span>, increases DMG by <span style=\"color:#ec6d21\">&Param4&</span>.",
         "rarity": 1,
         "build": 3,
         "type": 1,
@@ -6446,8 +6446,8 @@
       {
         "id": 511331,
         "name": "Efficiency Boost",
-        "descShort": "The Support Skill applies a bonus effect to targets with <span style=\"color:#6A90EB\">Cold</span>.",
-        "descLong": "Increases &Param1& of Aqua Aide (Support Skill) by <span style=\"color:#ec6d21\">&Param2&</span> against targets with <span style=\"color:#6A90EB\">Cold</span>.\u000bIf the target also has <span style=\"color:#6A90EB\">Broken Resilience</span>, increases DMG by <span style=\"color:#ec6d21\">&Param4&</span>.",
+        "descShort": "The Support Skill applies a bonus effect to targets with <span style=\"color:#6A90EB\">Chill</span>.",
+        "descLong": "Increases &Param1& of Aqua Aide (Support Skill) by <span style=\"color:#ec6d21\">&Param2&</span> against targets with <span style=\"color:#6A90EB\">Chill</span>.\u000bIf the target also has <span style=\"color:#6A90EB\">Broken Resilience</span>, increases DMG by <span style=\"color:#ec6d21\">&Param4&</span>.",
         "rarity": 1,
         "build": 3,
         "type": 2,
@@ -6499,8 +6499,8 @@
       {
         "id": 511332,
         "name": "Effortless Fulfillment",
-        "descShort": "When Shimiao kills a target with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>, she gains Energy.",
-        "descLong": "When Shimiao kills a target with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>, she gains <span style=\"color:#ec6d21\">&Param1&</span> Energy. This effect can only be triggered 3 times every 5s.",
+        "descShort": "When Shimiao kills a target with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>, she gains Energy.",
+        "descLong": "When Shimiao kills a target with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>, she gains <span style=\"color:#ec6d21\">&Param1&</span> Energy. This effect can only be triggered 3 times every 5s.",
         "rarity": 1,
         "build": 3,
         "type": 2,
@@ -6569,8 +6569,8 @@
       {
         "id": 511341,
         "name": "Intonation",
-        "descShort": "When casting the Ultimate, increases the sweeping strike's Attack Range. Also increases Shimiao's &Param2& to targets with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>.",
-        "descLong": "When casting Flood Mantra (Ultimate), increases the sweeping strike's Attack Range. Also increases Shimiao's &Param2& by <span style=\"color:#ec6d21\">&Param1&</span> to targets with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>.",
+        "descShort": "When casting the Ultimate, increases the sweeping strike's Attack Range. Also increases Shimiao's &Param2& to targets with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>.",
+        "descLong": "When casting Flood Mantra (Ultimate), increases the sweeping strike's Attack Range. Also increases Shimiao's &Param2& by <span style=\"color:#ec6d21\">&Param1&</span> to targets with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>.",
         "rarity": 1,
         "build": 3,
         "type": 3,
@@ -6608,8 +6608,8 @@
       {
         "id": 511342,
         "name": "Wave Rider",
-        "descShort": "The Ultimate deals more DMG to targets with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>. The lower the target's HP, the higher the DMG.",
-        "descLong": "When casting Flood Mantra (Ultimate), increases the DMG dealt to targets with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span> by <span style=\"color:#ec6d21\">&Param1&</span>. The lower the target's HP, the higher the DMG, up to a <span style=\"color:#ec6d21\">&Param9&</span>.",
+        "descShort": "The Ultimate deals more DMG to targets with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>. The lower the target's HP, the higher the DMG.",
+        "descLong": "When casting Flood Mantra (Ultimate), increases the DMG dealt to targets with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span> by <span style=\"color:#ec6d21\">&Param1&</span>. The lower the target's HP, the higher the DMG, up to a <span style=\"color:#ec6d21\">&Param9&</span>.",
         "rarity": 1,
         "build": 3,
         "type": 3,
@@ -6680,7 +6680,7 @@
     "mainBuild1Name": "Ridge: Main Build 1",
     "mainBuild1Desc": "A build that summons plants to attack nearby targets upon skill activation.",
     "mainBuild2Name": "Ridge: Main Build 2",
-    "mainBuild2Desc": "A build that boosts Attack Speed and frequently triggers bullet effects upon skill activation.",
+    "mainBuild2Desc": "A build that boosts ATK SPD and frequently triggers bullet effects upon skill activation.",
     "supportBuild1Name": "Ridge: Support Build 1",
     "supportBuild1Desc": "A DPS build that boosts the DMG and hit count of skills.",
     "supportBuild2Name": "Ridge: Support Build 2",
@@ -6805,8 +6805,8 @@
       {
         "id": 511606,
         "name": "Vine Snare",
-        "descShort": "The Movement Speed reduction from seeds can stack up. Once fully stacked, increases Ridge's DMG to the affected target.",
-        "descLong": "The Movement Speed reduction from Bean Cyclone (Main Skill)'s seeds can stack up to 3 times. Once fully stacked, increases Ridge's DMG to the affected target by <span style=\"color:#ec6d21\">&Param2&</span>.",
+        "descShort": "The Movement SPD reduction from seeds can stack up. Once fully stacked, increases Ridge's DMG to the affected target.",
+        "descLong": "The Movement SPD reduction from Bean Cyclone (Main Skill)'s seeds can stack up to 3 times. Once fully stacked, increases Ridge's DMG to the affected target by <span style=\"color:#ec6d21\">&Param2&</span>.",
         "rarity": 1,
         "build": 1,
         "type": 1,
@@ -7070,8 +7070,8 @@
       {
         "id": 511613,
         "name": "Verdant Vigor",
-        "descShort": "The Ultimate can trigger <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>.\u000bWhen <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span> is triggered, increases her &Param1&.",
-        "descLong": "Harvest Rhapsody (Ultimate) can trigger <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>.\u000bWhen <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span> is triggered, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+        "descShort": "The Ultimate can trigger <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>.\u000bWhen the Ultimate triggers <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>, increases her &Param1&.",
+        "descLong": "Harvest Rhapsody (Ultimate) can trigger <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>.\u000bWhen the Ultimate triggers <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
         "rarity": 2,
         "build": 3,
         "type": 1,
@@ -8572,8 +8572,8 @@
       {
         "id": 511733,
         "name": "Social Butterfly",
-        "descShort": "Increases Lux Trekkers' Crit DMG.",
-        "descLong": "Increases Lux Trekkers' Crit DMG by <span style=\"color:#ec6d21\">&Param1&</span>.",
+        "descShort": "Increases Lux Trekkers' Crit Rate.",
+        "descLong": "Increases Lux Trekkers' Crit Rate by <span style=\"color:#ec6d21\">&Param1&</span>.",
         "rarity": 2,
         "build": 3,
         "type": 2,
@@ -8827,8 +8827,8 @@
       {
         "id": 511805,
         "name": "Night Cruise",
-        "descShort": "Increases &Param2& and Movement Speed while casting the Main Skill.",
-        "descLong": "Casting Sleight of Scythe (Main Skill) increases Coronis' Movement Speed. \u000bAlso increases &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.",
+        "descShort": "Increases &Param2& and Movement SPD while casting the Main Skill.",
+        "descLong": "Casting Sleight of Scythe (Main Skill) increases Coronis' Movement SPD. \u000bAlso increases &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.",
         "rarity": 2,
         "build": 1,
         "type": 1,
@@ -9328,26 +9328,12 @@
       {
         "id": 511825,
         "name": "Spiritual Tome",
-        "descShort": "Launches a second sweep after dealing DMG to a target inflicted with the Support Skill's horizontal sweep.",
-        "descLong": "When Coronis deals DMG to a target with the horizontal sweep of the Support Skill Bone Chain, launches a second sweep, dealing <span style=\"color:#ec6d21\"> of ATK&Param1&</span> as Umbra Skill DMG.\u000bWhile casting the Support Skill Bone Chain, increases the &Param3& of the horizontal sweep and Shadow Scythes by <span style=\"color:#ec6d21\">&Param2&</span>.",
+        "descShort": "Launches a second sweep after dealing DMG to a target inflicted with the Support Skill's horizontal sweep. Increases the &Param3& of horizontal sweeps and Shadow Scythes.",
+        "descLong": "When Coronis deals DMG to a target with the horizontal sweep of the Support Skill Bone Chain, launches a second sweep, dealing <span style=\"color:#ec6d21\">&Param1& of ATK</span> as Umbra Skill DMG.\u000bWhile casting the Support Skill Bone Chain, increases the &Param3& of the horizontal sweep and Shadow Scythes by <span style=\"color:#ec6d21\">&Param2&</span>.",
         "rarity": 2,
         "build": 1,
         "type": 2,
         "params": [
-          {
-            "idx": 1,
-            "values": [
-              "51%",
-              "68%",
-              "85%",
-              "102%",
-              "119%",
-              "136%",
-              "153%",
-              "170%",
-              "187%"
-            ]
-          },
           {
             "idx": 3,
             "values": [
@@ -9360,6 +9346,20 @@
               "Resilience Break Efficiency",
               "Resilience Break Efficiency",
               "Resilience Break Efficiency"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "51%",
+              "68%",
+              "85%",
+              "102%",
+              "119%",
+              "136%",
+              "153%",
+              "170%",
+              "187%"
             ]
           },
           {
@@ -9842,7 +9842,7 @@
     "element": 4,
     "grade": 1,
     "mainBuild1Name": "Nanoha: Main Build 1",
-    "mainBuild1Desc": "A build that increases Attack Speed and dart count, with consecutive hits triggering additional AoE DMG.",
+    "mainBuild1Desc": "A build that increases ATK SPD and dart count, with consecutive hits triggering additional AoE DMG.",
     "mainBuild2Name": "Nanoha: Main Build 2",
     "mainBuild2Desc": "A build that enhances dart attack range and enables multi-hit DMG, ideal for fighting large targets.",
     "supportBuild1Name": "Nanoha: Support Build 1",
@@ -9953,15 +9953,15 @@
           {
             "idx": 5,
             "values": [
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed"
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD"
             ]
           },
           {
@@ -10071,15 +10071,15 @@
           {
             "idx": 4,
             "values": [
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed"
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD"
             ]
           },
           {
@@ -10962,7 +10962,7 @@
           {
             "idx": 1,
             "values": [
-              "Attack Speed"
+              "ATK SPD"
             ]
           }
         ]
@@ -11589,8 +11589,8 @@
       {
         "id": 512028,
         "name": "High Pressure Reflux",
-        "descShort": "When the Laurel Wreath deals DMG, increases subsequent Skill DMG.",
-        "descLong": "When the Laurel Wreath deals DMG, increases subsequent Skill DMG by <span style=\"color:#ec6d21\">&Param2&</span>. This effect can only be triggered once per second.",
+        "descShort": "When the Laurel Wreath deals DMG, increases subsequent DMG of the Skill.",
+        "descLong": "When the Laurel Wreath deals DMG, increases subsequent DMG of the Skill by <span style=\"color:#ec6d21\">&Param2&</span>. This effect can only be triggered once per second.",
         "rarity": 1,
         "build": 2,
         "type": 2,
@@ -11614,8 +11614,8 @@
       {
         "id": 512029,
         "name": "Cyclone Acceleration",
-        "descShort": "With each full spin of the Laurel Wreath, increases subsequent Skill DMG.",
-        "descLong": "With each full spin of the Laurel Wreath, increases subsequent Skill DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+        "descShort": "With each full spin of the Laurel Wreath, increases subsequent DMG of the Skill.",
+        "descLong": "With each full spin of the Laurel Wreath, increases subsequent DMG of the Skill by <span style=\"color:#ec6d21\">&Param2&</span>.",
         "rarity": 2,
         "build": 2,
         "type": 2,
@@ -12161,15 +12161,15 @@
           {
             "idx": 3,
             "values": [
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed"
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD"
             ]
           },
           {
@@ -12281,8 +12281,8 @@
       {
         "id": 512309,
         "name": "Breeze Caress",
-        "descShort": "When any ally triggers a Ventus Mark, there is a chance to restore Ann's HP.",
-        "descLong": "When any ally triggers a Ventus Mark, There is a 30% chance to restore <span style=\"color:#ec6d21\">&Param1&</span> HP to Ann. This effect can only be triggered once every 5s.",
+        "descShort": "When any Trekker in the squad triggers a Ventus Mark, there is a chance to restore Ann's HP.",
+        "descLong": "When any Trekker in the squad triggers a Ventus Mark, there is a 30% chance to restore <span style=\"color:#ec6d21\">&Param1&</span> HP to Ann. This effect can only be triggered once every 5s.",
         "rarity": 1,
         "build": 2,
         "type": 1,
@@ -12306,8 +12306,8 @@
       {
         "id": 512310,
         "name": "Smooth Rotation",
-        "descShort": "When any ally triggers a <span style=\"color:#6A90EB\">Ventus Mark</span>, there is a chance to reduce Skill Cooldown.",
-        "descLong": "When any ally triggers a <span style=\"color:#6A90EB\">Ventus Mark</span>, there is a <span style=\"color:#ec6d21\">&Param1&</span> chance to reduce Puffloon Spits' Cooldown by 1s, up to a total of 10s.",
+        "descShort": "When any Trekker in the squad triggers a <span style=\"color:#6A90EB\">Ventus Mark</span>, there is a chance to reduce Skill Cooldown.",
+        "descLong": "When any Trekker in the squad triggers a <span style=\"color:#6A90EB\">Ventus Mark</span>, there is a <span style=\"color:#ec6d21\">&Param1&</span> chance to reduce Puffloon Spits' Cooldown by 1s, up to a total of 10s.",
         "rarity": 1,
         "build": 2,
         "type": 1,
@@ -12376,8 +12376,8 @@
       {
         "id": 512312,
         "name": "Wind's Track",
-        "descShort": "When Ann dodges through barriers, increases the squad's &Param1&.",
-        "descLong": "Ann can dodge through barriers.\u000bWhen Ann dodges through barriers, increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+        "descShort": "When Ann dodges through barriers, increases all other friendly units' &Param1&.",
+        "descLong": "Ann can dodge through barriers.\u000bWhen Ann dodges through barriers, increases all other friendly units' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
         "rarity": 1,
         "build": 3,
         "type": 1,
@@ -12421,8 +12421,8 @@
       {
         "id": 512313,
         "name": "Zephyr Caress",
-        "descShort": "When dodging, Ann creates Wind Bursts and increases the squad's &Param2&.",
-        "descLong": "When dodging, Ann creates 2 Wind Bursts and increases the squad's &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+        "descShort": "When dodging, Ann creates Wind Bursts and increases squadmates' &Param2&.",
+        "descLong": "When dodging, Ann creates 2 Wind Bursts and increases squadmates' &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
         "rarity": 1,
         "build": 3,
         "type": 1,
@@ -12465,7 +12465,7 @@
       },
       {
         "id": 512321,
-        "name": "Wind Barrier",
+        "name": "Gale Bastion",
         "descShort": "The Support Skill will summon more walls of wind.",
         "descLong": "The Support Skill will summon <span style=\"color:#0abec5\">2</span> more walls of wind.",
         "rarity": 3,
@@ -12767,8 +12767,8 @@
       {
         "id": 512329,
         "name": "Speed Surge",
-        "descShort": "When the main character passes through the wall of wind, increases her &Param1& and &Param3&.",
-        "descLong": "When the main character passes through the wall of wind, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> and &Param3& by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.",
+        "descShort": "When the main Trekker passes through the wall of wind, increases her &Param1& and &Param3&.",
+        "descLong": "When the main Trekker passes through the wall of wind, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> and &Param3& by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.",
         "rarity": 1,
         "build": 2,
         "type": 2,
@@ -12776,15 +12776,15 @@
           {
             "idx": 1,
             "values": [
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed"
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD"
             ]
           },
           {
@@ -13088,8 +13088,8 @@
       {
         "id": 512501,
         "name": "Ice Mist Barrier",
-        "descShort": "When the Main Skill ends, leaves a cloud of icy mist, reducing the Movement Speed of enemies caught inside the area and increasing the Auto Attack DMG of allies in the same area.",
-        "descLong": "When &Param10& (Main Skill) ends, leaves a cloud of icy mist, lasting for 10s. For enemies caught inside the mist, reduces their Movement Speed by <span style=\"color:#0abec5\">&Param1&</span>; for allies within the same area, increases their Auto Attack DMG by <span style=\"color:#0abec5\">&Param2&</span>.",
+        "descShort": "When the Main Skill ends, leaves a cloud of icy mist, reducing the Movement SPD of enemies caught inside the area and increasing the Auto Attack DMG of all friendly units in the same area.",
+        "descLong": "When &Param10& (Main Skill) ends, leaves a cloud of icy mist, lasting for 10s. For enemies caught inside the mist, reduces their Movement SPD by <span style=\"color:#0abec5\">&Param1&</span>; for all friendly units within the same area, increases their Auto Attack DMG by <span style=\"color:#0abec5\">&Param2&</span>.",
         "rarity": 3,
         "build": 1,
         "type": 1,
@@ -13338,7 +13338,7 @@
         "id": 512508,
         "name": "Frost Gift",
         "descShort": "The Main Skill has a chance to trigger <span style=\"color:#6A90EB\">Shattered Ice</span> or increase the DMG dealt.",
-        "descLong": "When &Param10& (Main Skill) deals DMG to a normal target with <span style=\"color:#6A90EB\">Frozen</span>, there is a &Param1& chance to trigger <span style=\"color:#6A90EB\">Shattered Ice</span>.\u000bWhen dealing DMG to an elite or boss target with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>, there is a &Param1& chance to increase the DMG dealt by <span style=\"color:#ec6d21\">&Param2&</span>.",
+        "descLong": "When &Param10& (Main Skill) deals DMG to a normal target with <span style=\"color:#6A90EB\">Frozen</span>, there is a &Param1& chance to trigger <span style=\"color:#6A90EB\">Shattered Ice</span>.\u000bWhen dealing DMG to an elite or boss target with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>, there is a &Param1& chance to increase the DMG dealt by <span style=\"color:#ec6d21\">&Param2&</span>.",
         "rarity": 1,
         "build": 2,
         "type": 1,
@@ -13475,8 +13475,8 @@
       {
         "id": 512512,
         "name": "Tit-for-Tat",
-        "descShort": "The Ultimate can trigger <span style=\"color:#6A90EB\">Aqua Mark</span> and inflict <span style=\"color:#6A90EB\">Cold</span>. Triggering this effect will increases Freesia's ATK.",
-        "descLong": "&Param10& (Ultimate) can trigger <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, dealing &Param1& of ATK as AoE Aqua Mark DMG and inflicting <span style=\"color:#6A90EB\">Cold</span>. Also increases Freesia's ATK by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
+        "descShort": "The Ultimate can trigger <span style=\"color:#6A90EB\">Aqua Mark</span> and inflict <span style=\"color:#6A90EB\">Chill</span>. Triggering this effect will increases Freesia's ATK.",
+        "descLong": "&Param10& (Ultimate) can trigger <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, dealing &Param1& of ATK as AoE Aqua Mark DMG and inflicting <span style=\"color:#6A90EB\">Chill</span>. Also increases Freesia's ATK by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
         "rarity": 1,
         "build": 3,
         "type": 1,
@@ -13632,8 +13632,8 @@
       {
         "id": 512524,
         "name": "Frost Warning",
-        "descShort": "When Freesia hits targets inflicted with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>, deals additional DMG.",
-        "descLong": "When Freesia hits targets inflicted with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>, deals an additional <span style=\"color:#0abec5\">&Param1& of ATK</span> as AoE Aqua Skill DMG.",
+        "descShort": "When Freesia hits targets inflicted with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>, deals additional DMG.",
+        "descLong": "When Freesia hits targets inflicted with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>, deals an additional <span style=\"color:#0abec5\">&Param1& of ATK</span> as AoE Aqua Skill DMG.",
         "rarity": 3,
         "build": 2,
         "type": 2,
@@ -13662,7 +13662,7 @@
         "id": 512525,
         "name": "Winter's Grip",
         "descShort": "When the Support Skill hits a target, increases the Aqua DMG taken by the target.",
-        "descLong": "When &Param10& (Support Skill) hits a target, increases the Aqua DMG taken by the target by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, up to &Param3& stacks.",
+        "descLong": "When &Param10& (Support Skill) hits a target, increases the Aqua DMG taken by the target by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, up to <span style=\"color:#ec6d21\">&Param3&</span> stacks.",
         "rarity": 1,
         "build": 1,
         "type": 2,
@@ -13780,8 +13780,8 @@
       {
         "id": 512528,
         "name": "Ocean of Law",
-        "descShort": "While Freesia is in <span style=\"color:#6A90EB\">Berserk</span>, after her Auto Attacks hit targets inflicted with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>, increases her ATK.",
-        "descLong": "While Freesia is in <span style=\"color:#6A90EB\">Berserk</span>, after her Auto Attacks hit targets inflicted with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>, increases her ATK by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, stacking up to &Param3& times.",
+        "descShort": "While Freesia is in <span style=\"color:#6A90EB\">Berserk</span>, after her Auto Attacks hit targets inflicted with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>, increases her ATK.",
+        "descLong": "While Freesia is in <span style=\"color:#6A90EB\">Berserk</span>, after her Auto Attacks hit targets inflicted with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>, increases her ATK by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, stacking up to &Param3& times.",
         "rarity": 2,
         "build": 2,
         "type": 2,
@@ -13897,8 +13897,8 @@
       {
         "id": 512531,
         "name": "Guardian's Heart",
-        "descShort": "When Freesia squads up with Aqua Trekkers only, increases the squad's Crit DMG.",
-        "descLong": "When Freesia squads up with Aqua Trekkers only, increases the squad's Crit DMG by <span style=\"color:#ec6d21\">&Param1&</span>.",
+        "descShort": "When Freesia squads up with Aqua Trekkers only, increases the squad's Crit Rate.",
+        "descLong": "When Freesia squads up with Aqua Trekkers only, increases the squad's Crit Rate by <span style=\"color:#ec6d21\">&Param1&</span>.",
         "rarity": 1,
         "build": 3,
         "type": 2,
@@ -14091,7 +14091,7 @@
         "id": 512543,
         "name": "Frost Slash",
         "descShort": "When Freesia enters the <span style=\"color:#6A90EB\">Berserk</span> status, she inflicts <span style=\"color:#6A90EB\">Frozen</span> on nearby targets. After casting the Ultimate, Freesia's Auto Attacks have a chance to trigger <span style=\"color:#6A90EB\">Shattered Ice</span> or increase DMG.",
-        "descLong": "When Freesia enters the <span style=\"color:#6A90EB\">Berserk</span> status, she inflicts <span style=\"color:#6A90EB\">Frozen</span> on nearby targets for &Param1&s.\u000bWithin &Param2&s after casting the Ultimate, Auto Attack DMG dealt on an elite or boss target with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span> have a &Param3& chance to increase by <span style=\"color:#ec6d21\">&Param4&</span>.\u000bAuto Attack DMG dealt on a normal target with <span style=\"color:#6A90EB\">Frozen</span> have a &Param3& chance to trigger <span style=\"color:#6A90EB\">Shattered Ice</span>.",
+        "descLong": "When Freesia enters the <span style=\"color:#6A90EB\">Berserk</span> status, she inflicts <span style=\"color:#6A90EB\">Frozen</span> on nearby targets for &Param1&s.\u000bWithin &Param2&s after casting the Ultimate, Auto Attack DMG dealt on an elite or boss target with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span> have a &Param3& chance to increase by <span style=\"color:#ec6d21\">&Param4&</span>.\u000bAuto Attack DMG dealt on a normal target with <span style=\"color:#6A90EB\">Frozen</span> have a &Param3& chance to trigger <span style=\"color:#6A90EB\">Shattered Ice</span>.",
         "rarity": 1,
         "build": 3,
         "type": 3,
@@ -14151,7 +14151,7 @@
         "id": 512601,
         "name": "Spiral Dance",
         "descShort": "When casting the Main Skill, throws two extra top hats.",
-        "descLong": "When casting Hat Toss (Main Skill), throws <span style=\"color:#0abec5\">2</span> additional top hats, dealing <span style=\"color:#0abec5\"> of ATK&Param1&</span> as Ignis Skill DMG every 0.5s.",
+        "descLong": "When casting Hat Toss (Main Skill), throws <span style=\"color:#0abec5\">2</span> additional top hats, dealing <span style=\"color:#0abec5\">&Param1& of ATK</span> as Ignis Skill DMG every 0.5s.",
         "rarity": 3,
         "build": 1,
         "type": 1,
@@ -14465,8 +14465,8 @@
       {
         "id": 512611,
         "name": "Rhythm Surge",
-        "descShort": "Increases Flora's &Param4&.\u000bAfter casting the Main Skill, increases her Attack Speed.",
-        "descLong": "Increases Flora's &Param4& by <span style=\"color:#ec6d21\">&Param1&</span>.\u000bAfter casting Hat Toss (Main Skill), increases her Attack Speed by &Param2& for &Param3&s.",
+        "descShort": "Increases Flora's &Param4&.\u000bAfter casting the Main Skill, increases her ATK SPD.",
+        "descLong": "Increases Flora's &Param4& by <span style=\"color:#ec6d21\">&Param1&</span>.\u000bAfter casting Hat Toss (Main Skill), increases her ATK SPD by &Param2& for &Param3&s.",
         "rarity": 2,
         "build": 3,
         "type": 1,
@@ -14516,8 +14516,8 @@
       {
         "id": 512612,
         "name": "Impromptu Performance",
-        "descShort": "After dodging, increases Flora's Movement Speed.",
-        "descLong": "After dodging, increases Flora's Movement Speed by &Param1& for &Param2&s. This effect can only be triggered once every <span style=\"color:#ec6d21\">&Param3&</span>s.",
+        "descShort": "After dodging, increases Flora's Movement SPD.",
+        "descLong": "After dodging, increases Flora's Movement SPD by &Param1& for &Param2&s. This effect can only be triggered once every <span style=\"color:#ec6d21\">&Param3&</span>s.",
         "rarity": 1,
         "build": 3,
         "type": 1,
@@ -14615,8 +14615,8 @@
       {
         "id": 512622,
         "name": "Ember Rekindled",
-        "descShort": "When the main Ignis character deals DMG to a target with Butterfly Mark, there is a chance to spawn a Soulflare Butterfly.",
-        "descLong": "When the main Ignis character deals DMG to a target, for each stack of <span style=\"color:#6A90EB\">Butterfly Mark</span> on the target, there is a <span style=\"color:#0abec5\">35%</span> chance to spawn a Soulflare Butterfly, dealing <span style=\"color:#0abec5\">&Param2& of ATK</span> as Ignis Skill DMG. This effect can only be triggered once per second.",
+        "descShort": "When the main Ignis Trekker deals DMG to a target with Butterfly Mark, there is a chance to spawn a Soulflare Butterfly.",
+        "descLong": "When the main Ignis Trekker deals DMG to a target, for each stack of <span style=\"color:#6A90EB\">Butterfly Mark</span> on the target, there is a <span style=\"color:#0abec5\">35%</span> chance to spawn a Soulflare Butterfly, dealing <span style=\"color:#0abec5\">&Param2& of ATK</span> as Ignis Skill DMG. This effect can only be triggered once per second.",
         "rarity": 3,
         "build": 1,
         "type": 2,
@@ -14644,8 +14644,8 @@
       {
         "id": 512623,
         "name": "Ashes of the Past",
-        "descShort": "Spawns more Mindflare Butterflies. Increases the main Ignis character's &Param2&.",
-        "descLong": "Spawns <span style=\"color:#0abec5\">2</span> more Mindflare Butterflies.\u000bWhile Mindflare Butterflies are present, increases the main Ignis character's &Param2& by <span style=\"color:#0abec5\">&Param1&</span>.",
+        "descShort": "Spawns more Mindflare Butterflies. Increases the main Ignis Trekker's &Param2&.",
+        "descLong": "Spawns <span style=\"color:#0abec5\">2</span> more Mindflare Butterflies.\u000bWhile Mindflare Butterflies are present, increases the main Ignis Trekker's &Param2& by <span style=\"color:#0abec5\">&Param1&</span>.",
         "rarity": 3,
         "build": 2,
         "type": 2,
@@ -14667,8 +14667,8 @@
       {
         "id": 512624,
         "name": "Spark of Ashes",
-        "descShort": "Mindflare Butterfly has a chance to increase the main Ignis character's DMG and spawn a <span style=\"color:#6A90EB\">Scorched Butterfly</span>.",
-        "descLong": "When the main Ignis character deals DMG to a target, for each Mindflare Butterfly present, there is a 20% chance to increase the damage dealt by <span style=\"color:#0abec5\">&Param1&</span> and spawn a <span style=\"color:#6A90EB\">Scorched Butterfly</span>, dealing<span style=\"color:#0abec5\">&Param2& of ATK</span> as Ignis Skill DMG. This effect can only be triggered once per sec.",
+        "descShort": "Mindflare Butterfly has a chance to increase the main Ignis Trekker's DMG and spawn a <span style=\"color:#6A90EB\">Scorched Butterfly</span>.",
+        "descLong": "When the main Ignis Trekker deals DMG to a target, for each Mindflare Butterfly present, there is a 20% chance to increase the damage dealt by <span style=\"color:#0abec5\">&Param1&</span> and spawn a <span style=\"color:#6A90EB\">Scorched Butterfly</span>, dealing<span style=\"color:#0abec5\">&Param2& of ATK</span> as Ignis Skill DMG. This effect can only be triggered once per sec.",
         "rarity": 3,
         "build": 2,
         "type": 2,
@@ -14702,8 +14702,8 @@
       {
         "id": 512625,
         "name": "Foreshadowing Verification",
-        "descShort": "Increases the main Ignis character's &Param2& to targets inflicted with <span style=\"color:#6A90EB\">Butterfly Mark</span>.",
-        "descLong": "Increases the main Ignis character's &Param2& to targets inflicted with <span style=\"color:#6A90EB\">Butterfly Mark</span> by <span style=\"color:#ec6d21\">&Param1&</span>.",
+        "descShort": "Increases the main Ignis Trekker's &Param2& to targets inflicted with <span style=\"color:#6A90EB\">Butterfly Mark</span>.",
+        "descLong": "Increases the main Ignis Trekker's &Param2& to targets inflicted with <span style=\"color:#6A90EB\">Butterfly Mark</span> by <span style=\"color:#ec6d21\">&Param1&</span>.",
         "rarity": 1,
         "build": 1,
         "type": 2,
@@ -14890,8 +14890,8 @@
       {
         "id": 512629,
         "name": "Reinforced Impression",
-        "descShort": "Each Mindflare Butterfly increases the main Ignis character's &Param2&.",
-        "descLong": "Each Mindflare Butterfly increases the main Ignis character's &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.",
+        "descShort": "Each Mindflare Butterfly increases the main Ignis Trekker's &Param2&.",
+        "descLong": "Each Mindflare Butterfly increases the main Ignis Trekker's &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.",
         "rarity": 2,
         "build": 2,
         "type": 2,
@@ -14954,8 +14954,8 @@
       {
         "id": 512631,
         "name": "Guest Performer",
-        "descShort": "When casting the Support Skill, increases all Ignis squadmates' &Param2&.",
-        "descLong": "When casting Flutter Flare (Support Skill), increases all Ignis squadmates' &Param2& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param3&s.",
+        "descShort": "When casting the Support Skill, increases all Ignis Trekkers' &Param2&.",
+        "descLong": "When casting Flutter Flare (Support Skill), increases all Ignis Trekkers' &Param2& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param3&s.",
         "rarity": 1,
         "build": 3,
         "type": 2,
@@ -15178,7 +15178,7 @@
     "mainBuild1Name": "Teresa: Main Build 1",
     "mainBuild1Desc": "A build that increases skill hits and generates additional water ripples, boosting DMG and mark infliction.",
     "mainBuild2Name": "Teresa: Main Build 2",
-    "mainBuild2Desc": "A survival build that grants shields after casting a skill and randomly restores allies' Energy.",
+    "mainBuild2Desc": "A survival build that grants shields after casting a skill and randomly restores squadmates' Energy.",
     "supportBuild1Name": "Teresa: Support Build 1",
     "supportBuild1Desc": "A build that grants a shield, with attacks from the shielded main Trekker generating water ripples, ideal for a melee main Trekker.",
     "supportBuild2Name": "Teresa: Support Build 2",
@@ -15609,7 +15609,7 @@
         "id": 512710,
         "name": "Restarting",
         "descShort": "When a squadmate casts a Support Skill or Ultimate Skill, Teresa gains a Surging Shield.",
-        "descLong": "When a squadmate casts a Support Skill or Ultimate Skill, Teresa gains a Surging Shield equal to <span style=\"color:#ec6d21\"> of ATK&Param1&</span> for &Param2&s.",
+        "descLong": "When a squadmate casts a Support Skill or Ultimate Skill, Teresa gains a Surging Shield equal to <span style=\"color:#ec6d21\"> &Param1& of ATK</span> for &Param2&s.",
         "rarity": 2,
         "build": 2,
         "type": 1,
@@ -15827,8 +15827,8 @@
       {
         "id": 512725,
         "name": "Isn't It Awesome!",
-        "descShort": "While Surging Shield is active, increases the main Aqua Trekker's &Param4& and Attack Speed.",
-        "descLong": "While Surging Shield is active, increases the main Aqua Trekker's &Param4& by <span style=\"color:#ec6d21\">&Param2&</span> and Attack Speed by &Param1&.",
+        "descShort": "While Surging Shield is active, increases the main Aqua Trekker's &Param4& and ATK SPD.",
+        "descLong": "While Surging Shield is active, increases the main Aqua Trekker's &Param4& by <span style=\"color:#ec6d21\">&Param2&</span> and ATK SPD by &Param1&.",
         "rarity": 2,
         "build": 1,
         "type": 2,
@@ -16174,8 +16174,8 @@
       {
         "id": 512741,
         "name": "Wave Breaker",
-        "descShort": "When Slicing Riptide (Ultimate) deals DMG to targets, reduces their Movement Speed and increases their &Param4&. When it hits a squadmate, increases their resistance to interruption.",
-        "descLong": "When Slicing Riptide (Ultimate) deals DMG to targets, reduces their Movement Speed by &Param1&, and increases their &Param4& by <span style=\"color:#ec6d21\">&Param2&</span>. When it hits allies, increases their resistance to interruption for &Param3&s.",
+        "descShort": "When Slicing Riptide (Ultimate) deals DMG to targets, reduces their Movement SPD and increases their &Param4&. When it hits a friendly unit, increases their resistance to interruption.",
+        "descLong": "When Slicing Riptide (Ultimate) deals DMG to targets, reduces their Movement SPD by &Param1&, and increases their &Param4& by <span style=\"color:#ec6d21\">&Param2&</span>. When it hits a friendly unit, increases their resistance to interruption for &Param3&s.",
         "rarity": 1,
         "build": 3,
         "type": 3,
@@ -16224,7 +16224,7 @@
       },
       {
         "id": 512742,
-        "name": "Power Unleashed",
+        "name": "Power Unbound",
         "descShort": "When casting the Ultimate, increases the squad's &Param3&.",
         "descLong": "When casting Slicing Riptide (Ultimate), increases the squad's &Param3& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.",
         "rarity": 1,
@@ -16270,8 +16270,8 @@
       {
         "id": 512743,
         "name": "Demonic Devour",
-        "descShort": "Increases the Ultimate DMG to targets with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>.",
-        "descLong": "Increases the DMG dealt of Slicing Riptide (Ultimate) to targets with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span> by <span style=\"color:#ec6d21\">&Param1&</span>.",
+        "descShort": "Increases the Ultimate DMG to targets with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>.",
+        "descLong": "Increases the DMG dealt of Slicing Riptide (Ultimate) to targets with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span> by <span style=\"color:#ec6d21\">&Param1&</span>.",
         "rarity": 1,
         "build": 3,
         "type": 3,
@@ -16458,8 +16458,8 @@
       {
         "id": 513205,
         "name": "Ashwind Rhythm",
-        "descShort": "After Minova casts the Main Skill, increases her Attack Speed and Auto Attack DMG.",
-        "descLong": "After Minova casts the Main Skill, increases her Attack Speed by &Param2& and Auto Attack DMG by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+        "descShort": "After Minova casts the Main Skill, increases her ATK SPD and Auto Attack DMG.",
+        "descLong": "After Minova casts the Main Skill, increases her ATK SPD by &Param2& and Auto Attack DMG by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
         "rarity": 2,
         "build": 1,
         "type": 1,
@@ -16843,7 +16843,7 @@
       },
       {
         "id": 513222,
-        "name": "Shining Burst",
+        "name": "Radiant Burst",
         "descShort": "Increases the DMG and Attack Range of Astral Hex.",
         "descLong": "Increases the Attack Range of Astral Hex by <span style=\"color:#0abec5\">50%</span> and its DMG by <span style=\"color:#0abec5\">&Param2&</span>.",
         "rarity": 3,
@@ -17353,6 +17353,1286 @@
     ]
   },
   {
+    "id": 134,
+    "name": "Fuyuka",
+    "class": 1,
+    "element": 2,
+    "grade": 1,
+    "mainBuild1Name": "Fuyuka: Main Build 1",
+    "mainBuild1Desc": "A build that raises the Energy Cap and strikes enemies with enhanced Auto Attacks.",
+    "mainBuild2Name": "Fuyuka: Main Build 2",
+    "mainBuild2Desc": "A build that instantly releases Energy, dealing massive DMG with high-frequency Auto Attacks.",
+    "supportBuild1Name": "Fuyuka: Support Build 1",
+    "supportBuild1Desc": "A build that gathers power to deal massive single-target DMG.",
+    "supportBuild2Name": "Fuyuka: Support Build 2",
+    "supportBuild2Desc": "A build that deals rapid, multi-hit DMG to targets over time.",
+    "potentials": [
+      {
+        "id": 513401,
+        "name": "Reload",
+        "descShort": "When casting the Main Skill, deals additional DMG and increases Magazine Capacity.",
+        "descLong": "Fuyuka's Magazine now holds 9 ammo.\nWhen casting &Param1& (Main Skill), deals an additional <span style=\"color:#0abec5\">&Param2& of ATK x3</span> as Ignis Skill DMG.",
+        "rarity": 3,
+        "build": 1,
+        "type": 1,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "Ignis Infusion"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "99%",
+              "113%",
+              "128%",
+              "173%",
+              "186%",
+              "200%",
+              "228%",
+              "240%",
+              "251%",
+              "275%",
+              "295%",
+              "315%",
+              "334%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513402,
+        "name": "Double Strike",
+        "descShort": "Each strike of Fiery Punches deals additional DMG.",
+        "descLong": "Fiery Punches deal additional damage. \u000bStrike 1: <span style=\"color:#0abec5\">&Param1& of ATK</span> as Ignis Auto Attack DMG. \u000bStrike 2: <span style=\"color:#0abec5\">&Param2& of ATK</span> as Ignis Auto Attack DMG. \u000bStrike 3: <span style=\"color:#0abec5\">&Param3& of ATK</span> as Ignis Auto Attack DMG.",
+        "rarity": 3,
+        "build": 1,
+        "type": 1,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "72%",
+              "83%",
+              "93%",
+              "126%",
+              "136%",
+              "146%",
+              "166%",
+              "174%",
+              "183%",
+              "200%",
+              "215%",
+              "229%",
+              "243%"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "72%",
+              "83%",
+              "93%",
+              "126%",
+              "136%",
+              "146%",
+              "166%",
+              "174%",
+              "183%",
+              "200%",
+              "215%",
+              "229%",
+              "243%"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "144%",
+              "165%",
+              "187%",
+              "251%",
+              "271%",
+              "291%",
+              "332%",
+              "349%",
+              "366%",
+              "400%",
+              "429%",
+              "458%",
+              "486%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513403,
+        "name": "Kitty Punch",
+        "descShort": "When the Main Skill hits a target, inflicts Paw Print. \u000bWhen Fuyuka deals Auto Attack DMG to a target inflicted with Paw Print, deals additional damage.",
+        "descLong": "When &Param1& (Main Skill) hits a target, inflicts Paw Print for &Param3&s. \u000bWhen Fuyuka deals Auto Attack DMG to a target inflicted with Paw Print, deals an additional <span style=\"color:#0abec5\">&Param2& of ATK</span> as Ignis Skill DMG. \u000bThis effect can trigger <span style=\"color:#6A90EB\">Ignis Mark</span>.",
+        "rarity": 3,
+        "build": 2,
+        "type": 1,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "Ignis Infusion"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "15"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "46%",
+              "53%",
+              "60%",
+              "81%",
+              "87%",
+              "93%",
+              "106%",
+              "112%",
+              "117%",
+              "128%",
+              "138%",
+              "147%",
+              "156%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513404,
+        "name": "Multi-Shot",
+        "descShort": "After Fuyuka casts the Main Skill, her next Fiery Punches are enhanced into Magma Burst.",
+        "descLong": "After Fuyuka casts &Param1& (Main Skill), her next Fiery Punches are enhanced into Magma Burst, consuming 3 ammo at once to deal <span style=\"color:#0abec5\">&Param2&</span> and <span style=\"color:#0abec5\">&Param3&</span> of ATK as AoE Ignis Auto Attack DMG.\u000bWhen Fuyuka's magazine is empty, increases her ATK SPD by <span style=\"color:#0abec5\">&Param4&</span>.",
+        "rarity": 3,
+        "build": 2,
+        "type": 1,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "Ignis Infusion"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "433%",
+              "497%",
+              "562%",
+              "757%",
+              "817%",
+              "878%",
+              "999%",
+              "1051%",
+              "1103%",
+              "1207%",
+              "1293%",
+              "1380%",
+              "1466%"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "562%",
+              "647%",
+              "731%",
+              "984%",
+              "1063%",
+              "1141%",
+              "1299%",
+              "1366%",
+              "1434%",
+              "1568%",
+              "1681%",
+              "1793%",
+              "1906%"
+            ]
+          },
+          {
+            "idx": 4,
+            "values": [
+              "50%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513405,
+        "name": "Pyro Mark",
+        "descShort": "Increases the Auto ATK DMG dealt by Fiery Punches and Magma Burst, and allows them to trigger <span style=\"color:#6A90EB\">Ignis Mark</span>.",
+        "descLong": "Increases the &Param2& dealt by Fiery Punches and Magma Burst by <span style=\"color:#ec6d21\">&Param1&, and allows them to trigger <color=#6A90EB>Ignis Mark</span>.",
+        "rarity": 1,
+        "build": 1,
+        "type": 1,
+        "params": [
+          {
+            "idx": 2,
+            "values": [
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "12%",
+              "19%",
+              "26%",
+              "34%",
+              "41%",
+              "48%",
+              "55%",
+              "62%",
+              "70%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513406,
+        "name": "Thunder Punch",
+        "descShort": "The third strike of Fiery Punches deals additional DMG.",
+        "descLong": "The third strike of Fiery Punches deals an additional <span style=\"color:#ec6d21\">&Param1& of ATK</span> as AoE Ignis Auto Attack DMG.",
+        "rarity": 2,
+        "build": 1,
+        "type": 1,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "108%",
+              "173%",
+              "238%",
+              "303%",
+              "368%",
+              "432%",
+              "497%",
+              "562%",
+              "627%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513407,
+        "name": "All-Out Effort",
+        "descShort": "When Fuyuka strikes with Fiery Punches, increases Fiery Punches' &Param4&.",
+        "descLong": "When Fuyuka strikes with Fiery Punches, increases Fiery Punches' &Param4& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, up to &Param3& stacks.\u000bAll stacks are removed when Fuyuka casts &Param5& (Main Skill).",
+        "rarity": 1,
+        "build": 1,
+        "type": 1,
+        "params": [
+          {
+            "idx": 4,
+            "values": [
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "10%",
+              "16%",
+              "22%",
+              "28%",
+              "35%",
+              "41%",
+              "47%",
+              "53%",
+              "59%"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "3"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "8"
+            ]
+          },
+          {
+            "idx": 5,
+            "values": [
+              "Ignis Infusion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513408,
+        "name": "Combo Punch",
+        "descShort": "After casting the Main Skill, increases Fuyuka's &Param5& and &Param6&.",
+        "descLong": "After casting &Param1& (Main Skill), increases Fuyuka's &Param5& by &Param2& and her &Param6& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+        "rarity": 1,
+        "build": 2,
+        "type": 1,
+        "params": [
+          {
+            "idx": 5,
+            "values": [
+              "ATK SPD"
+            ]
+          },
+          {
+            "idx": 6,
+            "values": [
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "Ignis Infusion"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "20%"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "39%",
+              "63%",
+              "86%",
+              "110%",
+              "133%",
+              "157%",
+              "180%",
+              "204%",
+              "227%"
+            ]
+          },
+          {
+            "idx": 4,
+            "values": [
+              "8"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513409,
+        "name": "Blast Pursuit",
+        "descShort": "Fuyuka's fourth attack on the same target deals additional DMG.",
+        "descLong": "Every time Fuyuka deals DMG to a target 4 times, she launches an additional attack on the same target, dealing <span style=\"color:#ec6d21\">&Param1& of ATK</span> as Ignis Skill DMG.",
+        "rarity": 2,
+        "build": 2,
+        "type": 1,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "189%",
+              "302%",
+              "416%",
+              "529%",
+              "642%",
+              "756%",
+              "869%",
+              "983%",
+              "1096%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513410,
+        "name": "Inertial Punch",
+        "descShort": "Every few seconds, increases the &Param2& of Fiery Punches and Magma Burst.",
+        "descLong": "Every 8s, increases the &Param2& of the next Fiery Punches and Magma Burst by <span style=\"color:#ec6d21\">&Param1&</span>.",
+        "rarity": 1,
+        "build": 2,
+        "type": 1,
+        "params": [
+          {
+            "idx": 2,
+            "values": [
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage",
+              "Auto Attack Damage"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "50%",
+              "80%",
+              "110%",
+              "140%",
+              "171%",
+              "201%",
+              "231%",
+              "261%",
+              "291%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513411,
+        "name": "Swirling Counterattack",
+        "descShort": "When Fuyuka squads up with Ignis Trekkers only, increases her &Param4&.",
+        "descLong": "When Fuyuka squads up with Ignis Trekkers only, increases her &Param4& by <span style=\"color:#ec6d21\">&Param1&</span>.",
+        "rarity": 1,
+        "build": 3,
+        "type": 1,
+        "params": [
+          {
+            "idx": 4,
+            "values": [
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "12%",
+              "19%",
+              "26%",
+              "34%",
+              "41%",
+              "48%",
+              "55%",
+              "62%",
+              "70%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513412,
+        "name": "Bold Challenge",
+        "descShort": "When Fuyuka lands a Crit Hit on an elite or higher-tier target, increases &Param4&.",
+        "descLong": "When Fuyuka lands a Crit Hit on an elite or higher-tier target, increases &Param4& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, up to &Param3& stacks.",
+        "rarity": 1,
+        "build": 3,
+        "type": 1,
+        "params": [
+          {
+            "idx": 4,
+            "values": [
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "3%",
+              "5%",
+              "6%",
+              "8%",
+              "10%",
+              "11%",
+              "13%",
+              "15%",
+              "17%"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "8"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513413,
+        "name": "Finishing Blow",
+        "descShort": "Increases Fuyuka's &Param3& to targets with low HP.",
+        "descLong": "Increases Fuyuka's &Param3& to targets at less than &Param1& HP by <span style=\"color:#ec6d21\">&Param2&</span>.",
+        "rarity": 2,
+        "build": 3,
+        "type": 1,
+        "params": [
+          {
+            "idx": 3,
+            "values": [
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "70"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "21%",
+              "34%",
+              "47%",
+              "60%",
+              "73%",
+              "85%",
+              "98%",
+              "111%",
+              "124%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513421,
+        "name": "Sky Crusher",
+        "descShort": "Combines the multiple strikes of the Support Skill into a single massive blow.",
+        "descLong": "&Param1& (Support Skill) now delivers a single massive blow, dealing <span style=\"color:#0abec5\">&Param2& of ATK</span> as Ignis Skill DMG to nearby targets and stunning them for <span style=\"color:#0abec5\">&Param3&</span>s. It also deals <span style=\"color:#0abec5\">&Param4& of ATK</span> as Ignis Skill DMG to targets in a large area.",
+        "rarity": 3,
+        "build": 1,
+        "type": 2,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "Eruption Punch"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "502%",
+              "577%",
+              "652%",
+              "878%",
+              "948%",
+              "1019%",
+              "1159%",
+              "1219%",
+              "1280%",
+              "1400%",
+              "1500%",
+              "1601%",
+              "1701%"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "3"
+            ]
+          },
+          {
+            "idx": 4,
+            "values": [
+              "388%",
+              "446%",
+              "504%",
+              "679%",
+              "733%",
+              "787%",
+              "896%",
+              "942%",
+              "989%",
+              "1082%",
+              "1159%",
+              "1237%",
+              "1315%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513422,
+        "name": "Lightning Split",
+        "descShort": "When the Support Skill ends, Fuyuka deals additional DMG to nearby targets.",
+        "descLong": "When &Param1& (Support Skill) ends, Fuyuka strikes the nearby targets one more time, dealing <span style=\"color:#0abec5\">&Param2& of ATK</span> as Ignis Skill DMG.",
+        "rarity": 3,
+        "build": 1,
+        "type": 2,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "Eruption Punch"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "353%",
+              "406%",
+              "459%",
+              "618%",
+              "668%",
+              "717%",
+              "816%",
+              "859%",
+              "901%",
+              "986%",
+              "1057%",
+              "1127%",
+              "1198%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513423,
+        "name": "Meteor Strike",
+        "descShort": "Increases the DMG of the Support Skill. Also increases the its Attack Range and duration.",
+        "descLong": "Increases the DMG of &Param1& (Support Skill) by <span style=\"color:#0abec5\">&Param2&</span> and its Attack Range by <span style=\"color:#0abec5\">20%</span>. Also increases the shockwave's duration by <span style=\"color:#0abec5\">50%</span>.",
+        "rarity": 3,
+        "build": 2,
+        "type": 2,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "Eruption Punch"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "5%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513424,
+        "name": "Fearless",
+        "descShort": "Increases the Support Skill's &Param3& over time.",
+        "descLong": "While &Param1& (Support Skill) is active, increases the &Param3& by <span style=\"color:#0abec5\">&Param2&</span> every 0.5s.",
+        "rarity": 3,
+        "build": 2,
+        "type": 2,
+        "params": [
+          {
+            "idx": 3,
+            "values": [
+              "Ignis DMG"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "Eruption Punch"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "4%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513425,
+        "name": "Frenzied Support",
+        "descShort": "When casting the Support Skill, increases Fuyuka's &Param4&.",
+        "descLong": "When casting &Param1& (Support Skill), increases Fuyuka's &Param4& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+        "rarity": 1,
+        "build": 1,
+        "type": 2,
+        "params": [
+          {
+            "idx": 4,
+            "values": [
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "Eruption Punch"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "11%",
+              "17%",
+              "24%",
+              "30%",
+              "37%",
+              "43%",
+              "50%",
+              "56%",
+              "63%"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513426,
+        "name": "Shock Raid",
+        "descShort": "When Fuyuka casts the Support Skill, she charges at the target, dealing additional DMG.",
+        "descLong": "When Fuyuka casts &Param1& (Support Skill), she charges at the target, dealing an additional <span style=\"color:#ec6d21\">&Param2& of ATK</span> as Ignis Skill DMG.",
+        "rarity": 2,
+        "build": 1,
+        "type": 2,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "Eruption Punch"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "229%",
+              "366%",
+              "503%",
+              "640%",
+              "778%",
+              "915%",
+              "1052%",
+              "1189%",
+              "1326%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513427,
+        "name": "Gaining Momentum",
+        "descShort": "When Fuyuka is not present, for every few seconds, increases the &Param4& of the next Support Skill.",
+        "descLong": "After Fuyuka casts her &Param1& (Support Skill) or &Param5& (Ultimate) and leaves the battlefield, increases the &Param4& of the next &Param1& (Support Skill) by <span style=\"color:#ec6d21\">&Param2&</span> every second, up to &Param3& stacks.\u000bResets after casting the Support Skill.",
+        "rarity": 1,
+        "build": 1,
+        "type": 2,
+        "params": [
+          {
+            "idx": 4,
+            "values": [
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "Eruption Punch"
+            ]
+          },
+          {
+            "idx": 5,
+            "values": [
+              "Blaze Unsealed"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "1.2%",
+              "1.9%",
+              "2.6%",
+              "3.3%",
+              "4%",
+              "4.7%",
+              "5.4%",
+              "6.1%",
+              "6.8%"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "9"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513428,
+        "name": "Multi-Blow Impact",
+        "descShort": "When the Support Skill deals DMG, deals additional DMG.",
+        "descLong": "When &Param1& (Support Skill) deals damage, deals an additional <span style=\"color:#ec6d21\">&Param2& of ATK</span> as Ignis Skill DMG.",
+        "rarity": 2,
+        "build": 2,
+        "type": 2,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "Eruption Punch"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "8.7%",
+              "13.9%",
+              "19.1%",
+              "24.3%",
+              "29.5%",
+              "34.7%",
+              "39.9%",
+              "45.2%",
+              "50.4%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513429,
+        "name": "Lethal Boost",
+        "descShort": "While the Support Skill is active, increases Fuyuka's &Param4& over time.",
+        "descLong": "While &Param1& (Support Skill) is active, increases Fuyuka's &Param4& by <span style=\"color:#ec6d21\">&Param2&</span> every sec, stacking up to &Param3& times.",
+        "rarity": 1,
+        "build": 2,
+        "type": 2,
+        "params": [
+          {
+            "idx": 4,
+            "values": [
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "Eruption Punch"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "3.8%",
+              "6.1%",
+              "8.4%",
+              "10.7%",
+              "13%",
+              "15.3%",
+              "17.6%",
+              "19.9%",
+              "22.2%"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513430,
+        "name": "Lightning Raid",
+        "descShort": "Reduces the Support Skill's Attack Interval and increases its DMG.",
+        "descLong": "Reduces &Param1& (Support Skill)'s Attack Interval by 40% and increases its &Param3& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+        "rarity": 1,
+        "build": 2,
+        "type": 2,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "Eruption Punch"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG",
+              "Skill DMG"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "9%",
+              "15%",
+              "20%",
+              "26%",
+              "31%",
+              "37%",
+              "42%",
+              "48%",
+              "53%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513431,
+        "name": "Hero's Will",
+        "descShort": "Increases Fuyuka's &Param2& against elite or higher-tier targets.",
+        "descLong": "Increases Fuyuka's &Param2& by <span style=\"color:#ec6d21\">&Param1&</span> against elite or higher-tier targets.",
+        "rarity": 1,
+        "build": 3,
+        "type": 2,
+        "params": [
+          {
+            "idx": 2,
+            "values": [
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG",
+              "Ignis DMG"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "14%",
+              "23%",
+              "32%",
+              "40%",
+              "49%",
+              "57%",
+              "66%",
+              "75%",
+              "83%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513432,
+        "name": "Prove of Strength",
+        "descShort": "When the Support Skill kills a target, increases Fuyuka's &Param5&.",
+        "descLong": "When &Param1& (Support Skill) kills a target, increases Fuyuka's &Param5& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
+        "rarity": 1,
+        "build": 3,
+        "type": 2,
+        "params": [
+          {
+            "idx": 5,
+            "values": [
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK",
+              "ATK"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "Eruption Punch"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "3%",
+              "4.8%",
+              "6.6%",
+              "8.4%",
+              "10.2%",
+              "12%",
+              "13.8%",
+              "15.6%",
+              "17.4%"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "10"
+            ]
+          },
+          {
+            "idx": 4,
+            "values": [
+              "4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513433,
+        "name": "Companion's Power",
+        "descShort": "Increases Ignis Trekkers' &Param2&.",
+        "descLong": "Increases Ignis Trekkers' &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.",
+        "rarity": 2,
+        "build": 3,
+        "type": 2,
+        "params": [
+          {
+            "idx": 2,
+            "values": [
+              "Crit DMG",
+              "Crit DMG",
+              "Crit DMG",
+              "Crit DMG",
+              "Crit DMG",
+              "Crit DMG",
+              "Crit DMG",
+              "Crit DMG",
+              "Crit DMG"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "13%",
+              "20%",
+              "28%",
+              "35%",
+              "43%",
+              "51%",
+              "58%",
+              "66%",
+              "73%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513441,
+        "name": "Blazing Heart",
+        "descShort": "When the Ultimate triggers an <span style=\"color:#6A90EB\">Ignis Mark</span>, increases this Ultimate DMG.",
+        "descLong": "When &Param1& triggers an <span style=\"color:#6A90EB\">Ignis Mark</span>, increases this Ultimate DMG by <span style=\"color:#ec6d21\">&Param2&</span>, up to &Param4& stacks.",
+        "rarity": 1,
+        "build": 3,
+        "type": 3,
+        "params": [
+          {
+            "idx": 1,
+            "values": [
+              "Blaze Unsealed"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "5%",
+              "7%",
+              "10%",
+              "13%",
+              "16%",
+              "19%",
+              "21%",
+              "24%",
+              "27%"
+            ]
+          },
+          {
+            "idx": 4,
+            "values": [
+              "5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513442,
+        "name": "Ironfist Blow",
+        "descShort": "The Ultimate delivers more punches. Also increases Fuyuka's &Param3&.",
+        "descLong": "&Param1& (Ultimate) delivers 4 additional punches. Also increases Fuyuka's &Param3& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+        "rarity": 1,
+        "build": 3,
+        "type": 3,
+        "params": [
+          {
+            "idx": 3,
+            "values": [
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "Blaze Unsealed"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "70%",
+              "112%",
+              "153%",
+              "195%",
+              "237%",
+              "279%",
+              "321%",
+              "362%",
+              "404%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 513443,
+        "name": "Peak Condition",
+        "descShort": "When casting the Ultimate, increases Fuyuka's &Param4&. This buff decays over time.",
+        "descLong": "When Fuyuka casts &Param1& (Ultimate), she gains &Param2& stacks of buff, each increasing her &Param4& by <span style=\"color:#ec6d21\">&Param3&</span>, and then removes 1 stack of the buff per second.",
+        "rarity": 1,
+        "build": 3,
+        "type": 3,
+        "params": [
+          {
+            "idx": 4,
+            "values": [
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG",
+              "Ultimate DMG"
+            ]
+          },
+          {
+            "idx": 1,
+            "values": [
+              "Blaze Unsealed"
+            ]
+          },
+          {
+            "idx": 2,
+            "values": [
+              "6"
+            ]
+          },
+          {
+            "idx": 3,
+            "values": [
+              "50%",
+              "80%",
+              "110%",
+              "140%",
+              "170%",
+              "200%",
+              "230%",
+              "260%",
+              "290%"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 135,
     "name": "Mistique",
     "class": 2,
@@ -17398,7 +18678,7 @@
       },
       {
         "id": 513502,
-        "name": "Multi-Shot",
+        "name": "Rapid Fire",
         "descShort": "The Main Skill deals additional DMG. When casting, removes all Pumpka Phantoms from the battlefield and summons them again.",
         "descLong": "Pumpka Pummel (Main Skill) deals an additional <span style=\"color:#0abec5\">&Param1& of ATK</span> as AoE Umbra DMG. \u000bWhen cast, removes all Pumpka Phantoms from the battlefield and summons them again.",
         "rarity": 3,
@@ -17720,15 +19000,15 @@
           {
             "idx": 1,
             "values": [
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed"
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD"
             ]
           },
           {
@@ -18868,8 +20148,8 @@
       {
         "id": 514122,
         "name": "Crimson Dragon: Chant",
-        "descShort": "When Chixia has more than 1 minion, increases her ATK and Attack Speed.",
-        "descLong": "When Chixia has more than <span style=\"color:#0abec5\">1</span> minion, increases all of her minions' ATK by <span style=\"color:#0abec5\">&Param1&</span> and their Attack Speed by <span style=\"color:#0abec5\">&Param2&</span>.",
+        "descShort": "When Chixia has more than 1 minion, increases her ATK and ATK SPD.",
+        "descLong": "When Chixia has more than <span style=\"color:#0abec5\">1</span> minion, increases all of her minions' ATK by <span style=\"color:#0abec5\">&Param1&</span> and their ATK SPD by <span style=\"color:#0abec5\">&Param2&</span>.",
         "rarity": 3,
         "build": 1,
         "type": 2,
@@ -19061,8 +20341,8 @@
       {
         "id": 514127,
         "name": "Ink Sigil: Barrier Construct",
-        "descShort": "Chixia's minions increase the Crit DMG of nearby allies.",
-        "descLong": "Chixia's minions increase the Crit DMG of nearby allies by <span style=\"color:#ec6d21\">&Param1&</span>, up to &Param2& times.",
+        "descShort": "Chixia's minions increase the Crit Rate of nearby friendly units.",
+        "descLong": "Chixia's minions increase the Crit Rate of nearby friendly units by <span style=\"color:#ec6d21\">&Param1&</span>, up to &Param2& times.",
         "rarity": 1,
         "build": 1,
         "type": 2,
@@ -19123,7 +20403,7 @@
       {
         "id": 514129,
         "name": "Ink Sigil: Ambush",
-        "descShort": "When Chixia's minions deal DMG, increases all friendly units' ATK near the target.",
+        "descShort": "When Chixia's minions deal DMG, increases all friendly units' ATK.",
         "descLong": "When Chixia's minions deal DMG, increases all friendly units' ATK near the target by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.",
         "rarity": 2,
         "build": 2,
@@ -19218,7 +20498,7 @@
       {
         "id": 514132,
         "name": "Prayer of Raging Flame",
-        "descShort": "The Ultimate can inflict <span style=\"color:#6A90EB\">Ignis Mark: Sacred Flame</span>. When dealing DMG, increases all friendly units' &Param4&.",
+        "descShort": "The Ultimate can inflict <span style=\"color:#6A90EB\">Ignis Mark: Sacred Flame</span>. When dealing DMG, increases your squad's &Param4&.",
         "descLong": "Dragon's Ascension (Ultimate) can inflict <span style=\"color:#6A90EB\">Ignis Mark: Sacred Flame</span>. When dealing DMG to a target, increases all friendly units' &Param4& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, stacking up to &Param3& times.",
         "rarity": 1,
         "build": 3,
@@ -19270,7 +20550,7 @@
         "id": 514133,
         "name": "Sigil Unleashed: Flame Glow",
         "descShort": "Increases Ignis Trekkers' Ignis DMG.",
-        "descLong": "Increases all Ignis squadmates' Ignis DMG by <span style=\"color:#ec6d21\">&Param1&</span>.",
+        "descLong": "Increases all Ignis Trekkers' Ignis DMG by <span style=\"color:#ec6d21\">&Param1&</span>.",
         "rarity": 2,
         "build": 3,
         "type": 2,
@@ -19407,13 +20687,13 @@
     "supportBuild1Name": "Cosette: Support Build 1",
     "supportBuild1Desc": "A build that enhances claw strike range and pulls targets, synergizing with the main Trekker's attacks.",
     "supportBuild2Name": "Cosette: Support Build 2",
-    "supportBuild2Desc": "A build that increases the number of claw strikes and boosts all allies' DPS.",
+    "supportBuild2Desc": "A build that increases the number of claw strikes and boosts the squad's DPS.",
     "potentials": [
       {
         "id": 514201,
         "name": "Nocturn Rip",
-        "descShort": "Increases the Main Skill's DMG and Attack Range.\u000bWhen casting the Main Skill, increases squadmates' &Param2&.",
-        "descLong": "Increases DMG of the second heavy punch of Nocturn Hooks (Main Skill) by <span style=\"color:#0abec5\">&Param1&</span>, as well as its Attack Range.\u000bWhen casting the Main Skill, increases squadmates' &Param2& by <span style=\"color:#0abec5\">&Param3&</span> for &Param4&s.",
+        "descShort": "Increases the Main Skill's DMG and Attack Range.\u000bWhen casting the Main Skill, increases all friendly units' &Param2&.",
+        "descLong": "Increases DMG of the second heavy punch of Nocturn Hooks (Main Skill) by <span style=\"color:#0abec5\">&Param1&</span>, as well as its Attack Range.\u000bWhen casting the Main Skill, increases all friendly units' &Param2& by <span style=\"color:#0abec5\">&Param3&</span> for &Param4&s.",
         "rarity": 3,
         "build": 1,
         "type": 1,
@@ -19503,7 +20783,7 @@
           {
             "idx": 5,
             "values": [
-              "Attack Speed"
+              "ATK SPD"
             ]
           },
           {
@@ -19615,8 +20895,8 @@
       {
         "id": 514206,
         "name": "Darkclaw Mark",
-        "descShort": "When the Main Skill kills a target, increases squadmates' &Param1&.",
-        "descLong": "When Nocturn Hooks (Main Skill) kills a target, increases squadmates' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+        "descShort": "When the Main Skill kills a target, increases all friendly units' &Param1&.",
+        "descLong": "When Nocturn Hooks (Main Skill) kills a target, increases all friendly units' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
         "rarity": 1,
         "build": 1,
         "type": 1,
@@ -19660,8 +20940,8 @@
       {
         "id": 514207,
         "name": "Darkclaw Etch",
-        "descShort": "When casting the Main Skill, increases squadmates' &Param1&.",
-        "descLong": "When casting Nocturn Hooks (Main Skill), increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+        "descShort": "When casting the Main Skill, increases all friendly units' &Param1&.",
+        "descLong": "When casting Nocturn Hooks (Main Skill), increases all friendly units' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
         "rarity": 1,
         "build": 1,
         "type": 1,
@@ -19705,8 +20985,8 @@
       {
         "id": 514208,
         "name": "Twilight Wish",
-        "descShort": "When Cosette uses Auto Attacks, increases squadmates' &Param1&.",
-        "descLong": "When Cosette uses Auto Attacks, increases squadmates' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+        "descShort": "When Cosette uses Auto Attacks, increases all friendly units' &Param1&.",
+        "descLong": "When Cosette uses Auto Attacks, increases all friendly units' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
         "rarity": 2,
         "build": 2,
         "type": 1,
@@ -19894,15 +21174,15 @@
           {
             "idx": 3,
             "values": [
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed"
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD"
             ]
           },
           {
@@ -20027,8 +21307,8 @@
       {
         "id": 514223,
         "name": "Phantom Mark",
-        "descShort": "The Support Skill will launch more strikes. The claw strikes can increase squadmates' &Param1&.",
-        "descLong": "Abyssal Hunter (Support Skill) will launch <span style=\"color:#0abec5\">4</span> additional claw strikes. For every <span style=\"color:#0abec5\">4</span> claw strikes, increases squadmates' &Param1& by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+        "descShort": "The Support Skill will launch more strikes. The claw strikes can increase all friendly units' &Param1&.",
+        "descLong": "Abyssal Hunter (Support Skill) will launch <span style=\"color:#0abec5\">4</span> additional claw strikes. For every <span style=\"color:#0abec5\">4</span> claw strikes, increases all friendly units' &Param1& by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
         "rarity": 3,
         "build": 2,
         "type": 2,
@@ -20062,8 +21342,8 @@
       {
         "id": 514224,
         "name": "Phantom Inscription",
-        "descShort": "Adds a finishing heavy strike to the Support Skill. Cosette's claw strikes can increase squadmates' &Param2&.",
-        "descLong": "Abyssal Hunter (Support Skill) will also launch a finishing heavy strike, dealing <span style=\"color:#0abec5\">&Param1& of ATK</span> as Umbra Skill DMG.\u000bFor every <span style=\"color:#0abec5\">4</span> claw strikes, increases the squad's &Param2& by <span style=\"color:#0abec5\">&Param3&</span> for &Param4&s, stacking up to &Param5& times.",
+        "descShort": "Adds a finishing heavy strike to the Support Skill. Cosette's claw strikes can increase all friendly units' &Param2&.",
+        "descLong": "Abyssal Hunter (Support Skill) will also launch a finishing heavy strike, dealing <span style=\"color:#0abec5\">&Param1& of ATK</span> as Umbra Skill DMG.\u000bFor every <span style=\"color:#0abec5\">4</span> claw strikes, increases all friendly units' &Param2& by <span style=\"color:#0abec5\">&Param3&</span> for &Param4&s, stacking up to &Param5& times.",
         "rarity": 3,
         "build": 2,
         "type": 2,
@@ -20160,8 +21440,8 @@
       {
         "id": 514226,
         "name": "Dark: Mirage",
-        "descShort": "The Support Skill attacks random nearby targets. When Cosette inflicts <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>, increases squadmates' &Param1&.",
-        "descLong": "Abyssal Hunter (Support Skill) now attacks random nearby targets.\u000bWhen Cosette inflicts <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span> to a target without a Mark, increases squadmates' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+        "descShort": "The Support Skill attacks random nearby targets. When Cosette inflicts <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>, increases all friendly units' &Param1&.",
+        "descLong": "Abyssal Hunter (Support Skill) now attacks random nearby targets.\u000bWhen Cosette inflicts <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span> to a target without a Mark, increases all friendly units' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
         "rarity": 2,
         "build": 1,
         "type": 2,
@@ -20256,8 +21536,8 @@
       {
         "id": 514228,
         "name": "Dark: Hallucination",
-        "descShort": "When the Support Skill deals DMG, there is a chance to stun the target. Also increases squadmates' &Param1&.",
-        "descLong": "When Abyssal Hunter (Support Skill) deals DMG, there is a 30% chance to stun the target for 3s. Also increases squadmates' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s. This effect can only be triggered once every 0.5s.",
+        "descShort": "When the Support Skill deals DMG, there is a chance to stun the target. Also increases all friendly units' &Param1&.",
+        "descLong": "When Abyssal Hunter (Support Skill) deals DMG, there is a 30% chance to stun the target for 3s. Also increases all friendly units' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s. This effect can only be triggered once every 0.5s.",
         "rarity": 2,
         "build": 2,
         "type": 2,
@@ -20528,7 +21808,7 @@
         "id": 514242,
         "name": "Nether Blaze",
         "descShort": "When the Ultimate deals DMG, increases the target's &Param1&.",
-        "descLong": "When Dark Apocalypse (Ultimate) deals DMG, increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
+        "descLong": "When Dark Apocalypse (Ultimate) deals damage, increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
         "rarity": 1,
         "build": 3,
         "type": 3,
@@ -20565,12 +21845,6 @@
             "idx": 3,
             "values": [
               "10"
-            ]
-          },
-          {
-            "idx": 4,
-            "values": [
-              "1"
             ]
           }
         ]
@@ -21591,8 +22865,8 @@
       {
         "id": 514441,
         "name": "Serpent's Saliva",
-        "descShort": "Increases Chitose's &Param1&. When the Ultimate triggers <span style=\"color:#6A90EB\">Aqua Mark</span>, there is a chance to convert 1 stack of <span style=\"color:#6A90EB\">Cold</span>.",
-        "descLong": "Increases Chitose's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. When Naraka Waves (Ultimate) triggers <span style=\"color:#6A90EB\">Aqua Mark</span>, there is a 50% chance to convert 1 stack of <span style=\"color:#6A90EB\">Cold</span>.",
+        "descShort": "Increases Chitose's &Param1&. When the Ultimate triggers <span style=\"color:#6A90EB\">Aqua Mark</span>, there is a chance to convert 1 stack of <span style=\"color:#6A90EB\">Chill</span>.",
+        "descLong": "Increases Chitose's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. When Naraka Waves (Ultimate) triggers <span style=\"color:#6A90EB\">Aqua Mark</span>, there is a 50% chance to convert 1 stack of <span style=\"color:#6A90EB\">Chill</span>.",
         "rarity": 1,
         "build": 3,
         "type": 3,
@@ -21675,8 +22949,8 @@
       {
         "id": 514443,
         "name": "Tide of Serpent Bones",
-        "descShort": "Increases Ultimate DMG to targets inflicted with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span>.",
-        "descLong": "Increases Waves of Naraka (Ultimate)'s DMG to targets inflicted with <span style=\"color:#6A90EB\">Cold</span>/<span style=\"color:#6A90EB\">Frozen</span> by <span style=\"color:#ec6d21\">&Param2&</span>.",
+        "descShort": "Increases Ultimate DMG to targets inflicted with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span>.",
+        "descLong": "Increases Waves of Naraka (Ultimate)'s DMG to targets inflicted with <span style=\"color:#6A90EB\">Chill</span>/<span style=\"color:#6A90EB\">Frozen</span> by <span style=\"color:#ec6d21\">&Param2&</span>.",
         "rarity": 1,
         "build": 3,
         "type": 3,
@@ -21833,7 +23107,7 @@
       {
         "id": 514705,
         "name": "Tempo Shift",
-        "descShort": "When Caramel launches the last strike of her Auto Attack, increases her Movement Speed and Attack Speed.",
+        "descShort": "When Caramel launches the last strike of her Auto Attack, increases her Movement SPD and ATK SPD.",
         "descLong": "When Caramel launches the last strike of her Auto Attack, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> and &Param3& by &Param4& for &Param5&s, stacking up to &Param6& times.",
         "rarity": 2,
         "build": 1,
@@ -21842,15 +23116,15 @@
           {
             "idx": 1,
             "values": [
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed",
-              "Attack Speed"
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD",
+              "ATK SPD"
             ]
           },
           {
@@ -21870,7 +23144,7 @@
           {
             "idx": 3,
             "values": [
-              "Movement Speed"
+              "Movement SPD"
             ]
           },
           {
@@ -21940,7 +23214,7 @@
       },
       {
         "id": 514707,
-        "name": "Crescendo Beat",
+        "name": "Rising Tone",
         "descShort": "When Caramel is near Demonic Boombox, increases her &Param1&.",
         "descLong": "When Caramel is near Demonic Boombox, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
         "rarity": 1,
@@ -22519,7 +23793,7 @@
       },
       {
         "id": 514732,
-        "name": "Infernal Ember",
+        "name": "Blazing Remnant",
         "descShort": "Increases Support Skill DMG to targets inflicted with <span style=\"color:#6A90EB\">Umbra Burn</span>.",
         "descLong": "Increases Melodic Sweep (Support Skill)'s DMG to targets inflicted with <span style=\"color:#6A90EB\">Umbra Burn</span> by <span style=\"color:#ec6d21\">&Param2&</span>.",
         "rarity": 1,
@@ -22683,7 +23957,7 @@
     "element": 3,
     "grade": 1,
     "mainBuild1Name": "Gerie: Main Build 1",
-    "mainBuild1Desc": "An Auto Attack build that increases Movement Speed, attack range, and DMG after casting a skill.",
+    "mainBuild1Desc": "An Auto Attack build that increases Movement SPD, attack range, and DMG after casting a skill.",
     "mainBuild2Name": "Gerie: Main Build 2",
     "mainBuild2Desc": "A skill build that increases the number of targets linked by skills and creates chain reactions with Trekkers.",
     "supportBuild1Name": "Gerie: Support Build 1",
@@ -22694,8 +23968,8 @@
       {
         "id": 514901,
         "name": "Beyond All Control",
-        "descShort": "When Gerie is in Lethal status, increases her Movement Speed and &Param1&. Lethal status remains active even when Gerie is not at the vicinity of Iron Cage.",
-        "descLong": "When Gerie is in Lethal status, increases her Movement Speed by <span style=\"color:#0abec5\">&Param3&</span> and her &Param1& by <span style=\"color:#0abec5\">&Param2&</span>. Lethal is no longer limited to the vicinity of Iron Cage.",
+        "descShort": "When Gerie is in Lethal status, increases her Movement SPD and &Param1&. Lethal status remains active even when Gerie is not at the vicinity of Iron Cage.",
+        "descLong": "When Gerie is in Lethal status, increases her Movement SPD by <span style=\"color:#0abec5\">&Param3&</span> and her &Param1& by <span style=\"color:#0abec5\">&Param2&</span>. Lethal is no longer limited to the vicinity of Iron Cage.",
         "rarity": 3,
         "build": 1,
         "type": 1,
@@ -22948,7 +24222,7 @@
         "id": 514908,
         "name": "Slanderous Strike",
         "descShort": "Reduces the &Param1& of targets linked by the Iron Cage. \u000bIncreases Gerie's DMG to slowed targets.",
-        "descLong": "Reduces the Movement Speed of targets linked by the Iron Cage by &Param2&. Increases Gerie's DMG to slowed targets by <span style=\"color:#ec6d21\">&Param4&</span>.",
+        "descLong": "Reduces the Movement SPD of targets linked by the Iron Cage by &Param2&. Increases Gerie's DMG to slowed targets by <span style=\"color:#ec6d21\">&Param4&</span>.",
         "rarity": 1,
         "build": 2,
         "type": 1,
@@ -22956,7 +24230,7 @@
           {
             "idx": 1,
             "values": [
-              "Movement Speed"
+              "Movement SPD"
             ]
           },
           {
@@ -23689,8 +24963,8 @@
       {
         "id": 514942,
         "name": "Quadrifrons' Lore",
-        "descShort": "Increases Gerie's &Param1&. When a squadmate triggers <span style=\"color:#6A90EB\">Terra Mark</span> on a target, additionally increases Gerie's Ultimate DMG to the same target.",
-        "descLong": "Increases Gerie's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. When a squadmate triggers <span style=\"color:#6A90EB\">Terra Mark</span> on a target, additionally increases Gerie's Ultimate DMG by <span style=\"color:#ec6d21\">&Param3&</span> to the same target for &Param4&s.",
+        "descShort": "Increases Gerie's &Param1&. When a friendly unit triggers <span style=\"color:#6A90EB\">Terra Mark</span> on a target, additionally increases Gerie's Ultimate DMG to the same target.",
+        "descLong": "Increases Gerie's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. When a friendly unit triggers <span style=\"color:#6A90EB\">Terra Mark</span> on a target, additionally increases Gerie's Ultimate DMG by <span style=\"color:#ec6d21\">&Param3&</span> to the same target for &Param4&s.",
         "rarity": 1,
         "build": 3,
         "type": 3,
@@ -23996,8 +25270,8 @@
       {
         "id": 515005,
         "name": "Lance's Song",
-        "descShort": "After casting the Main Skill, increases Laru's Attack Speed and Auto Attack DMG.",
-        "descLong": "After casting &Param1& (Main Skill), increases Attack Speed by &Param2& and Auto Attack DMG by <span style=\"color:#ec6d21\">&Param3&</span>, lasting for &Param4&s.",
+        "descShort": "After casting the Main Skill, increases Laru's ATK SPD and Auto Attack DMG.",
+        "descLong": "After casting &Param1& (Main Skill), increases ATK SPD by &Param2& and Auto Attack DMG by <span style=\"color:#ec6d21\">&Param3&</span>, lasting for &Param4&s.",
         "rarity": 1,
         "build": 1,
         "type": 1,
@@ -24205,7 +25479,7 @@
       },
       {
         "id": 515011,
-        "name": "Teleport",
+        "name": "Swift Strike",
         "descShort": "Laru deals DMG when her dash is interrupted.",
         "descLong": "After Laru dashes for over 2 sec, interrupting the dash deals <span style=\"color:#ec6d21\">&Param2& of ATK</span> as AoE Lux Skill DMG. This effect can only be triggered once every &Param3&s.",
         "rarity": 2,
@@ -24236,7 +25510,7 @@
       },
       {
         "id": 515012,
-        "name": "Holy Inscription",
+        "name": "Holy Sigil",
         "descShort": "When the Main Skill triggers <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>, increases the Ultimate DMG.",
         "descLong": "When &Param1& (Main Skill) triggers <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>, increases Ultimate DMG by <span style=\"color:#ec6d21\">&Param3&</span> for &Param5&s, stacking up to &Param4& times.",
         "rarity": 1,
@@ -25254,8 +26528,8 @@
       {
         "id": 515511,
         "name": "Leporine Gale",
-        "descShort": "While &Param10& (Main Skill) is active, increases Shia's Movement Speed.\u000bWhen there are no nearby targets, increases Shia's &Param3&.",
-        "descLong": "While &Param10& (Main Skill) is active, increases Shia's Movement Speed by &Param1&.\u000bWhen there are no nearby targets, increases Shia's &Param3& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+        "descShort": "While &Param10& (Main Skill) is active, increases Shia's Movement SPD.\u000bWhen there are no nearby targets, increases Shia's &Param3&.",
+        "descLong": "While &Param10& (Main Skill) is active, increases Shia's Movement SPD by &Param1&.\u000bWhen there are no nearby targets, increases Shia's &Param3& by <span style=\"color:#ec6d21\">&Param2&</span>.",
         "rarity": 2,
         "build": 3,
         "type": 1,
@@ -26002,8 +27276,8 @@
       {
         "id": 515601,
         "name": "Small Force",
-        "descShort": "Increases the penguin plushie's size and Movement Speed. When the penguin plushie deals DMG, increases the target's &Param1&.",
-        "descLong": "Significantly increases the penguin plushie's size and Movement Speed. When the penguin plushie deals DMG, increases the target's &Param1& by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+        "descShort": "Increases the penguin plushie's size and Movement SPD. When the penguin plushie deals DMG, increases the target's &Param1&.",
+        "descLong": "Significantly increases the penguin plushie's size and Movement SPD. When the penguin plushie deals DMG, increases the target's &Param1& by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
         "rarity": 3,
         "build": 1,
         "type": 1,
@@ -26082,8 +27356,8 @@
       {
         "id": 515604,
         "name": "Graceful Turn",
-        "descShort": "When Nazuna reloads during an Auto Attack, she delivers a spinning shot, firing multiple tracking crossbow bolts. Also increases all squadmates' &Param2&.",
-        "descLong": "When Nazuna reloads during an Auto Attack, she delivers a spinning shot, firing 6 tracking crossbow bolts, each dealing <span style=\"color:#0abec5\">&Param1& of ATK</span> as Terra Auto Attack DMG and inflicting <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>. When reloading, increases all squadmates' &Param2& by <span style=\"color:#0abec5\">&Param3&</span> for &Param4&s.",
+        "descShort": "When Nazuna reloads during an Auto Attack, she delivers a spinning shot, firing multiple tracking crossbow bolts. Also increases the squad's &Param2&.",
+        "descLong": "When Nazuna reloads during an Auto Attack, she delivers a spinning shot, firing 6 tracking crossbow bolts, each dealing <span style=\"color:#0abec5\">&Param1& of ATK</span> as Terra Auto Attack DMG and inflicting <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>. When reloading, increases the squad's &Param2& by <span style=\"color:#0abec5\">&Param3&</span> for &Param4&s.",
         "rarity": 3,
         "build": 2,
         "type": 1,
@@ -26324,7 +27598,7 @@
       {
         "id": 515610,
         "name": "Focus Fire",
-        "descShort": "While Nazuna's Main Skill is on cooldown, increases all squadmates' &Param1&.",
+        "descShort": "While Nazuna's Main Skill is on cooldown, increases the squad's &Param1&.",
         "descLong": "While Plushie Dance (Main Skill) is on cooldown, increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
         "rarity": 1,
         "build": 2,
@@ -26363,8 +27637,8 @@
       {
         "id": 515611,
         "name": "Swiftstep",
-        "descShort": "Nazuna can dodge one more time. When dodging, increases all squadmates' &Param1&.",
-        "descLong": "Nazuna can dodge one more time.\u000bWhen dodging, increases all squadmates' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+        "descShort": "Nazuna can dodge one more time. When dodging, increases the squad's &Param1&.",
+        "descLong": "Nazuna can dodge one more time.\u000bWhen dodging, increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
         "rarity": 1,
         "build": 3,
         "type": 1,
@@ -26408,8 +27682,8 @@
       {
         "id": 515612,
         "name": "Touch of Nature",
-        "descShort": "Increases all Terra squadmates' &Param1&.",
-        "descLong": "Increases all Terra squadmates' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+        "descShort": "Increases all Terra Trekkers' &Param1&.",
+        "descLong": "Increases all Terra Trekkers' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
         "rarity": 2,
         "build": 3,
         "type": 1,
@@ -26447,8 +27721,8 @@
       {
         "id": 515613,
         "name": "Wily Wonder",
-        "descShort": "When Nazuna casts the Main Skill, increases all squadmates' &Param1&.",
-        "descLong": "When Nazuna casts Plushie Dance (Main Skill), increases all squadmates' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+        "descShort": "When Nazuna casts the Main Skill, increases the squad's &Param1&.",
+        "descLong": "When Nazuna casts Plushie Dance (Main Skill), increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
         "rarity": 1,
         "build": 3,
         "type": 1,
@@ -26845,8 +28119,8 @@
       {
         "id": 515631,
         "name": "Lucky Drop",
-        "descShort": "When Nazuna is on the battlefield, increases all Terra squadmates' &Param1&.",
-        "descLong": "When Nazuna is on the battlefield, increases all Terra squadmates' &Param1& by <span style=\"color:#fb8037\">&Param2&</span>.",
+        "descShort": "When Nazuna is on the battlefield, increases all Terra Trekkers' &Param1&.",
+        "descLong": "When Nazuna is on the battlefield, increases all Terra Trekkers' &Param1& by <span style=\"color:#fb8037\">&Param2&</span>.",
         "rarity": 2,
         "build": 3,
         "type": 2,
