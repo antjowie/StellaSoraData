@@ -28381,6 +28381,7 @@
       "id": 211001,
       "name": "Crisp Morning",
       "desc": "Standing in the wilderness, a gentle breeze caresses.\nAnother day blooms anew.",
+      "element": 7,
       "rarity": 3,
       "skills": [
         {
@@ -28407,6 +28408,7 @@
       "id": 211002,
       "name": "Sunny Breeze",
       "desc": "A golden sea, brimming with the joy of harvest.\nMake sure to eat well and take care of yourself!",
+      "element": 7,
       "rarity": 3,
       "skills": [
         {
@@ -28433,6 +28435,7 @@
       "id": 211003,
       "name": "Indigo Sunset",
       "desc": "A tiny broom soaring with grand dreams.\nThe cloud-hidden scenery awaits tomorrow's discovery.",
+      "element": 7,
       "rarity": 3,
       "skills": [
         {
@@ -28459,6 +28462,7 @@
       "id": 211004,
       "name": "Pink Dream",
       "desc": "A princess revered by all, a hero returning with honors.\nDreams are blind to status; your harvest grows with every step you take.",
+      "element": 7,
       "rarity": 3,
       "skills": [
         {
@@ -28485,6 +28489,7 @@
       "id": 211005,
       "name": "Lonely Dunes",
       "desc": "The sand sea engulfs the horizon, obscuring the journey's end.\nIt's time to pause and catch your breath.",
+      "element": 7,
       "rarity": 3,
       "skills": [
         {
@@ -28511,6 +28516,7 @@
       "id": 211006,
       "name": "Sweet Creek",
       "desc": "A sparkling spring kisses your skirt hem, stopping you in your tracks.\nQuench your thirst first, then brace yourself for the thorny path ahead.",
+      "element": 7,
       "rarity": 3,
       "skills": [
         {
@@ -28537,6 +28543,7 @@
       "id": 211007,
       "name": "Starlit Hope",
       "desc": "Shimmering stars light up the night sky.\nBrave maidens, it's time to embark on your journey!",
+      "element": 7,
       "rarity": 3,
       "skills": [
         {
@@ -28563,6 +28570,7 @@
       "id": 211008,
       "name": "Homeward Path",
       "desc": "Gentle starlight, farewell to today.\nThe bell rings to close today's business!",
+      "element": 7,
       "rarity": 3,
       "skills": [
         {
@@ -28589,6 +28597,7 @@
       "id": 212001,
       "name": "Grand Feast",
       "desc": "I can't wait!\nI'm desperate to savor my favorite iced black tea, sweetened with sugar, topped with creamy foam, infused with tangerine slices, sprinkled with chocolate crumbs, and blended with pineapple and mango juice!",
+      "element": 7,
       "rarity": 3,
       "skills": [
         {
@@ -28615,6 +28624,7 @@
       "id": 212002,
       "name": "Whoopla",
       "desc": "Spinning around in circles, vying for the chairs.\nOnly those who grab a chair get to sit down.\nWait, aren't we playing \"Freeze Dance\"?",
+      "element": 7,
       "rarity": 3,
       "skills": [
         {
@@ -28641,6 +28651,7 @@
       "id": 212003,
       "name": "Elysium",
       "desc": "To Whom It May Concern,\nWith admiration for your outstanding dance skills,\nyou are warmly invited to this never-ending dance party.",
+      "element": 7,
       "rarity": 3,
       "skills": [
         {
@@ -28667,6 +28678,7 @@
       "id": 212005,
       "name": "Flare Frenzy",
       "desc": "Pump up the jam, and keep the dance floor thumpin'!\nLet the volume shatter the skies, let our passion ignite the clouds!\nMy adrenaline has skyrocketed to its absolute limit!",
+      "element": 2,
       "rarity": 3,
       "skills": [
         {
@@ -28693,6 +28705,7 @@
       "id": 212006,
       "name": "Auspicious Glow",
       "desc": "At the dawn of creation,\nshattered beliefs hovered above the horizon, casting its glow over the world.\nHumans leaped over mountains, gazing boldly at the gods.\nAnd then, heaven and earth split, the light dimmed, and days merged into an endless flow.",
+      "element": 5,
       "rarity": 3,
       "skills": [
         {
@@ -28719,6 +28732,7 @@
       "id": 212007,
       "name": "Brave the Wind",
       "desc": "The wind awakens all creatures and paints the forest with a splash of vibrant colors, whispering the news of the party to every corner of the woods and caves:\nThe grand celebration of the forest and its elves is about to begin!",
+      "element": 4,
       "rarity": 3,
       "skills": [
         {
@@ -28745,6 +28759,7 @@
       "id": 212008,
       "name": "Bubbles",
       "desc": "Keep the joyful moments for yourself.\nEmbrace it as a break—immerse yourself in this refreshing, fleeting joy.",
+      "element": 1,
       "rarity": 3,
       "skills": [
         {
@@ -28771,6 +28786,7 @@
       "id": 212009,
       "name": "Eclipse",
       "desc": "Its grudge still rages within, burning fiercely.\n\"——! ——————!!\"\nAlas, it's hard to comprehend its sorrowful cries.",
+      "element": 6,
       "rarity": 3,
       "skills": [
         {
@@ -28797,6 +28813,7 @@
       "id": 212010,
       "name": "Fortitude",
       "desc": "Once the war horn sounds, there's no going back.\nFight! Fight until the bitter end!",
+      "element": 3,
       "rarity": 3,
       "skills": [
         {
@@ -28823,6 +28840,7 @@
       "id": 213003,
       "name": "Scorching Night's End",
       "desc": "On the stage enveloped by cheers, they shine brightly as they play their final melody.\nThe tumultuous emotions ignite the notes, consuming this night with fiery passion.",
+      "element": 2,
       "rarity": 2,
       "skills": [
         {
@@ -28969,6 +28987,7 @@
       "id": 213004,
       "name": "Twin Moon Mischief",
       "desc": "The charming and elegant Ashwind Twin Moons;\nthe wise and witty protagonist.\nBlack holes loom, foreshadowing a dark tomorrow for you all!",
+      "element": 2,
       "rarity": 2,
       "skills": [
         {
@@ -29105,6 +29124,7 @@
       "id": 213005,
       "name": "★Bam Bam Girl★",
       "desc": "Bammm! The cells are splitting!\nGurgleee! The brains are boiling!\nSliced right from the top,\none me multiplies into a thousand—how do you find the true me?",
+      "element": 5,
       "rarity": 2,
       "skills": [
         {
@@ -29251,6 +29271,7 @@
       "id": 213006,
       "name": "Good Night",
       "desc": "Sinking into the cozy embrace of my soft bed, I find myself utterly unwilling to stir.\nIf we drift off together, will our dreams intertwine?",
+      "element": 5,
       "rarity": 2,
       "skills": [
         {
@@ -29387,6 +29408,7 @@
       "id": 213007,
       "name": "Emerald Dream",
       "desc": "Golden birds flap their wings, splitting the dreamscape as soft as clouds.\nIn the cracks where memories weave, we will eventually meet the ones we long to see.",
+      "element": 4,
       "rarity": 2,
       "skills": [
         {
@@ -29533,6 +29555,7 @@
       "id": 213008,
       "name": "Tranquil Retreat",
       "desc": "The scenery along the journey is a gift we should appreciate. Let's take it slow, bring some snacks, and enjoy this bright, sunny break—it'll surely add a joyful chapter to our memories.",
+      "element": 4,
       "rarity": 2,
       "skills": [
         {
@@ -29669,6 +29692,7 @@
       "id": 213009,
       "name": "Rainy Tune",
       "desc": "Warm raindrops trickle down from head to toe, sliding down every inch of my skin. Ah—choo! It's not a cold, just the soap bubbles tickling me again.",
+      "element": 1,
       "rarity": 2,
       "skills": [
         {
@@ -29815,6 +29839,7 @@
       "id": 213010,
       "name": "Steam Syndrome",
       "desc": "The whirling harbor breeze,\nThe hot air from the steaming baskets...\nAs you lean in close, your breath merges with.\nThe neon-hued vapors, blurring my vision.",
+      "element": 1,
       "rarity": 2,
       "skills": [
         {
@@ -29951,6 +29976,7 @@
       "id": 213011,
       "name": "Meow Rhythm",
       "desc": "Beyond the veil of silence and solemnity, is there another side of you that I haven't yet discovered? Electronic-distorted notes peel away the mundane facade, revealing a tender gaze under the neon glow that beckons me toward you.",
+      "element": 6,
       "rarity": 2,
       "skills": [
         {
@@ -30097,6 +30123,7 @@
       "id": 213012,
       "name": "Starry Night Ode",
       "desc": "With the earth as our stage and the starry sky as our backdrop,\nListen up, universe—this is our moment to shine!",
+      "element": 6,
       "rarity": 2,
       "skills": [
         {
@@ -30233,6 +30260,7 @@
       "id": 213013,
       "name": "Leaf Her to Me",
       "desc": "Dart through fields of wheat and play in maple forests, pausing where the seasons meet.\nOh, sun-kissed child, hide away, before the pains of growing up can find you.",
+      "element": 3,
       "rarity": 2,
       "skills": [
         {
@@ -30379,6 +30407,7 @@
       "id": 213014,
       "name": "The Knight's Smith",
       "desc": "Tighten the screws, apply the grease.\nBehind every great knight is an even greater blacksmith.\nSafe travels—and don't ride too fast!",
+      "element": 3,
       "rarity": 2,
       "skills": [
         {
@@ -30515,6 +30544,7 @@
       "id": 213015,
       "name": "Unknown Fragrance",
       "desc": "I smile often, yet true happiness is a rare guest.\nFor that scent, once vibrant, now fades and drifts further away.\nYet, whenever I reach for it, there's a stinging pain in my heart...",
+      "element": 4,
       "rarity": 2,
       "skills": [
         {
@@ -30661,6 +30691,7 @@
       "id": 213016,
       "name": "Cage of Roses",
       "desc": "You've tasted the sweet forbidden fruit,\nnow you're the goddess of art.\nStand as the sole, ever-blooming rose in this pond of love and desire.\nSing, dance, shine, and repeat.\nKeep going till the strings break, never stop.",
+      "element": 2,
       "rarity": 2,
       "skills": [
         {
@@ -30807,6 +30838,7 @@
       "id": 213017,
       "name": "★Rolling Life★",
       "desc": "Summer wraps up in a blur of sweat, yet there's still time to touch up for the next show.\nIn the corner of a winter celebration, I score the last ice cream cone before closing.\nNo matter how life is divided between work and leisure,\nI'm still me, whole and unchanged.",
+      "element": 5,
       "rarity": 2,
       "skills": [
         {
@@ -30953,6 +30985,7 @@
       "id": 213018,
       "name": "Soda Shopping",
       "desc": "On this eagerly anticipated day,\nStanding before the dazzling shelves,\nWhich beverage holds the most anticipated flavor?\nIf you're torn between decisions,\nThen take them all with you!",
+      "element": 1,
       "rarity": 2,
       "skills": [
         {
@@ -31099,6 +31132,7 @@
       "id": 213019,
       "name": "Delusion",
       "desc": "Shimmering like fragile bubbles, they are dreams woven from pure imagination.\nAs these dreams burst and their shimmer fades, they uncover the purest truth,\nwhispering it all in silence.",
+      "element": 6,
       "rarity": 2,
       "skills": [
         {
@@ -31245,6 +31279,7 @@
       "id": 213020,
       "name": "The Shining",
       "desc": "The moment wood splinters flew, a ravenous hunger burst through the door.\n\"No—get away from my emergency food stash! Aaaaah!\"",
+      "element": 3,
       "rarity": 2,
       "skills": [
         {
@@ -31391,6 +31426,7 @@
       "id": 213021,
       "name": "Miraculous Anthem",
       "desc": "Mirrors never tell lies;\nthey beckon you in and bid you farewell.\nYour fate is inscribed on a particle of drifting dust,\nwhile divine prophecy mirrors itself in my gaze.",
+      "element": 4,
       "rarity": 2,
       "skills": [
         {
@@ -31536,6 +31572,7 @@
       "id": 213022,
       "name": "Love River's Curse",
       "desc": "Here lies the gateway to the Inferno.\nIt leads straight to the abyss of sin.\nI wait by the riverbank, illuminating your sorrowful journey ahead,\nblessing you to plunge into my eternal love.",
+      "element": 2,
       "rarity": 2,
       "skills": [
         {
@@ -31681,6 +31718,7 @@
       "id": 213023,
       "name": "Pure White",
       "desc": "You skillfully push open the door,\nAnd her pristine wings bring solace to your aching heart.\nTogether, you share a serene silence, a peaceful bond just between the two of you.\nYou know that her silence is her ultimate compassion towards you.\nAnd your visit is the sole redemption she can ever hope for.",
+      "element": 5,
       "rarity": 2,
       "skills": [
         {
@@ -31826,6 +31864,7 @@
       "id": 213024,
       "name": "Holiday Bubble",
       "desc": "\"Hey, regular! Good to see ya! Your usual?\"\n\"Huh? This seat's for toddlers only?\"\n\"Eh, rules are made to be broken, right? Nobody's watching anyway!\"\n\"Zoning out is adult paradise!\"\n\nPerfect vacation goals right here!\nResting on the register, she savors a dream, tart and sweet.",
+      "element": 1,
       "rarity": 2,
       "skills": [
         {
@@ -31971,6 +32010,7 @@
       "id": 213025,
       "name": "Sweet Invitation",
       "desc": "O little bunny,\nclose your eyes and drift to sleep,\nI'll cradle you in the arms of the night;\n\nO little bunny,\nrest your head and dream sweetly,\nI promise you the sweetest treat of all.",
+      "element": 6,
       "rarity": 2,
       "skills": [
         {
@@ -32116,6 +32156,7 @@
       "id": 213026,
       "name": "Vent It Out ♥",
       "desc": "\"La-la-la—welcome home, Master! ♥\"\n\"Whether it's the weariness in your heart or the misfortune at your side,\"\n\"I will personally help you sweep all that nasty trash away!\"\n\"Let me turn my energy into your magic! ♥\"\n\"Heaven's cutest maid, Beatrixa, at your service! ♥\"\n\nWith a clear, lively voice and an impossibly cute demeanor,\nshe gave her all every day\nto deliver healing and hope to her fans across the Nova Continent.",
+      "element": 3,
       "rarity": 2,
       "skills": [
         {
@@ -32261,6 +32302,7 @@
       "id": 214001,
       "name": "Meowing Cat God",
       "desc": "Humans are born alone.\nOnly in the heat of battle do we truly feel alive.\nHuh? Cool guys don't look at explosions? Fine, I heard you—",
+      "element": 2,
       "rarity": 1,
       "skills": [
         {
@@ -32507,6 +32549,7 @@
       "id": 214002,
       "name": "Sky, Flowers, Poem",
       "desc": "Like flower petals, your departing form dissolves,\nBeneath starlit nights, our vows still warm my palm,\nThese perfumed days bring thoughts of you, despite my own will.",
+      "element": 4,
       "rarity": 1,
       "skills": [
         {
@@ -32753,6 +32796,7 @@
       "id": 214005,
       "name": "Sunlit Blossom",
       "desc": "The blossoms drift in rainy haze,\nThat flowered in bright sunny days.\nA rainbow's gleam within my hand—\nCould such beauty ever stay?",
+      "element": 1,
       "rarity": 1,
       "skills": [
         {
@@ -32966,6 +33010,7 @@
       "id": 214006,
       "name": "Witch's Swing",
       "desc": "The witch stands proud, head held high,\nGranting honey, venom, and love divine.\nYou who failed to choose your princess right,\nEmbrace this cruel pleasure, and dance with me tonight?",
+      "element": 6,
       "rarity": 1,
       "skills": [
         {
@@ -33240,6 +33285,7 @@
       "id": 214007,
       "name": "Midnight Mayhem",
       "desc": "They set the rules of right and wrong,\nbut if you loathe these bindings, rise as a midnight knight.\nEven if bloodied and broken, we're staying true to who we are!\nTo those arrogant jerks:\n\"See this mighty fist?\"\n\"After the clock strikes twelve, this is our domain!\"",
+      "element": 5,
       "rarity": 1,
       "skills": [
         {
@@ -33484,6 +33530,7 @@
       "id": 214009,
       "name": "New Star Prelude",
       "desc": "Only one day of food left. Our wallets are empty. The Oasis's Grace is running low...\nWe've staked everything on this Monolith commission...\n—Still, when it's time for the group photo, don't forget to smile!",
+      "element": 4,
       "rarity": 1,
       "skills": [
         {
@@ -33709,6 +33756,7 @@
       "id": 214010,
       "name": "Prayer Beneath Light",
       "desc": "We beseech Thee, have mercy; heed our plea.\nGoddess, do the cries of mortals reach Thine ears?\n...\n—Each word finds Me, finds Us all.\nWe shall guide humanity towards its glorious destiny.",
+      "element": 5,
       "rarity": 1,
       "skills": [
         {
@@ -33944,6 +33992,7 @@
       "id": 214011,
       "name": "Summer Afternoon Rain",
       "desc": "Before looking back at the start, what seemed the end was just\nthe start of a new chapter.\nAre you happy as you've always dreamed you'd be?\nLet's meet again tomorrow.",
+      "element": 1,
       "rarity": 1,
       "skills": [
         {
@@ -34168,6 +34217,7 @@
       "id": 214012,
       "name": "Those with Ambition",
       "desc": "On United Harvest's grand design, Philae stands as just a single point.\nFrom here, I shall draw a perfect circle, claiming the entire Nova.\n—Follow me. Pledge loyalty. March ever onward.",
+      "element": 6,
       "rarity": 1,
       "skills": [
         {
@@ -34403,6 +34453,7 @@
       "id": 214013,
       "name": "Voyage Blueprint",
       "desc": "\"First, we need a ship, then courage, and lastly, faith.\"\nThe adventurer pinned the map\nWhile whitecaps rage from point to point\nWild waters crash and beckon towards mysteries\nShe waits for kindred souls to sail.",
+      "element": 2,
       "rarity": 1,
       "skills": [
         {
@@ -34638,6 +34689,7 @@
       "id": 214014,
       "name": "Sweet Times",
       "desc": "We trekked, picked, and laughed with our friends, sharing sweet fruit that burst with juice in our mouths.",
+      "element": 3,
       "rarity": 1,
       "skills": [
         {
@@ -34873,6 +34925,7 @@
       "id": 214017,
       "name": "Fireworks",
       "desc": "Like a human life, fireworks bloom, flourish, and fade—\nbrief yet brilliant, leaving their unique mark across the night sky.\nIt's much like a Trekker's endless quest to climb the Monolith,\nall for that one day when they might finally hold the stars in their hands...",
+      "element": 2,
       "rarity": 1,
       "skills": [
         {
@@ -35130,6 +35183,7 @@
       "id": 214018,
       "name": "Lemon & Black Tea",
       "desc": "With guilt my heart was heavy worn, to heal the bridge that had been torn.\nThought friendship's door was closed for good,\nTill here we sit, just as we should.\nNew décor graces these old walls, new packages the sweet food calls.\nOne drink runs hot, one drink runs cold,\nSame taste remains from days of old.",
+      "element": 4,
       "rarity": 1,
       "skills": [
         {
@@ -35364,6 +35418,7 @@
       "id": 214019,
       "name": "One Shot, One Down",
       "desc": "Kasimira, are you ready?\nThis is round 37 and our final match for today.\n\nToo bad, just one shot shy.\nIf that shot had landed, you'd have had me beat.\nChaton, your hand wavered at the critical moment.\n\nJust the thought of besting you gets my adrenaline pumping!\nLet's do it again!\n\nRack the gun, we've got the next commission to prep for.\n\n—Looks like Chaton's challenge isn't over yet.",
+      "element": 2,
       "rarity": 1,
       "skills": [
         {
@@ -35608,6 +35663,7 @@
       "id": 214020,
       "name": "Sparkling Moment",
       "desc": "\"Uneventful days aren't worth recording.\"\n\"Dull little things aren't worth recording.\"\n\"Repetitive work isn't worth recording.\"\nBut...are they truly worthless?\nA teammate's reminder before you head out, the wrong turn you took, the smiles and thanks you received...\nThese ordinary fragments of memory condense into tiny points of light.\nEven if the paper turns yellow with time, the brilliance of each day will never be forgotten.",
+      "element": 5,
       "rarity": 1,
       "skills": [
         {
@@ -35842,6 +35898,7 @@
       "id": 214021,
       "name": "United by Fate",
       "desc": "Friends, companions...whatever the name, they all embody the same group of souls united by fate. They converge when the threads of fate intertwine, and disperse when they unwind.\nWhat we can do is cherish every fleeting moment of this reunion, laughing and playing with all our hearts, and etching those precious memories deep into our hearts.\nAnd as the hour of parting draws near, we cling to the hope of a future encounter, anticipating the day we shall meet again.",
+      "element": 1,
       "rarity": 1,
       "skills": [
         {
@@ -36086,6 +36143,7 @@
       "id": 214022,
       "name": "The Meow",
       "desc": "Behold, something looms in the dark.\nListen closely, do you hear those footsteps echoing?\nOdd, a sudden shiver runs down my spine.\n\nA faulty projector, an unknown film reel, and eerie visuals flickering...\nA Trekker's camp at midnight, an uninvited guest, and an unexpected visitor.\n\"Meow—\"\nThe silence envelops all. You close the door, but it has already slipped inside.",
+      "element": 6,
       "rarity": 1,
       "skills": [
         {
@@ -36320,6 +36378,7 @@
       "id": 214023,
       "name": "Colors Pierce the Grey",
       "desc": "We had to take a day off now and then.\nEscape the gang fights and the daily grind,\nstep out under a clear sky, and spray paint a rainbow of our own across it.",
+      "element": 3,
       "rarity": 1,
       "skills": [
         {
@@ -36564,6 +36623,7 @@
       "id": 214026,
       "name": "Sword Against Stream",
       "desc": "Damp hair clung to her back.\nHer clothes were a mess, yet the air was stiflingly still.\nCarrying a heavy heart, even the falling petals seemed to weigh her down.\nAs the rain fell endlessly, your silhouette began to blur.",
+      "element": 1,
       "rarity": 1,
       "skills": [
         {
@@ -36798,6 +36858,7 @@
       "id": 214027,
       "name": "Mystic Brushstrokes",
       "desc": "Brush and ink are her weapons.\nOn the stretched rice paper,\nShe weaves her magic, each brushstroke dancing in unconventional places.\nThis is her realm, a world of enchantment solely under her command.",
+      "element": 2,
       "rarity": 1,
       "skills": [
         {
@@ -37022,6 +37083,7 @@
       "id": 214028,
       "name": "Daylight Garden",
       "desc": "A petal without a name or number\ndrifts into the silent garden,\ncarrying a blush of crimson and a vision of pure white,\nsettling into a golden specimen, alongside a vanished dream.",
+      "element": 4,
       "rarity": 1,
       "skills": [
         {
@@ -37276,6 +37338,7 @@
       "id": 214030,
       "name": "A Moment in the Afternoon",
       "desc": "The girl burst in with the afternoon sun,\nbringing with her the aroma of snacks.\nFries? Grilled fish? Or a loaf of fluffy, warm bread?\nYou had to grab something\nto enjoy this stolen moment of peace.",
+      "element": 5,
       "rarity": 1,
       "skills": [
         {
@@ -37522,6 +37585,7 @@
       "id": 214031,
       "name": "The Clash of Blade and Axe",
       "desc": "An alarm blared as blade met axe.\nThe cage shattered, and she plunged into the abyss.\nThrough the crimson rain, she met your eyes.",
+      "element": 1,
       "rarity": 1,
       "skills": [
         {
@@ -37768,6 +37832,7 @@
       "id": 214032,
       "name": "Dream Factory of ☆Truth",
       "desc": "Facts captured.\nPhotos printed.\nStory broadcast.\nWelcome to the witches' Dream Factory of ☆Truth!",
+      "element": 6,
       "rarity": 1,
       "skills": [
         {
@@ -38024,6 +38089,7 @@
       "id": 214033,
       "name": "Dancing with the Bones",
       "desc": "Ah, welcome to my ball, my dear patient.\nListen, the music is playing. Come, dance with my collection among these phantom bubbles.",
+      "element": 3,
       "rarity": 1,
       "skills": [
         {
@@ -38259,6 +38325,7 @@
       "id": 214036,
       "name": "The Lost Pilgrim",
       "desc": "Body bound, soul eroded,\neven pain masquerades as a mire of salvation.\nThe fallen priestess still wanders\non a pilgrimage with no answers and no end,\nawaiting a righteous one to grant her release.",
+      "element": 3,
       "rarity": 1,
       "skills": [
         {
@@ -38493,6 +38560,7 @@
       "id": 214037,
       "name": "Claw the Claw",
       "desc": "The children of the Ash District tell a legend:\nwhen despair grips the world and tears loved ones apart,\na green-haired heroine called the \"Lord of the Prize Claw\" and her brave companions\nwill lead everyone to catch the last glimmer of hope and reunite with their families.",
+      "element": 3,
       "rarity": 1,
       "skills": [
         {
@@ -38727,6 +38795,7 @@
       "id": 214038,
       "name": "Ripples of Nostalgia",
       "desc": "Floating on a thousand crests,\na translucent, shimmering thing.\nEscaping the searing summer heat,\ndrifting along with the migrating fish.",
+      "element": 5,
       "rarity": 1,
       "skills": [
         {
@@ -38982,6 +39051,7 @@
       "id": 214039,
       "name": "Summer Sanctuary",
       "desc": "I long for the sea breeze to linger, for the waves to remain.\nI pray for the sunset to stretch endlessly, for the starlight to never fade.\nI wish to share with you alone—a summer that belongs to us.",
+      "element": 5,
       "rarity": 1,
       "skills": [
         {
@@ -39247,6 +39317,7 @@
       "id": 214040,
       "name": "Fist of Courage",
       "desc": "To protect your companions, to summon the courage and become your best self,\nstrike your fist at the colossal enemy,\nand clear the path to a future full of hope.",
+      "element": 2,
       "rarity": 1,
       "skills": [
         {

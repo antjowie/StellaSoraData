@@ -794,6 +794,7 @@ function getDiscs() {
         id: disc.Id,
         name,
         desc,
+        element: parseIntStrict(disc.EET),
         // 1 ssr, 2 sr, 3 r
         rarity: discItem.Rarity,
         skills,
