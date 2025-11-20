@@ -806,7 +806,7 @@ function getDiscs() {
 function generateDatabase() {
   let database = {};
   database.characters = getCharacters();
-  database.disks = getDiscs();
+  database.discs = getDiscs();
   // fs.writeFileSync("./database.json", JSON.stringify(database));
   fs.writeFileSync("./database.json", JSON.stringify(database, null, 2));
   console.log("Database generated successfully!");
