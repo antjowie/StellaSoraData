@@ -4,7 +4,9 @@ import ky from "ky";
 import axios from "axios";
 import sharp from "sharp";
 
-const characters = Object.values(characterJson).filter((name) => name !== "???");
+const characters = Object.values(characterJson).filter(
+  (name) => name !== "???",
+);
 
 fs.mkdirSync("./portraits", { recursive: true });
 const placeholderBuffer = fs.readFileSync("./portraits/Placeholder.webp");
@@ -17,7 +19,9 @@ const fetchPortraits = async () => {
       const buffer = fs.readFileSync(path);
 
       // Check if this is placeholder file
-      const isPlaceholder = placeholderBuffer.length === buffer.length && placeholderBuffer.equals(buffer);
+      const isPlaceholder =
+        placeholderBuffer.length === buffer.length &&
+        placeholderBuffer.equals(buffer);
       if (isPlaceholder === false) {
         return;
       }
@@ -28,13 +32,19 @@ const fetchPortraits = async () => {
     try {
       const url = `https://stellasora.miraheze.org/wiki/File:${character}.png`;
       const html = await axios.get(url).then((response) => response.data);
-      const regex = new RegExp(`<img[^>]+alt="File:${character}\\.png"[^>]+src="([^"]+)"`);
+      const regex = new RegExp(
+        `<img[^>]+alt="File:${character}\\.png"[^>]+src="([^"]+)"`,
+      );
       match = html.match(regex);
       if (match === null) {
-        throw new Error(`No image found for character ${character} found at ${url}`);
+        throw new Error(
+          `No image found for character ${character} found at ${url}`,
+        );
       }
     } catch (error) {
-      console.error(`Error fetching portrait for character ${character}: ${error.message}`);
+      console.error(
+        `Error fetching portrait for character ${character}: ${error.message}`,
+      );
       fs.writeFileSync(path, placeholderBuffer);
       return;
     }
