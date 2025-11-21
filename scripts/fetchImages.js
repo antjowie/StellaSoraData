@@ -58,7 +58,7 @@ async function downloadImage(name, path, placeholder) {
 
 const fetchImages = async (database) => {
   const characters = database.characters.map((character) => character.name);
-  const discs = database.discs.map((disc) => disc.name);
+  const discs = database.discs.map((disc) => [disc.id, disc.name]);
 
   const portraitPlaceholder = fs.readFileSync("./portraits/Placeholder.webp");
   const discPlaceholder = fs.readFileSync("./discs/Placeholder.webp");
@@ -67,8 +67,12 @@ const fetchImages = async (database) => {
     downloadImage(name, `./portraits/${name}.webp`, portraitPlaceholder),
   );
   promises = promises.concat(
-    discs.map((name) =>
-      downloadImage("Disc " + name, `./discs/${name}.webp`, discPlaceholder),
+    discs.map((disc) =>
+      downloadImage(
+        "Disc " + disc[1],
+        `./discs/${disc[0]}.webp`,
+        discPlaceholder,
+      ),
     ),
   );
 
