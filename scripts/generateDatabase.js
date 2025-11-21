@@ -809,7 +809,7 @@ function generateDatabase() {
   database.discs = getDiscs();
   // fs.writeFileSync("./database.json", JSON.stringify(database));
   fs.writeFileSync("./database.json", JSON.stringify(database, null, 2));
-  console.log("Database generated successfully!");
+  return database;
 }
 
 export default generateDatabase;
