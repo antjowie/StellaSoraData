@@ -685,7 +685,7 @@ function getCharacters() {
       name: name,
       class: parseIntStrict(charData.Class),
       element: parseIntStrict(charData.EET),
-      grade: parseIntStrict(charData.Grade),
+      rarity: parseIntStrict(charData.Grade),
       mainBuild1Name: langCharacterDes[`CharacterDes.${charId}.4`],
       mainBuild1Desc: langCharacterDes[`CharacterDes.${charId}.9`],
       mainBuild2Name: langCharacterDes[`CharacterDes.${charId}.5`],
