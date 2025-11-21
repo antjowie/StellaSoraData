@@ -11,7 +11,7 @@ const characters = Object.values(characterJson).filter(
 fs.mkdirSync("./portraits", { recursive: true });
 const placeholderBuffer = fs.readFileSync("./portraits/Placeholder.webp");
 
-const fetchPortraits = async () => {
+const fetchImages = async () => {
   const promises = characters.map(async (character) => {
     const path = `./portraits/${character}.webp`;
     // Check skip conditions
@@ -68,4 +68,4 @@ const fetchPortraits = async () => {
   });
 };
 
-export default fetchPortraits;
+export default fetchImages;
