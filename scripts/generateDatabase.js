@@ -101,454 +101,374 @@ function patchDescription(origText) {
   return finalText.replace(/\u000b/g, "\n");
 }
 
+/**
+ * Data-driven parameter parser configuration
+ * Each parameter type has a configuration defining how to parse it
+ */
+const PARAM_PARSER_CONFIG = {
+  // Effect parameters with level progression
+  "Effect,LevelUp": {
+    dataStore: binEffectValue,
+    maxLevel: 99,
+    fieldProcessors: {
+      EffectTypeFirstSubtype: (value, parts) => {
+        const enumIdx = parseIntStrict(value);
+        const textKey = `UIText.Enums_Effect_${enumIdx}.1`;
+        if (!(textKey in langUIText)) {
+          throw new Error(
+            `Missing ${textKey} in langUIText for potential ${potentialId}`,
+          );
+        }
+        return langUIText[textKey];
+      },
+      EffectTypeParam1: (value, parts) => {
+        const p1 = parseFloatStrict(value);
+        return (
+          roundIfDecimal(p1 * (parts[4]?.includes("HdPct") ? 100 : 1)) + "%"
+        );
+      },
+      EffectTypeParam3: (value, parts) => {
+        return parseFloatStrict(value) + "%";
+      },
+    },
+  },
+
+  // OnceAdditionalAttribute parameters with level progression
+  "OnceAdditionalAttribute,LevelUp": {
+    dataStore: binOnceAdditionalAttributeValue,
+    maxLevel: 99,
+    fieldProcessors: {
+      AttributeType1: (value, parts) => {
+        const key = `UIText.Enums_Effect_${value}.1`;
+        if (!(key in langUIText)) {
+          throw new Error(
+            `Key ${key} not found in langUIText for potential ${potentialId}`,
+          );
+        }
+        return langUIText[key];
+      },
+      AttributeType2: (value, parts) => {
+        const key = `UIText.Enums_Effect_${value}.1`;
+        if (!(key in langUIText)) {
+          throw new Error(
+            `Key ${key} not found in langUIText for potential ${potentialId}`,
+          );
+        }
+        return langUIText[key];
+      },
+      Value1: (value, parts) => {
+        const val = parseIntStrict(value);
+        return roundIfDecimal(val / 100) + "%";
+      },
+      Value2: (value, parts) => {
+        const val = parseIntStrict(value);
+        return roundIfDecimal(val / 100) + "%";
+      },
+    },
+  },
+
+  // Buff parameters with level progression
+  "Buff,LevelUp": {
+    dataStore: binBuffValue,
+    maxLevel: 9,
+    fieldProcessors: {
+      Time: (value, parts) => {
+        const time = parseIntStrict(value);
+        return String(time / 10000);
+      },
+      LaminatedNum: (value, parts) => {
+        return String(parseIntStrict(value));
+      },
+    },
+  },
+
+  // Shield parameters with level progression
+  "Shield,LevelUp": {
+    dataStore: binShieldValue,
+    maxLevel: 9,
+    fieldProcessors: {
+      Time: (value, parts) => {
+        const time = parseIntStrict(value);
+        return String(time / 10000);
+      },
+      ReferenceScale: (value, parts) => {
+        const scale = parseIntStrict(value);
+        return roundIfDecimal(scale / 100) + "%";
+      },
+      ShieldLaminatedNum: (value, parts) => {
+        return String(parseIntStrict(value));
+      },
+    },
+  },
+
+  // ScriptParameter parameters with level progression
+  "ScriptParameter,LevelUp": {
+    dataStore: binScriptParameterValue,
+    maxLevel: 9,
+    fieldProcessors: {
+      CommonData: (value, parts) => {
+        const val = parseIntStrict(value);
+        return roundIfDecimal(val / 10000) + "%";
+      },
+    },
+  },
+
+  // NoLevel parameters (static values without progression)
+  "HitDamage,DamageNum": {
+    customHandler: (parts) => {
+      const id = parts[2];
+      if (!(id in binHitDamage)) {
+        throw new Error(`Missing HitDamage ${id} for potential ${potentialId}`);
+      }
+
+      const hitDamage = binHitDamage[id];
+
+      // Assumption that SkillAbsAmend is always 0
+      if (hitDamage["SkillAbsAmend"][0] !== 0) {
+        throw new Error(
+          `SkillAbsAmend is not 0 for HitDamage ${id} for potential ${potentialId}`,
+        );
+      }
+
+      const percentages = hitDamage["SkillPercentAmend"];
+      return percentages.map((value) => {
+        return parseIntStrict(value) / 10000 + "%";
+      });
+    },
+  },
+
+  // BuffValue without level progression
+  "BuffValue,NoLevel": {
+    dataStore: binBuffValue,
+    noLevel: true,
+    fieldProcessors: {
+      Time: (value, parts) => {
+        const time = parseIntStrict(value);
+        return String(time / 10000);
+      },
+      LaminatedNum: (value, parts) => {
+        return String(parseIntStrict(value));
+      },
+    },
+  },
+
+  // Skill without level progression
+  "Skill,NoLevel": {
+    dataStore: binSkill,
+    noLevel: true,
+    fieldProcessors: {
+      Title: (value, parts) => {
+        const key = value;
+        if (!(key in langSkill)) {
+          throw new Error(
+            `Title ${key} not found for potential ${potentialId}`,
+          );
+        }
+        return langSkill[key];
+      },
+    },
+  },
+
+  // OnceAdditionalAttributeValue without level progression
+  "OnceAdditionalAttributeValue,NoLevel": {
+    dataStore: binOnceAdditionalAttributeValue,
+    noLevel: true,
+    fieldProcessors: {
+      Value1: (value, parts) => {
+        return roundIfDecimal(parseIntStrict(value) / 100) + "%";
+      },
+      AttributeType1: (value, parts) => {
+        const key = `UIText.Enums_Effect_${value}.1`;
+        if (!(key in langUIText)) {
+          throw new Error(
+            `Key ${key} not found in langUIText for potential ${potentialId}`,
+          );
+        }
+        return langUIText[key];
+      },
+    },
+  },
+
+  // EffectValue without level progression
+  "EffectValue,NoLevel": {
+    dataStore: binEffectValue,
+    noLevel: true,
+    fieldProcessors: {
+      EffectTypeParam1: (value, parts) => {
+        const p1 = parseFloatStrict(value);
+        return (
+          roundIfDecimal(p1 * (parts[4]?.includes("HdPct") ? 100 : 1)) + "%"
+        );
+      },
+      EffectTypeParam2: (value, parts) => {
+        return String(parseFloatStrict(value));
+      },
+      EffectTypeParam3: (value, parts) => {
+        return parseFloatStrict(value) + "%";
+      },
+      EffectTypeFirstSubtype: (value, parts) => {
+        const key = `UIText.Enums_Effect_${value}.1`;
+        if (!(key in langUIText)) {
+          throw new Error(
+            `Key ${key} not found in langUIText for potential ${potentialId}`,
+          );
+        }
+        return langUIText[key];
+      },
+    },
+  },
+
+  // ScriptParameterValue without level progression
+  "ScriptParameterValue,NoLevel": {
+    dataStore: binScriptParameterValue,
+    noLevel: true,
+    fieldProcessors: {
+      CommonData: (value, parts) => {
+        const val = parseIntStrict(value);
+        return String(val / 10000);
+      },
+    },
+  },
+
+  // ShieldValue without level progression
+  "ShieldValue,NoLevel": {
+    dataStore: binShieldValue,
+    noLevel: true,
+    fieldProcessors: {
+      Time: (value, parts) => {
+        const time = parseIntStrict(value);
+        return String(time / 10000);
+      },
+      ReferenceScale: (value, parts) => {
+        const scale = parseIntStrict(value);
+        return roundIfDecimal(scale / 100) + "%";
+      },
+    },
+  },
+};
+
+/**
+ * Helper function for generating level-based IDs
+ * Takes a base ID and generates the ID for a specific level
+ * @param {string} baseId - The base ID (e.g., "90013001")
+ * @param {number} level - The level to generate the ID for
+ * @returns {string} The generated ID for the specified level
+ */
+function generateLevelId(baseId, level) {
+  // Extract the base part (without the last two digits)
+  const idWithoutLevel = baseId.substring(0, baseId.length - 2);
+  // Get the last digit
+  const lastDigit = baseId[baseId.length - 1];
+
+  // Construct the new ID with the level
+  return idWithoutLevel + level + lastDigit;
+}
+
+/**
+ * Common function for processing level-up parameters
+ * Iterates through levels and processes each level's data
+ * @param {string} baseId - The base ID for the parameter
+ * @param {Object} dataStore - The data store containing the parameter values
+ * @param {Function} processValue - Function to process each value
+ * @param {number} maxLevel - Maximum level to process
+ * @returns {Array} Array of processed values for each level
+ */
+function processLevelUpValues(baseId, dataStore, processValue, maxLevel) {
+  const data = [];
+  let index = 1;
+  let valid = true;
+
+  while (valid) {
+    const id = generateLevelId(baseId, index);
+
+    if (!(id in dataStore)) {
+      valid = false;
+      if (index < 10) {
+        throw new Error(
+          `Level is too low for paramValue with base ID ${baseId}. Tried id ${id}, likely an error ${potentialId}`,
+        );
+      }
+      break;
+    }
+
+    if (index > maxLevel) {
+      throw new Error(
+        `Can't go past ${maxLevel} levels for potential ${potentialId}`,
+      );
+    }
+
+    const value = dataStore[id];
+    data.push(processValue(value));
+    index++;
+  }
+
+  return data;
+}
+
+/**
+ * Main parameter parsing function
+ * Uses a data-driven approach to determine how to parse each parameter
+ * @param {string} paramValue - The parameter value to parse
+ * @returns {Array} Array of parsed values
+ */
 function parseParam(paramValue) {
-  // Example of param which is KV, we expect only the value
-  // "Param2": "Effect,LevelUp,90013001,EffectTypeParam1,HdPct"
-
-  // Parse param values
-  // NOTE: This approach is very brute forced with a ton of assumptions.
-  // The grammer is actually quite straightforward, I just wanted to get something
-  // workings. Atleast there should now be a valid test case to compare against
-  // but if this ever breaks because the developers introduce new keywords
-  // I would urge future me or whoever reads this to create a proper parser.
-
-  // NOTE: Some potentials like 514401 use only Param1 and Param9. I only parse
-  // the param values that are present in descriptions. Because of this
-  // we need to create a mapping of index to param values, instead of relying
-  // on array indices directly.
-  // We could avoid this if parsed all param values in potential instead of desc.
-  // Might be useful for data gathering but not necessary for build site.
+  // Split the parameter into its components
   const parts = paramValue.split(",");
-  let data = [];
-  if (paramValue.startsWith("Effect,LevelUp,")) {
-    if (parts.length < 4)
-      throw new Error(
-        `Too little parts in param value: ${paramValue} for potential ${potentialId}`,
-      );
 
-    const key = parts[2];
-    let valid = true;
-    let index = 1;
-    while (valid) {
-      // 14412001 is key
-      // 14412xx1 is id
-      // xxxxx00x is level 0 (doesn't exist)
-      // xxxxx01x is level 1 potential
-      // xxxxx02x is level 2 potential
-      let id = key.substring(0, key.length - 2);
-      id += index;
-      id += key[key.length - 1];
-      index++;
-      if (!(id in binEffectValue)) {
-        valid = false;
-        if (index < 10)
-          throw new Error(
-            `Level is too low for paramValue ${paramValue}. Tried id ${id}, likely an error ${potentialId}`,
-          );
-        break;
-      }
-      if (index > 99)
-        throw new Error(`Can't go past 99 levels for potential ${potentialId}`);
+  // Determine the parameter type key (e.g., "Effect,LevelUp")
+  const paramTypeKey = parts.slice(0, 2).join(",");
 
-      const effect = binEffectValue[id];
-      const type = parts[3];
-      if (!(type in effect))
-        throw new Error(`Missing type ${type} for potential ${potentialId}`);
-      switch (type) {
-        case "EffectTypeFirstSubtype":
-          // EffectTypeFirstSubtype,Enum,EAT - is UIText.json and maps to a value
-          const enumIdx = parseIntStrict(
-            binEffectValue[id]["EffectTypeFirstSubtype"],
-          );
-          const textKey = `UIText.Enums_Effect_${enumIdx}.1`;
-          if (!(textKey in langUIText))
-            throw new Error(
-              `Missing ${textKey} in langUIText for potential ${potentialId}`,
-            );
-          data.push(langUIText[textKey]);
-          break;
-        case "EffectTypeParam1":
-          const p1 = parseFloatStrict(binEffectValue[id]["EffectTypeParam1"]);
-          data.push(
-            roundIfDecimal(p1 * (parts[4].includes("HdPct") ? 100 : 1)) + "%",
-          );
-          break;
-        case "EffectTypeParam3":
-          const p3 = parseFloatStrict(binEffectValue[id]["EffectTypeParam1"]);
-          data.push(p3 + "%");
-          break;
+  // Get the parser configuration for this parameter type
+  const parserConfig = PARAM_PARSER_CONFIG[paramTypeKey];
 
-        default:
-          throw new Error(
-            `Unknown effect type: ${type} for potential ${potentialId}`,
-          );
-      }
-    }
-  } else if (paramValue.startsWith("OnceAdditionalAttribute,LevelUp,")) {
-    if (parts.length < 4)
-      throw new Error(
-        `Too little parts in param value: ${paramValue} for potential ${potentialId}`,
-      );
-
-    let valid = true;
-    let index = 1;
-    const key = parts[2];
-    while (valid) {
-      // 14412001 is key
-      // 14412xx1 is id
-      // xxxxx00x is level 0 (doesn't exist)
-      // xxxxx01x is level 1 potential
-      // xxxxx02x is level 2 potential
-      let id = key.substring(0, key.length - 2);
-      id += index;
-      id += key[key.length - 1];
-      index++;
-      if (!(id in binOnceAdditionalAttributeValue)) {
-        valid = false;
-        if (index < 10)
-          throw new Error(
-            `Level is too low for paramValue ${paramValue}. Tried id ${id}, likely an error ${potentialId}`,
-          );
-        break;
-      }
-      if (index > 99)
-        throw new Error(`Can't go past 99 levels for potential ${potentialId}`);
-      const obj = binOnceAdditionalAttributeValue[id];
-      const type = parts[3];
-      if (!(type in obj))
-        throw new Error(
-          `Type ${type} not found for OnceAdditionalAttributeValue ${id} for potential ${potentialId}`,
-        );
-      switch (type) {
-        case "AttributeType1":
-        case "AttributeType2":
-          const key = `UIText.Enums_Effect_${obj[type]}.1`;
-          if (!(key in langUIText))
-            throw new Error(
-              `Key ${key} not found for langUIText ${id} for potential ${potentialId}`,
-            );
-
-          data.push(langUIText[key]);
-          break;
-        case "Value1":
-        case "Value2":
-          const val = parseIntStrict(obj[type]);
-          data.push(roundIfDecimal(val / 100) + "%");
-          break;
-        default:
-          throw new Error(
-            `Unknown type: ${type} for HitDamage ${id} for potential ${potentialId}`,
-          );
-      }
-    }
-  } else if (paramValue.startsWith("Buff,LevelUp,")) {
-    if (parts.length < 3)
-      throw new Error(
-        `Too little parts in param value: ${paramValue} for potential ${potentialId}`,
-      );
-    const key = parts[2];
-    const type = parts[3];
-    let index = 1;
-    let valid = true;
-    while (valid) {
-      // 10350701 is key
-      // 103507X1 is id
-      let id = key.substring(0, key.length - 2);
-      id += index;
-      id += key[key.length - 1];
-      if (!(id in binBuffValue)) {
-        valid = false;
-        if (index < 10)
-          throw new Error(
-            `Level is too low for paramValue ${paramValue}. Tried id ${id}, likely an error ${potentialId}`,
-          );
-        break;
-      }
-      if (index > 9)
-        throw new Error(`Can't go past 9 levels for Buff ${potentialId}`);
-      index++;
-      const obj = binBuffValue[id];
-      switch (type) {
-        case "Time":
-          const time = parseIntStrict(obj["Time"]);
-          data.push(String(time / 10000));
-          break;
-        case "LaminatedNum":
-          const num = parseIntStrict(obj["LaminatedNum"]);
-          data.push(String(num));
-          break;
-        default:
-          throw new Error(
-            `Unknown type: ${type} for Buff ${id} for potential ${potentialId}`,
-          );
-      }
-    }
-  } else if (paramValue.startsWith("Shield,LevelUp,")) {
-    if (parts.length < 3)
-      throw new Error(
-        `Too little parts in param value: ${paramValue} for potential ${potentialId}`,
-      );
-    const key = parts[2];
-    const type = parts[3];
-    let index = 1;
-    let valid = true;
-    while (valid) {
-      // 10742001 is key
-      // 107420X1 is id
-      let id = key.substring(0, key.length - 2);
-      id += index;
-      id += key[key.length - 1];
-      if (!(id in binShieldValue)) {
-        valid = false;
-        if (index < 10)
-          throw new Error(
-            `Level is too low for paramValue ${paramValue}. Tried id ${id}, likely an error ${potentialId}`,
-          );
-        break;
-      }
-      if (index > 9)
-        throw new Error(`Can't go past 9 levels for Shield ${potentialId}`);
-      index++;
-      const obj = binShieldValue[id];
-      switch (type) {
-        case "Time":
-          const time = parseIntStrict(obj["Time"]);
-          data.push(String(time / 10000));
-          break;
-        case "ReferenceScale":
-          const scale = parseIntStrict(obj["ReferenceScale"]);
-          data.push(roundIfDecimal(scale / 100) + "%");
-          break;
-        case "ShieldLaminatedNum":
-          const shield = parseIntStrict(obj["ShieldLaminatedNum"]);
-          data.push(String(shield));
-          break;
-        default:
-          throw new Error(
-            `Unknown type: ${type} for ShieldValue ${id} for potential ${potentialId}`,
-          );
-      }
-    }
-  } else if (paramValue.startsWith("ScriptParameter,LevelUp,")) {
-    if (parts.length < 3)
-      throw new Error(
-        `Too little parts in param value: ${paramValue} for potential ${potentialId}`,
-      );
-    const key = parts[2];
-    const type = parts[3];
-    let index = 1;
-    let valid = true;
-    while (valid) {
-      // 10730001 is key
-      // 107300X1 is id
-      let id = key.substring(0, key.length - 2);
-      id += index;
-      id += key[key.length - 1];
-      if (!(id in binScriptParameterValue)) {
-        valid = false;
-        if (index < 10)
-          throw new Error(
-            `Level is too low for paramValue ${paramValue}. Tried id ${id}, likely an error ${potentialId}`,
-          );
-        break;
-      }
-      if (index > 9)
-        throw new Error(
-          `Can't go past 9 levels for ScriptParameter ${potentialId}`,
-        );
-      index++;
-      const obj = binScriptParameterValue[id];
-      switch (type) {
-        case "CommonData":
-          const val = parseIntStrict(obj["CommonData"]);
-          data.push(roundIfDecimal(val / 10000) + "%");
-          break;
-        default:
-          throw new Error(
-            `Unknown type: ${type} for ScriptParameter ${id} for potential ${potentialId}`,
-          );
-      }
-    }
-  } else if (paramValue.startsWith("HitDamage,DamageNum,")) {
-    if (parts.length < 3)
-      throw new Error(
-        `Too little parts in param value: ${paramValue} for potential ${potentialId}`,
-      );
-
-    const id = parts[2];
-    if (!(id in binHitDamage))
-      throw new Error(`Missing HitDamage ${id} for potential ${potentialId}`);
-
-    const hitDamage = binHitDamage[id];
-    // Assumption that SkillAbsAmend is always 0
-    if (hitDamage["SkillAbsAmend"][0] !== 0)
-      throw new Error(
-        `SkillAbsAmend is not 0 for HitDamage ${id} for potential ${potentialId}`,
-      );
-
-    const percentages = hitDamage["SkillPercentAmend"];
-    for (let index = 0; index < percentages.length; index++) {
-      const value = parseIntStrict(percentages[index]) / 10000;
-      data.push(value + "%");
-    }
-  } else if (paramValue.startsWith("BuffValue,NoLevel,")) {
-    if (parts.length < 4)
-      throw new Error(
-        `Too little parts in param value: ${paramValue} for potential ${potentialId}`,
-      );
-
-    const id = parts[2];
-    const type = parts[3];
-    const obj = binBuffValue[id];
-    if (!(type in obj))
-      throw new Error(
-        `BuffValue for type ${type} not found for HitDamage ${id} for potential ${potentialId}`,
-      );
-    switch (type) {
-      case "Time":
-        const time = parseIntStrict(obj["Time"]);
-        data.push(String(time / 10000));
-        break;
-      case "LaminatedNum":
-        const num = parseIntStrict(obj["LaminatedNum"]);
-        data.push(String(num));
-        break;
-      default:
-        throw new Error(
-          `Unknown type: ${type} for HitDamage ${id} for potential ${potentialId}`,
-        );
-    }
-  } else if (paramValue.startsWith("Skill,NoLevel")) {
-    const id = parts[2];
-    const type = parts[3];
-    const obj = binSkill[id];
-    if (!(type in obj))
-      throw new Error(
-        `Type ${type} not found for Skill ${id} for potential ${potentialId}`,
-      );
-    switch (type) {
-      case "Title":
-        const key = obj["Title"];
-        if (!(key in langSkill))
-          throw new Error(
-            `Title ${key} not found for Skill ${id} for potential ${potentialId}`,
-          );
-        data.push(langSkill[key]);
-        break;
-      default:
-        throw new Error(
-          `Unknown type: ${type} for Skill ${id} for potential ${potentialId}`,
-        );
-    }
-  } else if (paramValue.startsWith("OnceAdditionalAttributeValue,NoLevel")) {
-    const id = parts[2];
-    const type = parts[3];
-    const obj = binOnceAdditionalAttributeValue[id];
-    if (!(type in obj))
-      throw new Error(
-        `Type ${type} not found for OnceAdditionalAttributeValue ${id} for potential ${potentialId}`,
-      );
-    switch (type) {
-      case "Value1":
-        data.push(roundIfDecimal(parseIntStrict(obj["Value1"]) / 100) + "%");
-        break;
-      case "AttributeType1":
-        const key = `UIText.Enums_Effect_${obj["AttributeType1"]}.1`;
-        if (!(key in langUIText))
-          throw new Error(
-            `Key ${key} not found for LangUIText ${id} for potential ${potentialId}`,
-          );
-        data.push(langUIText[key]);
-        break;
-      default:
-        throw new Error(
-          `Unknown type: ${type} for OnceAdditionalAttributeValue ${id} for potential ${potentialId}`,
-        );
-    }
-  } else if (paramValue.startsWith("EffectValue,NoLevel")) {
-    const id = parts[2];
-    const type = parts[3];
-    const obj = binEffectValue[id];
-    if (!(type in obj))
-      throw new Error(
-        `Type ${type} not found for EffectValue ${id} for potential ${potentialId}`,
-      );
-    switch (type) {
-      case "EffectTypeParam1":
-        data.push(
-          roundIfDecimal(
-            parseFloatStrict(obj[type]) *
-              (parts[4].includes("HdPct") ? 100 : 1),
-          ) + "%",
-        );
-        break;
-      case "EffectTypeParam2":
-        data.push(String(parseFloatStrict(obj[type])));
-        break;
-      case "EffectTypeParam3":
-        data.push(parseFloatStrict(obj[type]) + "%");
-        break;
-      case "EffectTypeFirstSubtype":
-        const key = `UIText.Enums_Effect_${obj[type]}.1`;
-        if (!(key in langUIText))
-          throw new Error(
-            `Key ${key} not found for langUIText ${id} for potential ${potentialId}`,
-          );
-
-        data.push(langUIText[key]);
-        break;
-      default:
-        throw new Error(
-          `Unknown type: ${type} for EffectValue ${id} for potential ${potentialId}`,
-        );
-    }
-  } else if (paramValue.startsWith("ScriptParameterValue,NoLevel")) {
-    const id = parts[2];
-    const type = parts[3];
-    const obj = binScriptParameterValue[id];
-    if (!(type in obj))
-      throw new Error(
-        `Type ${type} not found for ScriptParameterValue ${id} for potential ${potentialId}`,
-      );
-    switch (type) {
-      case "CommonData":
-        data.push(String(parseIntStrict(obj["CommonData"]) / 10000));
-        break;
-      default:
-        throw new Error(
-          `Unknown type: ${type} for ScriptParameterValue ${id} for potential ${potentialId}`,
-        );
-    }
-  } else if (paramValue.startsWith("ShieldValue,NoLevel")) {
-    const id = parts[2];
-    const type = parts[3];
-    const obj = binShieldValue[id];
-    if (!(type in obj))
-      throw new Error(
-        `Type ${type} not found for ShieldValue ${id} for potential ${potentialId}`,
-      );
-    switch (type) {
-      case "Time":
-        data.push(String(parseIntStrict(obj["Time"]) / 10000));
-        break;
-      case "ReferenceScale":
-        data.push(
-          roundIfDecimal(parseIntStrict(obj["ReferenceScale"]) / 100) + "%",
-        );
-        break;
-
-      default:
-        throw new Error(
-          `Unknown type: ${type} for ScriptParameterValue ${id} for potential ${potentialId}`,
-        );
-    }
-  } else {
+  if (!parserConfig) {
     throw new Error(
       `Unknown param value: ${paramValue} for potential ${potentialId}`,
     );
   }
 
-  return data;
+  // Handle custom handlers (for special cases)
+  if (parserConfig.customHandler) {
+    return parserConfig.customHandler(parts);
+  }
+
+  // Extract the ID and field type
+  const id = parts[2];
+  const fieldType = parts[3];
+
+  // Check if we have a processor for this field type
+  const fieldProcessor = parserConfig.fieldProcessors[fieldType];
+  if (!fieldProcessor) {
+    throw new Error(
+      `Unknown field type ${fieldType} for parameter type ${paramTypeKey} for potential ${potentialId}`,
+    );
+  }
+
+  // Handle NoLevel parameters (static values)
+  if (parserConfig.noLevel) {
+    const value = parserConfig.dataStore[id];
+    if (!value || !(fieldType in value)) {
+      throw new Error(
+        `Field ${fieldType} not found in ${paramTypeKey} with ID ${id} for potential ${potentialId}`,
+      );
+    }
+    return [fieldProcessor(value[fieldType], parts)];
+  }
+
+  // Handle LevelUp parameters (progressive values)
+  return processLevelUpValues(
+    id,
+    parserConfig.dataStore,
+    (value) => {
+      if (!value || !(fieldType in value)) {
+        throw new Error(
+          `Field ${fieldType} not found in ${paramTypeKey} with ID ${id} for potential ${potentialId}`,
+        );
+      }
+      return fieldProcessor(value[fieldType], parts);
+    },
+    parserConfig.maxLevel || 99,
+  );
 }
 
 function getCharacters() {
