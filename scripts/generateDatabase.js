@@ -664,12 +664,25 @@ function getDiscs() {
           // "NeedSubNoteSkills": "{\"90013\":1,\"90014\":2}",
           if ("NeedSubNoteSkills" in obj) {
             const noteObj = JSON.parse(obj["NeedSubNoteSkills"]);
-            notes.push(
-              Object.entries(noteObj).map(([key, value]) => [
-                parseIntStrict(key),
-                parseIntStrict(value),
-              ]),
-            );
+
+            // Notes are stored like this:
+            // [
+            //  [id, [values]].
+            //  [id, [values]].
+            // ]
+            const noteReqs = Object.entries(noteObj).map(([key, value]) => [
+              parseIntStrict(key),
+              parseIntStrict(value),
+            ]);
+
+            for (const [id, value] of noteReqs) {
+              const noteIdx = notes.findIndex((note) => note.id === id);
+              if (noteIdx === -1) {
+                notes.push({ id: id, values: [value] });
+              } else {
+                notes[noteIdx].values.push(value);
+              }
+            }
           }
           level++;
           obj = bin[groupId + level.toString().padStart(2, "0")];
