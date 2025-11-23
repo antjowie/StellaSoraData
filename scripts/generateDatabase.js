@@ -542,6 +542,30 @@ function getCharacters() {
       );
     }
 
+    // Set potential icon
+    let icon = "";
+    if ("Corner" in binPotential[potentialId]) {
+      // One of the 3 common icons
+      switch (parseIntStrict(binPotential[potentialId].Corner)) {
+        case 1:
+          icon = "Potential_Diamond_A";
+          break;
+        case 2:
+          icon = "Potential_Triangle_A";
+          break;
+        case 3:
+          icon = "Potential_Round_A";
+          break;
+      }
+    } else {
+      const parts = binItem[potentialId].Icon.split("/");
+      icon = parts[parts.length - 1] + "_A";
+    }
+
+    if (icon.length === 0) {
+      throw new Error(`No icon found for potential: ${potentialId}`);
+    }
+
     // Get potential type
     // Type depends on where id is located in CharPotential.json
     let type = 0;
@@ -579,11 +603,12 @@ function getCharacters() {
     charToPotentials.get(charId).push({
       id: potentialId,
       name: langItem[`Item.${potentialId}.1`],
-      descShort: descShort,
-      descLong: descLong,
-      rarity: rarity,
+      descShort,
+      descLong,
+      icon,
+      rarity,
       build: potential.Build,
-      type: type,
+      type,
       params,
     });
   });

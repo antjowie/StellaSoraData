@@ -1,9 +1,35 @@
-import { existsSync, rmSync, mkdirSync, readdirSync, copyFileSync } from "fs";
+import {
+  existsSync,
+  rmSync,
+  mkdirSync,
+  readdirSync,
+  copyFileSync,
+  writeFileSync,
+} from "fs";
 import { join, dirname } from "path";
 import { spawn } from "child_process";
 
 const from = "F:/YostarGames/StellaSora_EN/Persistent_Store/AssetBundles";
 const to = "./bundles";
+
+const folders = [
+  { path: "assets/assetbundles/icon/potential", out: "potential-icons" },
+];
+
+let files = [];
+for (const folder of folders) {
+  readdirSync("./extract/" + folder.path, { recursive: true }).forEach(
+    (file) => {
+      const source = join("./extract", folder.path, file);
+      const destination = join(folder.out, file);
+      mkdirSync(dirname(destination), { recursive: true });
+      copyFileSync(source, destination);
+      files.push(file);
+    },
+  );
+
+  writeFileSync(folder.out + "/index.json", JSON.stringify(files));
+}
 
 const patterns = [/^icon-.*\.unity3d$/];
 
@@ -48,9 +74,6 @@ assetStudioProcess.on("close", (code) => {
     return;
   }
 
-  console.log("Texture extraction completed successfully");
-
-  // Copy only assets we need (moved inside process close event)
   const folders = [
     { path: "assets/assetbundles/icon/potential", out: "potential-icons" },
   ];
@@ -58,6 +81,8 @@ assetStudioProcess.on("close", (code) => {
   if (existsSync("./assets")) {
     rmSync("./assets", { recursive: true });
   }
+
+  let files = [];
   for (const folder of folders) {
     readdirSync("./extract/" + folder.path, { recursive: true }).forEach(
       (file) => {
@@ -65,7 +90,10 @@ assetStudioProcess.on("close", (code) => {
         const destination = join(folder.out, file);
         mkdirSync(dirname(destination), { recursive: true });
         copyFileSync(source, destination);
+        files.push(file);
       },
     );
+
+    writeFileSync(folder.out + "/index.json", JSON.stringify(files));
   }
 });
