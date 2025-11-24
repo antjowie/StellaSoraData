@@ -543,26 +543,32 @@ function getCharacters() {
     }
 
     // Set potential icon
-    let icon = "";
+    let icons = [];
+    const parts = binItem[potentialId].Icon.split("/");
+    icons.push(parts[parts.length - 1] + "_A");
     if ("Corner" in binPotential[potentialId]) {
       // One of the 3 common icons
       switch (parseIntStrict(binPotential[potentialId].Corner)) {
         case 1:
-          icon = "Potential_Diamond_A";
+          icons.push("Potential_Diamond_B");
+          icons.push("Potential_Diamond_A");
           break;
         case 2:
-          icon = "Potential_Triangle_A";
+          icons.push("Potential_Triangle_B");
+          icons.push("Potential_Triangle_A");
           break;
         case 3:
-          icon = "Potential_Round_A";
+          icons.push("Potential_Round_B");
+          icons.push("Potential_Round_A");
           break;
+        default:
+          throw new Error(
+            `Unknown corner value for potential ${potentialId}: ${binPotential[potentialId].Corner}`,
+          );
       }
-    } else {
-      const parts = binItem[potentialId].Icon.split("/");
-      icon = parts[parts.length - 1] + "_A";
     }
 
-    if (icon.length === 0) {
+    if (icons.length === 0) {
       throw new Error(`No icon found for potential: ${potentialId}`);
     }
 
@@ -605,7 +611,7 @@ function getCharacters() {
       name: langItem[`Item.${potentialId}.1`],
       descShort,
       descLong,
-      icon,
+      icons,
       rarity,
       build: potential.Build,
       type,
