@@ -72,13 +72,38 @@ function getParams(text) {
 //  - The text will be underlined and can be pressed to open a popup
 //  - The ID will be replaced with an icon
 function patchDescription(origText) {
+  // Replace all color tags with span tags (valid html)
+  let finalText = origText;
+  while (finalText.includes("<color=#")) {
+    const colorStart = finalText.indexOf("<color=#");
+    const colorEnd = finalText.indexOf(">", colorStart);
+    const color = finalText.slice(colorStart + "<color=#".length, colorEnd);
+    let colorCloseStart = finalText.indexOf("</color>", colorEnd);
+    const textStart = colorEnd + 1;
+    let textEnd;
+    let colorCloseEnd;
+    if (colorCloseStart === -1) {
+      // Some translations don't close color tags, in this case the first string is included
+      textEnd =
+        finalText.slice(textStart).match(/^[^,\s]+/)[0].length + textStart;
+      colorCloseEnd = textEnd;
+    } else {
+      textEnd = colorCloseStart;
+      colorCloseEnd = colorCloseStart + "</color>".length;
+    }
+    const text = finalText.slice(textStart, textEnd);
+
+    finalText =
+      finalText.slice(0, colorStart) +
+      `<span style="color:#${color}">${text}</span>` +
+      finalText.slice(colorCloseEnd);
+  }
+
+  // Process special words
   const specialTextRegex = /##[^#]+#\d+#/g; // Match ##Lux Mark#1015#
   const idRegex = /#\d+#/g; // Match #1015#
   const textRegex = /##[^#]+#/g; // Match ##Lux Mark#
-
   const texts = origText.match(specialTextRegex);
-  let finalText = origText;
-
   if (texts !== null) {
     for (const text of texts) {
       const id = text.match(idRegex)[0].slice(1, -1);
@@ -87,17 +112,10 @@ function patchDescription(origText) {
 
       finalText = finalText.replace(
         text,
-        `<color=#${word.Color}>${text.match(textRegex)[0].slice(2, -1)}</color>`,
+        `<span style="color:#${word.Color}">${text.match(textRegex)[0].slice(2, -1)}</span>`,
       );
     }
   }
-
-  // Replace all color tags with span tags (valid html)
-  finalText = finalText.replace(
-    /<color=#([0-9A-Fa-f]{6})>(.*?)<\/color>/g,
-    '<span style="color:#$1">$2</span>',
-  );
-
   return finalText.replace(/\u000b/g, "\n");
 }
 

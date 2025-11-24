@@ -19648,7 +19648,7 @@
           "id": 513405,
           "name": "Pyro Mark",
           "descShort": "Increases the Auto ATK DMG dealt by Fiery Punches and Magma Burst, and allows them to trigger <span style=\"color:#6A90EB\">Ignis Mark</span>.",
-          "descLong": "Increases the &Param2& dealt by Fiery Punches and Magma Burst by <span style=\"color:#ec6d21\">&Param1&, and allows them to trigger <color=#6A90EB>Ignis Mark</span>.",
+          "descLong": "Increases the &Param2& dealt by Fiery Punches and Magma Burst by <span style=\"color:#ec6d21\">&Param1&</span>, and allows them to trigger <span style=\"color:#6A90EB\">Ignis Mark</span>.",
           "icons": [
             "13401_Potential_01_A",
             "Potential_Diamond_B",
