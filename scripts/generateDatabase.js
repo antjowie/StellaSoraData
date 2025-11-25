@@ -227,13 +227,16 @@ function getCharacters() {
     // Get data and filter out unwanted entries
     const potentials = charToPotentials.get(charId);
     if (!potentials) continue;
-    const charName = getLangJson("CharacterDes")[`CharacterDes.${charId}.2`];
     const name = getLangJson("CharacterDes")[`CharacterDes.${charId}.2`];
 
     // Populate character
     const character = {
       id: charId,
-      name: name,
+      // For some reason Jp names are not translated so just fallback to English
+      name:
+        name === "*****"
+          ? getLangJson("CharacterDes", EN)[`CharacterDes.${charId}.2`]
+          : name,
       class: parseNumberStrict(charData.Class),
       element: parseNumberStrict(charData.EET),
       rarity: parseNumberStrict(charData.Grade),

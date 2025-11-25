@@ -23,9 +23,10 @@ export function getJson(json) {
   return jsonCache[json];
 }
 
-export function getLangJson(json) {
+export function getLangJson(json, langOverride) {
   let path;
-  switch (lang) {
+  let localLang = langOverride ?? lang;
+  switch (localLang) {
     case EN:
       path = `EN/language/en_US/${json}.json`;
       break;
@@ -42,7 +43,7 @@ export function getLangJson(json) {
       path = `TW/language/zh_TW/${json}.json`;
       break;
     default:
-      throw new Error(`Unsupported language: ${lang}`);
+      throw new Error(`Unsupported language: ${localLang}`);
   }
 
   if (!jsonLangCache[path]) {
