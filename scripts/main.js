@@ -1,7 +1,5 @@
 import fetchImages from "./fetchImages.js";
-import generateDatabase from "./generateDatabase.js";
+import generateDatabases from "./generateDatabase.js";
 
-// const promises = [fetchImages(), generateDatabase()];
-// await Promise.all(promises);
-const db = generateDatabase();
+const db = generateDatabases()[0];
 await fetchImages(db);
