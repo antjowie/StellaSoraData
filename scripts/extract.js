@@ -60,10 +60,11 @@ async function process(from) {
 
     const folders = [
       { path: "assets/assetbundles/icon/potential", out: "potential-icons" },
+      { path: "assets/assetbundles_en/icon/loading", out: "loading" },
     ];
 
-    let localFiles = [];
     for (const folder of folders) {
+      let localFiles = [];
       readdirSync("./extract/" + folder.path, { recursive: true }).forEach(
         (file) => {
           const source = join("./extract", folder.path, file);
@@ -77,6 +78,10 @@ async function process(from) {
         files[folder.out] = [];
       }
       files[folder.out].push(...localFiles);
+
+      for (const [key, value] of Object.entries(files)) {
+        writeFileSync(key + "/index.json", JSON.stringify([...new Set(value)]));
+      }
     }
 
     console.log(from, "finished extraction.");
@@ -85,6 +90,3 @@ async function process(from) {
 
 const promises = [FROM.map((entry) => process(entry))];
 await Promise.all(promises);
-for (const [key, value] of Object.entries(files)) {
-  writeFileSync(key + "/index.json", JSON.stringify([...new Set(value)]));
-}
