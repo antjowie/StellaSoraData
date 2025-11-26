@@ -19,7 +19,7 @@
           "id": 510301,
           "name": "압도적인 화력",
           "descShort": "메인 스킬 시전 후, 탄창 용량과 일반 공격 피해가 증가한다.",
-          "descLong": "메인 스킬 「로큰롤 불꽃」 시전 후 탄약 <span style=\"color:#0abec5\">36</span>발을 즉시 장전한다. \n탄창을 다 사용하면 일반 공격 피해가 <span style=\"color:#0abec5\">&Param1&</span> 증가한다.",
+          "descLong": "메인 스킬 「로큰롤 불꽃」 시전 후 탄약 <span style=\"color:#0abec5\">36</span>발을 즉시 장전한다. \n탄창을 다 사용할 때까지 일반 공격 피해가 <span style=\"color:#0abec5\">&Param1&</span> 증가한다.",
           "icons": [
             "10301_Potential_01_A"
           ],
@@ -3586,8 +3586,8 @@
         {
           "id": 510833,
           "name": "과열의 임계점",
-          "descShort": "불 속성 캐릭터의 &Param2&가 증가한다.",
-          "descLong": "팀 내 모든 불 속성 캐릭터의 &Param2&가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "descShort": "불 속성 캐릭터의 &Param2&이 증가한다.",
+          "descLong": "팀 내 모든 불 속성 캐릭터의 &Param2&이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
           "icons": [
             "Common_Potential_15_A",
             "Potential_Round_B",
@@ -4945,8 +4945,8 @@
         {
           "id": 511143,
           "name": "빙결의 가호",
-          "descShort": "아야메 필살기 피해 범위 내 자신과 자신을 제외한 아군 캐릭터의 &Param2&이 증가한다.",
-          "descLong": "아야메의 필살기 피해 범위 내 자신과 자신을 제외한 아군 캐릭터의 &Param2&이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "descShort": "아야메 필살기 피해 범위 내 자신과 아군 캐릭터의 &Param2&이 증가한다.",
+          "descLong": "아야메의 필살기 피해 범위 내 자신과 아군 캐릭터의 &Param2&이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
           "icons": [
             "11101_Potential_41_A",
             "Potential_Round_B",
@@ -15545,8 +15545,8 @@
         {
           "id": 512531,
           "name": "수호의 의지",
-          "descShort": "팀원이 모두 물 속성 캐릭터일 때 팀 전체의 치명타가 증가한다.",
-          "descLong": "팀원이 모두 물 속성 캐릭터일 때 팀 전체의 치명타가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "descShort": "팀원이 모두 물 속성 캐릭터일 때 팀 전체의 치명타율이 증가한다.",
+          "descLong": "팀원이 모두 물 속성 캐릭터일 때 팀 전체의 치명타율이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
           "icons": [
             "Common_Potential_11_A",
             "Potential_Diamond_B",
@@ -16607,8 +16607,8 @@
         {
           "id": 512628,
           "name": "시각적 충격",
-          "descShort": "메인 캐릭터가 치명타를 입히면, 해당 &Param3&이 증가한다.",
-          "descLong": "메인 캐릭터가 치명타를 입히면, 해당 &Param3&이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. &Param2&초간 지속된다.",
+          "descShort": "메인 캐릭터가 치명타를 입히면, 해당 메인 캐릭터의 &Param3&이 증가한다.",
+          "descLong": "메인 캐릭터가 치명타를 입히면, 해당 메인 캐릭터의 &Param3&이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. &Param2&초간 지속된다.",
           "icons": [
             "12601_Potential_24_A",
             "Potential_Diamond_B",
@@ -16657,7 +16657,7 @@
         {
           "id": 512629,
           "name": "인상 강화",
-          "descShort": "「물의 나비」가 불 속성 메인 캐릭터의 &Param2&를 증가시킨다.",
+          "descShort": "「물의 나비」가 불 속성 메인 캐릭터의 &Param2&을 증가시킨다.",
           "descLong": "「물의 나비」 1마리마다 불 속성 메인 캐릭터의 &Param2&이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
           "icons": [
             "12601_Potential_23_A",
@@ -20722,7 +20722,7 @@
           "id": 513442,
           "name": "바람을 가르는 철권",
           "descShort": "후유카의 &Param3&와 필살기의 타격 횟수가 증가한다.",
-          "descLong": "필살기 「&Param1&」에 타격 횟수가 4회 증가하고, 후유카의 &Param3&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "descLong": "필살기 「&Param1&」의 타격 횟수가 4회 증가하고, 후유카의 &Param3&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
           "icons": [
             "13401_Potential_41_A",
             "Potential_Triangle_B",
@@ -22743,8 +22743,8 @@
         {
           "id": 514127,
           "name": "묵부·결계",
-          "descShort": "치시아의 소환물이 주변 자신을 제외한 아군 캐릭터의 치명타를 증가시킨다.",
-          "descLong": "치시아의 소환물이 근거리의 자신을 제외한 아군 캐릭터의 치명타를 <span style=\"color:#ec6d21\">&Param1&</span> 증가시킨다. 최대 &Param2&스택 중첩된다.",
+          "descShort": "치시아의 소환물이 주변 자신을 제외한 아군 캐릭터의 치명타율을 증가시킨다.",
+          "descLong": "치시아의 소환물이 근거리의 자신을 제외한 아군 캐릭터의 치명타율을 <span style=\"color:#ec6d21\">&Param1&</span> 증가시킨다. 최대 &Param2&스택 중첩된다.",
           "icons": [
             "14101_Potential_22_A",
             "Potential_Round_B",
@@ -23144,8 +23144,8 @@
         {
           "id": 514201,
           "name": "어둠의 찢기",
-          "descShort": "메인 스킬의 피해와 범위가 증가한다. \n메인 스킬을 시전하면 전체 아군의 &Param2&가 증가한다.",
-          "descLong": "메인 스킬 「어둠의 연타」 두 번째 펀치의 피해가 <span style=\"color:#0abec5\">&Param1&</span> 증가하고, 범위가 증가한다. \n메인 스킬 시전 시 전체 아군의 &Param2&가 <span style=\"color:#0abec5\">&Param3&</span> 증가한다. &Param4&초간 지속된다.",
+          "descShort": "메인 스킬의 피해와 범위가 증가한다. \n메인 스킬을 시전하면 전체 아군의 &Param2&이 증가한다.",
+          "descLong": "메인 스킬 「어둠의 연타」 두 번째 펀치의 피해가 <span style=\"color:#0abec5\">&Param1&</span> 증가하고, 범위가 증가한다. \n메인 스킬 시전 시 전체 아군의 &Param2&이 <span style=\"color:#0abec5\">&Param3&</span> 증가한다. &Param4&초간 지속된다.",
           "icons": [
             "14201_Potential_01_A"
           ],
@@ -23520,8 +23520,8 @@
         {
           "id": 514209,
           "name": "어둠의 침습",
-          "descShort": "코제트 주변의 <span style=\"color:#6A90EB\">어둠 속성 표식: 암영</span>을 보유한 목표 1명마다 코제트의 &Param1&이 증가한다.",
-          "descLong": "코제트 주변의 <span style=\"color:#6A90EB\">어둠 속성 표식: 암영</span>을 보유한 목표 1명마다 코제트의 &Param1&이 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 최대 &Param3&스택 중첩된다.",
+          "descShort": "코제트 주변의 <span style=\"color:#6A90EB\">어둠 속성 표식: 암영</span>을 보유한 목표 1명마다 코제트의 &Param1&가 증가한다.",
+          "descLong": "코제트 주변의 <span style=\"color:#6A90EB\">어둠 속성 표식: 암영</span>을 보유한 목표 1명마다 코제트의 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 최대 &Param3&스택 중첩된다.",
           "icons": [
             "14201_Potential_03_A",
             "Potential_Triangle_B",
@@ -24016,8 +24016,8 @@
         {
           "id": 514227,
           "name": "어둠·생명",
-          "descShort": "발톱을 휘두를 때마다 메인 캐릭터의 &Param1&이 증가한다.",
-          "descLong": "지원 스킬 「심연의 발」이 발을 휘두를 때마다 메인 캐릭터의 &Param1&이 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며 최대 &Param4&스택 중첩된다.",
+          "descShort": "발톱을 휘두를 때마다 메인 캐릭터의 &Param1&가 증가한다.",
+          "descLong": "지원 스킬 「심연의 발」로 발톱을 휘두를 때마다 메인 캐릭터의 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며 최대 &Param4&스택 중첩된다.",
           "icons": [
             "14201_Potential_21_A",
             "Potential_Round_B",
@@ -24072,7 +24072,7 @@
         {
           "id": 514228,
           "name": "어둠·환상",
-          "descShort": "지원 스킬이 피해를 입히면 일정 확률로 현기증 상태를 부여하고, 전체 아군의 &Param1&이 증가한다.",
+          "descShort": "지원 스킬이 피해를 입히면 일정 확률로 기절 상태를 부여하고, 전체 아군의 &Param1&이 증가한다.",
           "descLong": "지원 스킬 「심연의 발」이 피해를 입히면 30% 확률로 3초의 기절 효과를 부여한다. 또한 전체 아군의 &Param1&이 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 해당 효과는 0.5초마다 최대 1회 발동한다.",
           "icons": [
             "14201_Potential_23_A",
@@ -30778,7 +30778,7 @@
           "id": 515608,
           "name": "원샷 올킬",
           "descShort": "나즈나가 일반 공격 시 일정 확률로 황금알을 던져 범위 피해를 입힌다.",
-          "descLong": "나즈나가 일반 공격 시 20% 확률로 황금알을 던져 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 땅 속성 범위 일반 공격 피해를 입힌다. 또한 <span style=\"color:#6A90EB\">땅 속성 표식: 지맥</span>을 부여하다.",
+          "descLong": "나즈나가 일반 공격 시 20% 확률로 황금알을 던져 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 땅 속성 범위 일반 공격 피해를 입힌다. 또한 <span style=\"color:#6A90EB\">땅 속성 표식: 지맥</span>을 부여한다.",
           "icons": [
             "15601_Potential_08_A",
             "Potential_Diamond_B",
@@ -35450,7 +35450,7 @@
         },
         {
           "name": "승부의 일격",
-          "desc": "빛 속성 메인 캐릭터의 스킬이 명중하면, 팀 내 빛 속성 캐릭터의 공격력이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. &Param3&초간 지속된다. \n빛 속성 캐릭터가 현기증 상태의 목표를 명중하면, 해당 효과가 <span style=\"color:#ec6d21\">&Param2&</span> 추가로 증가한다. &Param4&초간 지속된다.",
+          "desc": "빛 속성 메인 캐릭터의 스킬이 명중하면, 팀 내 빛 속성 캐릭터의 공격력이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. &Param3&초간 지속된다. \n빛 속성 캐릭터가 기절 상태의 목표를 명중하면, 해당 효과가 <span style=\"color:#ec6d21\">&Param2&</span> 추가로 증가한다. &Param4&초간 지속된다.",
           "params": [
             {
               "idx": 1,

@@ -19852,7 +19852,7 @@
           "id": 513409,
           "name": "Blast Pursuit",
           "descShort": "Fuyuka's fourth attack on the same target deals additional DMG.",
-          "descLong": "Every time Fuyuka deals DMG to a target 4 times, she launches an additional attack on the same target, dealing <span style=\"color:#ec6d21\">&Param1& of ATK</span> as Ignis Skill DMG.",
+          "descLong": "Every time Fuyuka deals DMG to a target 4 times, she launches an additional attack on the same target, dealing <span style=\"color:#ec6d21\">&Param1& of ATK</span> as Ignis Skill DMG.\nAfter this effect triggers, it has a 1.5s cooldown before it can stack again.",
           "icons": [
             "13401_Potential_03_A",
             "Potential_Triangle_B",
