@@ -5,8 +5,9 @@
   "description": "Datamined data for the game `Stella Sora`, updates automatically",
   "main": "scripts/main.js",
   "scripts": {
-    "start": "node scripts/main.js",
-    "extract": "node scripts/extract.js"
+    "start": "bun scripts/main.js",
+    "generate": "bun scripts/main.js",
+    "extract": "bun scripts/extract.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "sharp": "^0.34.5"
   },
   "devDependencies": {
+    "@types/node": "^24.10.1",
     "prettier": "3.6.2"
   }
 }

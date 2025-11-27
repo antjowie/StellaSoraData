@@ -19,7 +19,7 @@ import parseParam from "./paramParser.js";
 //  - The text will be colored
 //  - The text will be underlined and can be pressed to open a popup
 //  - The ID will be replaced with an icon
-function patchDescription(origText) {
+function patchDescription(origText: string) {
   // Replace all color tags with span tags (valid html)
   let finalText = origText;
   while (finalText.includes("<color=#")) {
@@ -28,12 +28,14 @@ function patchDescription(origText) {
     const color = finalText.slice(colorStart + "<color=#".length, colorEnd);
     let colorCloseStart = finalText.indexOf("</color>", colorEnd);
     const textStart = colorEnd + 1;
-    let textEnd;
-    let colorCloseEnd;
+    let textEnd = -1;
+    let colorCloseEnd = -1;
     if (colorCloseStart === -1) {
       // Some translations don't close color tags, in this case the first string is included
       textEnd =
-        finalText.slice(textStart).match(/^[^,\s]+/)[0].length + textStart;
+        // If it can't find till end of next word just do the entire remainder of string
+        (finalText.slice(textStart).match(/^[^,\s]+/)?.[0].length ??
+          finalText.length - 1 - textStart) + textStart;
       colorCloseEnd = textEnd;
     } else {
       textEnd = colorCloseStart;
@@ -54,14 +56,14 @@ function patchDescription(origText) {
   const texts = origText.match(specialTextRegex);
   if (texts !== null) {
     for (const text of texts) {
-      const id = text.match(idRegex)[0].slice(1, -1);
+      const id = text.match(idRegex)![0].slice(1, -1);
       if (!(id in getJson("Word")))
         throw new Error(`Unknown special text ID: ${id}`);
       const word = getJson("Word")[id];
 
       finalText = finalText.replace(
         text,
-        `<span style="color:#${word.Color}">${text.match(textRegex)[0].slice(2, -1)}</span>`,
+        `<span style="color:#${word.Color}">${text.match(textRegex)![0].slice(2, -1)}</span>`,
       );
     }
   }
@@ -71,16 +73,17 @@ function patchDescription(origText) {
 const extractParamsFromText = (text) => text.match(/(?<=&)\w+(?=&)/g) ?? [];
 
 function getCharacters() {
-  let data = [];
   // Build mapping for char to potential types
-  /** @type {Set<number>} */
-  let incompleteIds = new Set();
-  /** @type {Map<number, any>} */
-  let charToPotentialType = new Map();
+  let incompleteIds: Set<number> = new Set();
+  let charToPotentialType: Map<number, any> = new Map();
   Object.values(getJson("CharPotential")).forEach((entry) => {
-    let data = entry;
+    let data: any = entry;
     let charId = parseNumberStrict(data.Id);
-    let result = {
+    let result: {
+      type1: number[];
+      type2: number[];
+      type3: number[];
+    } = {
       type1: [],
       type2: [],
       type3: [],
@@ -89,19 +92,19 @@ function getCharacters() {
       incompleteIds.add(charId);
       return;
     }
-    Object.values(data.MasterSpecificPotentialIds).forEach((id) =>
+    Object.values(data.MasterSpecificPotentialIds).forEach((id: any) =>
       result.type1.push(parseNumberStrict(id)),
     );
-    Object.values(data.MasterNormalPotentialIds).forEach((id) =>
+    Object.values(data.MasterNormalPotentialIds).forEach((id: any) =>
       result.type1.push(parseNumberStrict(id)),
     );
-    Object.values(data.AssistSpecificPotentialIds).forEach((id) =>
+    Object.values(data.AssistSpecificPotentialIds).forEach((id: any) =>
       result.type2.push(parseNumberStrict(id)),
     );
-    Object.values(data.AssistNormalPotentialIds).forEach((id) =>
+    Object.values(data.AssistNormalPotentialIds).forEach((id: any) =>
       result.type2.push(parseNumberStrict(id)),
     );
-    Object.values(data.CommonPotentialIds).forEach((id) =>
+    Object.values(data.CommonPotentialIds).forEach((id: any) =>
       result.type3.push(parseNumberStrict(id)),
     );
 
@@ -109,15 +112,10 @@ function getCharacters() {
   });
 
   // Build mapping from char to potentials
-  /** @type {Map<number, Potential[]>} */
-  let charToPotentials = new Map();
-  Object.values(getJson("Potential")).forEach((potential) => {
+  let charToPotentials: Map<number, any[]> = new Map();
+  Object.values(getJson("Potential")).forEach((potential: any) => {
     let charId = parseNumberStrict(potential.CharId);
     if (incompleteIds.has(charId)) return;
-
-    if (charToPotentials.has(charId) == false) {
-      charToPotentials.set(charId, []);
-    }
 
     // Parse potential data
     let potentialId = parseNumberStrict(potential.Id);
@@ -142,7 +140,7 @@ function getCharacters() {
     }
 
     // Set potential icon
-    let icons = [];
+    let icons: string[] = [];
     const parts = getJson("Item")[potentialId].Icon.split("/");
     icons.push(parts[parts.length - 1] + "_A");
     if ("Corner" in getJson("Potential")[potentialId]) {
@@ -193,7 +191,7 @@ function getCharacters() {
     let paramStrings = extractParamsFromText(descShort);
     paramStrings = [...paramStrings, ...extractParamsFromText(descLong)];
     paramStrings = new Set(paramStrings);
-    let params = [];
+    let params: { idx: number; values: string[] }[] = [];
     for (const param of paramStrings) {
       if (!(param in potential))
         throw new Error(
@@ -205,7 +203,10 @@ function getCharacters() {
       params.push({ idx: paramIdx, values: parseParam(paramValue) });
     }
 
-    charToPotentials.get(charId).push({
+    if (charToPotentials.has(charId) == false) {
+      charToPotentials.set(charId, []);
+    }
+    charToPotentials.get(charId)!.push({
       id: potentialId,
       name: getLangJson("Item")[`Item.${potentialId}.1`],
       descShort,
@@ -219,7 +220,10 @@ function getCharacters() {
   });
 
   // Populate each character
-  for (const [charIdStr, charData] of Object.entries(getJson("Character"))) {
+  let characters: any[] = [];
+  for (const data of Object.entries(getJson("Character"))) {
+    const charIdStr = data[0];
+    const charData = data[1] as any;
     let charId = parseNumberStrict(charIdStr);
     if (charData["Visible"] === undefined || charData["Visible"] === false)
       continue;
@@ -254,14 +258,14 @@ function getCharacters() {
         getLangJson("CharacterDes")[`CharacterDes.${charId}.12`],
       potentials: potentials,
     };
-    data.push(character);
+    characters.push(character);
   }
-  return data;
+  return characters;
 }
 
 function getDiscs() {
   return Object.values(getJson("Disc"))
-    .map((disc) => {
+    .map((disc: any) => {
       if (disc["Visible"] === undefined || disc["Visible"] === false)
         return null;
 
@@ -284,8 +288,8 @@ function getDiscs() {
         const desc = patchText(lang[obj.Desc]);
 
         const paramsStrings = extractParamsFromText(desc);
-        let params = [];
-        let notes = [];
+        let params: any[] = [];
+        let notes: any[] = [];
         for (const [i, param] of paramsStrings.entries()) {
           params.push({
             idx: parseNumberStrict(param.slice("Param".length)),
@@ -348,7 +352,7 @@ function getDiscs() {
           `Skill not found for ${disc.Id} at id ${disc.MainSkillGroupId}`,
         );
 
-      let skills = [];
+      let skills: any[] = [];
       skills.push(main);
       let level = 1;
       while (true) {
@@ -382,11 +386,11 @@ function getDiscs() {
 
 function generateDatabases() {
   const langs = [EN, JP, KR, CN, TW];
-  let databases = [];
+  let databases: any = [];
   fs.mkdirSync("./databases", { recursive: true });
   for (const lang of langs) {
     console.log(`Generating database for ${lang}...`);
-    let database = {};
+    let database: any = {};
     setLang(lang);
     database.characters = getCharacters();
     database.discs = getDiscs();

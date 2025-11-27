@@ -5,7 +5,7 @@ import {
   roundIfDecimal,
 } from "./global.js";
 
-const processEnum = (value, fields) => {
+const processEnum = (value: string, fields: string[]) => {
   if (fields[1] !== "EAT")
     throw new Error("Expected EAT, unsupported value: " + fields[1]);
 
@@ -47,7 +47,7 @@ const parserConfig = {
     // Most of the values are numerical and can be parsed as such
     Default: {
       formats: ["Pct", "Hd", "10K", "Fixed"],
-      process: (value, fields) => {
+      process: (value: string, fields: string[]) => {
         return formatValue(parseNumberStrict(value), fields[0]);
       },
     },
@@ -65,7 +65,7 @@ const parserConfig = {
     },
     Title: {
       formats: ["Text"],
-      process: (value, fields) => {
+      process: (value: string, fields: string[]) => {
         return getLangJson("Skill")[value];
       },
     },
@@ -75,12 +75,12 @@ const parserConfig = {
   HitDamage: {
     Default: {
       formats: ["10K"],
-      process: (value, fields) => {
+      process: (value: string, fields: string[]) => {
         // value is an object in HitDamage.json
         // Assumption that SkillAbsAmend is always 0. This obj is also used for bosses?
         // In any case, it's not always 0 so lets check for it
         if (value["SkillAbsAmend"][0] !== 0) {
-          throw new Error(`SkillAbsAmend is not 0 for HitDamage ${id}`);
+          throw new Error(`SkillAbsAmend is not 0 for HitDamage`);
         }
 
         const percentages = value["SkillPercentAmend"];
@@ -93,13 +93,19 @@ const parserConfig = {
   },
 };
 
-function generateLevelId(baseId, level) {
+function generateLevelId(baseId: string, level: number) {
   const idWithoutLevel = baseId.substring(0, baseId.length - 2);
   const lastDigit = baseId[baseId.length - 1];
   return idWithoutLevel + level + lastDigit;
 }
 
-function processValue(id, fields, json, key, process) {
+function processValue(
+  id: string,
+  fields: string[],
+  json: object,
+  key: string | null,
+  process: (value: any, fields: string[]) => string,
+): string {
   let obj = json[id];
   if (key !== null) obj = obj[key];
   if (!obj)
@@ -107,8 +113,14 @@ function processValue(id, fields, json, key, process) {
   return process(obj, fields.slice(1));
 }
 
-function processLevelUpValues(baseId, fields, json, key, process) {
-  const data = [];
+function processLevelUpValues(
+  baseId: string,
+  fields: string[],
+  json: object,
+  key: string | null,
+  process: (value: any, fields: string[]) => string,
+): string[] {
+  const data: string[] = [];
   let index = 1;
   let valid = true;
 
@@ -132,7 +144,7 @@ function processLevelUpValues(baseId, fields, json, key, process) {
   return data;
 }
 
-function parseParam(param) {
+function parseParam(param: string) {
   // EX: "Param1": "Shield,LevelUp,12354101,ReferenceScale,10KHdPct",
   const parts = param.split(",");
   const category = parts[0];
@@ -148,7 +160,7 @@ function parseParam(param) {
     if (!fieldProcessor) fieldProcessor = processor.Default;
     processor = fieldProcessor;
 
-    const validateFormat = (format) => {
+    const validateFormat = (format: string) => {
       // Check if we can exhaust all formats
       // The formats decide how the number should be interpeted
       for (const f of processor.formats) {
@@ -158,7 +170,7 @@ function parseParam(param) {
         throw new Error(`Unsupported format ${fields[1]} for ${param}`);
     };
 
-    let values;
+    let values: string[];
     switch (method) {
       case "NoLevel":
         validateFormat(fields[1]);
@@ -178,7 +190,7 @@ function parseParam(param) {
         // Not sure why, it seems to be some meta file but we
         // can get level info from the corresponding Value file
         values = [
-          processLevelUpValues(
+          ...processLevelUpValues(
             id,
             fields,
             getJson(category + "Value"),

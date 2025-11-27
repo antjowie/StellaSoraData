@@ -18,9 +18,9 @@ const TO = "./bundles";
 if (existsSync(TO)) rmSync(TO, { recursive: true });
 if (existsSync("./assets")) rmSync("./assets", { recursive: true });
 if (existsSync("./extract")) rmSync("./extract", { recursive: true });
-let files = {};
+let files: { [key: string]: string[] } = {};
 
-async function process(from) {
+async function process(from: string) {
   const to = join(TO, from.split("/").slice(1).join("/"));
   mkdirSync(to, { recursive: true });
   const patterns = [/^icon-.*\.unity3d$/];
@@ -64,7 +64,7 @@ async function process(from) {
     ];
 
     for (const folder of folders) {
-      let localFiles = [];
+      let localFiles: string[] = [];
       readdirSync("./extract/" + folder.path, { recursive: true }).forEach(
         (file) => {
           const source = join("./extract", folder.path, file);

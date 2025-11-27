@@ -11,11 +11,11 @@ export let lang = "";
 export let jsonCache = {};
 export let jsonLangCache = {};
 
-export function setLang(newLang) {
+export function setLang(newLang: string) {
   lang = newLang;
 }
 
-export function getJson(json) {
+export function getJson(json: string) {
   if (jsonCache[json] === undefined)
     jsonCache[json] = JSON.parse(readFileSync(`EN/bin/${json}.json`, "utf8"));
   if (jsonCache[json] === undefined)
@@ -23,8 +23,11 @@ export function getJson(json) {
   return jsonCache[json];
 }
 
-export function getLangJson(json, langOverride) {
-  let path;
+export function getLangJson(
+  json: string,
+  langOverride: string | undefined = undefined,
+) {
+  let path: string;
   let localLang = langOverride ?? lang;
   switch (localLang) {
     case EN:
@@ -54,13 +57,7 @@ export function getLangJson(json, langOverride) {
   return jsonLangCache[path];
 }
 
-/**
- * Parses a string to an number, throwing an error if it fails.
- * @param {*} value - The value to parse.
- * @param {string} context - Optional context for the error message.
- * @returns {number} The parsed integer.
- */
-export function parseNumberStrict(value) {
+export function parseNumberStrict(value: any) {
   const result = parseFloat(value);
   if (isNaN(result)) {
     throw new Error(`Failed to parse integer: ${JSON.stringify(value)}`);
@@ -68,6 +65,6 @@ export function parseNumberStrict(value) {
   return result;
 }
 
-export function roundIfDecimal(num) {
+export function roundIfDecimal(num: number) {
   return Number.isInteger(num) ? num : Math.round(num * 10) / 10;
 }

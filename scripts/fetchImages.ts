@@ -3,7 +3,7 @@ import ky from "ky";
 import axios from "axios";
 import sharp from "sharp";
 
-async function downloadImage(name, path, placeholder) {
+async function downloadImage(name: string, path: string, placeholder: Buffer) {
   {
     // Check skip conditions
     if (fs.existsSync(path)) {
