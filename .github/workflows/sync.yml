@@ -20,8 +20,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install node
-        uses: actions/setup-node@v6
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
 
       - name: Sync upstream
         run: |
@@ -37,8 +39,8 @@ jobs:
 
       - name: Run scripts
         run: |
-          npm install
-          npm start
+          bun install
+          bun start
 
       - name: Push any changes
         run: |
