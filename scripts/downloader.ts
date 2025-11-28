@@ -148,10 +148,10 @@ async function downloadFiles(
 
   const paths = Object.values(manifest.file).map((file: any) => file.path);
   const files = paths.filter(
-    (path) => path.includes("icon-") || path.includes("char_2d_"),
+    (path) => path.includes("icon-"),
+    // (path) => path.includes("icon-") || path.includes("char_2d_"),
   );
 
-  // Download bundles with progress tracking
   let downloadedCount = 0;
   const totalFiles = files.length;
   console.log(`Starting download of ${totalFiles} files...`);
@@ -162,21 +162,24 @@ async function downloadFiles(
 
     const promises = chunk.map(async (icon) => {
       const url = encodeURI(manifest.source + icon);
-      return ax
-        .get(url, {
+      try {
+        const res = await ax.get(url, {
           baseURL: cdnUrl,
           withCredentials: false,
           responseType: "arraybuffer",
-        })
-        .then((res) => {
-          const out = path.join(outDir, icon);
-          fs.mkdirSync(path.dirname(out), { recursive: true });
-          fs.writeFileSync(out, res.data);
-          downloadedCount++;
-          console.log(`Downloaded ${downloadedCount}/${totalFiles} files`);
         });
-    });
 
+        const out = path.join(outDir, icon);
+        fs.mkdirSync(path.dirname(out), { recursive: true });
+        fs.writeFileSync(out, res.data);
+
+        downloadedCount++;
+        console.log(`Downloaded ${downloadedCount}/${totalFiles} files`);
+      } catch (error) {
+        console.error(`Error downloading ${icon}, retrying: ${error.message}`);
+        files.push(icon);
+      }
+    });
     await Promise.all(promises);
   }
 
