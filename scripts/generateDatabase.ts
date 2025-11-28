@@ -379,6 +379,7 @@ function getDiscs() {
         // 1 ssr, 2 sr, 3 r
         rarity: discItem.Rarity,
         skills,
+        bg: parseNumberStrict(disc.DiscBg.split("/")[2]),
       };
     })
     .filter((disc) => disc !== null);

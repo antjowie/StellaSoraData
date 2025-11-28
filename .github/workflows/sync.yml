@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "30 * * * *"
+    - cron: "* */2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -40,7 +40,7 @@ jobs:
       - name: Run scripts
         run: |
           bun install
-          bun start
+          bun run generate
 
       - name: Push any changes
         run: |
