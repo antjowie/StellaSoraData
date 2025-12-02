@@ -23182,8 +23182,8 @@
         {
           "id": 514202,
           "name": "Nightscar Trace",
-          "descShort": "When a squadmate lands a Crit Hit, reduces the Main Skill's Cooldown, leaves claw marks and inflicts <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>.",
-          "descLong": "When a squadmate lands a Crit Hit, reduces the Cooldown of Nocturn Hooks (Main Skill) by <span style=\"color:#0abec5\">1</span>s, and leaves claw marks at the target's location, dealing <span style=\"color:#0abec5\">&Param1& of Cosette's ATK</span> as AoE Umbra Skill DMG and inflicting <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>. \nThis effect can only be triggered 5 times per Skill cast.",
+          "descShort": "When any other friendly unit lands a Crit Hit, reduces the Main Skill's Cooldown, leaves claw marks and inflicts <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>.",
+          "descLong": "When any other friendly unit lands a Crit Hit, reduces the Cooldown of Nocturn Hooks (Main Skill) by <span style=\"color:#0abec5\">1</span>s, and leaves claw marks at the target's location, dealing <span style=\"color:#0abec5\">&Param1& of Cosette's ATK</span> as AoE Umbra Skill DMG and inflicting <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>. \nThis effect can only be triggered 5 times per Skill cast.",
           "icons": [
             "14201_Potential_02_A"
           ],

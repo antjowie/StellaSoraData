@@ -23182,8 +23182,8 @@
         {
           "id": 514202,
           "name": "夜痕刻影",
-          "descShort": "队友暴击时，缩短主控技冷却时间，同时生成爪痕并附加<span style=\"color:#6A90EB\">暗系印记：暗影</span>。",
-          "descLong": "队友暴击时，主控技「幽冥连击」冷却缩短<span style=\"color:#0abec5\">1</span>秒，并在目标处生成爪痕，造成珂赛特攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围暗系技能伤害，可附加<span style=\"color:#6A90EB\">暗系印记:暗影</span>。\n该效果每次技能最多触发5次。",
+          "descShort": "友方暴击时，缩短主控技冷却时间，同时生成爪痕并附加<span style=\"color:#6A90EB\">暗系印记：暗影</span>。",
+          "descLong": "友方暴击时，主控技「幽冥连击」冷却缩短<span style=\"color:#0abec5\">1</span>秒，并在目标处生成爪痕，造成珂赛特攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围暗系技能伤害，可附加<span style=\"color:#6A90EB\">暗系印记:暗影</span>。\n该效果每次技能最多触发5次。",
           "icons": [
             "14201_Potential_02_A"
           ],

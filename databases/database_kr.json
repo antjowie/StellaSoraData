@@ -23182,8 +23182,8 @@
         {
           "id": 514202,
           "name": "어둠의 흔적",
-          "descShort": "팀원 치명타 시, 메인 스킬 쿨타임이 감소한다. 동시에 발톱의 흔적을 생성하고, <span style=\"color:#6A90EB\">어둠 속성 표식: 암영</span>을 부여한다.",
-          "descLong": "팀원이 치명타를 입히면 메인 스킬 「어둠의 연타」 쿨타임이 <span style=\"color:#0abec5\">1</span>초 감소하고, 목표 위치에 발톱의 흔적을 생성해 코제트 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 어둠 속성 범위 스킬 피해를 입힌다. <span style=\"color:#6A90EB\">어둠 속성 표식: 암영</span>을 부여할 수 있다. \n해당 효과는 스킬당 최대 5회 발동한다.",
+          "descShort": "자신을 제외한 아군 치명타 시, 메인 스킬 쿨타임이 감소한다. 동시에 발톱의 흔적을 생성하고, <span style=\"color:#6A90EB\">어둠 속성 표식: 암영</span>을 부여한다.",
+          "descLong": "자신을 제외한 아군이 치명타를 입히면 메인 스킬 「어둠의 연타」 쿨타임이 <span style=\"color:#0abec5\">1</span>초 감소하고, 목표 위치에 발톱의 흔적을 생성해 코제트 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 어둠 속성 범위 스킬 피해를 입힌다. <span style=\"color:#6A90EB\">어둠 속성 표식: 암영</span>을 부여할 수 있다. \n해당 효과는 스킬당 최대 5회 발동한다.",
           "icons": [
             "14201_Potential_02_A"
           ],
