@@ -11610,7 +11610,7 @@
           "id": 511922,
           "name": "煦風消融",
           "descShort": "援護技觸發<span style=\"color:#6A90EB\">風系印記</span>時，產生爆炸並縮短冷卻時間。",
-          "descLong": "援護技「花未凋」觸發<span style=\"color:#6A90EB\">風系印記</span>時，產生爆炸、造成<span style=\"color:#0abec5\">&Param1&</span>風系技能傷害，冷卻時間縮短<span style=\"color:#0abec5\">&Param2&</span>秒。\n每次技能最多觸發&Param3&</color>次。",
+          "descLong": "援護技「花未凋」觸發<span style=\"color:#6A90EB\">風系印記</span>時，產生爆炸、造成<span style=\"color:#0abec5\">&Param1&</span>風系技能傷害，冷卻時間縮短<span style=\"color:#0abec5\">&Param2&</span>秒。\n每次技能最多觸發<span style=\"color:#0abec5\">&Param3&</span>次。",
           "icons": [
             "11901_Potential_22_A"
           ],
@@ -19418,15 +19418,1341 @@
       ]
     },
     {
+      "id": 133,
+      "name": "Nazuka",
+      "class": 2,
+      "element": 4,
+      "rarity": 1,
+      "mainBuild1Name": "夏花主控流派1",
+      "mainBuild1Desc": "大幅提升吹風時間和範圍的持續傷害流派。",
+      "mainBuild2Name": "夏花主控流派2",
+      "mainBuild2Desc": "吹風追加聚怪效果並可貫穿攻擊的爆發傷害流派。",
+      "supportBuild1Name": "夏花援護流派1",
+      "supportBuild1Desc": "連續產生持續追蹤目標之花瓣的單體流派。",
+      "supportBuild2Name": "夏花援護流派2",
+      "supportBuild2Desc": "產生花海，並可協同風系傷害的群傷流派。",
+      "potentials": [
+        {
+          "id": 513301,
+          "name": "花影旋風",
+          "descShort": "提升主控技期間的移動速度和傷害範圍。縮短主控技的傷害間隔。",
+          "descLong": "主控技「疾風綻放」期間，移動速度和傷害範圍提升<span style=\"color:#0abec5\">40%</span>，傷害間隔縮短<span style=\"color:#0abec5\">50%</span>。",
+          "icons": [
+            "13301_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": []
+        },
+        {
+          "id": 513302,
+          "name": "風華永續",
+          "descShort": "提升主控技持續時間。技能中斷時，會歸還部分冷卻時間。",
+          "descLong": "主控技「疾風綻放」的持續時間提升<span style=\"color:#0abec5\">100%</span>。「疾風綻放」中斷時，會歸還部分冷卻時間。",
+          "icons": [
+            "13301_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": []
+        },
+        {
+          "id": 513303,
+          "name": "勁風利矢",
+          "descShort": "吹風結束時，發射貫穿強風，造成傷害。",
+          "descLong": "主控技「疾風綻放」吹風結束時，發射1道貫穿強風，造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的風系技能傷害，可觸發<span style=\"color:#6A90EB\">風系印記</span>。",
+          "icons": [
+            "13301_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "137%",
+                "158%",
+                "178%",
+                "240%",
+                "259%",
+                "278%",
+                "317%",
+                "333%",
+                "350%",
+                "383%",
+                "410%",
+                "438%",
+                "465%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513304,
+          "name": "螺旋風渦",
+          "descShort": "主控技額外造成傷害，使目標&Param4&提升，並可牽引弱小目標。",
+          "descLong": "主控技「疾風綻放」在2秒內額外造成攻擊力<span style=\"color:#0abec5\">&Param1&x16</span>的風系技能傷害，使目標&Param4&提升<span style=\"color:#0abec5\">&Param5&</span>，持續&Param2&秒，可疊加&Param3&層。此效果可牽引弱小的目標。",
+          "icons": [
+            "13301_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "受到的風系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "5.7%",
+                "6.5%",
+                "8.7%",
+                "9.4%",
+                "10.1%",
+                "11.5%",
+                "12.1%",
+                "12.7%",
+                "13.9%",
+                "14.9%",
+                "15.9%",
+                "16.9%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "1.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513305,
+          "name": "風蝕衝擊",
+          "descShort": "主控技造成的&Param1&提升，並使目標&Param3&提升。",
+          "descLong": "主控技「疾風綻放」造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，並使目標&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param5&秒，可疊加&Param6&層。",
+          "icons": [
+            "13301_Potential_02_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14%",
+                "19%",
+                "24%",
+                "29%",
+                "34%",
+                "39%",
+                "44%",
+                "49%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "0.5%",
+                "0.8%",
+                "1.1%",
+                "1.4%",
+                "1.7%",
+                "2%",
+                "2.3%",
+                "2.6%",
+                "2.9%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513306,
+          "name": "強風庇佑",
+          "descShort": "主控技期間，提升自身&Param1&，且受擊時，對攻擊者造成傷害。",
+          "descLong": "主控技「疾風綻放」施放期間，自身&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>點，且受擊時，對攻擊者造成攻擊力<span style=\"color:#ec6d21\">&Param3&</span>的風系技能傷害，此效果每秒最多觸發1次。",
+          "icons": [
+            "13301_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "防禦",
+                "防禦",
+                "防禦",
+                "防禦",
+                "防禦",
+                "防禦",
+                "防禦",
+                "防禦",
+                "防禦"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "50",
+                "67",
+                "84",
+                "101",
+                "118",
+                "134",
+                "151",
+                "168",
+                "185"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "30%",
+                "49%",
+                "67%",
+                "85%",
+                "103%",
+                "122%",
+                "140%",
+                "158%",
+                "176%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513307,
+          "name": "疾風勁草",
+          "descShort": "主控技期間，&Param1&隨著持續時間提升。",
+          "descLong": "主控技「疾風綻放」期間，&Param1&每秒提升<span style=\"color:#ec6d21\">&Param2&</span>，技能結束後清除該效果。",
+          "icons": [
+            "13301_Potential_01_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14%",
+                "19%",
+                "25%",
+                "30%",
+                "35%",
+                "41%",
+                "46%",
+                "51%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513308,
+          "name": "御風強化",
+          "descShort": "施放主控技時，提升&Param1&。",
+          "descLong": "施放主控技「疾風綻放」時，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "13301_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513309,
+          "name": "覆風翻雲",
+          "descShort": "提升夏花的&Param3&。主控技範圍內的目標數量大於1時，提升&Param1&。",
+          "descLong": "夏花的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。\n主控技範圍內的目標數量大於1時，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13301_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513310,
+          "name": "風息詠唱",
+          "descShort": "主控技吹風結束後，短時間內提升&Param1&。",
+          "descLong": "主控技「疾風綻放」的吹風結束後，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續2秒。",
+          "icons": [
+            "13301_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "60%",
+                "96%",
+                "132%",
+                "168%",
+                "204%",
+                "240%",
+                "276%",
+                "312%",
+                "348%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513311,
+          "name": "精密操作",
+          "descShort": "提升夏花&Param1&。\n絕招可觸發<span style=\"color:#6A90EB\">風系印記</span>。",
+          "descLong": "夏花&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。\n絕招「芳香龍捲」可觸發<span style=\"color:#6A90EB\">風系印記</span>。",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513312,
+          "name": "狂風凋零",
+          "descShort": "普攻造成傷害時，有一定機率使目標&Param1&提升。",
+          "descLong": "普攻「爆裂風彈」造成傷害時，有30%機率使目標&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "Common_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "18%",
+                "23%",
+                "28%",
+                "33%",
+                "38%",
+                "43%",
+                "48%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513313,
+          "name": "身如柳絮",
+          "descShort": "增加夏花的閃避次數。\n閃避後提升&Param1&。",
+          "descLong": "夏花的閃避次數增加1次。\n閃避後，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "Common_Potential_13_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "17%",
+                "22%",
+                "27%",
+                "31%",
+                "36%",
+                "41%",
+                "45%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513321,
+          "name": "芳華·撩亂",
+          "descShort": "施放援護技時，在風系主控角色位置連續產生多片「花瓣」，分別造成傷害，並附加<span style=\"color:#6A90EB\">風系印記：風息</span>。",
+          "descLong": "施放援護技「落英繽紛」時，在風系主控角色位置連續生成18片「花瓣」，分別造成夏花攻擊力<span style=\"color:#0abec5\">&Param1&</span>的風系技能傷害，並附加<span style=\"color:#6A90EB\">風系印記：風息</span>。",
+          "icons": [
+            "13301_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "11%",
+                "12.7%",
+                "14.4%",
+                "19.3%",
+                "20.9%",
+                "22.4%",
+                "25.5%",
+                "26.8%",
+                "28.2%",
+                "30.8%",
+                "33%",
+                "35.2%",
+                "37.4%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513322,
+          "name": "芳華·追獵",
+          "descShort": "「花瓣」造成的&Param1&提升，可追蹤目標。",
+          "descLong": "「花瓣」傷害提升<span style=\"color:#0abec5\">&Param2&</span>，可追蹤目標。",
+          "icons": [
+            "13301_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513323,
+          "name": "花海·疊浪",
+          "descShort": "提升「花海」持續時間。\n施放技能後一段時間，風系友方對「花海」外的目標造成傷害時，產生<span style=\"color:#6A90EB\">「花海」</span>。",
+          "descLong": "「花海」持續時間提升<span style=\"color:#0abec5\">50%</span>。\n施放技能後8秒內，風系友方對「花海」外的目標造成傷害時，產生<span style=\"color:#6A90EB\">「花海」</span>，此效果每秒最多觸發1次。",
+          "icons": [
+            "13301_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": []
+        },
+        {
+          "id": 513324,
+          "name": "花海·洶湧",
+          "descShort": "風系友方對「花海」中的目標造成傷害時，「花海」額外造成傷害。",
+          "descLong": "風系友方對「花海」中的目標造成傷害時，「花海」額外造成夏花攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍風系技能傷害，此效果每秒最多觸發1次，且對同一目標每秒最多造成1次傷害。",
+          "icons": [
+            "13301_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "182%",
+                "210%",
+                "237%",
+                "319%",
+                "345%",
+                "370%",
+                "421%",
+                "443%",
+                "465%",
+                "509%",
+                "545%",
+                "582%",
+                "618%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513325,
+          "name": "芳華·破綻",
+          "descShort": "「花瓣」造成傷害時，使目標&Param1&提升。",
+          "descLong": "「花瓣」造成傷害時，使目標&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "13301_Potential_22_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.6%",
+                "5.2%",
+                "5.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513326,
+          "name": "芳華·滅盡",
+          "descShort": "「花瓣」傷害提升，有一定機率立即消滅普通目標。",
+          "descLong": "「花瓣」傷害提升<span style=\"color:#ec6d21\">&Param2&</span>，有15%機率立即消滅普通目標。",
+          "icons": [
+            "13301_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "31%",
+                "43%",
+                "55%",
+                "66%",
+                "78%",
+                "90%",
+                "101%",
+                "113%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513327,
+          "name": "芳華·盛放",
+          "descShort": "「花瓣」傷害提升。\n每產生1片「花瓣」，提升夏花&Param3&。",
+          "descLong": "「花瓣」傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。\n每產生1片「花瓣」，夏花的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param5&秒，可疊加&Param6&層。",
+          "icons": [
+            "13301_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "10%",
+                "14%",
+                "17%",
+                "21%",
+                "25%",
+                "28%",
+                "32%",
+                "36%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.8%",
+                "2.9%",
+                "4%",
+                "5.1%",
+                "6.2%",
+                "7.3%",
+                "8.4%",
+                "9.5%",
+                "10.6%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513328,
+          "name": "花海·薈萃",
+          "descShort": "「花海」傷害提升，「花海」範圍內有3個及以上的目標時，傷害額外提升。",
+          "descLong": "「花海」傷害提升<span style=\"color:#ec6d21\">&Param2&</span>，「花海」範圍內有3個及以上的目標時，傷害額外提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "13301_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "59%",
+                "68%",
+                "77%",
+                "86%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513329,
+          "name": "花海·侵蝕",
+          "descShort": "「花海」造成傷害時，提升目標的&Param1&。",
+          "descLong": "「花海」造成傷害時，目標的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "13301_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.5%",
+                "2.4%",
+                "3.3%",
+                "4.2%",
+                "5.1%",
+                "6%",
+                "6.9%",
+                "7.8%",
+                "8.7%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513330,
+          "name": "花海·爆裂",
+          "descShort": "「花海」造成的&Param2&提升。「花海」消散時，造成傷害，並附加<span style=\"color:#6A90EB\">風系印記</span>。",
+          "descLong": "「花海」造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。「花海」消散時，造成夏花攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的範圍風系技能傷害，並附加<span style=\"color:#6A90EB\">風系印記</span>。",
+          "icons": [
+            "13301_Potential_24_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "29%",
+                "46%",
+                "64%",
+                "81%",
+                "98%",
+                "115%",
+                "133%",
+                "150%",
+                "167%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "105%",
+                "168%",
+                "231%",
+                "294%",
+                "357%",
+                "420%",
+                "484%",
+                "547%",
+                "610%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513331,
+          "name": "風魔種子",
+          "descShort": "提升夏花&Param1&。\n絕招可附加<span style=\"color:#6A90EB\">風系印記</span>。",
+          "descLong": "夏花&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。\n絕招「芳香龍捲」可附加<span style=\"color:#6A90EB\">風系印記：風息</span>。",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513332,
+          "name": "自我提升",
+          "descShort": "「花海」存在時，提升夏花&Param1&。",
+          "descLong": "「花海」存在時，夏花的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "24%",
+                "38%",
+                "53%",
+                "67%",
+                "82%",
+                "96%",
+                "110%",
+                "125%",
+                "139%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513333,
+          "name": "全能領導",
+          "descShort": "隊伍中風系先鋒角色和均衡角色的&Param1&提升。",
+          "descLong": "隊伍中風系先鋒角色和均衡角色的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "16%",
+                "25%",
+                "35%",
+                "44%",
+                "54%",
+                "63%",
+                "73%",
+                "82%",
+                "92%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513341,
+          "name": "多重颶風",
+          "descShort": "提升絕招傷害和龍捲風數量。",
+          "descLong": "絕招「芳香龍捲」傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。\n每次產生龍捲風的數量提升至4。",
+          "icons": [
+            "13301_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "10%",
+                "14%",
+                "17%",
+                "21%",
+                "25%",
+                "28%",
+                "32%",
+                "36%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513342,
+          "name": "風神加護",
+          "descShort": "施放絕招時，全隊&Param1&提升。龍捲風持續時間延長。",
+          "descLong": "施放絕招「芳香龍捲」時，夏花&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。\n龍捲風持續時間延長66%。",
+          "icons": [
+            "13301_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "22%",
+                "36%",
+                "49%",
+                "62%",
+                "75%",
+                "89%",
+                "102%",
+                "115%",
+                "129%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513343,
+          "name": "龍捲渦流",
+          "descShort": "提升絕招傷害，造成傷害時，提升目標的&Param3&。",
+          "descLong": "絕招「芳香龍捲」傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。\n龍捲風造成傷害時，目標的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param5&秒，可疊加&Param6&層。",
+          "icons": [
+            "13301_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "18%",
+                "22%",
+                "27%",
+                "32%",
+                "37%",
+                "42%",
+                "46%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.2%",
+                "1.9%",
+                "2.6%",
+                "3.3%",
+                "4%",
+                "4.7%",
+                "5.4%",
+                "6.1%",
+                "6.8%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "18"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 134,
       "name": "Fuyuka",
       "class": 1,
       "element": 2,
       "rarity": 1,
       "mainBuild1Name": "冬香主控流派1",
-      "mainBuild1Desc": "提升能量上限，使用強化普攻猛擊敵人的流派。",
+      "mainBuild1Desc": "提升彈匣上限，使用強化普攻猛擊敵人的流派。",
       "mainBuild2Name": "冬香主控流派2",
-      "mainBuild2Desc": "瞬間施放能量，使用基礎普攻高頻輸出的流派。",
+      "mainBuild2Desc": "傾瀉彈藥，然後使用基礎普攻高頻輸出的流派。",
       "supportBuild1Name": "冬香援護流派1",
       "supportBuild1Desc": "匯聚力量，發動單次巨量傷害的流派。",
       "supportBuild2Name": "冬香援護流派2",
@@ -36604,6 +37930,184 @@
       "bg": 4014
     },
     {
+      "id": 214015,
+      "name": "鹿鳴",
+      "desc": "呦呦鹿鳴，食野之苹。\n陽光斑駁的午後，林中少女駐足小憩。\n歲月像風一樣流轉，「喀擦」，凝固在時光的相片裡。",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "鹿鳴",
+          "desc": "隊伍中風系援護角色技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意風系援護角色造成技能傷害時，為目標附加「流芳」，可疊加&Param2&層。任意風系援護角色對附帶滿層「流芳」的目標造成技能傷害時，移除全部「流芳」，為該目標附加效果：受到風系技能傷害提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒，可叠加&Param5&層。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "24%",
+                "28%",
+                "32%",
+                "36%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.5%",
+                "1.8%",
+                "2.1%",
+                "2.4%",
+                "2.7%",
+                "3%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "流淌於夢的清風",
+          "desc": "全隊風系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意風系角色施放技能時，該角色技能傷害提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.5%",
+                "5%",
+                "7.5%",
+                "10%",
+                "12.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6.5%",
+                "13%",
+                "19.5%",
+                "26%",
+                "32.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "散落的芳香",
+          "desc": "風系主控角色對附帶「流芳」的目標造成傷害時，本次風系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "8%",
+                "16%",
+                "24%",
+                "32%",
+                "40%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4015
+    },
+    {
       "id": 214017,
       "name": "花火",
       "desc": "煙火的綻放、盛開與熄滅，就像人的一生，\n短暫而輝煌，在夜空中留下屬於自己的印記；\n就像旅人不斷攀登星塔的冒險，\n為了有朝一日，能捧起那天上的星星…",
@@ -37817,6 +39321,161 @@
         }
       ],
       "bg": 4023
+    },
+    {
+      "id": 214024,
+      "name": "一二三，跳！",
+      "desc": "一根繩索\n從陽光照射的地方出發\n通往沒落許久的遺跡\n少女抓住它\n從天而降\n「——不就是寶物嘛\n看我把它拿上來！」",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "一二三，跳！",
+          "desc": "任意風系角色造成絕招傷害時，隊伍中風系角色技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "25%",
+                "30%",
+                "35%",
+                "40%",
+                "45%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "瀟灑速降",
+          "desc": "隊伍中風系角色絕招傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意角色觸發<span style=\"color:#6A90EB\">風系印記</span>時，隊伍中風系角色攻擊力提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "12%",
+                "18%",
+                "24%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "合作精神",
+          "desc": "任意風系援護角色附加印記時，該角色造成的技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7%",
+                "14%",
+                "21%",
+                "28%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4024
     },
     {
       "id": 214026,

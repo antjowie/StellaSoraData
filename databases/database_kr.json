@@ -1030,8 +1030,8 @@
         {
           "id": 510332,
           "name": "압력 증폭",
-          "descShort": "코하쿠의 &Param2&가 증가한다.",
-          "descLong": "코하쿠의 &Param2&가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "descShort": "코하쿠의 &Param2&이 증가한다.",
+          "descLong": "코하쿠의 &Param2&이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
           "icons": [
             "Common_Potential_11_A",
             "Potential_Triangle_B",
@@ -11610,7 +11610,7 @@
           "id": 511922,
           "name": "따스한 바람의 포옹",
           "descShort": "지원 스킬이 <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동하면 폭파가 발생하고 쿨타임이 단축된다.",
-          "descLong": "지원 스킬 「시들지 않은 꽃」이 <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동하면, 폭파가 발생해 <span style=\"color:#0abec5\">&Param1&</span>의 바람 속성 스킬 피해를 입히고, 쿨타임이 <span style=\"color:#0abec5\">&Param2&</span>초 단축된다. \n스킬마다 최대 &Param3&</color>회 발동한다.",
+          "descLong": "지원 스킬 「시들지 않은 꽃」이 <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동하면, 폭파가 발생해 <span style=\"color:#0abec5\">&Param1&</span>의 바람 속성 스킬 피해를 입히고, 쿨타임이 <span style=\"color:#0abec5\">&Param2&</span>초 단축된다. \n스킬마다 최대 <span style=\"color:#0abec5\">&Param3&</span>회 발동한다.",
           "icons": [
             "11901_Potential_22_A"
           ],
@@ -19418,15 +19418,1341 @@
       ]
     },
     {
+      "id": 133,
+      "name": "Nazuka",
+      "class": 2,
+      "element": 4,
+      "rarity": 1,
+      "mainBuild1Name": "나츠카 메인 유파 1",
+      "mainBuild1Desc": "바람 불기의 지속 시간과 범위를 대폭 증가시키는 지속 피해 유파.",
+      "mainBuild2Name": "나츠카 메인 유파 2",
+      "mainBuild2Desc": "바람 불기에 몬스터를 모으는 효과를 추가하고 관통 공격으로 폭발적인 피해를 입히는 유파.",
+      "supportBuild1Name": "나츠카 지원 유파 1",
+      "supportBuild1Desc": "목표를 계속 추격하는 꽃잎을 지속적으로 생성하는 단일 피해 유파.",
+      "supportBuild2Name": "나츠카 지원 유파 2",
+      "supportBuild2Desc": "꽃밭을 생성하고 바람 속성 피해가 동반되는 광역 피해 유파.",
+      "potentials": [
+        {
+          "id": 513301,
+          "name": "꽃 그림자 회오리",
+          "descShort": "메인 스킬 기간 중 이동 속도와 피해 범위가 증가한다. 메인 스킬의 피해 간격이 단축된다.",
+          "descLong": "메인 스킬 「질풍의 만개」 기간 중 이동 속도와 피해 범위가 <span style=\"color:#0abec5\">40%</span> 증가하고, 피해 간격이 <span style=\"color:#0abec5\">50%</span> 단축된다.",
+          "icons": [
+            "13301_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": []
+        },
+        {
+          "id": 513302,
+          "name": "불멸의 바람",
+          "descShort": "메인 스킬의 지속 시간이 증가한다. 스킬이 중단되면 일부 쿨타임을 반환한다.",
+          "descLong": "메인 스킬 「질풍의 만개」의 지속 시간이 <span style=\"color:#0abec5\">100%</span> 증가한다. 「질풍의 만개」가 중단되면 일부 쿨타임을 반환한다.",
+          "icons": [
+            "13301_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": []
+        },
+        {
+          "id": 513303,
+          "name": "강풍의 화살",
+          "descShort": "바람 불기가 종료되면 관통 강풍을 발사해 피해를 입힌다.",
+          "descLong": "메인 스킬 「질풍의 만개」의 바람 불기가 종료되면 관통 강풍 1개를 발사해 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 바람 속성 스킬 피해를 입힌다. <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동할 수 있다.",
+          "icons": [
+            "13301_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "137%",
+                "158%",
+                "178%",
+                "240%",
+                "259%",
+                "278%",
+                "317%",
+                "333%",
+                "350%",
+                "383%",
+                "410%",
+                "438%",
+                "465%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513304,
+          "name": "나선 회오리",
+          "descShort": "메인 스킬이 추가 피해를 입히고, 목표의 &Param4&가 증가한다. 또한 약한 목표를 끌어당길 수 있다.",
+          "descLong": "메인 스킬 「질풍의 만개」가 2초 동안 공격력 <span style=\"color:#0abec5\">&Param1&x16</span>의 바람 속성 스킬 피해를 추가로 입히고, 목표의 &Param4&를 <span style=\"color:#0abec5\">&Param5&</span> 증가시킨다. &Param2&초간 지속되며 최대 &Param3&스택 중첩된다. 해당 효과로 약한 목표를 끌어당길 수 있다.",
+          "icons": [
+            "13301_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "받는 바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "5.7%",
+                "6.5%",
+                "8.7%",
+                "9.4%",
+                "10.1%",
+                "11.5%",
+                "12.1%",
+                "12.7%",
+                "13.9%",
+                "14.9%",
+                "15.9%",
+                "16.9%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "1.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513305,
+          "name": "풍식의 충격",
+          "descShort": "메인 스킬이 입히는 &Param1&가 증가하고, 목표의 &Param3&가 증가한다.",
+          "descLong": "메인 스킬 「질풍의 만개」가 입히는 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가하고, 목표의 &Param3&가 <span style=\"color:#ec6d21\">&Param4&</span> 증가한다. &Param5&초간 지속되고, 최대 &Param6&스택 중첩된다.",
+          "icons": [
+            "13301_Potential_02_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14%",
+                "19%",
+                "24%",
+                "29%",
+                "34%",
+                "39%",
+                "44%",
+                "49%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "0.5%",
+                "0.8%",
+                "1.1%",
+                "1.4%",
+                "1.7%",
+                "2%",
+                "2.3%",
+                "2.6%",
+                "2.9%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513306,
+          "name": "강풍의 가호",
+          "descShort": "메인 스킬 기간 중 자신의 &Param1&가 증가한다. 또한 공격을 받으면 공격자에게 피해를 입힌다.",
+          "descLong": "메인 스킬 「질풍의 만개」 기간 중, 자신의 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 또한 공격을 받으면 공격자에게 공격력 <span style=\"color:#ec6d21\">&Param3&</span>의 바람 속성 스킬 피해를 입힌다. 해당 효과는 1초마다 최대 1회 발동한다.",
+          "icons": [
+            "13301_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "방어",
+                "방어",
+                "방어",
+                "방어",
+                "방어",
+                "방어",
+                "방어",
+                "방어",
+                "방어"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "50",
+                "67",
+                "84",
+                "101",
+                "118",
+                "134",
+                "151",
+                "168",
+                "185"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "30%",
+                "49%",
+                "67%",
+                "85%",
+                "103%",
+                "122%",
+                "140%",
+                "158%",
+                "176%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513307,
+          "name": "질풍경초",
+          "descShort": "메인 스킬 기간 중 &Param1&가 시간에 따라 증가한다.",
+          "descLong": "메인 스킬 「질풍의 만개」 기간 중 &Param1&가 1초마다 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 스킬 종료 후 해당 효과가 사라진다.",
+          "icons": [
+            "13301_Potential_01_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14%",
+                "19%",
+                "25%",
+                "30%",
+                "35%",
+                "41%",
+                "46%",
+                "51%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513308,
+          "name": "바람의 지배자",
+          "descShort": "메인 스킬을 시전하면 &Param1&이 증가한다.",
+          "descLong": "메인 스킬 「질풍의 만개」를 시전하면 &Param1&이 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "icons": [
+            "13301_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513309,
+          "name": "풍운전환",
+          "descShort": "나츠카의 &Param3&이 증가한다. 메인 스킬 범위 내의 목표 수가 1보다 많으면, &Param1&가 증가한다.",
+          "descLong": "나츠카의 &Param3&이 <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.\n메인 스킬 범위 내 목표 수가 1보다 많으면, &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "13301_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513310,
+          "name": "풍식의 주문",
+          "descShort": "메인 스킬의 바람 불기 종료 후 짧은 시간 내에 &Param1&이 증가한다.",
+          "descLong": "메인 스킬 「질풍의 만개」의 바람 불기가 종료된 후, &Param1&이 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 2초간 지속된다.",
+          "icons": [
+            "13301_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "60%",
+                "96%",
+                "132%",
+                "168%",
+                "204%",
+                "240%",
+                "276%",
+                "312%",
+                "348%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513311,
+          "name": "정밀 조작",
+          "descShort": "나츠카의 &Param1&가 증가한다. \n필살기가 <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동할 수 있다.",
+          "descLong": "나츠카의 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. \n필살기 「향기의 토네이도」가 <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동할 수 있다.",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513312,
+          "name": "광풍의 끝자락",
+          "descShort": "일반 공격이 피해를 입히면 일정 확률로 목표의 &Param1&가 증가한다.",
+          "descLong": "일반 공격 「폭발하는 바람탄」이 피해를 입히면 30% 확률로 목표의 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "icons": [
+            "Common_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "18%",
+                "23%",
+                "28%",
+                "33%",
+                "38%",
+                "43%",
+                "48%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513313,
+          "name": "가벼운 몸놀림",
+          "descShort": "나츠카의 회피 횟수가 증가한다. \n회피 후 &Param1&이 증가한다.",
+          "descLong": "나츠카의 회피 횟수가 1회 증가한다. \n회피 후 &Param1&이 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "icons": [
+            "Common_Potential_13_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "17%",
+                "22%",
+                "27%",
+                "31%",
+                "36%",
+                "41%",
+                "45%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513321,
+          "name": "향기로운 꽃·혼란",
+          "descShort": "지원 스킬 시전 시, 바람 속성 메인 캐릭터 위치에 연속으로 「꽃잎」 여러 개를 생성해, 각각 피해를 입히며 <span style=\"color:#6A90EB\">바람 속성 표식: 풍식</span>을 부여한다.",
+          "descLong": "지원 스킬 「꽃잎의 춤사위」 시전 시 바람 속성 메인 캐릭터 위치에 18장의 「꽃잎」을 연속으로 생성하여, 각 나츠카 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 바람 속성 스킬 피해를 입히고, <span style=\"color:#6A90EB\">바람 속성 표식: 풍식</span>을 부여한다.",
+          "icons": [
+            "13301_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "11%",
+                "12.7%",
+                "14.4%",
+                "19.3%",
+                "20.9%",
+                "22.4%",
+                "25.5%",
+                "26.8%",
+                "28.2%",
+                "30.8%",
+                "33%",
+                "35.2%",
+                "37.4%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513322,
+          "name": "향기로운 꽃·추격",
+          "descShort": "「꽃잎」이 입히는 &Param1&가 증가하며, 목표를 추격할 수 있다.",
+          "descLong": "「꽃잎」이 입히는 &Param1&가 <span style=\"color:#0abec5\">&Param2&</span> 증가하며, 목표를 추격할 수 있다.",
+          "icons": [
+            "13301_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513323,
+          "name": "꽃의 바다·파도의 물결",
+          "descShort": "「꽃밭」 지속 시간이 증가한다. \n스킬 시전 후 일정 시간 동안 자신을 제외한 바람 속성의 아군이 「꽃밭」 밖 목표에게 피해를 입히면 <span style=\"color:#6A90EB\">「꽃밭」</span>이 생성된다.",
+          "descLong": "「꽃밭」 지속 시간이 <span style=\"color:#0abec5\">50%</span> 증가한다. \n스킬 시전 후 8초 동안 자신을 제외한 바람 속성의 아군이 「꽃밭」 밖의 목표에게 피해를 입히면 <span style=\"color:#6A90EB\">「꽃밭」</span>을 생성한다. 해당 효과는 1초마다 최대 1회 발동한다.",
+          "icons": [
+            "13301_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": []
+        },
+        {
+          "id": 513324,
+          "name": "꽃의 바다·거센 파도",
+          "descShort": "자신을 제외한 바람 속성의 아군이 「꽃밭」 안의 목표에게 피해를 입히면 「꽃밭」이 피해를 추가로 입힌다.",
+          "descLong": "자신을 제외한 바람 속성의 아군이 「꽃밭」 내 목표에게 피해를 입히면 「꽃밭」이 나츠카 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 바람 속성 범위 스킬 피해를 추가로 입힌다. 해당 효과는 1초마다 1회 발동하며, 동일 목표에게 1초마다 최대 1회의 피해를 입힌다.",
+          "icons": [
+            "13301_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "182%",
+                "210%",
+                "237%",
+                "319%",
+                "345%",
+                "370%",
+                "421%",
+                "443%",
+                "465%",
+                "509%",
+                "545%",
+                "582%",
+                "618%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513325,
+          "name": "향기로운 꽃·빈틈",
+          "descShort": "「꽃잎」이 피해를 입히면 목표의 &Param1&가 증가한다.",
+          "descLong": "「꽃잎」이 피해를 입히면 목표의 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "13301_Potential_22_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.6%",
+                "5.2%",
+                "5.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513326,
+          "name": "향기로운 꽃·소멸",
+          "descShort": "「꽃잎」 피해가 증가하고, 일정 확률로 일반 목표를 즉시 처치한다.",
+          "descLong": "「꽃잎」 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가하고, 15% 확률로 일반 목표를 즉시 처치한다.",
+          "icons": [
+            "13301_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "31%",
+                "43%",
+                "55%",
+                "66%",
+                "78%",
+                "90%",
+                "101%",
+                "113%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513327,
+          "name": "향기로운 꽃·만개",
+          "descShort": "「꽃잎」 피해가 증가한다. \n「꽃잎」 1개를 생성할 때마다 나츠카의 &Param3&가 증가한다.",
+          "descLong": "「꽃잎」 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. \n「꽃잎」 1개를 생성할 때마다 나츠카의 &Param3&가 <span style=\"color:#ec6d21\">&Param4&</span> 증가한다. &Param5&초간 지속되며, 최대 &Param6&스택 중첩된다.",
+          "icons": [
+            "13301_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "10%",
+                "14%",
+                "17%",
+                "21%",
+                "25%",
+                "28%",
+                "32%",
+                "36%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.8%",
+                "2.9%",
+                "4%",
+                "5.1%",
+                "6.2%",
+                "7.3%",
+                "8.4%",
+                "9.5%",
+                "10.6%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513328,
+          "name": "꽃의 바다·결속",
+          "descShort": "「꽃밭」 피해가 증가한다. 「꽃밭」 범위 내의 목표 수가 2명보다 많을 경우 피해가 추가로 증가한다.",
+          "descLong": "「꽃밭」 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 「꽃밭」 범위 내의 목표 수가 2명보다 많을 경우 피해가 추가로 <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
+          "icons": [
+            "13301_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "59%",
+                "68%",
+                "77%",
+                "86%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513329,
+          "name": "꽃의 바다·침식",
+          "descShort": "「꽃밭」이 피해를 입힐 시 목표의 &Param1&가 증가한다.",
+          "descLong": "「꽃밭」이 피해를 입힐 시 목표의 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, &Param4&스택 중첩된다.",
+          "icons": [
+            "13301_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.5%",
+                "2.4%",
+                "3.3%",
+                "4.2%",
+                "5.1%",
+                "6%",
+                "6.9%",
+                "7.8%",
+                "8.7%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513330,
+          "name": "꽃의 바다·폭열",
+          "descShort": "「꽃밭」이 입히는 &Param2&가 증가한다. 「꽃밭」이 흩어질 때 피해를 입히고, <span style=\"color:#6A90EB\">바람 속성 표식: 풍식</span>을 부여한다.",
+          "descLong": "「꽃밭」이 입히는 &Param2&가 <span style=\"color:#ec6d21\">&Param3&</span> 증가한다. 「꽃밭」이 흩어질 때 나츠카 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 바람 속성 범위 스킬 피해를 입히고, <span style=\"color:#6A90EB\">바람 속성 표식: 풍식</span>을 부여한다.",
+          "icons": [
+            "13301_Potential_24_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "29%",
+                "46%",
+                "64%",
+                "81%",
+                "98%",
+                "115%",
+                "133%",
+                "150%",
+                "167%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "105%",
+                "168%",
+                "231%",
+                "294%",
+                "357%",
+                "420%",
+                "484%",
+                "547%",
+                "610%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513331,
+          "name": "바람 악마의 씨앗",
+          "descShort": "나츠카의 &Param1&이 증가한다. \n필살기가 <span style=\"color:#6A90EB\">바람 속성 표식: 풍식</span>을 부여할 수 있다.",
+          "descLong": "나츠카의 &Param1&이 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. \n필살기 「향기의 토네이도」가 <span style=\"color:#6A90EB\">바람 속성 표식: 풍식</span>을 부여할 수 있다.",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513332,
+          "name": "자기 업그레이드",
+          "descShort": "「꽃밭」이 있을 때, 나츠카의 &Param1&가 증가한다.",
+          "descLong": "「꽃밭」이 있을 때, 나츠카의 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "24%",
+                "38%",
+                "53%",
+                "67%",
+                "82%",
+                "96%",
+                "110%",
+                "125%",
+                "139%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513333,
+          "name": "전능한 지도자",
+          "descShort": "팀 내 바람 속성 딜러 및 밸런스 캐릭터의 &Param1&가 증가한다.",
+          "descLong": "팀 내 바람 속성 딜러 및 밸런스 캐릭터의 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "16%",
+                "25%",
+                "35%",
+                "44%",
+                "54%",
+                "63%",
+                "73%",
+                "82%",
+                "92%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513341,
+          "name": "다중 토네이도",
+          "descShort": "필살기 피해와 토네이도 수가 증가한다.",
+          "descLong": "필살기 「향기의 토네이도」의 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.\n매회 생성하는 토네이도 수가 4개로 증가한다.",
+          "icons": [
+            "13301_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "10%",
+                "14%",
+                "17%",
+                "21%",
+                "25%",
+                "28%",
+                "32%",
+                "36%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513342,
+          "name": "바람 신의 가호",
+          "descShort": "필살기를 시전하면 나츠카의 &Param1&가 증가한다. 토네이도의 지속 시간이 증가한다.",
+          "descLong": "필살기 「향기의 토네이도」를 시전하면 나츠카의 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.\n토네이도 지속 시간이 66% 증가한다.",
+          "icons": [
+            "13301_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "22%",
+                "36%",
+                "49%",
+                "62%",
+                "75%",
+                "89%",
+                "102%",
+                "115%",
+                "129%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513343,
+          "name": "토네이도 소용돌이",
+          "descShort": "필살기 피해가 증가한다. 피해를 입힐 시 목표의 &Param3&가 증가한다.",
+          "descLong": "필살기 「향기의 토네이도」의 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. \n토네이도가 피해를 입히면 목표의 &Param3&가 <span style=\"color:#ec6d21\">&Param4&</span> 증가한다. &Param5&초간 지속되며, 최대 &Param6&스택 중첩된다.",
+          "icons": [
+            "13301_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "18%",
+                "22%",
+                "27%",
+                "32%",
+                "37%",
+                "42%",
+                "46%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.2%",
+                "1.9%",
+                "2.6%",
+                "3.3%",
+                "4%",
+                "4.7%",
+                "5.4%",
+                "6.1%",
+                "6.8%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "18"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 134,
       "name": "Fuyuka",
       "class": 1,
       "element": 2,
       "rarity": 1,
       "mainBuild1Name": "후유카 메인 유파 1",
-      "mainBuild1Desc": "최대 SP가 증가해 강화된 일반 공격으로 적을 맹공하는 유파.",
+      "mainBuild1Desc": "탐창의 용량이 증가해 강화된 일반 공격으로 적을 맹렬하게 공격하는 유파.",
       "mainBuild2Name": "후유카 메인 유파 2",
-      "mainBuild2Desc": "에너지를 한순간에 방출해 높은 빈도로 기본 일반 공격 대미지를 입히는 유파.",
+      "mainBuild2Desc": "탄약을 빠르게 소모하여 일반 공격으로 지속적으로 피해를 입히는 유파.",
       "supportBuild1Name": "후유카 지원 유파 1",
       "supportBuild1Desc": "힘을 응축해 막대한 단일 피해를 입히는 유파.",
       "supportBuild2Name": "후유카 지원 유파 2",
@@ -22295,8 +23621,8 @@
         {
           "id": 514109,
           "name": "불의 먹점",
-          "descShort": "메인 스킬이 추가 피해를 입히고, 목표가 메인 스킬로 <span style=\"color:#6A90EB\">화상</span> 상태가 될 경우 받는 불 속성 피해가 증가한다.",
-          "descLong": "메인 스킬 「붉은 화염」 시전 시 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 불 속성 범위 메인 스킬 피해를 추가로 입히고 「먹물」을 부여한다. \n「먹물」이 스킬에 <span style=\"color:#6A90EB\">화상</span>된 후, 목표가 받는 불 속성 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "descShort": "메인 스킬이 추가 피해를 입히고, 목표가 메인 스킬로 <span style=\"color:#6A90EB\">인화</span> 상태가 될 경우 받는 불 속성 피해가 증가한다.",
+          "descLong": "메인 스킬 「붉은 화염」 시전 시 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 불 속성 범위 메인 스킬 피해를 추가로 입히고 「먹물」을 부여한다. \n「먹물」이 스킬에 <span style=\"color:#6A90EB\">인화</span>된 후, 목표가 받는 불 속성 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
           "icons": [
             "14101_Potential_03_A",
             "Potential_Triangle_B",
@@ -22532,7 +23858,7 @@
           "id": 514122,
           "name": "붉은 용·장음",
           "descShort": "치시아 소환물의 수가 많은 편일 때 공격력과 공격 속도가 증가한다.",
-          "descLong": "치시아 소환물의 수가 <span style=\"color:#0abec5\">1</span> 이상일 때 치시아의 모든 소환물 공격력이 <span style=\"color:#0abec5\">&Param1&</span> 증가하고, 공격 속도가 <span style=\"color:#0abec5\">&Param2&</span> 증가한다.",
+          "descLong": "치시아 소환물의 수가 <span style=\"color:#0abec5\">1</span>보다 많을 경우 치시아의 모든 소환물의 공격력이 <span style=\"color:#0abec5\">&Param1&</span> 증가하고, 공격 속도가 <span style=\"color:#0abec5\">&Param2&</span> 증가한다.",
           "icons": [
             "14101_Potential_22_A"
           ],
@@ -24246,8 +25572,8 @@
         {
           "id": 514232,
           "name": "그림자의 가호",
-          "descShort": "코제트 지원 스킬 시전 기간 중, 메인 캐릭터의 &Param1&이 증가한다.",
-          "descLong": "코제트의 지원 스킬 시전 기간 중 메인 캐릭터의 &Param1&이 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "descShort": "코제트 지원 스킬 시전 기간 중, 메인 캐릭터의 &Param1&가 증가한다.",
+          "descLong": "코제트의 지원 스킬 시전 기간 중 메인 캐릭터의 &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
           "icons": [
             "Common_Potential_12_A",
             "Potential_Triangle_B",
@@ -36604,6 +37930,184 @@
       "bg": 4014
     },
     {
+      "id": 214015,
+      "name": "사슴의 울음",
+      "desc": "사슴의 맑은 울음소리와 함께 들판의 풀이 살랑살랑 흔들린다. 나뭇잎 사이로 햇살이 드리운 오후, 소녀가 숲속에서 잠시 쉬고 있다. 세월은 바람처럼 흘러가고, ‘찰칵’ 소리와 함께 시간은 사진 속에 멈췄다.",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "사슴의 울음",
+          "desc": "팀 내 바람 속성 지원 캐릭터의 스킬 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. \n바람 속성 지원 캐릭터가 스킬 피해를 입히면 목표에게 「향기」를 부여한다. 최대 &Param2&스택 중첩된다. 바람 속성 지원 캐릭터가 최대 스택의 「향기」를 보유한 목표에게 스킬 피해를 입히면 모든 「향기」를 제거하고, 해당 목표가 받는 바람 속성 스킬 피해가 <span style=\"color:#ec6d21\">&Param3&</span> 증가하는 효과를 부여한다. &Param4&초간 지속되며, 최대 &Param5&스택 중첩된다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "24%",
+                "28%",
+                "32%",
+                "36%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.5%",
+                "1.8%",
+                "2.1%",
+                "2.4%",
+                "2.7%",
+                "3%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "꿈을 스치는 산들바람",
+          "desc": "팀 전체 바람 속성 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. \n바람 속성 캐릭터가 스킬을 시전하면 해당 캐릭터의 스킬 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.5%",
+                "5%",
+                "7.5%",
+                "10%",
+                "12.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6.5%",
+                "13%",
+                "19.5%",
+                "26%",
+                "32.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "흩날린 향기",
+          "desc": "바람 속성 메인 캐릭터가 「향기」를 보유한 목표에게 피해를 입히면 이번 바람 속성 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "8%",
+                "16%",
+                "24%",
+                "32%",
+                "40%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4015
+    },
+    {
       "id": 214017,
       "name": "불꽃",
       "desc": "타오르다 사그라드는 불꽃은 마치 인생과도 같아, 짧지만 찬란했던 순간을 밤하늘에 새긴다. 별의 탑을 오르는 여행가처럼 언젠가 그 별을 갖겠다는 꿈을 품고……",
@@ -37819,6 +39323,161 @@
       "bg": 4023
     },
     {
+      "id": 214024,
+      "name": "하나, 둘, 셋, 점프!",
+      "desc": "한 가닥의 밧줄이\n햇살 내리쬐는 곳에서 뻗어 나가\n오랜 시간 잊혀진 유적지로 이어진다.\n밧줄을 움켜쥔 소녀가\n하늘에서 뛰어내린다.\n“……결국 보물이잖아?\n내가 가져가면 그만이지!”",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "하나, 둘, 셋, 점프!",
+          "desc": "바람 속성 캐릭터가 필살기 피해를 입히면, 팀 내 바람 속성 캐릭터의 스킬 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. &Param2&초간 지속된다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "25%",
+                "30%",
+                "35%",
+                "40%",
+                "45%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "경쾌한 낙하",
+          "desc": "팀 내 바람 속성 캐릭터의 필살기 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. \n캐릭터가 <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동하면 팀 내 바람 속성 캐릭터의 공격력이 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "12%",
+                "18%",
+                "24%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "팀워크 정신",
+          "desc": "바람 속성 지원 캐릭터가 표식을 부여하면 해당 캐릭터가 입히는 스킬 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. &Param2&초간 지속된다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7%",
+                "14%",
+                "21%",
+                "28%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4024
+    },
+    {
       "id": 214026,
       "name": "반짝이는 옛 연못",
       "desc": "젖은 머리카락이 등 뒤에 어지럽게 흩어지고,\n옷매무새는 흐트러졌지만 한 줄기 바람조차 스며들 틈 없다.\n마음이 번잡하니 떨어지는 꽃잎조차 무겁게 느껴지는구나.\n비가 끊임없이 쏟아지는 나날, 너의 윤곽은 조금씩 희미해져 간다.",
@@ -38033,7 +39692,7 @@
         },
         {
           "name": "거친 먹빛",
-          "desc": "팀 내 불 속성 캐릭터의 스킬 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. <span style=\"color:#6A90EB\">화상</span>을 보유한 목표에게 <span style=\"color:#ec6d21\">&Param2&</span> 추가로 증가한다.",
+          "desc": "팀 내 불 속성 캐릭터의 스킬 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. <span style=\"color:#6A90EB\">인화</span>를 보유한 목표에게 <span style=\"color:#ec6d21\">&Param2&</span> 추가로 증가한다.",
           "params": [
             {
               "idx": 1,

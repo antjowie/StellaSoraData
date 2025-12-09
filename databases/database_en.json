@@ -11610,7 +11610,7 @@
           "id": 511922,
           "name": "Gentle Thaw",
           "descShort": "When the Support Skill triggers a <span style=\"color:#6A90EB\">Ventus Mark</span>, causes an explosion and reduces Skill Cooldown.",
-          "descLong": "When Flowers Bloom (Support Skill) triggers <span style=\"color:#6A90EB\">Ventus Mark</span>, causes an explosion that deals <span style=\"color:#0abec5\">&Param1&</span> Ventus Skill DMG and reduces Skill Cooldown by <span style=\"color:#0abec5\">&Param2&</span>s.\nThis effect can only be triggered &Param3&</color> times per Skill cast.",
+          "descLong": "When Flowers Bloom (Support Skill) triggers <span style=\"color:#6A90EB\">Ventus Mark</span>, causes an explosion that deals <span style=\"color:#0abec5\">&Param1&</span> Ventus Skill DMG and reduces Skill Cooldown by <span style=\"color:#0abec5\">&Param2&</span>s.\nThis effect can only be triggered <span style=\"color:#0abec5\">&Param3&</span> times per Skill cast.",
           "icons": [
             "11901_Potential_22_A"
           ],
@@ -19418,15 +19418,1341 @@
       ]
     },
     {
+      "id": 133,
+      "name": "Nazuka",
+      "class": 2,
+      "element": 4,
+      "rarity": 1,
+      "mainBuild1Name": "Nazuka: Main Build 1",
+      "mainBuild1Desc": "A DPS build that significantly increases the duration and range of the wind.",
+      "mainBuild2Name": "Nazuka: Main Build 2",
+      "mainBuild2Desc": "A burst DPS build that allows the wind to pull monsters together and penetrate targets.",
+      "supportBuild1Name": "Nazuka: Support Build 1",
+      "supportBuild1Desc": "A single-target build that consecutively generates petals that relentlessly track and attack targets.",
+      "supportBuild2Name": "Nazuka: Support Build 2",
+      "supportBuild2Desc": "An AoE build that creates a Flower Formation, synergizing with Ventus DMG.",
+      "potentials": [
+        {
+          "id": 513301,
+          "name": "Blooming Gale",
+          "descShort": "While the Main Skill is active, increases Nazuka's Movement SPD and Attack Range. Reduces the Main Skill's Attack Interval.",
+          "descLong": "While Blooming Draught (Main Skill) is active, increases Nazuka's Movement SPD and Attack Range by <span style=\"color:#0abec5\">40%</span> and reduces the Attack Interval by <span style=\"color:#0abec5\">50%</span>.",
+          "icons": [
+            "13301_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": []
+        },
+        {
+          "id": 513302,
+          "name": "Everlasting Elegance",
+          "descShort": "Increases the duration of the Main Skill. If the Skill is interrupted, its cooldown is partially reduced.",
+          "descLong": "Increases the duration of Blooming Draught (Main Skill) by <span style=\"color:#0abec5\">100%</span>. When Blooming Draught is interrupted, its cooldown is partially refunded.",
+          "icons": [
+            "13301_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": []
+        },
+        {
+          "id": 513303,
+          "name": "Fierce Arrow",
+          "descShort": "When the pinwheel stops, unleashes a burst of piercing gale, dealing DMG.",
+          "descLong": "When the pinwheel from Blooming Draught (Main Skill) stops, unleashes a burst of piercing gale, dealing <span style=\"color:#0abec5\">&Param1& of ATK</span> as Ventus Skill DMG. It can trigger <span style=\"color:#6A90EB\">Ventus Mark</span>.",
+          "icons": [
+            "13301_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "137%",
+                "158%",
+                "178%",
+                "240%",
+                "259%",
+                "278%",
+                "317%",
+                "333%",
+                "350%",
+                "383%",
+                "410%",
+                "438%",
+                "465%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513304,
+          "name": "Spiral Vortex",
+          "descShort": "The Main Skill deals additional DMG and increases the target's &Param4&. Also, the wind of the pinwheel can pull in weak targets.",
+          "descLong": "Blooming Draught (Main Skill) deals an additional <span style=\"color:#0abec5\">&Param1& of ATK x16</span> as Ventus Skill DMG in 2s, increasing the target's &Param4& by <span style=\"color:#0abec5\">&Param5&</span> for &Param2&s, up to &Param3& stacks. This effect also pulls in weak targets.",
+          "icons": [
+            "13301_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "Ventus DMG Taken"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "5.7%",
+                "6.5%",
+                "8.7%",
+                "9.4%",
+                "10.1%",
+                "11.5%",
+                "12.1%",
+                "12.7%",
+                "13.9%",
+                "14.9%",
+                "15.9%",
+                "16.9%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "1.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513305,
+          "name": "Wind Erosion Impact",
+          "descShort": "Increases the &Param1& of the Main Skill and increases the targets' &Param3&.",
+          "descLong": "Increases Blooming Draught (Main Skill)'s &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>, and increases the target's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s, up to &Param6& stacks.",
+          "icons": [
+            "13301_Potential_02_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14%",
+                "19%",
+                "24%",
+                "29%",
+                "34%",
+                "39%",
+                "44%",
+                "49%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "0.5%",
+                "0.8%",
+                "1.1%",
+                "1.4%",
+                "1.7%",
+                "2%",
+                "2.3%",
+                "2.6%",
+                "2.9%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513306,
+          "name": "Gale Shield",
+          "descShort": "While the Main Skill is active, increases Nazuka's &Param1&. When hit, deals DMG to the attacker.",
+          "descLong": "While Blooming Draught (Main Skill) is active, increases Nazuka's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. When she is hit, deals <span style=\"color:#ec6d21\">&Param3& of ATK</span> as Ventus Skill DMG to the attacker. This effect can only be triggered once per second.",
+          "icons": [
+            "13301_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "50",
+                "67",
+                "84",
+                "101",
+                "118",
+                "134",
+                "151",
+                "168",
+                "185"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "30%",
+                "49%",
+                "67%",
+                "85%",
+                "103%",
+                "122%",
+                "140%",
+                "158%",
+                "176%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513307,
+          "name": "Unyielding Leaves",
+          "descShort": "When the Main Skill is active, &Param1& increases over time.",
+          "descLong": "When Blooming Draught (Main Skill) is active, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> every second. Resets after the Skill ends.",
+          "icons": [
+            "13301_Potential_01_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14%",
+                "19%",
+                "25%",
+                "30%",
+                "35%",
+                "41%",
+                "46%",
+                "51%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513308,
+          "name": "Gale's Might",
+          "descShort": "When casting the Main Skill, increases &Param1&.",
+          "descLong": "When casting Blooming Draught (Main Skill), increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "13301_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513309,
+          "name": "Storm Overturned",
+          "descShort": "Increases Nazuka's &Param3&. When there are more than 1 target within the Main Skill's Attack Range, increases &Param1&.",
+          "descLong": "Increases Nazuka's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>.\nWhen there are more than 1 target within the Main Skill's Attack Range, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "13301_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513310,
+          "name": "Whisper of Wind",
+          "descShort": "After the Main Skill ends, increases &Param1& for a short period of time.",
+          "descLong": "When the pinwheel from Blooming Draught (Main Skill) stops, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for 2s.",
+          "icons": [
+            "13301_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "60%",
+                "96%",
+                "132%",
+                "168%",
+                "204%",
+                "240%",
+                "276%",
+                "312%",
+                "348%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513311,
+          "name": "Precision Control",
+          "descShort": "Increases Nazuka's &Param1&.\nThe Ultimate can trigger <span style=\"color:#6A90EB\">Ventus Mark</span>.",
+          "descLong": "Increases Nazuka's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. \nAromatic Tempest (Ultimate) can trigger <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513312,
+          "name": "Gale Fading",
+          "descShort": "When Auto Attacks deal DMG, there is a chance to increase the target's &Param1&.",
+          "descLong": "When Wind Pellets deal DMG, there is a 30% chance to increase the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "18%",
+                "23%",
+                "28%",
+                "33%",
+                "38%",
+                "43%",
+                "48%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513313,
+          "name": "Willowy Grace",
+          "descShort": "Nazuka can dodge one more time.\nIncreases her &Param1& after dodging.",
+          "descLong": "Nazuka can dodge one more time.\nAfter dodging, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_13_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "17%",
+                "22%",
+                "27%",
+                "31%",
+                "36%",
+                "41%",
+                "45%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513321,
+          "name": "Youth: Dazzling",
+          "descShort": "When casting the Support Skill, continuously creates a dozen Flower Petals at the Ventus Main Trekker's location, each dealing DMG and inflicting <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
+          "descLong": "When casting Bouquet Blast (Support Skill), continuously creates 18 Flower Petals at the Ventus Main Trekker's location, with each petal dealing <span style=\"color:#0abec5\">&Param1&</span> of Nazuka's ATK as Ventus Skill DMG and inflicting <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
+          "icons": [
+            "13301_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "11%",
+                "12.7%",
+                "14.4%",
+                "19.3%",
+                "20.9%",
+                "22.4%",
+                "25.5%",
+                "26.8%",
+                "28.2%",
+                "30.8%",
+                "33%",
+                "35.2%",
+                "37.4%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513322,
+          "name": "Youth: Hunting",
+          "descShort": "Increases the &Param1& of Flower Petals, and they can follow targets.",
+          "descLong": "Increases the &Param1& of Flower Petals by <span style=\"color:#0abec5\">&Param2&</span>, and they can follow targets.",
+          "icons": [
+            "13301_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513323,
+          "name": "Flower Formation: Waves",
+          "descShort": "Increases the duration of Flower Formation.\nAfter casting the skill, when another friendly Ventus unit deals DMG to a target outside Flower Formation, creates another <span style=\"color:#6A90EB\">Flower Formation</span>.",
+          "descLong": "Increases the duration of Flower Formation by <span style=\"color:#0abec5\">50%</span>.\nWithin 8s after casting the skill, when another friendly Ventus unit deals DMG to a target outside Flower Formation, creates another <span style=\"color:#6A90EB\">Flower Formation</span>. This effect can only be triggered once per second.",
+          "icons": [
+            "13301_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": []
+        },
+        {
+          "id": 513324,
+          "name": "Flower Formation: Turbulent",
+          "descShort": "When another friendly Ventus unit deals DMG to targets caught in Flower Formation, Flower Formation deals additional DMG.",
+          "descLong": "When another friendly Ventus unit deals DMG to targets caught in Flower Formation, Flower Formation deals an additional <span style=\"color:#ec6d21\">&Param1&</span> of Nazuka's ATK as AoE Ventus Skill DMG. This effect can only be triggered once per second, dealing DMG to the same target no more than once per second.",
+          "icons": [
+            "13301_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "182%",
+                "210%",
+                "237%",
+                "319%",
+                "345%",
+                "370%",
+                "421%",
+                "443%",
+                "465%",
+                "509%",
+                "545%",
+                "582%",
+                "618%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513325,
+          "name": "Youth: Weakness",
+          "descShort": "When Flower Petals deal DMG, increases the targets' &Param1&.",
+          "descLong": "When Flower Petals deal DMG, increases the targets' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
+          "icons": [
+            "13301_Potential_22_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.6%",
+                "5.2%",
+                "5.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513326,
+          "name": "Youth: Annihilation",
+          "descShort": "The Flower Petal has a chance to kill a normal target immediately and its DMG is increased.",
+          "descLong": "The Flower Petal has a 15% chance to kill a normal target immediately and its DMG is increased by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "13301_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "31%",
+                "43%",
+                "55%",
+                "66%",
+                "78%",
+                "90%",
+                "101%",
+                "113%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513327,
+          "name": "Youth: Blooming",
+          "descShort": "Increases Flower Petal's DMG. \nFor each Flower Petal created, increases Nazuka's &Param3&.",
+          "descLong": "Increases Flower Petal's DMG by <span style=\"color:#ec6d21\">&Param2&</span>.\nFor each Flower Petal created, increases Nazuka's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s, up to &Param6& stacks.",
+          "icons": [
+            "13301_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "10%",
+                "14%",
+                "17%",
+                "21%",
+                "25%",
+                "28%",
+                "32%",
+                "36%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.8%",
+                "2.9%",
+                "4%",
+                "5.1%",
+                "6.2%",
+                "7.3%",
+                "8.4%",
+                "9.5%",
+                "10.6%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513328,
+          "name": "Flower Formation: Convergence",
+          "descShort": "Increases Flower Formation's DMG. When there are 2 or more targets caught in Flower Formation, increases its DMG.",
+          "descLong": "Increases Flower Formation's DMG by <span style=\"color:#ec6d21\">&Param2&</span>. When there are 2 or more targets caught in Flower Formation, increases its DMG by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "13301_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "59%",
+                "68%",
+                "77%",
+                "86%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513329,
+          "name": "Flower Formation: Erosion",
+          "descShort": "When Flower Formation deals DMG, increases the target's &Param1&.",
+          "descLong": "When Flower Formation deals DMG, increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
+          "icons": [
+            "13301_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.5%",
+                "2.4%",
+                "3.3%",
+                "4.2%",
+                "5.1%",
+                "6%",
+                "6.9%",
+                "7.8%",
+                "8.7%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513330,
+          "name": "Flower Formation: Blast",
+          "descShort": "Increases the Flower Formation's &Param2&. When the Flower Formation dissipates, deals DMG and inflicts <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
+          "descLong": "Increases the Flower Formation's &Param2& by <span style=\"color:#ec6d21\">&Param3&</span>. When the Flower Formation dissipates, deals <span style=\"color:#ec6d21\">&Param1&</span> of Nazuka's ATK as AoE Ventus Skill DMG and inflicts <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
+          "icons": [
+            "13301_Potential_24_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "29%",
+                "46%",
+                "64%",
+                "81%",
+                "98%",
+                "115%",
+                "133%",
+                "150%",
+                "167%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "105%",
+                "168%",
+                "231%",
+                "294%",
+                "357%",
+                "420%",
+                "484%",
+                "547%",
+                "610%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513331,
+          "name": "Wind Demon Seed",
+          "descShort": "Increases Nazuka's &Param1&.\nThe Ultimate can inflict <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
+          "descLong": "Increases Nazuka's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. \nAromatic Tempest (Ultimate) can inflict <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513332,
+          "name": "Self-Improvement",
+          "descShort": "When there is a Flower Formation on the battlefield, increases Nazuka's &Param1&.",
+          "descLong": "When there is a Flower Formation on the battlefield, increases Nazuka's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "24%",
+                "38%",
+                "53%",
+                "67%",
+                "82%",
+                "96%",
+                "110%",
+                "125%",
+                "139%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513333,
+          "name": "Almighty Leader",
+          "descShort": "Increases all Vanguard and Versatile Ventus Trekkers' &Param1& in the squad.",
+          "descLong": "Increases all Vanguard and Versatile Ventus Trekkers' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> in the squad.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "16%",
+                "25%",
+                "35%",
+                "44%",
+                "54%",
+                "63%",
+                "73%",
+                "82%",
+                "92%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513341,
+          "name": "Multi-Hurricane",
+          "descShort": "Increases the Ultimate DMG and the number of tornados.",
+          "descLong": "Increases the Ultimate, Aromatic Tempest's DMG by <span style=\"color:#ec6d21\">&Param2&</span>. \nNazuka can summon 4 tornados per Ultimate cast.",
+          "icons": [
+            "13301_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "10%",
+                "14%",
+                "17%",
+                "21%",
+                "25%",
+                "28%",
+                "32%",
+                "36%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513342,
+          "name": "Aeolus's Blessing",
+          "descShort": "When casting the Ultimate, increases Nazuka's &Param1& and the tornado's duration.",
+          "descLong": "When casting Aromatic Tempest (Ultimate), increases Nazuka's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.\nIncreases the tornadoes' duration by 66%.",
+          "icons": [
+            "13301_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "22%",
+                "36%",
+                "49%",
+                "62%",
+                "75%",
+                "89%",
+                "102%",
+                "115%",
+                "129%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513343,
+          "name": "Maelstrom",
+          "descShort": "Increases Ultimate's DMG. When the Ultimate deals DMG, increases the target's &Param3&.",
+          "descLong": "Increases Aromatic Tempest (Ultimate)'s DMG by <span style=\"color:#ec6d21\">&Param2&</span>.\nWhen the tornado deals DMG, increases the target's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s, up to &Param6& stacks.",
+          "icons": [
+            "13301_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "18%",
+                "22%",
+                "27%",
+                "32%",
+                "37%",
+                "42%",
+                "46%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.2%",
+                "1.9%",
+                "2.6%",
+                "3.3%",
+                "4%",
+                "4.7%",
+                "5.4%",
+                "6.1%",
+                "6.8%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "18"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 134,
       "name": "Fuyuka",
       "class": 1,
       "element": 2,
       "rarity": 1,
       "mainBuild1Name": "Fuyuka: Main Build 1",
-      "mainBuild1Desc": "A build that raises the Energy Cap and strikes enemies with enhanced Auto Attacks.",
+      "mainBuild1Desc": "A build that increases Magazine Capacity and strikes enemies with enhanced Auto Attacks.",
       "mainBuild2Name": "Fuyuka: Main Build 2",
-      "mainBuild2Desc": "A build that instantly releases Energy, dealing massive DMG with high-frequency Auto Attacks.",
+      "mainBuild2Desc": "A build that instantly dumps Ammo, dealing massive DMG with high-frequency Auto Attacks.",
       "supportBuild1Name": "Fuyuka: Support Build 1",
       "supportBuild1Desc": "A build that gathers power to deal massive single-target DMG.",
       "supportBuild2Name": "Fuyuka: Support Build 2",
@@ -19850,7 +21176,7 @@
         },
         {
           "id": 513409,
-          "name": "Blast Pursuit",
+          "name": "Blast Chase",
           "descShort": "Fuyuka's fourth attack on the same target deals additional DMG.",
           "descLong": "Every time Fuyuka deals DMG to a target 4 times, she launches an additional attack on the same target, dealing <span style=\"color:#ec6d21\">&Param1& of ATK</span> as Ignis Skill DMG.\nAfter this effect triggers, it has a 1.5s cooldown before it can stack again.",
           "icons": [
@@ -20324,7 +21650,7 @@
         },
         {
           "id": 513427,
-          "name": "Gaining Momentum",
+          "name": "Momentum Primed",
           "descShort": "When Fuyuka is not present, for every few seconds, increases the &Param4& of the next Support Skill.",
           "descLong": "After Fuyuka casts her &Param1& (Support Skill) or &Param5& (Ultimate) and leaves the battlefield, increases the &Param4& of the next &Param1& (Support Skill) by <span style=\"color:#ec6d21\">&Param2&</span> every second, up to &Param3& stacks.\nResets after casting the Support Skill.",
           "icons": [
@@ -20634,7 +21960,7 @@
         },
         {
           "id": 513433,
-          "name": "Companion's Power",
+          "name": "Companions' Power",
           "descShort": "Increases Ignis Trekkers' &Param2&.",
           "descLong": "Increases Ignis Trekkers' &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.",
           "icons": [
@@ -20770,7 +22096,7 @@
         },
         {
           "id": 513443,
-          "name": "Peak Condition",
+          "name": "Peak Performance",
           "descShort": "When casting the Ultimate, increases Fuyuka's &Param4&. This buff decays over time.",
           "descLong": "When Fuyuka casts &Param1& (Ultimate), she gains &Param2& stacks of buff, each increasing her &Param4& by <span style=\"color:#ec6d21\">&Param3&</span>, and then removes 1 stack of the buff per second.",
           "icons": [
@@ -20875,7 +22201,7 @@
         },
         {
           "id": 513502,
-          "name": "Rapid Fire",
+          "name": "Burst Shooting",
           "descShort": "The Main Skill deals additional DMG. When casting, removes all Pumpka Phantoms from the battlefield and summons them again.",
           "descLong": "Pumpka Pummel (Main Skill) deals an additional <span style=\"color:#0abec5\">&Param1& of ATK</span> as AoE Umbra DMG. \nWhen cast, removes all Pumpka Phantoms from the battlefield and summons them again.",
           "icons": [
@@ -20907,7 +22233,7 @@
         },
         {
           "id": 513503,
-          "name": "Super Long Exposure",
+          "name": "Extended Exposure",
           "descShort": "While in Exposure status, if the maximum number of Pumpka Phantoms are on the battlefield, increases their duration and &Param1&.",
           "descLong": "While in Exposure status, if the maximum number of Pumpka Phantoms are on the battlefield, increases their duration. Also increases their &Param1& by <span style=\"color:#0abec5\">&Param2&</span> every 3s, up to &Param3& stacks.",
           "icons": [
@@ -21451,7 +22777,7 @@
         },
         {
           "id": 513521,
-          "name": "Stay Happy",
+          "name": "Happy Face",
           "descShort": "Increases the duration of the magic circle. Also increases the &Param2& of Lanterna Phantoms.",
           "descLong": "Increases the duration of the magic circle by <span style=\"color:#0abec5\">3</span>s. \nAlso increases the &Param2& of Lanterna Phantoms by <span style=\"color:#0abec5\">&Param1&</span>.",
           "icons": [
@@ -23183,7 +24509,7 @@
           "id": 514202,
           "name": "Nightscar Trace",
           "descShort": "When any other friendly unit lands a Crit Hit, reduces the Main Skill's Cooldown, leaves claw marks and inflicts <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>.",
-          "descLong": "When any other friendly unit lands a Crit Hit, reduces the Cooldown of Nocturn Hooks (Main Skill) by <span style=\"color:#0abec5\">1</span>s, and leaves claw marks at the target's location, dealing <span style=\"color:#0abec5\">&Param1& of Cosette's ATK</span> as AoE Umbra Skill DMG and inflicting <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>. \nThis effect can only be triggered 5 times per Skill cast.",
+          "descLong": "When any other friendly unit lands a Crit Hit, reduces the Cooldown of Nocturn Hooks (Main Skill) by <span style=\"color:#0abec5\">1</span>s, and leaves claw marks at the target's location, dealing <span style=\"color:#0abec5\">&Param1&</span> of Cosette's ATK as AoE Umbra Skill DMG and inflicting <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>.\nThis effect can only be triggered 5 times per Skill cast.",
           "icons": [
             "14201_Potential_02_A"
           ],
@@ -36598,6 +37924,184 @@
       "bg": 4014
     },
     {
+      "id": 214015,
+      "name": "Deer's Song",
+      "desc": "Deer call softly in the grove, wild grass their sweet feast.\nA maiden rests in afternoon shade, where sunbeams dance and weave.\nLike wind through time the moments flow, \"Click\"—a memory to keep.",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Deer's Song",
+          "desc": "Increases the Skill DMG of Ventus Support Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Ventus Support Trekker deals Skill DMG, inflicts Flowing Fragrance on the target, up to &Param2& stacks.\nWhen any Ventus Support Trekker deals Skill DMG to a target with max stacks of Flowing Fragrance, removes all stacks and inflicts the following effects on the target: Increases the Skill DMG Taken by the target by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s, up to &Param5& stacks.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "24%",
+                "28%",
+                "32%",
+                "36%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.5%",
+                "1.8%",
+                "2.1%",
+                "2.4%",
+                "2.7%",
+                "3%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Dreamflow Breeze",
+          "desc": "Increases the squad's Ventus DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Ventus Trekker casts a Skill, increases their Skill DMG by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.5%",
+                "5%",
+                "7.5%",
+                "10%",
+                "12.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6.5%",
+                "13%",
+                "19.5%",
+                "26%",
+                "32.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scattered Fragrance",
+          "desc": "When the Ventus Main Trekker deals DMG to a target inflicted with Flowing Fragrance, increases the Ventus DMG of this hit by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "8%",
+                "16%",
+                "24%",
+                "32%",
+                "40%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4015
+    },
+    {
       "id": 214017,
       "name": "Fireworks",
       "desc": "Like a human life, fireworks bloom, flourish, and fade—\nbrief yet brilliant, leaving their unique mark across the night sky.\nIt's much like a Trekker's endless quest to climb the Monolith,\nall for that one day when they might finally hold the stars in their hands...",
@@ -37811,6 +39315,161 @@
         }
       ],
       "bg": 4023
+    },
+    {
+      "id": 214024,
+      "name": "One, Two, Three, Jump!",
+      "desc": "A rope\ndangled from a sunlit ledge,\ndropping into the long-forgotten ruins.\nThe girl grabbed it\nand rappelled down.\n\"Hah, just some treasure?\nWatch me haul it up!\"",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "One, Two, Three, Jump!",
+          "desc": "When any Ventus Trekker deals Ultimate DMG, increases the Skill DMG of the Ventus Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "25%",
+                "30%",
+                "35%",
+                "40%",
+                "45%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Graceful Dive",
+          "desc": "Increases the Ultimate DMG of Ventus Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Trekker triggers <span style=\"color:#6A90EB\">Ventus Mark</span>, increases Ventus squadmates' ATK by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "12%",
+                "18%",
+                "24%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team Spirit",
+          "desc": "When any Support Ventus Trekker inflicts Marks, increases this Trekker's Skill DMG by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7%",
+                "14%",
+                "21%",
+                "28%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4024
     },
     {
       "id": 214026,
