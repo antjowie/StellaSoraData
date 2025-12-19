@@ -9,6 +9,8 @@ import {
 import { join, dirname } from "path";
 import { spawn } from "child_process";
 
+// F:\YostarGames\StellaSora_EN\Persistent_Store
+// The other store is during the launcher, we're using that one but it's a bit more outdated
 let FROM = "F:/YostarGames/StellaSora_EN";
 const TO = "./bundles";
 
@@ -75,6 +77,8 @@ async function extract(from: string) {
       ];
 
       for (const folder of folders) {
+        if (existsSync("./extract/" + folder.path) === false) continue;
+
         let localFiles: string[] = [];
         readdirSync("./extract/" + folder.path, { recursive: true }).forEach(
           (file) => {
@@ -110,5 +114,5 @@ async function extract(from: string) {
 export default extract;
 
 if (require.main === module) {
-  extract(FROM);
+  extract("./download");
 }

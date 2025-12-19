@@ -1,9 +1,8 @@
 # StellaSoraData
-Datamined data for the game `Stella Sora`, updates automatically
+Datamined data for the game `Stella Sora`, updates automatically. Currently relies on upstream to keep up to date values.
 
-Currently relies on 2 things: 
-1. Upstream to keep updating the data extracted from the game
-2. Miraheze to upload new portraits
+# Issues
+The downloader downloads data from the launcher, but this data older then data downloaded by the game. So sometimes assets are not up to date yet.
 
 # Disclaimer
 Yostar Games owns the original assets to the game, all credits go to its rightful owner. \

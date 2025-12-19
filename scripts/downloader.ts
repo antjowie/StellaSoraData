@@ -94,10 +94,19 @@ async function getGameInfo(): Promise<{
   return res.data.data;
 }
 
+type Manifest = {
+  source: string;
+  file: {
+    path: "/AntiCheatExpert/ACE-BASE.sys";
+    hash: "11638352398531338391";
+    size: "4282536";
+  }[];
+};
+
 async function getManifest(
   gameVersion: string,
   gamePath: string,
-): Promise<{ source: string; file: any[] }> {
+): Promise<Manifest> {
   const url = encodeURI(
     `/api/launcher/game/config/json?version=${gameVersion}&file_path=${gamePath}`,
   );
@@ -109,16 +118,34 @@ async function getManifest(
 }
 
 async function getCDN(): Promise<{
-  back_up_cdn: "https://launcher-pkg-ss-en-bk.yo-star.com";
   primary_cdn: "https://launcher-pkg-ss-en.yo-star.com";
+  back_up_cdn: "https://launcher-pkg-ss-en-bk.yo-star.com";
 }> {
   const res = await ax.get("/api/launcher/advanced/game/download/cdn");
   return res.data.data;
 }
 
+async function getData(): Promise<object> {
+  const urls = [
+    ["requestClientInfo", "/api/launcher/base/config"],
+    ["requestBannerAndNews", "/api/launcher/operations/resource"],
+    ["requestMedia", "/api/launcher/social/media/resource"],
+    ["requestUpdateBackground", "/api/launcher/installation/config"],
+    ["requestLogger", "/api/launcher/advanced/config"],
+    ["requestLoggerConfig", "/api/open/api/config"],
+  ];
+
+  let data = {};
+  for (const url of urls) {
+    const res = await ax.get(url[1]);
+    data[url[0]] = res.data.data;
+  }
+  return data;
+}
+
 async function downloadFiles(
-  gameVersion: string,
-): Promise<{ dir: string; version: string }> {
+  currentManifest: Manifest,
+): Promise<{ bHasChanges: boolean; dir: string }> {
   launcherVersion = await getLauncherVersion();
   console.log("Launcher version " + launcherVersion);
 
@@ -128,37 +155,61 @@ async function downloadFiles(
 
   const gameInfo = await getGameInfo();
   console.log("Game version: " + gameInfo.game_latest_version);
+  if (fs.existsSync(outDir) === false) fs.mkdirSync(outDir);
+  fs.writeFileSync(
+    path.join(outDir, "gameInfo.json"),
+    JSON.stringify(gameInfo, null, 2),
+  );
+  const cdn = await getCDN();
+  console.log(cdn.primary_cdn);
+  console.log(cdn.back_up_cdn);
+  fs.writeFileSync(
+    path.join(outDir, "data.json"),
+    JSON.stringify(await getData(), null, 2),
+  );
 
-  if (gameInfo.game_latest_version === gameVersion) {
-    console.log("Game version is up to date, skipping download");
-    return { dir: outDir, version: gameVersion };
-  }
-
+  // Check which files to download
   const manifest = await getManifest(
     gameInfo.game_latest_version,
     gameInfo.game_latest_file_path,
   );
 
+  const files = manifest.file.filter((file) => {
+    // (path) => path.includes("icon-") || path.includes("char_2d_"),
+    if (file.path.includes("icon-") === false) return false;
+    const currentFile = currentManifest?.file?.find(
+      (c) => c.path === file.path,
+    );
+
+    // We've already downloaded this file, check if it's changed
+    if (currentFile !== undefined) {
+      if (currentFile.hash === file.hash && currentFile.size === file.size)
+        return false;
+    }
+
+    return true;
+  });
+
+  if (files.length === 0) {
+    console.log("No changes detected.");
+    return { bHasChanges: false, dir: outDir };
+  }
+
+  // We got new files to download
   if (fs.existsSync(outDir)) fs.rmSync(outDir, { recursive: true });
   fs.mkdirSync(outDir);
   fs.writeFileSync(
-    path.join(outDir, "manifest.json"),
+    path.join(".", "manifest.json"),
     JSON.stringify(manifest, null, 2),
   );
-
-  const paths = Object.values(manifest.file).map((file: any) => file.path);
-  const files = paths.filter(
-    (path) => path.includes("icon-"),
-    // (path) => path.includes("icon-") || path.includes("char_2d_"),
-  );
-
   let downloadedCount = 0;
   const totalFiles = files.length;
   console.log(`Starting download of ${totalFiles} files...`);
 
-  while (files.length > 0) {
+  let paths = files.map((file) => file.path);
+  while (paths.length > 0) {
     const chunkSize = 5;
-    const chunk = files.splice(0, chunkSize);
+    const chunk = paths.splice(0, chunkSize);
 
     const promises = chunk.map(async (icon) => {
       const url = encodeURI(manifest.source + icon);
@@ -177,14 +228,14 @@ async function downloadFiles(
         console.log(`Downloaded ${downloadedCount}/${totalFiles} files`);
       } catch (error) {
         console.error(`Error downloading ${icon}, retrying: ${error.message}`);
-        files.push(icon);
+        paths.push(icon);
       }
     });
     await Promise.all(promises);
   }
 
   console.log("All files downloaded successfully!");
-  return { dir: outDir, version: gameInfo.game_latest_version };
+  return { bHasChanges: true, dir: outDir };
 }
 
 export default downloadFiles;
