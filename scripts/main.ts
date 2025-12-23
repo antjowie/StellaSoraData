@@ -1,5 +1,4 @@
-import generateDatabases from "./generateDatabase.js";
-import warnings from "./generateDatabase.js";
+import generateDatabases, { warnings } from "./generateDatabase.js";
 import fs from "fs";
 import path from "path";
 import downloadFiles from "./downloader.js";
@@ -17,11 +16,11 @@ await Promise.all(promises);
 if (res.bHasChanges) {
   fs.writeFileSync(
     path.join(".", "manifest.json"),
-    JSON.stringify(manifest, null, 2),
+    JSON.stringify(res.manifest, null, 2),
   );
 }
 
 if (warnings.length > 0) {
-  console.log("Warnings:");
+  console.log(`Warnings detected (${warnings.length}):`);
   warnings.forEach((warning) => console.warn(warning));
 }

@@ -33,9 +33,6 @@ function patchDescription(origText: string) {
     // Param1_kr1 Group 1 = Param1_kr1 Group 2 = Param1
     const correct = param.replace(/(\D+\d+)\w*/g, "$1");
     if (correct.length > 0 && param.length != correct.length) {
-      console.log(
-        `Invalid param format: ${param}. Will replace with ${correct}`,
-      );
       warnings.push(
         `Invalid param format: ${param}. Will replace with ${correct}`,
       );
