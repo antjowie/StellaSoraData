@@ -1,5 +1,7 @@
 import generateDatabases from "./generateDatabase.js";
+import warnings from "./generateDatabase.js";
 import fs from "fs";
+import path from "path";
 import downloadFiles from "./downloader.js";
 import extractFiles from "./extract.js";
 
@@ -11,3 +13,15 @@ if (res.bHasChanges) {
 }
 
 await Promise.all(promises);
+
+if (res.bHasChanges) {
+  fs.writeFileSync(
+    path.join(".", "manifest.json"),
+    JSON.stringify(manifest, null, 2),
+  );
+}
+
+if (warnings.length > 0) {
+  console.log("Warnings:");
+  warnings.forEach((warning) => console.warn(warning));
+}

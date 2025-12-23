@@ -145,7 +145,7 @@ async function getData(): Promise<object> {
 
 async function downloadFiles(
   currentManifest: Manifest,
-): Promise<{ bHasChanges: boolean; dir: string }> {
+): Promise<{ bHasChanges: boolean; dir: string; manifest: Manifest }> {
   launcherVersion = await getLauncherVersion();
   console.log("Launcher version " + launcherVersion);
 
@@ -192,16 +192,12 @@ async function downloadFiles(
 
   if (files.length === 0) {
     console.log("No changes detected.");
-    return { bHasChanges: false, dir: outDir };
+    return { bHasChanges: false, dir: outDir, manifest: currentManifest };
   }
 
   // We got new files to download
   if (fs.existsSync(outDir)) fs.rmSync(outDir, { recursive: true });
   fs.mkdirSync(outDir);
-  fs.writeFileSync(
-    path.join(".", "manifest.json"),
-    JSON.stringify(manifest, null, 2),
-  );
   let downloadedCount = 0;
   const totalFiles = files.length;
   console.log(`Starting download of ${totalFiles} files...`);
@@ -235,7 +231,7 @@ async function downloadFiles(
   }
 
   console.log("All files downloaded successfully!");
-  return { bHasChanges: true, dir: outDir };
+  return { bHasChanges: true, dir: outDir, manifest };
 }
 
 export default downloadFiles;

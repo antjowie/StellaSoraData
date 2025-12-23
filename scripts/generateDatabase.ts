@@ -12,6 +12,8 @@ import {
 } from "./global.js";
 import parseParam from "./paramParser.js";
 
+export let warnings: string[] = [];
+
 // Patch descriptions
 // Apply special text
 // Some descriptions contain the ##Lux Mark#1015# pattern. This pattern indicates a special text
@@ -20,8 +22,28 @@ import parseParam from "./paramParser.js";
 //  - The text will be underlined and can be pressed to open a popup
 //  - The ID will be replaced with an icon
 function patchDescription(origText: string) {
+  // Replace {x} with &Paramx& to be consistent
+  let finalText = origText.replace(/\{(\d+)\}/g, "&Param$1&");
+
+  // Update inconsistent param entries such as &Param1_kr&
+  // NOTE: I'm not sure why korean has _kr for some values so log them as warnings
+  const params = extractParamsFromText(finalText);
+  for (const param of params) {
+    // Param1 Group 1 = Param1 Group 2 = ""
+    // Param1_kr1 Group 1 = Param1_kr1 Group 2 = Param1
+    const correct = param.replace(/(\D+\d+)\w*/g, "$1");
+    if (correct.length > 0 && param.length != correct.length) {
+      console.log(
+        `Invalid param format: ${param}. Will replace with ${correct}`,
+      );
+      warnings.push(
+        `Invalid param format: ${param}. Will replace with ${correct}`,
+      );
+      finalText = finalText.replace(param, correct);
+    }
+  }
+
   // Replace all color tags with span tags (valid html)
-  let finalText = origText;
   while (finalText.includes("<color=#")) {
     const colorStart = finalText.indexOf("<color=#");
     const colorEnd = finalText.indexOf(">", colorStart);
@@ -70,7 +92,12 @@ function patchDescription(origText: string) {
   return finalText.replace(/\u000b/g, "\n");
 }
 
-const extractParamsFromText = (text) => text.match(/(?<=&)\w+(?=&)/g) ?? [];
+// for "&Param1& a &Param1_kr1& times" matches:
+// &Param1& = Param1
+// &Param1_kr1& = Param1_kr1
+// For 2nd case patchDescription will ensure it gets updated to a correct value
+const extractParamsFromText = (text: string) =>
+  text.match(/(?<=&)\w+(?=&)/g) ?? [];
 
 function getCharacters() {
   // Build mapping for char to potential types
@@ -195,7 +222,7 @@ function getCharacters() {
     for (const param of paramStrings) {
       if (!(param in potential))
         throw new Error(
-          `Missing param value: ${param} for potential ${potentialId}`,
+          `Missing param value: ${param} for potential ${potentialId}. desc: Potential.${potentialId}.2`,
         );
 
       const paramValue = potential[param];
@@ -269,12 +296,6 @@ function getDiscs() {
       if (disc["Visible"] === undefined || disc["Visible"] === false)
         return null;
 
-      // Parse skills (melodies and harmonies)
-      const patchText = (desc) => {
-        // Replace {x} with &Paramx& to be consistent
-        return patchDescription(desc.replace(/\{(\d+)\}/g, "&Param$1&"));
-      };
-
       const getSkill = (groupId, bin, lang) => {
         let obj = bin[groupId + "01"];
         // There are separate name and desc entires for each level, but we can ignore them
@@ -285,7 +306,7 @@ function getDiscs() {
           );
         }
         const name = lang[obj.Name];
-        const desc = patchText(lang[obj.Desc]);
+        const desc = patchDescription(lang[obj.Desc]);
 
         const paramsStrings = extractParamsFromText(desc);
         let params: any[] = [];
@@ -300,10 +321,18 @@ function getDiscs() {
         let level = 1;
         while (obj !== undefined) {
           for (const [i, param] of paramsStrings.entries()) {
-            if (obj[param] === undefined)
-              throw new Error(
-                `Parameter ${param} not found for ${groupId} at level ${level}`,
+            if (obj[param] === undefined) {
+              // NOTE: For SecondarySkill.4039201.2 the JP translation is inconsistent with the English translation.
+              // For some reason it has a 4th parameter in lang file, but the bin file only has 3. For now we'll replace it with
+              // a placeholder value and emit a warning.
+              params[i].values.push("?");
+              warnings.push(
+                `Parameter ${param} not found for ${groupId} at level ${level}. Replacing it with "?". desc: ${obj.Desc}`,
               );
+              // throw new Error(
+              //   `Parameter ${param} not found for ${groupId} at level ${level}. desc: ${obj.Desc}`,
+              // );
+            }
             params[i].values.push(obj[param]);
           }
           // "NeedSubNoteSkills": "{\"90013\":1,\"90014\":2}",

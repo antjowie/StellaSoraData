@@ -59,10 +59,11 @@ async function extract(from: string) {
       console.error(data.toString());
     });
 
+    let extractedFiles = 0;
     assetStudioProcess.on("close", (code) => {
       if (code !== 0) {
-        reject(new Error(`AssetStudio exited with code ${code}`));
-        return;
+        reject();
+        throw new Error(`AssetStudio exited with code ${code}`);
       }
 
       const folders = [
@@ -90,6 +91,7 @@ async function extract(from: string) {
             mkdirSync(dirname(destination), { recursive: true });
             copyFileSync(source, destination);
             localFiles.push(file);
+            extractedFiles++;
           },
         );
         if (!(folder.out in files)) {
@@ -103,6 +105,10 @@ async function extract(from: string) {
             JSON.stringify([...new Set(value)]),
           );
         }
+      }
+
+      if (extractedFiles === 0) {
+        throw new Error(`"No new files extracted. Likely an error"`);
       }
 
       console.log(from, "finished extraction.");
