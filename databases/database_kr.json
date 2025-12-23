@@ -33243,7 +33243,7 @@
         {
           "id": 515804,
           "name": "교차 채찍",
-          "descShort": "「호두 대령」과 「곱슬 장군」이 피해를 입히면 「상자」 표식을 부여한다.\n라루(이브)가 「상자」 표식을 보유한 목표에게 스킬 피해를 입히면 범위 피해를 추가로 입힌다.",
+          "descShort": "「호두 대령」과 「곱슬 장군」이 피해를 입히면 「상자」 표식을 부여한다.\n라루(이브)의 스킬이 「상자」 표식을 보유한 목표에게 피해를 입힐 시 범위 피해를 추가로 입힌다.",
           "descLong": "「호두 대령」과 「곱슬 장군」이 피해를 입히면 「상자」 표식을 부여한다. <span style=\"color:#0abec5\">&Param2&</span>초간 지속된다.\n메인 스킬 &Param3& &Param4& 「상자」 표식을 보유한 목표에게 피해를 입힐 시 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 불 속성 범위 스킬 피해를 입힌다.",
           "icons": [
             "15801_Potential_04_A"
@@ -33678,7 +33678,7 @@
           "id": 515812,
           "name": "작위의 분노",
           "descShort": "라루(이브)가 「라루 경」으로 변신한 기간 중, 총기 사격과 스킬 &Param1& 모두 <span style=\"color:#6A90EB\">화염 표식</span>을 발동할 수 있다. \n라루(이브)의 &Param3& 증가한다.",
-          "descLong": "라루(이브)가 「라루 경」으로 변신한 기간 중, 일반 공격과 스킬 &Param1& 모두 <span style=\"color:#6A90EB\">화염 표식</span>을 발동할 수 있다. \n라루(이브)의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
+          "descLong": "라루(이브)가 「라루 경」으로 변신한 기간 중, 총기 사격과 스킬 &Param1& 모두 <span style=\"color:#6A90EB\">화염 표식</span>을 발동할 수 있다. \n라루(이브)의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
           "icons": [
             "Common_Potential_Fire_1_A",
             "Potential_Triangle_B",
@@ -33810,7 +33810,7 @@
           "id": 515822,
           "name": "특별 화약",
           "descShort": "「상자 포탄」이 입히는 스킬 피해와 피해 범위가 증가한다.\n팀 전체가 불 속성 캐릭터일 경우, 「상자 포탄」이 목표에게 피해를 입히면, 목표가 받는 스킬 피해가 증가한다.",
-          "descLong": "「상자 포탄」의 피해 범위가 <span style=\"color:#0abec5\">25%</span> 증가하고, 입히는 스킬 피해가 <span style=\"color:#0abec5\">&Param5&</span> 증가한다.\n팀 전체가 불 속성 캐릭터일 경우, 「상자 포탄」이 목표에게 피해를 입히면, 목표가 받는 스킬 피해가 <span style=\"color:#0abec5\">&Param2&</span> 증가한다. <span style=\"color:#0abec5\">&Param3&</span>초간 지속되며, 최대 <span style=\"color:#0abec5\">&Param4&</span>스택 중첩된다.",
+          "descLong": "「상자 포탄」의 피해 범위가 <span style=\"color:#0abec5\">50%</span> 증가하고, 입히는 스킬 피해가 <span style=\"color:#0abec5\">&Param5&</span> 증가한다.\n팀 전체가 불 속성 캐릭터일 경우, 「상자 포탄」이 목표에게 피해를 입히면, 목표가 받는 스킬 피해가 <span style=\"color:#0abec5\">&Param2&</span> 증가한다. <span style=\"color:#0abec5\">&Param3&</span>초간 지속되며, 최대 <span style=\"color:#0abec5\">&Param4&</span>스택 중첩된다.",
           "icons": [
             "15801_Potential_22_A"
           ],
@@ -33898,7 +33898,7 @@
           "id": 515824,
           "name": "훈장 수여식",
           "descShort": "「호두 대령」과 「곱슬 장군」이 스킬을 배워 자동으로 시전해 목표를 공격한다. \n「곱슬 장군」의 스킬로 자신의 &Param5& 증가한다.",
-          "descLong": "「호두 대령」과 「곱슬 장군」이 스킬을 배워, 쿨타임 <span style=\"color:#0abec5\">4</span>초마다 자동으로 시전한다. \n「호두 대령」이 지면을 강하게 때려 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 불 속성 범위 소환물 피해를 입힌다. \n「곱슬 장군」이 두 개의 칼을 휘둘러 공격력 <span style=\"color:#0abec5\">&Param2&x5</span>의 불 속성 범위 소환물 피해를 입힌다. 또한 자신의 &Param5& <span style=\"color:#0abec5\">&Param3&</span> 증가한다. <span style=\"color:#0abec5\">&Param4&</span>초간 지속된다.",
+          "descLong": "「호두 대령」과 「곱슬 장군」이 스킬을 배워, 쿨타임 <span style=\"color:#0abec5\">4</span>초마다 자동으로 시전한다. \n「호두 대령」이 지면을 강하게 때려 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 불 속성 범위 소환물 피해를 입힌다. \n「곱슬 장군」이 두 개의 칼을 휘둘러 공격력 <span style=\"color:#0abec5\">&Param2&x6</span>의 불 속성 범위 소환물 피해를 입힌다. 또한 자신의 &Param5& <span style=\"color:#0abec5\">&Param3&</span> 증가한다. <span style=\"color:#0abec5\">&Param4&</span>초간 지속된다.",
           "icons": [
             "15801_Potential_24_A"
           ],
@@ -34142,7 +34142,7 @@
         },
         {
           "id": 515829,
-          "name": "하트의 나팔",
+          "name": "하트의 사면",
           "descShort": "「호두 대령」과 「곱슬 장군」의 전투 시간과 &Param1& 증가한다.",
           "descLong": "「호두 대령」과 「곱슬 장군」의 전투 시간이 50% 증가하고, &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
           "icons": [
@@ -34345,7 +34345,7 @@
         {
           "id": 515832,
           "name": "화약 난무",
-          "descShort": "「라루 경」으로 변신한 기간 중, &Param1& 증가하고, 일반 공격과 스킬이 <span style=\"color:#6A90EB\">불 속성 표식: 성염</span>을 부여할 수 있다.",
+          "descShort": "「라루 경」으로 변신한 기간 중, 자신의 &Param1& 증가하고, 총기와 스킬이 <span style=\"color:#6A90EB\">불 속성 표식: 성염</span>을 부여할 수 있다.",
           "descLong": "라루(이브)가 「라루 경」으로 변신한 기간 중, 자신의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가하고, 총기 사격과 스킬 &Param3& <span style=\"color:#6A90EB\">불 속성 표식: 성염</span>을 부여할 수 있다.",
           "icons": [
             "Common_Potential_Fire_1_A",
