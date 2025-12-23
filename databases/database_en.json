@@ -6464,7 +6464,7 @@
           "id": 511308,
           "name": "Relenting Rain",
           "descShort": "When Shimiao casts Rising Tides Phase 2 and kills a target with <span style=\"color:#6A90EB\">Frozen</span>, the Skill can be cast again immediately. Also increases &Param1&.",
-          "descLong": "When Shimiao casts Rising Tides Phase 2 and kills a target with <span style=\"color:#6A90EB\">Frozen</span>, the Skill can be cast again immediately. Also increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks. \nThis effect can only be triggered <span style=\"color:#ec6d21\">&Param5&</span> times per Skill cast.",
+          "descLong": "When Shimiao casts Rising Tides Phase 2 and kills a target with <span style=\"color:#6A90EB\">Frozen</span>, the Skill can be cast again immediately. Also increases &Param1& by &Param2& for &Param3&s, up to &Param4& stacks. \nThis effect can only be triggered <span style=\"color:#ec6d21\">&Param5&</span> times per Skill cast.",
           "icons": [
             "11301_Potential_02_A",
             "Potential_Triangle_B",
@@ -8980,7 +8980,7 @@
           "id": 511711,
           "name": "Leakage Protection",
           "descShort": "The Ultimate can trigger <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>. When the mark is triggered, increases &Param6&.",
-          "descLong": "&Param1& (Ultimate) can trigger <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>, dealing <span style=\"color:#ec6d21\">&Param2& of ATK</span> as Lux Mark DMG. \nWhen the mark is triggered, increases &Param6& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s, up to &Param5& stacks.",
+          "descLong": "&Param1& (Ultimate) can trigger <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>, dealing &Param2& of ATK as Lux Mark DMG. \nWhen the mark is triggered, increases &Param6& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s, up to &Param5& stacks.",
           "icons": [
             "Common_Potential_Light_1_A",
             "Potential_Diamond_B",
@@ -10877,7 +10877,7 @@
           "id": 511841,
           "name": "Night Reaper",
           "descShort": "Increases the Ultimate's &Param3&. The more targets the final horizontal slash hits, the higher the DMG will be.",
-          "descLong": "For each target the horizontal slash hits during Void Reaper (Ultimate), increases the DMG of this hit by <span style=\"color:#ec6d21\">&Param2&</span>, up to <span style=\"color:#ec6d21\">3</span> stacks. \nIncreases Void Reaper's &Param3& by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "descLong": "For each target the horizontal slash hits during Void Reaper (Ultimate), increases the DMG of this hit by <span style=\"color:#ec6d21\">&Param2&</span>, up to 3 stacks. \nIncreases Void Reaper's &Param3& by &Param1&.",
           "icons": [
             "11801_Potential_41_A",
             "Potential_Diamond_B",
@@ -11080,7 +11080,7 @@
           "id": 511903,
           "name": "Whirling Blade",
           "descShort": "The sunflower shuriken can deal DMG multiple times.",
-          "descLong": "The sunflower shuriken deals DMG multiple times, hitting targets once every <span style=\"color:#0abec5\">0.15</span>s.",
+          "descLong": "The sunflower shuriken of Flowers Dance (Main Skill) deals DMG multiple times, hitting targets once every <span style=\"color:#0abec5\">0.15</span>s.",
           "icons": [
             "11901_Potential_03_A"
           ],
@@ -11093,7 +11093,7 @@
           "id": 511904,
           "name": "Bloom Dance",
           "descShort": "Increases sunflower shuriken's DMG and Attack Range.",
-          "descLong": "Increases sunflower shuriken's Attack Range by <span style=\"color:#0abec5\">50%</span> and its &Param1& by <span style=\"color:#0abec5\">&Param2&</span>.",
+          "descLong": "Increases the Attack Range of Flowers Dance (Main Skill)'s sunflower shuriken by <span style=\"color:#0abec5\">50%</span> and its &Param1& by <span style=\"color:#0abec5\">&Param2&</span>.",
           "icons": [
             "11901_Potential_04_A"
           ],
@@ -11119,7 +11119,7 @@
           "id": 511905,
           "name": "Gale Rage",
           "descShort": "Each time Nanoha throws the sunflower shuriken, increases &Param5& and &Param6&.",
-          "descLong": "Each time Nanoha throws the sunflower shuriken, increases &Param5& by <span style=\"color:#ec6d21\">&Param1&</span>, and &Param6& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "descLong": "Each time Nanoha throws the sunflower shuriken during Flowers Dance (Main Skill), increases &Param5& by <span style=\"color:#ec6d21\">&Param1&</span>, and &Param6& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
           "icons": [
             "11901_Potential_03_A",
             "Potential_Diamond_B",
@@ -11325,7 +11325,7 @@
           "id": 511908,
           "name": "Distant Prayer",
           "descShort": "The farther the sunflower shuriken is from Nanoha, the more DMG it deals.",
-          "descLong": "The farther the sunflower shuriken is from Nanoha, the more DMG it deals, with a minimum increase of <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "descLong": "When Flowers Dance (Main Skill) is cast, the farther the sunflower shuriken is from Nanoha, the more DMG it deals, with a minimum increase of <span style=\"color:#ec6d21\">&Param1&</span>.",
           "icons": [
             "11901_Potential_03_A",
             "Potential_Diamond_B",
@@ -11411,7 +11411,7 @@
           "id": 511910,
           "name": "Blossom Shower",
           "descShort": "When casting the Main Skill, the clones fire sunflower shurikens.",
-          "descLong": "When casting Flowers Dance (Main Skill), the clones fire non-returning sunflower shurikens, each dealing <span style=\"color:#ec6d21\">&Param1&</span> of Nanoha's ATK as Ventus Ultimate DMG.",
+          "descLong": "When casting Flowers Dance (Main Skill), the clones fire non-returning sunflower shurikens, each dealing <span style=\"color:#ec6d21\">&Param1&</span> of Nanoha's ATK as Ventus Skill DMG.",
           "icons": [
             "11901_Potential_41_A",
             "Potential_Round_B",
@@ -16412,7 +16412,7 @@
           "id": 512624,
           "name": "Spark of Ashes",
           "descShort": "Mindflare Butterfly has a chance to increase the main Ignis Trekker's DMG and spawn a <span style=\"color:#6A90EB\">Scorched Butterfly</span>.",
-          "descLong": "When the main Ignis Trekker deals DMG to a target, for each Mindflare Butterfly present, there is a 20% chance to increase the damage dealt by <span style=\"color:#0abec5\">&Param1&</span> and spawn a <span style=\"color:#6A90EB\">Scorched Butterfly</span>, dealing<span style=\"color:#0abec5\">&Param2& of ATK</span> as Ignis Skill DMG. This effect can only be triggered once per sec.",
+          "descLong": "When the main Ignis Trekker deals DMG to a target, for each Mindflare Butterfly present, there is a 20% chance to increase the damage dealt by <span style=\"color:#0abec5\">&Param1&</span> and spawn a <span style=\"color:#6A90EB\">Scorched Butterfly</span>, dealing <span style=\"color:#0abec5\">&Param2& of ATK</span> as Ignis Skill DMG. This effect can only be triggered once per sec.",
           "icons": [
             "12601_Potential_24_A"
           ],
@@ -20045,8 +20045,8 @@
         {
           "id": 513321,
           "name": "Youth: Dazzling",
-          "descShort": "When casting the Support Skill, continuously creates a dozen Flower Petals at the Ventus Main Trekker's location, each dealing DMG and inflicting <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
-          "descLong": "When casting Bouquet Blast (Support Skill), continuously creates 18 Flower Petals at the Ventus Main Trekker's location, with each petal dealing <span style=\"color:#0abec5\">&Param1&</span> of Nazuka's ATK as Ventus Skill DMG and inflicting <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
+          "descShort": "When casting the Support Skill, continuously creates a dozen Flower Petals at the main Ventus Trekker's location, each dealing DMG and inflicting <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
+          "descLong": "When casting Bouquet Blast (Support Skill), continuously creates 18 Flower Petals at the main Ventus Trekker's location, with each petal dealing <span style=\"color:#0abec5\">&Param1&</span> of Nazuka's ATK as Ventus Skill DMG and inflicting <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
           "icons": [
             "13301_Potential_21_A"
           ],
@@ -20973,7 +20973,7 @@
         {
           "id": 513405,
           "name": "Pyro Mark",
-          "descShort": "Increases the Auto ATK DMG dealt by Fiery Punches and Magma Burst, and allows them to trigger <span style=\"color:#6A90EB\">Ignis Mark</span>.",
+          "descShort": "Fiery Punches and Magma Burst deals increased &Param2& and can trigger ##Ignis Mark1016#.",
           "descLong": "Increases the &Param2& dealt by Fiery Punches and Magma Burst by <span style=\"color:#ec6d21\">&Param1&</span>, and allows them to trigger <span style=\"color:#6A90EB\">Ignis Mark</span>.",
           "icons": [
             "13401_Potential_01_A",
@@ -22005,8 +22005,8 @@
         {
           "id": 513441,
           "name": "Blazing Heart",
-          "descShort": "When the Ultimate triggers an <span style=\"color:#6A90EB\">Ignis Mark</span>, increases this Ultimate DMG.",
-          "descLong": "When &Param1& triggers an <span style=\"color:#6A90EB\">Ignis Mark</span>, increases this Ultimate DMG by <span style=\"color:#ec6d21\">&Param2&</span>, up to &Param4& stacks.",
+          "descShort": "Each time the Ultimate triggers an <span style=\"color:#6A90EB\">Ignis Mark</span>, increases Fuyuka's &Param5& during this Ultimate.",
+          "descLong": "When &Param1& (Ultimate) triggers an <span style=\"color:#6A90EB\">Ignis Mark</span>, increases Fuyuka's &Param5& by <span style=\"color:#ec6d21\">&Param2&</span> during this Ultimate, up to &Param4& stacks.",
           "icons": [
             "13401_Potential_41_A",
             "Potential_Diamond_B",
@@ -22016,6 +22016,20 @@
           "build": 3,
           "type": 3,
           "params": [
+            {
+              "idx": 5,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
             {
               "idx": 1,
               "values": [
@@ -24026,7 +24040,7 @@
           "id": 514126,
           "name": "Ink Sigil: Trail Seeker",
           "descShort": "When a squadmate casts a Main Skill, Chixia's minions deal additional DMG.",
-          "descLong": "When a squadmate casts a Main Skill, Crimson Dragon deals an additional <span style=\"color:#ec6d21\">&Param1& of ATK</span> as Ignis Minion DMG to the target, while Tiger of the East deals an additional <span style=\"color:#ec6d21\">&Param2& of ATK x5</span> as AoE Ignis Minion DMG to the target.",
+          "descLong": "When a squadmate casts the Main Skill, Crimson Dragon deals an additional <span style=\"color:#ec6d21\">&Param1&</span> of ATK as Ignis Minion DMG to the target, while Tiger of the East deals an additional <span style=\"color:#ec6d21\">&Param2& x5</span> of ATK as AoE Ignis Minion DMG to the target.",
           "icons": [
             "14101_Potential_21_A",
             "Potential_Triangle_B",
@@ -28895,11 +28909,7 @@
                 "132%",
                 "152%",
                 "171%",
-                "191%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "191%"
               ]
             }
           ]
@@ -29017,11 +29027,7 @@
                 "30.5%",
                 "35%",
                 "39.6%",
-                "44.2%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "44.2%"
               ]
             }
           ]
@@ -29235,11 +29241,7 @@
                 "465%",
                 "535%",
                 "605%",
-                "675%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "675%"
               ]
             }
           ]
@@ -33054,6 +33056,1561 @@
           ]
         }
       ]
+    },
+    {
+      "id": 158,
+      "name": "Snowish Laru",
+      "class": 2,
+      "element": 2,
+      "rarity": 1,
+      "mainBuild1Name": "Snowish Laru: Main Build 1",
+      "mainBuild1Desc": "A build that enhances the toy army for cooperation, ideal for fighting a single enemy.",
+      "mainBuild2Name": "Snowish Laru: Main Build 2",
+      "mainBuild2Desc": "A build that enhances her own skills to perform multiple AoE attacks, ideal for fighting multiple targets.",
+      "supportBuild1Name": "Snowish Laru: Support Build 1",
+      "supportBuild1Desc": "A Support build that enhances the cannon and deals massive damage.",
+      "supportBuild2Name": "Snowish Laru: Support Build 2",
+      "supportBuild2Desc": "A Support build that enhances the toy and deals continuous damage.",
+      "potentials": [
+        {
+          "id": 515801,
+          "name": "Solemn Look",
+          "descShort": "Enhances the Synergy Skills of Colonel Walnut and General Curly.\nEnhances Clockwork Queen's shots.",
+          "descLong": "Empowers the toys following Snowish Laru.\nColonel Walnut's Synergy Skill deals <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Ignis Minion DMG.\nGeneral Curly's Synergy Skill deals <span style=\"color:#0abec5\">&Param2& x6</span> of ATK as AoE Ignis Minion DMG.\nClockwork Queen's shots deal an additional <span style=\"color:#0abec5\">&Param4&</span> of ATK as AoE Ignis Minion DMG.",
+          "icons": [
+            "15801_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "246%",
+                "283%",
+                "320%",
+                "430%",
+                "465%",
+                "499%",
+                "568%",
+                "598%",
+                "627%",
+                "686%",
+                "736%",
+                "785%",
+                "834%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "100%",
+                "115%",
+                "130%",
+                "175%",
+                "189%",
+                "203%",
+                "231%",
+                "243%",
+                "255%",
+                "278%",
+                "298%",
+                "318%",
+                "338%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "90%",
+                "103%",
+                "117%",
+                "157%",
+                "170%",
+                "182%",
+                "208%",
+                "218%",
+                "229%",
+                "251%",
+                "269%",
+                "287%",
+                "305%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515802,
+          "name": "Here Comes the Queen",
+          "descShort": "Casting &Param1& or &Param2& (Main Skill) summons Clockwork Queen and boosts Morale for Colonel Walnut and General Curly.",
+          "descLong": "Casting &Param1& or &Param2& (Main Skill) summons Clockwork Queen for <span style=\"color:#0abec5\">&Param3&</span>s and grants Colonel Walnut or General Curly <span style=\"color:#0abec5\">2</span> stacks of Morale.\nClockwork Queen attacks the target, dealing <span style=\"color:#0abec5\">&Param4&</span> of ATK as Ignis Minion DMG.\nEach of Clockwork Queen's attacks can trigger the Synergy Skills of Colonel Walnut and General Curly.\nClockwork Queen can be summoned once every &Param5&s.",
+          "icons": [
+            "15801_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Whip Assault"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "Candy Barrage"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "85%",
+                "97%",
+                "110%",
+                "148%",
+                "160%",
+                "172%",
+                "195%",
+                "205%",
+                "216%",
+                "236%",
+                "253%",
+                "270%",
+                "287%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515803,
+          "name": "Whipping Gale",
+          "descShort": "&Param1& (Main Skill) becomes a multi-hit attack.",
+          "descLong": "&Param1& (Main Skill) becomes a multi-hit attack, dealing <span style=\"color:#0abec5\">&Param2& x5</span> of ATK as AoE Ignis Skill DMG.",
+          "icons": [
+            "15801_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Whip Assault"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "92%",
+                "106%",
+                "120%",
+                "161%",
+                "174%",
+                "187%",
+                "212%",
+                "224%",
+                "235%",
+                "257%",
+                "275%",
+                "293%",
+                "312%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515804,
+          "name": "Crossing Welts",
+          "descShort": "When Colonel Walnut and General Curly deal DMG, they inflict the Gift Box mark.\nSnowish Laru's skills deal additional AoE DMG against marked targets.",
+          "descLong": "When Colonel Walnut and General Curly deal DMG, they inflict a Gift Box mark, lasting <span style=\"color:#0abec5\">&Param2&</span>s.\n&Param3& and &Param4& (Main Skill) deals <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Ignis Skill DMG against marked targets.",
+          "icons": [
+            "15801_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Whip Assault"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "Candy Barrage"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "197%",
+                "227%",
+                "257%",
+                "345%",
+                "373%",
+                "401%",
+                "456%",
+                "479%",
+                "503%",
+                "551%",
+                "590%",
+                "629%",
+                "669%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515805,
+          "name": "Burning Whip",
+          "descShort": "When Colonel Walnut and General Curly deal DMG to targets with <span style=\"color:#6A90EB\">Ignis Mark</span>, they have a chance to gain Morale and increase their &Param2&.",
+          "descLong": "When Colonel Walnut and General Curly deal damage to targets with <span style=\"color:#6A90EB\">Ignis Mark</span>, they have a &Param1& chance to gain 1 stack of Morale and increase their &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+          "icons": [
+            "15801_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "30%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14%",
+                "23%",
+                "31%",
+                "40%",
+                "48%",
+                "57%",
+                "65%",
+                "74%",
+                "82%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515806,
+          "name": "Starchain Blade",
+          "descShort": "General Curly deals DMG to nearby targets every second.",
+          "descLong": "General Curly deals <span style=\"color:#ec6d21\">&Param1&</span> of ATK as AoE Ignis Minion DMG to nearby targets every second.",
+          "icons": [
+            "15801_Potential_06_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "90%",
+                "145%",
+                "199%",
+                "253%",
+                "307%",
+                "361%",
+                "416%",
+                "470%",
+                "524%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515807,
+          "name": "Fiery Rainbow",
+          "descShort": "Each toy present increases the &Param1& of all Snowish Laru's minions.",
+          "descLong": "Each toy present increases the &Param1& of all Snowish Laru's minions by <span style=\"color:#ec6d21\">&Param2&</span>, up to &Param3& stacks.",
+          "icons": [
+            "15801_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ignis DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13%",
+                "21%",
+                "28%",
+                "36%",
+                "44%",
+                "51%",
+                "59%",
+                "67%",
+                "74%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515808,
+          "name": "All-Out Whiplash",
+          "descShort": "When &Param1& or &Param2& (Main Skill) lands a Crit Hit, increases Snowish Laru's &Param3&.",
+          "descLong": "When &Param1& or &Param2& (Main Skill) lands a Crit Hit, increases Snowish Laru's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s, up to &Param6& stacks.",
+          "icons": [
+            "15801_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Whip Assault"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "Candy Barrage"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.9%",
+                "3%",
+                "4.1%",
+                "5.2%",
+                "6.3%",
+                "7.4%",
+                "8.5%",
+                "9.6%",
+                "10.7%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515809,
+          "name": "Wild Whip Waltz",
+          "descShort": "Increases the Attack Range of &Param1& (Main Skill).\nIncreases the &Param3& of &Param1& and &Param2&.",
+          "descLong": "Increases the Attack Range of &Param1& (Main Skill) by 20%.\nIncreases the &Param3& of &Param1& and &Param2& by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "15801_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Whip Assault"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Ignis DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "Candy Barrage"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "33%",
+                "52%",
+                "72%",
+                "91%",
+                "111%",
+                "130%",
+                "150%",
+                "169%",
+                "189%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515810,
+          "name": "Non-Stop Victory",
+          "descShort": "When Snowish Laru's Auto Attack lands a Crit Hit, increases her &Param1&.",
+          "descLong": "When Snowish Laru's Auto Attack lands a Crit Hit, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
+          "icons": [
+            "15801_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6%",
+                "8%",
+                "11%",
+                "13%",
+                "15%",
+                "18%",
+                "20%",
+                "22%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515811,
+          "name": "Cannon Ensemble",
+          "descShort": "When Snowish Laru deals DMG, she summons a Sled Turret to attack the target.\nWhen the Sled Turret lands a Crit Hit, increases the &Param5& of Snowish Laru and all toys on the battlefield.",
+          "descLong": "Every &Param3&s, Snowish Laru summons a Sled Turret to attack the target when she deals DMG. The Sled Turret deals <span style=\"color:#ec6d21\">&Param2&</span> of ATK as Ignis Minion DMG and explodes to deal <span style=\"color:#ec6d21\">&Param4&</span> of ATK as AoE Ignis Minion DMG.\nWhen the Sled Turret lands a Crit Hit, increases the &Param5& of Snowish Laru and all toys on the battlefield by <span style=\"color:#ec6d21\">&Param6&</span> for &Param7&s.",
+          "icons": [
+            "15801_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "129%",
+                "206%",
+                "283%",
+                "361%",
+                "438%",
+                "515%",
+                "592%",
+                "670%",
+                "747%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "91%",
+                "146%",
+                "201%",
+                "255%",
+                "310%",
+                "365%",
+                "420%",
+                "474%",
+                "529%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "13%",
+                "20%",
+                "28%",
+                "35%",
+                "43%",
+                "50%",
+                "58%",
+                "65%",
+                "73%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515812,
+          "name": "Jazz of Rage",
+          "descShort": "While transformed into Dame Laru, Snowish Laru's shots and &Param1& can trigger <span style=\"color:#6A90EB\">Ignis Mark</span>.\nIncreases Snowish Laru's &Param3&.",
+          "descLong": "While transformed into Dame Laru, Snowish Laru's shots and &Param1& can trigger <span style=\"color:#6A90EB\">Ignis Mark</span>.\nIncreases Snowish Laru's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "Common_Potential_Fire_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Candy Barrage"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515813,
+          "name": "Elegant Moves",
+          "descShort": "Snowish Laru can dodge one more time. Also, increases her &Param2&.\nPeriodically, Snowish Laru becomes immune to direct DMG taken once.",
+          "descLong": "Snowish Laru can dodge one more time. Also, increases her &Param2& by <span style=\"color:#ec6d21\">&Param3&</span>.\nPeriodically, Snowish Laru becomes immune to direct DMG taken once. This effect can only be triggered once every <span style=\"color:#ec6d21\">&Param1&</span>s.",
+          "icons": [
+            "Common_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF",
+                "DEF"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "39",
+                "52",
+                "65",
+                "78",
+                "91",
+                "105",
+                "118",
+                "131",
+                "144"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "30"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515821,
+          "name": "Fire Downpour",
+          "descShort": "After a Gift Box Shell explodes, it deals DMG to targets within range over time.",
+          "descLong": "After a Gift Box Shell explodes, it deals <span style=\"color:#0abec5\">&Param1&</span> of ATK as Ignis Skill DMG to targets within range every 0.3s for 2s.",
+          "icons": [
+            "15801_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "37%",
+                "42%",
+                "48%",
+                "64%",
+                "69%",
+                "75%",
+                "85%",
+                "89%",
+                "94%",
+                "103%",
+                "106%",
+                "110%",
+                "114%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515822,
+          "name": "Special Ammo",
+          "descShort": "Increases the Skill DMG and Attack Range of Gift Box Shells.\nIf the squad is Ignis-Trekker only, when Gift Box Shells deal DMG to the target, increases the Skill DMG Taken of the target.",
+          "descLong": "Increases the Attack Range of Gift Box Shells by <span style=\"color:#0abec5\">50%</span> and Skill DMG by <span style=\"color:#0abec5\">&Param5&</span>.\nIf the squad is Ignis-Trekker only, when Gift Box Shells deal DMG to the target, increases the target's Skill DMG Taken by <span style=\"color:#0abec5\">&Param2&</span> for <span style=\"color:#0abec5\">&Param3&</span>s, up to <span style=\"color:#0abec5\">&Param4&</span> stacks.",
+          "icons": [
+            "15801_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "13%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.3%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515823,
+          "name": "Promotion Time",
+          "descShort": "Combines Colonel Walnuts into General Curly.\nIf the squad is Ignis-Trekker only, increases General Curly's &Param3& over time.",
+          "descLong": "When 4 Colonel Walnuts are on the battlefield, combines them into 1 General Curly, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as Ignis Minion DMG to the target.\nGeneral Curly fights for <span style=\"color:#0abec5\">10</span>s, and only 1 can exist.\nIf the squad is Ignis-Trekker only, increases General Curly's &Param3& by <span style=\"color:#0abec5\">&Param4&</span> every second, up to <span style=\"color:#0abec5\">&Param5&</span> stacks.",
+          "icons": [
+            "15801_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "53%",
+                "61%",
+                "69%",
+                "92%",
+                "100%",
+                "107%",
+                "122%",
+                "128%",
+                "135%",
+                "147%",
+                "153%",
+                "158%",
+                "163%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4.5%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515824,
+          "name": "Investiture Ceremony",
+          "descShort": "Colonel Walnut and General Curly learn skills, which they automatically cast to attack targets.\nGeneral Curly's skill also increases its &Param5&.",
+          "descLong": "Colonel Walnut and General Curly learn skills, which they automatically cast after a <span style=\"color:#0abec5\">4</span>s cooldown.\nColonel Walnut smashes the ground, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Ignis Minion DMG.\nGeneral Curly swings dual blades, dealing <span style=\"color:#0abec5\">&Param2& x6</span> of ATK as AoE Ignis Minion DMG and increasing its &Param5& by <span style=\"color:#0abec5\">&Param3&</span> for <span style=\"color:#0abec5\">&Param4&</span>s.",
+          "icons": [
+            "15801_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "Minion Crit Rate"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "19.6%",
+                "22.6%",
+                "25.5%",
+                "34.3%",
+                "37.1%",
+                "39.8%",
+                "45.3%",
+                "47.7%",
+                "50.1%",
+                "54.8%",
+                "56.7%",
+                "58.7%",
+                "60.7%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "43%",
+                "49%",
+                "55%",
+                "75%",
+                "81%",
+                "87%",
+                "98%",
+                "104%",
+                "109%",
+                "119%",
+                "123%",
+                "127%",
+                "132%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "50%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515825,
+          "name": "Two-Gun Salute",
+          "descShort": "Increases the &Param2& and number of shots of &Param1& (Support Skill).",
+          "descLong": "Increases the &Param2& of &Param1& (Support Skill) by <span style=\"color:#ec6d21\">&Param3&</span>. Fires 2 additional Gift Box Shells.",
+          "icons": [
+            "15801_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Courtesy Before Aggression"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "29%",
+                "47%",
+                "65%",
+                "82%",
+                "100%",
+                "117%",
+                "135%",
+                "153%",
+                "170%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515826,
+          "name": "Uplifting Shot",
+          "descShort": "When a Gift Box Shell deals DMG, increases the &Param1& of Snowish Laru.",
+          "descLong": "When a Gift Box Shell deals DMG, increases the &Param1& of Snowish Laru by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
+          "icons": [
+            "15801_Potential_22_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "15%",
+                "21%",
+                "26%",
+                "32%",
+                "37%",
+                "40%",
+                "43%",
+                "46%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515827,
+          "name": "First Taste of Sweetness",
+          "descShort": "Increases the &Param2& dealt by Gift Box Shells to targets with <span style=\"color:#6A90EB\">Ignis Mark</span>.",
+          "descLong": "Increases the &Param2& dealt by Gift Box Shells to targets with <span style=\"color:#6A90EB\">Ignis Mark</span> by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "icons": [
+            "15801_Potential_22_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Ignis DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "9%",
+                "11%",
+                "13%",
+                "15%",
+                "17%",
+                "19%",
+                "21%",
+                "23%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515828,
+          "name": "Heart's Benediction",
+          "descShort": "Colonel Walnut and General Curly deal Minion DMG to nearby targets over time.",
+          "descLong": "Colonel Walnut deals <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Ignis Minion DMG to nearby targets every second.\nGeneral Curly deals <span style=\"color:#0abec5\">&Param2&</span> of ATK as AoE Ignis Minion DMG every 0.5s.",
+          "icons": [
+            "15801_Potential_28_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.1%",
+                "3.3%",
+                "4.5%",
+                "5.8%",
+                "7%",
+                "8.3%",
+                "9.5%",
+                "10.7%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10.6%",
+                "17%",
+                "23.4%",
+                "29.7%",
+                "36.1%",
+                "42.5%",
+                "48.8%",
+                "55.2%",
+                "61.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515829,
+          "name": "Heart's Edict",
+          "descShort": "Increases the combat duration and &Param1& of Colonel Walnut and General Curly.",
+          "descLong": "Increases the combat duration of Colonel Walnut and General Curly by 50% and their &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "15801_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "32%",
+                "52%",
+                "71%",
+                "90%",
+                "109%",
+                "129%",
+                "148%",
+                "167%",
+                "187%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515830,
+          "name": "Heart's Trumpet",
+          "descShort": "Increases the &Param1& of Colonel Walnut and General Curly. Each time they deal DMG, increases their &Param3&; each time they land a Crit Hit, increases the &Param7& of Ignis Trekkers in the squad.",
+          "descLong": "Increases the &Param1& of Colonel Walnut and General Curly by &Param2&.\nEach time they deal DMG, increases their &Param3& by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s, up to &Param6& stacks.\nEach time they land a Crit Hit, increases the &Param7& of Ignis Trekkers in the squad by <span style=\"color:#ec6d21\">&Param8&</span> for &Param9&s, up to &Param10& stacks.",
+          "icons": [
+            "15801_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK SPD"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "35%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.3%",
+                "4.6%",
+                "4.9%"
+              ]
+            },
+            {
+              "idx": 9,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515831,
+          "name": "Celebration Resumed",
+          "descShort": "Each time Snowish Laru enters combat, increases the main Ignis Trekker's &Param1&.",
+          "descLong": "Each time Snowish Laru enters combat, increases the main Ignis Trekker's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "45%",
+                "72%",
+                "99%",
+                "126%",
+                "152%",
+                "179%",
+                "193%",
+                "206%",
+                "220%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515832,
+          "name": "Ammo Rain",
+          "descShort": "While Snowish Laru transforms into Dame Laru, increases her &Param1&. Her shots and skill can inflict <span style=\"color:#6A90EB\">Ignis Mark: Sacred Flame</span>.",
+          "descLong": "While Snowish Laru transforms into Dame Laru, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. Her shots and &Param3& can inflict <span style=\"color:#6A90EB\">Ignis Mark: Sacred Flame</span>.",
+          "icons": [
+            "Common_Potential_Fire_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "67%",
+                "107%",
+                "147%",
+                "187%",
+                "227%",
+                "267%",
+                "277%",
+                "287%",
+                "297%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Candy Barrage"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515833,
+          "name": "Fairy Tale Rule",
+          "descShort": "When the squad contains only Ignis Trekkers, Gift Box Shell increases the target's &Param1& upon dealing DMG to the target.",
+          "descLong": "When the squad contains only Ignis characters, Gift Box Shell increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s upon dealing DMG to the target.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ignis DMG Taken",
+                "Ignis DMG Taken",
+                "Ignis DMG Taken",
+                "Ignis DMG Taken",
+                "Ignis DMG Taken",
+                "Ignis DMG Taken",
+                "Ignis DMG Taken",
+                "Ignis DMG Taken",
+                "Ignis DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515841,
+          "name": "Silver Bullet",
+          "descShort": "While transformed into Dame Laru, casting &Param1& increases her &Param2&.",
+          "descLong": "While transformed into Dame Laru, casting &Param1& increases her &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Candy Barrage"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "61%",
+                "98%",
+                "134%",
+                "171%",
+                "207%",
+                "244%",
+                "256%",
+                "268%",
+                "281%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515842,
+          "name": "Untouched King",
+          "descShort": "While transformed into Dame Laru, increases her &Param2& each time &Param1& deals DMG.",
+          "descLong": "While transformed into Dame Laru, increases her &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s each time &Param1& deals DMG, up to &Param5& stacks.\nThis effect is removed if &Param1& is cast.",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Candy Barrage"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "13%",
+                "17%",
+                "20%",
+                "23%",
+                "27%",
+                "29%",
+                "31%",
+                "33%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515843,
+          "name": "Toy Army",
+          "descShort": "While transformed into Dame Laru, increases the &Param1& of Ignis Trekkers in the squad over time.",
+          "descLong": "While transformed into Dame Laru, increases the &Param1& of Ignis Trekkers in the squad by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.\nThis effect is removed when the transformation expires.",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14%",
+                "19%",
+                "24%",
+                "30%",
+                "35%",
+                "36%",
+                "38%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "-1"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "discs": [
@@ -36569,7 +38126,7 @@
       "skills": [
         {
           "name": "Witch's Swing",
-          "desc": "Increases the squad's Umbra DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Umbra Trekker casts a Support Skill, increases the effect by an additional <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "desc": "Increases the squad's Umbra DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Umbra Trekker casts a Support Skill, increases this effect by an additional <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
           "params": [
             {
               "idx": 1,
@@ -41269,7 +42826,7 @@
         },
         {
           "name": "Azure Horizon",
-          "desc": "Increases Lux Trekkers' Skill DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Lux Trekker casts a skill, increases this effect by an additional <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "desc": "Increases Lux squadmates' Skill DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Lux Trekker casts a skill, increases this effect by an additional <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
           "params": [
             {
               "idx": 1,
@@ -41581,6 +43138,339 @@
         }
       ],
       "bg": 4040
+    },
+    {
+      "id": 214041,
+      "name": "A Gift for the Journey",
+      "desc": "A sleigh full of gifts\nguided by the messenger\nheading toward the sunrise and its destination\nexcept—\nshouldn't reindeer be pulling it?!",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "A Gift for the Journey",
+          "desc": "Increases the ATK of Ignis Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen an Ignis Support Trekker's minion is present, increases Minion DMG dealt by Ignis Trekkers' minions in the squad by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "9.6%",
+                "11.2%",
+                "12.8%",
+                "14.4%",
+                "16%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Salutes Boomed",
+          "desc": "Increases the Main Ignis Trekker's Skill DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nIncreases Support Ignis Trekkers' Minion DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Holy Night Revelry",
+          "desc": "When at least two Ignis Trekker's minions are present, increases the Ultimate DMG of Ignis Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "12%",
+                "24%",
+                "36%",
+                "48%",
+                "60%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4041
+    },
+    {
+      "id": 214048,
+      "name": "Snowy Night Surprise",
+      "desc": "The winter wind carries prayers from afar\nThe messenger arrives with blessings and gifts\nStepping into view as the midnight bells ring\nThis Snowish Festival gift is for you, who never lost your childish wonder",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Snowy Night Surprise",
+          "desc": "Increases Ignis DMG of the squad by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Ignis Trekker deals Skill DMG, inflicts <span style=\"color:#6A90EB\">Ode</span>, lasting &Param2&s.\nOde can be converted into Hymn.\nHymn: Increase Ignis DMG taken by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s, up to &Param5& stacks.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "24%",
+                "28%",
+                "32%",
+                "36%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%",
+                "1.8%",
+                "2%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "18",
+                "18",
+                "18",
+                "18",
+                "18",
+                "18"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Kingdom of Fires",
+          "desc": "Hymn grants extra effects: Increases the Ignis Skill DMG Taken by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen <span style=\"color:#6A90EB\">Ode</span> is converted in to Hymn, increases the Skill DMG of Ignis Trekkers in the squad by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "0.5%",
+                "0.6%",
+                "0.7%",
+                "0.8%",
+                "0.9%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Crispy Crunch",
+          "desc": "<span style=\"color:#6A90EB\">Ode</span> grants extra effects: Reduces enemy ATK by <span style=\"color:#ec6d21\">&Param1&</span>.\nIgnis Trekkers in the squad deal increased Ultimate DMG to targets inflicted with Ode by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "40%",
+                "60%",
+                "80%",
+                "100%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4048
     }
   ]
 }

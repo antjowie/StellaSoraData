@@ -6464,7 +6464,7 @@
           "id": 511308,
           "name": "骤雨初歇",
           "descShort": "「二式」消灭<span style=\"color:#6A90EB\">冰冻</span>目标时，可再次施放，同时提升&Param1&。",
-          "descLong": "「二式」消灭<span style=\"color:#6A90EB\">冰冻</span>目标时，可再次施放，同时&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。\n单次技能期间，最多再次施放<span style=\"color:#ec6d21\">&Param5&</span>次。",
+          "descLong": "「二式」消灭<span style=\"color:#6A90EB\">冰冻</span>目标时，可再次施放，同时&Param1&提升&Param2&，持续&Param3&秒，可叠加&Param4&层。\n单次技能期间，最多再次施放<span style=\"color:#ec6d21\">&Param5&</span>次。",
           "icons": [
             "11301_Potential_02_A",
             "Potential_Triangle_B",
@@ -8980,7 +8980,7 @@
           "id": 511711,
           "name": "漏电防护",
           "descShort": "绝招可触发<span style=\"color:#6A90EB\">光系印记：光明</span>，触发时，提升&Param6&。",
-          "descLong": "绝招「&Param1&」可触发<span style=\"color:#6A90EB\">光系印记：光明</span>，造成攻击力<span style=\"color:#ec6d21\">&Param2&</span>的光系印记伤害。\n触发时，&Param6&提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒，可叠加&Param5&层。",
+          "descLong": "绝招「&Param1&」可触发<span style=\"color:#6A90EB\">光系印记：光明</span>，造成攻击力&Param2&的光系印记伤害。\n触发时，&Param6&提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒，可叠加&Param5&层。",
           "icons": [
             "Common_Potential_Light_1_A",
             "Potential_Diamond_B",
@@ -10877,7 +10877,7 @@
           "id": 511841,
           "name": "暗夜镰影",
           "descShort": "提升绝招的&Param3&。横斩一刀命中目标越多，伤害越高。",
-          "descLong": "绝招「寂灭收割」横斩一刀每命中1名目标，本次伤害提升<span style=\"color:#ec6d21\">&Param2&</span>，可叠加<span style=\"color:#ec6d21\">3</span>层。\n绝招「寂灭收割」&Param3&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "descLong": "绝招「寂灭收割」横斩一刀每命中1名目标，本次伤害提升<span style=\"color:#ec6d21\">&Param2&</span>，可叠加3层。\n绝招「寂灭收割」&Param3&提升&Param1&。",
           "icons": [
             "11801_Potential_41_A",
             "Potential_Diamond_B",
@@ -11080,7 +11080,7 @@
           "id": 511903,
           "name": "飞旋之刃",
           "descShort": "向日葵飞镖变为多段伤害。",
-          "descLong": "向日葵飞镖变为多段伤害，每<span style=\"color:#0abec5\">0.15</span>秒造成1次伤害。",
+          "descLong": "主控技「花风舞」发射的向日葵飞镖变为多段伤害，每<span style=\"color:#0abec5\">0.15</span>秒造成1次伤害。",
           "icons": [
             "11901_Potential_03_A"
           ],
@@ -11093,7 +11093,7 @@
           "id": 511904,
           "name": "满盈之舞",
           "descShort": "向日葵飞镖的伤害和伤害范围提升。",
-          "descLong": "向日葵飞镖的伤害范围提升<span style=\"color:#0abec5\">50%</span>，&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>。",
+          "descLong": "主控技「花风舞」发射的向日葵飞镖的伤害范围提升<span style=\"color:#0abec5\">50%</span>，&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>。",
           "icons": [
             "11901_Potential_04_A"
           ],
@@ -11119,7 +11119,7 @@
           "id": 511905,
           "name": "疾风怒涛",
           "descShort": "每次发射向日葵飞镖时，提升&Param5&和&Param6&。",
-          "descLong": "每次发射向日葵飞镖时，&Param5&提升<span style=\"color:#ec6d21\">&Param1&</span>，&Param6&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "descLong": "主控技「花风舞」每次发射向日葵飞镖时，&Param5&提升<span style=\"color:#ec6d21\">&Param1&</span>，&Param6&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
           "icons": [
             "11901_Potential_03_A",
             "Potential_Diamond_B",
@@ -11325,7 +11325,7 @@
           "id": 511908,
           "name": "遥远祈福",
           "descShort": "向日葵飞镖距离花原越远，造成伤害越高。",
-          "descLong": "向日葵飞镖距离花原越远，造成伤害越高，至少提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "descLong": "主控技「花风舞」发射的向日葵飞镖距离花原越远，造成伤害越高，至少提升<span style=\"color:#ec6d21\">&Param1&</span>。",
           "icons": [
             "11901_Potential_03_A",
             "Potential_Diamond_B",
@@ -20973,7 +20973,7 @@
         {
           "id": 513405,
           "name": "炎能烙印",
-          "descShort": "「爆炎拳」和「熔炎破」造成的普攻伤害提升，并且可触发<span style=\"color:#6A90EB\">火焰印记</span>。",
+          "descShort": "「爆炎拳」和「熔炎破」造成的&Param2&提升，并且可触发<span style=\"color:#6A90EB\">火焰印记</span>。",
           "descLong": "「爆炎拳」和「熔炎破」造成的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>，并且可触发<span style=\"color:#6A90EB\">火焰印记</span>。",
           "icons": [
             "13401_Potential_01_A",
@@ -22005,8 +22005,8 @@
         {
           "id": 513441,
           "name": "炽热之心",
-          "descShort": "绝招每次触发<span style=\"color:#6A90EB\">火焰印记</span>，提升本次绝招的伤害。",
-          "descLong": "绝招「&Param1&」触发<span style=\"color:#6A90EB\">火焰印记</span>时，本次绝招的伤害提升<span style=\"color:#ec6d21\">&Param2&</span>，可叠加&Param4&层。",
+          "descShort": "绝招每次触发<span style=\"color:#6A90EB\">火焰印记</span>时，提升本次绝招期间冬香的&Param5&。",
+          "descLong": "绝招「&Param1&」触发<span style=\"color:#6A90EB\">火焰印记</span>时，本次绝招期间冬香的&Param5&提升<span style=\"color:#ec6d21\">&Param2&</span>，可叠加&Param4&层。",
           "icons": [
             "13401_Potential_41_A",
             "Potential_Diamond_B",
@@ -22016,6 +22016,20 @@
           "build": 3,
           "type": 3,
           "params": [
+            {
+              "idx": 5,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
             {
               "idx": 1,
               "values": [
@@ -24026,7 +24040,7 @@
           "id": 514126,
           "name": "墨符·寻踪",
           "descShort": "队友施放主控技时，赤霞的仆从追加额外伤害。",
-          "descLong": "队友施放主控技时，「赤龙」对目标额外造成<span style=\"color:#ec6d21\">&Param1&</span>的火系仆从伤害，「寅虎」对目标额外造成<span style=\"color:#ec6d21\">&Param2&x5</span>的范围火系仆从伤害。",
+          "descLong": "队友施放主控技时，「赤龙」对目标额外造成攻击力<span style=\"color:#ec6d21\">&Param1&</span>的火系仆从伤害，「寅虎」对目标额外造成攻击力<span style=\"color:#ec6d21\">&Param2&x5</span>的范围火系仆从伤害。",
           "icons": [
             "14101_Potential_21_A",
             "Potential_Triangle_B",
@@ -28895,11 +28909,7 @@
                 "132%",
                 "152%",
                 "171%",
-                "191%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "191%"
               ]
             }
           ]
@@ -29017,11 +29027,7 @@
                 "30.5%",
                 "35%",
                 "39.6%",
-                "44.2%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "44.2%"
               ]
             }
           ]
@@ -29235,11 +29241,7 @@
                 "465%",
                 "535%",
                 "605%",
-                "675%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "675%"
               ]
             }
           ]
@@ -33060,6 +33062,1555 @@
           ]
         }
       ]
+    },
+    {
+      "id": 158,
+      "name": "LaruXmas",
+      "class": 2,
+      "element": 2,
+      "rarity": 1,
+      "mainBuild1Name": "圣夜菈露主控流派1",
+      "mainBuild1Desc": "强化玩具大军，协同自身作战，适合对抗单体敌人的流派。",
+      "mainBuild2Name": "圣夜菈露主控流派2",
+      "mainBuild2Desc": "强化自身技能，发动多段范围攻击，适合对抗群体敌人的流派。",
+      "supportBuild1Name": "圣夜菈露援护流派1",
+      "supportBuild1Desc": "强化大炮，爆发式输出的援护流派。",
+      "supportBuild2Name": "圣夜菈露援护流派2",
+      "supportBuild2Desc": "强化玩具，持续输出的援护流派。",
+      "potentials": [
+        {
+          "id": 515801,
+          "name": "严整仪容",
+          "descShort": "「胡桃上校」和「卷毛大将」的协同技能加强。\n「发条女王」的射击加强。",
+          "descLong": "强化跟随圣夜菈露的玩具们。\n「胡桃上校」的协同技能造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围火系仆从伤害\n「卷毛大将」的协同技能造成攻击力<span style=\"color:#0abec5\">&Param2&x6</span>的范围火系仆从伤害\n「发条女王」的射击额外造成攻击力<span style=\"color:#0abec5\">&Param4&</span>的范围火系仆从伤害。",
+          "icons": [
+            "15801_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "246%",
+                "283%",
+                "320%",
+                "430%",
+                "465%",
+                "499%",
+                "568%",
+                "598%",
+                "627%",
+                "686%",
+                "736%",
+                "785%",
+                "834%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "100%",
+                "115%",
+                "130%",
+                "175%",
+                "189%",
+                "203%",
+                "231%",
+                "243%",
+                "255%",
+                "278%",
+                "298%",
+                "318%",
+                "338%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "90%",
+                "103%",
+                "117%",
+                "157%",
+                "170%",
+                "182%",
+                "208%",
+                "218%",
+                "229%",
+                "251%",
+                "269%",
+                "287%",
+                "305%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515802,
+          "name": "女王驾到",
+          "descShort": "施放主控技「&Param1&」或「&Param2&」时，召唤玩具「发条女王」，并为「胡桃上校」或「卷毛大将」增加「士气」。",
+          "descLong": "施放主控技「&Param1&」或「&Param2&」时，召唤玩具「发条女王」，持续<span style=\"color:#0abec5\">&Param3&</span>秒，并为「胡桃上校」或「卷毛大将」增加<span style=\"color:#0abec5\">2</span>层「士气」。\n「发条女王」射击目标，造成攻击力<span style=\"color:#0abec5\">&Param4&</span>的火系仆从伤害。\n「发条女王」每次射击可触发「胡桃上校」和「卷毛大将」的协同技能。\n「发条女王」每&Param5&秒可召唤1次。",
+          "icons": [
+            "15801_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "应鞭而动"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "糖果齐射"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "85%",
+                "97%",
+                "110%",
+                "148%",
+                "160%",
+                "172%",
+                "195%",
+                "205%",
+                "216%",
+                "236%",
+                "253%",
+                "270%",
+                "287%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515803,
+          "name": "疾风鞭挞",
+          "descShort": "主控技「&Param1&」强化为多段打击。",
+          "descLong": "主控技「&Param1&」强化为多段打击，造成攻击力<span style=\"color:#0abec5\">&Param2&x5</span>的范围火系技能伤害。",
+          "icons": [
+            "15801_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "应鞭而动"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "92%",
+                "106%",
+                "120%",
+                "161%",
+                "174%",
+                "187%",
+                "212%",
+                "224%",
+                "235%",
+                "257%",
+                "275%",
+                "293%",
+                "312%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515804,
+          "name": "鞭痕交织",
+          "descShort": "「胡桃上校」和「卷毛大将」造成伤害时附加「礼盒」标记。\n圣夜菈露的技能对附带「礼盒」标记的目标造成伤害时产生额外范围伤害。",
+          "descLong": "「胡桃上校」和「卷毛大将」造成伤害时附加「礼盒」标记，持续<span style=\"color:#0abec5\">&Param2&</span>秒。\n主控技「&Param3&」和「&Param4&」对附带「礼盒」标记的目标造成伤害时，造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围火系技能伤害。",
+          "icons": [
+            "15801_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "应鞭而动"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "糖果齐射"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "197%",
+                "227%",
+                "257%",
+                "345%",
+                "373%",
+                "401%",
+                "456%",
+                "479%",
+                "503%",
+                "551%",
+                "590%",
+                "629%",
+                "669%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515805,
+          "name": "火鞭烈焰",
+          "descShort": "「胡桃上校」和「卷毛大将」对附带<span style=\"color:#6A90EB\">火焰印记</span>的目标造成伤害时，有概率获得「士气」，并提升自身&Param2&。",
+          "descLong": "「胡桃上校」和「卷毛大将」对附带<span style=\"color:#6A90EB\">火焰印记</span>的目标造成伤害时，有&Param1&概率获得1层「士气」，并使自身&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒。",
+          "icons": [
+            "15801_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "30%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14%",
+                "23%",
+                "31%",
+                "40%",
+                "48%",
+                "57%",
+                "65%",
+                "74%",
+                "82%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515806,
+          "name": "连星刺刀",
+          "descShort": "「卷毛大将」每秒对自身附近的目标造成伤害。",
+          "descLong": "「卷毛大将」每秒对自身附近的目标造成攻击力<span style=\"color:#ec6d21\">&Param1&</span>的范围火系仆从伤害。",
+          "icons": [
+            "15801_Potential_06_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "90%",
+                "145%",
+                "199%",
+                "253%",
+                "307%",
+                "361%",
+                "416%",
+                "470%",
+                "524%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515807,
+          "name": "士气如虹",
+          "descShort": "每个在场的玩具，提升所有圣夜菈露仆从的&Param1&。",
+          "descLong": "每个在场的玩具，使所有圣夜菈露仆从的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，可叠加&Param3&层。",
+          "icons": [
+            "15801_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "火系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13%",
+                "21%",
+                "28%",
+                "36%",
+                "44%",
+                "51%",
+                "59%",
+                "67%",
+                "74%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515808,
+          "name": "集鞭一击",
+          "descShort": "主控技「&Param1&」或「&Param2&」暴击时，提升圣夜菈露&Param3&。",
+          "descLong": "主控技「&Param1&」或「&Param2&」暴击时，圣夜菈露&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持续&Param5&秒，可叠加&Param6&层。",
+          "icons": [
+            "15801_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "应鞭而动"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "糖果齐射"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.9%",
+                "3%",
+                "4.1%",
+                "5.2%",
+                "6.3%",
+                "7.4%",
+                "8.5%",
+                "9.6%",
+                "10.7%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515809,
+          "name": "火鞭漫舞",
+          "descShort": "主控技「&Param1&」的攻击范围扩大。\n提升「&Param1&」和「&Param2&」造成的&Param3&。",
+          "descLong": "主控技「&Param1&」的攻击范围扩大20%。\n「&Param1&」和「&Param2&」造成的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "15801_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "应鞭而动"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "糖果齐射"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "火系伤害"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "33%",
+                "52%",
+                "72%",
+                "91%",
+                "111%",
+                "130%",
+                "150%",
+                "169%",
+                "189%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515810,
+          "name": "捷报频传",
+          "descShort": "圣夜菈露的普攻暴击时，提升自身&Param1&。",
+          "descLong": "圣夜菈露的普攻暴击时，自身&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "15801_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6%",
+                "8%",
+                "11%",
+                "13%",
+                "15%",
+                "18%",
+                "20%",
+                "22%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515811,
+          "name": "礼炮合奏",
+          "descShort": "圣夜菈露造成伤害时，召唤一个雪橇炮台向目标射击。\n雪橇炮台暴击时，提升圣夜菈露和在场玩具的&Param5&。",
+          "descLong": "每间隔&Param3&秒，圣夜菈露造成伤害时，召唤一个雪橇炮台向目标射击，造成攻击力<span style=\"color:#ec6d21\">&Param2&</span>的火系仆从伤害，并爆炸造成攻击力<span style=\"color:#ec6d21\">&Param4&</span>的范围火系仆从伤害。\n当雪橇炮台造成的伤害暴击时，使圣夜菈露和在场所有玩具的&Param5&提升<span style=\"color:#ec6d21\">&Param6&</span>，持续&Param7&秒。",
+          "icons": [
+            "15801_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "火系伤害",
+                "火系伤害",
+                "火系伤害",
+                "火系伤害",
+                "火系伤害",
+                "火系伤害",
+                "火系伤害",
+                "火系伤害",
+                "火系伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "129%",
+                "206%",
+                "283%",
+                "361%",
+                "438%",
+                "515%",
+                "592%",
+                "670%",
+                "747%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "91%",
+                "146%",
+                "201%",
+                "255%",
+                "310%",
+                "365%",
+                "420%",
+                "474%",
+                "529%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "13%",
+                "20%",
+                "28%",
+                "35%",
+                "43%",
+                "50%",
+                "58%",
+                "65%",
+                "73%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515812,
+          "name": "爵士怒火",
+          "descShort": "圣夜菈露变身「菈露爵士」期间，枪械射击和技能「&Param1&」可触发<span style=\"color:#6A90EB\">火焰印记</span>。\n提升圣夜菈露的&Param3&。",
+          "descLong": "圣夜菈露变身「菈露爵士」期间，枪械射击和技能「&Param1&」可触发<span style=\"color:#6A90EB\">火焰印记</span>。\n圣夜菈露的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "Common_Potential_Fire_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "糖果齐射"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515813,
+          "name": "优雅腾挪",
+          "descShort": "提升圣夜菈露闪避次数和&Param2&。\n每间隔一段时间，圣夜菈露受到直接伤害时，免疫本次伤害。",
+          "descLong": "圣夜菈露的闪避次数增加1次，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。\n圣夜菈露受到直接伤害时，免疫本次伤害，此效果每&Param1&秒最多触发1次。",
+          "icons": [
+            "Common_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "防御",
+                "防御",
+                "防御",
+                "防御",
+                "防御",
+                "防御",
+                "防御",
+                "防御",
+                "防御"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "39",
+                "52",
+                "65",
+                "78",
+                "91",
+                "105",
+                "118",
+                "131",
+                "144"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "30"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515821,
+          "name": "火雨倾盆",
+          "descShort": "「礼盒炮弹」爆炸后，持续对范围内的目标造成伤害。",
+          "descLong": "「礼盒炮弹」爆炸后，每0.3秒对范围内的目标造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的火系技能伤害，持续2秒。",
+          "icons": [
+            "15801_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "37%",
+                "42%",
+                "48%",
+                "64%",
+                "69%",
+                "75%",
+                "85%",
+                "89%",
+                "94%",
+                "103%",
+                "106%",
+                "110%",
+                "114%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515822,
+          "name": "特别装药",
+          "descShort": "提升「礼盒炮弹」造成的技能伤害与伤害范围。\n当全队角色为火系，「礼盒炮弹」对目标造成伤害时，提升目标受到技能伤害。",
+          "descLong": "「礼盒炮弹」的伤害范围提升<span style=\"color:#0abec5\">50%</span>，造成技能伤害提升<span style=\"color:#0abec5\">&Param5&</span>。\n当全队角色为火系，「礼盒炮弹」对目标造成伤害时，会使目标受到技能伤害提升<span style=\"color:#0abec5\">&Param2&</span>，持续<span style=\"color:#0abec5\">&Param3&</span>秒，可叠加<span style=\"color:#0abec5\">&Param4&</span>层。",
+          "icons": [
+            "15801_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "13%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.3%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515823,
+          "name": "升变时刻",
+          "descShort": "使「胡桃上校」合体成「卷毛大将」。\n当全队角色为火系，「卷毛大将」的&Param3&随时间提升。",
+          "descLong": "当场上存在4个「胡桃上校」时，会合体成1个「卷毛大将」，打击目标造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的火系仆从伤害。\n「卷毛大将」持续作战<span style=\"color:#0abec5\">10</span>秒，最多存在1个。\n当全队角色为火系，「卷毛大将」的&Param3&每秒提升<span style=\"color:#0abec5\">&Param4&</span>，可叠加<span style=\"color:#0abec5\">&Param5&</span>层。",
+          "icons": [
+            "15801_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "仆从伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "53%",
+                "61%",
+                "69%",
+                "92%",
+                "100%",
+                "107%",
+                "122%",
+                "128%",
+                "135%",
+                "147%",
+                "153%",
+                "158%",
+                "163%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4.5%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515824,
+          "name": "授勋仪式",
+          "descShort": "「胡桃上校」和「卷毛大将」学会技能，自动施放攻击目标。\n「卷毛大将」的技能会提升自身&Param5&。",
+          "descLong": "「胡桃上校」和「卷毛大将」学会技能，冷却<span style=\"color:#0abec5\">4</span>秒自动施放。\n「胡桃上校」猛击地面，造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围火系仆从伤害。\n「卷毛大将」挥舞双刀，造成攻击力<span style=\"color:#0abec5\">&Param2&x6</span>的范围火系仆从伤害，并使自身&Param5&提升<span style=\"color:#0abec5\">&Param3&</span>，持续<span style=\"color:#0abec5\">&Param4&</span>秒。",
+          "icons": [
+            "15801_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "仆从暴击率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "19.6%",
+                "22.6%",
+                "25.5%",
+                "34.3%",
+                "37.1%",
+                "39.8%",
+                "45.3%",
+                "47.7%",
+                "50.1%",
+                "54.8%",
+                "56.7%",
+                "58.7%",
+                "60.7%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "43%",
+                "49%",
+                "55%",
+                "75%",
+                "81%",
+                "87%",
+                "98%",
+                "104%",
+                "109%",
+                "119%",
+                "123%",
+                "127%",
+                "132%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "50%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515825,
+          "name": "礼炮双响",
+          "descShort": "提升援护技「&Param1&」造成的&Param2&与射击次数。",
+          "descLong": "援护技「&Param1&」造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，且额外发射2次「礼盒炮弹」。",
+          "icons": [
+            "15801_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "先礼后兵"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "技能伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "29%",
+                "47%",
+                "65%",
+                "82%",
+                "100%",
+                "117%",
+                "135%",
+                "153%",
+                "170%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515826,
+          "name": "振奋炮击",
+          "descShort": "「礼盒炮弹」造成伤害时，提升圣夜菈露的&Param1&。",
+          "descLong": "「礼盒炮弹」造成伤害时，圣夜菈露的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "15801_Potential_22_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "15%",
+                "21%",
+                "26%",
+                "32%",
+                "37%",
+                "40%",
+                "43%",
+                "46%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515827,
+          "name": "初尝甜蜜",
+          "descShort": "提升「礼盒炮弹」对附带<span style=\"color:#6A90EB\">火焰印记</span>的目标造成的&Param2&。",
+          "descLong": "「礼盒炮弹」对附带<span style=\"color:#6A90EB\">火焰印记</span>的目标造成的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "icons": [
+            "15801_Potential_22_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "火系伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "9%",
+                "11%",
+                "13%",
+                "15%",
+                "17%",
+                "19%",
+                "21%",
+                "23%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515828,
+          "name": "红心祝祷",
+          "descShort": "「胡桃上校」和「卷毛大将」对附近的目标持续造成仆从伤害。",
+          "descLong": "「胡桃上校」每秒对附近的目标造成攻击力<span style=\"color:#ec6d21\">&Param1&</span>的范围火系仆从伤害。\n「卷毛大将」每0.5秒对附近的目标造成攻击力<span style=\"color:#ec6d21\">&Param2&</span>的范围火系仆从伤害。",
+          "icons": [
+            "15801_Potential_28_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.1%",
+                "3.3%",
+                "4.5%",
+                "5.8%",
+                "7%",
+                "8.3%",
+                "9.5%",
+                "10.7%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10.6%",
+                "17%",
+                "23.4%",
+                "29.7%",
+                "36.1%",
+                "42.5%",
+                "48.8%",
+                "55.2%",
+                "61.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515829,
+          "name": "红心赦令",
+          "descShort": "提升「胡桃上校」和「卷毛大将」的作战时间和&Param1&。",
+          "descLong": "「胡桃上校」和「卷毛大将」的作战时间提升50%，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "15801_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暴击伤害",
+                "暴击伤害",
+                "暴击伤害",
+                "暴击伤害",
+                "暴击伤害",
+                "暴击伤害",
+                "暴击伤害",
+                "暴击伤害",
+                "暴击伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "32%",
+                "52%",
+                "71%",
+                "90%",
+                "109%",
+                "129%",
+                "148%",
+                "167%",
+                "187%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515830,
+          "name": "红心号角",
+          "descShort": "提升「胡桃上校」和「卷毛大将」的&Param1&，每次造成伤害时，提升自身&Param3&，每次暴击时提升队伍中火系角色的&Param7&。",
+          "descLong": "「胡桃上校」和「卷毛大将」的&Param1&提升&Param2&。\n它们每次造成伤害时，自身&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持续&Param5&秒，可叠加&Param6&层。\n它们每次暴击时，队伍中火系角色的&Param7&提升<span style=\"color:#ec6d21\">&Param8&</span>，持续&Param9&秒，可叠加&Param10&层。",
+          "icons": [
+            "15801_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击速度"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害",
+                "仆从伤害"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "35%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.3%",
+                "4.6%",
+                "4.9%"
+              ]
+            },
+            {
+              "idx": 9,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515831,
+          "name": "庆典再启",
+          "descShort": "圣夜菈露每次上场时，提升火系主控角色的&Param1&。",
+          "descLong": "圣夜菈露每次上场时，火系主控角色的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "45%",
+                "72%",
+                "99%",
+                "126%",
+                "152%",
+                "179%",
+                "193%",
+                "206%",
+                "220%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515832,
+          "name": "火药纷飞",
+          "descShort": "变身为「菈露爵士」期间，提升自身&Param1&，且枪械射击和技能可附加<span style=\"color:#6A90EB\">火系印记：圣焰</span>。",
+          "descLong": "圣夜菈露变身为「菈露爵士」期间，自身&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，且枪械射击和技能「&Param3&」可附加<span style=\"color:#6A90EB\">火系印记：圣焰</span>。",
+          "icons": [
+            "Common_Potential_Fire_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "67%",
+                "107%",
+                "147%",
+                "187%",
+                "227%",
+                "267%",
+                "277%",
+                "287%",
+                "297%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "糖果齐射"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515833,
+          "name": "童话法则",
+          "descShort": "当队伍中所有角色均为火系，「礼盒炮弹」造成伤害时提升目标&Param1&。",
+          "descLong": "当队伍中所有角色均为火系，「礼盒炮弹」造成伤害时使目标&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到火系伤害",
+                "受到火系伤害",
+                "受到火系伤害",
+                "受到火系伤害",
+                "受到火系伤害",
+                "受到火系伤害",
+                "受到火系伤害",
+                "受到火系伤害",
+                "受到火系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515841,
+          "name": "驱邪银弹",
+          "descShort": "圣夜菈露变身为「菈露爵士」期间，施放技能「&Param1&」时，提升自身&Param2&。",
+          "descLong": "圣夜菈露变身为「菈露爵士」期间，施放技能「&Param1&」时，自身&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒。",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "糖果齐射"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "61%",
+                "98%",
+                "134%",
+                "171%",
+                "207%",
+                "244%",
+                "256%",
+                "268%",
+                "281%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515842,
+          "name": "王棋未动",
+          "descShort": "圣夜菈露变身为「菈露爵士」期间，技能「&Param1&」造成伤害时，提升自身&Param2&。",
+          "descLong": "圣夜菈露变身为「菈露爵士」期间，技能「&Param1&」造成伤害时，自身&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒，可叠加&Param5&层。\n该效果在施放技能「&Param1&」时清除。",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "糖果齐射"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "13%",
+                "17%",
+                "20%",
+                "23%",
+                "27%",
+                "29%",
+                "31%",
+                "33%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515843,
+          "name": "玩具军团",
+          "descShort": "圣夜菈露变身为「菈露爵士」期间，队伍中火系角色的&Param1&随时间提升。",
+          "descLong": "圣夜菈露变身为「菈露爵士」期间，每秒提升队伍中火系角色的&Param1&<span style=\"color:#ec6d21\">&Param2&</span>，可叠加&Param4&层。\n该效果在变身结束时清除。",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14%",
+                "19%",
+                "24%",
+                "30%",
+                "35%",
+                "36%",
+                "38%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "discs": [
@@ -36074,7 +37625,7 @@
       "skills": [
         {
           "name": "猫神降歌",
-          "desc": "全队火系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n火系主控角色释放技能时，队伍中火系角色攻击力提升&Param2&，持续&Param3&秒，同时火系主控角色获得「炎铠」：受到伤害降低&Param4&，持续&Param5&秒。",
+          "desc": "全队火系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n火系主控角色施放技能时，队伍中火系角色攻击力提升&Param2&，持续&Param3&秒，同时火系主控角色获得「炎铠」：受到伤害降低&Param4&，持续&Param5&秒。",
           "params": [
             {
               "idx": 1,
@@ -36575,7 +38126,7 @@
       "skills": [
         {
           "name": "魔女的秋千",
-          "desc": "队伍中暗系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意暗系角色释放援护技时，该效果额外提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "desc": "队伍中暗系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意暗系角色施放援护技时，该效果额外提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
           "params": [
             {
               "idx": 1,
@@ -36615,7 +38166,7 @@
         },
         {
           "name": "鬼魅香氛",
-          "desc": "任意暗系角色释放援护技时，队伍中暗系角色攻击力提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒。\n队伍中暗系角色每召唤1个仆从，队伍中在场的暗系仆从伤害提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒，可叠&Param5&层。",
+          "desc": "任意暗系角色施放援护技时，队伍中暗系角色攻击力提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒。\n队伍中暗系角色每召唤1个仆从，队伍中在场的暗系仆从伤害提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒，可叠&Param5&层。",
           "params": [
             {
               "idx": 1,
@@ -37604,7 +39155,7 @@
       "skills": [
         {
           "name": "远航蓝图",
-          "desc": "队伍中火系角色攻击力提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意火系角色释放技能时，火系主控角色获得最大生命&Param2&的护盾，持续&Param3&秒，该效果每&Param4&秒最多触发1次。",
+          "desc": "队伍中火系角色攻击力提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意火系角色施放技能时，火系主控角色获得最大生命&Param2&的护盾，持续&Param3&秒，该效果每&Param4&秒最多触发1次。",
           "params": [
             {
               "idx": 1,
@@ -37870,7 +39421,7 @@
         },
         {
           "name": "营养多汁又健康",
-          "desc": "任意地系角色释放绝招时，如果主控角色拥有护盾，队伍中地系角色的技能伤害提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒。",
+          "desc": "任意地系角色施放绝招时，如果主控角色拥有护盾，队伍中地系角色的技能伤害提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒。",
           "params": [
             {
               "idx": 1,
@@ -39740,7 +41291,7 @@
         },
         {
           "name": "龙腾虎跃",
-          "desc": "任意火系角色释放援护技时，火系主控角色和仆从攻击力提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒。",
+          "desc": "任意火系角色施放援护技时，火系主控角色和仆从攻击力提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒。",
           "params": [
             {
               "idx": 1,
@@ -40172,7 +41723,7 @@
       "skills": [
         {
           "name": "刀与斧的铮鸣",
-          "desc": "全队水系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n水系主控角色释放技能时，队伍中水系角色技能伤害提升&Param2&，持续&Param3&秒，同时水系主控角色获得「碧佑」：受到伤害降低&Param4&，持续&Param5&秒。",
+          "desc": "全队水系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n水系主控角色施放技能时，队伍中水系角色技能伤害提升&Param2&，持续&Param3&秒，同时水系主控角色获得「碧佑」：受到伤害降低&Param4&，持续&Param5&秒。",
           "params": [
             {
               "idx": 1,
@@ -41275,7 +42826,7 @@
         },
         {
           "name": "一望无际的晴空",
-          "desc": "队伍中光系角色技能伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意光系角色释放技能时，该效果额外提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "desc": "队伍中光系角色技能伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意光系角色施放技能时，该效果额外提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
           "params": [
             {
               "idx": 1,
@@ -41343,7 +42894,7 @@
         },
         {
           "name": "漫无止境的阳光",
-          "desc": "任意光系角色造成技能伤害时，光系主控角色获得1层「衍射」，可叠加&Param1&层。\n光系主控角色释放技能时，队伍中光系角色提升基于「衍射」层数*<span style=\"color:#ec6d21\">&Param2&</span>的技能伤害，持续&Param3&秒，同时清空「衍射」层数。",
+          "desc": "任意光系角色造成技能伤害时，光系主控角色获得1层「衍射」，可叠加&Param1&层。\n光系主控角色施放技能时，队伍中光系角色提升基于「衍射」层数*<span style=\"color:#ec6d21\">&Param2&</span>的技能伤害，持续&Param3&秒，同时清空「衍射」层数。",
           "params": [
             {
               "idx": 1,
@@ -41587,6 +43138,339 @@
         }
       ],
       "bg": 4040
+    },
+    {
+      "id": 214041,
+      "name": "启程的礼物",
+      "desc": "满载礼物的雪橇\n在使者的指挥下\n向着朝阳和目的地前行\n只是——\n拉动雪橇的不应该是驯鹿吗？！",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "启程的礼物",
+          "desc": "队伍中火系角色攻击力提升<span style=\"color:#ec6d21\">&Param1&</span>。\n火系援护角色的仆从在场时，队伍中火系角色召唤的仆从造成的仆从伤害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "9.6%",
+                "11.2%",
+                "12.8%",
+                "14.4%",
+                "16%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "礼炮齐鸣",
+          "desc": "火系主控角色的技能伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n火系援护角色的仆从伤害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "圣夜舞乐",
+          "desc": "至少2只火系角色的仆从在场时，队伍中火系角色造成的绝招伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "12%",
+                "24%",
+                "36%",
+                "48%",
+                "60%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4041
+    },
+    {
+      "id": 214048,
+      "name": "雪夜惊喜",
+      "desc": "雪夜的风吹来远方的祷告\n使者携着祝福和礼物\n在零点的钟鸣声里登场\n这份雪愿节的礼物，送给童心未泯的你",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "雪夜惊喜",
+          "desc": "全队火系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意火系角色造成技能伤害时，为目标附加<span style=\"color:#6A90EB\">「颂歌」</span>，持续&Param2&秒。\n「颂歌」可被转化为「赞美诗」。\n「赞美诗」：受到火系伤害提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒，可叠&Param5&层。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "24%",
+                "28%",
+                "32%",
+                "36%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%",
+                "1.8%",
+                "2%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "18",
+                "18",
+                "18",
+                "18",
+                "18",
+                "18"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "薯条国度",
+          "desc": "「赞美诗」获得额外效果：受到火系技能伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n<span style=\"color:#6A90EB\">「颂歌」</span>被转化为「赞美诗」时，队伍中火系角色技能伤害提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠&Param4&层。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "0.5%",
+                "0.6%",
+                "0.7%",
+                "0.8%",
+                "0.9%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "香脆欢愉",
+          "desc": "<span style=\"color:#6A90EB\">「颂歌」</span>获得额外效果：降低敌人攻击力<span style=\"color:#ec6d21\">&Param1&</span>。\n队伍中火系角色对附带「颂歌」的目标造成的绝招伤害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "40%",
+                "60%",
+                "80%",
+                "100%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4048
     }
   ]
 }

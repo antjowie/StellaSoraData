@@ -6464,7 +6464,7 @@
           "id": 511308,
           "name": "소나기 직후",
           "descShort": "「2식」이 <span style=\"color:#6A90EB\">빙결</span> 상태의 목표를 처치하면 다시 시전할 수 있으며, &Param1&가 증가한다.",
-          "descLong": "「2식」이 <span style=\"color:#6A90EB\">빙결</span> 상태의 목표를 처치하면 다시 시전할 수 있으며, &Param1&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다. \n스킬 1회 지속 시간 동안 최대 <span style=\"color:#ec6d21\">&Param5&</span>회 다시 시전한다.",
+          "descLong": "「2식」이 <span style=\"color:#6A90EB\">빙결</span> 상태의 목표를 처치하면 다시 시전할 수 있으며, &Param1&가 &Param2& 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다. \n스킬 1회 지속 기간 중 최대 <span style=\"color:#ec6d21\">&Param5&</span>회 다시 시전한다.",
           "icons": [
             "11301_Potential_02_A",
             "Potential_Triangle_B",
@@ -8980,7 +8980,7 @@
           "id": 511711,
           "name": "누전 방호",
           "descShort": "필살기가 <span style=\"color:#6A90EB\">빛 속성 표식: 광명</span>을 발동할 수 있다. 발동 시 &Param6&이 증가한다.",
-          "descLong": "필살기 「&Param1&」가 <span style=\"color:#6A90EB\">빛 속성 표식: 광명</span>을 발동하여, 공격력 <span style=\"color:#ec6d21\">&Param2&</span>의 빛 속성 표식 피해를 입힐 수 있다. \n발동 시, &Param6&이 <span style=\"color:#ec6d21\">&Param3&</span> 증가한다. &Param4&초간 지속되며, 최대 &Param5&스택 중첩된다.",
+          "descLong": "필살기 「&Param1&」가 <span style=\"color:#6A90EB\">빛 속성 표식: 광명</span>을 발동하여, 공격력 &Param2&의 빛 속성 표식 피해를 입힐 수 있다. \n발동 시, &Param6&이(가) <span style=\"color:#ec6d21\">&Param3&</span> 증가한다. &Param4&초 동안 지속되며, 최대 &Param5&스택 중첩된다.",
           "icons": [
             "Common_Potential_Light_1_A",
             "Potential_Diamond_B",
@@ -10877,7 +10877,7 @@
           "id": 511841,
           "name": "어둠의 낫 그림자",
           "descShort": "필살기의 &Param3&이 증가한다. 가로 베기가 목표를 명중하는 횟수가 많아지면 피해가 증가한다.",
-          "descLong": "필살기 「적멸의 수확」 가로 베기가 목표를 1명 명중할 때마다 이번 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 최대 <span style=\"color:#ec6d21\">3</span>스택 중첩된다. \n필살기 「적멸의 수확」 &Param3&이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "descLong": "필살기 「적멸의 수확」 가로 베기가 목표를 1명 명중할 때마다 이번 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 최대 3스택 중첩된다. \n필살기 「적멸의 수확」 &Param3& &Param1& 증가한다.",
           "icons": [
             "11801_Potential_41_A",
             "Potential_Diamond_B",
@@ -11080,7 +11080,7 @@
           "id": 511903,
           "name": "회전 칼날",
           "descShort": "해바라기 표창이 다중 피해로 변경된다.",
-          "descLong": "해바라기 표창이 다중 피해로 변경되어, <span style=\"color:#0abec5\">0.15</span>초마다 피해를 1회 입힌다.",
+          "descLong": "메인 스킬 「꽃바람의 춤」이 발사하는 해바라기 표창이 다중 피해로 변경되어, <span style=\"color:#0abec5\">0.15</span>초마다 피해를 1회 입힌다.",
           "icons": [
             "11901_Potential_03_A"
           ],
@@ -11093,7 +11093,7 @@
           "id": 511904,
           "name": "풍요의 춤사위",
           "descShort": "해바라기 표창의 피해와 피해 범위가 증가한다.",
-          "descLong": "해바라기 표창의 피해 범위가 <span style=\"color:#0abec5\">50%</span> 증가하고, &Param1&가 <span style=\"color:#0abec5\">&Param2&</span> 증가한다.",
+          "descLong": "메인 스킬 「꽃바람의 춤」이 발사하는 해바라기 표창의 피해 범위가 <span style=\"color:#0abec5\">50%</span> 증가하고, &Param1&가 <span style=\"color:#0abec5\">&Param2&</span> 증가한다.",
           "icons": [
             "11901_Potential_04_A"
           ],
@@ -11119,7 +11119,7 @@
           "id": 511905,
           "name": "질풍노도",
           "descShort": "해바라기 표창을 발사할 때마다 &Param5&와 &Param6&가 증가한다.",
-          "descLong": "해바라기 표창을 발사할 때마다 &Param5&가 <span style=\"color:#ec6d21\">&Param1&</span> 증가하고, &Param6&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "descLong": "메인 스킬 「꽃바람의 춤」으로 해바라기 표창을 발사할 때마다 &Param5&가 <span style=\"color:#ec6d21\">&Param1&</span> 증가하고, &Param6&가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
           "icons": [
             "11901_Potential_03_A",
             "Potential_Diamond_B",
@@ -11325,7 +11325,7 @@
           "id": 511908,
           "name": "먼 곳에서의 기도",
           "descShort": "해바라기 표창과 나노하의 거리가 멀수록 입히는 피해가 증가한다.",
-          "descLong": "해바라기 표창과 나노하의 거리가 멀수록 입히는 피해가 증가한다. 최소 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "descLong": "메인 스킬 「꽃바람의 춤」이 발사하는 해바라기 표창과 나노하의 거리가 멀수록 입히는 피해가 증가한다. 최소 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
           "icons": [
             "11901_Potential_03_A",
             "Potential_Diamond_B",
@@ -20973,7 +20973,7 @@
         {
           "id": 513405,
           "name": "불꽃의 낙인",
-          "descShort": "「불꽃 펀치」와 「용암 불꽃」이 입히는 일반 공격 피해가 증가한다. <span style=\"color:#6A90EB\">화염 표식</span>을 발동할 수 있다.",
+          "descShort": "「불꽃 펀치」와 「용암 불꽃」이 입히는 &Param2& 증가한다. <span style=\"color:#6A90EB\">화염 표식</span>을 발동할 수 있다.",
           "descLong": "「불꽃 펀치」와 「용암 불꽃」이 입히는 &Param2&가 <span style=\"color:#ec6d21\">&Param1&</span>증가한다. <span style=\"color:#6A90EB\">화염 표식</span>을 발동할 수 있다.",
           "icons": [
             "13401_Potential_01_A",
@@ -22005,8 +22005,8 @@
         {
           "id": 513441,
           "name": "불타는 마음",
-          "descShort": "필살기가 <span style=\"color:#6A90EB\">화염 표식</span>을 발동할 때마다 이번 필살기의 피해가 증가한다.",
-          "descLong": "필살기 「&Param1&」가 <span style=\"color:#6A90EB\">화염 표식</span>을 발동하면 이번 필살기의 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 최대 &Param4&스택 중첩된다.",
+          "descShort": "필살기가 <span style=\"color:#6A90EB\">화염 표식</span>을 발동할 때마다 이번 필살기 기간 중 후유카의 &Param5& 증가한다.",
+          "descLong": "필살기 &Param1& <span style=\"color:#6A90EB\">화염 표식</span>을 발동하면, 이번 필살기 기간 중 후유카의 &Param5& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 최대 &Param4&스택 중첩된다.",
           "icons": [
             "13401_Potential_41_A",
             "Potential_Diamond_B",
@@ -22016,6 +22016,20 @@
           "build": 3,
           "type": 3,
           "params": [
+            {
+              "idx": 5,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
             {
               "idx": 1,
               "values": [
@@ -24026,7 +24040,7 @@
           "id": 514126,
           "name": "묵부·추적",
           "descShort": "팀원이 메인 스킬 시전 시, 치시아의 소환물이 추가 피해를 입힌다.",
-          "descLong": "팀원이 메인 스킬 시전 시 「붉은 용」이 목표에게 <span style=\"color:#ec6d21\">&Param1&</span>의 불 속성 소환물 피해를 추가로 입히고, 「인호」가 목표에게 <span style=\"color:#ec6d21\">&Param2&x5</span>의 불 속성 범위 소환물 피해를 추가로 입힌다.",
+          "descLong": "팀원이 메인 스킬 시전 시 「붉은 용」이 목표에게 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 불 속성 소환물 피해를 추가로 입히고, 「인호」가 목표에게 공격력 <span style=\"color:#ec6d21\">&Param2&x5</span>의 불 속성 범위 소환물 피해를 추가로 입힌다.",
           "icons": [
             "14101_Potential_21_A",
             "Potential_Triangle_B",
@@ -28895,11 +28909,7 @@
                 "132%",
                 "152%",
                 "171%",
-                "191%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "191%"
               ]
             }
           ]
@@ -29017,11 +29027,7 @@
                 "30.5%",
                 "35%",
                 "39.6%",
-                "44.2%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "44.2%"
               ]
             }
           ]
@@ -29235,11 +29241,7 @@
                 "465%",
                 "535%",
                 "605%",
-                "675%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "675%"
               ]
             }
           ]
@@ -33060,6 +33062,1555 @@
           ]
         }
       ]
+    },
+    {
+      "id": 158,
+      "name": "LaruXmas",
+      "class": 2,
+      "element": 2,
+      "rarity": 1,
+      "mainBuild1Name": "라루(이브) 메인 유파 1",
+      "mainBuild1Desc": "장난감 대군을 강화하여 자신과 협공을 펼치도록 하는, 단일 적을 상대하기에 적합한 유파",
+      "mainBuild2Name": "라루(이브) 메인 유파 2",
+      "mainBuild2Desc": "자신의 스킬을 강화하고 다중의 범위 공격을 발동하는, 다수의 적을 상대하기에 적합한 유파",
+      "supportBuild1Name": "라루(이브) 지원 유파 1",
+      "supportBuild1Desc": "대포를 강화하여 폭발적인 피해를 입히는 지원 유파",
+      "supportBuild2Name": "라루(이브) 지원 유파 2",
+      "supportBuild2Desc": "장난감을 강화하여 지속적인 피해를 입히는 지원 유파",
+      "potentials": [
+        {
+          "id": 515801,
+          "name": "위엄 있는 자태",
+          "descShort": "「호두 대령」과 「곱슬 장군」의 협공 스킬이 강화된다. \n「태엽 여왕」의 사격이 강화된다.",
+          "descLong": "라루(이브)를 따르는 장난감들이 강화된다. \n「호두 대령」의 협공 스킬이 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 불 속성 범위 소환물 피해를 입힌다. \n「곱슬 장군」의 협공 스킬이 공격력 <span style=\"color:#0abec5\">&Param2&x6</span>의 불 속성 범위 소환물 피해를 입힌다. \n「태엽 여왕」의 추가 사격이 공격력 <span style=\"color:#0abec5\">&Param4&</span>의 불 속성 범위 소환물 피해를 입힌다.",
+          "icons": [
+            "15801_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "246%",
+                "283%",
+                "320%",
+                "430%",
+                "465%",
+                "499%",
+                "568%",
+                "598%",
+                "627%",
+                "686%",
+                "736%",
+                "785%",
+                "834%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "100%",
+                "115%",
+                "130%",
+                "175%",
+                "189%",
+                "203%",
+                "231%",
+                "243%",
+                "255%",
+                "278%",
+                "298%",
+                "318%",
+                "338%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "90%",
+                "103%",
+                "117%",
+                "157%",
+                "170%",
+                "182%",
+                "208%",
+                "218%",
+                "229%",
+                "251%",
+                "269%",
+                "287%",
+                "305%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515802,
+          "name": "여왕 강림",
+          "descShort": "메인 스킬 「&Param1&」 또는 「&Param2&」 시전 시, 장난감 「태엽 여왕」을 소환하고, 「호두 대령」 또는 「곱슬 장군」의 「사기」가 증가한다.",
+          "descLong": "메인 스킬 「&Param1&」 또는 「&Param2&」 시전 시, 장난감 「태엽 여왕」을 소환하여 <span style=\"color:#0abec5\">&Param3&</span>초간 지속된다. 또한 「호두 대령」 또는 「곱슬 장군」의 「사기」가 <span style=\"color:#0abec5\">2</span>스택 증가한다. \n「태엽 여왕」이 목표를 사격해 공격력 <span style=\"color:#0abec5\">&Param4&</span>의 불 속성 소환물 피해를 입힌다. \n「태엽 여왕」이 사격할 때마다 「호두 대령」 와 「곱슬 장군」의 협공 스킬을 발동한다. \n「태엽 여왕」은 &Param5&초마다 최대 1회 소환한다.",
+          "icons": [
+            "15801_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "채찍의 인도"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "사탕 일제 사격"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "85%",
+                "97%",
+                "110%",
+                "148%",
+                "160%",
+                "172%",
+                "195%",
+                "205%",
+                "216%",
+                "236%",
+                "253%",
+                "270%",
+                "287%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515803,
+          "name": "질풍의 채찍질",
+          "descShort": "메인 스킬 &Param1& 다중 타격으로 강화된다.",
+          "descLong": "메인 스킬 &Param1& 다중 타격으로 강화되어, 공격력 <span style=\"color:#0abec5\">&Param2&x5</span>의 불 속성 범위 스킬 피해를 입힌다.",
+          "icons": [
+            "15801_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "채찍의 인도"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "92%",
+                "106%",
+                "120%",
+                "161%",
+                "174%",
+                "187%",
+                "212%",
+                "224%",
+                "235%",
+                "257%",
+                "275%",
+                "293%",
+                "312%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515804,
+          "name": "교차 채찍",
+          "descShort": "「호두 대령」과 「곱슬 장군」이 피해를 입히면 「상자」 표식을 부여한다.\n라루(이브)가 「상자」 표식을 보유한 목표에게 스킬 피해를 입히면 범위 피해를 추가로 입힌다.",
+          "descLong": "「호두 대령」과 「곱슬 장군」이 피해를 입히면 「상자」 표식을 부여한다. <span style=\"color:#0abec5\">&Param2&</span>초간 지속된다.\n메인 스킬 &Param3& &Param4& 「상자」 표식을 보유한 목표에게 피해를 입힐 시 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 불 속성 범위 스킬 피해를 입힌다.",
+          "icons": [
+            "15801_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "채찍의 인도"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "사탕 일제 사격"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "197%",
+                "227%",
+                "257%",
+                "345%",
+                "373%",
+                "401%",
+                "456%",
+                "479%",
+                "503%",
+                "551%",
+                "590%",
+                "629%",
+                "669%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515805,
+          "name": "불꽃 채찍",
+          "descShort": "「호두 대령」과 「곱슬 장군」이 <span style=\"color:#6A90EB\">화염 표식</span>을 보유한 목표에게 피해를 입히면 일정 확률로 「사기」를 획득한다. 또한 자신의 &Param2& 증가한다.",
+          "descLong": "「호두 대령」과 「곱슬 장군」이 <span style=\"color:#6A90EB\">화염 표식</span>을 보유한 목표에게 피해를 입히면 &Param1& 확률로 「사기」 1스택을 획득한다. 또한 자신의 &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가한다. &Param4&초간 지속된다.",
+          "icons": [
+            "15801_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "30%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14%",
+                "23%",
+                "31%",
+                "40%",
+                "48%",
+                "57%",
+                "65%",
+                "74%",
+                "82%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515806,
+          "name": "유성 찌르기",
+          "descShort": "「곱슬 장군」이 1초마다 자신 주변의 목표에게 피해를 입힌다.",
+          "descLong": "「곱슬 장군」이 1초마다 자신 주변의 목표에게 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 불 속성 범위 소환물 피해를 입힌다.",
+          "icons": [
+            "15801_Potential_06_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "90%",
+                "145%",
+                "199%",
+                "253%",
+                "307%",
+                "361%",
+                "416%",
+                "470%",
+                "524%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515807,
+          "name": "사기 충전",
+          "descShort": "필드에 있는 장난감 1개마다 라루(이브)의 모든 소환물의 &Param1& 증가한다.",
+          "descLong": "필드에 있는 장난감 1개마다, 라루(이브)의 모든 소환물의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 최대 &Param3&스택 중첩된다.",
+          "icons": [
+            "15801_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "불 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13%",
+                "21%",
+                "28%",
+                "36%",
+                "44%",
+                "51%",
+                "59%",
+                "67%",
+                "74%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515808,
+          "name": "집중 타격",
+          "descShort": "메인 스킬 &Param1& 또는 &Param2& 치명타를 입히면, 라루(이브)의 &Param3& 증가한다.",
+          "descLong": "메인 스킬 &Param1& 또는 &Param2& 치명타를 입히면, 라루(이브)의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다. &Param5&초간 지속되며, 최대 &Param6&스택 중첩된다.",
+          "icons": [
+            "15801_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "채찍의 인도"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "사탕 일제 사격"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.9%",
+                "3%",
+                "4.1%",
+                "5.2%",
+                "6.3%",
+                "7.4%",
+                "8.5%",
+                "9.6%",
+                "10.7%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515809,
+          "name": "화염 채찍무",
+          "descShort": "메인 스킬 「&Param1&」의 공격 범위가 확대된다. \n「&Param1&」와 「&Param2&」이 입히는 &Param3& 증가한다.",
+          "descLong": "메인 스킬 「&Param1&」의 공격 범위가 20% 확대된다. \n「&Param1&」와 「&Param2&」이 입히는 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
+          "icons": [
+            "15801_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "채찍의 인도"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "사탕 일제 사격"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "불 속성 피해"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "33%",
+                "52%",
+                "72%",
+                "91%",
+                "111%",
+                "130%",
+                "150%",
+                "169%",
+                "189%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515810,
+          "name": "연이은 승전보",
+          "descShort": "라루(이브)의 일반 공격이 치명타를 입히면 자신의 &Param1& 증가한다.",
+          "descLong": "라루(이브)의 공격이 치명타를 입히면 자신의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "15801_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6%",
+                "8%",
+                "11%",
+                "13%",
+                "15%",
+                "18%",
+                "20%",
+                "22%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515811,
+          "name": "예포 앙상블",
+          "descShort": "라루(이브)가 피해를 입히면, 썰매 포탑 1개를 소환해 목표를 향해 사격한다. \n썰매 포탑이 치명타를 입히면 라루(이브)와 필드에 있는 장난감의 &Param5& 증가한다.",
+          "descLong": "&Param3&초마다 라루(이브)가 피해를 입히면 썰매 포탑 1개를 소환해 목표를 향해 사격하여 공격력 <span style=\"color:#ec6d21\">&Param2&</span>의 불 속성 소환물 피해를 입힌다. 또한 폭파로 공격력 <span style=\"color:#ec6d21\">&Param4&</span>의 불 속성 범위 소환물 피해를 입힌다. \n썰매 포탑이 치명타 피해를 입히면, 라루(이브)와 필드에 있는 모든 장난감의 &Param5& <span style=\"color:#ec6d21\">&Param6&</span> 증가한다. &Param7&초간 지속된다.",
+          "icons": [
+            "15801_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "불 속성 피해",
+                "불 속성 피해",
+                "불 속성 피해",
+                "불 속성 피해",
+                "불 속성 피해",
+                "불 속성 피해",
+                "불 속성 피해",
+                "불 속성 피해",
+                "불 속성 피해"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "129%",
+                "206%",
+                "283%",
+                "361%",
+                "438%",
+                "515%",
+                "592%",
+                "670%",
+                "747%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "91%",
+                "146%",
+                "201%",
+                "255%",
+                "310%",
+                "365%",
+                "420%",
+                "474%",
+                "529%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "13%",
+                "20%",
+                "28%",
+                "35%",
+                "43%",
+                "50%",
+                "58%",
+                "65%",
+                "73%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515812,
+          "name": "작위의 분노",
+          "descShort": "라루(이브)가 「라루 경」으로 변신한 기간 중, 총기 사격과 스킬 &Param1& 모두 <span style=\"color:#6A90EB\">화염 표식</span>을 발동할 수 있다. \n라루(이브)의 &Param3& 증가한다.",
+          "descLong": "라루(이브)가 「라루 경」으로 변신한 기간 중, 일반 공격과 스킬 &Param1& 모두 <span style=\"color:#6A90EB\">화염 표식</span>을 발동할 수 있다. \n라루(이브)의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
+          "icons": [
+            "Common_Potential_Fire_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "사탕 일제 사격"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515813,
+          "name": "우아한 몸놀림",
+          "descShort": "라루(이브)의 회피 횟수와 &Param2& 증가한다. \n일정 시간마다 라루(이브)가 직접 피해를 입으면, 해당 피해가 면역된다.",
+          "descLong": "라루(이브)의 회피 횟수가 1회 증가하고, &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가한다. \n라루(이브)가 직접 피해를 입으면, 해당 피해가 면역된다. 해당 효과는 &Param1&초마다 최대 1회 발동한다.",
+          "icons": [
+            "Common_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "방어",
+                "방어",
+                "방어",
+                "방어",
+                "방어",
+                "방어",
+                "방어",
+                "방어",
+                "방어"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "39",
+                "52",
+                "65",
+                "78",
+                "91",
+                "105",
+                "118",
+                "131",
+                "144"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "30"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515821,
+          "name": "화염 폭우",
+          "descShort": "「상자 포탄」 폭파 후, 지속적으로 범위 내 목표에게 피해를 입힌다.",
+          "descLong": "「상자 포탄」 폭파 후, 0.3초마다 범위 내 목표에게 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 불 속성 스킬 피해를 입힌다. 2초간 지속된다.",
+          "icons": [
+            "15801_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "37%",
+                "42%",
+                "48%",
+                "64%",
+                "69%",
+                "75%",
+                "85%",
+                "89%",
+                "94%",
+                "103%",
+                "106%",
+                "110%",
+                "114%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515822,
+          "name": "특별 화약",
+          "descShort": "「상자 포탄」이 입히는 스킬 피해와 피해 범위가 증가한다.\n팀 전체가 불 속성 캐릭터일 경우, 「상자 포탄」이 목표에게 피해를 입히면, 목표가 받는 스킬 피해가 증가한다.",
+          "descLong": "「상자 포탄」의 피해 범위가 <span style=\"color:#0abec5\">25%</span> 증가하고, 입히는 스킬 피해가 <span style=\"color:#0abec5\">&Param5&</span> 증가한다.\n팀 전체가 불 속성 캐릭터일 경우, 「상자 포탄」이 목표에게 피해를 입히면, 목표가 받는 스킬 피해가 <span style=\"color:#0abec5\">&Param2&</span> 증가한다. <span style=\"color:#0abec5\">&Param3&</span>초간 지속되며, 최대 <span style=\"color:#0abec5\">&Param4&</span>스택 중첩된다.",
+          "icons": [
+            "15801_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "13%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.3%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515823,
+          "name": "승급의 순간",
+          "descShort": "「호두 대령」이 「곱슬 장군」으로 합체된다. \n팀 전체가 불 속성 캐릭터일 경우, 「곱슬 장군」의 &Param3& 시간에 따라 증가한다.",
+          "descLong": "필드에 「호두 대령」 4개가 있으면, 「곱슬 장군」 1개로 합체하고, 목표를 타격해 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 불 속성 소환물 피해를 입힌다. \n「곱슬 장군」은 <span style=\"color:#0abec5\">10</span>초 동안 지속적으로 전투하며, 최대 1개만 존재한다.\n팀 전체가 불 속성 캐릭터일 경우, 「곱슬 장군」의 &Param3& 1초마다 <span style=\"color:#0abec5\">&Param4&</span> 증가한다. <span style=\"color:#0abec5\">&Param5&</span>스택 중첩된다.",
+          "icons": [
+            "15801_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "소환물 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "53%",
+                "61%",
+                "69%",
+                "92%",
+                "100%",
+                "107%",
+                "122%",
+                "128%",
+                "135%",
+                "147%",
+                "153%",
+                "158%",
+                "163%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4.5%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515824,
+          "name": "훈장 수여식",
+          "descShort": "「호두 대령」과 「곱슬 장군」이 스킬을 배워 자동으로 시전해 목표를 공격한다. \n「곱슬 장군」의 스킬로 자신의 &Param5& 증가한다.",
+          "descLong": "「호두 대령」과 「곱슬 장군」이 스킬을 배워, 쿨타임 <span style=\"color:#0abec5\">4</span>초마다 자동으로 시전한다. \n「호두 대령」이 지면을 강하게 때려 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 불 속성 범위 소환물 피해를 입힌다. \n「곱슬 장군」이 두 개의 칼을 휘둘러 공격력 <span style=\"color:#0abec5\">&Param2&x5</span>의 불 속성 범위 소환물 피해를 입힌다. 또한 자신의 &Param5& <span style=\"color:#0abec5\">&Param3&</span> 증가한다. <span style=\"color:#0abec5\">&Param4&</span>초간 지속된다.",
+          "icons": [
+            "15801_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "소환물 치명타율"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "19.6%",
+                "22.6%",
+                "25.5%",
+                "34.3%",
+                "37.1%",
+                "39.8%",
+                "45.3%",
+                "47.7%",
+                "50.1%",
+                "54.8%",
+                "56.7%",
+                "58.7%",
+                "60.7%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "43%",
+                "49%",
+                "55%",
+                "75%",
+                "81%",
+                "87%",
+                "98%",
+                "104%",
+                "109%",
+                "119%",
+                "123%",
+                "127%",
+                "132%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "50%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515825,
+          "name": "더블 예포",
+          "descShort": "지원 스킬 &Param1& 입히는 &Param2& 사격 횟수가 증가한다.",
+          "descLong": "지원 스킬 &Param1& 입히는 &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가하고, 「상자 포탄」을 2회 추가로 발사한다.",
+          "icons": [
+            "15801_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "최후의 수단"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "스킬 피해"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "29%",
+                "47%",
+                "65%",
+                "82%",
+                "100%",
+                "117%",
+                "135%",
+                "153%",
+                "170%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515826,
+          "name": "사기충전 포화",
+          "descShort": "「상자 포탄」이 피해를 입히면, 라루(이브)의 &Param1& 증가한다.",
+          "descLong": "「상자 포탄」이 피해를 입히면 라루(이브)의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, &Param4&스택 중첩된다.",
+          "icons": [
+            "15801_Potential_22_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "15%",
+                "21%",
+                "26%",
+                "32%",
+                "37%",
+                "40%",
+                "43%",
+                "46%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515827,
+          "name": "첫 달콤함",
+          "descShort": "「상자 포탄」이 <span style=\"color:#6A90EB\">화염 표식</span>을 보유한 목표에게 입히는 &Param2& 증가한다.",
+          "descLong": "「상자 포탄」이 <span style=\"color:#6A90EB\">화염 표식</span>을 보유한 목표에게 입히는 &Param2& <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "icons": [
+            "15801_Potential_22_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "불 속성 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "9%",
+                "11%",
+                "13%",
+                "15%",
+                "17%",
+                "19%",
+                "21%",
+                "23%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515828,
+          "name": "하트의 기원",
+          "descShort": "「호두 대령」과 「곱슬 장군」이 주변의 목표에게 지속적으로 소환물 피해를 입힌다.",
+          "descLong": "「호두 대령」이 1초마다 주변 목표에게 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 불 속성 범위 소환물 피해를 입힌다.\n「곱슬 장군」이 0.5초마다 주변 목표에게 공격력 <span style=\"color:#ec6d21\">&Param2&</span>의 불 속성 범위 소환물 피해를 입힌다.",
+          "icons": [
+            "15801_Potential_28_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.1%",
+                "3.3%",
+                "4.5%",
+                "5.8%",
+                "7%",
+                "8.3%",
+                "9.5%",
+                "10.7%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10.6%",
+                "17%",
+                "23.4%",
+                "29.7%",
+                "36.1%",
+                "42.5%",
+                "48.8%",
+                "55.2%",
+                "61.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515829,
+          "name": "하트의 나팔",
+          "descShort": "「호두 대령」과 「곱슬 장군」의 전투 시간과 &Param1& 증가한다.",
+          "descLong": "「호두 대령」과 「곱슬 장군」의 전투 시간이 50% 증가하고, &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "15801_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "치명타 피해",
+                "치명타 피해",
+                "치명타 피해",
+                "치명타 피해",
+                "치명타 피해",
+                "치명타 피해",
+                "치명타 피해",
+                "치명타 피해",
+                "치명타 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "32%",
+                "52%",
+                "71%",
+                "90%",
+                "109%",
+                "129%",
+                "148%",
+                "167%",
+                "187%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515830,
+          "name": "하트의 나팔",
+          "descShort": "「호두 대령」과 「곱슬 장군」의 &Param1& 증가하고, 피해를 입힐 때마다 자신의 &Param3& 증가한다. 치명타를 입힐 때마다 팀 내 불 속성 캐릭터의 &Param7& 증가한다.",
+          "descLong": "「호두 대령」과 「곱슬 장군」의 &Param1& &Param2& 증가한다. \n그들이 피해를 입힐 때마다 자신의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다. &Param5&초간 지속되며, 최대 &Param6&스택 중첩된다. \n그들이 치명타를 입힐 때마다 팀 내 불 속성 캐릭터의 &Param7& <span style=\"color:#ec6d21\">&Param8&</span> 증가한다. &Param9&초간 지속되며, 최대 &Param10&스택 중첩된다.",
+          "icons": [
+            "15801_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격 속도"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해",
+                "소환물 피해"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "35%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.3%",
+                "4.6%",
+                "4.9%"
+              ]
+            },
+            {
+              "idx": 9,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515831,
+          "name": "축제의 재개",
+          "descShort": "라루(이브)가 등장할 때마다 불 속성 메인 캐릭터의 &Param1& 증가한다.",
+          "descLong": "라루(이브)가 등장할 때마다 불 속성 메인 캐릭터의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "45%",
+                "72%",
+                "99%",
+                "126%",
+                "152%",
+                "179%",
+                "193%",
+                "206%",
+                "220%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515832,
+          "name": "화약 난무",
+          "descShort": "「라루 경」으로 변신한 기간 중, &Param1& 증가하고, 일반 공격과 스킬이 <span style=\"color:#6A90EB\">불 속성 표식: 성염</span>을 부여할 수 있다.",
+          "descLong": "라루(이브)가 「라루 경」으로 변신한 기간 중, 자신의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가하고, 총기 사격과 스킬 &Param3& <span style=\"color:#6A90EB\">불 속성 표식: 성염</span>을 부여할 수 있다.",
+          "icons": [
+            "Common_Potential_Fire_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "67%",
+                "107%",
+                "147%",
+                "187%",
+                "227%",
+                "267%",
+                "277%",
+                "287%",
+                "297%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "사탕 일제 사격"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515833,
+          "name": "동화의 법칙",
+          "descShort": "팀 내 모든 캐릭터가 불 속성일 경우, 「상자 포탄」이 피해를 입히면 목표의 &Param1& 증가한다.",
+          "descLong": "팀 내 모든 캐릭터가 불 속성일 경우, 「상자 포탄」이 피해를 입히면 목표의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "받는 불 속성 피해",
+                "받는 불 속성 피해",
+                "받는 불 속성 피해",
+                "받는 불 속성 피해",
+                "받는 불 속성 피해",
+                "받는 불 속성 피해",
+                "받는 불 속성 피해",
+                "받는 불 속성 피해",
+                "받는 불 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515841,
+          "name": "성은탄",
+          "descShort": "라루(이브)가 「라루 경」으로 변신한 기간 중, 스킬 &Param1& 시전하면 자신의 &Param2& 증가한다.",
+          "descLong": "라루(이브)가 「라루 경」으로 변신한 기간 중, 스킬 &Param1& 시전하면 자신의 &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가한다. &Param4&초간 지속된다.",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "사탕 일제 사격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "61%",
+                "98%",
+                "134%",
+                "171%",
+                "207%",
+                "244%",
+                "256%",
+                "268%",
+                "281%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515842,
+          "name": "굳건한 왕",
+          "descShort": "라루(이브)가 「라루 경」으로 변신한 기간 중, 스킬 &Param1& 피해를 입힐 시 자신의 &Param2& 증가한다.",
+          "descLong": "라루(이브)가 「라루 경」으로 변신한 기간 중, 스킬 &Param1& 피해를 입힐 시 자신의 &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가한다. &Param4&초간 지속되며, 최대 &Param5&스택 중첩된다. \n해당 효과는 스킬 「&Param1&」 시전 시 제거된다.",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "사탕 일제 사격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "13%",
+                "17%",
+                "20%",
+                "23%",
+                "27%",
+                "29%",
+                "31%",
+                "33%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515843,
+          "name": "장난감 군단",
+          "descShort": "라루(이브)가 「라루 경」으로 변신한 기간 중, 팀 내 불 속성 캐릭터의 &Param1& 시간에 따라 증가한다.",
+          "descLong": "라루(이브)가 「라루 경」으로 변신한 기간 중, 1초마다 팀 내 불 속성 캐릭터의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 최대 &Param4&스택 중첩된다. \n해당 효과는 변신 종료 후 제거된다.",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14%",
+                "19%",
+                "24%",
+                "30%",
+                "35%",
+                "36%",
+                "38%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "discs": [
@@ -36575,7 +38126,7 @@
       "skills": [
         {
           "name": "마녀의 그네",
-          "desc": "팀 내 어둠 속성 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. \n어둠 속성 캐릭터가 지원 스킬을 시전하면 해당 효과가 <span style=\"color:#ec6d21\">&Param2&</span> 추가로 증가한다. &Param3&초간 지속된다.",
+          "desc": "팀 내 어둠 속성 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. \n어둠 속성 캐릭터가 지원 스킬을 시전하면 해당 효과가 추가로 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
           "params": [
             {
               "idx": 1,
@@ -40172,7 +41723,7 @@
       "skills": [
         {
           "name": "검과 도끼의 울음",
-          "desc": "팀 전체 물 속성 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. \n물 속성 메인 캐릭터가 스킬을 시전하면 팀 내 물 속성 캐릭터의 스킬 피해가 &Param2& 증가한다. &Param3&초간 지속된다. 또한 물 속성 메인 캐릭터가 「푸른 은총」을 획득해 받는 피해가 &Param4& 감소하여 &Param5&초간 지속된다.",
+          "desc": "팀 전체 물 속성 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. \n물 속성 메인 캐릭터가 스킬을 시전하면 팀 내 물 속성 캐릭터의 스킬 피해가 &Param2& 증가한다. &Param3&초간 지속된다. 또한 물 속성 메인 캐릭터가 「푸른 은총」을 획득해 받는 피해가 &Param4& 감소하며 &Param5&초간 지속된다.",
           "params": [
             {
               "idx": 1,
@@ -41333,7 +42884,7 @@
         },
         {
           "name": "끝없는 햇빛",
-          "desc": "빛 속성 캐릭터가 스킬 피해를 입히면 빛 속성 메인 캐릭터가 「회절」 1스택을 획득하며, 최대 &Param1&스택 중첩된다. \n빛 속성 메인 캐릭터가 스킬을 시전하면 팀 내 빛 속성 캐릭터의 스킬 피해가 「회절」 중첩 스택*<span style=\"color:#ec6d21\">&Param2&</span>만큼 증가한다. &Param3&초간 지속되며, 종료 후 「회절」의 중첩 스택이 제거된다.",
+          "desc": "빛 속성 캐릭터가 스킬 피해를 입히면 빛 속성 메인 캐릭터가 「회절」 1스택을 획득하며, 최대 &Param1&스택 중첩된다. \n빛 속성 메인 캐릭터가 스킬을 시전하면 팀 내 빛 속성 캐릭터의 스킬 피해가 「회절」 중첩 스택×<span style=\"color:#ec6d21\">&Param2&</span>만큼 증가한다. &Param3&초간 지속되며, 종료 후 「회절」의 중첩 스택이 제거된다.",
           "params": [
             {
               "idx": 1,
@@ -41577,6 +43128,339 @@
         }
       ],
       "bg": 4040
+    },
+    {
+      "id": 214041,
+      "name": "여정의 선물",
+      "desc": "선물을 가득 실은 썰매가 \n사자의 지휘 아래 \n떠오르는 아침 해와 목적지를 향해 나아간다. \n그런데… \n썰매를 끄는 건 원래 순록이어야 하는 거 아니야?!",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "여정의 선물",
+          "desc": "팀 내 불 속성 캐릭터의 공격력이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.\n불 속성 지원 캐릭터의 소환물이 필드에 존재할 경우 팀 내 불 속성 캐릭터가 소환한 소환물의 소환물 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "9.6%",
+                "11.2%",
+                "12.8%",
+                "14.4%",
+                "16%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "예포 발사",
+          "desc": "불 속성 메인 캐릭터의 스킬 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.\n불 속성 지원 캐릭터의 소환물 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "이브의 파티타임",
+          "desc": "불 속성 캐릭터의 소환물이 2마리 이상 필드에 존재할 경우, 팀 내 불 속성 캐릭터가 입히는 필살기 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "12%",
+                "24%",
+                "36%",
+                "48%",
+                "60%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4041
+    },
+    {
+      "id": 214048,
+      "name": "메리 서프라이즈",
+      "desc": "눈 오는 밤바람이 먼 곳의 기도를 실어 오고 \n사자가 축복과 선물을 챙겨 \n0시의 종소리와 함께 등장한다. \n이 크리스마스 선물은, 여전히 동심을 간직한 당신을 위한 것.",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "메리 서프라이즈",
+          "desc": "팀 전체의 불 속성 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.\n불 속성 캐릭터가 스킬 피해를 입힐 시 목표에게 <span style=\"color:#6A90EB\">「캐럴」</span>을 부여하며 &Param2&초간 지속된다.\n「캐럴」은 「찬송가」로 전환할 수 있다.\n「찬송가」: 받는 불 속성 피해가 <span style=\"color:#ec6d21\">&Param3&</span> 증가한다. &Param4&초간 지속되며, &Param5&스택 중첩된다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "24%",
+                "28%",
+                "32%",
+                "36%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%",
+                "1.8%",
+                "2%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "18",
+                "18",
+                "18",
+                "18",
+                "18",
+                "18"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "감튀 나라",
+          "desc": "「찬송가」가 추가 효과를 획득하여, 받는 불 속성 스킬 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.\n<span style=\"color:#6A90EB\">「캐럴」</span>이 「찬송가」로 전환될 시, 팀 내 불 속성 캐릭터의 스킬 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, &Param4&스택 중첩된다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "0.5%",
+                "0.6%",
+                "0.7%",
+                "0.8%",
+                "0.9%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "해피 크리스피",
+          "desc": "<span style=\"color:#6A90EB\">「캐럴」</span>이 추가 효과를 획득하여, 적의 공격력이 <span style=\"color:#ec6d21\">&Param1&</span> 감소한다.\n팀 내 불 속성 캐릭터가 「캐럴」을 보유한 목표에게 입히는 필살기 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "40%",
+                "60%",
+                "80%",
+                "100%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4048
     }
   ]
 }

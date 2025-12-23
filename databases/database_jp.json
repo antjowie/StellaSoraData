@@ -91,7 +91,7 @@
           "id": 510304,
           "name": "感情残響",
           "descShort": "主力スキル命中時、範囲内に追加でダメージを与える。",
-          "descLong": "主力スキル命中時、範囲内に追加で、攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の火属性ダメージを与える。\nこの効果は1秒ごとに<span style=\"color:#0abec5\">5</span>回まで発動する。",
+          "descLong": "主力スキル命中時、範囲内に追加で、攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の火属性のスキルダメージを与える。\nこの効果は1秒ごとに<span style=\"color:#0abec5\">5</span>回まで発動する。",
           "icons": [
             "10301_Potential_04_A"
           ],
@@ -2537,7 +2537,7 @@
           "id": 510801,
           "name": "散弾準備",
           "descShort": "1回の主力スキルで装填できる火炎散弾が1発になる。装填後、次の射撃で追加でダメージを与えるようになる。",
-          "descLong": "1回の主力スキルで装填できる火炎散弾が<span style=\"color:#0abec5\">1発</span>になる。装填後、次の射撃で発射する火炎散弾の数が増加し、追加で範囲内に、攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の火属性ダメージを与えるようになる。この効果は火炎散弾を発射するとリセットされる。",
+          "descLong": "1回の主力スキルで装填できる火炎散弾が<span style=\"color:#0abec5\">1発</span>になる。装填後、次の射撃で発射する火炎散弾の数が増加し、追加で範囲内に、攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の火属性のスキルダメージを与えるようになる。この効果は火炎散弾を発射するとリセットされる。",
           "icons": [
             "10801_Potential_01_A"
           ],
@@ -3779,7 +3779,7 @@
           "id": 511101,
           "name": "ベクトル・硬化",
           "descShort": "アヤメの通常攻撃命中時、次に発動する主力スキルのダメージが増加する。上限まで重複後、次に発動する主力スキルが変化する。",
-          "descLong": "アヤメの通常攻撃命中時、次に発動する主力スキルのダメージが<span style=\"color:#0abec5\">&Param1&</span>増加する。この効果は&Param2&回重複でき、主力スキルを発動するとリセットされる。\n&Param2&回重複後、次に発動する主力スキルは&Param4&に変化し、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param3&</span>の水属性ダメージを与える。",
+          "descLong": "アヤメの通常攻撃命中時、次に発動する主力スキルのダメージが<span style=\"color:#0abec5\">&Param1&</span>増加する。この効果は&Param2&回重複でき、主力スキルを発動するとリセットされる。\n&Param2&回重複後、次に発動する主力スキルは&Param4&に変化し、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param3&</span>の水属性のスキルダメージを与える。",
           "icons": [
             "11101_Potential_01_A"
           ],
@@ -3829,7 +3829,7 @@
           "id": 511102,
           "name": "ベクトル・粉砕",
           "descShort": "主力スキル命中時、追加で範囲内にダメージを与えるようになる。",
-          "descLong": "主力スキル命中時、追加で範囲内に、攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の水属性ダメージを与えるようになる。\n&Param4&命中時、追加で攻撃力の<span style=\"color:#0abec5\">&Param2&</span>の水属性のスキルダメージを与え、&Param3&秒間の<span style=\"color:#6A90EB\">氷結</span>を付与する。\nこの効果は12秒ごとに1回まで発動する。",
+          "descLong": "主力スキル命中時、追加で範囲内に、攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の水属性のスキルダメージを与えるようになる。\n&Param4&命中時、追加で攻撃力の<span style=\"color:#0abec5\">&Param2&</span>の水属性のスキルダメージを与え、&Param3&秒間の<span style=\"color:#6A90EB\">氷結</span>を付与する。\nこの効果は12秒ごとに1回まで発動する。",
           "icons": [
             "11101_Potential_02_A"
           ],
@@ -4063,7 +4063,7 @@
           "id": 511108,
           "name": "念には念を",
           "descShort": "アヤメの主力スキルで会心発生時、追加でダメージを与えるようになる。",
-          "descLong": "アヤメの主力スキルで会心発生時、追加で攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の水属性ダメージを与えるようになる。",
+          "descLong": "アヤメの主力スキルで会心発生時、追加で攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の水属性のスキルダメージを与えるようになる。",
           "icons": [
             "11101_Potential_03_A",
             "Potential_Diamond_B",
@@ -4179,7 +4179,7 @@
           "id": 511111,
           "name": "詐欺師警戒",
           "descShort": "アヤメが近接攻撃を受けた時、周囲にダメージを与え、<span style=\"color:#6A90EB\">氷結</span>を付与するようになる。",
-          "descLong": "アヤメが近接攻撃を受けた時、周囲に攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の水属性ダメージを与え、&Param2&秒間の<span style=\"color:#6A90EB\">氷結</span>を付与するようになる。この効果は&Param3&秒ごとに1回まで発動する。",
+          "descLong": "アヤメが近接攻撃を受けた時、周囲に攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の水属性のスキルダメージを与え、&Param2&秒間の<span style=\"color:#6A90EB\">氷結</span>を付与するようになる。この効果は&Param3&秒ごとに1回まで発動する。",
           "icons": [
             "Common_Potential_9_A",
             "Potential_Diamond_B",
@@ -4397,7 +4397,7 @@
           "id": 511124,
           "name": "定量・転移",
           "descShort": "氷柱陣列終了時、追加でダメージを与え、敵をノックバックさせるようになる。",
-          "descLong": "氷柱陣列終了時、追加で範囲内の敵に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の水属性ダメージを与え、敵をノックバックさせるようになる。",
+          "descLong": "氷柱陣列終了時、追加で範囲内の敵に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の水属性のスキルダメージを与え、敵をノックバックさせるようになる。",
           "icons": [
             "11101_Potential_24_A"
           ],
@@ -6343,7 +6343,7 @@
           "id": 511308,
           "name": "驟雨のさざめき",
           "descShort": "<span style=\"color:#6A90EB\">氷結</span>が付与されている敵を二式で撃破時、二式を再発動できるようになる。さらに、&Param1&が増加する。",
-          "descLong": "<span style=\"color:#6A90EB\">氷結</span>が付与されている敵を二式で撃破した時、二式を再発動できるようになる。さらに、&Param3&秒間、&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は&Param4&回重複できる。\n1回のスキル持続中、<span style=\"color:#ec6d21\">&Param5&</span>回再発動できる。",
+          "descLong": "<span style=\"color:#6A90EB\">氷結</span>が付与されている敵を二式で撃破した時、二式を再発動できるようになる。さらに、&Param3&秒間、&Param1&が&Param2&増加する。この効果は&Param4&回重複できる。\n1回のスキル持続中、<span style=\"color:#ec6d21\">&Param5&</span>回再発動できる。",
           "icons": [
             "11301_Potential_02_A",
             "Potential_Triangle_B",
@@ -8799,7 +8799,7 @@
           "id": 511711,
           "name": "千客万来",
           "descShort": "必殺技は<span style=\"color:#6A90EB\">光属性の印：光明</span>を発動させることができるようになる。発動させると、&Param6&が上昇する。",
-          "descLong": "ジンリンの必殺技は<span style=\"color:#6A90EB\">光属性の印</span>を発動させることができるようになる。発動させると、攻撃力の<span style=\"color:#ec6d21\">&Param2&</span>の光属性の印ダメージを与える。\n発動させた時から&Param4&秒間、&Param6&が<span style=\"color:#ec6d21\">&Param3&</span>上昇する。この効果は&Param5&回重複できる。",
+          "descLong": "必殺技は<span style=\"color:#6A90EB\">光属性の印</span>を発動させることができるようになる。攻撃力の&Param2&の光属性の印ダメージを与える。\n発動させた時から&Param4&秒間、&Param6&が<span style=\"color:#ec6d21\">&Param3&</span>上昇する。この効果は&Param5&回まで重複できる。",
           "icons": [
             "Common_Potential_Light_1_A",
             "Potential_Diamond_B",
@@ -10678,7 +10678,7 @@
           "id": 511841,
           "name": "暗夜の鎌",
           "descShort": "必殺技の&Param3&が上昇する。横斬りが命中した敵が多いほど、そのダメージが増加する。",
-          "descLong": "クルニスの必殺技の横斬りが命中した敵1体につき、そのダメージが<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は3回重複できる。\n必殺技の&Param3&が&Param1&上昇する。",
+          "descLong": "クルニスの必殺技の横斬りが命中した敵1体につき、そのダメージが<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は3回重複できる。\n必殺技の&Param3&が<span style=\"color:#ec6d21\">&Param1&</span>上昇する。",
           "icons": [
             "11801_Potential_41_A",
             "Potential_Diamond_B",
@@ -10805,7 +10805,7 @@
       "element": 4,
       "rarity": 1,
       "mainBuild1Name": "特化構築1",
-      "mainBuild1Desc": "向日葵手裏剣の数と速度を強化する構築",
+      "mainBuild1Desc": "通常攻撃の手裏剣の数と速度を強化する構築",
       "mainBuild2Name": "特化構築2",
       "mainBuild2Desc": "向日葵手裏剣の範囲とダメージ間隔を強化する構築",
       "supportBuild1Name": "特化構築1",
@@ -10848,8 +10848,8 @@
         {
           "id": 511902,
           "name": "扇の散花",
-          "descShort": "主力スキル発動後、通常攻撃は向日葵手裏剣を追加で投げるようになる。",
-          "descLong": "主力スキル発動後の10秒間、通常攻撃は、敵を貫通する向日葵手裏剣を追加で<span style=\"color:#0abec5\">3</span>枚投げ、それぞれ攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の風属性の通常攻撃ダメージを与えるようになる。",
+          "descShort": "主力スキル発動後、通常攻撃は手裏剣を追加で投げるようになる。",
+          "descLong": "主力スキル発動後の10秒間、通常攻撃は、敵を貫通する手裏剣を追加で<span style=\"color:#0abec5\">3</span>枚投げ、それぞれ攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の風属性の通常攻撃ダメージを与えるようになる。",
           "icons": [
             "11901_Potential_02_A"
           ],
@@ -10881,7 +10881,7 @@
           "id": 511903,
           "name": "飛旋の刃",
           "descShort": "向日葵手裏剣は複数回ダメージを与えるようになる。",
-          "descLong": "向日葵手裏剣は複数回ダメージを与えるようになり、<span style=\"color:#0abec5\">0.15</span>秒ごとに1回ダメージを与える。",
+          "descLong": "主力スキルで投げた向日葵手裏剣は複数回ダメージを与えるようになり、<span style=\"color:#0abec5\">0.15</span>秒ごとに1回ダメージを与える。",
           "icons": [
             "11901_Potential_03_A"
           ],
@@ -10894,7 +10894,7 @@
           "id": 511904,
           "name": "満開の舞",
           "descShort": "向日葵手裏剣のダメージ範囲が拡大し、ダメージが増加する。",
-          "descLong": "向日葵手裏剣のダメージ範囲が<span style=\"color:#0abec5\">50%</span>拡大し、&Param1&が<span style=\"color:#0abec5\">&Param2&</span>増加する。",
+          "descLong": "主力スキルで投げた向日葵手裏剣のダメージ範囲が<span style=\"color:#0abec5\">50%</span>拡大し、&Param1&が<span style=\"color:#0abec5\">&Param2&</span>増加する。",
           "icons": [
             "11901_Potential_04_A"
           ],
@@ -10920,7 +10920,7 @@
           "id": 511905,
           "name": "疾風怒濤",
           "descShort": "向日葵手裏剣を投げるたびに、&Param5&が上昇し、&Param6&が増加する。",
-          "descLong": "向日葵手裏剣を投げるたびに、&Param3&秒間、&Param5&が<span style=\"color:#ec6d21\">&Param1&</span>上昇し、&Param6&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は&Param4&回重複できる。",
+          "descLong": "主力スキルで向日葵手裏剣を投げるたびに、&Param3&秒間、&Param5&が<span style=\"color:#ec6d21\">&Param1&</span>上昇し、&Param6&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は&Param4&回重複できる。",
           "icons": [
             "11901_Potential_03_A",
             "Potential_Diamond_B",
@@ -11126,7 +11126,7 @@
           "id": 511908,
           "name": "日輪草への祈り",
           "descShort": "向日葵手裏剣はナノハから離れるほどダメージが増加する。",
-          "descLong": "向日葵手裏剣はナノハから離れるほどダメージが増加する。最小で<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
+          "descLong": "主力スキルで投げた向日葵手裏剣はナノハから離れるほどダメージが増加する。最小で<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
           "icons": [
             "11901_Potential_03_A",
             "Potential_Diamond_B",
@@ -11612,8 +11612,8 @@
         {
           "id": 511927,
           "name": "監視交代",
-          "descShort": "爆散向日葵生成時、分身が周囲に多数の手裏剣を投げるようになる。",
-          "descLong": "爆散向日葵生成時、分身が周囲に多数の手裏剣を投げるようになる。それぞれナノハの攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の風属性のスキルダメージを与える。",
+          "descShort": "爆散向日葵生成時、分身が周囲に複数の手裏剣を投げるようになる。",
+          "descLong": "爆散向日葵生成時、分身が周囲に手裏剣を12枚投げるようになる。それぞれナノハの攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の風属性のスキルダメージを与える。",
           "icons": [
             "11901_Potential_41_A",
             "Potential_Round_B",
@@ -11717,7 +11717,7 @@
           "id": 511930,
           "name": "支援忍術",
           "descShort": "爆散向日葵消滅時、分身が前方に手裏剣を投げるようになる。",
-          "descLong": "爆散向日葵消滅時、分身が前方に手裏剣を投げ、それぞれ攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の風属性のスキルダメージを与えるようになる。",
+          "descLong": "爆散向日葵消滅時、分身が前方に手裏剣を5枚投げ、それぞれ攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の風属性のスキルダメージを与えるようになる。",
           "icons": [
             "11901_Potential_41_A",
             "Potential_Round_B",
@@ -12489,7 +12489,7 @@
         {
           "id": 512013,
           "name": "模範的行動",
-          "descShort": "カナーチェの回避の発動可能回数が1回増加する。回避発動後、&Param1&が上昇する。",
+          "descShort": "カナーチェの回避の発動可能回数が増加する。回避発動後、&Param1&が上昇する。",
           "descLong": "カナーチェの回避の発動可能回数が1回増加する。\n回避発動後の&Param3&秒間、&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。",
           "icons": [
             "Common_Potential_13_A",
@@ -13206,8 +13206,8 @@
         {
           "id": 512302,
           "name": "飛石舞塵",
-          "descShort": "爆風が弱い敵をノックバックさせるようになる。ノックバックした敵の&Param1&を増加させる。",
-          "descLong": "爆風が弱い敵をノックバックさせるようになる。ノックバックさせると、&Param3&秒間、その敵の&Param1&を<span style=\"color:#0abec5\">&Param2&</span>増加させる。",
+          "descShort": "爆風が弱い敵をノックバックさせるようになる。敵の&Param1&を増加させる。",
+          "descLong": "爆風が弱い敵をノックバックさせるようになる。&Param3&秒間、その敵の&Param1&を<span style=\"color:#0abec5\">&Param2&</span>増加させる。",
           "icons": [
             "12301_Potential_02_A"
           ],
@@ -14021,8 +14021,8 @@
         {
           "id": 512328,
           "name": "乱気流",
-          "descShort": "支援スキルのダメージを与えた時、その敵の&Param3&を増加させる。",
-          "descLong": "アンズの支援スキルのダメージを与えた時から<span style=\"color:#ec6d21\">&Param2&</span>秒間、その敵の&Param3&を<span style=\"color:#ec6d21\">&Param1&</span>増加させる。この効果は&Param4&回重複できる。",
+          "descShort": "支援スキルがダメージを与えた時、その敵の&Param3&を増加させる。",
+          "descLong": "アンズの支援スキルがダメージを与えた時から&Param2&秒間、その敵の&Param3&を<span style=\"color:#ec6d21\">&Param1&</span>増加させる。この効果は&Param4&回重複できる。",
           "icons": [
             "Common_Potential_4_A",
             "Potential_Diamond_B",
@@ -20844,8 +20844,8 @@
         {
           "id": 513412,
           "name": "勇猛火敢",
-          "descShort": "フユカがエリート以上の敵に会心発生時、&Param4&が増加する。",
-          "descLong": "フユカがエリート以上の敵に会心発生時から&Param2&秒間、&Param4&が<span style=\"color:#ec6d21\">&Param1&</span>増加する。この効果は&Param3&回重複できる。",
+          "descShort": "フユカがエリート以上の敵に会心発生時、&Param4&が上昇する。",
+          "descLong": "フユカがエリート以上の敵に会心発生時から&Param2&秒間、&Param4&が<span style=\"color:#ec6d21\">&Param1&</span>上昇する。この効果は&Param3&回重複できる。",
           "icons": [
             "Common_Potential_13_A",
             "Potential_Triangle_B",
@@ -21482,8 +21482,8 @@
         {
           "id": 513441,
           "name": "灼熱ハート",
-          "descShort": "必殺技で<span style=\"color:#6A90EB\">火属性の印</span>を発動させた時、その必殺技のダメージが増加する。",
-          "descLong": "フユカの必殺技で<span style=\"color:#6A90EB\">火属性の印</span>を発動させた時、その必殺技のダメージが<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は&Param4&回重複できる。",
+          "descShort": "必殺技で<span style=\"color:#6A90EB\">火属性の印</span>を発動させた時、必殺技使用中&Param5&が上昇する。",
+          "descLong": "フユカの必殺技で<span style=\"color:#6A90EB\">火属性の印</span>を発動させた時、必殺技使用中&Param5&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。この効果は&Param4&回重複できる。",
           "icons": [
             "13401_Potential_41_A",
             "Potential_Diamond_B",
@@ -21493,6 +21493,20 @@
           "build": 3,
           "type": 3,
           "params": [
+            {
+              "idx": 5,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
             {
               "idx": 2,
               "values": [
@@ -23479,7 +23493,7 @@
           "id": 514126,
           "name": "墨符・残火",
           "descShort": "自身以外の巡遊者が主力スキル発動時、チーシアの従者が追加でダメージを与えるようになる。",
-          "descLong": "自身以外の巡遊者が主力スキル発動時、赤龍が敵に追加で<span style=\"color:#ec6d21\">&Param1&</span>の火属性の従者ダメージを与えるようになる。猛虎は範囲内に追加で<span style=\"color:#ec6d21\">&Param2&x5</span>の火属性の従者ダメージを与えるようになる。",
+          "descLong": "自身以外の巡遊者が主力スキル発動時、赤龍が敵に追加で攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の火属性の従者ダメージを与えるようになる。猛虎は範囲内に追加で攻撃力の<span style=\"color:#ec6d21\">&Param2&x5</span>の火属性の従者ダメージを与えるようになる。",
           "icons": [
             "14101_Potential_21_A",
             "Potential_Triangle_B",
@@ -24194,7 +24208,7 @@
           "id": 514207,
           "name": "闇爪刻影",
           "descShort": "主力スキル発動時、味方の&Param1&が上昇する。",
-          "descLong": "主力スキル発動時から&Param3&秒間、味方の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。",
+          "descLong": "主力スキル発動時、&Param3&秒間、味方の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。",
           "icons": [
             "14201_Potential_02_A",
             "Potential_Round_B",
@@ -24852,7 +24866,7 @@
           "id": 514228,
           "name": "暗・迷幻",
           "descShort": "支援スキルのダメージを与えた時、一定確率でその敵をスタンさせ、味方の&Param1&が上昇するようになる。",
-          "descLong": "コゼットの支援スキルのダメージを与えた時、30%の確率で3秒間、その敵をスタンさせるようになる。さらに、&Param3&秒間、味方の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。この効果は0.5秒ごとに1回まで発動する。",
+          "descLong": "コゼットの支援スキルのダメージを与えた時、30%の確率でその敵を3秒間スタンさせ、さらに&Param3&秒間、味方の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。この効果は0.5秒ごとに1回まで発動する。",
           "icons": [
             "14201_Potential_23_A",
             "Potential_Diamond_B",
@@ -25275,7 +25289,7 @@
           "id": 514401,
           "name": "蛟龍の型",
           "descShort": "主力スキル発動後、通常攻撃は騰蛇を生成するようになる。さらに、中断耐性が上昇する。",
-          "descLong": "主力スキル発動後、通常攻撃は騰蛇を生成し、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の水属性の通常攻撃ダメージを与えるようになる。生成した騰蛇は<span style=\"color:#6A90EB\">水属性の印</span>を発動させることができる。発動させると、&Param9&秒間、中断耐性が上昇する。",
+          "descLong": "主力スキル発動後、&Param9&秒間、通常攻撃は騰蛇を生成し、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の水属性の通常攻撃ダメージを与えるようになると同時に、中断耐性が上昇する。生成した騰蛇は<span style=\"color:#6A90EB\">水属性の印</span>を発動させることができる。",
           "icons": [
             "14401_Potential_01_A"
           ],
@@ -25283,6 +25297,12 @@
           "build": 1,
           "type": 1,
           "params": [
+            {
+              "idx": 9,
+              "values": [
+                "12"
+              ]
+            },
             {
               "idx": 1,
               "values": [
@@ -25300,12 +25320,6 @@
                 "48.4%",
                 "51.4%"
               ]
-            },
-            {
-              "idx": 9,
-              "values": [
-                "12"
-              ]
             }
           ]
         },
@@ -25313,7 +25327,7 @@
           "id": 514402,
           "name": "水影の型",
           "descShort": "主力スキル発動後、通常攻撃は鏡影を生成するようになる。さらに、中断耐性が上昇する。",
-          "descLong": "主力スキル発動後、通常攻撃はチトセの攻撃力の<span style=\"color:#0abec5\">60%</span>を持つ鏡影を生成するようになる。この鏡影は通常攻撃を発動する。さらに、&Param1&秒間、中断耐性が上昇する。",
+          "descLong": "主力スキル発動後、&Param1&秒間、通常攻撃時にチトセの攻撃力の<span style=\"color:#0abec5\">60%</span>を持つ鏡影を生成し、鏡影が通常攻撃を行うようになる。この間、中断耐性が上昇する。",
           "icons": [
             "14401_Potential_02_A"
           ],
@@ -27677,7 +27691,7 @@
           "id": 514904,
           "name": "痛みの連鎖",
           "descShort": "グレイが、鉄の牢獄に繋がれている敵に通常攻撃のダメージを与えた時、繋がれている他のすべての敵もダメージを受けるようになる。",
-          "descLong": "グレイが、鉄の牢獄に繋がれている敵に通常攻撃のダメージを与えた時、繋がれている他のすべて敵は、攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の地属性のスキルダメージを受けるようになる。この効果は1秒ごとに1回まで発動し、<span style=\"color:#6A90EB\">地属性の印</span>を発動させることができる。",
+          "descLong": "グレイが、鉄の牢獄に繋がれている敵に通常攻撃のダメージを与えた時、繋がれている他のすべての敵は、攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の地属性のスキルダメージを受けるようになる。この効果は1秒ごとに1回まで発動し、<span style=\"color:#6A90EB\">地属性の印</span>を発動させることができる。",
           "icons": [
             "14901_Potential_04_A"
           ],
@@ -28348,11 +28362,7 @@
                 "132%",
                 "152%",
                 "171%",
-                "191%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "191%"
               ]
             }
           ]
@@ -28470,11 +28480,7 @@
                 "30.5%",
                 "35%",
                 "39.6%",
-                "44.2%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "44.2%"
               ]
             }
           ]
@@ -28688,11 +28694,7 @@
                 "465%",
                 "535%",
                 "605%",
-                "675%",
-                "0%",
-                "0%",
-                "0%",
-                "0%"
+                "675%"
               ]
             }
           ]
@@ -32345,6 +32347,1555 @@
           ]
         }
       ]
+    },
+    {
+      "id": 158,
+      "name": "Snowish Laru",
+      "class": 2,
+      "element": 2,
+      "rarity": 1,
+      "mainBuild1Name": "特化構築1",
+      "mainBuild1Desc": "おもちゃの大軍を強化して共闘する、単体の敵に強い構築",
+      "mainBuild2Name": "特化構築2",
+      "mainBuild2Desc": "鞭で多段の範囲攻撃を繰り出す、範囲殲滅に優れた構築",
+      "supportBuild1Name": "特化構築1",
+      "supportBuild1Desc": "大砲を強化し、一気に火力を叩き込む支援構築",
+      "supportBuild2Name": "特化構築2",
+      "supportBuild2Desc": "おもちゃを強化し、継続的にダメージを与える支援構築",
+      "potentials": [
+        {
+          "id": 515801,
+          "name": "ドールマスター",
+          "descShort": "クルミ大佐と巻き毛将軍の連携作戦が強化される。\nゼンマイ女王の射撃が強化される。",
+          "descLong": "ラール（聖夜）のおもちゃたちを強化する。\nクルミ大佐の連携作戦は、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の火属性の従者ダメージを与える。\n巻き毛将軍の連携作戦は、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param2&x6</span>の火属性の従者ダメージを与える。\nゼンマイ女王の射撃は、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param4&</span>の火属性の従者ダメージを与える。",
+          "icons": [
+            "15801_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "246%",
+                "283%",
+                "320%",
+                "430%",
+                "465%",
+                "499%",
+                "568%",
+                "598%",
+                "627%",
+                "686%",
+                "736%",
+                "785%",
+                "834%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "100%",
+                "115%",
+                "130%",
+                "175%",
+                "189%",
+                "203%",
+                "231%",
+                "243%",
+                "255%",
+                "278%",
+                "298%",
+                "318%",
+                "338%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "90%",
+                "103%",
+                "117%",
+                "157%",
+                "170%",
+                "182%",
+                "208%",
+                "218%",
+                "229%",
+                "251%",
+                "269%",
+                "287%",
+                "305%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515802,
+          "name": "女王のお出まし",
+          "descShort": "主力スキル「&Param1&」または「&Param2&」発動時、おもちゃ：ゼンマイ女王を召喚すると同時に、クルミ大佐または巻き毛将軍は士気を獲得する。",
+          "descLong": "主力スキル「&Param1&」または「&Param2&」発動時、<span style=\"color:#0abec5\">&Param3&</span>秒間、おもちゃ：ゼンマイ女王を召喚すると同時に、クルミ大佐または巻き毛将軍は士気を<span style=\"color:#0abec5\">2</span>獲得する。\nゼンマイ女王は敵を射撃し、攻撃力の<span style=\"color:#0abec5\">&Param4&</span>の火属性の従者ダメージを与える。\nゼンマイ女王の射撃が命中するたびに、クルミ大佐と巻き毛将軍の連携作戦を発動させることができる。\n&Param5&秒ごとに、ゼンマイ女王を1回召喚できる。",
+          "icons": [
+            "15801_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ウィップコマンド"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "キャンディ乱射"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "85%",
+                "97%",
+                "110%",
+                "148%",
+                "160%",
+                "172%",
+                "195%",
+                "205%",
+                "216%",
+                "236%",
+                "253%",
+                "270%",
+                "287%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "18"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515803,
+          "name": "鞭の贈り物",
+          "descShort": "主力スキル「&Param1&」が多段攻撃になる。",
+          "descLong": "主力スキル「&Param1&」が多段攻撃となり、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param2&x5</span>の火属性のスキルダメージを与える。",
+          "icons": [
+            "15801_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ウィップコマンド"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "92%",
+                "106%",
+                "120%",
+                "161%",
+                "174%",
+                "187%",
+                "212%",
+                "224%",
+                "235%",
+                "257%",
+                "275%",
+                "293%",
+                "312%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515804,
+          "name": "ギフトマーク",
+          "descShort": "クルミ大佐または巻き毛将軍がダメージを与えた時、敵にギフトマークを付与する。\nラール（聖夜）のスキルがギフトマークが付与された敵にダメージを与えた時、追加で範囲内にダメージを与える。",
+          "descLong": "クルミ大佐または巻き毛将軍がダメージを与えた時、<span style=\"color:#0abec5\">&Param2&</span>秒間、敵にギフトマークを付与する。\n主力スキル「&Param3&」または「&Param4&」がギフトマークが付与された敵にダメージを与えた時、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の火属性のスキルダメージを与える。",
+          "icons": [
+            "15801_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "ウィップコマンド"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "キャンディ乱射"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "197%",
+                "227%",
+                "257%",
+                "345%",
+                "373%",
+                "401%",
+                "456%",
+                "479%",
+                "503%",
+                "551%",
+                "590%",
+                "629%",
+                "669%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515805,
+          "name": "パーリィドール",
+          "descShort": "クルミ大佐と巻き毛将軍が<span style=\"color:#6A90EB\">火属性の印</span>が付与された敵にダメージを与えた時、一定確率で士気を獲得し、自身の&Param2&が増加する。",
+          "descLong": "クルミ大佐と巻き毛将軍が<span style=\"color:#6A90EB\">火属性の印</span>が付与された敵にダメージを与えた時、&Param1&の確率で士気を1獲得し、&Param4&秒間、自身の&Param2&が<span style=\"color:#ec6d21\">&Param3&</span>増加する。",
+          "icons": [
+            "15801_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "30%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14%",
+                "23%",
+                "31%",
+                "40%",
+                "48%",
+                "57%",
+                "65%",
+                "74%",
+                "82%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515806,
+          "name": "将軍の秘策",
+          "descShort": "巻き毛将軍は自身の周囲の敵にダメージを与え続けるようになる。",
+          "descLong": "巻き毛将軍は1秒ごとに、自身の周囲の敵に攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の火属性の従者ダメージを与えるようになる。",
+          "icons": [
+            "15801_Potential_06_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "90%",
+                "145%",
+                "199%",
+                "253%",
+                "307%",
+                "361%",
+                "416%",
+                "470%",
+                "524%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515807,
+          "name": "クリスマスエール",
+          "descShort": "フィールド上に存在するおもちゃ1体につき、ラール（聖夜）のすべての従者の&Param1&が増加する。",
+          "descLong": "フィールド上に存在するおもちゃ1体につき、ラール（聖夜）のすべての従者の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は&Param3&回まで重複できる。",
+          "icons": [
+            "15801_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "火属性ダメージ"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13%",
+                "21%",
+                "28%",
+                "36%",
+                "44%",
+                "51%",
+                "59%",
+                "67%",
+                "74%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515808,
+          "name": "ごほうびウィップ",
+          "descShort": "主力スキル「&Param1&」または「&Param2&」が会心発生時、ラール（聖夜）の&Param3&が上昇する。",
+          "descLong": "主力スキル「&Param1&」または「&Param2&」が会心発生時、&Param5&秒間、ラール（聖夜）の&Param3&が<span style=\"color:#ec6d21\">&Param4&</span>上昇する。この効果は&Param6&回まで重複できる。",
+          "icons": [
+            "15801_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ウィップコマンド"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "キャンディ乱射"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.9%",
+                "3%",
+                "4.1%",
+                "5.2%",
+                "6.3%",
+                "7.4%",
+                "8.5%",
+                "9.6%",
+                "10.7%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515809,
+          "name": "バーニングウィップ",
+          "descShort": "主力スキル「&Param1&」の攻撃範囲が拡大する。\n「&Param1&」と「&Param2&」が与える&Param3&が増加する。",
+          "descLong": "主力スキル「&Param1&」の攻撃範囲が20%拡大する。\n「&Param1&」と「&Param2&」が与える&Param3&が<span style=\"color:#ec6d21\">&Param4&</span>増加する。",
+          "icons": [
+            "15801_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ウィップコマンド"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "キャンディ乱射"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "火属性ダメージ"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "33%",
+                "52%",
+                "72%",
+                "91%",
+                "111%",
+                "130%",
+                "150%",
+                "169%",
+                "189%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515810,
+          "name": "きらめきクリスマス",
+          "descShort": "ラール（聖夜）の通常攻撃で会心発生時、自身の&Param1&が上昇する。",
+          "descLong": "ラール（聖夜）の通常攻撃で会心発生時、&Param3&秒間、自身の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。この効果は&Param4&回まで重複できる。",
+          "icons": [
+            "15801_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6%",
+                "8%",
+                "11%",
+                "13%",
+                "15%",
+                "18%",
+                "20%",
+                "22%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515811,
+          "name": "ソリの行進曲",
+          "descShort": "ラール（聖夜）がダメージを与えた時、敵に射撃を行うソリ砲台を1つ召喚する。\nソリ砲台のダメージが会心発生時、ラール（聖夜）とフィールド上に存在するおもちゃの&Param5&が上昇する。",
+          "descLong": "&Param3&秒ごとにラール（聖夜）がダメージを与えた時、敵に射撃を行うソリ砲台を1つ召喚し、攻撃力の<span style=\"color:#ec6d21\">&Param2&</span>の火属性の従者ダメージを与える。その後の爆発で、範囲内に攻撃力の<span style=\"color:#ec6d21\">&Param4&</span>の火属性の従者ダメージを与える。\nソリ砲台のダメージが会心発生時、&Param7&秒間、ラール（聖夜）とフィールド上に存在するすべてのおもちゃの&Param5&が<span style=\"color:#ec6d21\">&Param6&</span>増加する。",
+          "icons": [
+            "15801_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "火属性ダメージ",
+                "火属性ダメージ",
+                "火属性ダメージ",
+                "火属性ダメージ",
+                "火属性ダメージ",
+                "火属性ダメージ",
+                "火属性ダメージ",
+                "火属性ダメージ",
+                "火属性ダメージ"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "129%",
+                "206%",
+                "283%",
+                "361%",
+                "438%",
+                "515%",
+                "592%",
+                "670%",
+                "747%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "91%",
+                "146%",
+                "201%",
+                "255%",
+                "310%",
+                "365%",
+                "420%",
+                "474%",
+                "529%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "13%",
+                "20%",
+                "28%",
+                "35%",
+                "43%",
+                "50%",
+                "58%",
+                "65%",
+                "73%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515812,
+          "name": "おもちゃの本気",
+          "descShort": "ラール（聖夜）がラール人形に変身している間、射撃と「&Param1&」は<span style=\"color:#6A90EB\">火属性の印</span>を発動させることができる。\nラール（聖夜）の&Param3&が上昇する。",
+          "descLong": "ラール（聖夜）がラール人形に変身している間、射撃と「&Param1&」は<span style=\"color:#6A90EB\">火属性の印</span>を発動させることができる。\nラール（聖夜）の&Param3&が<span style=\"color:#ec6d21\">&Param4&</span>上昇する。",
+          "icons": [
+            "Common_Potential_Fire_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "キャンディ乱射"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515813,
+          "name": "クリスマスのワルツ",
+          "descShort": "ラール（聖夜）の回避の発動可能回数が増加し、&Param2&が上昇する。\n一定時間ごとに、ラール（聖夜）が直接ダメージを受けた時、そのダメージを無効化する。",
+          "descLong": "ラール（聖夜）の回避の発動可能回数が1回増加し、&Param2&が<span style=\"color:#ec6d21\">&Param3&</span>上昇する。\nラール（聖夜）が直接ダメージを受けた時、そのダメージを無効化する。この効果は<span style=\"color:#ec6d21\">&Param1&</span>秒ごとに1回発動する。",
+          "icons": [
+            "Common_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "防御力",
+                "防御力",
+                "防御力",
+                "防御力",
+                "防御力",
+                "防御力",
+                "防御力",
+                "防御力",
+                "防御力"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "39",
+                "52",
+                "65",
+                "78",
+                "91",
+                "105",
+                "118",
+                "131",
+                "144"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "30"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515821,
+          "name": "追い打ちプレゼント",
+          "descShort": "プレゼント砲弾が爆発した後、範囲内の敵にダメージを与え続けるようになる。",
+          "descLong": "プレゼント砲弾が爆発した後、2秒間、0.3秒ごとに範囲内の敵に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の火属性のスキルダメージを与える。",
+          "icons": [
+            "15801_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "37%",
+                "42%",
+                "48%",
+                "64%",
+                "69%",
+                "75%",
+                "85%",
+                "89%",
+                "94%",
+                "103%",
+                "106%",
+                "110%",
+                "114%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515822,
+          "name": "サプライズプレゼント",
+          "descShort": "プレゼント砲弾の与えるスキルダメージが増加し、攻撃範囲が拡大する。\nチーム内の全ての巡遊者が火属性の場合、プレゼント砲弾がダメージを与えた時、その敵が受ける火属性スキルダメージが増加する。",
+          "descLong": "プレゼント砲弾の攻撃範囲が<span style=\"color:#0abec5\">50%</span>拡大し、与えるスキルダメージが<span style=\"color:#0abec5\">&Param5&</span>増加する。\nチーム内の全ての巡遊者が火属性の場合、プレゼント砲弾がダメージを与えた時、&Param3&秒間、その敵が受けるスキルダメージが<span style=\"color:#0abec5\">&Param2&</span>増加する。この効果は<span style=\"color:#0abec5\">&Param4&</span>回まで重複できる。",
+          "icons": [
+            "15801_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "13%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.3%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515823,
+          "name": "合体進化",
+          "descShort": "クルミ大佐を合体させて巻き毛将軍にする。\nチーム内の全ての巡遊者が火属性の場合、巻き毛将軍の&Param3&は時間経過とともに増加する。",
+          "descLong": "フィールド上にクルミ大佐が4体存在する時、1体の巻き毛将軍に合体し、敵に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の火属性の従者ダメージを与える。\n巻き毛将軍は<span style=\"color:#0abec5\">10</span>秒間持続し、同時に1体までしか存在できない。\nチーム内の全ての巡遊者が火属性の場合、1秒ごとに巻き毛将軍の&Param3&が<span style=\"color:#0abec5\">&Param4&</span>増加し、この効果は<span style=\"color:#0abec5\">&Param5&</span>回まで重複できる。",
+          "icons": [
+            "15801_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "従者ダメージ"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "53%",
+                "61%",
+                "69%",
+                "92%",
+                "100%",
+                "107%",
+                "122%",
+                "128%",
+                "135%",
+                "147%",
+                "153%",
+                "158%",
+                "163%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4.5%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515824,
+          "name": "切り札ドール",
+          "descShort": "クルミ大佐と巻き毛将軍は特殊攻撃を習得し、自動的に敵を攻撃する。\n巻き毛将軍の特殊攻撃は、自身の&Param5&を上昇させる。",
+          "descLong": "クルミ大佐と巻き毛将軍は特殊攻撃を習得し、<span style=\"color:#0abec5\">4</span>秒ごとに自動で発動する。\nクルミ大佐：地面を強く叩き、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の火属性の従者ダメージを与える。\n巻き毛将軍：両手の刀を振るい、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param2&x6</span>の火属性の従者ダメージを与え、<span style=\"color:#0abec5\">&Param4&</span>秒間、自身の&Param5&が<span style=\"color:#0abec5\">&Param3&</span>上昇する。",
+          "icons": [
+            "15801_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "従者会心率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "19.6%",
+                "22.6%",
+                "25.5%",
+                "34.3%",
+                "37.1%",
+                "39.8%",
+                "45.3%",
+                "47.7%",
+                "50.1%",
+                "54.8%",
+                "56.7%",
+                "58.7%",
+                "60.7%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "43%",
+                "49%",
+                "55%",
+                "75%",
+                "81%",
+                "87%",
+                "98%",
+                "104%",
+                "109%",
+                "119%",
+                "123%",
+                "127%",
+                "132%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "50%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515825,
+          "name": "ダブルプレゼント",
+          "descShort": "支援スキル「&Param1&」の与える&Param2&と射撃回数が増加する。",
+          "descLong": "ラール（聖夜）の支援スキル「&Param1&」の与える&Param2&が<span style=\"color:#ec6d21\">&Param3&</span>増加し、追加でプレゼント砲弾を2回発射する。",
+          "icons": [
+            "15801_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "プレゼントキャノン"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "スキルダメージ"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "29%",
+                "47%",
+                "65%",
+                "82%",
+                "100%",
+                "117%",
+                "135%",
+                "153%",
+                "170%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515826,
+          "name": "ギフトチャンス",
+          "descShort": "プレゼント砲弾がダメージを与えた時、ラール（聖夜）の&Param1&が増加する。",
+          "descLong": "プレゼント砲弾がダメージを与えた時、&Param3&秒間、ラール（聖夜）の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は&Param4&回まで重複できる。",
+          "icons": [
+            "15801_Potential_22_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "15%",
+                "21%",
+                "26%",
+                "32%",
+                "37%",
+                "40%",
+                "43%",
+                "46%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515827,
+          "name": "プレゼントファイア",
+          "descShort": "<span style=\"color:#6A90EB\">火属性の印</span>が付与された敵に対して、プレゼント砲弾が与える&Param2&が増加する。",
+          "descLong": "<span style=\"color:#6A90EB\">火属性の印</span>が付与された敵に対して、プレゼント砲弾が与える&Param2&が<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
+          "icons": [
+            "15801_Potential_22_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "火属性ダメージ"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "9%",
+                "11%",
+                "13%",
+                "15%",
+                "17%",
+                "19%",
+                "21%",
+                "23%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515828,
+          "name": "追撃ドール",
+          "descShort": "クルミ大佐と巻き毛将軍は、周囲の敵に従者ダメージを与え続けるようになる。",
+          "descLong": "クルミ大佐は1秒ごとに、周囲の敵に攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の火属性の従者ダメージを与える。\n巻き毛将軍は0.5秒ごとに、周囲の敵に攻撃力の<span style=\"color:#ec6d21\">&Param2&</span>の火属性の従者ダメージを与える。",
+          "icons": [
+            "15801_Potential_28_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.1%",
+                "3.3%",
+                "4.5%",
+                "5.8%",
+                "7%",
+                "8.3%",
+                "9.5%",
+                "10.7%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10.6%",
+                "17%",
+                "23.4%",
+                "29.7%",
+                "36.1%",
+                "42.5%",
+                "48.8%",
+                "55.2%",
+                "61.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515829,
+          "name": "姫への忠義",
+          "descShort": "クルミ大佐と巻き毛将軍の持続時間と&Param1&が増加する。",
+          "descLong": "クルミ大佐と巻き毛将軍の持続時間が<span style=\"color:#ec6d21\">50%</span>延長され、&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
+          "icons": [
+            "15801_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "会心ダメージ",
+                "会心ダメージ",
+                "会心ダメージ",
+                "会心ダメージ",
+                "会心ダメージ",
+                "会心ダメージ",
+                "会心ダメージ",
+                "会心ダメージ",
+                "会心ダメージ"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "32%",
+                "52%",
+                "71%",
+                "90%",
+                "109%",
+                "129%",
+                "148%",
+                "167%",
+                "187%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515830,
+          "name": "くるみ割りチャンス",
+          "descShort": "クルミ大佐と巻き毛将軍の&Param1&が上昇する。それぞれがダメージを与えた時、自身の&Param3&が増加する。会心発生時、チーム内の火属性巡遊者の&Param7&が上昇する。",
+          "descLong": "クルミ大佐と巻き毛将軍の&Param1&が&Param2&上昇する。\nそれぞれがダメージを与えた時、&Param5&秒間、自身の&Param3&が<span style=\"color:#ec6d21\">&Param4&</span>増加する。この効果は&Param6&回まで重複できる。\n会心発生時、&Param9&秒間、チーム内の火属性巡遊者の&Param7&が<span style=\"color:#ec6d21\">&Param8&</span>上昇する。この効果は&Param10&回まで重複できる。",
+          "icons": [
+            "15801_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻撃速度"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "35%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 9,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.3%",
+                "4.6%",
+                "4.9%"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515831,
+          "name": "クリスマスの奇跡",
+          "descShort": "ラール（聖夜）が出場するたびに、火属性の主力巡遊者の&Param1&が上昇する。",
+          "descLong": "ラール（聖夜）が出場するたびに、&Param3&秒間、火属性の主力巡遊者の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "45%",
+                "72%",
+                "99%",
+                "126%",
+                "152%",
+                "179%",
+                "193%",
+                "206%",
+                "220%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515832,
+          "name": "キャンディラッシュ",
+          "descShort": "ラール（聖夜）がラール人形に変身している間、自身の&Param1&が上昇し、射撃と「キャンディ乱射」で<span style=\"color:#6A90EB\">火属性の印：聖炎</span>を付与できるようになる。",
+          "descLong": "ラール（聖夜）がラール人形に変身している間、自身の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇し、射撃と「&Param3&」で<span style=\"color:#6A90EB\">火属性の印：聖炎</span>を付与できるようになる。",
+          "icons": [
+            "Common_Potential_Fire_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "67%",
+                "107%",
+                "147%",
+                "187%",
+                "227%",
+                "267%",
+                "277%",
+                "287%",
+                "297%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "キャンディ乱射"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515833,
+          "name": "キャンドルパーティー",
+          "descShort": "チーム内の全ての巡遊者が火属性の場合、プレゼント砲弾がダメージを与えた時、敵の&Param1&が増加する。",
+          "descLong": "チーム内の全ての巡遊者が火属性の場合、プレゼント砲弾がダメージを与えた時、&Param3&秒間、敵の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "火属性被ダメージ",
+                "火属性被ダメージ",
+                "火属性被ダメージ",
+                "火属性被ダメージ",
+                "火属性被ダメージ",
+                "火属性被ダメージ",
+                "火属性被ダメージ",
+                "火属性被ダメージ",
+                "火属性被ダメージ"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515841,
+          "name": "お仕置きキャンディ",
+          "descShort": "ラール（聖夜）がラール人形に変身している間、「&Param1&」を発動した時、自身の&Param2&が増加する。",
+          "descLong": "ラール（聖夜）がラール人形に変身している間、「&Param1&」を発動した時、&Param4&秒間、自身の&Param2&が<span style=\"color:#ec6d21\">&Param3&</span>増加する。",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "キャンディ乱射"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "61%",
+                "98%",
+                "134%",
+                "171%",
+                "207%",
+                "244%",
+                "256%",
+                "268%",
+                "281%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515842,
+          "name": "クリスマスの守護者",
+          "descShort": "ラール（聖夜）がラール人形に変身している間、「&Param1&」でダメージを与えた時、自身の&Param2&が増加する。",
+          "descLong": "ラール（聖夜）がラール人形に変身している間、「&Param1&」でダメージを与えた時、&Param4&秒間、自身の&Param2&が<span style=\"color:#ec6d21\">&Param3&</span>増加する。\nこの効果は&Param5&回まで重複でき、次の「&Param1&」発動時にリセットされる。",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "キャンディ乱射"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "13%",
+                "17%",
+                "20%",
+                "23%",
+                "27%",
+                "29%",
+                "31%",
+                "33%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515843,
+          "name": "おもちゃの軍団",
+          "descShort": "ラール（聖夜）がラール人形に変身している間、チーム内の火属性巡遊者の&Param1&が時間経過とともに上昇する。",
+          "descLong": "ラール（聖夜）がラール人形に変身している間、1秒ごとに、チーム内の火属性巡遊者の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。この効果は&Param4&回まで重複でき、変身終了時にリセットされる。",
+          "icons": [
+            "15801_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14%",
+                "19%",
+                "24%",
+                "30%",
+                "35%",
+                "36%",
+                "38%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "discs": [
@@ -35352,13 +36903,13 @@
     },
     {
       "id": 214001,
-      "name": "在し日の記憶",
+      "name": "在りし日の記憶",
       "desc": "人間というのは孤独な生き物だ。\r\n戦っている時にだけ、自らの生を実感することができる。\r\n銃を構えているときは、けっして相手から目を逸らしてはいけない。",
       "element": 2,
       "rarity": 1,
       "skills": [
         {
-          "name": "在し日の記憶",
+          "name": "在りし日の記憶",
           "desc": "チーム全体の火属性ダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。\n火属性の主力巡遊者のスキル発動後の&Param3&秒間、チーム内の火属性巡遊者の攻撃力が&Param2&上昇する。さらに、火属性の主力巡遊者は炎の鎧を獲得し、&Param5&秒間、被ダメージが&Param4&減少する。",
           "params": [
             {
@@ -40628,7 +42179,7 @@
         },
         {
           "name": "昼と夜の交わる時間",
-          "desc": "チーム内の光属性巡遊者のスキルダメージを与えた時、光属性の主力巡遊者は回折を1獲得する。回折は&Param1&まで保持できる。\n光属性の主力巡遊者のスキル発動時、回折の数がリセットされ、&Param3&秒間、チーム内の光属性巡遊者のスキルダメージが回折の数*<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
+          "desc": "チーム内の光属性巡遊者のスキルダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。\nチーム内の光属性巡遊者のスキル発動時から&Param3&秒間、追加で<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は&Param4&回重複できる。",
           "params": [
             {
               "idx": 1,
@@ -40658,6 +42209,21 @@
                 "3%",
                 "4%",
                 "5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "?",
+                null,
+                "?",
+                null,
+                "?",
+                null,
+                "?",
+                null,
+                "?",
+                null
               ]
             }
           ],
@@ -40872,6 +42438,339 @@
         }
       ],
       "bg": 4040
+    },
+    {
+      "id": 214041,
+      "name": "ジングルラール",
+      "desc": "走れ人形　朝日に向けて　雪のなかを走れ走れ\r\nプレゼントたくさんのせて\r\n子どもたちのためひた走れ！\r\n……ソリをひくのはトナカイの役目では？",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "ジングルラール",
+          "desc": "チーム内の火属性巡遊者の攻撃力が<span style=\"color:#ec6d21\">&Param1&</span>上昇する。\n火属性の支援巡遊者の従者がフィールド上にいる時、チーム内の火属性巡遊者が召喚した従者の与える従者ダメージが<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "9.6%",
+                "11.2%",
+                "12.8%",
+                "14.4%",
+                "16%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "寒さをぶっ飛ばせ",
+          "desc": "火属性巡遊者のスキルダメージが<span style=\"color:#ec6d21\">&Param1&</span>上昇する。\n火属性の支援巡遊者の従者ダメージが<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "鈴の音を響かせて",
+          "desc": "火属性巡遊者の従者が2体以上フィールド上にいる時、チーム内の火属性巡遊者が与える必殺技ダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "12%",
+                "24%",
+                "36%",
+                "48%",
+                "60%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4041
+    },
+    {
+      "id": 214048,
+      "name": "メリーサプライズ",
+      "desc": "冬の夜風がささやかな祈りを運び\r\n真夜中の鐘の音が眠る街に響くとき\r\nあたたかな祝福ときらめくプレゼントを携えて\r\nクリスマスの使者はふわりと空に現れた\r\n「メリークリスマス！この贈り物をあなたに！」",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "メリーサプライズ",
+          "desc": "チーム全体の火属性ダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。\nチーム内の火属性巡遊者がスキルダメージを与えた時から&Param2&秒間、敵に<span style=\"color:#6A90EB\">賛歌</span>を付与する。\n賛歌は讃美歌に変化する場合がある。\n讃美歌：&Param4&秒間、火属性被ダメージが<span style=\"color:#ec6d21\">&Param3&</span>増加する。この効果は&Param5&回まで重複できる。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "24%",
+                "28%",
+                "32%",
+                "36%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25",
+                "12.25"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "18",
+                "18",
+                "18",
+                "18",
+                "18",
+                "18"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%",
+                "1.8%",
+                "2%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "ポテトキングダム",
+          "desc": "讃美歌に追加効果が付与される：受ける火属性スキルダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。\n<span style=\"color:#6A90EB\">賛歌</span>が讃美歌に変化した時から&Param3&秒間、チーム内の火属性巡遊者のスキルダメージが<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は&Param4&回まで重複できる。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "0.5%",
+                "0.6%",
+                "0.7%",
+                "0.8%",
+                "0.9%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "聖なる夜に",
+          "desc": "<span style=\"color:#6A90EB\">賛歌</span>に追加効果が付与される：敵の攻撃力を<span style=\"color:#ec6d21\">&Param1&</span>低下させる。\nチーム内の火属性巡遊者が賛歌が付与された敵に与える必殺技ダメージが<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "40%",
+                "60%",
+                "80%",
+                "100%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4048
     }
   ]
 }
