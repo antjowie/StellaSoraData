@@ -20973,7 +20973,7 @@
         {
           "id": 513405,
           "name": "Pyro Mark",
-          "descShort": "Fiery Punches and Magma Burst deals increased &Param2& and can trigger ##Ignis Mark1016#.",
+          "descShort": "Fiery Punches and Magma Burst deals increased &Param2& and can trigger <span style=\"color:#6A90EB\">Ignis Mark</span>.",
           "descLong": "Increases the &Param2& dealt by Fiery Punches and Magma Burst by <span style=\"color:#ec6d21\">&Param1&</span>, and allows them to trigger <span style=\"color:#6A90EB\">Ignis Mark</span>.",
           "icons": [
             "13401_Potential_01_A",
