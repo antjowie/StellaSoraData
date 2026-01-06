@@ -34345,7 +34345,7 @@
         {
           "id": 515832,
           "name": "화약 난무",
-          "descShort": "「라루 경」으로 변신한 기간 중, 자신의 &Param1& 증가하고, 총기와 스킬이 <span style=\"color:#6A90EB\">불 속성 표식: 성염</span>을 부여할 수 있다.",
+          "descShort": "「라루 경」으로 변신한 기간 중, 자신의 &Param1& 증가하고, 총기 사격과 스킬이 <span style=\"color:#6A90EB\">불 속성 표식: 성염</span>을 부여할 수 있다.",
           "descLong": "라루(이브)가 「라루 경」으로 변신한 기간 중, 자신의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가하고, 총기 사격과 스킬 &Param3& <span style=\"color:#6A90EB\">불 속성 표식: 성염</span>을 부여할 수 있다.",
           "icons": [
             "Common_Potential_Fire_1_A",

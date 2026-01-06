@@ -34345,7 +34345,7 @@
         {
           "id": 515832,
           "name": "火藥紛飛",
-          "descShort": "變身為「菈露爵士」期間，提升自身&Param1&，且槍械和技能可附加<span style=\"color:#6A90EB\">火系印記：聖焰</span>。",
+          "descShort": "變身為「菈露爵士」期間，提升自身&Param1&，且槍械射擊和技能可附加<span style=\"color:#6A90EB\">火系印記：聖焰</span>。",
           "descLong": "聖夜菈露變身為「菈露爵士」期間，自身&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，且槍械射擊和技能「&Param3&」可附加<span style=\"color:#6A90EB\">火系印記：聖焰</span>。",
           "icons": [
             "Common_Potential_Fire_1_A",
