@@ -3804,6 +3804,1244 @@
       ]
     },
     {
+      "id": 110,
+      "name": "Firenze",
+      "class": 1,
+      "element": 6,
+      "rarity": 1,
+      "mainBuild1Name": "Firenze: Main Build 1",
+      "mainBuild1Desc": "A build that enhances combat mobility and skill activation frequency.",
+      "mainBuild2Name": "Firenze: Main Build 2",
+      "mainBuild2Desc": "A summoner build that enhances clone capabilities and attack synergy.",
+      "supportBuild1Name": "Firenze: Support Build 1",
+      "supportBuild1Desc": "A build that amplifies skill activation effects and boosts sustained DPS at the target's location.",
+      "supportBuild2Name": "Firenze: Support Build 2",
+      "supportBuild2Desc": "A build that empowers clones summoned via skills, increasing their numbers and duration.",
+      "potentials": [
+        {
+          "id": 511001,
+          "name": "Step Kicking",
+          "descShort": "The Main Skill deals additional damage.",
+          "descLong": "When casting Elegant Parade (Main Skill), Firenze deals an additional <span style=\"color:#0abec5\">&Param1& x3</span> of ATK as AoE Umbra Skill DMG.",
+          "icons": [
+            "11001_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "55%",
+                "63%",
+                "71%",
+                "95%",
+                "103%",
+                "111%",
+                "126%",
+                "133%",
+                "139%",
+                "152%",
+                "163%",
+                "174%",
+                "185%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511002,
+          "name": "Nimble Step",
+          "descShort": "When Firenze's Main Skill deals DMG for a certain number of times, she creates a domain that deals continuous AoE DMG and boosts her &Param3&.",
+          "descLong": "After Firenze's Elegant Parade (Main Skill) deals DMG <span style=\"color:#0abec5\">6</span> times, it creates a domain for &Param1&s, dealing <span style=\"color:#0abec5\">&Param2&</span> of ATK as AoE Umbra Skill DMG every 0.5s and increases Firenze's &Param3& by <span style=\"color:#0abec5\">&Param4&</span>. The domain's DMG can trigger <span style=\"color:#6A90EB\">Umbra Mark</span>.",
+          "icons": [
+            "11001_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "67%",
+                "77%",
+                "87%",
+                "118%",
+                "127%",
+                "137%",
+                "155%",
+                "164%",
+                "172%",
+                "188%",
+                "201%",
+                "215%",
+                "228%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511003,
+          "name": "Phantom Waltz",
+          "descShort": "Firenze automatically summons <span style=\"color:#6A90EB\">Shadow Clones</span>. When casting the Main Skill, increases the number of <span style=\"color:#6A90EB\">Shadow Clones</span> summoned.",
+          "descLong": "Firenze generates <span style=\"color:#0abec5\">1</span> <span style=\"color:#6A90EB\">Shadow Clone</span> every <span style=\"color:#0abec5\">5</span>s.\nWhen casting Elegant Parade (Main Skill), increases the number of <span style=\"color:#6A90EB\">Shadow Clones</span> summoned by <span style=\"color:#0abec5\">&Param1&</span>.",
+          "icons": [
+            "11001_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511004,
+          "name": "Shadow Step",
+          "descShort": "Upon vanishing, Firenze's <span style=\"color:#6A90EB\">Shadow Clones</span> will explode, dealing AoE DMG. The max limit of <span style=\"color:#6A90EB\">Shadow Clones</span> increases for every other Umbra Trekker in the squad.",
+          "descLong": "Upon vanishing, Firenze's <span style=\"color:#6A90EB\">Shadow Clones</span> will explode, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Umbra Minion DMG.\nThe max limit of <span style=\"color:#6A90EB\">Shadow Clones</span> increases by <span style=\"color:#0abec5\">&Param2&</span> for every other Umbra Trekker in the squad.",
+          "icons": [
+            "11001_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "117%",
+                "135%",
+                "152%",
+                "205%",
+                "221%",
+                "238%",
+                "271%",
+                "285%",
+                "299%",
+                "327%",
+                "350%",
+                "374%",
+                "397%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511005,
+          "name": "High Risk",
+          "descShort": "When Firenze deals Skill DMG, there is a chance to deal additional DMG.",
+          "descLong": "When Firenze deals Skill DMG, there is a &Param2& chance to deal an additional <span style=\"color:#ec6d21\">&Param1&</span> of ATK as Umbra Skill DMG. The chance is increased to &Param3& if the target is inflicted with <span style=\"color:#6A90EB\">Umbra Burn</span>. This effect can only be triggered &Param4& times every second.",
+          "icons": [
+            "11001_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "40%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "64%",
+                "103%",
+                "141%",
+                "180%",
+                "218%",
+                "256%",
+                "295%",
+                "333%",
+                "372%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "80%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511006,
+          "name": "Dark Pirouette",
+          "descShort": "When Firenze triggers an <span style=\"color:#6A90EB\">Umbra Mark</span>, increases &Param1&.",
+          "descLong": "When Firenze triggers an <span style=\"color:#6A90EB\">Umbra Mark</span>, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "11001_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511007,
+          "name": "Flash Break",
+          "descShort": "When Firenze deals DMG with an Auto Attack, increases her &Param1&. The effect ends if the Main Skill is cast.",
+          "descLong": "When Firenze deals DMG with an Auto Attack, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to <span style=\"color:#ec6d21\">&Param4&</span> times. The effect ends if Elegant Parade (Main Skill) is cast.",
+          "icons": [
+            "11001_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6%",
+                "9%",
+                "11%",
+                "13%",
+                "15%",
+                "18%",
+                "20%",
+                "22%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511008,
+          "name": "Gloomy Veil",
+          "descShort": "Increases <span style=\"color:#6A90EB\">Shadow Clone</span>'s max limit and &Param2&.",
+          "descLong": "Increases <span style=\"color:#6A90EB\">Shadow Clone</span>'s max limit by &Param1& and &Param2& by <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "icons": [
+            "11001_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14%",
+                "22%",
+                "31%",
+                "39%",
+                "47%",
+                "55%",
+                "64%",
+                "72%",
+                "80%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511009,
+          "name": "Extended Shift",
+          "descShort": "Firenze's <span style=\"color:#6A90EB\">Shadow Clone</span> lasts longer on the battlefield. Also increases &Param2&.",
+          "descLong": "Firenze's <span style=\"color:#6A90EB\">Shadow Clone</span> lasts <span style=\"color:#ec6d21\">&Param1&</span>s longer on the battlefield. Also increases &Param2& by <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "icons": [
+            "11001_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "3",
+                "3",
+                "3",
+                "4"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "19%",
+                "31%",
+                "43%",
+                "54%",
+                "66%",
+                "77%",
+                "89%",
+                "101%",
+                "112%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511010,
+          "name": "Accurate Coincidence",
+          "descShort": "After Firenze casts the Main Skill, her next Auto Attack starts with the 4th strike. Also increases <span style=\"color:#6A90EB\">Shadow Clone</span>'s &Param1&.",
+          "descLong": "After Firenze casts Elegant Parade (Main Skill), her next Auto Attack directly casts the last strike.\nAlso increases <span style=\"color:#6A90EB\">Shadow Clone</span>'s &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "11001_Potential_03_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13%",
+                "20%",
+                "28%",
+                "35%",
+                "43%",
+                "50%",
+                "58%",
+                "65%",
+                "73%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511011,
+          "name": "Hunting Command",
+          "descShort": "Each Umbra Trekker in the squad increases Firenze's &Param1&.",
+          "descLong": "For each Umbra Trekker in the squad, increases Firenze's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "11001_Potential_04_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7%",
+                "11%",
+                "15%",
+                "19%",
+                "23%",
+                "27%",
+                "31%",
+                "35%",
+                "39%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511012,
+          "name": "Clone Trick",
+          "descShort": "Firenze can dodge through barriers. Increases <span style=\"color:#6A90EB\">Shadow Clone</span>'s DMG.",
+          "descLong": "Firenze can dodge through barriers.\nIncreases <span style=\"color:#6A90EB\">Shadow Clone</span>'s &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "11001_Potential_04_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "17%",
+                "22%",
+                "27%",
+                "31%",
+                "36%",
+                "41%",
+                "46%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511013,
+          "name": "Announcement Time",
+          "descShort": "Firenze can dodge one more time. Increases her &Param3& when dodging.",
+          "descLong": "Firenze can dodge one more time.\nWhen dodging, increases Firenze's &Param3& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.",
+          "icons": [
+            "11001_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "6%",
+                "9%",
+                "11%",
+                "13%",
+                "15%",
+                "18%",
+                "20%",
+                "22%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511021,
+          "name": "Shadow Nail",
+          "descShort": "The cane stays in the ground for a period of time, dealing DMG over time.",
+          "descLong": "The cane stays in the ground for 6s, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Umbra Skill DMG per second.",
+          "icons": [
+            "11001_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "35%",
+                "40%",
+                "45%",
+                "61%",
+                "65%",
+                "70%",
+                "80%",
+                "84%",
+                "88%",
+                "96%",
+                "103%",
+                "110%",
+                "117%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511022,
+          "name": "Shadow Flicker",
+          "descShort": "When the cane disappears, triggers an explosion, dealing AoE DMG.",
+          "descLong": "When the cane disappears, triggers an explosion, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Umbra Skill DMG.",
+          "icons": [
+            "11001_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "108%",
+                "124%",
+                "141%",
+                "189%",
+                "204%",
+                "220%",
+                "250%",
+                "263%",
+                "276%",
+                "302%",
+                "323%",
+                "345%",
+                "367%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511023,
+          "name": "Twin Shadow",
+          "descShort": "Increases the max limit and the number summoned of <span style=\"color:#6A90EB\">Shadow Clones</span> by Support Skills.",
+          "descLong": "Reign of Night (Support Skill) summons <span style=\"color:#0abec5\">2</span> more <span style=\"color:#6A90EB\">Shadow Clones</span>, with the max limit increased by <span style=\"color:#0abec5\">&Param1&</span>.",
+          "icons": [
+            "11001_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511024,
+          "name": "Shadownight Descendant",
+          "descShort": "The <span style=\"color:#6A90EB\">Shadow Clones</span> summoned by the Support Skill will last longer on the battlefield.",
+          "descLong": "The <span style=\"color:#6A90EB\">Shadow Clones</span> summoned by Reign of Night (Support Skill) will last <span style=\"color:#0abec5\">5</span>s longer on the battlefield.",
+          "icons": [
+            "11001_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": []
+        },
+        {
+          "id": 511025,
+          "name": "Drinking Party",
+          "descShort": "When cane DMG triggers an <span style=\"color:#6A90EB\">Umbra Mark</span>, reduces Support Skill Cooldown. Also increases the cane's DMG.",
+          "descLong": "When cane DMG triggers an <span style=\"color:#6A90EB\">Umbra Mark</span>, reduces Reign of Night (Support Skill)'s Cooldown by &Param3&s. This effect can only be triggered &Param4& times per cast.\nAlso increases DMG dealt by the cane by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "icons": [
+            "11001_Potential_21_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511026,
+          "name": "Typical Case",
+          "descShort": "Increases the cane's Umbra DMG to targets inflicted with <span style=\"color:#6A90EB\">Dark Burn</span>.",
+          "descLong": "Increases the cane's Umbra DMG to targets inflicted with <span style=\"color:#6A90EB\">Dark Burn</span> by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "icons": [
+            "11001_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511027,
+          "name": "Joyous Whip",
+          "descShort": "When the cane deals DMG, increases Firenze's &Param3&.",
+          "descLong": "When the cane deals DMG, increases Firenze's &Param3& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, up to &Param4& stacks.",
+          "icons": [
+            "11001_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "4%",
+                "6%",
+                "8%",
+                "9%",
+                "11%",
+                "12%",
+                "14%",
+                "16%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511028,
+          "name": "Step Sync",
+          "descShort": "Increases <span style=\"color:#6A90EB\">Shadow Clone</span>'s &Param3&. Reduces the intervals between their sprint attacks.",
+          "descLong": "Increases <span style=\"color:#6A90EB\">Shadow Clone</span>'s &Param3& by <span style=\"color:#ec6d21\">&Param2&</span>. Reduces the intervals between their sprint attacks by <span style=\"color:#ec6d21\">&Param1&%</span>.",
+          "icons": [
+            "11001_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "9%",
+                "12%",
+                "15%",
+                "18%",
+                "21%",
+                "25%",
+                "28%",
+                "31%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10",
+                "10",
+                "20",
+                "20",
+                "20",
+                "30",
+                "30",
+                "30",
+                "40"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511029,
+          "name": "Dark Resurgence",
+          "descShort": "Upon vanishing, Firenze's <span style=\"color:#6A90EB\">Shadow Clones</span> will explode, dealing AoE DMG.",
+          "descLong": "Upon vanishing, <span style=\"color:#6A90EB\">Shadow Clones</span> will explode, dealing <span style=\"color:#ec6d21\">&Param1&</span> of ATK as AoE Umbra Minion DMG.",
+          "icons": [
+            "11001_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "35%",
+                "55%",
+                "76%",
+                "97%",
+                "118%",
+                "138%",
+                "159%",
+                "180%",
+                "201%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511030,
+          "name": "Flexible Operation",
+          "descShort": "When a <span style=\"color:#6A90EB\">Shadow Clone</span> deals DMG, increases all <span style=\"color:#6A90EB\">Shadow Clones</span>' &Param3& on the battlefield.",
+          "descLong": "When a <span style=\"color:#6A90EB\">Shadow Clone</span> deals damage, increases all present <span style=\"color:#6A90EB\">Shadow Clones</span>' &Param3& by <span style=\"color:#ec6d21\">&Param1&</span>, up to &Param4& stacks.",
+          "icons": [
+            "11001_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "2.9%",
+                "4.6%",
+                "6.3%",
+                "8%",
+                "9.7%",
+                "11.4%",
+                "13.1%",
+                "14.8%",
+                "16.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511031,
+          "name": "Shadow Waltz",
+          "descShort": "Increases <span style=\"color:#6A90EB\">Shadow Clone</span>'s DMG.",
+          "descLong": "Increases <span style=\"color:#6A90EB\">Shadow Clone</span>'s &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "icons": [
+            "11001_Potential_24_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "18%",
+                "28%",
+                "39%",
+                "49%",
+                "60%",
+                "70%",
+                "81%",
+                "91%",
+                "102%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511032,
+          "name": "Prime Stance",
+          "descShort": "Increases Firenze's &Param2&.",
+          "descLong": "Increases Firenze's &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "icons": [
+            "11001_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "16%",
+                "26%",
+                "36%",
+                "46%",
+                "56%",
+                "65%",
+                "75%",
+                "85%",
+                "95%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511033,
+          "name": "Special Care",
+          "descShort": "Increases all Umbra Trekkers' &Param2&.",
+          "descLong": "Increases all Umbra Trekkers' &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "icons": [
+            "11001_Potential_24_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "11%",
+                "17%",
+                "23%",
+                "29%",
+                "36%",
+                "42%",
+                "48%",
+                "55%",
+                "61%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511041,
+          "name": "Instant Liquidation",
+          "descShort": "When Firenze casts her Ultimate, each <span style=\"color:#6A90EB\">Shadow Clone</span> on the battlefield increases her Ultimate DMG.",
+          "descLong": "Firenze absorbs all <span style=\"color:#6A90EB\">Shadow Clones</span> when casting Personal Tuition (Ultimate). Each <span style=\"color:#6A90EB\">Shadow Clone</span> absorbed increases Ultimate DMG by <span style=\"color:#ec6d21\">&Param1&</span>, up to &Param2& stacks.",
+          "icons": [
+            "11001_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "35%",
+                "55%",
+                "76%",
+                "97%",
+                "117%",
+                "138%",
+                "159%",
+                "179%",
+                "200%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511042,
+          "name": "Instant Peak",
+          "descShort": "When Firenze deals DMG, increases &Param1&.",
+          "descLong": "When Firenze deals DMG, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "11001_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "7%",
+                "8%",
+                "10%",
+                "11%",
+                "13%",
+                "15%",
+                "16%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511043,
+          "name": "Place Your Bets",
+          "descShort": "When Firenze triggers an <span style=\"color:#6A90EB\">Umbra Mark</span>, increases &Param1&.",
+          "descLong": "When Firenze triggers an <span style=\"color:#6A90EB\">Umbra Mark</span>, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks. The effect ends if Personal Tuition (Ultimate) is cast.",
+          "icons": [
+            "11001_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "17%",
+                "28%",
+                "38%",
+                "49%",
+                "59%",
+                "69%",
+                "80%",
+                "90%",
+                "101%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 111,
       "name": "Iris",
       "class": 2,
@@ -37973,6 +39211,186 @@
       "bg": 4002
     },
     {
+      "id": 214004,
+      "name": "Wisteria Dream",
+      "desc": "Look who's here—two little soft kittens on my knee?\nAfternoon tea time stretches far.\nSleep soundly. Let purple wisteria shade your beautiful dreams.",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Wisteria Dream",
+          "desc": "Increases the squad's Umbra DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Umbra Trekker summons a Minion, the main Umbra Trekker gains 1 stack of Reverence for &Param2&s, stacking up to &Param3& times. When the main Umbra Trekker summons a Minion, every stack of Reverence increases the Minion's DMG by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.\nWhen the main Umbra Trekker has Reverence, the Umbra Minion inflicts the following effects on the target when dealing DMG: increases Umbra Minion DMG taken by <span style=\"color:#ec6d21\">&Param6&</span> for &Param7&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7",
+                "7",
+                "7",
+                "7",
+                "7",
+                "7"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "2.5%",
+                "3%",
+                "3.5%",
+                "4%",
+                "4.5%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Graceful Essence",
+          "desc": "When the main Umbra Trekker has Reverence, increases the Ultimate DMG of Umbra Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "40%",
+                "60%",
+                "80%",
+                "100%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Graceful Poise",
+          "desc": "Reverence gains an additional effect: Each stack increases the main Umbra Trekker's Skill DMG by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "7.5%",
+                "10%",
+                "12.5%",
+                "15%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4004
+    },
+    {
       "id": 214005,
       "name": "Sunlit Blossom",
       "desc": "The blossoms drift in rainy haze,\nThat flowered in bright sunny days.\nA rainbow's gleam within my hand—\nCould such beauty ever stay?",
@@ -43273,6 +44691,162 @@
         }
       ],
       "bg": 4041
+    },
+    {
+      "id": 214043,
+      "name": "The Bud of Change",
+      "desc": "Beneath the soil steeped in conspiracy and intrigue,\nWatchful, calculating gazes interweave.\nSomething is struggling to break through the earth.",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "The Bud of Change",
+          "desc": "Increases DMG of Umbra Trekkers' Minions by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen the main Umbra Trekker summons a Minion, increases the Minion's DMG by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "14.4%",
+                "16.8%",
+                "19.2%",
+                "21.6%",
+                "24%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Shadow Mastermind",
+          "desc": "When any Umbra Trekker triggers a Mark that inflicts <span style=\"color:#6A90EB\">Dark Burn</span>, increases their minions' Minion DMG by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "12%",
+                "18%",
+                "24%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Growing Ambition",
+          "desc": "Increases the Skill DMG dealt to targets inflicted with <span style=\"color:#6A90EB\">Dark Burn</span> by the main Umbra Trekker by <span style=\"color:#ec6d21\">&Param1&</span>.\nIncreases the Minion DMG dealt to targets inflicted with <span style=\"color:#6A90EB\">Dark Burn</span> by the main Umbra Trekker's minions by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4043
     },
     {
       "id": 214048,

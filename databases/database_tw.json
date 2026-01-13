@@ -3804,6 +3804,1230 @@
       ]
     },
     {
+      "id": 110,
+      "name": "Firenze",
+      "class": 1,
+      "element": 6,
+      "rarity": 1,
+      "mainBuild1Name": "翡冷翠主控流派1",
+      "mainBuild1Desc": "提升戰鬥靈活性與技能發動頻率的打擊流派。",
+      "mainBuild2Name": "翡冷翠主控流派2",
+      "mainBuild2Desc": "增強分身能力與協同攻擊的召喚流派。",
+      "supportBuild1Name": "翡冷翠援護流派1",
+      "supportBuild1Desc": "增強技能發動特效，提升原地持續輸出能力的流派。",
+      "supportBuild2Name": "翡冷翠援護流派2",
+      "supportBuild2Desc": "增強技能召喚出的分身，提升分身數量與持續時間的流派。",
+      "potentials": [
+        {
+          "id": 511001,
+          "name": "踢踏步",
+          "descShort": "主控技造成額外傷害。",
+          "descLong": "施放主控技「淑影漫舞」時，翡冷翠可額外造成攻擊力<span style=\"color:#0abec5\">&Param1&x3</span>的範圍暗系技能傷害。",
+          "icons": [
+            "11001_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "55%",
+                "63%",
+                "71%",
+                "95%",
+                "103%",
+                "111%",
+                "126%",
+                "133%",
+                "139%",
+                "152%",
+                "163%",
+                "174%",
+                "185%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511002,
+          "name": "靈動步",
+          "descShort": "翡冷翠施放主控技累計造成一定傷害次數時產生領域，持續造成範圍傷害並提升翡冷翠&Param3&。",
+          "descLong": "翡冷翠施放主控技「淑影漫舞」累計造成<span style=\"color:#0abec5\">6</span>次傷害時產生領域，持續&Param1&秒。領域持續期間，每0.5秒造成攻擊力<span style=\"color:#0abec5\">&Param2&</span>範圍暗系技能傷害，並使翡冷翠的&Param3&提升<span style=\"color:#0abec5\">&Param4&</span>。領域的傷害可觸發<span style=\"color:#6A90EB\">暗系印記</span>。",
+          "icons": [
+            "11001_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "67%",
+                "77%",
+                "87%",
+                "118%",
+                "127%",
+                "137%",
+                "155%",
+                "164%",
+                "172%",
+                "188%",
+                "201%",
+                "215%",
+                "228%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511003,
+          "name": "幻舞步",
+          "descShort": "翡冷翠自動產生<span style=\"color:#6A90EB\">暗影分身</span>。施放主控技召喚<span style=\"color:#6A90EB\">暗影分身</span>數量增加。",
+          "descLong": "翡冷翠每<span style=\"color:#0abec5\">5</span>秒產生<span style=\"color:#0abec5\">1</span>個<span style=\"color:#6A90EB\">暗影分身</span>。\n施放主控技「淑影漫舞」時，召喚<span style=\"color:#6A90EB\">暗影分身</span>數量增加<span style=\"color:#0abec5\">&Param1&</span>個。",
+          "icons": [
+            "11001_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511004,
+          "name": "疊影步",
+          "descShort": "翡冷翠的<span style=\"color:#6A90EB\">暗影分身</span>消失時自爆造成範圍傷害。隊伍中其他暗系角色提升翡冷翠<span style=\"color:#6A90EB\">暗影分身</span>的數量上限。",
+          "descLong": "翡冷翠的<span style=\"color:#6A90EB\">暗影分身</span>消失時自爆，造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>範圍暗系僕從傷害。\n隊伍中每1名其他暗系角色，使翡冷翠的<span style=\"color:#6A90EB\">暗影分身</span>數量上限增加<span style=\"color:#0abec5\">&Param2&</span>個。",
+          "icons": [
+            "11001_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "117%",
+                "135%",
+                "152%",
+                "205%",
+                "221%",
+                "238%",
+                "271%",
+                "285%",
+                "299%",
+                "327%",
+                "350%",
+                "374%",
+                "397%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511005,
+          "name": "高度風險",
+          "descShort": "翡冷翠造成技能傷害時，有一定機率造成額外傷害。",
+          "descLong": "翡冷翠造成傷害時，有&Param2&機率額外造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的暗系技能傷害，對附帶<span style=\"color:#6A90EB\">暗灼</span>的目標，機率提升至&Param3&。此效果每秒最多觸發&Param4&次。",
+          "icons": [
+            "11001_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "40%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "64%",
+                "103%",
+                "141%",
+                "180%",
+                "218%",
+                "256%",
+                "295%",
+                "333%",
+                "372%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "80%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511006,
+          "name": "暗徑旋舞",
+          "descShort": "翡冷翠觸發<span style=\"color:#6A90EB\">暗系印記</span>時，提升&Param1&。",
+          "descLong": "翡冷翠觸發<span style=\"color:#6A90EB\">暗系印記</span>時，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "11001_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511007,
+          "name": "瞬影斷迷",
+          "descShort": "翡冷翠普攻造成傷害時，提升&Param1&。施放主控技後此效果提前結束。",
+          "descLong": "翡冷翠普攻造成傷害時，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加<span style=\"color:#ec6d21\">&Param4&</span>層。施放主控技「淑影漫舞」後，此效果提前結束。",
+          "icons": [
+            "11001_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6%",
+                "9%",
+                "11%",
+                "13%",
+                "15%",
+                "18%",
+                "20%",
+                "22%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511008,
+          "name": "愁雲慘霧",
+          "descShort": "提升翡冷翠<span style=\"color:#6A90EB\">暗影分身</span>的數量上限和&Param2&。",
+          "descLong": "翡冷翠<span style=\"color:#6A90EB\">暗影分身</span>的數量上限增加&Param1&個，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "icons": [
+            "11001_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14%",
+                "22%",
+                "31%",
+                "39%",
+                "47%",
+                "55%",
+                "64%",
+                "72%",
+                "80%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511009,
+          "name": "延時駐場",
+          "descShort": "翡冷翠的<span style=\"color:#6A90EB\">暗影分身</span>存在時間延長，提升&Param2&。",
+          "descLong": "翡冷翠的<span style=\"color:#6A90EB\">暗影分身</span>存在時間延長<span style=\"color:#ec6d21\">&Param1&</span>秒，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "icons": [
+            "11001_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "3",
+                "3",
+                "3",
+                "4"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "19%",
+                "31%",
+                "43%",
+                "54%",
+                "66%",
+                "77%",
+                "89%",
+                "101%",
+                "112%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511010,
+          "name": "精準巧合",
+          "descShort": "施放主控技後，下次普攻直接施放最後一段。提升<span style=\"color:#6A90EB\">暗影分身</span>&Param1&。",
+          "descLong": "施放主控技「淑影漫舞」後，下次普攻直接施放最後一段。\n<span style=\"color:#6A90EB\">暗影分身</span>的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "11001_Potential_03_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13%",
+                "20%",
+                "28%",
+                "35%",
+                "43%",
+                "50%",
+                "58%",
+                "65%",
+                "73%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511011,
+          "name": "追獵指令",
+          "descShort": "隊伍中每名暗系角色提升翡冷翠&Param1&。",
+          "descLong": "隊伍中每存在1名暗系角色，翡冷翠的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "11001_Potential_04_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7%",
+                "11%",
+                "15%",
+                "19%",
+                "23%",
+                "27%",
+                "31%",
+                "35%",
+                "39%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511012,
+          "name": "分身有術",
+          "descShort": "翡冷翠閃避可穿越地形。提升<span style=\"color:#6A90EB\">暗影分身</span>的傷害。",
+          "descLong": "翡冷翠閃避可穿越地形。\n<span style=\"color:#6A90EB\">暗影分身</span>的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "11001_Potential_04_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "17%",
+                "22%",
+                "27%",
+                "31%",
+                "36%",
+                "41%",
+                "46%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511013,
+          "name": "通告時刻",
+          "descShort": "翡冷翠閃避次數增加。閃避時提升&Param3&。",
+          "descLong": "翡冷翠閃避次數提升1次。\n閃避時，翡冷翠&Param3&提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒。",
+          "icons": [
+            "11001_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "6%",
+                "9%",
+                "11%",
+                "13%",
+                "15%",
+                "18%",
+                "20%",
+                "22%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511021,
+          "name": "影暗釘",
+          "descShort": "手杖插地一段時間，持續造成傷害。",
+          "descLong": "手杖插地，每秒造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍暗系技能傷害，持續6秒。",
+          "icons": [
+            "11001_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "35%",
+                "40%",
+                "45%",
+                "61%",
+                "65%",
+                "70%",
+                "80%",
+                "84%",
+                "88%",
+                "96%",
+                "103%",
+                "110%",
+                "117%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511022,
+          "name": "影燃燭",
+          "descShort": "手杖消失時產生爆炸，造成範圍傷害。",
+          "descLong": "手杖消失時產生爆炸，造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍暗系技能傷害。",
+          "icons": [
+            "11001_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "108%",
+                "124%",
+                "141%",
+                "189%",
+                "204%",
+                "220%",
+                "250%",
+                "263%",
+                "276%",
+                "302%",
+                "323%",
+                "345%",
+                "367%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511023,
+          "name": "影雙身",
+          "descShort": "提升援護技召喚<span style=\"color:#6A90EB\">暗影分身</span>的數量和數量上限。",
+          "descLong": "援護技「權傾朝夜」召喚<span style=\"color:#6A90EB\">暗影分身</span>的數量增加<span style=\"color:#0abec5\">2</span>個，數量上限增加<span style=\"color:#0abec5\">&Param1&</span>個。",
+          "icons": [
+            "11001_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511024,
+          "name": "影夜裔",
+          "descShort": "延長援護技召喚<span style=\"color:#6A90EB\">暗影分身</span>的持續時間。",
+          "descLong": "援護技「權傾朝夜」召喚<span style=\"color:#6A90EB\">暗影分身</span>的持續時間延長<span style=\"color:#0abec5\">5</span>秒。",
+          "icons": [
+            "11001_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": []
+        },
+        {
+          "id": 511025,
+          "name": "續杯暢飲",
+          "descShort": "手杖傷害觸發<span style=\"color:#6A90EB\">暗系印記</span>時，縮短援護技冷卻時間。提升手杖技能傷害。",
+          "descLong": "手杖傷害觸發<span style=\"color:#6A90EB\">暗系印記</span>時，援護技「權傾朝夜」冷卻時間縮短&Param3&秒，每次技能最多觸發&Param4&次。\n手杖造成的傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "icons": [
+            "11001_Potential_21_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511026,
+          "name": "典型案例",
+          "descShort": "提升手杖對附帶<span style=\"color:#6A90EB\">暗灼</span>目標造成的暗系傷害。",
+          "descLong": "手杖對附帶<span style=\"color:#6A90EB\">暗灼</span>目標造成的暗系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "icons": [
+            "11001_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511027,
+          "name": "歡愉鞭撻",
+          "descShort": "手杖造成傷害時，提升翡冷翠&Param3&。",
+          "descLong": "手杖造成傷害時，翡冷翠&Param3&提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒，可疊加&Param4&層。",
+          "icons": [
+            "11001_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "4%",
+                "6%",
+                "8%",
+                "9%",
+                "11%",
+                "12%",
+                "14%",
+                "16%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511028,
+          "name": "緊隨步調",
+          "descShort": "提升<span style=\"color:#6A90EB\">暗影分身</span>&Param3&，縮短衝刺攻擊的觸發間隔。",
+          "descLong": "<span style=\"color:#6A90EB\">暗影分身</span>的&Param3&提升<span style=\"color:#ec6d21\">&Param1&%</span>，衝刺攻擊的觸發間隔縮短<span style=\"color:#ec6d21\">&Param1&%</span>",
+          "icons": [
+            "11001_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10",
+                "10",
+                "20",
+                "20",
+                "20",
+                "30",
+                "30",
+                "30",
+                "40"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511029,
+          "name": "暗滅回潮",
+          "descShort": "<span style=\"color:#6A90EB\">暗影分身</span>消失時產生自爆，造成範圍傷害。",
+          "descLong": "<span style=\"color:#6A90EB\">暗影分身</span>消失時產生自爆，造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的範圍暗系僕從傷害。",
+          "icons": [
+            "11001_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "35%",
+                "55%",
+                "76%",
+                "97%",
+                "118%",
+                "138%",
+                "159%",
+                "180%",
+                "201%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511030,
+          "name": "靈活行事",
+          "descShort": "<span style=\"color:#6A90EB\">暗影分身</span>造成傷害時，提升全場<span style=\"color:#6A90EB\">暗影分身</span>&Param3&。",
+          "descLong": "<span style=\"color:#6A90EB\">暗影分身</span>造成傷害時，全場<span style=\"color:#6A90EB\">暗影分身</span>的&Param3&提升<span style=\"color:#ec6d21\">&Param1&</span>，可疊加&Param4&層。",
+          "icons": [
+            "11001_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "2.9%",
+                "4.6%",
+                "6.3%",
+                "8%",
+                "9.7%",
+                "11.4%",
+                "13.1%",
+                "14.8%",
+                "16.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511031,
+          "name": "影之舞會",
+          "descShort": "提升<span style=\"color:#6A90EB\">暗影分身</span>的傷害。",
+          "descLong": "<span style=\"color:#6A90EB\">暗影分身</span>的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "icons": [
+            "11001_Potential_24_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "18%",
+                "28%",
+                "39%",
+                "49%",
+                "60%",
+                "70%",
+                "81%",
+                "91%",
+                "102%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511032,
+          "name": "全盛姿態",
+          "descShort": "提升翡冷翠的&Param2&。",
+          "descLong": "翡冷翠的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "icons": [
+            "11001_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "16%",
+                "26%",
+                "36%",
+                "46%",
+                "56%",
+                "65%",
+                "75%",
+                "85%",
+                "95%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511033,
+          "name": "特別關懷",
+          "descShort": "提升全隊暗系角色&Param2&。",
+          "descLong": "全隊暗系角色的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "icons": [
+            "11001_Potential_24_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "11%",
+                "17%",
+                "23%",
+                "29%",
+                "36%",
+                "42%",
+                "48%",
+                "55%",
+                "61%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511041,
+          "name": "立即平倉",
+          "descShort": "施放絕招時，每個<span style=\"color:#6A90EB\">暗影分身</span>提升翡冷翠絕招傷害。",
+          "descLong": "施放絕招「親臨指點」時，吸收所有<span style=\"color:#6A90EB\">暗影分身</span>，每吸收1個<span style=\"color:#6A90EB\">暗影分身</span>，本次絕招傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，最多提升&Param2&層。",
+          "icons": [
+            "11001_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "35%",
+                "55%",
+                "76%",
+                "97%",
+                "117%",
+                "138%",
+                "159%",
+                "179%",
+                "200%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511042,
+          "name": "瞬時高位",
+          "descShort": "翡冷翠造成傷害時，提升&Param1&。",
+          "descLong": "翡冷翠造成傷害時，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "11001_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "7%",
+                "8%",
+                "10%",
+                "11%",
+                "13%",
+                "15%",
+                "16%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511043,
+          "name": "買定離手",
+          "descShort": "翡冷翠觸發<span style=\"color:#6A90EB\">暗系印記</span>時，提升&Param1&。",
+          "descLong": "翡冷翠觸發<span style=\"color:#6A90EB\">暗系印記</span>時，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。施放絕招「親臨指點」後，此效果提前結束。",
+          "icons": [
+            "11001_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "17%",
+                "28%",
+                "38%",
+                "49%",
+                "59%",
+                "69%",
+                "80%",
+                "90%",
+                "101%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 111,
       "name": "Iris",
       "class": 2,
@@ -37973,6 +39197,186 @@
       "bg": 4002
     },
     {
+      "id": 214004,
+      "name": "仙蹤良夢",
+      "desc": "哪來的兩隻小野貓，躺在了我的膝蓋上？\n下午茶的時間還很長，\n安心睡一覺吧，在紫藤花下做個甜美的夢。",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "仙蹤良夢",
+          "desc": "全隊暗系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意暗系角色召喚僕從時，暗系主控角色獲得1層「敬畏」，持續&Param2&秒，可疊加&Param3&層。暗系主控角色召喚僕從時，每層「敬畏」使該僕從的僕從傷害提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param5&秒。\n暗系主控角色擁有「敬畏」時，暗系僕從造成傷害時為目標附加：受到暗系僕從傷害提升<span style=\"color:#ec6d21\">&Param6&</span>，持續&Param7&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7",
+                "7",
+                "7",
+                "7",
+                "7",
+                "7"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "2.5%",
+                "3%",
+                "3.5%",
+                "4%",
+                "4.5%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "淑慧本色",
+          "desc": "暗系主控角色擁有「敬畏」時，隊伍中暗系角色的絕招傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "40%",
+                "60%",
+                "80%",
+                "100%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "優雅舞姿",
+          "desc": "「敬畏」獲得額外效果：每層使暗系主控角色的技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "7.5%",
+                "10%",
+                "12.5%",
+                "15%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4004
+    },
+    {
       "id": 214005,
       "name": "晴之花",
       "desc": "雨中飄落的花，\n盛開於晴空之上。\n掬一捧彩虹，\n可否停留在我手中。",
@@ -43273,6 +44677,162 @@
         }
       ],
       "bg": 4041
+    },
+    {
+      "id": 214043,
+      "name": "革新的萌芽",
+      "desc": "浸潤著陰謀與詭計的土壤之下\n窺視與算計的目光彼此交錯\n有什麼正掙扎著破土而出",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "革新的萌芽",
+          "desc": "隊伍中暗系角色的僕從傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n暗系主控角色召喚僕從時，該僕從的僕從傷害提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "14.4%",
+                "16.8%",
+                "19.2%",
+                "21.6%",
+                "24%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "幕後統御",
+          "desc": "任意暗系角色觸發印記對目標造成<span style=\"color:#6A90EB\">暗灼</span>效果時，其在場僕從的僕從傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "12%",
+                "18%",
+                "24%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "野心蔓延",
+          "desc": "暗系主控角色對附帶<span style=\"color:#6A90EB\">暗灼</span>效果的目標造成的技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n暗系主控角色的僕從對附帶<span style=\"color:#6A90EB\">暗灼</span>效果的目標造成的僕從傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4043
     },
     {
       "id": 214048,

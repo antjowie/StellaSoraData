@@ -3761,6 +3761,1244 @@
       ]
     },
     {
+      "id": 110,
+      "name": "Firenze",
+      "class": 1,
+      "element": 6,
+      "rarity": 1,
+      "mainBuild1Name": "特化構築1",
+      "mainBuild1Desc": "機動力とスキルの発動頻度を高める構築",
+      "mainBuild2Name": "特化構築2",
+      "mainBuild2Desc": "従者のステータスと連携攻撃を強化する構築",
+      "supportBuild1Name": "特化構築1",
+      "supportBuild1Desc": "スキル発動時の追加効果を重視する構築",
+      "supportBuild2Name": "特化構築2",
+      "supportBuild2Desc": "召喚される従者の数や持続時間を強化する構築",
+      "potentials": [
+        {
+          "id": 511001,
+          "name": "タップステップ",
+          "descShort": "主力スキル発動時、追加でダメージを与えるようになる。",
+          "descLong": "主力スキル発動時、フィレンは追加で範囲内に攻撃力の<span style=\"color:#0abec5\">&Param1&x3</span>の闇属性のスキルダメージを与えるようになる。",
+          "icons": [
+            "11001_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "55%",
+                "63%",
+                "71%",
+                "95%",
+                "103%",
+                "111%",
+                "126%",
+                "133%",
+                "139%",
+                "152%",
+                "163%",
+                "174%",
+                "185%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511002,
+          "name": "しなやかステップ",
+          "descShort": "主力スキルでダメージを一定回数与えた時、領域を展開し範囲内の敵にダメージを与えるようになる。フィレンの&Param3&が増加する。",
+          "descLong": "主力スキルでダメージを<span style=\"color:#0abec5\">6</span>回与えた時、&Param1&秒間、領域を展開するようになる。領域の持続中は範囲内に、0.5秒ごとに攻撃力の<span style=\"color:#0abec5\">&Param2&</span>の闇属性のスキルダメージを与え、フィレンの&Param3&が<span style=\"color:#0abec5\">&Param4&</span>増加する。領域のダメージは<span style=\"color:#6A90EB\">闇属性の印</span>を発動させることができる。",
+          "icons": [
+            "11001_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "スキルダメージ"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "67%",
+                "77%",
+                "87%",
+                "118%",
+                "127%",
+                "137%",
+                "155%",
+                "164%",
+                "172%",
+                "188%",
+                "201%",
+                "215%",
+                "228%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511003,
+          "name": "幻舞のステップ",
+          "descShort": "フィレンは自動で<span style=\"color:#6A90EB\">シャドウサーヴァント</span>を生成するようになる。主力スキルで召喚する<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の数が増加する。",
+          "descLong": "フィレンは<span style=\"color:#0abec5\">5</span>秒ごとに<span style=\"color:#0abec5\">1</span>体の<span style=\"color:#6A90EB\">シャドウサーヴァント</span>を生成するようになる。\n主力スキル発動時、召喚する<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の数が<span style=\"color:#0abec5\">&Param1&</span>体増加する。",
+          "icons": [
+            "11001_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511004,
+          "name": "重ね影のステップ",
+          "descShort": "フィレンの<span style=\"color:#6A90EB\">シャドウサーヴァント</span>が消滅時、自爆して範囲ダメージを与えるようになる。チーム内の他の闇属性巡遊者の数に応じて、フィレンの<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の上限数が増加する。",
+          "descLong": "フィレンの<span style=\"color:#6A90EB\">シャドウサーヴァント</span>が消滅時、自爆するようになり、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の闇属性の従者ダメージを与える。\nチーム内の他の闇属性巡遊者1体につき、フィレンの<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の上限数が<span style=\"color:#0abec5\">&Param2&</span>体増加する。",
+          "icons": [
+            "11001_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "117%",
+                "135%",
+                "152%",
+                "205%",
+                "221%",
+                "238%",
+                "271%",
+                "285%",
+                "299%",
+                "327%",
+                "350%",
+                "374%",
+                "397%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511005,
+          "name": "冴えわたる采配",
+          "descShort": "フィレンがスキルダメージを与えた時、一定の確率で追加ダメージを与える。",
+          "descLong": "フィレンがスキルダメージを与えた時、&Param2&の確率で攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の闇属性のスキルダメージを追加で与える。<span style=\"color:#6A90EB\">暗灼</span>が付与されている敵に対しては、発動確率が&Param3&になる。\nこの効果は1秒ごとに&Param4&回まで発動する。",
+          "icons": [
+            "11001_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "40%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "64%",
+                "103%",
+                "141%",
+                "180%",
+                "218%",
+                "256%",
+                "295%",
+                "333%",
+                "372%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "80%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511006,
+          "name": "闇の円舞",
+          "descShort": "フィレンが<span style=\"color:#6A90EB\">闇属性の印</span>を発動させた時、&Param1&が上昇する。",
+          "descLong": "フィレンが<span style=\"color:#6A90EB\">闇属性の印</span>を発動させた時、<span style=\"color:#ec6d21\">&Param3&</span>秒間、&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。",
+          "icons": [
+            "11001_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511007,
+          "name": "影の断ち切り",
+          "descShort": "フィレンが通常攻撃でダメージを与えた時、&Param1&が増加する。主力スキル発動後、この効果はリセットされる。",
+          "descLong": "フィレンが通常攻撃でダメージを与えた時、<span style=\"color:#ec6d21\">&Param3&</span>秒間、&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は<span style=\"color:#ec6d21\">&Param4&</span>回まで重複できる。主力スキル発動後、この効果はリセットされる。",
+          "icons": [
+            "11001_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "スキルダメージ",
+                "スキルダメージ",
+                "スキルダメージ",
+                "スキルダメージ",
+                "スキルダメージ",
+                "スキルダメージ",
+                "スキルダメージ",
+                "スキルダメージ",
+                "スキルダメージ"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6%",
+                "9%",
+                "11%",
+                "13%",
+                "15%",
+                "18%",
+                "20%",
+                "22%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511008,
+          "name": "憂いの声",
+          "descShort": "フィレンの<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の上限数と&Param2&が増加する。",
+          "descLong": "フィレンの召喚する<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の上限数が&Param1&体増加し、&Param2&が<span style=\"color:#ec6d21\">&Param3&</span>増加する。",
+          "icons": [
+            "11001_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14%",
+                "22%",
+                "31%",
+                "39%",
+                "47%",
+                "55%",
+                "64%",
+                "72%",
+                "80%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511009,
+          "name": "残業タイム",
+          "descShort": "フィレンの<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の持続時間が延長し、&Param2&が増加する。",
+          "descLong": "フィレンの<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の持続時間が<span style=\"color:#ec6d21\">&Param1&</span>秒延長し、&Param2&が<span style=\"color:#ec6d21\">&Param3&</span>増加する。",
+          "icons": [
+            "11001_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "3",
+                "3",
+                "3",
+                "4"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "19%",
+                "31%",
+                "43%",
+                "54%",
+                "66%",
+                "77%",
+                "89%",
+                "101%",
+                "112%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511010,
+          "name": "奇妙な偶然",
+          "descShort": "主力スキル発動後、次に行う通常攻撃は直ちに4撃目を発動するようになる。<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の&Param1&が増加する。",
+          "descLong": "主力スキル発動後、次に行う通常攻撃は直ちに4撃目を発動するようになる。\n<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
+          "icons": [
+            "11001_Potential_03_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13%",
+                "20%",
+                "28%",
+                "35%",
+                "43%",
+                "50%",
+                "58%",
+                "65%",
+                "73%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511011,
+          "name": "追跡指令",
+          "descShort": "チーム内の闇属性巡遊者1体につき、フィレンの&Param1&が増加する。",
+          "descLong": "チームに闇属性巡遊者が1人いるごとに、フィレンの&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
+          "icons": [
+            "11001_Potential_04_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7%",
+                "11%",
+                "15%",
+                "19%",
+                "23%",
+                "27%",
+                "31%",
+                "35%",
+                "39%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511012,
+          "name": "分身の妙技",
+          "descShort": "フィレンの回避は障害物をすり抜けることができるようになる。<span style=\"color:#6A90EB\">シャドウサーヴァント</span>のダメージが増加する。",
+          "descLong": "フィレンの回避は障害物をすり抜けることができるようになる。\n<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
+          "icons": [
+            "11001_Potential_04_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "17%",
+                "22%",
+                "27%",
+                "31%",
+                "36%",
+                "41%",
+                "46%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511013,
+          "name": "アナウンスタイム",
+          "descShort": "フィレンの回避の発動可能回数が増加する。回避発動時、&Param3&が上昇する。",
+          "descLong": "フィレンの回避の発動可能回数が1回増加する。\n回避発動時から&Param2&秒間、&Param3&が<span style=\"color:#ec6d21\">&Param1&</span>上昇する。",
+          "icons": [
+            "11001_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "6%",
+                "9%",
+                "11%",
+                "13%",
+                "15%",
+                "18%",
+                "20%",
+                "22%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511021,
+          "name": "暗黒の鋲",
+          "descShort": "杖を地面に突き立てて一定時間ダメージを与える。",
+          "descLong": "杖を地面に突き立て、6秒間、範囲内に1秒ごとに攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の闇属性のスキルダメージを与える。",
+          "icons": [
+            "11001_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "35%",
+                "40%",
+                "45%",
+                "61%",
+                "65%",
+                "70%",
+                "80%",
+                "84%",
+                "88%",
+                "96%",
+                "103%",
+                "110%",
+                "117%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511022,
+          "name": "影燃ゆる灯",
+          "descShort": "杖が消滅時、爆発を起こし、範囲ダメージを与えるようになる。",
+          "descLong": "杖が消滅時、爆発を起こし、範囲内に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の闇属性のスキルダメージを与える。",
+          "icons": [
+            "11001_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "108%",
+                "124%",
+                "141%",
+                "189%",
+                "204%",
+                "220%",
+                "250%",
+                "263%",
+                "276%",
+                "302%",
+                "323%",
+                "345%",
+                "367%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511023,
+          "name": "ダブルシャドウ",
+          "descShort": "支援スキルで召喚する<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の数と上限数が増加する。",
+          "descLong": "支援スキルで召喚する<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の数が<span style=\"color:#0abec5\">2</span>体、上限数が<span style=\"color:#0abec5\">&Param1&</span>体増加する。",
+          "icons": [
+            "11001_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511024,
+          "name": "影夜の末裔",
+          "descShort": "支援スキルで召喚する<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の持続時間が延長される。",
+          "descLong": "支援スキルで召喚する<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の持続時間が<span style=\"color:#0abec5\">5</span>秒延長される。",
+          "icons": [
+            "11001_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": []
+        },
+        {
+          "id": 511025,
+          "name": "先見の明",
+          "descShort": "杖のダメージで<span style=\"color:#6A90EB\">闇属性の印</span>を発動させた時、支援スキルのクールタイムが短縮される。杖のダメージが増加する。",
+          "descLong": "杖のダメージで<span style=\"color:#6A90EB\">闇属性の印</span>を発動させた時、支援スキルのクールタイムが&Param3&秒短縮される。この効果はスキル1回につき最大&Param4&回まで発動する。\n杖が与えるダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
+          "icons": [
+            "11001_Potential_21_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511026,
+          "name": "典型的事例",
+          "descShort": "杖は<span style=\"color:#6A90EB\">暗灼</span>が付与されている敵に与える闇属性ダメージが増加する。",
+          "descLong": "杖は<span style=\"color:#6A90EB\">暗灼</span>が付与されている敵に与える闇属性ダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
+          "icons": [
+            "11001_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "29%",
+                "35%",
+                "41%",
+                "47%",
+                "53%",
+                "59%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511027,
+          "name": "愉悦の仕置き",
+          "descShort": "杖がダメージを与えた時、フィレンの&Param3&が上昇する。",
+          "descLong": "杖がダメージを与えた時、&Param2&秒間、フィレンの&Param3&が<span style=\"color:#ec6d21\">&Param1&</span>上昇する。この効果は&Param4&回まで重複できる。",
+          "icons": [
+            "11001_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "4%",
+                "6%",
+                "8%",
+                "9%",
+                "11%",
+                "12%",
+                "14%",
+                "16%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511028,
+          "name": "歩調を合わせて",
+          "descShort": "<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の&Param3&が増加し、突進攻撃の発動間隔が短縮される。",
+          "descLong": "<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の&Param3&が<span style=\"color:#ec6d21\">&Param2&</span>増加し、突進攻撃の発動間隔が<span style=\"color:#ec6d21\">&Param1&%</span>短縮される。",
+          "icons": [
+            "11001_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "9%",
+                "12%",
+                "15%",
+                "18%",
+                "21%",
+                "25%",
+                "28%",
+                "31%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10",
+                "10",
+                "20",
+                "20",
+                "20",
+                "30",
+                "30",
+                "30",
+                "40"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511029,
+          "name": "暗滅のうねり",
+          "descShort": "フィレンの<span style=\"color:#6A90EB\">シャドウサーヴァント</span>が消滅時、自爆するようになる。",
+          "descLong": "フィレンの<span style=\"color:#6A90EB\">シャドウサーヴァント</span>が消滅時、自爆するようになり、範囲内に攻撃力の<span style=\"color:#ec6d21\">&Param1&</span>の闇属性の従者ダメージを与える。",
+          "icons": [
+            "11001_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "35%",
+                "55%",
+                "76%",
+                "97%",
+                "118%",
+                "138%",
+                "159%",
+                "180%",
+                "201%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511030,
+          "name": "臨機応変",
+          "descShort": "<span style=\"color:#6A90EB\">シャドウサーヴァント</span>がダメージを与えた時、フィールドにいるすべての<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の&Param3&が増加する。",
+          "descLong": "<span style=\"color:#6A90EB\">シャドウサーヴァント</span>がダメージを与えた時、フィールドにいるすべての<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の&Param3&が<span style=\"color:#ec6d21\">&Param1&</span>増加し、この効果は<span style=\"color:#ec6d21\">&Param4&</span>回まで重複できる。",
+          "icons": [
+            "11001_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "2.9%",
+                "4.6%",
+                "6.3%",
+                "8%",
+                "9.7%",
+                "11.4%",
+                "13.1%",
+                "14.8%",
+                "16.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511031,
+          "name": "影の舞踏会",
+          "descShort": "<span style=\"color:#6A90EB\">シャドウサーヴァント</span>のダメージが増加する。",
+          "descLong": "<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の&Param2&が<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
+          "icons": [
+            "11001_Potential_24_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ",
+                "従者ダメージ"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "18%",
+                "28%",
+                "39%",
+                "49%",
+                "60%",
+                "70%",
+                "81%",
+                "91%",
+                "102%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511032,
+          "name": "全盛の姿",
+          "descShort": "フィレンの&Param2&が上昇する。",
+          "descLong": "フィレンの&Param2&が<span style=\"color:#ec6d21\">&Param1&</span>上昇する。",
+          "icons": [
+            "11001_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力",
+                "攻撃力"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "16%",
+                "26%",
+                "36%",
+                "46%",
+                "56%",
+                "65%",
+                "75%",
+                "85%",
+                "95%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511033,
+          "name": "特別な配慮",
+          "descShort": "チーム全体の闇属性巡遊者の&Param2&が増加する。",
+          "descLong": "チーム全体の闇属性巡遊者の&Param2&が<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
+          "icons": [
+            "11001_Potential_24_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ",
+                "闇属性ダメージ"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "11%",
+                "17%",
+                "23%",
+                "29%",
+                "36%",
+                "42%",
+                "48%",
+                "55%",
+                "61%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511041,
+          "name": "即時決済",
+          "descShort": "必殺技発動時、フィールドに存在する<span style=\"color:#6A90EB\">シャドウサーヴァント</span>の数に応じてフィレンの必殺技ダメージが増加する。",
+          "descLong": "必殺技発動時、フィレンはフィールドに存在するすべての<span style=\"color:#6A90EB\">シャドウサーヴァント</span>を吸収する。<span style=\"color:#6A90EB\">シャドウサーヴァント</span>を1体吸収するごとに、この必殺技のダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。この効果は&Param2&回まで重複できる。",
+          "icons": [
+            "11001_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "35%",
+                "55%",
+                "76%",
+                "97%",
+                "117%",
+                "138%",
+                "159%",
+                "179%",
+                "200%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511042,
+          "name": "ダブルトップ",
+          "descShort": "フィレンがダメージを与えた時、&Param1&が上昇する。",
+          "descLong": "フィレンがダメージを与えた時、&Param3&秒間、&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。",
+          "icons": [
+            "11001_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "必殺技会心率",
+                "必殺技会心率",
+                "必殺技会心率",
+                "必殺技会心率",
+                "必殺技会心率",
+                "必殺技会心率",
+                "必殺技会心率",
+                "必殺技会心率",
+                "必殺技会心率"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "7%",
+                "8%",
+                "10%",
+                "11%",
+                "13%",
+                "15%",
+                "16%",
+                "20%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511043,
+          "name": "ショーダウン",
+          "descShort": "フィレンが<span style=\"color:#6A90EB\">闇属性の印</span>を発動させた時、&Param1&が増加する。",
+          "descLong": "フィレンが<span style=\"color:#6A90EB\">闇属性の印</span>を発動させた時、&Param3&秒間、&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。この効果は&Param4&回まで重複できる。必殺技発動後、この効果はリセットされる。",
+          "icons": [
+            "11001_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ",
+                "必殺技ダメージ"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "17%",
+                "28%",
+                "38%",
+                "49%",
+                "59%",
+                "69%",
+                "80%",
+                "90%",
+                "101%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 111,
       "name": "Iris",
       "class": 2,
@@ -4359,7 +5597,7 @@
           "id": 511123,
           "name": "定量・堆積",
           "descShort": "氷柱陣列生成時、追加でダメージを与え、敵をスタンさせるようになる。",
-          "descLong": "氷柱陣列生成時から&Param2&秒間、追加で範囲内に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の水属性ダメージを与え、その敵をスタンさせるようになる。",
+          "descLong": "氷柱陣列生成時から&Param2&秒間、追加で範囲内に攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の水属性のスキルダメージを与え、その敵をスタンさせるようになる。",
           "icons": [
             "11101_Potential_23_A"
           ],
@@ -5451,7 +6689,7 @@
           "id": 511223,
           "name": "馳・極風！",
           "descShort": "最初にダメージを与えた小剣気が分裂するようになる。",
-          "descLong": "小剣気が最初にダメージを与えた時、<span style=\"color:#0abec5\">3</span>つに分裂し、それぞれ攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の風属性ダメージを与えるようになる。",
+          "descLong": "小剣気が最初にダメージを与えた時、<span style=\"color:#0abec5\">3</span>つに分裂し、それぞれ攻撃力の<span style=\"color:#0abec5\">&Param1&</span>の風属性のスキルダメージを与えるようになる。",
           "icons": [
             "11201_Potential_23_A"
           ],
@@ -8620,8 +9858,8 @@
         {
           "id": 511707,
           "name": "蓄雷統合",
-          "descShort": "主力スキル命中時、その敵が受けるスキルダメージを増加させる。",
-          "descLong": "主力スキル命中時から&Param3&秒間、その敵が受けるスキルダメージを<span style=\"color:#ec6d21\">&Param2&</span>増加させる。この効果は&Param4&回重複できる。",
+          "descShort": "主力スキル命中時、その敵のスキル被ダメージを増加させる。",
+          "descLong": "主力スキル命中時から&Param3&秒間、その敵のスキル被ダメージを<span style=\"color:#ec6d21\">&Param2&</span>増加させる。この効果は&Param4&回重複できる。",
           "icons": [
             "11701_Potential_02_A",
             "Potential_Round_B",
@@ -17993,8 +19231,8 @@
         {
           "id": 513203,
           "name": "フルスイング",
-          "descShort": "スキルダメージが増加する。印を発動させた時、その敵が受けるスキルダメージを増加させる。",
-          "descLong": "主力スキルのダメージが<span style=\"color:#0abec5\">&Param2&</span>増加する。\n<span style=\"color:#6A90EB\">光属性の印</span>を発動させた時から&Param4&秒間、その敵が受けるスキルダメージを<span style=\"color:#0abec5\">&Param3&</span>増加させる。",
+          "descShort": "スキルダメージが増加する。印を発動させた時、その敵のスキル被ダメージを増加させる。",
+          "descLong": "主力スキルのダメージが<span style=\"color:#0abec5\">&Param2&</span>増加する。\n<span style=\"color:#6A90EB\">光属性の印</span>を発動させた時から&Param4&秒間、その敵のスキル被ダメージを<span style=\"color:#0abec5\">&Param3&</span>増加させる。",
           "icons": [
             "13201_Potential_03_A"
           ],
@@ -37258,6 +38496,186 @@
       "bg": 4002
     },
     {
+      "id": 214004,
+      "name": "ミルク色の夢",
+      "desc": "気持ちよさそうに眠るふたりの妖精は\r\nどんな夢を見ているのだろう？\r\n幸い紅茶もお菓子もまだ残っている。\r\nこの香しい藤の花の下、もう少し眠らせてあげようか――",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "ミルク色の夢",
+          "desc": "チーム全体の闇属性ダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。\nチーム内の巡遊者が従者を召喚時、&Param2&秒間、闇属性の主力巡遊者は敬畏を1獲得する。この効果は&Param3&回まで重複できる。闇属性の主力巡遊者が従者を召喚時、&Param5&秒間、敬畏1ごとにその従者の従者ダメージが<span style=\"color:#ec6d21\">&Param4&</span>増加する。\n闇属性の主力巡遊者が敬畏を保有している時、闇属性の従者がダメージを与えた時、&Param7&秒間、敵に闇属性の従者から受けるダメージが<span style=\"color:#ec6d21\">&Param6&</span>増加する効果を付与する。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7",
+                "7",
+                "7",
+                "7",
+                "7",
+                "7"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "2.5%",
+                "3%",
+                "3.5%",
+                "4%",
+                "4.5%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "淑女の本懐",
+          "desc": "闇属性の主力巡遊者が敬畏を保有している時、チーム内の闇属性巡遊者の必殺技ダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "40%",
+                "60%",
+                "80%",
+                "100%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "秘密のお茶会",
+          "desc": "敬畏は追加効果を得る。敬畏1ごとに、闇属性の主力巡遊者のスキルダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "7.5%",
+                "10%",
+                "12.5%",
+                "15%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4004
+    },
+    {
       "id": 214005,
       "name": "晴天の彩花",
       "desc": "雨で散った花は、晴れた空の上でふたたび大輪を咲かせる。\r\n虹をすくったら、この手に留めることはできるだろうか――",
@@ -42558,6 +43976,162 @@
         }
       ],
       "bg": 4041
+    },
+    {
+      "id": 214043,
+      "name": "革命の萌芽",
+      "desc": "期待と駆け引きの眼差しが交差する。\r\n陰謀と策略に満ちた土の下では\r\n革命の一手が芽吹く瞬間を待っている。\r\nすべては人々の幸せのために。",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "革命の萌芽",
+          "desc": "チーム内の闇属性巡遊者の従者ダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。\n闇属性の主力巡遊者が従者を召喚時、&Param3&秒間、その従者の従者ダメージが<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "14.4%",
+                "16.8%",
+                "19.2%",
+                "21.6%",
+                "24%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "躍動する影",
+          "desc": "チーム内の闇属性巡遊者が印を発動させ、敵に<span style=\"color:#6A90EB\">暗灼</span>を与えた時、&Param2&秒間、フィールドにいるその巡遊者の従者の従者ダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "12%",
+                "18%",
+                "24%",
+                "30%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "夜を彩る星々",
+          "desc": "闇属性の主力巡遊者は、<span style=\"color:#6A90EB\">暗灼</span>が付与されている敵に与えるスキルダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。\n闇属性の主力巡遊者の従者は、<span style=\"color:#6A90EB\">暗灼</span>が付与されている敵に与える従者ダメージが<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4043
     },
     {
       "id": 214048,
