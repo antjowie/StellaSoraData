@@ -4115,8 +4115,8 @@
         {
           "id": 511008,
           "name": "愁雲慘霧",
-          "descShort": "提升翡<span style=\"color:#6A90EB\">暗影分身</span>的數量上限和&Param2&。",
-          "descLong": "翡<span style=\"color:#6A90EB\">暗影分身</span>的數量上限增加&Param1&個，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "descShort": "提升<span style=\"color:#6A90EB\">暗影分身</span>的數量上限和&Param2&。",
+          "descLong": "<span style=\"color:#6A90EB\">暗影分身</span>的數量上限增加&Param1&個，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
           "icons": [
             "11001_Potential_03_A",
             "Potential_Diamond_B",
