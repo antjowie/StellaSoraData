@@ -4165,8 +4165,8 @@
         {
           "id": 511009,
           "name": "Extended Shift",
-          "descShort": "Firenze's <span style=\"color:#6A90EB\">Shadow Clone</span> lasts longer on the battlefield. Also increases &Param2&.",
-          "descLong": "Firenze's <span style=\"color:#6A90EB\">Shadow Clone</span> lasts <span style=\"color:#ec6d21\">&Param1&</span>s longer on the battlefield. Also increases &Param2& by <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "descShort": "<span style=\"color:#6A90EB\">Shadow Clone</span> lasts longer on the battlefield. Also increases &Param2&.",
+          "descLong": "<span style=\"color:#6A90EB\">Shadow Clone</span> lasts <span style=\"color:#ec6d21\">&Param1&</span>s longer on the battlefield. Also increases &Param2& by <span style=\"color:#ec6d21\">&Param3&</span>.",
           "icons": [
             "11001_Potential_03_A",
             "Potential_Triangle_B",
@@ -12021,7 +12021,7 @@
           "id": 511832,
           "name": "Medical Research",
           "descShort": "When the Support Skill deals DMG, reduces the target's Resilience. Increases Coronis' &Param3&.",
-          "descLong": "When Coronis deals DMG with Bone Chain (Support Skill), reduces the target's Resilience by <span style=\"color:#ec6d21\">&Param2&</span>. This effect can only be triggered once every 12s.\nIncreases Coronis' &Param3& by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "descLong": "When Coronis deals DMG with Bone Chain (Support Skill), reduces the target's Resilience by &Param2&. This effect can only be triggered once every 12s.\nIncreases Coronis's &Param3& by <span style=\"color:#ec6d21\">&Param1&</span>.",
           "icons": [
             "11801_Potential_24_A",
             "Potential_Triangle_B",

@@ -4115,8 +4115,8 @@
         {
           "id": 511008,
           "name": "愁云惨雾",
-          "descShort": "提升翡冷翠<span style=\"color:#6A90EB\">暗影分身</span>的数量上限和&Param2&。",
-          "descLong": "翡冷翠<span style=\"color:#6A90EB\">暗影分身</span>的数量上限增加&Param1&个，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "descShort": "提升<span style=\"color:#6A90EB\">暗影分身</span>的数量上限和&Param2&。",
+          "descLong": "<span style=\"color:#6A90EB\">暗影分身</span>的数量上限增加&Param1&个，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
           "icons": [
             "11001_Potential_03_A",
             "Potential_Diamond_B",
@@ -4165,8 +4165,8 @@
         {
           "id": 511009,
           "name": "延时在岗",
-          "descShort": "翡冷翠的<span style=\"color:#6A90EB\">暗影分身</span>存在时间延长，提升&Param2&。",
-          "descLong": "翡冷翠的<span style=\"color:#6A90EB\">暗影分身</span>存在时间延长<span style=\"color:#ec6d21\">&Param1&</span>秒，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "descShort": "<span style=\"color:#6A90EB\">暗影分身</span>存在时间延长，提升&Param2&。",
+          "descLong": "<span style=\"color:#6A90EB\">暗影分身</span>的存在时间延长<span style=\"color:#ec6d21\">&Param1&</span>秒，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
           "icons": [
             "11001_Potential_03_A",
             "Potential_Triangle_B",
@@ -12021,7 +12021,7 @@
           "id": 511832,
           "name": "医学研究",
           "descShort": "援护技造成伤害时，削减目标韧性。科洛妮斯提升&Param3&。",
-          "descLong": "援护技「骨牢禁锢」造成伤害时，削减目标韧性<span style=\"color:#ec6d21\">&Param2&</span>，该效果每12秒最多触发1次。\n科洛妮斯&Param3&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "descLong": "援护技「骨牢禁锢」造成伤害时，削减目标韧性&Param2&，该效果每12秒最多触发1次。\n科洛妮斯&Param3&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
           "icons": [
             "11801_Potential_24_A",
             "Potential_Triangle_B",

@@ -4115,8 +4115,8 @@
         {
           "id": 511008,
           "name": "절망의 어둠",
-          "descShort": "피렌의 <span style=\"color:#6A90EB\">어둠의 그림자</span>의 최대 수량 및 &Param2& 증가한다.",
-          "descLong": "피렌의 <span style=\"color:#6A90EB\">어둠의 그림자</span>의 최대 수량이 &Param1&개 증가하며 &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가한다.",
+          "descShort": "<span style=\"color:#6A90EB\">어둠의 그림자</span>의 최대 수량 및 &Param2& 증가한다.",
+          "descLong": "<span style=\"color:#6A90EB\">어둠의 그림자</span>의 최대 수량이 &Param1&개 증가하며 &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가한다.",
           "icons": [
             "11001_Potential_03_A",
             "Potential_Diamond_B",
@@ -4165,8 +4165,8 @@
         {
           "id": 511009,
           "name": "지연 근무",
-          "descShort": "피렌의 <span style=\"color:#6A90EB\">어둠의 그림자</span>가 존재하는 시간이 연장되고, &Param2& 증가한다.",
-          "descLong": "피렌의 <span style=\"color:#6A90EB\">어둠의 그림자</span>가 존재하는 시간이 <span style=\"color:#ec6d21\">&Param1&</span>초 연장되고, &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가한다.",
+          "descShort": "<span style=\"color:#6A90EB\">어둠의 그림자</span>가 존재하는 시간이 연장되고, &Param2& 증가한다.",
+          "descLong": "<span style=\"color:#6A90EB\">어둠의 그림자</span>가 존재하는 시간이 <span style=\"color:#ec6d21\">&Param1&</span>초 연장되고, &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가한다.",
           "icons": [
             "11001_Potential_03_A",
             "Potential_Triangle_B",
@@ -4502,8 +4502,8 @@
         {
           "id": 511025,
           "name": "축배의 리필",
-          "descShort": "지팡이 피해가 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동하면, 지원 스킬의 쿨타임이 단축된다. 지팡이의 피해가 증가한다.",
-          "descLong": "지팡이 피해가 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동하면, 지원 스킬 「절대 권력의 시간」의 쿨타임이 &Param3&초 단축된다. 스킬 1회마다 최대 &Param4&회 발동한다. \n지팡이가 입히는 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "descShort": "지팡이의 피해가 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동하면, 지원 스킬의 쿨타임이 단축된다. 지팡이의 피해가 증가한다.",
+          "descLong": "지팡이의 피해가 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동하면, 지원 스킬 「절대 권력의 시간」의 쿨타임이 &Param3&초 단축된다. 스킬 1회마다 최대 &Param4&회 발동한다. \n지팡이가 입히는 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
           "icons": [
             "11001_Potential_21_A",
             "Potential_Diamond_B",
@@ -12021,7 +12021,7 @@
           "id": 511832,
           "name": "의학 연구",
           "descShort": "지원 스킬이 피해를 입힐 때 목표의 강인함이 감소한다. 크루니스의 &Param3&이 증가한다.",
-          "descLong": "지원 스킬 「뼈의 감옥」이 피해를 입히면 목표의 강인함이 <span style=\"color:#ec6d21\">&Param2&</span> 감소한다. 해당 효과는 12초마다 최대 1회 발동한다. \n크루니스의 &Param3&이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "descLong": "지원 스킬 「뼈의 감옥」이 피해를 입히면 목표의 강인함이 &Param2& 감소한다. 해당 효과는 12초마다 최대 1회 발동한다. \n크루니스의 &Param3&이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
           "icons": [
             "11801_Potential_24_A",
             "Potential_Triangle_B",
@@ -21988,7 +21988,7 @@
       "element": 2,
       "rarity": 1,
       "mainBuild1Name": "후유카 메인 유파 1",
-      "mainBuild1Desc": "탐창의 용량이 증가해 강화된 일반 공격으로 적을 맹렬하게 공격하는 유파.",
+      "mainBuild1Desc": "탄창의 용량이 증가해 강화된 일반 공격으로 적을 맹렬하게 공격하는 유파.",
       "mainBuild2Name": "후유카 메인 유파 2",
       "mainBuild2Desc": "탄약을 빠르게 소모하여 일반 공격으로 지속적으로 피해를 입히는 유파.",
       "supportBuild1Name": "후유카 지원 유파 1",

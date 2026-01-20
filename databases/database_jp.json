@@ -11822,7 +11822,7 @@
           "id": 511832,
           "name": "最先端医学研究",
           "descShort": "支援スキルのダメージを敵に与えた時、その敵のブレイク値を減少させる。クルニスの&Param3&が上昇する。",
-          "descLong": "クルニスの支援スキルのダメージを敵に与えた時、その敵のブレイク値を<span style=\"color:#ec6d21\">&Param2&</span>減少させる。この効果は12秒ごとに1回まで発動する。\nクルニスの&Param3&が<span style=\"color:#ec6d21\">&Param1&</span>上昇する。",
+          "descLong": "クルニスの支援スキルのダメージを敵に与えた時、その敵のブレイク値を&Param2&減少させる。この効果は12秒ごとに1回まで発動する。\nクルニスの&Param3&が<span style=\"color:#ec6d21\">&Param1&</span>上昇する。",
           "icons": [
             "11801_Potential_24_A",
             "Potential_Triangle_B",
@@ -44026,7 +44026,7 @@
         },
         {
           "name": "躍動する影",
-          "desc": "チーム内の闇属性巡遊者が印を発動させ、敵に<span style=\"color:#6A90EB\">暗灼</span>を与えた時、&Param2&秒間、フィールドにいるその巡遊者の従者の従者ダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
+          "desc": "チーム内の闇属性巡遊者が印を発動させ、敵に<span style=\"color:#6A90EB\">暗灼</span>を与えた時、&Param2&秒間、発動させた闇属性巡遊者のフィールドにいる従者の従者ダメージが<span style=\"color:#ec6d21\">&Param1&</span>増加する。",
           "params": [
             {
               "idx": 2,

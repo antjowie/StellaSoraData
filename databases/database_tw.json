@@ -4115,8 +4115,8 @@
         {
           "id": 511008,
           "name": "愁雲慘霧",
-          "descShort": "提升翡冷翠<span style=\"color:#6A90EB\">暗影分身</span>的數量上限和&Param2&。",
-          "descLong": "翡冷翠<span style=\"color:#6A90EB\">暗影分身</span>的數量上限增加&Param1&個，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "descShort": "提升翡<span style=\"color:#6A90EB\">暗影分身</span>的數量上限和&Param2&。",
+          "descLong": "翡<span style=\"color:#6A90EB\">暗影分身</span>的數量上限增加&Param1&個，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
           "icons": [
             "11001_Potential_03_A",
             "Potential_Diamond_B",
@@ -4165,8 +4165,8 @@
         {
           "id": 511009,
           "name": "延時駐場",
-          "descShort": "翡冷翠的<span style=\"color:#6A90EB\">暗影分身</span>存在時間延長，提升&Param2&。",
-          "descLong": "翡冷翠的<span style=\"color:#6A90EB\">暗影分身</span>存在時間延長<span style=\"color:#ec6d21\">&Param1&</span>秒，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "descShort": "<span style=\"color:#6A90EB\">暗影分身</span>存在時間延長，提升&Param2&。",
+          "descLong": "<span style=\"color:#6A90EB\">暗影分身</span>存在時間延長<span style=\"color:#ec6d21\">&Param1&</span>秒，&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
           "icons": [
             "11001_Potential_03_A",
             "Potential_Triangle_B",
@@ -24304,8 +24304,8 @@
         {
           "id": 513530,
           "name": "汲陽",
-          "descShort": "法陣內目標的&Param2&提升。",
-          "descLong": "法陣內目標的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "descShort": "法陣內目標&Param2&提升。",
+          "descLong": "法陣內目標&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
           "icons": [
             "Common_Potential_4_A",
             "Potential_Round_B",
