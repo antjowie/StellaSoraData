@@ -2579,8 +2579,8 @@
         {
           "id": 510801,
           "name": "Scatter Trigger",
-          "descShort": "The Main Skill requires a single reload. After casting, the next shot deals additional DMG.",
-          "descLong": "Banishing Barrage (Main Skill) requires a <span style=\"color:#0abec5\">single</span> reload. After casting, the next shot fires more pellets and deals an additional <span style=\"color:#0abec5\">&Param1& of ATK</span> as AoE Ignis Skill DMG.",
+          "descShort": "The Main Skill reloads only one bullet. After casting, the next shot deals additional DMG.",
+          "descLong": "Banishing Barrage (Main Skill) reloads only <span style=\"color:#0abec5\">one</span> bullet. After casting, the next shot fires more pellets and deals an additional <span style=\"color:#0abec5\">&Param1& of ATK</span> as AoE Ignis Skill DMG.",
           "icons": [
             "10801_Potential_01_A"
           ],
@@ -21587,7 +21587,7 @@
           "id": 513329,
           "name": "Flower Formation: Erosion",
           "descShort": "When Flower Formation deals DMG, increases the target's &Param1&.",
-          "descLong": "When Flower Formation deals DMG, increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
+          "descLong": "When Flower Formation deals DMG, increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
           "icons": [
             "13301_Potential_23_A",
             "Potential_Triangle_B",
@@ -33371,8 +33371,8 @@
         {
           "id": 515609,
           "name": "Fill the Gap",
-          "descShort": "When Nazuna reloads, increases support Trekkers' &Param1&.",
-          "descLong": "When Nazuna reloads, increases support Trekkers' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "descShort": "When Nazuna reloads, increases Support Trekkers' &Param1&.",
+          "descLong": "When Nazuna reloads, increases Support Trekkers' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
           "icons": [
             "Common_Potential_15_A",
             "Potential_Triangle_B",
@@ -35844,6 +35844,1327 @@
               "idx": 4,
               "values": [
                 "10"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Coronis",
+      "class": 2,
+      "element": 3,
+      "rarity": 1,
+      "mainBuild1Name": "Coronis: Main Build 1",
+      "mainBuild1Desc": "A build that enhances Auspice to deal rapid damage to single targets.",
+      "mainBuild2Name": "Coronis: Main Build 2",
+      "mainBuild2Desc": "A build that deals AoE skill damage and triggers combos with Auto Attacks.",
+      "supportBuild1Name": "Coronis: Support Build 1",
+      "supportBuild1Desc": "A Support build that instantly detonates Rose Vials, dealing massive damage.",
+      "supportBuild2Name": "Coronis: Support Build 2",
+      "supportBuild2Desc": "A Support build that generates extra Wither Vials to enhance sustained damage.",
+      "potentials": [
+        {
+          "id": 515901,
+          "name": "Radiance of Auspice",
+          "descShort": "Reduces Auspice Beam's Attack Interval. Each additional Auspice shortens the Attack Interval.",
+          "descLong": "Reduces Auspice Beam's Attack Interval by <span style=\"color:#0abec5\">25%</span>. Each additional Auspice shortens the Attack Interval by <span style=\"color:#0abec5\">25%</span>.",
+          "icons": [
+            "15901_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": []
+        },
+        {
+          "id": 515902,
+          "name": "Reflection of Auspice",
+          "descShort": "Increases the &Param1& of Springseek Coronis. Casting Main Skill generates additional Auspice. Beams link all Auspice units, dealing DMG over time, and can trigger <span style=\"color:#6A90EB\">Terra Mark</span>.",
+          "descLong": "Increases the &Param1& of Springseek Coronis by <span style=\"color:#0abec5\">&Param2&</span>. Casting Jade of Vitality (Main Skill) generates one additional Auspice. Auspice Beams link all Auspice units, dealing <span style=\"color:#0abec5\">&Param3&</span> of Springseek Coronis's ATK as Terra Skill DMG every 0.6s, and can trigger <span style=\"color:#6A90EB\">Terra Mark</span>.",
+          "icons": [
+            "15901_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14.8%",
+                "17%",
+                "19.2%",
+                "25.8%",
+                "27.9%",
+                "30%",
+                "34.1%",
+                "35.9%",
+                "37.6%",
+                "41.2%",
+                "44.1%",
+                "47.1%",
+                "50%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515903,
+          "name": "Needle Shower",
+          "descShort": "Increases Ammo Capacity. When in Crystallized State, increases Fire Rate and fires crystalline bullets that deal additional DMG on hit. Can trigger <span style=\"color:#6A90EB\">Terra Mark</span>.",
+          "descLong": "Increases Ammo Capacity by <span style=\"color:#0abec5\">100%</span>. When in Crystallized State, increases Fire Rate by <span style=\"color:#0abec5\">30%</span> and fires crystalline bullets, dealing an additional <span style=\"color:#0abec5\">&Param1&</span> of Springseek Coronis's ATK as Terra Auto ATK DMG on hit. Can trigger <span style=\"color:#6A90EB\">Terra Mark</span>.",
+          "icons": [
+            "15901_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7.8%",
+                "9%",
+                "10.1%",
+                "13.6%",
+                "14.7%",
+                "15.8%",
+                "18%",
+                "18.9%",
+                "19.9%",
+                "21.7%",
+                "23.3%",
+                "24.9%",
+                "26.4%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515904,
+          "name": "Echo of Earth",
+          "descShort": "When in Crystallized State, continuously generates Rose Pulses: Hitting a target creates Crystalline Ground at the target's location to deal delayed DMG. Can trigger <span style=\"color:#6A90EB\">Terra Mark</span>. When Crystallized Ground receives Springseek Coronis's Auto ATK DMG, it detonates early and deals increased DMG.",
+          "descLong": "When in Crystallized State, a Rose Pulse is generated every 1.5s: Hitting a target creates Crystalline Ground at the target's location, and deals <span style=\"color:#0abec5\">&Param1&</span> of Springseek Coronis's ATK as Terra Auto ATK DMG after 2.5s. Can trigger <span style=\"color:#6A90EB\">Terra Mark</span>. When Crystallized Ground receives Springseek Coronis's Auto ATK DMG, it detonates early and deals <span style=\"color:#0abec5\">&Param3&</span> increased DMG.",
+          "icons": [
+            "15901_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "32%",
+                "37%",
+                "41%",
+                "56%",
+                "60%",
+                "65%",
+                "74%",
+                "77%",
+                "81%",
+                "89%",
+                "95%",
+                "102%",
+                "108%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "35%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515905,
+          "name": "Catalyst",
+          "descShort": "Increases Auspice's &Param1&. Increases DMG additionally based on the number of Auspice on the battlefield.",
+          "descLong": "Increases Auspice's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. Increases DMG additionally based on the number of Auspice on the battlefield, up to <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "icons": [
+            "15901_Potential_02_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "10%",
+                "13%",
+                "17%",
+                "20%",
+                "24%",
+                "28%",
+                "31%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%",
+                "19%",
+                "26%",
+                "34%",
+                "41%",
+                "48%",
+                "55%",
+                "62%",
+                "70%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515906,
+          "name": "Exquisite Cut",
+          "descShort": "When Springseek Coronis deals Auto ATK DMG, increases Auspice's &Param1&.",
+          "descLong": "When Springseek Coronis deals Auto ATK DMG, increases Auspice's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "15901_Potential_02_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "2.7%",
+                "3.4%",
+                "4.1%",
+                "4.8%",
+                "5.5%",
+                "6.2%",
+                "6.9%",
+                "7.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515907,
+          "name": "Jade Chime",
+          "descShort": "Increases the &Param1& of Springseek Coronis. When Auto Attack bullets pass near or through Auspice beams, the duration of all active Auspice is extended.",
+          "descLong": "Increases the &Param1& of Springseek Coronis by <span style=\"color:#ec6d21\">&Param2&</span>. When Evergreen Needles (Auto Attack) bullets pass near or through Auspice beams, the duration of all active Auspice is extended by 0.5s (up to <span style=\"color:#ec6d21\">&Param3&</span>s per Skill cast).",
+          "icons": [
+            "15901_Potential_01_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9.3%",
+                "15%",
+                "21%",
+                "26%",
+                "32%",
+                "37%",
+                "43%",
+                "49%",
+                "54%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2",
+                "2",
+                "2.5",
+                "2.5",
+                "3",
+                "3",
+                "3.5",
+                "3.5",
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515908,
+          "name": "Expanse: Everlasting Peace",
+          "descShort": "Increases Springseek Coronis's &Param1&. Increases &Param3& additionally against distant targets.",
+          "descLong": "Increases Springseek Coronis's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. Increases &Param3& additionally by <span style=\"color:#ec6d21\">&Param4&</span> against distant targets.",
+          "icons": [
+            "15901_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "7%",
+                "10%",
+                "13%",
+                "15%",
+                "18%",
+                "21%",
+                "23%",
+                "26%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "11%",
+                "17%",
+                "23%",
+                "29%",
+                "36%",
+                "42%",
+                "48%",
+                "55%",
+                "61%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515909,
+          "name": "Inner Stagnation",
+          "descShort": "When Springseek Coronis deals Auto ATK DMG, increases the target's &Param1&.",
+          "descLong": "When Springseek Coronis deals Auto ATK DMG, increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "15901_Potential_04_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.3%",
+                "2.1%",
+                "2.9%",
+                "3.7%",
+                "4.5%",
+                "5.3%",
+                "6.1%",
+                "6.9%",
+                "7.7%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515910,
+          "name": "Fortune's Flow",
+          "descShort": "Increases Springseek Coronis's &Param1&. When in Crystallized State, triggering <span style=\"color:#6A90EB\">Terra Mark</span> extends the state's duration.",
+          "descLong": "Increases Springseek Coronis's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. When in Crystallized State, triggering <span style=\"color:#6A90EB\">Terra Mark</span> extends the state's duration by 0.6s (up to 3s total per Skill cast).",
+          "icons": [
+            "15901_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage",
+                "Auto Attack Damage"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "19%",
+                "30%",
+                "41%",
+                "52%",
+                "64%",
+                "75%",
+                "86%",
+                "97%",
+                "108%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515911,
+          "name": "Iridescent Robe",
+          "descShort": "Ultimate can trigger <span style=\"color:#6A90EB\">Terra Mark</span>. Increases &Param1& on trigger.",
+          "descLong": "Springseek: Burst of Blaze (Ultimate) can trigger <span style=\"color:#6A90EB\">Terra Mark</span>. When Springseek Coronis triggers the Mark, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "Common_Potential_Earth_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.7%",
+                "2.7%",
+                "3.7%",
+                "4.7%",
+                "5.7%",
+                "6.7%",
+                "7.7%",
+                "8.7%",
+                "9.7%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515912,
+          "name": "Omen Breaker",
+          "descShort": "Springseek Coronis can dodge one more time. After dodging, increases &Param1&.",
+          "descLong": "Springseek Coronis can dodge one more time. After dodging, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for 6s.",
+          "icons": [
+            "Common_Potential_2_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "17%",
+                "22%",
+                "27%",
+                "31%",
+                "36%",
+                "41%",
+                "45%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515913,
+          "name": "Shifting Brilliance",
+          "descShort": "Increases Springseek Coronis's &Param1&. When Auto Attack bullets pass near or through Auspice beams, they gain Penetration and increased &Param3&.",
+          "descLong": "Increases Springseek Coronis's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. When Evergreen Needles (Auto Attack) bullets pass near or through Auspice beams, they gain Penetration and increased &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515921,
+          "name": "Essence Extraction",
+          "descShort": "For a short duration after casting Instant Blossom (Support Skill), increases Rose Vials' &Param2&.\nWhen a Rose Vial expires, it deals additional DMG.",
+          "descLong": "Within 3.5s after casting Instant Blossom (Support Skill), increases Rose Vials' &Param2& by <span style=\"color:#0abec5\">&Param3&</span>.\nWhen a Rose Vial expires, it deals an additional <span style=\"color:#0abec5\">&Param1&</span> of Springseek Coronis's ATK as AoE Terra Skill DMG.",
+          "icons": [
+            "15901_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "230%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "256%",
+                "295%",
+                "333%",
+                "449%",
+                "485%",
+                "521%",
+                "592%",
+                "623%",
+                "654%",
+                "715%",
+                "767%",
+                "818%",
+                "869%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515922,
+          "name": "Vernal Breath",
+          "descShort": "For each Terra Trekker on the squad, increases the &Param1& of Rose Vial.\nRose Vial will undergo a Rapid Bloom, instantly triggering all remaining DMG from its duration.",
+          "descLong": "For each Terra Trekker on the squad, increases the &Param1& of Rose Vial by <span style=\"color:#0abec5\">&Param2&</span>.\nRose Vial will undergo a Rapid Bloom, instantly triggering all remaining DMG from its duration.",
+          "icons": [
+            "15901_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "67%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515923,
+          "name": "Return to Earth",
+          "descShort": "For each Terra Trekker on the squad, increases the &Param1& of Wither Vial.\nChanges the number of Rose Vials and Wither Vials thrown by the Support Skill. The Wither Vial converts adjacent Rose Vials into Wither Vials as well.",
+          "descLong": "For each Terra Trekker on the squad, increases the &Param1& of Wither Vial by <span style=\"color:#0abec5\">&Param2&</span>.\nInstant Blossom (Support Skill) now throws 3 Wither Vials and 4 Rose Vials. The Wither Vial converts adjacent Rose Vials into Wither Vials as well.",
+          "icons": [
+            "15901_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "16%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515924,
+          "name": "Lasting Aftertaste",
+          "descShort": "Extends the duration of all Vials.",
+          "descLong": "Extends the duration of all Vials by <span style=\"color:#0abec5\">50%</span>.",
+          "icons": [
+            "15901_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": []
+        },
+        {
+          "id": 515925,
+          "name": "Perfect Touch",
+          "descShort": "For each Rose Vial on the field, increases Rose Vials' &Param1&.",
+          "descLong": "For each Rose Vial on the field, increases the &Param1& dealt by Rose Vials by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "15901_Potential_22_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6.1%",
+                "9.8%",
+                "13.5%",
+                "17.2%",
+                "20.9%",
+                "24.6%",
+                "28.3%",
+                "32%",
+                "35.7%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515926,
+          "name": "Symptom Sight",
+          "descShort": "When Rose Vial inflicts <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>, increases the &Param1& of the target.",
+          "descLong": "When Rose Vial inflicts <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>, increases the &Param1& of the target by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "15901_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515927,
+          "name": "Reciprocity",
+          "descShort": "For a short duration after Rose Vial inflicts <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span> on the target, triggering <span style=\"color:#6A90EB\">Terra Mark</span> on the target deals additional DMG.",
+          "descLong": "For 10s after Rose Vial inflicts <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span> on the target, triggering <span style=\"color:#6A90EB\">Terra Mark</span> on the target deals an additional <span style=\"color:#ec6d21\">&Param1&</span> of Springseek Coronis's ATK as Terra Skill DMG.",
+          "icons": [
+            "15901_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "109%",
+                "174%",
+                "239%",
+                "304%",
+                "369%",
+                "434%",
+                "499%",
+                "565%",
+                "630%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515928,
+          "name": "Faded Splendor",
+          "descShort": "For each Wither Vial on the field, increases Wither Vials' &Param1&.",
+          "descLong": "For each Wither Vial on the field, increases Wither Vials' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "15901_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.6%",
+                "4.2%",
+                "5.8%",
+                "7.4%",
+                "9%",
+                "10.6%",
+                "12.2%",
+                "13.8%",
+                "15.4%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515929,
+          "name": "Aromatic Room",
+          "descShort": "When a Rose Vial or Wither Vial is on the field, increases all Terra Trekkers' &Param1&.",
+          "descLong": "When a Rose Vial or Wither Vial is on the field, increases all Terra Trekkers' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "15901_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "17%",
+                "28%",
+                "38%",
+                "49%",
+                "59%",
+                "69%",
+                "80%",
+                "90%",
+                "101%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515930,
+          "name": "Waning Year",
+          "descShort": "When Wither Vial applies Wither stack to a target that has not yet reached the max stack limit, it deals DMG. For every current stack of Wither on the target, the &Param1& upon applying a new stack is increased.",
+          "descLong": "When Wither Vial applies Wither stack to a target that has not yet reached the max stack limit, it deals <span style=\"color:#ec6d21\">&Param3&</span> of Springseek Coronis's ATK as Terra Skill DMG. For every current stack of Wither on the target, the &Param1& upon applying a new stack is increased by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "15901_Potential_24_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "18.5%",
+                "29.7%",
+                "40.8%",
+                "51.9%",
+                "63%",
+                "74.1%",
+                "85.3%",
+                "96.4%",
+                "107.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "12%",
+                "17%",
+                "21%",
+                "26%",
+                "30%",
+                "35%",
+                "39%",
+                "44%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515931,
+          "name": "Herbal Tempering",
+          "descShort": "Increases the &Param1& of Springseek Coronis.",
+          "descLong": "Increases the &Param1& of Springseek Coronis by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515932,
+          "name": "Flying Fire",
+          "descShort": "Ultimate can inflict <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>. Increases Springseek Coronis's &Param1&.",
+          "descLong": "Springseek: Burst of Blaze (Ultimate) can inflict <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>. Increases Springseek Coronis's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_Earth_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "18%",
+                "29%",
+                "40%",
+                "50%",
+                "61%",
+                "72%",
+                "83%",
+                "94%",
+                "104%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515933,
+          "name": "Terra Chorus",
+          "descShort": "When all squadmates are Terra Trekkers, each Rose Vial on the field increases the Terra Mark DMG taken by the target when Springseek Coronis deals Skill DMG.",
+          "descLong": "If all squadmates are Terra Trekkers, when Springseek Coronis deals Skill DMG, each Rose Vial on the field increases the Terra Mark DMG taken by the target by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "9.4%",
+                "15%",
+                "20.6%",
+                "26.2%",
+                "31.8%",
+                "37.4%",
+                "43%",
+                "48.6%",
+                "54.2%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515941,
+          "name": "Dream Shock",
+          "descShort": "Increases Ultimate DMG against elite or higher-tier targets. Additionally inflicts <span style=\"color:#6A90EB\">Charm</span> on normal targets, dealing DMG when the effect ends.",
+          "descLong": "Increases the DMG of Springseek: Burst of Blaze (Ultimate) against elite or higher-tier targets by <span style=\"color:#ec6d21\">&Param2&</span>. Additionally inflicts <span style=\"color:#6A90EB\">Charm</span> on normal targets: It lasts 2s, and deals <span style=\"color:#ec6d21\">&Param3&</span> of Springseek Coronis's ATK as Terra Ultimate DMG when the effect ends.",
+          "icons": [
+            "15901_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "29%",
+                "46%",
+                "63%",
+                "81%",
+                "98%",
+                "115%",
+                "133%",
+                "150%",
+                "167%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "162%",
+                "259%",
+                "356%",
+                "453%",
+                "550%",
+                "647%",
+                "744%",
+                "841%",
+                "938%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515942,
+          "name": "Lingering Grace",
+          "descShort": "Increases Ultimate DMG. While the Ultimate is on cooldown or its Energy is not full, increases the &Param3& of Terra Vanguards and Versatile Trekkers in the squad.",
+          "descLong": "Increases the DMG of Springseek: Burst of Blaze (Ultimate) by <span style=\"color:#ec6d21\">&Param2&</span>. While the Ultimate is on cooldown or its Energy is not full, increases the &Param3& of Terra Vanguards and Versatile Trekkers by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "15901_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "14%",
+                "23%",
+                "32%",
+                "40%",
+                "49%",
+                "57%",
+                "66%",
+                "75%",
+                "83%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "11%",
+                "17%",
+                "24%",
+                "30%",
+                "36%",
+                "43%",
+                "49%",
+                "56%",
+                "62%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515943,
+          "name": "United Flame",
+          "descShort": "When the Ultimate deals DMG, increases Springseek Coronis's &Param1&.",
+          "descLong": "When Springseek: Burst of Blaze (Ultimate) deals DMG, increases Springseek Coronis's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param4&s, stacking up to &Param3& times.",
+          "icons": [
+            "15901_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.7%",
+                "4.3%",
+                "5.9%",
+                "7.5%",
+                "9.1%",
+                "10.7%",
+                "12.3%",
+                "13.9%",
+                "15.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
               ]
             }
           ]
@@ -39544,7 +40865,7 @@
       "skills": [
         {
           "name": "Witch's Swing",
-          "desc": "Increases the squad's Umbra DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Umbra Trekker casts a Support Skill, increases this effect by an additional <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "desc": "Increases all friendly units' Umbra DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Umbra Trekker casts a Support Skill, increases the effect by an additional <span style=\"color:#ec6d21\">&Param2&</span> for &Param3& sec.",
           "params": [
             {
               "idx": 1,
@@ -44693,6 +46014,172 @@
       "bg": 4041
     },
     {
+      "id": 214042,
+      "name": "Wine Warm, Lamps Alight",
+      "desc": "Midnight bells chime to welcome the Springseek Festival\u000bas fireworks set the night sky ablaze.\u000bAmid the revelry, the crowd wishes\u000bthat there is joy and peace for the days and years ahead.",
+      "element": 3,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Wine Warm, Lamps Alight",
+          "desc": "Increases the Ultimate DMG of Terra Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>. When a Versatile Terra Trekker deals Skill DMG, increases the effect by an additional <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "24%",
+                "28%",
+                "32%",
+                "36%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Eternal Pulse",
+          "desc": "Increases Terra Versatile Trekkers' ATK by <span style=\"color:#ec6d21\">&Param1&</span>.\nIncreases the main Terra Trekker's Auto Attack DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bright Refrain",
+          "desc": "After the main Terra Trekker deals DMG &Param1& times, increases own ATK by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4042
+    },
+    {
       "id": 214043,
       "name": "The Bud of Change",
       "desc": "Beneath the soil steeped in conspiracy and intrigue,\nWatchful, calculating gazes interweave.\nSomething is struggling to break through the earth.",
@@ -44847,6 +46334,172 @@
         }
       ],
       "bg": 4043
+    },
+    {
+      "id": 214044,
+      "name": "Veiled Dawn of Spring",
+      "desc": "The drawn curtains create a cozy, warm retreat.\u000bHer smile is tender,\u000bbut the syringe in her hand glints chillingly.\u000b\"Don't be afraid. It will be over before you know it.\"",
+      "element": 3,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Veiled Dawn of Spring",
+          "desc": "Increases Skill DMG of Support Terra Trekkers by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen a Versatile Terra Trekker deals Skill DMG, inflicts Spring Blossom on the target: increases Terra Skill DMG taken by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "24%",
+                "28%",
+                "32%",
+                "36%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "The Sovereign Elixir",
+          "desc": "Increases Terra Versatile Trekkers' Skill Crit DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nIncreases the main Terra Trekker's Skill DMG to targets inflicted with Spring Blossom by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "20%",
+                "25%",
+                "30%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "24%",
+                "36%",
+                "48%",
+                "60%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blossom's Requiring",
+          "desc": "After the main Terra Trekker deals DMG to targets inflicted with Spring Blossom &Param1& times, increases Terra squadmates' Skill DMG by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "20%",
+                "30%",
+                "40%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4044
     },
     {
       "id": 214048,
