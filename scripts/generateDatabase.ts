@@ -203,7 +203,11 @@ function getCharacters() {
     if (potentialTypes.type1.includes(potentialId)) type = 1;
     else if (potentialTypes.type2.includes(potentialId)) type = 2;
     else if (potentialTypes.type3.includes(potentialId)) type = 3;
-    else throw new Error(`Unknown potential type: ${potentialId}`);
+    else {
+      // TODO: This was added for potential 514414 which is marked !NONEED! might need to handle this more gracefully
+      warnings.push(`Ignoring potential ${potentialId} due to unhandled type`);
+      return;
+    }
 
     const descShort = patchDescription(
       getLangJson("Potential")[`Potential.${potentialId}.1`],
