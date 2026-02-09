@@ -46571,7 +46571,7 @@
           "notes": []
         },
         {
-          "name": "Kingdom of Fires",
+          "name": "Kingdom of Fries",
           "desc": "Hymn grants extra effects: Increases the Ignis Skill DMG Taken by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen <span style=\"color:#6A90EB\">Ode</span> is converted in to Hymn, increases the Skill DMG of Ignis Trekkers in the squad by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
           "params": [
             {
