@@ -2,7 +2,7 @@
   "characters": [
     {
       "id": 103,
-      "name": "Amber",
+      "name": "コハク",
       "class": 1,
       "element": 2,
       "rarity": 2,
@@ -1269,7 +1269,7 @@
     },
     {
       "id": 107,
-      "name": "Tilia",
+      "name": "ティリア",
       "class": 3,
       "element": 5,
       "rarity": 2,
@@ -2520,7 +2520,7 @@
     },
     {
       "id": 108,
-      "name": "Kasimira",
+      "name": "カシミラ",
       "class": 2,
       "element": 2,
       "rarity": 2,
@@ -3762,7 +3762,7 @@
     },
     {
       "id": 110,
-      "name": "Firenze",
+      "name": "フィレン",
       "class": 1,
       "element": 6,
       "rarity": 1,
@@ -5000,7 +5000,7 @@
     },
     {
       "id": 111,
-      "name": "Iris",
+      "name": "アヤメ",
       "class": 2,
       "element": 1,
       "rarity": 2,
@@ -6107,7 +6107,7 @@
     },
     {
       "id": 112,
-      "name": "Noya",
+      "name": "セイナ",
       "class": 1,
       "element": 4,
       "rarity": 2,
@@ -7230,7 +7230,7 @@
     },
     {
       "id": 113,
-      "name": "Shimiao",
+      "name": "シーミャオ",
       "class": 1,
       "element": 1,
       "rarity": 2,
@@ -8565,7 +8565,7 @@
     },
     {
       "id": 116,
-      "name": "Ridge",
+      "name": "レイセン",
       "class": 2,
       "element": 3,
       "rarity": 2,
@@ -9672,7 +9672,7 @@
     },
     {
       "id": 117,
-      "name": "Jinglin",
+      "name": "ジンリン",
       "class": 2,
       "element": 5,
       "rarity": 2,
@@ -10785,7 +10785,7 @@
     },
     {
       "id": 118,
-      "name": "Coronis",
+      "name": "クルニス",
       "class": 2,
       "element": 6,
       "rarity": 2,
@@ -12038,7 +12038,7 @@
     },
     {
       "id": 119,
-      "name": "Nanoha",
+      "name": "ナノハ",
       "class": 1,
       "element": 4,
       "rarity": 1,
@@ -13247,7 +13247,7 @@
     },
     {
       "id": 120,
-      "name": "Canace",
+      "name": "カナーチェ",
       "class": 2,
       "element": 4,
       "rarity": 2,
@@ -14396,7 +14396,7 @@
     },
     {
       "id": 123,
-      "name": "Ann",
+      "name": "アンズ",
       "class": 3,
       "element": 4,
       "rarity": 2,
@@ -15660,7 +15660,7 @@
     },
     {
       "id": 125,
-      "name": "Freesia",
+      "name": "フリージア",
       "class": 2,
       "element": 1,
       "rarity": 1,
@@ -16725,7 +16725,7 @@
     },
     {
       "id": 126,
-      "name": "Flora",
+      "name": "フローラ",
       "class": 3,
       "element": 2,
       "rarity": 2,
@@ -17891,7 +17891,7 @@
     },
     {
       "id": 127,
-      "name": "Teresa",
+      "name": "テレサ",
       "class": 3,
       "element": 1,
       "rarity": 2,
@@ -19145,7 +19145,7 @@
     },
     {
       "id": 132,
-      "name": "Minova",
+      "name": "ミネルバ",
       "class": 2,
       "element": 5,
       "rarity": 1,
@@ -20236,7 +20236,7 @@
     },
     {
       "id": 133,
-      "name": "Nazuka",
+      "name": "ナツカ",
       "class": 2,
       "element": 4,
       "rarity": 1,
@@ -21562,7 +21562,7 @@
     },
     {
       "id": 134,
-      "name": "Fuyuka",
+      "name": "フユカ",
       "class": 1,
       "element": 2,
       "rarity": 1,
@@ -22865,7 +22865,7 @@
     },
     {
       "id": 135,
-      "name": "Mistique",
+      "name": "ミスティ",
       "class": 2,
       "element": 6,
       "rarity": 1,
@@ -24074,7 +24074,7 @@
     },
     {
       "id": 141,
-      "name": "Chixia",
+      "name": "チーシア",
       "class": 2,
       "element": 2,
       "rarity": 1,
@@ -25159,7 +25159,7 @@
     },
     {
       "id": 142,
-      "name": "Cosette",
+      "name": "コゼット",
       "class": 3,
       "element": 6,
       "rarity": 2,
@@ -26510,7 +26510,7 @@
     },
     {
       "id": 143,
-      "name": "Wraith",
+      "name": "レイス",
       "class": 1,
       "element": 4,
       "rarity": 1,
@@ -27758,7 +27758,7 @@
     },
     {
       "id": 144,
-      "name": "Chitose",
+      "name": "チトセ",
       "class": 1,
       "element": 1,
       "rarity": 1,
@@ -28964,7 +28964,7 @@
     },
     {
       "id": 147,
-      "name": "Caramel",
+      "name": "キャラメル",
       "class": 1,
       "element": 6,
       "rarity": 2,
@@ -30070,7 +30070,7 @@
     },
     {
       "id": 149,
-      "name": "Gerie",
+      "name": "グレイ",
       "class": 1,
       "element": 3,
       "rarity": 1,
@@ -31289,7 +31289,7 @@
     },
     {
       "id": 150,
-      "name": "Laru",
+      "name": "ラール",
       "class": 1,
       "element": 5,
       "rarity": 2,
@@ -32394,7 +32394,7 @@
     },
     {
       "id": 155,
-      "name": "Shia",
+      "name": "シア",
       "class": 1,
       "element": 5,
       "rarity": 1,
@@ -33591,7 +33591,7 @@
     },
     {
       "id": 156,
-      "name": "Nazuna",
+      "name": "ナズナ",
       "class": 3,
       "element": 3,
       "rarity": 1,
@@ -34836,7 +34836,7 @@
     },
     {
       "id": 158,
-      "name": "Snowish Laru",
+      "name": "ラール（聖夜）",
       "class": 2,
       "element": 2,
       "rarity": 1,
@@ -36385,7 +36385,7 @@
     },
     {
       "id": 159,
-      "name": "Coronis",
+      "name": "クルニス（華服）",
       "class": 2,
       "element": 3,
       "rarity": 1,
