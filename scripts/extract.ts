@@ -1,11 +1,12 @@
-import {
-  existsSync,
-  rmSync,
-  mkdirSync,
-  readdirSync,
-  copyFileSync,
-  writeFileSync,
-} from "fs";
+import
+  {
+    existsSync,
+    rmSync,
+    mkdirSync,
+    readdirSync,
+    copyFileSync,
+    writeFileSync,
+  } from "fs";
 import { join, dirname } from "path";
 import { spawn } from "child_process";
 
@@ -14,7 +15,8 @@ import { spawn } from "child_process";
 let FROM = "F:/YostarGames/StellaSora_EN";
 const TO = "./bundles";
 
-async function extract(from: string) {
+async function extract(from: string)
+{
   if (existsSync(TO)) rmSync(TO, { recursive: true });
   if (existsSync("./assets")) rmSync("./assets", { recursive: true });
   if (existsSync("./extract")) rmSync("./extract", { recursive: true });
@@ -23,9 +25,11 @@ async function extract(from: string) {
   const to = join(TO, from.split("/").slice(1).join("/"));
   const patterns = [/icon-.*unity3d/];
   // const patterns = [/icon-.*unity3d/, /char_2d.*unity3d/];
-  readdirSync(from, { recursive: true }).forEach((file) => {
+  readdirSync(from, { recursive: true }).forEach((file) =>
+  {
     const match = patterns.some((pattern) => pattern.test(file));
-    if (match) {
+    if (match)
+    {
       const source = join(from, file);
       const destination = join(to, file);
       let dest_folder = destination;
@@ -35,7 +39,8 @@ async function extract(from: string) {
     }
   });
 
-  await new Promise<void>((resolve, reject) => {
+  await new Promise<void>((resolve, reject) =>
+  {
     const assetStudioProcess = spawn("dotnet", [
       "./assetStudio/AssetStudioModCLI.dll",
       to,
@@ -51,17 +56,21 @@ async function extract(from: string) {
       "Potential,comic,_XL,outfit_",
     ]);
 
-    assetStudioProcess.stdout.on("data", (data) => {
+    assetStudioProcess.stdout.on("data", (data) =>
+    {
       console.log(data.toString());
     });
 
-    assetStudioProcess.stderr.on("data", (data) => {
+    assetStudioProcess.stderr.on("data", (data) =>
+    {
       console.error(data.toString());
     });
 
     let extractedFiles = 0;
-    assetStudioProcess.on("close", (code) => {
-      if (code !== 0) {
+    assetStudioProcess.on("close", (code) =>
+    {
+      if (code !== 0)
+      {
         reject();
         throw new Error(`AssetStudio exited with code ${code}`);
       }
@@ -77,13 +86,16 @@ async function extract(from: string) {
         { path: "assets/assetbundles_en/icon/loading", out: "loading" },
       ];
 
-      for (const folder of folders) {
+      for (const folder of folders)
+      {
         if (existsSync("./extract/" + folder.path) === false) continue;
 
         let localFiles: string[] = [];
         readdirSync("./extract/" + folder.path, { recursive: true }).forEach(
-          (file) => {
-            if (folder.filter && file.match(folder.filter) === null) {
+          (file) =>
+          {
+            if (folder.filter && file.match(folder.filter) === null)
+            {
               return;
             }
             const source = join("./extract", folder.path, file);
@@ -94,12 +106,14 @@ async function extract(from: string) {
             extractedFiles++;
           },
         );
-        if (!(folder.out in files)) {
+        if (!(folder.out in files))
+        {
           files[folder.out] = [];
         }
         files[folder.out].push(...localFiles);
 
-        for (const [key, value] of Object.entries(files)) {
+        for (const [key, value] of Object.entries(files))
+        {
           writeFileSync(
             key + "/index.json",
             JSON.stringify([...new Set(value)]),
@@ -107,7 +121,8 @@ async function extract(from: string) {
         }
       }
 
-      if (extractedFiles === 0) {
+      if (extractedFiles === 0)
+      {
         throw new Error(`"No new files extracted. Likely an error"`);
       }
 
@@ -119,6 +134,7 @@ async function extract(from: string) {
 
 export default extract;
 
-if (require.main === module) {
+if (require.main === module)
+{
   extract("./download");
 }

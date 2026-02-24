@@ -17,10 +17,13 @@ const ax = axios.create({
   },
 });
 ax.interceptors.request.use(
-  (config) => {
-    if (config.withCredentials) {
+  (config) =>
+  {
+    if (config.withCredentials)
+    {
       config.headers["Authorization"] = createAuthHeader();
-    } else {
+    } else
+    {
       config.headers = new axios.AxiosHeaders({
         "Cache-Control": "no-cache",
       });
@@ -29,15 +32,19 @@ ax.interceptors.request.use(
     // console.log("Request sent:", (config.baseURL ?? "") + config.url);
     return config;
   },
-  (error) => {
+  (error) =>
+  {
     return Promise.reject(error);
   },
 );
 ax.interceptors.response.use(
-  (response) => {
-    if (response.status !== 200) {
+  (response) =>
+  {
+    if (response.status !== 200)
+    {
       throw new Error(`Request failed with status ${response.status}`);
-    } else {
+    } else
+    {
       // console.log(
       //   "Request succeeded:",
       //   response.status,
@@ -46,13 +53,15 @@ ax.interceptors.response.use(
     }
     return response;
   },
-  (error) => {
+  (error) =>
+  {
     console.error(error.message);
     throw new Error("Failed to download url");
   },
 );
 
-async function getLauncherVersion(): Promise<string> {
+async function getLauncherVersion(): Promise<string>
+{
   let res = await ax.get(
     "/install_pkg/game_launcher/StellaSora_EN/latest.yml",
     { baseURL: cdnUrl, withCredentials: false },
@@ -62,7 +71,8 @@ async function getLauncherVersion(): Promise<string> {
   return version ?? "";
 }
 
-function createAuthHeader(): string {
+function createAuthHeader(): string
+{
   const salt = "DE7108E9B2842FD460F4777702727869";
   const head = {
     game_tag: "StellaSora_EN",
@@ -89,7 +99,8 @@ async function getGameInfo(): Promise<{
   file_url: "";
   decompression_size: "14.1GB";
   config_id: 0;
-}> {
+}>
+{
   const res = await ax.get("/api/launcher/game/config");
   return res.data.data;
 }
@@ -106,7 +117,8 @@ type Manifest = {
 async function getManifest(
   gameVersion: string,
   gamePath: string,
-): Promise<Manifest> {
+): Promise<Manifest>
+{
   const url = encodeURI(
     `/api/launcher/game/config/json?version=${gameVersion}&file_path=${gamePath}`,
   );
@@ -120,12 +132,14 @@ async function getManifest(
 async function getCDN(): Promise<{
   primary_cdn: "https://launcher-pkg-ss-en.yo-star.com";
   back_up_cdn: "https://launcher-pkg-ss-en-bk.yo-star.com";
-}> {
+}>
+{
   const res = await ax.get("/api/launcher/advanced/game/download/cdn");
   return res.data.data;
 }
 
-async function getData(): Promise<object> {
+async function getData(): Promise<object>
+{
   const urls = [
     ["requestClientInfo", "/api/launcher/base/config"],
     ["requestBannerAndNews", "/api/launcher/operations/resource"],
@@ -136,7 +150,8 @@ async function getData(): Promise<object> {
   ];
 
   let data = {};
-  for (const url of urls) {
+  for (const url of urls)
+  {
     const res = await ax.get(url[1]);
     data[url[0]] = res.data.data;
   }
@@ -145,7 +160,8 @@ async function getData(): Promise<object> {
 
 async function downloadFiles(
   currentManifest: Manifest,
-): Promise<{ bHasChanges: boolean; dir: string; manifest: Manifest }> {
+): Promise<{ bHasChanges: boolean; dir: string; manifest: Manifest }>
+{
   launcherVersion = await getLauncherVersion();
   console.log("Launcher version " + launcherVersion);
 
@@ -174,7 +190,8 @@ async function downloadFiles(
     gameInfo.game_latest_file_path,
   );
 
-  const files = manifest.file.filter((file) => {
+  const files = manifest.file.filter((file) =>
+  {
     // (path) => path.includes("icon-") || path.includes("char_2d_"),
     if (file.path.includes("icon-") === false) return false;
     const currentFile = currentManifest?.file?.find(
@@ -182,7 +199,8 @@ async function downloadFiles(
     );
 
     // We've already downloaded this file, check if it's changed
-    if (currentFile !== undefined) {
+    if (currentFile !== undefined)
+    {
       if (currentFile.hash === file.hash && currentFile.size === file.size)
         return false;
     }
@@ -190,7 +208,8 @@ async function downloadFiles(
     return true;
   });
 
-  if (files.length === 0) {
+  if (files.length === 0)
+  {
     console.log("No changes detected.");
     return { bHasChanges: false, dir: outDir, manifest: currentManifest };
   }
@@ -203,13 +222,16 @@ async function downloadFiles(
   console.log(`Starting download of ${totalFiles} files...`);
 
   let paths = files.map((file) => file.path);
-  while (paths.length > 0) {
+  while (paths.length > 0)
+  {
     const chunkSize = 5;
     const chunk = paths.splice(0, chunkSize);
 
-    const promises = chunk.map(async (icon) => {
+    const promises = chunk.map(async (icon) =>
+    {
       const url = encodeURI(manifest.source + icon);
-      try {
+      try
+      {
         const res = await ax.get(url, {
           baseURL: cdnUrl,
           withCredentials: false,
@@ -222,7 +244,8 @@ async function downloadFiles(
 
         downloadedCount++;
         console.log(`Downloaded ${downloadedCount}/${totalFiles} files`);
-      } catch (error) {
+      } catch (error)
+      {
         console.error(`Error downloading ${icon}, retrying: ${error.message}`);
         paths.push(icon);
       }

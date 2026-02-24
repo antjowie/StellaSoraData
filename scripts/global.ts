@@ -10,12 +10,15 @@ export const TW = "tw";
 export let lang = "";
 export let jsonCache = {};
 export let jsonLangCache = {};
+export let warnings: string[] = [];
 
-export function setLang(newLang: string) {
+export function setLang(newLang: string)
+{
   lang = newLang;
 }
 
-export function getJson(json: string) {
+export function getJson(json: string)
+{
   if (jsonCache[json] === undefined)
     jsonCache[json] = JSON.parse(readFileSync(`EN/bin/${json}.json`, "utf8"));
   if (jsonCache[json] === undefined)
@@ -26,10 +29,12 @@ export function getJson(json: string) {
 export function getLangJson(
   json: string,
   langOverride: string | undefined = undefined,
-) {
+)
+{
   let path: string;
   let localLang = langOverride ?? lang;
-  switch (localLang) {
+  switch (localLang)
+  {
     case EN:
       path = `EN/language/en_US/${json}.json`;
       break;
@@ -49,7 +54,8 @@ export function getLangJson(
       throw new Error(`Unsupported language: ${localLang}`);
   }
 
-  if (!jsonLangCache[path]) {
+  if (!jsonLangCache[path])
+  {
     jsonLangCache[path] = JSON.parse(readFileSync(path, "utf8"));
   }
   if (!jsonLangCache[path])
@@ -57,14 +63,17 @@ export function getLangJson(
   return jsonLangCache[path];
 }
 
-export function parseNumberStrict(value: any) {
+export function parseNumberStrict(value: any)
+{
   const result = parseFloat(value);
-  if (isNaN(result)) {
+  if (isNaN(result))
+  {
     throw new Error(`Failed to parse integer: ${JSON.stringify(value)}`);
   }
   return result;
 }
 
-export function roundIfDecimal(num: number) {
+export function roundIfDecimal(num: number)
+{
   return Number.isInteger(num) ? num : Math.round(num * 10) / 10;
 }
