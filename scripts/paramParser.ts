@@ -224,7 +224,22 @@ function parseParam(param: string)
           )];
         } catch (e)
         {
+          if (category === "ScriptParameter")
+          {
+            // Might need to handle more generically, but sometimes LevelUp specifier is specified, but no levelUp entries exist
+            warnings.push("Could not process levelup for " + id);
+            values = [processValue(
+              id,
+              fields,
+              getJson(category + "Value"),
+              fields[0],
+              processor.process,
+            )];
+          }
+          else
+          {
             throw e;
+          }
         }
         break;
       case "DamageNum":
