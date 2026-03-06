@@ -4,6 +4,13 @@ Datamined data for the game `Stella Sora`, updates automatically. Currently reli
 # Issues
 The downloader downloads data from the launcher, but this data older then data downloaded by the game. So sometimes assets are not up to date yet.
 
+# Important Notice
+Due to the extreme situation in my country, I will not be able to keep my PC running nor maintain my bot.
+Therefore, my bot will be shut down temporarily until it is safe enough to come back home. 
+That means StellaSoraData might not update in the next couple of days/weeks.
+Once the situation is over, I will remove this section of readme.
+Apologies for any inconvenience. 
+
 # Disclaimer
 Yostar Games owns the original assets to the game, all credits go to its rightful owner. \
 I am not liable for any damages caused if you get banned from using a mod created by this tool, or its derivatives. \
