@@ -159,7 +159,7 @@ async function getData(): Promise<object>
 }
 
 async function downloadFiles(
-  currentManifest: Manifest,
+  oldManifest: Manifest,
 ): Promise<{ bHasChanges: boolean; dir: string; manifest: Manifest }>
 {
   launcherVersion = await getLauncherVersion();
@@ -194,7 +194,7 @@ async function downloadFiles(
   {
     // (path) => path.includes("icon-") || path.includes("char_2d_"),
     if (file.path.includes("icon-") === false) return false;
-    const currentFile = currentManifest?.file?.find(
+    const currentFile = oldManifest?.file?.find(
       (c) => c.path === file.path,
     );
 
@@ -211,7 +211,7 @@ async function downloadFiles(
   if (files.length === 0)
   {
     console.log("No changes detected.");
-    return { bHasChanges: false, dir: outDir, manifest: currentManifest };
+    return { bHasChanges: false, dir: outDir, manifest: oldManifest };
   }
 
   // We got new files to download
