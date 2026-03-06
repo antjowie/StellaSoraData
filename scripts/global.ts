@@ -11,6 +11,12 @@ export let lang = "";
 export let jsonCache = {};
 export let jsonLangCache = {};
 export let warnings: string[] = [];
+export let databaseEn: any;
+
+export function setDatabaseEn(database: any)
+{
+  databaseEn = database;
+}
 
 export function setLang(newLang: string)
 {

@@ -6,7 +6,7 @@
       "name": "stellasoradata",
       "dependencies": {
         "axios": "^1.13.2",
-        "ky": "^1.14.0",
+        "ky": "^1.14.3",
         "sharp": "^0.34.5",
       },
       "devDependencies": {
@@ -110,7 +110,7 @@
 
     "hasown": ["hasown@2.0.2", "", { "dependencies": { "function-bind": "^1.1.2" } }, "sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ=="],
 
-    "ky": ["ky@1.14.0", "", {}, "sha512-Rczb6FMM6JT0lvrOlP5WUOCB7s9XKxzwgErzhKlKde1bEV90FXplV1o87fpt4PU/asJFiqjYJxAJyzJhcrxOsQ=="],
+    "ky": ["ky@1.14.3", "", {}, "sha512-9zy9lkjac+TR1c2tG+mkNSVlyOpInnWdSMiue4F+kq8TwJSgv6o8jhLRg8Ho6SnZ9wOYUq/yozts9qQCfk7bIw=="],
 
     "math-intrinsics": ["math-intrinsics@1.1.0", "", {}, "sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g=="],
 

@@ -11,6 +11,7 @@ import
     parseNumberStrict,
     getJson,
     getLangJson,
+    setDatabaseEn,
   } from "./global.js";
 import parseParam from "./paramParser.js";
 
@@ -465,6 +466,10 @@ function generateDatabases()
       JSON.stringify(database, null, 2),
     );
     databases.push(database);
+    if (lang === EN)
+    {
+      setDatabaseEn(database);
+    }
   }
   return databases;
 }
