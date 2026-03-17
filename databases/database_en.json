@@ -19469,6 +19469,1539 @@
       ]
     },
     {
+      "id": 130,
+      "name": "Donna",
+      "class": 2,
+      "element": 1,
+      "rarity": 1,
+      "mainBuild1Name": "Donna: Main Build 1",
+      "mainBuild1Desc": "A build that fires more and stronger arrows, significantly enhancing Auto Attacks.",
+      "mainBuild2Name": "Donna: Main Build 2",
+      "mainBuild2Desc": "A build that synergizes with doll attacks, improving ATK and skill synergy.",
+      "supportBuild1Name": "Donna: Support Build 1",
+      "supportBuild1Desc": "A build that concentrates attacks on targets in front.",
+      "supportBuild2Name": "Donna: Support Build 2",
+      "supportBuild2Desc": "A volley build that randomly attacks nearby targets.",
+      "potentials": [
+        {
+          "id": 513001,
+          "name": "Condensation Orbs",
+          "descShort": "Extends the duration of Donna's <span style=\"color:#6A90EB\">Agile</span> State.\nWhile <span style=\"color:#6A90EB\">Agile</span> State is active, Auto Attacks accumulate water orbs which will all be fired to deal DMG after <span style=\"color:#6A90EB\">Agile</span> State ends.",
+          "descLong": "When the Advertising Doll disappears, extends the duration of <span style=\"color:#6A90EB\">Agile</span> State by <span style=\"color:#0abec5\">&Param2&</span>s.\nWhile <span style=\"color:#6A90EB\">Agile</span> State is active, every 10 Auto Attacks generate 1 water orb, accumulating up to <span style=\"color:#0abec5\">7</span> orbs. When <span style=\"color:#6A90EB\">Agile</span> State ends, the next Auto Attack fires all water orbs to pierce through the target, with each orb dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as Aqua Skill DMG.",
+          "icons": [
+            "13001_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "51%",
+                "59%",
+                "67%",
+                "90%",
+                "97%",
+                "104%",
+                "119%",
+                "125%",
+                "131%",
+                "143%",
+                "154%",
+                "164%",
+                "174%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513002,
+          "name": "Azure Night",
+          "descShort": "While Donna is in <span style=\"color:#6A90EB\">Agile</span> State, her Auto Attacks deal additional DMG.",
+          "descLong": "While Donna is in <span style=\"color:#6A90EB\">Agile</span> State, she fires <span style=\"color:#0abec5\">4</span> additional ice spikes with each Auto Attack, each spike dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as Aqua Skill DMG.",
+          "icons": [
+            "13001_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4.6%",
+                "5.3%",
+                "6%",
+                "8.1%",
+                "8.7%",
+                "9.4%",
+                "10.7%",
+                "11.2%",
+                "11.8%",
+                "12.9%",
+                "13.8%",
+                "14.7%",
+                "15.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513003,
+          "name": "Precision Marketing",
+          "descShort": "When Donna's Auto Attack hits a target near the Advertising Doll, deals AoE DMG.",
+          "descLong": "When Donna's Auto Attack hits a target near the Advertising Doll, the doll unleashes waves, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Aqua Minion DMG.",
+          "icons": [
+            "13001_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "115%",
+                "132%",
+                "150%",
+                "201%",
+                "218%",
+                "234%",
+                "266%",
+                "280%",
+                "294%",
+                "321%",
+                "344%",
+                "367%",
+                "390%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513004,
+          "name": "Bubble Finale",
+          "descShort": "Increases the Max HP of the Advertising Doll.\nWhen the Advertising Doll disappears, deals AoE DMG over time.",
+          "descLong": "Increases the Max HP of the Advertising Doll by <span style=\"color:#0abec5\">&Param1&</span>.\nWhen the doll disappears, deals <span style=\"color:#0abec5\">&Param2&</span> of ATK as AoE Aqua Minion DMG and creates a Bubble Pool that deals <span style=\"color:#0abec5\">&Param5&</span> of ATK as AoE Aqua Minion DMG every 0.5s for 4s. When the Advertising Doll is present, each of its attacks increases own &Param6& by <span style=\"color:#0abec5\">&Param7&</span>, stacking up to &Param8& times.",
+          "icons": [
+            "13001_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "50%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12.6%",
+                "14.4%",
+                "16.3%",
+                "22%",
+                "23.7%",
+                "25.5%",
+                "29%",
+                "30.5%",
+                "32%",
+                "35%",
+                "37.6%",
+                "40.1%",
+                "42.6%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "14.1%",
+                "16.3%",
+                "18.4%",
+                "24.7%",
+                "26.7%",
+                "28.7%",
+                "32.7%",
+                "34.4%",
+                "36.1%",
+                "39.4%",
+                "42.3%",
+                "45.1%",
+                "47.9%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "3.5%"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513005,
+          "name": "Tidal Echo",
+          "descShort": "When Donna's Auto Attacks deal DMG while she is in <span style=\"color:#6A90EB\">Agile</span> State, increases the target's &Param1&.",
+          "descLong": "When Donna's Auto Attacks deal DMG while she is in <span style=\"color:#6A90EB\">Agile</span> State, increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "13001_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.4%",
+                "0.6%",
+                "0.8%",
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%",
+                "1.8%",
+                "2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513006,
+          "name": "Piercing Arrow Rain",
+          "descShort": "When Donna's Auto Attacks deal DMG to targets inflicted with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Chill</span> while she is in <span style=\"color:#6A90EB\">Agile</span> State, increases her &Param4&.",
+          "descLong": "When Donna's Auto Attacks deal DMG to targets inflicted with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>/<span style=\"color:#6A90EB\">Chill</span> while she is in <span style=\"color:#6A90EB\">Agile</span> State, increases her &Param4& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, stacking up to &Param3& times.",
+          "icons": [
+            "13001_Potential_02_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "0.3%",
+                "0.5%",
+                "0.7%",
+                "0.9%",
+                "1.1%",
+                "1.3%",
+                "1.5%",
+                "1.7%",
+                "1.9%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "36"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513007,
+          "name": "Rime Shatterer",
+          "descShort": "While Donna is in <span style=\"color:#6A90EB\">Agile</span> State, her Auto Attacks immediately defeat targets with low HP. She also deals increased DMG to elites and bosses with low HP.",
+          "descLong": "While Donna is in <span style=\"color:#6A90EB\">Agile</span> State, her Auto Attacks immediately defeat normal targets with HP below &Param1&. She also deals <span style=\"color:#ec6d21\">&Param2&</span> more &Param3& to elite or higher-tier targets with HP below &Param1&.",
+          "icons": [
+            "13001_Potential_07_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "40%",
+                "64%",
+                "88%",
+                "112%",
+                "136%",
+                "160%",
+                "184%",
+                "208%",
+                "232%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513008,
+          "name": "Surging Tide",
+          "descShort": "Increases the Advertising Doll's Attack Range and &Param2&.",
+          "descLong": "Increases the Advertising Doll's Attack Range by 50% and its &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "icons": [
+            "13001_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "19%",
+                "30%",
+                "41%",
+                "52%",
+                "63%",
+                "74%",
+                "85%",
+                "96%",
+                "107%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513009,
+          "name": "Cloud Piercer",
+          "descShort": "When Donna or the Advertising Doll hits a target, heals the Doll and increases its &Param6&.",
+          "descLong": "When Donna or Advertising Doll hits a target, restores &Param1& HP of the doll and increases its &Param6& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.\nThis effect can only be triggered once every &Param5&s.",
+          "icons": [
+            "13001_Potential_09_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 6,
+              "values": [
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG",
+                "Minion DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5.8%",
+                "9.3%",
+                "12.8%",
+                "16.3%",
+                "19.8%",
+                "23.3%",
+                "26.8%",
+                "30.3%",
+                "33.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513010,
+          "name": "Hazy Curtain",
+          "descShort": "The Advertising Doll gains a shield. When the shield disappears, deals AoE DMG.",
+          "descLong": "The Advertising Doll gains a shield equal to <span style=\"color:#ec6d21\">&Param1&</span> of its base HP for &Param2&s.\nWhen the shield disappears, the doll deals <span style=\"color:#ec6d21\">&Param3&</span> of ATK as AoE Aqua Minion DMG.",
+          "icons": [
+            "13001_Potential_10_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "26%",
+                "33%",
+                "39%",
+                "46%",
+                "52%",
+                "59%",
+                "65%",
+                "72%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "242%",
+                "387%",
+                "532%",
+                "677%",
+                "822%",
+                "967%",
+                "1112%",
+                "1257%",
+                "1402%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513011,
+          "name": "Lingering Noise",
+          "descShort": "After casting the Main Skill, increases own &Param4&.",
+          "descLong": "After casting &Param10& (Main Skill), increases own &Param4& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.",
+          "icons": [
+            "Common_Potential_9_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "Rain Call: Volley Chase"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "12%",
+                "19%",
+                "26%",
+                "34%",
+                "41%",
+                "48%",
+                "55%",
+                "62%",
+                "70%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513012,
+          "name": "Serene Sea Trance",
+          "descShort": "When Donna remains stationary, increases her &Param2&. Resets when she moves.",
+          "descLong": "After Donna remains stationary for 1s, increases her &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>. Resets when she moves.",
+          "icons": [
+            "Common_Potential_20_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513013,
+          "name": "Tidal Mark Resonance",
+          "descShort": "The Ultimate can trigger <span style=\"color:#6A90EB\">Aqua Mark</span>. Triggering this Mark increases own and the Advertising Doll's &Param2&.",
+          "descLong": "&Param10& (Ultimate) can trigger <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>. Triggering this Mark increases own and the Advertising Doll's &Param2& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_Water_1_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "Argent Cascade"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "33%",
+                "45%",
+                "57%",
+                "69%",
+                "81%",
+                "94%",
+                "106%",
+                "118%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "30"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513021,
+          "name": "Unleashed Arrow",
+          "descShort": "The Support Skill fires additional Snow-Piercing Arrows to deal DMG based on the number of Aqua Trekkers in the squad.",
+          "descLong": "&Param10& (Support Skill) fires <span style=\"color:#0abec5\">1</span> additional Snow-Piercing Arrow with each shot for each Aqua Trekkers in the squad other than Donna, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as Aqua Skill DMG.",
+          "icons": [
+            "13001_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 10,
+              "values": [
+                "Tide Threader"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "82%",
+                "95%",
+                "107%",
+                "144%",
+                "155%",
+                "167%",
+                "190%",
+                "200%",
+                "210%",
+                "230%",
+                "246%",
+                "262%",
+                "279%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513022,
+          "name": "Arrowfall Reckoning",
+          "descShort": "When Snow-Piercing Arrow deals DMG, the arrow tail is left on the target. When the skill ends, pulls out the arrow tail to deal DMG.",
+          "descLong": "When a Snow-Piercing Arrow deals DMG to Donna's target, 1 arrow tail is left on the target, up to <span style=\"color:#0abec5\">&Param3&</span>.\nWhen Snow-Piercing Arrow deals DMG to a target with arrow tails, it deals <span style=\"color:#0abec5\">&Param4&</span> of ATK as Aqua Skill DMG.\nWhen &Param10& (Support Skill) ends, pulls out all arrow tails to deal <span style=\"color:#0abec5\">&Param1&</span> of ATK as Aqua Skill DMG. Each arrow tail on the target increases this DMG by <span style=\"color:#0abec5\">&Param2&</span>.",
+          "icons": [
+            "13001_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "30"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "31%",
+                "36%",
+                "40%",
+                "54%",
+                "59%",
+                "63%",
+                "72%",
+                "76%",
+                "79%",
+                "87%",
+                "93%",
+                "99%",
+                "105%"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "Tide Threader"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "218%",
+                "251%",
+                "284%",
+                "382%",
+                "413%",
+                "443%",
+                "504%",
+                "530%",
+                "557%",
+                "609%",
+                "653%",
+                "696%",
+                "740%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513023,
+          "name": "Wave-Chasing String",
+          "descShort": "Increases Frost Wave's DMG and Attack Range.\nWhen the entire squad consists of Aqua Trekkers, the Support Skill generates more Frost Waves.",
+          "descLong": "Increases Frost Wave's Attack Range by <span style=\"color:#0abec5\">50%</span> and Skill DMG dealt by <span style=\"color:#0abec5\">&Param2&</span>.\nWhen the entire squad consists of Aqua Trekkers, &Param10& (Support Skill) generates 1 Frost Wave for every <span style=\"color:#0abec5\">3</span> shots fired.",
+          "icons": [
+            "13001_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "16%"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "Tide Threader"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513024,
+          "name": "Stray Arrow",
+          "descShort": "Each time the Support Skill generates a Frost Wave, additionally creates Frost Wave Orbs that track the target and deal AoE DMG.",
+          "descLong": "Each time &Param10& (Support Skill) generates a Frost Wave, creates <span style=\"color:#0abec5\">3</span> Frost Wave Orbs that track the target. Upon hit, they deal <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Aqua Skill DMG.\nFrost Wave Orbs prioritize attacking different targets, with each distinct target increasing their Skill DMG dealt by <span style=\"color:#0abec5\">&Param2&</span>.",
+          "icons": [
+            "13001_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 10,
+              "values": [
+                "Tide Threader"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "84%",
+                "97%",
+                "109%",
+                "147%",
+                "159%",
+                "171%",
+                "195%",
+                "205%",
+                "215%",
+                "235%",
+                "252%",
+                "269%",
+                "285%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "40%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513025,
+          "name": "Arrow Pursuit",
+          "descShort": "When Snow-Piercing Arrow deals multiple instances of DMG to Donna's target, deals additional DMG.",
+          "descLong": "Increases Snow-Piercing Arrow's &Param2& by <span style=\"color:#ec6d21\">&Param3&</span>. Upon dealing 3 instances of DMG to Donna's target, deals an additional <span style=\"color:#ec6d21\">&Param1&</span> of ATK as Aqua Skill DMG.\nThis DMG can only be triggered once every 0.2s.",
+          "icons": [
+            "13001_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20%",
+                "32%",
+                "43%",
+                "55%",
+                "67%",
+                "80%",
+                "91%",
+                "102%",
+                "114%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "83%",
+                "133%",
+                "183%",
+                "233%",
+                "283%",
+                "333%",
+                "382%",
+                "432%",
+                "482%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513026,
+          "name": "Frostbitten Arrow",
+          "descShort": "When Snow-Piercing Arrow deals multiple instances of DMG to Donna's target, increases the target's &Param1&.",
+          "descLong": "When Snow-Piercing Arrow deals 3 instances of DMG to Donna's target, increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "13001_Potential_22_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.8%",
+                "2.9%",
+                "4%",
+                "5.1%",
+                "6.2%",
+                "7.3%",
+                "8.4%",
+                "9.5%",
+                "10.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513027,
+          "name": "Dead Shot",
+          "descShort": "Snow-Piercing Arrow immediately defeats targets with low HP and deals increased DMG to elites and bosses with low HP.",
+          "descLong": "Snow-Piercing Arrow immediately defeats normal targets with HP below &Param1&.\nAlso, deals <span style=\"color:#ec6d21\">&Param2&</span> more &Param3& to elite or higher-tier targets with HP below &Param1&.",
+          "icons": [
+            "13001_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "22%",
+                "34%",
+                "47%",
+                "60%",
+                "73%",
+                "86%",
+                "99%",
+                "112%",
+                "125%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513028,
+          "name": "Coast Crusher",
+          "descShort": "Increases Frost Wave's Crit Rate and DMG.\nWhen Frost Wave lands a Crit Hit, increases the &Param2& of Aqua Trekkers in the squad.",
+          "descLong": "Increases Frost Wave's Crit Rate by &Param1& and &Param9& by <span style=\"color:#ec6d21\">&Param8&</span>.\nWhen Frost Wave lands a Crit Hit, increases the &Param2& of Aqua Trekkers in the squad by <span style=\"color:#ec6d21\">&Param3&</span> for &Param6&s, stacking up to &Param7& times.",
+          "icons": [
+            "13001_Potential_24_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10%"
+              ]
+            },
+            {
+              "idx": 9,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "12%",
+                "19%",
+                "26%",
+                "33%",
+                "40%",
+                "47%",
+                "54%",
+                "61%",
+                "68%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4%",
+                "6%",
+                "8%",
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513029,
+          "name": "Aquatic Assault",
+          "descShort": "When Frost Wave deals DMG to different targets, increases own &Param1&.",
+          "descLong": "When Frost Wave deals DMG to different targets, increases own &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "13001_Potential_29_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513030,
+          "name": "Chilling Onslaught",
+          "descShort": "Upon its first shot, the Support Skill creates a Frost Wave.\nIncreases the &Param1& dealt by Frost Wave.",
+          "descLong": "Upon its first shot, &Param10& (Support Skill) creates a Frost Wave.\nIncreases the &Param1& dealt by Frost Wave by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "13001_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "Tide Threader"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "36%",
+                "58%",
+                "80%",
+                "102%",
+                "124%",
+                "145%",
+                "167%",
+                "189%",
+                "211%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513031,
+          "name": "Messenger Arrow",
+          "descShort": "When casting &Param10& (Support Skill), delivers a letter near the main Aqua Trekker.\nWhen the main Trekker picks up the letter, increases their &Param4&.",
+          "descLong": "When casting &Param10& (Support Skill), delivers a letter near the main Aqua Trekker.\nWhen the main Trekker picks up the letter, increases their &Param4& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param1&s.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 10,
+              "values": [
+                "Tide Threader"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "18%",
+                "25%",
+                "32%",
+                "39%",
+                "46%",
+                "53%",
+                "60%",
+                "67%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513032,
+          "name": "Wave Resonance",
+          "descShort": "The Ultimate can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>.\nWhile casting the Ultimate, when a Trekker triggers <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, increases Donna's &Param2&.",
+          "descLong": "When &Param10& (Ultimate) deals DMG, inflicts <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>.\nDuring the rain of arrows, when any Trekker triggers an <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, increases Donna's &Param2& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "Common_Potential_Water_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "Argent Cascade"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "9%",
+                "15%",
+                "20%",
+                "26%",
+                "31%",
+                "37%",
+                "42%",
+                "48%",
+                "53%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "40"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513033,
+          "name": "Water Ripple",
+          "descShort": "Increases the &Param3& of Aqua Trekkers in the squad.",
+          "descLong": "Increases the &Param3& of Aqua Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513041,
+          "name": "Rushing Tide",
+          "descShort": "Increases the Ultimate's Attack Range and DMG.",
+          "descLong": "Increases &Param10& (Ultimate)'s Attack Range by 50%.\nIncreases Donna's &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "icons": [
+            "13001_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 10,
+              "values": [
+                "Argent Cascade"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "25%",
+                "39%",
+                "54%",
+                "69%",
+                "84%",
+                "99%",
+                "113%",
+                "128%",
+                "143%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513042,
+          "name": "Corrosive Torrent",
+          "descShort": "Increases the &Param2& of Aqua Trekkers within the Attack Range of &Param10& (Ultimate).",
+          "descLong": "Increases the &Param2& of Aqua Trekkers within the Attack Range of &Param10& (Ultimate) by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "icons": [
+            "13001_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "Argent Cascade"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513043,
+          "name": "Freezing Stasis",
+          "descShort": "Each time the Ultimate hits a target inflicted with <span style=\"color:#6A90EB\">Frozen</span>/<span style=\"color:#6A90EB\">Chill</span>, increases its duration and &Param3&.",
+          "descLong": "Each time &Param10& (Ultimate) hits a target inflicted with <span style=\"color:#6A90EB\">Frozen</span>/<span style=\"color:#6A90EB\">Chill</span>, increases rain of arrows' duration by &Param1&s and its &Param3& dealt by <span style=\"color:#ec6d21\">&Param2&</span>. This effect can only be triggered &Param4& times.",
+          "icons": [
+            "13001_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "Argent Cascade"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "79%",
+                "91%",
+                "103%",
+                "115%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 132,
       "name": "Minova",
       "class": 2,
@@ -33052,7 +34585,7 @@
       "potentials": [
         {
           "id": 515501,
-          "name": "Phantom Step Rediance",
+          "name": "Phantom Step Radiance",
           "descShort": "When dealing Auto Attack DMG, Snow Rabbit inflicts Electro Music that deals additional DMG upon reaching the max stack limit.",
           "descLong": "When Snow Rabbit deals Auto Attack DMG, it inflicts Electro Music, stacking up to <span style=\"color:#0abec5\">20</span> times.\nUpon reaching the max stack limit, Electro Music's stacks are removed, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as Lux Skill DMG.",
           "icons": [
@@ -42487,6 +44020,185 @@
       "bg": 4007
     },
     {
+      "id": 214008,
+      "name": "Soaring Blue",
+      "desc": "Why chase that distant rainbow on the horizon,\nwhen you can hold these colorful balloons right here?\nSoaring through clear skies on the roller coaster ride.\nListen!\nThe echoes of pure joy just made their way to you!",
+      "element": 1,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Soaring Blue",
+          "desc": "When an Aqua Versatile Trekker deals Skill DMG, inflicts 1 stack of Bright Tide on the target for &Param1&s, stacking up to &Param2& times.\nAt &Param3& stacks, increases the Aqua Auto Attack DMG the target takes by <span style=\"color:#ec6d21\">&Param4&</span>.\nAt &Param5& stacks, increases the Aqua Skill DMG the target takes by <span style=\"color:#ec6d21\">&Param6&</span> additionally.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12%",
+                "14.4%",
+                "16.8%",
+                "19.2%",
+                "21.6%",
+                "24%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Balloon of Joy",
+          "desc": "Increases the squad's Aqua DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nIf a target is inflicted with Bright Tide, each stack increases the Crit DMG dealt by the main Aqua Trekker to the target by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.8%",
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Horn of Departure",
+          "desc": "If a target is inflicted with Bright Tide, each stack increases the Skill DMG dealt by Aqua Trekkers to the target by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "0.4%",
+                "0.8%",
+                "1.2%",
+                "1.6%",
+                "2%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4008
+    },
+    {
       "id": 214009,
       "name": "New Star Prelude",
       "desc": "Only one day of food left. Our wallets are empty. The Oasis's Grace is running low...\nWe've staked everything on this Monolith commission...\n—Still, when it's time for the group photo, don't forget to smile!",
@@ -47929,6 +49641,84 @@
       "bg": 4044
     },
     {
+      "id": 214045,
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": []
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4045
+    },
+    {
       "id": 214046,
       "name": "Dawn After Winter",
       "desc": "Think of it as nothing more than a marvelous Stella Drama.\nWhen we return our present, our trusted friends are still here with us.\nLeave the dark Monolith behind. The winter night will pass.\nAnd look: spring's warm sunlight will shine once more upon this city that once thrived.",
@@ -48075,9 +49865,188 @@
       "bg": 4046
     },
     {
+      "id": 214047,
+      "name": "Delivered by the Breeze",
+      "desc": "Sharpen the crease, press firm the wax,\u000bLonging turns to ink upon the page.\u000bA sudden gust sweeps the words away,\u000bLeaving a thousand thoughts ... lighter than the air.",
+      "element": 1,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Delivered by the Breeze",
+          "desc": "When an Aqua Versatile Trekker deals Skill DMG, the main Aqua Trekker gains 1 stack of Thought Ripple for &Param1&s, stacking up to &Param2& times.\nAt &Param3& stacks, increases the Aqua DMG dealt by all friendly units by <span style=\"color:#ec6d21\">&Param4&</span>.\nAt &Param5& stacks, increases the Skill DMG dealt by Aqua Trekkers in the squad by <span style=\"color:#ec6d21\">&Param6&</span> additionally.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Words into Longing",
+          "desc": "Increases the ATK of Aqua Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.\nThought Ripple gains an additional effect: Each stack increases own Auto Attack DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "6%",
+                "9%",
+                "12%",
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.4%",
+                "0.6%",
+                "0.8%",
+                "1%",
+                "1.2%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Words of Endless Devotion",
+          "desc": "Thought Ripple gains an additional effect: Each stack increases own Ultimate DMG by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "0.7%",
+                "1.4%",
+                "2.1%",
+                "2.8%",
+                "3.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4047
+    },
+    {
       "id": 214048,
       "name": "Snowy Night Surprise",
-      "desc": "The winter wind carries prayers from afar\nThe messenger arrives with blessings and gifts\nStepping into view as the midnight bells ring\nThis Snowish Festival gift is for you, who never lost your childish wonder",
+      "desc": "The winter wind carries prayers from afar\u000bThe messenger arrives with blessings and gifts\nStepping into view as the midnight bells ring\u000bThis Snowish Festival gift is for you, who never lost your childish wonder",
       "element": 2,
       "rarity": 1,
       "skills": [
@@ -48271,6 +50240,162 @@
         }
       ],
       "bg": 4048
+    },
+    {
+      "id": 214049,
+      "element": 7,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": []
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90014,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4049
+    },
+    {
+      "id": 214050,
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": []
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4050
     }
   ]
 }

@@ -15862,7 +15862,7 @@
           "id": 512501,
           "name": "冰霧屏障",
           "descShort": "主控技結束時留下冰霧，降低敵方移動速度，提升我方普攻傷害。",
-          "descLong": "主控技「&Param10&」結束時留下冰霧，持續10秒。冰霧內敵方移動速度降低<span style=\"color:#0abec5\">&Param1&</span>，我方的普攻傷害提升<span style=\"color:#0abec5\">&Param2&</span>。",
+          "descLong": "主控技「&Param10&」結束時留下冰霧，持續10秒。冰霧內敵方移動速度降低<span style=\"color:#0abec5\">&Param1&</span>，己方的普攻傷害提升<span style=\"color:#0abec5\">&Param2&</span>。",
           "icons": [
             "12501_Potential_01_A"
           ],
@@ -19448,6 +19448,1539 @@
                 "172%",
                 "194%",
                 "217%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "多娜",
+      "class": 2,
+      "element": 1,
+      "rarity": 1,
+      "mainBuild1Name": "多娜主控流派1",
+      "mainBuild1Desc": "發射更多更強的箭矢，提升普攻能力的流派。",
+      "mainBuild2Name": "多娜主控流派2",
+      "mainBuild2Desc": "配合人偶的輸出，提升攻擊與技能連動的流派。",
+      "supportBuild1Name": "多娜援護流派1",
+      "supportBuild1Desc": "集中攻擊前方目標的強攻流派。",
+      "supportBuild2Name": "多娜援護流派2",
+      "supportBuild2Desc": "隨機攻擊周圍目標的散射流派。",
+      "potentials": [
+        {
+          "id": 513001,
+          "name": "凝水成珠",
+          "descShort": "延長多娜處於<span style=\"color:#6A90EB\">靈巧</span>狀態的持續時間。\n<span style=\"color:#6A90EB\">靈巧</span>狀態下多娜普攻時會累積水珠，<span style=\"color:#6A90EB\">靈巧</span>狀態結束時發射所有水珠造成傷害。",
+          "descLong": "「宣傳人偶」消失時，<span style=\"color:#6A90EB\">靈巧</span>狀態延長<span style=\"color:#0abec5\">&Param2&</span>秒。\n<span style=\"color:#6A90EB\">靈巧</span>狀態持續期間，普攻每造成10次傷害，會產生1滴水珠，最多儲存<span style=\"color:#0abec5\">7</span>滴。<span style=\"color:#6A90EB\">靈巧</span>狀態結束時，發射所有水珠貫穿目標，每滴造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的水系技能傷害。",
+          "icons": [
+            "13001_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "51%",
+                "59%",
+                "67%",
+                "90%",
+                "97%",
+                "104%",
+                "119%",
+                "125%",
+                "131%",
+                "143%",
+                "154%",
+                "164%",
+                "174%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513002,
+          "name": "綻藍之夜",
+          "descShort": "多娜<span style=\"color:#6A90EB\">靈巧</span>狀態期間的普攻造成額外傷害。",
+          "descLong": "多娜<span style=\"color:#6A90EB\">靈巧</span>狀態期間，每次普攻額外發射<span style=\"color:#0abec5\">4</span>枚寒冰尖刺，每枚造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的水系技能傷害。",
+          "icons": [
+            "13001_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4.6%",
+                "5.3%",
+                "6%",
+                "8.1%",
+                "8.7%",
+                "9.4%",
+                "10.7%",
+                "11.2%",
+                "11.8%",
+                "12.9%",
+                "13.8%",
+                "14.7%",
+                "15.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513003,
+          "name": "精準行銷",
+          "descShort": "「宣傳人偶」附近的目標被多娜的普攻命中時，造成範圍傷害。",
+          "descLong": "「宣傳人偶」附近的目標被多娜命中時，人偶放出水波，造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍水系僕從傷害。",
+          "icons": [
+            "13001_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "115%",
+                "132%",
+                "150%",
+                "201%",
+                "218%",
+                "234%",
+                "266%",
+                "280%",
+                "294%",
+                "321%",
+                "344%",
+                "367%",
+                "390%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513004,
+          "name": "泡泡落幕",
+          "descShort": "提升「宣傳人偶」的最大生命值。\n「宣傳人偶」在退場後持續造成範圍傷害。",
+          "descLong": "「宣傳人偶」最大生命值提升<span style=\"color:#0abec5\">&Param1&</span>。\n人偶退場時造成攻擊力<span style=\"color:#0abec5\">&Param2&</span>的範圍水系僕從傷害，隨後生成泡泡池，每0.5秒造成攻擊力<span style=\"color:#0abec5\">&Param5&</span>的範圍水系僕從傷害，持續4秒。「宣傳人偶」存在期間，其每次攻擊使自身&Param6&提升<span style=\"color:#0abec5\">&Param7&</span>，可疊加&Param8&層。",
+          "icons": [
+            "13001_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "50%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12.6%",
+                "14.4%",
+                "16.3%",
+                "22%",
+                "23.7%",
+                "25.5%",
+                "29%",
+                "30.5%",
+                "32%",
+                "35%",
+                "37.6%",
+                "40.1%",
+                "42.6%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "14.1%",
+                "16.3%",
+                "18.4%",
+                "24.7%",
+                "26.7%",
+                "28.7%",
+                "32.7%",
+                "34.4%",
+                "36.1%",
+                "39.4%",
+                "42.3%",
+                "45.1%",
+                "47.9%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "僕從傷害"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "3.5%"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513005,
+          "name": "潮音迴響",
+          "descShort": "多娜<span style=\"color:#6A90EB\">靈巧</span>狀態期間的普攻造成傷害時，提升目標&Param1&。",
+          "descLong": "多娜<span style=\"color:#6A90EB\">靈巧</span>狀態期間的普攻造成傷害時，使目標的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "13001_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.4%",
+                "0.6%",
+                "0.8%",
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%",
+                "1.8%",
+                "2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513006,
+          "name": "箭雲祈雨",
+          "descShort": "多娜<span style=\"color:#6A90EB\">靈巧</span>狀態期間的普攻對附帶<span style=\"color:#6A90EB\">水系印記：水流</span>/<span style=\"color:#6A90EB\">寒冷</span>的目標造成傷害時，提升自身的&Param4&。",
+          "descLong": "多娜<span style=\"color:#6A90EB\">靈巧</span>狀態期間的普攻對附帶<span style=\"color:#6A90EB\">水系印記：水流</span>/<span style=\"color:#6A90EB\">寒冷</span>的目標造成傷害時，自身的&Param4&提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒，可疊加&Param3&層。",
+          "icons": [
+            "13001_Potential_02_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "0.3%",
+                "0.5%",
+                "0.7%",
+                "0.9%",
+                "1.1%",
+                "1.3%",
+                "1.5%",
+                "1.7%",
+                "1.9%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "36"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513007,
+          "name": "一箭碎霜",
+          "descShort": "多娜<span style=\"color:#6A90EB\">靈巧</span>狀態期間的普攻直接消滅生命值較低的目標，對生命值較低的菁英及首領造成的傷害提升。",
+          "descLong": "多娜<span style=\"color:#6A90EB\">靈巧</span>狀態期間的普攻造成傷害時，直接消滅目前生命值低於&Param1&的普通目標。對目前生命值低於&Param1&的菁英以上目標，造成的&Param3&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13001_Potential_07_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "35%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "40%",
+                "64%",
+                "88%",
+                "112%",
+                "136%",
+                "160%",
+                "184%",
+                "208%",
+                "232%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513008,
+          "name": "潮湧奔流",
+          "descShort": "擴大「宣傳人偶」的傷害範圍和&Param2&。",
+          "descLong": "「宣傳人偶」的傷害範圍擴大50%，&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>",
+          "icons": [
+            "13001_Potential_03_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "19%",
+                "30%",
+                "41%",
+                "52%",
+                "63%",
+                "74%",
+                "85%",
+                "96%",
+                "107%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513009,
+          "name": "破風穿雲",
+          "descShort": "多娜或「宣傳人偶」命中目標時，恢復人偶生命值並提升其&Param6&。",
+          "descLong": "多娜或「宣傳人偶」命中目標時，恢復人偶生命值&Param1&並使其&Param6&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。\n此效果每&Param5&秒最多觸發1次。",
+          "icons": [
+            "13001_Potential_09_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 6,
+              "values": [
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害",
+                "僕從傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5.8%",
+                "9.3%",
+                "12.8%",
+                "16.3%",
+                "19.8%",
+                "23.3%",
+                "26.8%",
+                "30.3%",
+                "33.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513010,
+          "name": "雨幕朦朧",
+          "descShort": "「宣傳人偶」獲得護盾，當護盾消失時造成範圍傷害。",
+          "descLong": "「宣傳人偶」獲得自身基礎生命值<span style=\"color:#ec6d21\">&Param1&</span>的護盾，持續&Param2&秒。\n護盾消失時，人偶對周圍造成攻擊力<span style=\"color:#ec6d21\">&Param3&</span>的範圍水系僕從傷害。",
+          "icons": [
+            "13001_Potential_10_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "26%",
+                "33%",
+                "39%",
+                "46%",
+                "52%",
+                "59%",
+                "65%",
+                "72%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "242%",
+                "387%",
+                "532%",
+                "677%",
+                "822%",
+                "967%",
+                "1112%",
+                "1257%",
+                "1402%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513011,
+          "name": "喧鬧餘音",
+          "descShort": "施放主控技後，提升自身的&Param4&。",
+          "descLong": "施放主控技「&Param10&」後，自身&Param4&提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒。",
+          "icons": [
+            "Common_Potential_9_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "霖雨追擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "12%",
+                "19%",
+                "26%",
+                "34%",
+                "41%",
+                "48%",
+                "55%",
+                "62%",
+                "70%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513012,
+          "name": "靜海凝神",
+          "descShort": "多娜不移動時，提升自身的&Param2&，移動時則移除此效果。",
+          "descLong": "多娜維持1秒不移動後，自身的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>，移動時則移除此效果。",
+          "icons": [
+            "Common_Potential_20_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513013,
+          "name": "潮印共振",
+          "descShort": "絕招可觸發<span style=\"color:#6A90EB\">水流印記</span>，觸發時提升自身和「宣傳人偶」的&Param2&。",
+          "descLong": "絕招「&Param10&」可觸發<span style=\"color:#6A90EB\">水系印記：水流</span>，觸發時自身和「宣傳人偶」的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param3&秒。",
+          "icons": [
+            "Common_Potential_Water_1_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "銀絲傾瀉"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "33%",
+                "45%",
+                "57%",
+                "69%",
+                "81%",
+                "94%",
+                "106%",
+                "118%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "30"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513021,
+          "name": "離弦之箭",
+          "descShort": "援護技每次射擊時會根據隊伍中水系角色的數量，額外射出「穿雪箭」，造成傷害。",
+          "descLong": "援護技「&Param10&」每次射擊時，隊伍中除多娜外每存在1名水系角色，額外射出<span style=\"color:#0abec5\">1</span>支「穿雪箭」，造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的水系技能傷害。",
+          "icons": [
+            "13001_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 10,
+              "values": [
+                "穿海連潮"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "82%",
+                "95%",
+                "107%",
+                "144%",
+                "155%",
+                "167%",
+                "190%",
+                "200%",
+                "210%",
+                "230%",
+                "246%",
+                "262%",
+                "279%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513022,
+          "name": "殘矢清算",
+          "descShort": "「穿雪箭」造成傷害時會殘留箭尾，結束時拔出箭尾造成傷害。",
+          "descLong": "「穿雪箭」對多娜的目標造成傷害時，殘留1枝箭尾在目標身上，最多<span style=\"color:#0abec5\">&Param3&</span>支。\n「穿雪箭」對殘留箭尾的目標造成傷害時，額外造成攻擊力<span style=\"color:#0abec5\">&Param4&</span>的水系技能傷害。\n援護技「&Param10&」結束時，移除所有箭尾，造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的水系技能傷害，目標身上的每枝箭尾使此傷害提升<span style=\"color:#0abec5\">&Param2&</span>。",
+          "icons": [
+            "13001_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "30"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "31%",
+                "36%",
+                "40%",
+                "54%",
+                "59%",
+                "63%",
+                "72%",
+                "76%",
+                "79%",
+                "87%",
+                "93%",
+                "99%",
+                "105%"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "穿海連潮"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "218%",
+                "251%",
+                "284%",
+                "382%",
+                "413%",
+                "443%",
+                "504%",
+                "530%",
+                "557%",
+                "609%",
+                "653%",
+                "696%",
+                "740%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513023,
+          "name": "逐浪連弦",
+          "descShort": "提升「霜浪」造成的傷害與範圍。\n當全隊都為水系角色時，援護技產生更多「霜浪」。",
+          "descLong": "「霜浪」的傷害範圍提升<span style=\"color:#0abec5\">50%</span>，造成的技能傷害提升<span style=\"color:#0abec5\">&Param2&</span>。\n當全隊都為水系角色時，援護技「&Param10&」每<span style=\"color:#0abec5\">3</span>次射擊，就會產生1股「霜浪」。",
+          "icons": [
+            "13001_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "16%"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "穿海連潮"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513024,
+          "name": "流矢放逐",
+          "descShort": "援護技每次產生「霜浪」時，額外產生追蹤目標的「霜浪珠」，造成範圍傷害。",
+          "descLong": "援護技「&Param10&」每次產生「霜浪」時，出現<span style=\"color:#0abec5\">3</span>個追蹤目標的「霜浪珠」，命中後造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍水系技能傷害。\n「霜浪珠」優先攻擊不同目標，每個不同的目標提升「霜浪珠」造成的技能傷害<span style=\"color:#0abec5\">&Param2&</span>。",
+          "icons": [
+            "13001_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 10,
+              "values": [
+                "穿海連潮"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "84%",
+                "97%",
+                "109%",
+                "147%",
+                "159%",
+                "171%",
+                "195%",
+                "205%",
+                "215%",
+                "235%",
+                "252%",
+                "269%",
+                "285%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "40%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513025,
+          "name": "箭矢追擊",
+          "descShort": "「穿雪箭」對多娜的目標累計造成多次傷害時，造成額外傷害。",
+          "descLong": "「穿雪箭」造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，當對多娜的目標累計造成3次傷害時，額外造成1次攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的水系技能傷害。\n該傷害每0.2秒最多觸發1次。",
+          "icons": [
+            "13001_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20%",
+                "32%",
+                "43%",
+                "55%",
+                "67%",
+                "80%",
+                "91%",
+                "102%",
+                "114%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "83%",
+                "133%",
+                "183%",
+                "233%",
+                "283%",
+                "333%",
+                "382%",
+                "432%",
+                "482%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513026,
+          "name": "凝霜箭寒",
+          "descShort": "「穿雪箭」對多娜的目標累計造成多次傷害時，提升目標&Param1&。",
+          "descLong": "「穿雪箭」對多娜的目標累計造成3次傷害時，使目標&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "13001_Potential_22_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.8%",
+                "2.9%",
+                "4%",
+                "5.1%",
+                "6.2%",
+                "7.3%",
+                "8.4%",
+                "9.5%",
+                "10.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513027,
+          "name": "百步穿楊",
+          "descShort": "「穿雪箭」直接消滅生命值較低的目標時，對生命值較低的菁英及首領造成的傷害提升。",
+          "descLong": "「穿雪箭」造成傷害時，直接消滅目前生命值低於&Param1&的普通目標。\n「穿雪箭」對目前生命值低於&Param1&的菁英以上目標，造成的&Param3&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13001_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "30%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "22%",
+                "34%",
+                "47%",
+                "60%",
+                "73%",
+                "86%",
+                "99%",
+                "112%",
+                "125%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513028,
+          "name": "尾浪撲岸",
+          "descShort": "提升「霜浪」的暴擊和傷害。\n「霜浪」每次暴擊時，提升隊伍中水系角色的&Param2&。",
+          "descLong": "「霜浪」的暴擊提升&Param1&，&Param9&提升<span style=\"color:#ec6d21\">&Param8&</span>。\n「霜浪」暴擊時，隊伍中水系角色的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param6&秒，可疊加&Param7&層。",
+          "icons": [
+            "13001_Potential_24_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10%"
+              ]
+            },
+            {
+              "idx": 9,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "12%",
+                "19%",
+                "26%",
+                "33%",
+                "40%",
+                "47%",
+                "54%",
+                "61%",
+                "68%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4%",
+                "6%",
+                "8%",
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513029,
+          "name": "水行攻漲",
+          "descShort": "「霜浪」對不同目標造成傷害時，提升自身的&Param1&。",
+          "descLong": "「霜浪」對不同目標造成傷害時，自身的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "13001_Potential_29_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513030,
+          "name": "寒潮起勢",
+          "descShort": "援護技首次射擊時，生成「霜浪」。\n提升「霜浪」造成的&Param1&。",
+          "descLong": "援護技「&Param10&」首次射擊時，產生1股「霜浪」。\n「霜浪」造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13001_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "穿海連潮"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "36%",
+                "58%",
+                "80%",
+                "102%",
+                "124%",
+                "145%",
+                "167%",
+                "189%",
+                "211%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513031,
+          "name": "飛矢傳信",
+          "descShort": "施放援護技「&Param10&」時，在水系主控角色附近投遞信件。\n主控角色拾取信件時提升&Param4&。",
+          "descLong": "施放援護技「&Param10&」時，在水系主控角色附近投遞1封信件。\n主控角色拾取信件時，&Param4&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param1&秒。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 10,
+              "values": [
+                "穿海連潮"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "18%",
+                "25%",
+                "32%",
+                "39%",
+                "46%",
+                "53%",
+                "60%",
+                "67%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513032,
+          "name": "水波共鳴",
+          "descShort": "絕招可附加<span style=\"color:#6A90EB\">水流印記</span>。\n絕招施放期間每當有角色觸發<span style=\"color:#6A90EB\">水流印記</span>時，提升多娜&Param2&。",
+          "descLong": "絕招「&Param10&」造成傷害時可附加<span style=\"color:#6A90EB\">水流印記</span>。\n箭雨期間，任意角色觸發<span style=\"color:#6A90EB\">水流印記</span>時，多娜的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "Common_Potential_Water_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "銀絲傾瀉"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "9%",
+                "15%",
+                "20%",
+                "26%",
+                "31%",
+                "37%",
+                "42%",
+                "48%",
+                "53%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "40"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513033,
+          "name": "波紋漣漪",
+          "descShort": "提升隊伍中水系角色的&Param3&。",
+          "descLong": "隊伍中水系角色的&Param3&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513041,
+          "name": "潮汐翻湧",
+          "descShort": "擴大絕招的傷害範圍，提升造成的傷害。",
+          "descLong": "絕招「&Param10&」的傷害範圍提升50%。\n多娜的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "icons": [
+            "13001_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 10,
+              "values": [
+                "銀絲傾瀉"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "25%",
+                "39%",
+                "54%",
+                "69%",
+                "84%",
+                "99%",
+                "113%",
+                "128%",
+                "143%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513042,
+          "name": "覆流侵蝕",
+          "descShort": "提升絕招「&Param10&」範圍內水系角色的&Param2&。",
+          "descLong": "絕招「&Param10&」傷害範圍內，水系角色的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "icons": [
+            "13001_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 10,
+              "values": [
+                "銀絲傾瀉"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513043,
+          "name": "霜凝滯凍",
+          "descShort": "絕招每次命中<span style=\"color:#6A90EB\">冰凍</span>/<span style=\"color:#6A90EB\">寒冷</span>的目標，增加持續時間，提升&Param3&。",
+          "descLong": "絕招「&Param10&」每次命中附帶<span style=\"color:#6A90EB\">冰凍</span>/<span style=\"color:#6A90EB\">寒冷</span>的目標時，箭雨持續時間增加&Param1&秒，造成&Param3&提升<span style=\"color:#ec6d21\">&Param2&</span>，可觸發&Param4&次。",
+          "icons": [
+            "13001_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害"
+              ]
+            },
+            {
+              "idx": 10,
+              "values": [
+                "銀絲傾瀉"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "79%",
+                "91%",
+                "103%",
+                "115%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
               ]
             }
           ]
@@ -42473,6 +44006,185 @@
       "bg": 4007
     },
     {
+      "id": 214008,
+      "name": "飛越青空",
+      "desc": "仰望雨後那道遠在天邊的彩虹，\n不如伸手抓住眼前這束繽紛的氣球。\n快樂乘著雲霄飛車，越過晴空。\n聽，\n這份歡聲笑語，已經投遞到你身邊~！",
+      "element": 1,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "飛越青空",
+          "desc": "水系均衡角色造成技能傷害時，為目標附加1層「晴浪」，持續&Param1&秒，可疊加&Param2&層。\n「晴浪」層數達到&Param3&層時，使目標受到水系普攻的傷害提升<span style=\"color:#ec6d21\">&Param4&</span>；\n「晴浪」層數達到&Param5&層時，額外使目標受到水系技能的傷害提升<span style=\"color:#ec6d21\">&Param6&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12%",
+                "14.4%",
+                "16.8%",
+                "19.2%",
+                "21.6%",
+                "24%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "幸福氣球",
+          "desc": "全隊水系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n如果目標附帶「晴浪」，每層「晴浪」使水系主控角色對其造成的暴擊傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.8%",
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "啟航笛音",
+          "desc": "如果目標附帶「晴浪」，每層「晴浪」使水系角色對其造成的技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "0.4%",
+                "0.8%",
+                "1.2%",
+                "1.6%",
+                "2%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4008
+    },
+    {
       "id": 214009,
       "name": "「空白」的序章",
       "desc": "糧食儲備只剩一天，錢包也見底了，「綠洲號」的恩賜不足…\n我們的全部都賭在這趟出征了…\n——合照的時候還是要保持微笑！",
@@ -47915,6 +49627,84 @@
       "bg": 4044
     },
     {
+      "id": 214045,
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": []
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4045
+    },
+    {
       "id": 214046,
       "name": "冬夜後的黎明",
       "desc": "彷彿只是看了一場令人驚嘆的影戲，\n回過神來，爐火旁仍有值得信賴的夥伴相隨。\n走出黑暗的高塔，冬夜終將過去。\n看吧，春日的暖陽將會重新照耀這座曾經繁盛的城市。",
@@ -48061,9 +49851,188 @@
       "bg": 4046
     },
     {
+      "id": 214047,
+      "name": "信箋乘風而去",
+      "desc": "撫平摺痕，壓印封蠟，\u000b惦念結成紙上的墨跡。\u000b倏地風起，捲去文字的載體，\u000b餘下的萬千情愫，比風還輕。",
+      "element": 1,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "信箋乘風而去",
+          "desc": "水系均衡角色造成技能傷害時，水系主控角色獲得1層「思漣」，持續&Param1&秒，可疊加&Param2&層。\n「思漣」層數達到&Param3&層時，己方造成的水系傷害提升<span style=\"color:#ec6d21\">&Param4&</span>；\n「思漣」層數達到&Param5&層時，額外使隊伍中水系角色造成的技能傷害提升<span style=\"color:#ec6d21\">&Param6&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "詞句融為思念",
+          "desc": "隊伍中水系角色攻擊力提升<span style=\"color:#ec6d21\">&Param1&</span>。\n「思漣」獲得額外效果：每層使自身造成的普攻傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "6%",
+                "9%",
+                "12%",
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.4%",
+                "0.6%",
+                "0.8%",
+                "1%",
+                "1.2%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "字字皆是長情",
+          "desc": "「思漣」獲得額外效果：每層使自身造成的絕招傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "0.7%",
+                "1.4%",
+                "2.1%",
+                "2.8%",
+                "3.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4047
+    },
+    {
       "id": 214048,
       "name": "雪夜驚喜",
-      "desc": "雪夜的風吹來遠方的禱告\n使者攜著祝福和禮物\n在零點的鐘鳴聲裡登場\n這份雪願節的禮物，送給童心未泯的你",
+      "desc": "雪夜的風吹來遠方的禱告\u000b使者攜著祝福和禮物\u000b在零點的鐘鳴聲裡登場\u000b這份雪願節的禮物，送給童心未泯的你",
       "element": 2,
       "rarity": 1,
       "skills": [
@@ -48257,6 +50226,162 @@
         }
       ],
       "bg": 4048
+    },
+    {
+      "id": 214049,
+      "element": 7,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": []
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90014,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4049
+    },
+    {
+      "id": 214050,
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": []
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "???",
+          "desc": "???",
+          "params": [],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4050
     }
   ]
 }
