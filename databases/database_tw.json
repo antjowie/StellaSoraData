@@ -20305,7 +20305,7 @@
           "id": 513025,
           "name": "箭矢追擊",
           "descShort": "「穿雪箭」對多娜的目標累計造成多次傷害時，造成額外傷害。",
-          "descLong": "「穿雪箭」造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，當對多娜的目標累計造成3次傷害時，額外造成1次攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的水系技能傷害。\n該傷害每0.2秒最多觸發1次。",
+          "descLong": "「穿雪箭」造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，對多娜的目標累計造成3次傷害時，額外造成1次攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的水系技能傷害。\n此傷害每0.2秒最多觸發1次。",
           "icons": [
             "13001_Potential_25_A",
             "Potential_Diamond_B",
