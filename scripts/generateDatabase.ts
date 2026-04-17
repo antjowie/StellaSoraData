@@ -103,7 +103,7 @@ function patchDescription(origText: string)
 // &Param1_kr1& = Param1_kr1
 // For 2nd case patchDescription will ensure it gets updated to a correct value
 const extractParamsFromText = (text: string) =>
-  text.match(/(?<=&)\w+(?=&)/g) ?? [];
+  [...(text.match(/(?<=&)\w+(?=&)/g) ?? [])];
 
 function getCharacters()
 {
@@ -231,16 +231,20 @@ function getCharacters()
       return;
     }
 
-    const descShort = patchDescription(
-      getLangJson("Potential")[`Potential.${potentialId}.1`],
-    );
-    const descLong = patchDescription(
-      getLangJson("Potential")[`Potential.${potentialId}.2`],
-    );
+    let descShort = getLangJson("Potential")[`Potential.${potentialId}.1`];
+    if (descShort === undefined) {
+      warnings.push("Could not resolve descShort for potential " + potentialId);
+      descShort = "MISSING LANG ENTRY";
+    }
+    descShort = patchDescription(descShort);
+    let descLong = getLangJson("Potential")[`Potential.${potentialId}.2`];
+    if (descLong === undefined) {
+      warnings.push("Could not resolve descLong for potential " + potentialId);
+      descLong = "MISSING LANG ENTRY";
+    }
+    descLong = patchDescription(descLong);
 
-    let paramStrings = extractParamsFromText(descShort);
-    paramStrings = [...paramStrings, ...extractParamsFromText(descLong)];
-    paramStrings = new Set(paramStrings);
+    const paramStrings = new Set([...extractParamsFromText(descShort), ...extractParamsFromText(descLong)]);
     let params: { idx: number; values: string[] }[] = [];
     for (const param of paramStrings)
     {

@@ -28,6 +28,7 @@ if (warnings.length > 0)
 {
   console.log(`Warnings detected (${warnings.length}):`);
   warnings.forEach((warning) => console.warn(warning));
+  console.log(`Printed ${warnings.length} warnings (on avg ${warnings.length / 6} per language)`);
 }
 
 // Get missing chars

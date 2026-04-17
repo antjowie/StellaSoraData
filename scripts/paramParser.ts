@@ -224,10 +224,10 @@ function parseParam(param: string)
           )];
         } catch (e)
         {
-          if (category === "ScriptParameter")
+          // Might need to handle more generically, but sometimes LevelUp specifier is specified, but no levelUp entries exist
+          if (category === "ScriptParameter" || category === "Shield")
           {
-            // Might need to handle more generically, but sometimes LevelUp specifier is specified, but no levelUp entries exist
-            warnings.push("Could not process levelup for " + id);
+            warnings.push(id + " Specified LevelUp but there were no level up values");
             values = [processValue(
               id,
               fields,
@@ -238,7 +238,7 @@ function parseParam(param: string)
           }
           else
           {
-            throw e;
+            throw new Error(`${e} | file ${category + "Value"} params ${fields[0]}`);
           }
         }
         break;
