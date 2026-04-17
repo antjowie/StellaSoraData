@@ -8,8 +8,8 @@ export const TW = "tw";
 // This needs to be set before using the parser by the caller
 // Kinda bad to have it global but don't wanna pass it around atm
 export let lang = "";
-export let jsonCache = {};
-export let jsonLangCache = {};
+export let jsonCache: {[key: string]: any} = {};
+export let jsonLangCache: {[key: string]: any} = {};
 export let warnings: string[] = [];
 export let databaseEn: any;
 

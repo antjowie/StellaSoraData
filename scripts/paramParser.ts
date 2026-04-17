@@ -16,19 +16,19 @@ const processEnum = (value: string, fields: string[]) =>
   return getLangJson("UIText")[key];
 };
 
-const formatValue = (value, format) =>
+const formatValue = (value: number, format: string) =>
 {
   // Numerical ops
   if (format.includes("10K")) value /= 10000;
   if (format.includes("Hd")) value *= 100;
 
   // String ops
-  value = String(roundIfDecimal(value));
-  if (format.includes("Pct")) value += "%";
-  return value;
+  let result: string = String(roundIfDecimal(value));
+  if (format.includes("Pct")) result += "%";
+  return result;
 };
 
-const parserConfig = {
+const parserConfig: any = {
   // Examples of a param
   // "Param1": "EffectValue,NoLevel,10350711,EffectTypeParam1,HdPct",
   // "Param2": "Effect,LevelUp,10350703,EffectTypeParam1,HdPct",
@@ -51,7 +51,7 @@ const parserConfig = {
     // Most of the values are numerical and can be parsed as such
     Default: {
       formats: ["Pct", "Hd", "10K", "Fixed"],
-      process: (value: string, fields: string[]) =>
+      process: (value: any, fields: string[]) =>
       {
         return formatValue(parseNumberStrict(value), fields[0]);
       },
@@ -70,7 +70,7 @@ const parserConfig = {
     },
     Title: {
       formats: ["Text"],
-      process: (value: string, fields: string[]) =>
+      process: (value: any, fields: string[]) =>
       {
         return getLangJson("Skill")[value];
       },
@@ -81,7 +81,7 @@ const parserConfig = {
   HitDamage: {
     Default: {
       formats: ["10K"],
-      process: (value: string, fields: string[]) =>
+      process: (value: any, fields: string[]) =>
       {
         // value is an object in HitDamage.json
         // Assumption that SkillAbsAmend is always 0. This obj is also used for bosses?
@@ -91,7 +91,7 @@ const parserConfig = {
           throw new Error(`SkillAbsAmend is not 0 for HitDamage`);
         }
 
-        const percentages = value["SkillPercentAmend"];
+        const percentages: string[] = value["SkillPercentAmend"];
         return percentages.map((percentage) =>
         {
           // Normally we pass through filter and process 10K, but these values seem to ignore it...
@@ -116,7 +116,7 @@ function generateLevelId(baseId: string, level: number)
 function processValue(
   id: string,
   fields: string[],
-  json: object,
+  json: any,
   key: string | null,
   process: (value: any, fields: string[]) => string,
 ): string
@@ -131,7 +131,7 @@ function processValue(
 function processLevelUpValues(
   baseId: string,
   fields: string[],
-  json: object,
+  json: any,
   key: string | null,
   process: (value: any, fields: string[]) => string,
 ): string[]

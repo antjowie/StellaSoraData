@@ -324,7 +324,7 @@ function getDiscs()
       if (disc["Visible"] === undefined || disc["Visible"] === false)
         return null;
 
-      const getSkill = (groupId, bin, lang) =>
+      const getSkill = (groupId: string, bin: any, lang: any) =>
       {
         let obj = bin[groupId + "01"];
         // There are separate name and desc entires for each level, but we can ignore them

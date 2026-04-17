@@ -5,6 +5,7 @@ import path from "path";
 import downloadFiles from "./downloader.ts";
 import extractFiles from "./extract.ts";
 import ky from "ky";
+import { Buffer } from "buffer";
 
 const manifest = existsSync(path.join(".", "manifest.json")) ? JSON.parse(fs.readFileSync("./manifest.json", "utf8")) : {};
 let promises: any = [generateDatabases()];
