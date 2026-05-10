@@ -13173,8 +13173,8 @@
         {
           "id": 511923,
           "name": "丛花之眼",
-          "descShort": "援护技的飞镖可跟踪攻击目标，造成伤害提升。",
-          "descLong": "援护技「花未凋」的飞镖可<span style=\"color:#0abec5\">跟踪</span>攻击目标，伤害提升<span style=\"color:#0abec5\">&Param1&</span>。",
+          "descShort": "援护技的飞镖可跟踪攻击目标，造成的技能伤害提升。",
+          "descLong": "援护技「花未凋」的飞镖可<span style=\"color:#0abec5\">跟踪</span>攻击目标，造成的技能伤害提升<span style=\"color:#0abec5\">&Param1&</span>。",
           "icons": [
             "11901_Potential_23_A"
           ],

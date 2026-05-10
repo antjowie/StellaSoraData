@@ -13173,8 +13173,8 @@
         {
           "id": 511923,
           "name": "Floral Nexus",
-          "descShort": "Shurikens from the Support Skill follow their targets, dealing increased DMG.",
-          "descLong": "Shurikens from Flowers Bloom (Support Skill) <span style=\"color:#0abec5\">follow</span> their targets, with DMG increased by <span style=\"color:#0abec5\">&Param1&</span>.",
+          "descShort": "Shurikens from the Support Skill follow their targets, dealing increased Skill DMG.",
+          "descLong": "Shurikens from Flowers Bloom (Support Skill) <span style=\"color:#0abec5\">follow</span> their targets, with Skill DMG increased by <span style=\"color:#0abec5\">&Param1&</span>.",
           "icons": [
             "11901_Potential_23_A"
           ],
@@ -30525,7 +30525,7 @@
         {
           "id": 514405,
           "name": "Tremble and Fall",
-          "descShort": "Increases &Param1& and the number of times Chitose can dodge. After dodging or casting the Main Skill, she can deliver the last strike of her Auto Attack immediately, and if this Auto Attack deals damage, she gains Edge: Increases the &Param3& dealt by some of Chitose's Auto Attacks.",
+          "descShort": "Increases the number of times Chitose can dodge and her &Param1&. After dodging or casting the Main Skill, she can deliver the last strike of her Auto Attack immediately, and if this Auto Attack deals DMG, she gains Edge: Increases the &Param3& dealt by some of Chitose's Auto Attacks.",
           "descLong": "Chitose can dodge one more time.\nHer &Param1& is increased by <span style=\"color:#ec6d21\">&Param2&</span>. After dodging or casting Torrent Flash (Main Skill), she can deliver the last strike of her Auto Attack immediately, and if this Auto Attack deals DMG, she gains 5 stacks of Edge. This effect triggers once per second.\nEdge: While this effect is active, increases the &Param3& of Chitose's first 5 Auto Attacks by <span style=\"color:#ec6d21\">&Param4&</span>. Chitose loses 1 stack after completing the first 5 Auto Attacks.",
           "icons": [
             "14401_Potential_02_A",
@@ -32288,7 +32288,7 @@
           "id": 514513,
           "name": "Shadow Blossom",
           "descShort": "When Otoha triggers an <span style=\"color:#6A90EB\">Umbra Mark</span>, increases her &Param1&.",
-          "descLong": "When Otoha triggers an <span style=\"color:#6A90EB\">Umbra Mark</span>, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&, stacking up to &Param4& times.",
+          "descLong": "When Otoha triggers an <span style=\"color:#6A90EB\">Umbra Mark</span>, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
           "icons": [
             "Common_Potential_Dark_1_A",
             "Potential_Round_B",
@@ -45060,7 +45060,7 @@
         },
         {
           "name": "Holy Glow",
-          "desc": "When any Lux Trekker casts an Ultimate, increases the ATK of Ignis Trekkers in the squad and their Minions by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, stacking up to &Param3& times.",
+          "desc": "When any Lux Trekker casts an Ultimate, increases the ATK of Lux Trekkers in the squad and their Minions by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, stacking up to &Param3& times.",
           "params": [
             {
               "idx": 1,
