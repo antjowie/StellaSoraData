@@ -11867,7 +11867,7 @@
           "id": 511823,
           "name": "신비의 활성제",
           "descShort": "지원 스킬의 가로 베기로 피해를 입히면 일정 확률로 「개조 약물」이 드랍된다. 접촉 후 &Param4&가 증가한다.",
-          "descLong": "지원 스킬 「뼈의 감옥」의 칼 가로 베기로 피해를 입히면 <span style=\"color:#0abec5\">50%</span> 확률로 「개조 약물」이 드롭된다. 「개조 약물」과 접촉한 후 &Param4&가 <span style=\"color:#0abec5\">&Param1&</span> 증가한다. &Param2&초간 지속되며, 최대 &Param3&스택 중첩된다.",
+          "descLong": "지원 스킬 「뼈의 감옥」의 칼 가로 베기로 피해를 입히면 <span style=\"color:#0abec5\">50%</span> 확률로 「개조 약물」이 드랍된다. 「개조 약물」과 접촉한 후 &Param4&가 <span style=\"color:#0abec5\">&Param1&</span> 증가한다. &Param2&초간 지속되며, 최대 &Param3&스택 중첩된다.",
           "icons": [
             "11801_Potential_23_A"
           ],
@@ -13173,8 +13173,8 @@
         {
           "id": 511923,
           "name": "꽃무리의 시선",
-          "descShort": "지원 스킬의 표창이 공격 목표를 추적하고, 입히는 피해가 증가한다.",
-          "descLong": "지원 스킬 「시들지 않은 꽃」의 표창이 공격 목표를 <span style=\"color:#0abec5\">추격</span>하고, 피해가 <span style=\"color:#0abec5\">&Param1&</span> 증가한다.",
+          "descShort": "지원 스킬의 표창이 공격 목표를 추적하고, 입히는 스킬 피해가 증가한다.",
+          "descLong": "지원 스킬 「시들지 않은 꽃」의 표창이 공격 목표를 <span style=\"color:#0abec5\">추격</span>하고, 입히는 스킬 피해가 <span style=\"color:#0abec5\">&Param1&</span> 증가한다.",
           "icons": [
             "11901_Potential_23_A"
           ],

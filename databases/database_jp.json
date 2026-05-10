@@ -12974,8 +12974,8 @@
         {
           "id": 511923,
           "name": "草花の眼",
-          "descShort": "支援スキルの手裏剣が敵を追尾するようになり、ダメージが増加する。",
-          "descLong": "ナノハの支援スキルの手裏剣が敵を<span style=\"color:#0abec5\">追尾</span>するようになり、ダメージが<span style=\"color:#0abec5\">&Param1&</span>増加する。",
+          "descShort": "支援スキルの手裏剣が敵を追尾するようになり、スキルダメージが増加する。",
+          "descLong": "ナノハの支援スキルの手裏剣が敵を<span style=\"color:#0abec5\">追尾</span>するようになり、与えるスキルダメージが<span style=\"color:#0abec5\">&Param1&</span>増加する。",
           "icons": [
             "11901_Potential_23_A"
           ],
