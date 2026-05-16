@@ -8837,6 +8837,1571 @@
       ]
     },
     {
+      "id": 115,
+      "name": "火垂",
+      "class": 2,
+      "element": 5,
+      "rarity": 1,
+      "mainBuild1Name": "火垂主控流派1",
+      "mainBuild1Desc": "「雪崩·浮游炮」汇聚能量，专注单目标的输出流派。",
+      "mainBuild2Name": "火垂主控流派2",
+      "mainBuild2Desc": "「雪崩·浮游炮」分散火力，擅长打击复数目标的输出流派。",
+      "supportBuild1Name": "火垂援护流派1",
+      "supportBuild1Desc": "强化「雪崩·飞刃」高频攻击目标的输出流派。",
+      "supportBuild2Name": "火垂援护流派2",
+      "supportBuild2Desc": "强化「雪崩·巨剑」持续重击目标的输出流派。",
+      "potentials": [
+        {
+          "id": 511501,
+          "name": "萤流·拂照",
+          "descShort": "「雪崩·浮游炮」同时攻击目标，造成伤害，可触发<span style=\"color:#6A90EB\">光系印记</span>。",
+          "descLong": "「雪崩·浮游炮」的攻击方式强化为同时攻击目标，每0.5秒造成攻击力<span style=\"color:#0abec5\">&Param2&x4</span>的光系普攻伤害，可触发<span style=\"color:#6A90EB\">光系印记</span>。\n提升火垂的攻击速度会降低造成伤害的间隔。",
+          "icons": [
+            "11501_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "11.9%",
+                "13.7%",
+                "15.5%",
+                "20.9%",
+                "22.6%",
+                "24.2%",
+                "27.6%",
+                "29%",
+                "30.4%",
+                "33.3%",
+                "35.7%",
+                "38.1%",
+                "40.5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511502,
+          "name": "萤流·拢光",
+          "descShort": "「雪崩·浮游炮」持续对相同目标造成多次伤害后，提升自身&Param3&。",
+          "descLong": "「雪崩·浮游炮」对同一个目标造成伤害时火垂获得1层「专注」，攻击不同目标时则减少1层「专注」，「专注」叠加至12层使本次<span style=\"color:#6A90EB\">炮击形态</span>中的「雪崩·浮游炮」强化，&Param3&提升<span style=\"color:#0abec5\">&Param2&</span>。",
+          "icons": [
+            "11501_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "65%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511503,
+          "name": "萤流·汇聚",
+          "descShort": "「雪崩·浮游炮」造成伤害时，生成「烈日照射」，持续攻击目标位置，可触发<span style=\"color:#6A90EB\">光系印记</span>。",
+          "descLong": "「雪崩·浮游炮」造成伤害时，生成「烈日照射」攻击目标位置，每0.4秒造成攻击力<span style=\"color:#0abec5\">&Param2&</span>的光系技能伤害，持续2秒，可触发<span style=\"color:#6A90EB\">光系印记</span>。\n每个目标10秒内最多触发1次「烈日照射」。同时最多存在4个「烈日照射」。",
+          "icons": [
+            "11501_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "85%",
+                "97%",
+                "110%",
+                "148%",
+                "160%",
+                "172%",
+                "195%",
+                "206%",
+                "216%",
+                "236%",
+                "253%",
+                "270%",
+                "287%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511504,
+          "name": "萤流·射散",
+          "descShort": "「雪崩·浮游炮」发出的射线会折射，同时对多个目标造成伤害，可触发<span style=\"color:#6A90EB\">光系印记</span>。",
+          "descLong": "「雪崩·浮游炮」发出的射线最多折射4次，对目标造成攻击力<span style=\"color:#0abec5\">&Param2&</span>的光系技能伤害，可触发<span style=\"color:#6A90EB\">光系印记</span>。\n折射不会打击重复的目标。",
+          "icons": [
+            "11501_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "5.9%",
+                "6.7%",
+                "7.6%",
+                "10.3%",
+                "11.1%",
+                "11.9%",
+                "13.5%",
+                "14.2%",
+                "14.9%",
+                "16.4%",
+                "17.5%",
+                "18.7%",
+                "19.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511505,
+          "name": "星痕叠潮",
+          "descShort": "「雪崩·浮游炮」对首领或精英目标造成伤害时，提升全队&Param5&。",
+          "descLong": "「雪崩·浮游炮」对首领或精英目标造成伤害时，全队的&Param5&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "11501_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.2%",
+                "0.4%",
+                "0.5%",
+                "0.6%",
+                "0.7%",
+                "0.8%",
+                "1%",
+                "1.1%",
+                "1.2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "100"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511506,
+          "name": "光雨倾落",
+          "descShort": "火垂在<span style=\"color:#6A90EB\">炮击形态</span>期间，每间隔一段时间「雪崩·浮游炮」向目标齐射，造成额外伤害，可触发<span style=\"color:#6A90EB\">光系印记</span>。",
+          "descLong": "火垂在<span style=\"color:#6A90EB\">炮击形态</span>期间，每6秒「雪崩·浮游炮」向目标齐射，造成攻击力<span style=\"color:#ec6d21\">&Param2&x4</span>的光系普攻伤害。\n齐射命中目标后爆炸，造成攻击力<span style=\"color:#ec6d21\">&Param3&</span>的范围光系普攻伤害，可触发<span style=\"color:#6A90EB\">光系印记</span>。",
+          "icons": [
+            "11501_Potential_06_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "34%",
+                "55%",
+                "76%",
+                "97%",
+                "117%",
+                "138%",
+                "159%",
+                "179%",
+                "200%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "115%",
+                "184%",
+                "253%",
+                "322%",
+                "391%",
+                "460%",
+                "528%",
+                "597%",
+                "666%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511507,
+          "name": "孤星独耀",
+          "descShort": "提升火垂对孤立的目标造成的&Param2&。",
+          "descLong": "火垂攻击目标时，若目标附近没有其他目标，则造成的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "icons": [
+            "11501_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511508,
+          "name": "星汨影集",
+          "descShort": "施放主控技时发射能量弹，造成范围伤害，可触发<span style=\"color:#6A90EB\">光系印记</span>。",
+          "descLong": "施放主控技「&Param1&」时发射能量弹，造成攻击力<span style=\"color:#ec6d21\">&Param2&</span>的光系技能伤害，随后爆炸造成攻击力<span style=\"color:#ec6d21\">&Param3&</span>的范围光系技能伤害，可触发<span style=\"color:#6A90EB\">光系印记</span>。",
+          "icons": [
+            "11501_Potential_08_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "炽星轮射"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "113%",
+                "180%",
+                "248%",
+                "316%",
+                "384%",
+                "451%",
+                "519%",
+                "587%",
+                "654%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "219%",
+                "351%",
+                "483%",
+                "614%",
+                "746%",
+                "877%",
+                "1009%",
+                "1140%",
+                "1272%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511509,
+          "name": "流光律动",
+          "descShort": "每间隔一段时间，提升「雪崩·浮游炮」造成的&Param3&。",
+          "descLong": "每间隔4秒使「雪崩·浮游炮」下次攻击时造成的&Param3&提升<span style=\"color:#ec6d21\">&Param2&</span>。\n每个「雪崩·浮游炮」的该效果独立计时。",
+          "icons": [
+            "11501_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "23%",
+                "36%",
+                "50%",
+                "63%",
+                "77%",
+                "91%",
+                "104%",
+                "118%",
+                "131%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511510,
+          "name": "闪光共鸣",
+          "descShort": "「雪崩·浮游炮」命中不同的附带<span style=\"color:#6A90EB\">光系印记</span>的目标时，提升全队&Param4&。",
+          "descLong": "「雪崩·浮游炮」每命中1个附带<span style=\"color:#6A90EB\">光系印记</span>的目标，全队的&Param4&提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒，可叠加&Param3&层。",
+          "icons": [
+            "11501_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1.6%",
+                "2.6%",
+                "3.6%",
+                "4.6%",
+                "5.6%",
+                "6.6%",
+                "7.6%",
+                "8.6%",
+                "9.6%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511511,
+          "name": "炽烈光明",
+          "descShort": "提升火垂&Param2&。\n火垂每次触发<span style=\"color:#6A90EB\">光系印记</span>时，提升自身&Param3&。",
+          "descLong": "火垂的&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>。\n火垂每次触发<span style=\"color:#6A90EB\">光系印记</span>时，自身&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持续&Param5&秒，可叠加&Param6&层。",
+          "icons": [
+            "Common_Potential_14_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "印记伤害",
+                "印记伤害",
+                "印记伤害",
+                "印记伤害",
+                "印记伤害",
+                "印记伤害",
+                "印记伤害",
+                "印记伤害",
+                "印记伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "13%",
+                "20%",
+                "28%",
+                "35%",
+                "43%",
+                "50%",
+                "58%",
+                "65%",
+                "73%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.4%",
+                "2.2%",
+                "3%",
+                "3.8%",
+                "4.6%",
+                "5.4%",
+                "6.2%",
+                "7%",
+                "7.8%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511512,
+          "name": "绝对闪耀",
+          "descShort": "绝招可触发<span style=\"color:#6A90EB\">光系印记</span>，触发时提升自身&Param6&。",
+          "descLong": "绝招「&Param1&」可触发<span style=\"color:#6A90EB\">光系印记</span>，产生<span style=\"color:#6A90EB\">光耀</span>：造成攻击力&Param2&的光系印记伤害。\n触发时，自身&Param6&提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒，可叠加&Param5&层。",
+          "icons": [
+            "Common_Potential_Light_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 6,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "天星奔流"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "17%",
+                "22%",
+                "27.1%",
+                "32.2%",
+                "37.2%",
+                "42.3%",
+                "47.4%",
+                "52.5%",
+                "57.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6%",
+                "9%",
+                "13%",
+                "16%",
+                "20%",
+                "23%",
+                "27%",
+                "30%",
+                "34%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511513,
+          "name": "残影幻爆",
+          "descShort": "增加火垂闪避次数。\n闪避后，对附近的目标造成光系伤害并眩晕，可触发<span style=\"color:#6A90EB\">光系印记</span>。",
+          "descLong": "火垂闪避次数增加1次。\n火垂闪避时留下残影，随后对附近的目标造成攻击力<span style=\"color:#ec6d21\">&Param1&</span>的光系技能伤害并眩晕，持续&Param2&秒，该效果每&Param3&秒最多触发1次，可触发<span style=\"color:#6A90EB\">光系印记</span>。",
+          "icons": [
+            "Common_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "49%",
+                "79%",
+                "108%",
+                "138%",
+                "167%",
+                "197%",
+                "227%",
+                "256%",
+                "286%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511521,
+          "name": "辉剑·重影",
+          "descShort": "当全队均为光系角色时，施放援护技额外获得更多「雪崩·飞刃」。\n每当「雪崩·飞刃」造成伤害时，提升自身造成的&Param2&和&Param4&。",
+          "descLong": "当全队均为光系角色时，施放援护技「&Param1&」额外获得更多「雪崩·飞刃」，提升每轮发射后攻击频率。\n每当「雪崩·飞刃」造成伤害时，本次<span style=\"color:#6A90EB\">剑击形态</span>期间「雪崩·飞刃」的&Param4&提升<span style=\"color:#0abec5\">&Param5&</span>，并且造成&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>，可叠加&Param6&层。",
+          "icons": [
+            "11501_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能伤害"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "技能暴击率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "耀星追猎"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "0.3%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511522,
+          "name": "辉剑·萤火",
+          "descShort": "提升「雪崩·飞刃」造成伤害时的&Param1&。\n每当「雪崩·飞刃」造成伤害时，额外造成范围伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。",
+          "descLong": "使「雪崩·飞刃」造成伤害时的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>。\n每当「雪崩·飞刃」造成伤害时，额外造成攻击力<span style=\"color:#0abec5\">&Param3&</span>的范围光系技能伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。",
+          "icons": [
+            "11501_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能暴击率"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "41%",
+                "48%",
+                "54%",
+                "72%",
+                "78%",
+                "84%",
+                "96%",
+                "101%",
+                "106%",
+                "116%",
+                "124%",
+                "132%",
+                "140%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511523,
+          "name": "辉剑·煌刃",
+          "descShort": "当全队均为光系角色时，提升「雪崩·巨剑」的攻击范围与造成的&Param2&。\n每当「雪崩·巨剑」攻击时，追加额外攻击，造成伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。",
+          "descLong": "当全队均为光系角色时，增加「雪崩·巨剑」的攻击范围，并使其造成的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。\n每当火垂挥舞「雪崩·巨剑」攻击时，会额外攻击1次，造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的光系普攻伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。",
+          "icons": [
+            "11501_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "31%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "163%",
+                "188%",
+                "212%",
+                "285%",
+                "308%",
+                "331%",
+                "377%",
+                "396%",
+                "416%",
+                "455%",
+                "488%",
+                "520%",
+                "553%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511524,
+          "name": "辉剑·追斩",
+          "descShort": "「雪崩·巨剑」攻击一定次数后，火垂自动施放「霸斩」，造成伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。",
+          "descLong": "「雪崩·巨剑」每攻击8次，火垂会自动施放「霸斩」，造成攻击力<span style=\"color:#0abec5\">&Param1&</span>、<span style=\"color:#0abec5\">&Param2&x2</span>、<span style=\"color:#0abec5\">&Param3&x3</span>的光系普攻伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。",
+          "icons": [
+            "11501_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "195%",
+                "225%",
+                "254%",
+                "342%",
+                "369%",
+                "397%",
+                "451%",
+                "475%",
+                "498%",
+                "545%",
+                "584%",
+                "623%",
+                "663%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "220%",
+                "253%",
+                "286%",
+                "385%",
+                "416%",
+                "446%",
+                "508%",
+                "534%",
+                "561%",
+                "613%",
+                "657%",
+                "701%",
+                "745%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "171%",
+                "197%",
+                "222%",
+                "299%",
+                "323%",
+                "347%",
+                "395%",
+                "416%",
+                "436%",
+                "477%",
+                "511%",
+                "546%",
+                "580%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511525,
+          "name": "积光成刃",
+          "descShort": "光系主控角色触发<span style=\"color:#6A90EB\">光系印记</span>，以及产生<span style=\"color:#6A90EB\">光耀</span>后，火垂下一次<span style=\"color:#6A90EB\">剑击形态</span>期间，提升「雪崩·飞刃」造成的&Param3&和&Param6&。",
+          "descLong": "主控角色触发<span style=\"color:#6A90EB\">光系印记</span>时，火垂获得1层「流光」，触发后产生<span style=\"color:#6A90EB\">光耀</span>时，火垂获得1层「光晕」，均可叠加&Param7&层；\n施放援护技「&Param1&」时火垂消耗所有「流光」和「光晕」，本次<span style=\"color:#6A90EB\">剑击形态</span>期间，每消耗1层「流光」，「雪崩·飞刃」造成的&Param3&提升<span style=\"color:#ec6d21\">&Param2&</span>；每消耗1层「光晕」，「雪崩·飞刃」的&Param6&提升<span style=\"color:#ec6d21\">&Param5&</span>。",
+          "icons": [
+            "11501_Potential_22_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "技能暴击率",
+                "技能暴击率",
+                "技能暴击率",
+                "技能暴击率",
+                "技能暴击率",
+                "技能暴击率",
+                "技能暴击率",
+                "技能暴击率",
+                "技能暴击率"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "耀星追猎"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.4%",
+                "0.6%",
+                "0.8%",
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.5%",
+                "1.6%",
+                "1.7%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "2%",
+                "3.2%",
+                "4.4%",
+                "5.6%",
+                "6.8%",
+                "8%",
+                "9.2%",
+                "10.4%",
+                "11.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511526,
+          "name": "星芒坠落",
+          "descShort": "光系主控角色造成技能伤害时，产生「雪崩·飞刃」打击目标造成额外伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。\n该「雪崩·飞刃」在造成伤害时，根据目标附带的<span style=\"color:#6A90EB\">光幕</span>层数，提升目标&Param3&。",
+          "descLong": "光系主控角色造成技能伤害时，产生1把「雪崩·飞刃」打击目标造成火垂攻击力<span style=\"color:#ec6d21\">&Param2&</span>的光系技能伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。该「雪崩·飞刃」在造成伤害时，根据目标附带的<span style=\"color:#6A90EB\">光幕</span>层数，添加相同层数的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持续&Param5&秒，可叠加&Param6&层。\n该效果每&Param7&秒最多触发1次，且触发时不需要火垂在场。",
+          "icons": [
+            "11501_Potential_26_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "19.8%",
+                "31.6%",
+                "43.5%",
+                "55.3%",
+                "67.2%",
+                "79.1%",
+                "90.9%",
+                "102.8%",
+                "114.6%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "0.5%",
+                "0.8%",
+                "1.1%",
+                "1.4%",
+                "1.7%",
+                "2%",
+                "2.3%",
+                "2.6%",
+                "2.9%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511527,
+          "name": "归刃散华",
+          "descShort": "火垂在<span style=\"color:#6A90EB\">剑击形态</span>结束时，操纵所有的<span style=\"color:#6A90EB\">雪崩</span>打击自身周围目标造成范围伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。\n该效果每次造成伤害时，提升火垂的&Param2&。",
+          "descLong": "火垂在<span style=\"color:#6A90EB\">剑击形态</span>结束时，操纵所有的<span style=\"color:#6A90EB\">雪崩</span>打击自身周围的目标，每个<span style=\"color:#6A90EB\">雪崩</span>造成攻击力<span style=\"color:#ec6d21\">&Param1&x2</span>的范围光系技能伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。\n该效果每次造成伤害时，火垂的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒，可叠加&Param5&层。",
+          "icons": [
+            "11501_Potential_27_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "34%",
+                "55%",
+                "76%",
+                "96%",
+                "117%",
+                "138%",
+                "158%",
+                "179%",
+                "200%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.1%",
+                "1.8%",
+                "2.5%",
+                "3.2%",
+                "3.9%",
+                "4.6%",
+                "5.3%",
+                "6%",
+                "6.7%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511528,
+          "name": "重剑迅影",
+          "descShort": "火垂在<span style=\"color:#6A90EB\">剑击形态</span>期间，「雪崩·巨剑」造成的&Param3&随时间提升。\n当火垂距离目标过远或者没有目标时，提升自身移动速度。",
+          "descLong": "火垂在<span style=\"color:#6A90EB\">剑击形态</span>期间，每秒提升「雪崩·巨剑」造成的&Param3&<span style=\"color:#ec6d21\">&Param1&</span>，可叠加&Param2&层。\n当火垂距离目标过远或者没有目标时，自身移动速度提升&Param4&。",
+          "icons": [
+            "11501_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "4.1%",
+                "6.6%",
+                "9.1%",
+                "11.6%",
+                "14.1%",
+                "16.6%",
+                "19.1%",
+                "21.6%",
+                "24.1%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "100%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511529,
+          "name": "光流蓄锋",
+          "descShort": "火垂在场期间，主控角色触发<span style=\"color:#6A90EB\">光系印记</span>，产生<span style=\"color:#6A90EB\">落雷</span>时，火垂提升自身&Param6&，同时提升自身附近目标&Param2&。",
+          "descLong": "火垂在场期间，主控角色触发<span style=\"color:#6A90EB\">光系印记</span>，产生<span style=\"color:#6A90EB\">落雷</span>时，火垂使自身附近的目标&Param2&提升<span style=\"color:#ec6d21\">&Param1&</span>，同时自身&Param6&提升<span style=\"color:#ec6d21\">&Param5&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "11501_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 6,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害",
+                "受到光系伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.6%",
+                "5.2%",
+                "5.8%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "0.4%",
+                "0.6%",
+                "0.8%",
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%",
+                "1.8%",
+                "2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511530,
+          "name": "光涟扩散",
+          "descShort": "「雪崩·巨剑」造成伤害时，额外造成范围伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。",
+          "descLong": "「雪崩·巨剑」造成伤害时，额外造成攻击力<span style=\"color:#ec6d21\">&Param1&</span>的范围光系普攻伤害，并附加<span style=\"color:#6A90EB\">光系印记：光明</span>。\n该效果每&Param2&秒最多触发1次。",
+          "icons": [
+            "11501_Potential_30_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "185%",
+                "295%",
+                "406%",
+                "517%",
+                "627%",
+                "738%",
+                "849%",
+                "960%",
+                "1070%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511531,
+          "name": "绝光庇护",
+          "descShort": "使火垂的绝招可附加<span style=\"color:#6A90EB\">光系印记：光明</span>。\n火垂施放绝招时，使光系主控角色获得护盾。",
+          "descLong": "绝招「&Param1&」可附加<span style=\"color:#6A90EB\">光系印记：光明</span>。\n施放绝招时，使光系主控角色获得火垂基础最大生命<span style=\"color:#ec6d21\">&Param2&</span>的护盾，持续&Param3&秒。",
+          "icons": [
+            "Common_Potential_Light_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "天星奔流"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "14%",
+                "18%",
+                "23%",
+                "27%",
+                "32%",
+                "36%",
+                "41%",
+                "45%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511532,
+          "name": "天地同辉",
+          "descShort": "火垂施放援护技时，提升队伍中光系角色的&Param3&。",
+          "descLong": "施放援护技「&Param1&」时，队伍中光系角色的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持续&Param5&秒。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "耀星追猎"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "26"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511533,
+          "name": "纯洁领域",
+          "descShort": "当全队均为光系角色时，提升全队的&Param3&。\n当火垂在场时额外提升全队的&Param3&。",
+          "descLong": "当全队均为光系角色时，全队的&Param3&提升<span style=\"color:#ec6d21\">&Param1&</span>。\n当火垂在场时，全队的&Param3&额外提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "18%",
+                "22%",
+                "27%",
+                "32%",
+                "37%",
+                "42%",
+                "46%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511541,
+          "name": "余辉留温",
+          "descShort": "火垂施放绝招后，下次施放技能时提升自身&Param3&。",
+          "descLong": "施放绝招「&Param1&」后，使火垂下次释施放技能时，自身的&Param3&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param4&秒。",
+          "icons": [
+            "11501_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害",
+                "光系伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "天星奔流"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "16%",
+                "26%",
+                "35%",
+                "45%",
+                "54%",
+                "64%",
+                "74%",
+                "83%",
+                "93%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "30"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511542,
+          "name": "极耀明光",
+          "descShort": "提升火垂绝招造成的&Param3&。",
+          "descLong": "使绝招「&Param1&」造成的&Param3&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "11501_Potential_42_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "天星奔流"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "36%",
+                "57%",
+                "79%",
+                "100%",
+                "121%",
+                "143%",
+                "164%",
+                "186%",
+                "207%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511543,
+          "name": "碎星残芒",
+          "descShort": "提升火垂绝招对低生命的目标，造成的&Param4&。",
+          "descLong": "绝招「&Param1&」对当前生命低于&Param2&的目标，造成的&Param4&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "icons": [
+            "11501_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "天星奔流"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "80%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "39%",
+                "63%",
+                "86%",
+                "110%",
+                "133%",
+                "157%",
+                "180%",
+                "204%",
+                "227%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 116,
       "name": "岭川",
       "class": 2,
@@ -9001,8 +10566,8 @@
         {
           "id": 511606,
           "name": "缠绕根须",
-          "descShort": "种子附加的移速降低效果可叠加，达到最大层数时，目标受到岭川造成的地系伤害提升。",
-          "descLong": "主控技「麦豆回旋」种子的移速降低效果可叠加3层，达到最大层数时，目标受到岭川造成的地系伤害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "descShort": "种子附加的移速降低效果可叠加，达到最大层数时，岭川对其造成的地系伤害提升。",
+          "descLong": "主控技「麦豆回旋」种子的移速降低效果可叠加3层，达到最大层数时，岭川对其造成的地系伤害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
           "icons": [
             "11601_Potential_02_A",
             "Potential_Triangle_B",
@@ -25992,10 +27557,10 @@
                 "15%",
                 "15%",
                 "20%",
-                "20%",
-                "20%",
-                "20%",
-                "20%"
+                "22%",
+                "24%",
+                "26%",
+                "28%"
               ]
             },
             {
@@ -30587,9 +32152,9 @@
                 "105%",
                 "128%",
                 "150%",
-                "150%",
-                "150%",
-                "150%"
+                "153%",
+                "156%",
+                "160%"
               ]
             }
           ]
@@ -30671,9 +32236,9 @@
                 "22.8%",
                 "27.7%",
                 "32.6%",
-                "32.6%",
-                "32.6%",
-                "32.6%"
+                "33.5%",
+                "34.4%",
+                "35.3%"
               ]
             }
           ]
@@ -31712,7 +33277,7 @@
         {
           "id": 514501,
           "name": "隐约震颤",
-          "descShort": "主控技「夜昙」射击时，产生多次「天诛」。乙叶产生「天诛」时，缩减绝招冷却时间，获得能量。",
+          "descShort": "主控技「夜昙」射击时，产生多次「天诛」，可触发<span style=\"color:#6A90EB\">暗系印记</span>。乙叶产生「天诛」时，缩减绝招冷却时间，获得能量。",
           "descLong": "主控技「夜昙」射击时，产生<span style=\"color:#0abec5\">3</span>次「天诛」，每次造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围暗系绝招伤害，可触发<span style=\"color:#6A90EB\">暗系印记</span>。\n乙叶产生「天诛」时，缩减绝招冷却时间<span style=\"color:#0abec5\">&Param2&</span>秒，获得能量<span style=\"color:#0abec5\">&Param3&</span>点，该效果每1秒可触发1次。",
           "icons": [
             "14501_Potential_01_A"
@@ -32005,9 +33570,9 @@
                 "25%",
                 "30%",
                 "35%",
-                "35%",
-                "35%",
-                "35%"
+                "36%",
+                "37%",
+                "38%"
               ]
             },
             {
@@ -32747,9 +34312,9 @@
                 "2.3%",
                 "2.7%",
                 "3%",
-                "3%",
-                "3%",
-                "3%"
+                "3.2%",
+                "3.4%",
+                "3.6%"
               ]
             },
             {
@@ -32817,9 +34382,9 @@
                 "52%",
                 "66%",
                 "80%",
-                "80%",
-                "80%",
-                "80%"
+                "82%",
+                "84%",
+                "86%"
               ]
             },
             {
@@ -33005,7 +34570,7 @@
                 "1",
                 "1",
                 "1",
-                "1"
+                "1.1"
               ]
             }
           ]
@@ -38338,7 +39903,7 @@
           "id": 515602,
           "name": "摇摇舞步",
           "descShort": "企鹅玩偶造成多段伤害，同时恢复主控角色生命。",
-          "descLong": "企鹅玩偶移动时，持续舞蹈造成攻击力<span style=\"color:#0abec5\">&Param1&x11</span>范围地系伤害，并附加<span style=\"color:#6A90EB\">地系印记：地脉</span>，期间为主控角色恢复5次生命，每次恢复<span style=\"color:#0abec5\">&Param2&</span>。",
+          "descLong": "企鹅玩偶移动时，持续舞蹈造成攻击力<span style=\"color:#0abec5\">&Param1&x11</span>范围地系技能伤害，并附加<span style=\"color:#6A90EB\">地系印记：地脉</span>，期间为主控角色恢复5次生命，每次恢复<span style=\"color:#0abec5\">&Param2&</span>。",
           "icons": [
             "15601_Potential_02_A"
           ],
@@ -45807,6 +47372,204 @@
       "bg": 4002
     },
     {
+      "id": 214003,
+      "name": "你与我相似",
+      "desc": "向上，向上，向上。\n即使腾跃十二重天，依旧能感受到你的视线。\n这绝非引力的束缚，而是星海中归家的航路。",
+      "element": 5,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "你与我相似",
+          "desc": "光系均衡角色每在场1秒获得1层「光粒子」：每层使自身攻击力提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒，可叠加&Param3&层。\n自身「光粒子」层数满层时，光系主控角色额外获得「光之翼」：普攻伤害提升<span style=\"color:#ec6d21\">&Param4&</span>，持续&Param5&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%",
+                "1.8%",
+                "2%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "命运爆发",
+          "desc": "全队光系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n「光粒子」获得额外效果：每层使自身技能伤害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.4%",
+                "0.8%",
+                "1.2%",
+                "1.6%",
+                "2%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "自由意志",
+          "desc": "附带「光之翼」的光系主控角色触发印记造成<span style=\"color:#6A90EB\">落雷</span>效果时，自身绝招伤害提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒。\n附带「光之翼」的光系主控角色触发印记造成<span style=\"color:#6A90EB\">光耀</span>效果时，自身技能伤害提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7%",
+                "14%",
+                "21%",
+                "28%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7%",
+                "14%",
+                "21%",
+                "28%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90022,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4003
+    },
+    {
       "id": 214004,
       "name": "仙踪良梦",
       "desc": "哪来的两只小野猫，躺在了我的膝盖上？\n下午茶的时间还很长，\n安心小憩，在紫藤萝下做一个美丽的梦吧。",
@@ -53176,6 +54939,204 @@
         }
       ],
       "bg": 4050
+    },
+    {
+      "id": 214051,
+      "name": "星之所向",
+      "desc": "就像花与水拥抱着大地，星与星环绕着追寻，\u000b世间的一切彼此依偎，也请让我分担你的孤寂。\u000b在黑暗的深空中，为你点亮回家的星光。",
+      "element": 5,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "星之所向",
+          "desc": "光系均衡角色每在场1秒获得1层「同步率」：每层使自身光系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒，可叠加&Param3&层。\n自身「同步率」层数满层时，造成伤害额外为目标附加「敌对反应」：受到光系普攻伤害提升<span style=\"color:#ec6d21\">&Param4&</span>，持续&Param5&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "3.6%",
+                "4.2%",
+                "4.8%",
+                "5.4%",
+                "6%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "开始「对话」",
+          "desc": "全队光系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n「同步率」获得额外效果：每层使自身暴击伤害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "2.5%",
+                "3%",
+                "3.5%",
+                "4%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90022,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "彼此理解",
+          "desc": "光系主控角色对附带「敌对反应」的目标触发印记造成<span style=\"color:#6A90EB\">落雷</span>效果时，自身绝招暴击伤害提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒。\n光系主控角色对附带「敌对反应」的目标触发印记造成<span style=\"color:#6A90EB\">光耀</span>效果时，自身技能暴击伤害提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "20%",
+                "25%",
+                "30%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15%",
+                "20%",
+                "25%",
+                "30%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90022,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4051
     }
   ]
 }

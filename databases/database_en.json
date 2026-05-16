@@ -8837,6 +8837,1571 @@
       ]
     },
     {
+      "id": 115,
+      "name": "Firefly",
+      "class": 2,
+      "element": 5,
+      "rarity": 1,
+      "mainBuild1Name": "Firefly: Main Build 1",
+      "mainBuild1Desc": "A DPS build that concentrates Avalanche: Floating Cannons' energy and focuses on a single target.",
+      "mainBuild2Name": "Firefly: Main Build 2",
+      "mainBuild2Desc": "A DPS build that spreads Avalanche: Floating Cannons' firepower and excels at attacking multiple targets.",
+      "supportBuild1Name": "Firefly: Support Build 1",
+      "supportBuild1Desc": "A DPS build that enhances Avalanche: Flying Blade, specializing in striking a target with high-frequency attacks.",
+      "supportBuild2Name": "Firefly: Support Build 2",
+      "supportBuild2Desc": "A DPS build that enhances Avalanche: Giant Sword, continuously striking the target with heavy blows.",
+      "potentials": [
+        {
+          "id": 511501,
+          "name": "Firefly Glow: Radiance",
+          "descShort": "Avalanche: Floating Cannons attack the target simultaneously, dealing DMG. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.",
+          "descLong": "Avalanche: Floating Cannons now attack the target simultaneously, dealing <span style=\"color:#0abec5\">&Param2& x4</span> of ATK as Lux Auto ATK DMG every 0.5s. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.\nIncreasing Firefly's ATK SPD reduces the interval between attacks.",
+          "icons": [
+            "11501_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "11.9%",
+                "13.7%",
+                "15.5%",
+                "20.9%",
+                "22.6%",
+                "24.2%",
+                "27.6%",
+                "29%",
+                "30.4%",
+                "33.3%",
+                "35.7%",
+                "38.1%",
+                "40.5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511502,
+          "name": "Firefly Glow: Luminary",
+          "descShort": "After Avalanche: Floating Cannons deal multiple instances of DMG to the same target, increases own &Param3&.",
+          "descLong": "When Avalanche: Floating Cannons deal DMG to the same target, Firefly gains 1 stack of Focus. Switching target will remove 1 stack of Focus. When Focus stacks 12 times, enhances <span style=\"color:#6A90EB\">Artillery Form</span>'s Avalanche: Floating Cannons, increasing &Param3& by <span style=\"color:#0abec5\">&Param2&</span>.",
+          "icons": [
+            "11501_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "65%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511503,
+          "name": "Firefly Glow: Convergence",
+          "descShort": "When dealing DMG, Avalanche: Floating Cannons generate Scorching Sunray that continuously attacks the target's position. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.",
+          "descLong": "When dealing DMG, Avalanche: Floating Cannons generate Scorching Sunray that continuously attacks the target's position, dealing <span style=\"color:#0abec5\">&Param2&</span> of ATK as Lux Skill DMG every 0.4s for 2s. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.\nScorching Sunray can only be triggered once on each target every 10s. Up to 4 Scorching Sunray can exist at once.",
+          "icons": [
+            "11501_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "85%",
+                "97%",
+                "110%",
+                "148%",
+                "160%",
+                "172%",
+                "195%",
+                "206%",
+                "216%",
+                "236%",
+                "253%",
+                "270%",
+                "287%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511504,
+          "name": "Firefly Glow: Scatter Beam",
+          "descShort": "The beams fired by Avalanche: Floating Cannons can refract, simultaneously dealing DMG to multiple targets. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.",
+          "descLong": "The beams fired by Avalanche: Floating Cannons can refract up to 4 times, dealing <span style=\"color:#0abec5\">&Param2&</span> of ATK as Lux Skill DMG. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.\nThe same target cannot be hit by refracted beams more than once.",
+          "icons": [
+            "11501_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "5.9%",
+                "6.7%",
+                "7.6%",
+                "10.3%",
+                "11.1%",
+                "11.9%",
+                "13.5%",
+                "14.2%",
+                "14.9%",
+                "16.4%",
+                "17.5%",
+                "18.7%",
+                "19.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511505,
+          "name": "Tide of Starmarks",
+          "descShort": "When Avalanche: Floating Cannons deal DMG to the boss or elite targets, increases the squad's &Param5&.",
+          "descLong": "When Avalanche: Floating Cannons deal DMG to the boss or elite targets, increases the squad's &Param5& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "11501_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.2%",
+                "0.4%",
+                "0.5%",
+                "0.6%",
+                "0.7%",
+                "0.8%",
+                "1%",
+                "1.1%",
+                "1.2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "100"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511506,
+          "name": "Radiant Rainfall",
+          "descShort": "While Firefly is in <span style=\"color:#6A90EB\">Artillery Form</span>, Avalanche: Floating Cannons periodically fire a volley at the target, dealing bonus DMG. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.",
+          "descLong": "While Firefly is in <span style=\"color:#6A90EB\">Artillery Form</span>, Avalanche: Floating Cannons fire a volley at the target every 6s, dealing <span style=\"color:#ec6d21\">&Param2& x4</span> of ATK as Lux Auto Attack DMG.\nUpon hitting the target, the volley triggers an explosion, dealing <span style=\"color:#ec6d21\">&Param3&</span> of ATK as AoE Lux Auto Attack DMG. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.",
+          "icons": [
+            "11501_Potential_06_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "34%",
+                "55%",
+                "76%",
+                "97%",
+                "117%",
+                "138%",
+                "159%",
+                "179%",
+                "200%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "115%",
+                "184%",
+                "253%",
+                "322%",
+                "391%",
+                "460%",
+                "528%",
+                "597%",
+                "666%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511507,
+          "name": "Lone Star Gleam",
+          "descShort": "Increases Firefly's &Param2& dealt to lone targets.",
+          "descLong": "When Firefly deals DMG to a lone target, increases &Param2& dealt by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "icons": [
+            "11501_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511508,
+          "name": "Astral Album",
+          "descShort": "When casting the Main Skill, Firefly shoots an energy round, dealing AoE DMG. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.",
+          "descLong": "When casting &Param1& (Main Skill), Firefly shoots an energy round, dealing <span style=\"color:#ec6d21\">&Param2&</span> of ATK as Lux Skill DMG, then causing an explosion to deal <span style=\"color:#ec6d21\">&Param3&</span> of ATK as AoE Lux Skill DMG. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.",
+          "icons": [
+            "11501_Potential_08_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Star Barrage"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "113%",
+                "180%",
+                "248%",
+                "316%",
+                "384%",
+                "451%",
+                "519%",
+                "587%",
+                "654%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "219%",
+                "351%",
+                "483%",
+                "614%",
+                "746%",
+                "877%",
+                "1009%",
+                "1140%",
+                "1272%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511509,
+          "name": "Luminous Rhythm",
+          "descShort": "Increases &Param3& dealt by Avalanche: Floating Cannons at set intervals.",
+          "descLong": "Increases &Param3& dealt by Avalanche: Floating Cannons' next attack by <span style=\"color:#ec6d21\">&Param2&</span> every 4s.\nEach Avalanche: Floating Cannon has its own timer.",
+          "icons": [
+            "11501_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "23%",
+                "36%",
+                "50%",
+                "63%",
+                "77%",
+                "91%",
+                "104%",
+                "118%",
+                "131%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511510,
+          "name": "Flash Resonance",
+          "descShort": "When Avalanche: Floating Cannons hit different targets afflicted with <span style=\"color:#6A90EB\">Lux Marks</span>, increases the squad's &Param4&.",
+          "descLong": "Whenever Avalanche: Floating Cannons hit a target afflicted with <span style=\"color:#6A90EB\">Lux Mark</span>, increases the squad's &Param4& by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, stacking up to &Param3& times.",
+          "icons": [
+            "11501_Potential_04_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1.6%",
+                "2.6%",
+                "3.6%",
+                "4.6%",
+                "5.6%",
+                "6.6%",
+                "7.6%",
+                "8.6%",
+                "9.6%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511511,
+          "name": "Blazing Radiance",
+          "descShort": "Increases Firefly's &Param2&.\nEvery time Firefly triggers <span style=\"color:#6A90EB\">Lux Mark</span>, increases own &Param3&.",
+          "descLong": "Increases Firefly's &Param2& by <span style=\"color:#ec6d21\">&Param1&</span>.\nEvery time Firefly triggers <span style=\"color:#6A90EB\">Lux Mark</span>, increases her &Param3& by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s, stacking up to &Param6& times.",
+          "icons": [
+            "Common_Potential_14_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "13%",
+                "20%",
+                "28%",
+                "35%",
+                "43%",
+                "50%",
+                "58%",
+                "65%",
+                "73%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.4%",
+                "2.2%",
+                "3%",
+                "3.8%",
+                "4.6%",
+                "5.4%",
+                "6.2%",
+                "7%",
+                "7.8%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511512,
+          "name": "Absolute Brilliance",
+          "descShort": "The Ultimate can trigger <span style=\"color:#6A90EB\">Lux Mark</span>. When the mark is triggered, increases own &Param6&.",
+          "descLong": "&Param1& (Ultimate) can trigger <span style=\"color:#6A90EB\">Lux Mark</span> and summon a <span style=\"color:#6A90EB\">Lucent</span>, dealing &Param2& of ATK as Lux Mark DMG.\nWhen the mark is triggered, increases own &Param6& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s, stacking up to &Param5& times.",
+          "icons": [
+            "Common_Potential_Light_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 6,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Stellar Torrent"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "17%",
+                "22%",
+                "27.1%",
+                "32.2%",
+                "37.2%",
+                "42.3%",
+                "47.4%",
+                "52.5%",
+                "57.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6%",
+                "9%",
+                "13%",
+                "16%",
+                "20%",
+                "23%",
+                "27%",
+                "30%",
+                "34%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511513,
+          "name": "Phantom Blast",
+          "descShort": "Increases the number of times Firefly can dodge.\nAfter dodging, Firefly deals Lux DMG to nearby targets and stuns them. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.",
+          "descLong": "Firefly can dodge one more time.\nWhen Firefly dodges, she leaves behind a Shadow that deals <span style=\"color:#ec6d21\">&Param1&</span> of ATK as Lux Skill DMG to nearby targets and stuns them for &Param2&s. This effect can only be triggered once every &Param3&s. Can trigger <span style=\"color:#6A90EB\">Lux Mark</span>.",
+          "icons": [
+            "Common_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "49%",
+                "79%",
+                "108%",
+                "138%",
+                "167%",
+                "197%",
+                "227%",
+                "256%",
+                "286%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511521,
+          "name": "Radiance Blade: Twin Shadow",
+          "descShort": "In an all-Lux squad, casting the Support Skill grants additional Avalanche: Flying Blades.\nWhenever Avalanche: Flying Blade deals DMG, increases own &Param2& and &Param4&.",
+          "descLong": "In an all-Lux squad, casting &Param1& (Support Skill) grants additional Avalanche: Flying Blades and increases ATK frequency afterwards.\nWhenever Avalanche: Flying Blade deals DMG, increases Avalanche: Flying Blade's &Param4& by <span style=\"color:#0abec5\">&Param5&</span> and increases &Param2& by <span style=\"color:#0abec5\">&Param3&</span> while this <span style=\"color:#6A90EB\">Sword Form</span> is active, stacking up to &Param6& times.",
+          "icons": [
+            "11501_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "Skill Crit Rate"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Starflare Pursuit"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "0.3%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511522,
+          "name": "Radiance Blade: Firefly",
+          "descShort": "Increases the &Param1& of Avalanche: Flying Blade when it deals DMG.\nWhenever Avalanche: Flying Blade deals DMG, it deals additional AoE DMG and inflicts <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.",
+          "descLong": "Increases the &Param1& of Avalanche: Flying Blade by <span style=\"color:#0abec5\">&Param2&</span> when it deals DMG.\nWhenever Avalanche: Flying Blade deals DMG, it deals an additional <span style=\"color:#0abec5\">&Param3&</span> of ATK as AoE Lux Skill DMG and inflicts <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.",
+          "icons": [
+            "11501_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill Crit Rate"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "41%",
+                "48%",
+                "54%",
+                "72%",
+                "78%",
+                "84%",
+                "96%",
+                "101%",
+                "106%",
+                "116%",
+                "124%",
+                "132%",
+                "140%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511523,
+          "name": "Radiance Blade: Blazing Edge",
+          "descShort": "In an all-Lux squad, increases the attack range and &Param2& of Avalanche: Giant Sword.\nWhenever Avalanche: Giant Sword attacks, it triggers an additional attack, dealing DMG and inflicting <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.",
+          "descLong": "In an all-Lux squad, extends the attack range of Avalanche: Giant Sword and increases its &Param2& by <span style=\"color:#0abec5\">&Param3&</span>.\nWhenever Avalanche: Giant Sword attacks, it triggers an additional attack, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as Lux Auto ATK DMG and inflicting <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.",
+          "icons": [
+            "11501_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "31%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "163%",
+                "188%",
+                "212%",
+                "285%",
+                "308%",
+                "331%",
+                "377%",
+                "396%",
+                "416%",
+                "455%",
+                "488%",
+                "520%",
+                "553%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511524,
+          "name": "Radiance Blade: Pursuing Slash",
+          "descShort": "After Avalanche: Giant Sword attacks a certain number of times, Firefly automatically casts Dominating Slash, dealing DMG and inflicting <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.",
+          "descLong": "After Avalanche: Giant Sword attacks 8 times, Firefly automatically casts Dominating Slash, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK, <span style=\"color:#0abec5\">&Param2& x2</span> of ATK, and <span style=\"color:#0abec5\">&Param3& x3</span> of ATK as Lux Auto ATK DMG and inflicting <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.",
+          "icons": [
+            "11501_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "195%",
+                "225%",
+                "254%",
+                "342%",
+                "369%",
+                "397%",
+                "451%",
+                "475%",
+                "498%",
+                "545%",
+                "584%",
+                "623%",
+                "663%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "220%",
+                "253%",
+                "286%",
+                "385%",
+                "416%",
+                "446%",
+                "508%",
+                "534%",
+                "561%",
+                "613%",
+                "657%",
+                "701%",
+                "745%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "171%",
+                "197%",
+                "222%",
+                "299%",
+                "323%",
+                "347%",
+                "395%",
+                "416%",
+                "436%",
+                "477%",
+                "511%",
+                "546%",
+                "580%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511525,
+          "name": "Lightforged Blade",
+          "descShort": "After the Lux Main Trekker triggers <span style=\"color:#6A90EB\">Lux Mark</span> and generates <span style=\"color:#6A90EB\">Lucent</span>, increases the &Param3& and &Param6& of Avalanche: Flying Blade the next time Firefly is in <span style=\"color:#6A90EB\">Sword Form</span>.",
+          "descLong": "When the Main Trekker triggers <span style=\"color:#6A90EB\">Lux Mark</span>, Firefly gains 1 stack of Glow. When <span style=\"color:#6A90EB\">Lucent</span> is generated afterwards, Firefly gains 1 stack of Halo. Both effects can stack up to &Param7& times.\nWhen casting &Param1& (Support Skill), Firefly consumes all stacks of Glow and Halo. For the current <span style=\"color:#6A90EB\">Sword Form</span>'s active duration, increases Avalanche: Flying Blade's &Param3& by <span style=\"color:#ec6d21\">&Param2&</span> for each stack of Glow consumed; increases Avalanche: Flying Blade's &Param6& by <span style=\"color:#ec6d21\">&Param5&</span> for each stack of Halo consumed.",
+          "icons": [
+            "11501_Potential_22_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Skill Crit Rate",
+                "Skill Crit Rate",
+                "Skill Crit Rate",
+                "Skill Crit Rate",
+                "Skill Crit Rate",
+                "Skill Crit Rate",
+                "Skill Crit Rate",
+                "Skill Crit Rate",
+                "Skill Crit Rate"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Starflare Pursuit"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.4%",
+                "0.6%",
+                "0.8%",
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.5%",
+                "1.6%",
+                "1.7%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "2%",
+                "3.2%",
+                "4.4%",
+                "5.6%",
+                "6.8%",
+                "8%",
+                "9.2%",
+                "10.4%",
+                "11.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511526,
+          "name": "Stellar Crash",
+          "descShort": "When the Lux Main Trekker deals Skill DMG, generates Avalanche: Flying Blade to strike the target, dealing additional DMG and inflicting <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.\nWhen this Avalanche: Flying Blade deals DMG, it increases the target's &Param3& based on the number of <span style=\"color:#6A90EB\">Light Curtain</span> stacks on the target.",
+          "descLong": "When the Lux Main Trekker deals Skill DMG, generates 1 Avalanche: Flying Blade to strike the target, dealing <span style=\"color:#ec6d21\">&Param2&</span> of Firefly's ATK as Lux Skill DMG and inflicting <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>. When this Avalanche: Flying Blade deals DMG, it increases the target's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s based on the number of <span style=\"color:#6A90EB\">Light Curtain</span> stacks on the target, stacking up to &Param6& times.\nThis effect can only be triggered once every &Param7&s, and Firefly does not need to be on the battlefield.",
+          "icons": [
+            "11501_Potential_26_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "19.8%",
+                "31.6%",
+                "43.5%",
+                "55.3%",
+                "67.2%",
+                "79.1%",
+                "90.9%",
+                "102.8%",
+                "114.6%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "0.5%",
+                "0.8%",
+                "1.1%",
+                "1.4%",
+                "1.7%",
+                "2%",
+                "2.3%",
+                "2.6%",
+                "2.9%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511527,
+          "name": "Blade of Falling Petals",
+          "descShort": "When <span style=\"color:#6A90EB\">Sword Form</span> ends, Firefly commands all <span style=\"color:#6A90EB\">Avalanches</span> to strike targets around her, dealing AoE DMG and inflicting <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.\nIncreases Firefly's &Param2& each time this effect deals DMG.",
+          "descLong": "When <span style=\"color:#6A90EB\">Sword Form</span> ends, Firefly commands all <span style=\"color:#6A90EB\">Avalanches</span> to strike targets around her. Each <span style=\"color:#6A90EB\">Avalanche</span> deals <span style=\"color:#ec6d21\">&Param1& x2</span> of ATK as AoE Lux Skill DMG and inflicts <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.\nIncreases Firefly's &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s each time this effect deals DMG, stacking up to &Param5& times.",
+          "icons": [
+            "11501_Potential_27_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "34%",
+                "55%",
+                "76%",
+                "96%",
+                "117%",
+                "138%",
+                "158%",
+                "179%",
+                "200%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.1%",
+                "1.8%",
+                "2.5%",
+                "3.2%",
+                "3.9%",
+                "4.6%",
+                "5.3%",
+                "6%",
+                "6.7%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511528,
+          "name": "Blade Flash",
+          "descShort": "While Firefly is in <span style=\"color:#6A90EB\">Sword Form</span>, increases the &Param3& dealt by Avalanche: Giant Sword over time.\nIncreases Firefly's Movement SPD when she is too far from her target or has no target.",
+          "descLong": "While Firefly is in <span style=\"color:#6A90EB\">Sword Form</span>, increases the &Param3& dealt by Avalanche: Giant Sword by <span style=\"color:#ec6d21\">&Param1&</span>, stacking up to &Param2& times.\nIncreases Firefly's Movement SPD by &Param4& when she is too far from her target or has no target.",
+          "icons": [
+            "11501_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "4.1%",
+                "6.6%",
+                "9.1%",
+                "11.6%",
+                "14.1%",
+                "16.6%",
+                "19.1%",
+                "21.6%",
+                "24.1%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "100%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511529,
+          "name": "Luminous Onslaught",
+          "descShort": "When the Main Trekker triggers <span style=\"color:#6A90EB\">Lux Mark</span> and generates <span style=\"color:#6A90EB\">Thunderbolt</span> while Firefly is on the battlefield, increases her own &Param6& and the &Param2& of nearby targets.",
+          "descLong": "When the Main Trekker triggers <span style=\"color:#6A90EB\">Lux Mark</span> and generates <span style=\"color:#6A90EB\">Thunderbolt</span> while Firefly is on the battlefield, increases the &Param2& of targets near her by <span style=\"color:#ec6d21\">&Param1&</span>, and increases Firefly's &Param6& by <span style=\"color:#ec6d21\">&Param5&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "11501_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 6,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken",
+                "Lux DMG Taken"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.6%",
+                "5.2%",
+                "5.8%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "0.4%",
+                "0.6%",
+                "0.8%",
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%",
+                "1.8%",
+                "2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511530,
+          "name": "Radiant Ripple",
+          "descShort": "When Avalanche: Giant Sword deals DMG, it deals additional AoE DMG and inflicts <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.",
+          "descLong": "When Avalanche: Giant Sword deals DMG, it deals an additional <span style=\"color:#ec6d21\">&Param1&</span> of ATK as AoE Auto ATK DMG and inflicts <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.\nThis effect can only be triggered once every &Param2&s.",
+          "icons": [
+            "11501_Potential_30_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "185%",
+                "295%",
+                "406%",
+                "517%",
+                "627%",
+                "738%",
+                "849%",
+                "960%",
+                "1070%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511531,
+          "name": "Sanctuary of Light",
+          "descShort": "Firefly's Ultimate can inflict <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.\nWhen Firefly casts the Ultimate, the Lux Main Trekker gains a shield.",
+          "descLong": "&Param1& (Ultimate) can inflict <span style=\"color:#6A90EB\">Lux Mark: Radiance</span>.\nWhen Firefly casts the Ultimate, the Lux Main Trekker gains a shield equal to <span style=\"color:#ec6d21\">&Param2&</span> of Firefly's Base Max HP for &Param3&s.",
+          "icons": [
+            "Common_Potential_Light_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Stellar Torrent"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "14%",
+                "18%",
+                "23%",
+                "27%",
+                "32%",
+                "36%",
+                "41%",
+                "45%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511532,
+          "name": "Cosmic Brilliance",
+          "descShort": "When Firefly casts the Support Skill, increases the &Param3& of Lux Trekkers in the squad.",
+          "descLong": "When Firefly casts &Param1& (Support Skill), increases the &Param3& of Lux Trekkers in the squad by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Starflare Pursuit"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "26"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511533,
+          "name": "Domain of Purity",
+          "descShort": "Increases the squad's &Param3& in an all-Lux squad.\nWhen Firefly is on the battlefield, additionally increases the squad's &Param3&.",
+          "descLong": "Increases the squad's &Param3& by <span style=\"color:#ec6d21\">&Param1&</span> in an all-Lux squad.\nWhen Firefly is on the battlefield, increases the squad's &Param3& by an additional <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "13%",
+                "18%",
+                "22%",
+                "27%",
+                "32%",
+                "37%",
+                "42%",
+                "46%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511541,
+          "name": "Persistent Warmth",
+          "descShort": "After Firefly casts the Ultimate, increases her &Param3& the next time she casts a skill.",
+          "descLong": "After Firefly casts &Param1& (Ultimate), increases her &Param3& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param4&s the next time she casts a skill.",
+          "icons": [
+            "11501_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG",
+                "Lux DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Stellar Torrent"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "16%",
+                "26%",
+                "35%",
+                "45%",
+                "54%",
+                "64%",
+                "74%",
+                "83%",
+                "93%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "30"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511542,
+          "name": "Ultimate Radiance",
+          "descShort": "Increases the &Param3& dealt by Firefly's Ultimate.",
+          "descLong": "Increases the &Param3& dealt by &Param1& (Ultimate) by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "11501_Potential_42_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Stellar Torrent"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "36%",
+                "57%",
+                "79%",
+                "100%",
+                "121%",
+                "143%",
+                "164%",
+                "186%",
+                "207%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511543,
+          "name": "Radiance of Shattered Stars",
+          "descShort": "Increases the &Param4& dealt by Firefly's Ultimate to targets with low HP.",
+          "descLong": "Increases the &Param4& dealt by &Param1& (Ultimate) to targets with HP below &Param2& by <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "icons": [
+            "11501_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Stellar Torrent"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "80%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "39%",
+                "63%",
+                "86%",
+                "110%",
+                "133%",
+                "157%",
+                "180%",
+                "204%",
+                "227%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 116,
       "name": "Ridge",
       "class": 2,
@@ -15054,7 +16619,7 @@
           "id": 512303,
           "name": "Dazzling Vortex",
           "descShort": "After <span style=\"color:#6A90EB\">Bubble</span> is summoned, it will fire a laser beam for a short duration.",
-          "descLong": "After #4013#Bubble## is summoned, it will fire a laser beam within <span style=\"color:#0abec5\">5</span>s, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as Ventus Minion DMG and inflicting <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
+          "descLong": "After <span style=\"color:#6A90EB\">Bubble</span> is summoned, it will fire a laser beam within <span style=\"color:#0abec5\">5</span>s, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as Ventus Minion DMG and inflicting <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>.",
           "icons": [
             "12301_Potential_03_A"
           ],
@@ -15086,7 +16651,7 @@
           "id": 512304,
           "name": "Grand Debut",
           "descShort": "When summoning <span style=\"color:#6A90EB\">Bubble</span>, increases the squad's &Param1&. When a squadmate triggers a <span style=\"color:#6A90EB\">Ventus Mark</span>, <span style=\"color:#6A90EB\">Bubble</span> will fire an additional laser beam.",
-          "descLong": "When summoning #4013#Bubble##, increases the squad's &Param1& by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s.\nWhen a squadmate triggers a <span style=\"color:#6A90EB\">Ventus Mark</span>, <span style=\"color:#6A90EB\">Bubble</span> will fire an additional laser beam, dealing <span style=\"color:#0abec5\">&Param4&</span> of ATK as Ventus Minion DMG.",
+          "descLong": "When summoning <span style=\"color:#6A90EB\">Bubble</span>, increases the squad's &Param1& by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s.\nWhen a squadmate triggers a <span style=\"color:#6A90EB\">Ventus Mark</span>, <span style=\"color:#6A90EB\">Bubble</span> will fire an additional laser beam, dealing <span style=\"color:#0abec5\">&Param4&</span> of ATK as Ventus Minion DMG.",
           "icons": [
             "12301_Potential_04_A"
           ],
@@ -25992,10 +27557,10 @@
                 "15%",
                 "15%",
                 "20%",
-                "20%",
-                "20%",
-                "20%",
-                "20%"
+                "22%",
+                "24%",
+                "26%",
+                "28%"
               ]
             },
             {
@@ -30587,9 +32152,9 @@
                 "105%",
                 "128%",
                 "150%",
-                "150%",
-                "150%",
-                "150%"
+                "153%",
+                "156%",
+                "160%"
               ]
             }
           ]
@@ -30671,9 +32236,9 @@
                 "22.8%",
                 "27.7%",
                 "32.6%",
-                "32.6%",
-                "32.6%",
-                "32.6%"
+                "33.5%",
+                "34.4%",
+                "35.3%"
               ]
             }
           ]
@@ -31712,7 +33277,7 @@
         {
           "id": 514501,
           "name": "Subtle Tremor",
-          "descShort": "When shooting with Nightbloom (Main Skill), summons Doomfall multiple times. Upon summoning Doomfall, reduces Ultimate Cooldown and gains Energy.",
+          "descShort": "When shooting with Nightbloom (Main Skill), summons Doomfall multiple times. Can trigger <span style=\"color:#6A90EB\">Umbra Mark</span>. Upon summoning Doomfall, reduces Ultimate Cooldown and gains Energy.",
           "descLong": "When shooting with Nightbloom (Main Skill), it summons Doomfall <span style=\"color:#0abec5\">3</span> times, each dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Umbra Ultimate DMG, and triggering <span style=\"color:#6A90EB\">Umbra Mark</span>.\nUpon summoning Doomfall, reduces Ultimate Cooldown by <span style=\"color:#0abec5\">&Param2&</span>s and gains <span style=\"color:#0abec5\">&Param3&</span> Energy. This effect can only be triggered once every 1s.",
           "icons": [
             "14501_Potential_01_A"
@@ -32005,9 +33570,9 @@
                 "25%",
                 "30%",
                 "35%",
-                "35%",
-                "35%",
-                "35%"
+                "36%",
+                "37%",
+                "38%"
               ]
             },
             {
@@ -32747,9 +34312,9 @@
                 "2.3%",
                 "2.7%",
                 "3%",
-                "3%",
-                "3%",
-                "3%"
+                "3.2%",
+                "3.4%",
+                "3.6%"
               ]
             },
             {
@@ -32817,9 +34382,9 @@
                 "52%",
                 "66%",
                 "80%",
-                "80%",
-                "80%",
-                "80%"
+                "82%",
+                "84%",
+                "86%"
               ]
             },
             {
@@ -33005,7 +34570,7 @@
                 "1",
                 "1",
                 "1",
-                "1"
+                "1.1"
               ]
             }
           ]
@@ -37022,9 +38587,9 @@
       "mainBuild1Desc": "A build that enhances the Snow Rabbit drone, ideal for fighting a single target.",
       "mainBuild2Name": "Shia: Main Build 2",
       "mainBuild2Desc": "A build that enhances the Night Rabbit drone, ideal for fighting multiple targets.",
-      "supportBuild1Name": "Shia: Main Build 1",
+      "supportBuild1Name": "Shia: Support Build 1",
       "supportBuild1Desc": "A support build that summons multiple drones after the skill ends to deal continuous DMG.",
-      "supportBuild2Name": "Shia: Main Build 2",
+      "supportBuild2Name": "Shia: Support Build 2",
       "supportBuild2Desc": "A support build that deals burst DMG by triggering more surfing attacks when the skill is active.",
       "potentials": [
         {
@@ -38332,7 +39897,7 @@
           "id": 515602,
           "name": "Wobble Dance",
           "descShort": "The penguin plushie deals multiple instances of DMG and restores the main Trekker's HP.",
-          "descLong": "The penguin plushie dances while moving, dealing <span style=\"color:#0abec5\">&Param1& of ATK x11</span> as AoE Terra DMG and inflicting <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>. Also restores <span style=\"color:#0abec5\">&Param2&</span> HP to the main Trekker 5 times.",
+          "descLong": "The penguin plushie dances while moving, dealing <span style=\"color:#0abec5\">&Param1& of ATK x11</span> as AoE Terra Skill DMG and inflicting <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>. Also restores <span style=\"color:#0abec5\">&Param2&</span> HP to the main Trekker 5 times.",
           "icons": [
             "15601_Potential_02_A"
           ],
@@ -45807,6 +47372,204 @@
       "bg": 4002
     },
     {
+      "id": 214003,
+      "name": "Seed Alike",
+      "desc": "Upward, upward, ever upward.\nThrough twelve heavens I soar, your gaze still following.\nNot gravity's bond, but a homeward stellar road.",
+      "element": 5,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Seed Alike",
+          "desc": "Lux Versatile Trekkers gain 1 stack of Light Particle per second on the battlefield: Each stack increases their ATK by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, stacking up to &Param3& times.\nWhen Light Particle is at max stacks, the Lux Main Trekker gains Wings of Light: Increases Auto Attack DMG by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1%",
+                "1.2%",
+                "1.4%",
+                "1.6%",
+                "1.8%",
+                "2%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Destiny Unleashed",
+          "desc": "Increases the squad's Lux DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nLight Particle gains an additional effect: Each stack increases own Skill DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.4%",
+                "0.8%",
+                "1.2%",
+                "1.6%",
+                "2%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Free Will",
+          "desc": "When the Lux Main Trekker with Wings of Light triggers a mark that inflicts <span style=\"color:#6A90EB\">Thunderbolt</span>, increases own Ultimate DMG by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.\nWhen the Lux Main Trekker with Wings of Light triggers a mark that inflicts <span style=\"color:#6A90EB\">Lucent</span>, increases own Skill DMG by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7%",
+                "14%",
+                "21%",
+                "28%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7%",
+                "14%",
+                "21%",
+                "28%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90022,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4003
+    },
+    {
       "id": 214004,
       "name": "Wisteria Dream",
       "desc": "Look who's here—two little soft kittens on my knee?\nAfternoon tea time stretches far.\nSleep soundly. Let purple wisteria shade your beautiful dreams.",
@@ -53176,6 +54939,204 @@
         }
       ],
       "bg": 4050
+    },
+    {
+      "id": 214051,
+      "name": "Stellar Destination",
+      "desc": "As flowers and water embrace the earth, as stars revolve in search of one another,\u000ball things in this world lean on each other—so let me share your solitude as well.\u000bIn the dark depths of space, let me light the starlight that guides you home.",
+      "element": 5,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Stellar Destination",
+          "desc": "Lux Versatile Trekkers gain 1 stack of Sync Rate per second on the battlefield: Each stack increases their Lux DMG by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, stacking up to &Param3& times.\nWhen Sync Rate is at max stacks, dealing DMG additionally inflicts Hostile Reaction on the target: Increases the Lux Auto ATK DMG the target takes by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "3.6%",
+                "4.2%",
+                "4.8%",
+                "5.4%",
+                "6%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Start Conversation",
+          "desc": "Increases the squad's Lux DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nSync Rate gains an additional effect: Each stack increases own Crit DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "2.5%",
+                "3%",
+                "3.5%",
+                "4%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90022,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mutual Understanding",
+          "desc": "When the Lux Main Trekker triggers a mark on a target with Hostile Reaction and inflicts <span style=\"color:#6A90EB\">Thunderbolt</span>, increases own Ultimate Crit DMG by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.\nWhen the Lux Main Trekker triggers a mark on a target with Hostile Reaction and inflicts <span style=\"color:#6A90EB\">Lucent</span>, increases own Skill Crit DMG by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "20%",
+                "25%",
+                "30%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15%",
+                "20%",
+                "25%",
+                "30%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90022,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4051
     }
   ]
 }
