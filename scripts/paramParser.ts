@@ -225,7 +225,7 @@ function parseParam(param: string)
         } catch (e)
         {
           // Might need to handle more generically, but sometimes LevelUp specifier is specified, but no levelUp entries exist
-          if (category === "ScriptParameter" || category === "Shield")
+          if (category === "ScriptParameter" || category === "Shield" || category === "OnceAdditionalAttribute")
           {
             warnings.push(id + " Specified LevelUp but there were no level up values");
             values = [processValue(
