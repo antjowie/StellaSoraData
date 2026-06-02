@@ -9459,7 +9459,7 @@
           "id": 511521,
           "name": "輝劍·重影",
           "descShort": "當全隊均為光系角色時，施放援護技額外獲得更多「雪崩·飛刃」。\n每當「雪崩·飛刃」造成傷害時，提升自身造成的&Param2&和&Param4&。",
-          "descLong": "當全隊均為光系角色時，施放援護技「&Param1&」後額外獲得更多把「雪崩·飛刃」，提升每輪發射後的攻擊頻率。\n每當「雪崩·飛刃」造成傷害時，本次<span style=\"color:#6A90EB\">劍擊形態</span>期間「雪崩·飛刃」的&Param4&提升<span style=\"color:#0abec5\">&Param5&</span>，並且造成&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>，可疊加&Param6&層。",
+          "descLong": "當全隊均為光系角色時，施放援護技「&Param1&」額外獲得更多「雪崩·飛刃」，提升每輪發射後的攻擊頻率。\n每當「雪崩·飛刃」造成傷害時，本次<span style=\"color:#6A90EB\">劍擊形態</span>期間「雪崩·飛刃」的&Param4&提升<span style=\"color:#0abec5\">&Param5&</span>，並且造成&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>，可疊加&Param6&層。",
           "icons": [
             "11501_Potential_21_A"
           ],
@@ -28252,6 +28252,1545 @@
       ]
     },
     {
+      "id": 140,
+      "name": "斯帕克拉",
+      "class": 1,
+      "element": 3,
+      "rarity": 1,
+      "mainBuild1Name": "斯帕克拉主控流派1",
+      "mainBuild1Desc": "兔子派切換模式，持續傾瀉火力，擅長消滅單體目標的流派。",
+      "mainBuild2Name": "斯帕克拉主控流派2",
+      "mainBuild2Desc": "兔子派切換模式，蓄力後打出爆發，擅長消滅群體目標的流派。",
+      "supportBuild1Name": "斯帕克拉援護流派1",
+      "supportBuild1Desc": "增強超級行動派的爆發力，可在短時間內造成大量傷害的流派。",
+      "supportBuild2Name": "斯帕克拉援護流派2",
+      "supportBuild2Desc": "增強超級行動派的持續力，配合隊友持續打擊敵人的流派。",
+      "potentials": [
+        {
+          "id": 514001,
+          "name": "躍耳極射",
+          "descShort": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔速射模式</span>期間，啟動技能「兔兔速射」造成傷害，可觸發<span style=\"color:#6A90EB\">地系印記</span>。\n當全隊均為地系角色時，提升「兔兔速射」造成的&Param2&。",
+          "descLong": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔速射模式</span>期間，啟動技能「兔兔速射」：對目標傾瀉火力，造成攻擊力<span style=\"color:#0abec5\">&Param1&×7</span>的地系技能傷害，可觸發<span style=\"color:#6A90EB\">地系印記</span>。\n「兔兔速射」的冷卻時間為3秒。\n當全隊均為地系角色時，「兔兔速射」造成的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。",
+          "icons": [
+            "14001_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "48%",
+                "55%",
+                "62%",
+                "83%",
+                "90%",
+                "97%",
+                "110%",
+                "116%",
+                "121%",
+                "133%",
+                "142%",
+                "152%",
+                "161%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "80%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514002,
+          "name": "喀噠疊響",
+          "descShort": "提升<span style=\"color:#6A90EB\">兔兔速射模式</span>造成的&Param4&。\n<span style=\"color:#6A90EB\">兔兔速射模式</span>對目標造成傷害時附加「星晶」，疊加滿層時使目標「星晶化」。\n「星晶化」的目標處於暈眩狀態時，無法被附加「星晶」。\n<span style=\"color:#6A90EB\">兔兔速射模式</span>對「星晶化」的目標造成傷害時，造成額外傷害，可觸發<span style=\"color:#6A90EB\">地系印記</span>。",
+          "descLong": "<span style=\"color:#6A90EB\">兔兔速射模式</span>造成的&Param4&提升<span style=\"color:#0abec5\">&Param5&</span>。\n<span style=\"color:#6A90EB\">兔兔速射模式</span>對目標造成傷害時附加1層「星晶」，疊加至<span style=\"color:#0abec5\">&Param1&</span>層時消耗所有層數使目標「星晶化」，持續<span style=\"color:#0abec5\">&Param2&</span>秒。\n「星晶化」的目標處於<span style=\"color:#0abec5\">暈眩</span>狀態時，無法被附加「星晶」。\n<span style=\"color:#6A90EB\">兔兔速射模式</span>對「星晶化」的目標造成傷害時，額外造成攻擊力<span style=\"color:#0abec5\">&Param3&</span>的地系技能傷害，可觸發<span style=\"color:#6A90EB\">地系印記</span>。",
+          "icons": [
+            "14001_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "22%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "64%",
+                "73%",
+                "83%",
+                "111%",
+                "120%",
+                "129%",
+                "147%",
+                "154%",
+                "162%",
+                "177%",
+                "190%",
+                "203%",
+                "215%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514003,
+          "name": "布偶重膛",
+          "descShort": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔大開口模式</span>期間，啟動技能「兔兔吼」造成傷害，可觸發<span style=\"color:#6A90EB\">地系印記</span>。\n「兔兔吼」期間無法移動和閃避。\n當全隊均為地系角色時，「兔兔吼」期間獲得護盾，並且提升「兔兔吼」造成的&Param3&。",
+          "descLong": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔大開口模式</span>期間，啟動技能「兔兔吼」：短暫蓄力後，造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍地系技能傷害，可觸發<span style=\"color:#6A90EB\">地系印記</span>。\n「兔兔吼」期間斯帕克拉無法移動和閃避。每次進入<span style=\"color:#6A90EB\">兔兔大開口模式</span>，只能施放1次「兔兔吼」。\n當全隊均為地系角色時，「兔兔吼」期間獲得基礎生命值<span style=\"color:#0abec5\">&Param2&</span>的護盾，並且「兔兔吼」造成的&Param3&提升<span style=\"color:#0abec5\">&Param4&</span>。",
+          "icons": [
+            "14001_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "243%",
+                "280%",
+                "316%",
+                "425%",
+                "459%",
+                "493%",
+                "561%",
+                "591%",
+                "620%",
+                "678%",
+                "727%",
+                "775%",
+                "824%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "91%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514004,
+          "name": "柔光溢射",
+          "descShort": "提升<span style=\"color:#6A90EB\">兔兔大開口模式</span>造成的&Param1&。\n當斯帕克拉處於<span style=\"color:#6A90EB\">兔兔大開口模式</span>期間，隨時間獲得「速效柔光溶劑」，<span style=\"color:#6A90EB\">兔兔大開口模式</span>每次射擊時，消耗「速效柔光溶劑」發射更多砲彈。\n<span style=\"color:#6A90EB\">兔兔大開口模式</span>結束時會清除所有「速效柔光溶劑」。",
+          "descLong": "<span style=\"color:#6A90EB\">兔兔大開口模式</span>造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>。\n當斯帕克拉處於<span style=\"color:#6A90EB\">兔兔大開口模式</span>期間，每2秒獲得<span style=\"color:#0abec5\">1</span>瓶「速效柔光溶劑」。\n<span style=\"color:#6A90EB\">兔兔大開口模式</span>每次射擊時，將消耗「速效柔光溶劑」，每消耗1瓶，額外發射<span style=\"color:#0abec5\">1</span>枚砲彈。每次射擊最多消耗<span style=\"color:#0abec5\">2</span>瓶。\n<span style=\"color:#6A90EB\">兔兔大開口模式</span>結束時會清除所有「速效柔光溶劑」。",
+          "icons": [
+            "14001_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "35%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514005,
+          "name": "聚躍極射",
+          "descShort": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔速射模式</span>期間，觸發<span style=\"color:#6A90EB\">地系印記</span>時，提升自身&Param1&。",
+          "descLong": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔速射模式</span>期間，觸發<span style=\"color:#6A90EB\">地系印記</span>時，自身&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "14001_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6.4%",
+                "8.8%",
+                "11.2%",
+                "13.6%",
+                "16%",
+                "18.4%",
+                "20.8%",
+                "23.2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514006,
+          "name": "浮軌伴射",
+          "descShort": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔速射模式</span>期間變為浮空，疾跑時可以繼續攻擊目標，並提升造成的&Param1&。",
+          "descLong": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔速射模式</span>期間變為浮空，疾跑時可以繼續攻擊目標，造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "14001_Potential_06_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "31%",
+                "50%",
+                "69%",
+                "87%",
+                "106%",
+                "125%",
+                "143%",
+                "162%",
+                "181%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514007,
+          "name": "齒輪叩契",
+          "descShort": "斯帕克拉每次施放技能時，提升自身&Param1&。",
+          "descLong": "斯帕克拉每次施放技能時，自身&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "14001_Potential_01_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.6%",
+                "4.2%",
+                "5.8%",
+                "7.4%",
+                "9%",
+                "10.6%",
+                "12.2%",
+                "13.8%",
+                "15.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514008,
+          "name": "旋鈕氣浪",
+          "descShort": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔大開口模式</span>期間，每次射擊時對前方造成傷害並擊退目標，可觸發<span style=\"color:#6A90EB\">地系印記</span>。",
+          "descLong": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔大開口模式</span>期間，每次射擊時對前方造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的範圍地系技能傷害並擊退目標，可觸發<span style=\"color:#6A90EB\">地系印記</span>。\n「兔兔吼」射擊時對前方造成攻擊力<span style=\"color:#ec6d21\">&Param2&</span>的範圍地系技能傷害並擊退目標，可觸發<span style=\"color:#6A90EB\">地系印記</span>。",
+          "icons": [
+            "14001_Potential_08_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "23.9%",
+                "38.2%",
+                "52.5%",
+                "66.8%",
+                "81.1%",
+                "95.5%",
+                "109.8%",
+                "124.1%",
+                "138.4%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "289%",
+                "462%",
+                "636%",
+                "809%",
+                "982%",
+                "1156%",
+                "1329%",
+                "1502%",
+                "1676%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514009,
+          "name": "滴答餘響",
+          "descShort": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔大開口模式</span>期間，獲得霸體,提升自身&Param2&。\n<span style=\"color:#6A90EB\">兔兔大開口模式</span>發射的砲彈爆炸後，會在傷害範圍內隨機散布「詭雷」造成傷害，可觸發<span style=\"color:#6A90EB\">地系印記</span>。",
+          "descLong": "斯帕克拉處於<span style=\"color:#6A90EB\">兔兔大開口模式</span>期間，獲得霸體,自身&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。\n<span style=\"color:#6A90EB\">兔兔大開口模式</span>發射的砲彈爆炸後，會在傷害範圍內隨機散布5顆「詭雷」，每顆「詭雷」造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的地系技能傷害，可觸發<span style=\"color:#6A90EB\">地系印記</span>。\n「兔兔吼」發射的砲彈會在更大範圍內散布10顆「詭雷」。",
+          "icons": [
+            "14001_Potential_09_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "19%",
+                "30%",
+                "41%",
+                "52%",
+                "63%",
+                "74%",
+                "85%",
+                "96%",
+                "107%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "21.2%",
+                "33.9%",
+                "46.6%",
+                "59.3%",
+                "72%",
+                "84.7%",
+                "97.5%",
+                "110.2%",
+                "122.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514010,
+          "name": "以靜制動",
+          "descShort": "斯帕克拉進入<span style=\"color:#6A90EB\">兔兔大開口模式</span>時，獲得護盾。\n斯帕克拉處於<span style=\"color:#6A90EB\">兔兔大開口模式</span>期間不移動時，自身&Param4&不斷提升。",
+          "descLong": "斯帕克拉進入<span style=\"color:#6A90EB\">兔兔大開口模式</span>時，獲得自身基礎生命值<span style=\"color:#ec6d21\">&Param1&</span>的護盾，持續&Param2&秒。\n斯帕克拉處於<span style=\"color:#6A90EB\">兔兔大開口模式</span>期間不移動時，每&Param3&秒自身&Param4&提升<span style=\"color:#ec6d21\">&Param5&</span>，持續&Param6&秒，可疊加&Param7&層。",
+          "icons": [
+            "14001_Potential_03_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "7%",
+                "10%",
+                "12%",
+                "14%",
+                "17%",
+                "19%",
+                "22%",
+                "24%",
+                "26%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "4.5%",
+                "7.2%",
+                "9.9%",
+                "12.6%",
+                "15.3%",
+                "18%",
+                "20.7%",
+                "23.4%",
+                "26.1%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514011,
+          "name": "集束餘韻",
+          "descShort": "斯帕克拉施放主控技變形時，提升自身&Param1&。\n在變形結束時，對自身周圍目標造成傷害，可觸發<span style=\"color:#6A90EB\">地系印記</span>。",
+          "descLong": "斯帕克拉施放主控技變形時，自身&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。\n在變形結束時，對自身周圍最多6個目標造成攻擊力<span style=\"color:#ec6d21\">&Param4&</span>的範圍地系技能傷害，可觸發<span style=\"color:#6A90EB\">地系印記</span>。",
+          "icons": [
+            "14001_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13%",
+                "21%",
+                "29%",
+                "37%",
+                "45%",
+                "53%",
+                "61%",
+                "69%",
+                "77%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "94%",
+                "151%",
+                "208%",
+                "265%",
+                "321%",
+                "378%",
+                "435%",
+                "491%",
+                "548%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514012,
+          "name": "絨步循影",
+          "descShort": "提升斯帕克拉閃避次數。\n閃避後，提升斯帕克拉的&Param1&。",
+          "descLong": "斯帕克拉閃避次數增加1次。\n閃避後，斯帕克拉的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。\n此效果&Param4&秒最多觸發一次。",
+          "icons": [
+            "Common_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "17%",
+                "23%",
+                "29%",
+                "35%",
+                "41%",
+                "48%",
+                "54%",
+                "60%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514013,
+          "name": "闊鏡聚華",
+          "descShort": "提升斯帕克拉對遠離自身的目標所造成的&Param1&。",
+          "descLong": "斯帕克拉對遠離自身的目標所造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_10_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13%",
+                "21%",
+                "29%",
+                "37%",
+                "45%",
+                "53%",
+                "61%",
+                "69%",
+                "77%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514021,
+          "name": "背兔鳴火",
+          "descShort": "提升援護技造成的&Param2&。\n當全隊為地系角色時，提升援護技每輪發射的「兔兔禮花」數量。",
+          "descLong": "當全隊為地系角色時，援護技「&Param1&」期間，玩偶也會發射「兔兔禮花」，每輪發射提升至<span style=\"color:#0abec5\">3</span>發。\n援護技造成的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。",
+          "icons": [
+            "14001_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "兔兔追蹤砲"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514022,
+          "name": "輪轍援護",
+          "descShort": "援護技期間每次發射「兔兔禮花」，斯帕克拉都會積蓄能量。\n援護技結束時，斯帕克拉將消耗所有能量提升自身&Param2&。\n然後駕駛輪椅衝向目標，造成傷害。",
+          "descLong": "援護技「&Param1&」期間，每次發射「兔兔禮花」，斯帕克拉都會積蓄能量。\n援護技結束時，斯帕克拉將消耗所有能量，每1點使自身&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>，持續&Param4&秒。\n然後駕駛輪椅衝向目標，造成攻擊力<span style=\"color:#0abec5\">&Param5&</span>的地系技能傷害並附加流血：0.3秒內造成1次傷害，持續3秒，共造成攻擊力<span style=\"color:#0abec5\">&Param6&</span>的地系技能傷害。",
+          "icons": [
+            "14001_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "兔兔追蹤砲"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.2%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "61.2%",
+                "70.4%",
+                "79.5%",
+                "107.1%",
+                "115.6%",
+                "124.2%",
+                "141.3%",
+                "148.7%",
+                "156%",
+                "170.7%",
+                "182.9%",
+                "195.2%",
+                "207.4%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "73.4%",
+                "84.4%",
+                "95.5%",
+                "128.5%",
+                "138.8%",
+                "149.1%",
+                "169.6%",
+                "178.4%",
+                "187.2%",
+                "204.9%",
+                "219.5%",
+                "234.2%",
+                "248.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514023,
+          "name": "火力援護",
+          "descShort": "提升斯帕克拉的&Param4&。\n援護技結束後，斯帕克拉會持續跟隨地系主控角色，發射子彈攻擊目標，造成傷害。",
+          "descLong": "斯帕克拉的&Param4&提升<span style=\"color:#0abec5\">&Param5&</span>。\n援護技「&Param1&」結束後，斯帕克拉會持續跟隨地系主控角色，持續<span style=\"color:#0abec5\">&Param2&</span>秒。跟隨期間斯帕克拉發射子彈攻擊目標，造成攻擊力<span style=\"color:#0abec5\">&Param3&</span>的地系普攻傷害。",
+          "icons": [
+            "14001_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "兔兔追蹤砲"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "94.3%",
+                "108.5%",
+                "122.6%",
+                "165.1%",
+                "178.3%",
+                "191.5%",
+                "217.9%",
+                "229.2%",
+                "240.6%",
+                "263.2%",
+                "282.1%",
+                "300.9%",
+                "319.8%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514024,
+          "name": "火力投射",
+          "descShort": "斯帕克拉在場時，間隔一定時間對目標造成傷害。\n隊伍中每個地系角色，都會提升此傷害。",
+          "descLong": "斯帕克拉在場時，每3.5秒對目標造成攻擊力<span style=\"color:#0abec5\">&Param2&</span>的範圍地系普攻傷害。\n隊伍中每個地系角色會使此效果造成的&Param3&提升<span style=\"color:#0abec5\">&Param4&</span>。",
+          "icons": [
+            "14001_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "20.8%",
+                "24%",
+                "27.1%",
+                "36.5%",
+                "39.4%",
+                "42.3%",
+                "48.1%",
+                "50.6%",
+                "53.1%",
+                "58.1%",
+                "62.3%",
+                "66.4%",
+                "70.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514025,
+          "name": "兔兔集束",
+          "descShort": "斯帕克拉施放援護技時，對自身周圍的目標造成傷害。",
+          "descLong": "斯帕克拉施放援護技「&Param1&」時，對自身周圍的目標造成攻擊力<span style=\"color:#ec6d21\">&Param2&</span>的範圍地系技能傷害。",
+          "icons": [
+            "14001_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "兔兔追蹤砲"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "36.6%",
+                "58.5%",
+                "80.5%",
+                "102.4%",
+                "124.3%",
+                "146.3%",
+                "168.2%",
+                "190.2%",
+                "212.1%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514026,
+          "name": "協兔爆發",
+          "descShort": "斯帕克拉施放援護技時，提升自身的&Param2&。",
+          "descLong": "斯帕克拉施放援護技「&Param1&」時，自身的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒。",
+          "icons": [
+            "14001_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "兔兔追蹤砲"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514027,
+          "name": "刻度爆表",
+          "descShort": "「兔兔禮花」觸發<span style=\"color:#6A90EB\">地系印記</span>時，提升斯帕克拉的&Param2&。",
+          "descLong": "「兔兔禮花」觸發<span style=\"color:#6A90EB\">地系印記</span>時，斯帕克拉的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒，可疊加&Param5&層。",
+          "icons": [
+            "14001_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4.2%",
+                "6.7%",
+                "9.3%",
+                "11.8%",
+                "14.3%",
+                "16.9%",
+                "19.4%",
+                "22%",
+                "24.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "7"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514028,
+          "name": "兔兔彈強化",
+          "descShort": "斯帕克拉的子彈可穿透目標，造成的傷害提升&Param1&。",
+          "descLong": "斯帕克拉的子彈可穿透目標，造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "14001_Potential_28_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "16.2%",
+                "26%",
+                "35.7%",
+                "45.5%",
+                "55.2%",
+                "65%",
+                "74.7%",
+                "84.5%",
+                "94.2%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514029,
+          "name": "兔子的鐘錶",
+          "descShort": "斯帕克拉在場時，自身的&Param1&隨時間提升。\n此效果在斯帕克拉離場時清除。",
+          "descLong": "斯帕克拉在場時，自身的&Param1&每秒提升<span style=\"color:#ec6d21\">&Param2&</span>，可疊加&Param3&層。\n此效果在斯帕克拉離場時清除。",
+          "icons": [
+            "14001_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.7%",
+                "1.1%",
+                "1.5%",
+                "1.9%",
+                "2.3%",
+                "2.8%",
+                "3.2%",
+                "3.6%",
+                "4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514030,
+          "name": "膛壓漸升",
+          "descShort": "援護技結束後，提升斯帕克拉的&Param2&。",
+          "descLong": "援護技「&Param1&」結束後，斯帕克拉的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒。",
+          "icons": [
+            "14001_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "兔兔追蹤砲"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "16.7%",
+                "26.8%",
+                "36.8%",
+                "46.9%",
+                "56.9%",
+                "67%",
+                "77%",
+                "87.1%",
+                "97.1%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514031,
+          "name": "工匠的自傲",
+          "descShort": "提升斯帕克拉的&Param1&。",
+          "descLong": "斯帕克拉的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514032,
+          "name": "以天才之名",
+          "descShort": "提升斯帕克拉的&Param2&。\n絕招結束時，提升斯帕克拉的&Param4&。",
+          "descLong": "斯帕克拉的&Param2&提升&Param3&。\n絕招「&Param1&」結束時，斯帕克拉的&Param4&提升<span style=\"color:#ec6d21\">&Param5&</span>，持續&Param6&秒。",
+          "icons": [
+            "Common_Potential_14_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害",
+                "地系傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "兔兔全域火力壓制"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "24%",
+                "38.4%",
+                "52.8%",
+                "67.2%",
+                "81.6%",
+                "96%",
+                "110.4%",
+                "124.8%",
+                "139.2%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514033,
+          "name": "超頻運轉",
+          "descShort": "提升隊伍中地系角色的&Param1&。",
+          "descLong": "隊伍中地系角色的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7.5%",
+                "12%",
+                "16.5%",
+                "21%",
+                "25.5%",
+                "30%",
+                "34.5%",
+                "39%",
+                "43.5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514041,
+          "name": "溶劑支援",
+          "descShort": "絕招結束時，在地上灑落「強效柔光溶劑」，主控角色吸收後提升其&Param2&。\n當地系角色吸收3瓶「強效柔光溶劑」後，造成普攻傷害時，斯帕克拉附加額外傷害。",
+          "descLong": "絕招「&Param1&」結束時，在地上灑落3瓶「強效柔光溶劑」，主控角色靠近時可以吸收，每瓶使其&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒。\n當地系角色吸收3瓶「強效柔光溶劑」後，造成普攻傷害時，額外造成斯帕克拉攻擊力<span style=\"color:#ec6d21\">&Param5&</span>的地系絕招傷害。每&Param6&秒最多觸發一次。",
+          "icons": [
+            "14001_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "兔兔全域火力壓制"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7%",
+                "11%",
+                "16%",
+                "20%",
+                "24%",
+                "29%",
+                "33%",
+                "37%",
+                "42%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "86%",
+                "137%",
+                "189%",
+                "240%",
+                "292%",
+                "343%",
+                "394%",
+                "446%",
+                "497%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "0.5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514042,
+          "name": "奇境躍壤",
+          "descShort": "絕招發射的「兔兔禮花砲」傷害範圍提升，直接消滅範圍內普通目標，並對菁英和首領目標造成持續傷害。",
+          "descLong": "絕招「&Param1&」發射的「兔兔禮花砲」傷害範圍提升，直接消滅範圍內普通目標，並對菁英和首領目標附加流血：在&Param2&秒內，造成攻擊力<span style=\"color:#ec6d21\">&Param3&</span>的地系絕招傷害。",
+          "icons": [
+            "14001_Potential_42_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "兔兔全域火力壓制"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "178%",
+                "285%",
+                "391%",
+                "498%",
+                "605%",
+                "711%",
+                "818%",
+                "925%",
+                "1031%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 514043,
+          "name": "躍印終章",
+          "descShort": "絕招觸發<span style=\"color:#6A90EB\">地系印記</span>時，提升本次絕招造成的&Param2&。",
+          "descLong": "絕招「&Param1&」觸發<span style=\"color:#6A90EB\">地系印記</span>時，本次絕招造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，可疊加&Param4&層。",
+          "icons": [
+            "14001_Potential_43_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "兔兔全域火力壓制"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3%",
+                "5%",
+                "7%",
+                "9%",
+                "11%",
+                "13%",
+                "15%",
+                "17%",
+                "19%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 141,
       "name": "赤霞",
       "class": 2,
@@ -32077,7 +33616,7 @@
           "id": 514405,
           "name": "漱影落振",
           "descShort": "提升千都世的閃避次數和&Param1&，施放主控技或閃避後可直接施放最後一段普攻。最後一段普攻造成傷害時，獲得「鋒決」：提升千都世部分普攻造成的&Param3&。",
-          "descLong": "千都世的閃避次數增加1次，並\n&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，施放主控技「瀧閃」或閃避後可直接施放最後一段普攻。最後一段普攻造成傷害時，獲得5層「鋒決」，該效果每秒可觸發1次。\n「鋒決」：此效果存在時，前5段普攻造成的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，每次施放前5段普攻後消耗1層。",
+          "descLong": "千都世的閃避次數增加1次，並\n&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，施放主控技「瀧閃」或閃避後可直接施放最後一段普攻。最後一段普攻造成傷害時，獲得5層「鋒決」，該效果每秒可觸發1次。\n「鋒決」：此效果存在時，前5段普攻造成的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，前5段普攻中，每施放1段普攻便消耗1層。",
           "icons": [
             "14401_Potential_02_A",
             "Potential_Diamond_B",
@@ -55123,6 +56662,309 @@
         }
       ],
       "bg": 4051
+    },
+    {
+      "id": 214052,
+      "name": "奇跡一觸",
+      "desc": "齒輪嵌合轉動，妄想的宇宙開始運行，\u000b兔子攤開靈感清單，鑷子與扳手拼湊出天馬行空的創意。\u000b少女的筆尖在圖紙上躍動，\u000b在可愛外殼之下，一個嶄新的危險武器就此誕生。",
+      "element": 3,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "奇跡一觸",
+          "desc": "地系先鋒角色施放技能時，獲得「組裝」，持續&Param1&秒，可疊加2層。\n地系先鋒角色擁有1層「組裝」時，使自身技能傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。\n地系先鋒角色擁有2層「組裝」時，使自身攻擊力提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7%",
+                "8.4%",
+                "9.8%",
+                "11.2%",
+                "12.6%",
+                "14%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "幻想星穹",
+          "desc": "全隊地系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n每層「組裝」獲得額外效果：使自身的技能傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.4%",
+                "2.8%",
+                "4.2%",
+                "5.6%",
+                "7%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "建造藍圖",
+          "desc": "「組裝」可疊加至3層。\n地系先鋒角色擁有3層「組裝」時，使自身的絕招傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "12%",
+                "24%",
+                "36%",
+                "48%",
+                "60%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4052
+    },
+    {
+      "id": 214054,
+      "name": "箱庭小樂園",
+      "desc": "專屬於自己的小小樂園，\u000b與她一同奔跑在幽微的燈光下。\u000b別害怕停滯不前，我會永遠握緊你的手，\u000b直到我們抵達彼此的終點。",
+      "element": 3,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "箱庭小樂園",
+          "desc": "地系先鋒角色施放技能後，獲得「掛載」，持續&Param1&秒，可疊加2層。\n地系先鋒角色擁有1層「掛載」時，造成技能傷害時為目標附加：受到地系技能傷害提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。\n地系先鋒角色擁有2層「掛載」時，使自身技能傷害提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "25%",
+                "30%",
+                "35%",
+                "40%",
+                "45%",
+                "50%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "發條華爾滋",
+          "desc": "全隊地系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n每層「掛載」獲得額外效果：使自身的技能暴擊傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "12%",
+                "18%",
+                "24%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "8%",
+                "10%",
+                "12%",
+                "14%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "交響樂盒",
+          "desc": "「掛載」可疊加至3層。\n地系先鋒角色擁有3層「掛載」時，使自身的攻擊力提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "8%",
+                "16%",
+                "24%",
+                "32%",
+                "40%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4054
     }
   ]
 }
