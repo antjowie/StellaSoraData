@@ -56931,7 +56931,7 @@
         },
         {
           "name": "Symphony Box",
-          "desc": "Loaded can stack up to 3 times.\nWhen a Terra Vanguard Trekker has 3 stacks of Loaded, increases own Ultimate DMG by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "desc": "Loaded can stack up to 3 times.\nWhen a Terra Vanguard Trekker has 3 stacks of Loaded, increases own ATK by <span style=\"color:#ec6d21\">&Param1&</span>",
           "params": [
             {
               "idx": 1,
