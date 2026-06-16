@@ -42357,8 +42357,8 @@
         {
           "id": 515812,
           "name": "おもちゃの本気",
-          "descShort": "ラール（聖夜）がラール人形に変身している間、射撃と「&Param1&」は<span style=\"color:#6A90EB\">火属性の印</span>を発動させることができる。\nラール（聖夜）の&Param3&が上昇する。",
-          "descLong": "ラール（聖夜）がラール人形に変身している間、射撃と「&Param1&」は<span style=\"color:#6A90EB\">火属性の印</span>を発動させることができる。\nラール（聖夜）の&Param3&が<span style=\"color:#ec6d21\">&Param4&</span>上昇する。",
+          "descShort": "ラール（聖夜）がラール人形に変身している間、射撃と「&Param1&」は<span style=\"color:#6A90EB\">火属性の印</span>を発動させることができ、発動させると、灼炎を発生させる。\nラール（聖夜）の&Param3&が上昇する。",
+          "descLong": "ラール（聖夜）がラール人形に変身している間、射撃と「&Param1&」は<span style=\"color:#6A90EB\">火属性の印</span>を発動させることができ、灼炎を発生させ、攻撃力の&Param2&の火属性の印ダメージを与える。\nラール（聖夜）の&Param3&が<span style=\"color:#ec6d21\">&Param4&</span>上昇する。",
           "icons": [
             "Common_Potential_Fire_1_A",
             "Potential_Triangle_B",
@@ -42386,6 +42386,20 @@
                 "攻撃力",
                 "攻撃力",
                 "攻撃力"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "40%",
+                "52%",
+                "64%",
+                "76%",
+                "88%",
+                "100%",
+                "112%",
+                "124%",
+                "136%"
               ]
             },
             {
