@@ -8837,6 +8837,1555 @@
       ]
     },
     {
+      "id": 114,
+      "name": "Chaton",
+      "class": 1,
+      "element": 2,
+      "rarity": 1,
+      "mainBuild1Name": "Chaton: Main Build 1",
+      "mainBuild1Desc": "A build that throw Bouncing Bombs to attack multiple targets.",
+      "mainBuild2Name": "Chaton: Main Build 2",
+      "mainBuild2Desc": "A build that marks targets with a laser to deal continuous DMG to them.",
+      "supportBuild1Name": "Chaton: Support Build 1",
+      "supportBuild1Desc": "A build that deals massive DMG over time to a single target.",
+      "supportBuild2Name": "Chaton: Support Build 2",
+      "supportBuild2Desc": "A build that deals AoE DMG to multiple targets.",
+      "potentials": [
+        {
+          "id": 511401,
+          "name": "Area Explosion",
+          "descShort": "Each time a Bouncing Bomb lands, it deals additional AoE DMG.\nIncreases the &Param2& dealt by the Bouncing Bomb.",
+          "descLong": "Each time a Bouncing Bomb lands, it deals an additional <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Ignis Skill DMG.\nIncreases the &Param2& dealt by the Bouncing Bomb by <span style=\"color:#0abec5\">&Param3&</span>.",
+          "icons": [
+            "11401_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "7.4%",
+                "8.5%",
+                "9.7%",
+                "13%",
+                "14%",
+                "15.1%",
+                "17.2%",
+                "18%",
+                "18.9%",
+                "20.7%",
+                "22.2%",
+                "23.7%",
+                "25.2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511402,
+          "name": "Overwhelming Throw",
+          "descShort": "When holding the Main Skill button, Chaton throws more Bouncing Bombs.\nIncreases the &Param2& dealt by the Bouncing Bomb.",
+          "descLong": "When holding &Param1& (Main Skill), Chaton throws <span style=\"color:#0abec5\">2</span> additional Bouncing Bombs.\nIncreases the &Param2& dealt by the Bouncing Bomb by <span style=\"color:#0abec5\">&Param3&</span>.",
+          "icons": [
+            "11401_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Sniper Operation"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511403,
+          "name": "Meowth's Curse",
+          "descShort": "Reduces Dark Mark's Attack Interval.\nIncreases Chaton's &Param1& to targets inflicted with Dark Mark.",
+          "descLong": "Reduces Dark Mark's Attack Interval by <span style=\"color:#0abec5\">50%</span>.\nIncreases Chaton's &Param1& to targets inflicted with Dark Mark by <span style=\"color:#0abec5\">&Param2&</span>.",
+          "icons": [
+            "11401_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511404,
+          "name": "Reincarnation of Darkness",
+          "descShort": "Increases the &Param2& dealt by <span style=\"color:#6A90EB\">Dark Ray</span>.\nIncreases Dark Mark's DMG when the laser hits a target inflicted with Dark Mark.",
+          "descLong": "Increases the &Param2& dealt by <span style=\"color:#6A90EB\">Dark Ray</span> by <span style=\"color:#0abec5\">&Param3&</span>.\nEnhances Dark Mark when the laser hits a target inflicted with Dark Mark, increasing the DMG Multiplier dealt by Dark Mark by <span style=\"color:#0abec5\">&Param4&</span>, stacking up to 3 times.",
+          "icons": [
+            "11401_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "85%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511405,
+          "name": "Chain Bounce",
+          "descShort": "Increases a Bouncing Bomb's bounce count.\nIncreases the &Param1& when a Bouncing Bomb deals DMG.",
+          "descLong": "The Bouncing Bomb bounces 1 more time.\nIncreases the &Param1& when a Bouncing Bomb deals DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "11401_Potential_05_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "28.5%",
+                "45.6%",
+                "62.7%",
+                "79.8%",
+                "96.9%",
+                "114%",
+                "131.1%",
+                "148.2%",
+                "165.3%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511406,
+          "name": "Efficient Use",
+          "descShort": "When a Bouncing Bomb runs out of bounces, it returns to Chaton and grants her Spark.\nWhen holding the Main Skill button, consumes Spark to increase Chaton's &Param2& and deals additional DMG to the target.",
+          "descLong": "When a Bouncing Bomb runs out of bounces, it returns to Chaton and grants her Spark.\nWhen holding &Param1& (Main Skill), Chaton consumes Spark to increase her &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s and throws an Explosive Bomb at the target, dealing <span style=\"color:#ec6d21\">&Param5&</span> of ATK as AoE Ignis Skill DMG.\nThe Explosive Bomb cannot bounce.",
+          "icons": [
+            "11401_Potential_06_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Sniper Operation"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "11%",
+                "18%",
+                "25%",
+                "32%",
+                "38%",
+                "45%",
+                "52%",
+                "59%",
+                "66%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "154%",
+                "246%",
+                "338%",
+                "430%",
+                "522%",
+                "614%",
+                "706%",
+                "798%",
+                "890%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511407,
+          "name": "Deadly Verdict",
+          "descShort": "Increases Bouncing Bomb's &Param1&.\nWhen a Bouncing Bomb lands a Crit Hit, increases the &Param3& the target takes from it.",
+          "descLong": "Increases a Bouncing Bomb's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.\nWhen a Bouncing Bomb lands a Crit Hit, increases the &Param3& the target takes from it by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s, stacking up to &Param6& times.",
+          "icons": [
+            "11401_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "12%",
+                "17%",
+                "21%",
+                "26%",
+                "30%",
+                "35%",
+                "39%",
+                "44%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6.4%",
+                "10.2%",
+                "14.1%",
+                "17.9%",
+                "21.8%",
+                "25.6%",
+                "29.4%",
+                "33.3%",
+                "37.1%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511408,
+          "name": "Mark of Darkness",
+          "descShort": "Increases the &Param1& dealt by <span style=\"color:#6A90EB\">Dark Ray</span>.\nChaton's Auto Attacks deal additional DMG to targets inflicted with Dark Mark.",
+          "descLong": "Increases the &Param1& dealt by <span style=\"color:#6A90EB\">Dark Ray</span> by <span style=\"color:#ec6d21\">&Param2&</span>.\nChaton's Auto Attack deals an additional <span style=\"color:#ec6d21\">&Param3&</span> of ATK as Ignis Skill DMG to targets inflicted with Dark Mark. This effect can be triggered once per second.",
+          "icons": [
+            "11401_Potential_04_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "91%",
+                "146%",
+                "201%",
+                "255%",
+                "310%",
+                "365%",
+                "419%",
+                "474%",
+                "529%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511409,
+          "name": "Lucky Bullet",
+          "descShort": "Increases the &Param1& of <span style=\"color:#6A90EB\">Dark Ray</span>.\nWhen the laser lands a Crit Hit, resets the Main Skill's Cooldown and increases the &Param3& dealt by <span style=\"color:#6A90EB\">Dark Ray</span>.",
+          "descLong": "Increases the &Param1& of <span style=\"color:#6A90EB\">Dark Ray</span> by <span style=\"color:#ec6d21\">&Param2&</span>.\nWhen the laser lands a Crit Hit, resets the Main Skill's Cooldown and increases the &Param3& dealt by <span style=\"color:#6A90EB\">Dark Ray</span> by <span style=\"color:#ec6d21\">&Param4&</span> for &Param7&s. This effect can be triggered once every &Param6&s.",
+          "icons": [
+            "11401_Potential_09_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "14%",
+                "23%",
+                "32%",
+                "40%",
+                "49%",
+                "58%",
+                "66%",
+                "75%",
+                "84%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4%",
+                "6.4%",
+                "9%",
+                "11%",
+                "14%",
+                "16%",
+                "18%",
+                "21%",
+                "23%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511410,
+          "name": "Hunting Mark",
+          "descShort": "After Dark Mark lands a Crit Hit, increases the &Param1& of Dark Mark when it deals DMG.",
+          "descLong": "After Dark Mark lands a Crit Hit, increases the &Param1& of Dark Mark when it deals DMG by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "11401_Potential_03_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.4%",
+                "2.2%",
+                "3.1%",
+                "3.9%",
+                "4.8%",
+                "5.6%",
+                "6.4%",
+                "7.3%",
+                "8.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511411,
+          "name": "Mobile Combat",
+          "descShort": "Increases Chaton's dodges.\nWhen Chaton casts the Main Skill, increases her &Param2&.",
+          "descLong": "Chaton can dodge one more time.\nWhen Chaton casts &Param1& (Main Skill), increases her &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+          "icons": [
+            "Common_Potential_21_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Sniper Operation"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "14%",
+                "17%",
+                "21%",
+                "24%",
+                "28%",
+                "31%",
+                "35%",
+                "38%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511412,
+          "name": "Dominant Firepower",
+          "descShort": "Activates the rapid-fire mode for Chaton's Auto Attack, increasing her attack frequency.\nWhen Chaton triggers a mark, increases her &Param2&.",
+          "descLong": "Activates the rapid-fire mode for Chaton's &Param1& (Auto Attack), increasing her attack frequency. When Chaton is in the <span style=\"color:#6A90EB\">Evil Eye Unleashed</span> state, this effect changes to increasing her &Param6& by &Param7&.\nWhen Chaton triggers a mark, increases her &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s, stacking up to &Param5& times.",
+          "icons": [
+            "Common_Potential_16_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Full-Auto Trigger"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "ATK SPD"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "60%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.1%",
+                "3.4%",
+                "4.6%",
+                "5.9%",
+                "7.1%",
+                "8.4%",
+                "9.7%",
+                "10.9%",
+                "12.2%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511413,
+          "name": "Foe Annihilation",
+          "descShort": "Increases Chaton's &Param2& dealt to targets with higher HP.",
+          "descLong": "Increases Chaton's &Param2& dealt to targets with HP greater than &Param1& by <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "icons": [
+            "Common_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14%",
+                "23%",
+                "31%",
+                "40%",
+                "48%",
+                "57%",
+                "65%",
+                "74%",
+                "82%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511421,
+          "name": "Ambush Operation",
+          "descShort": "When each shot of the Support Skill hits its first target, deals additional DMG.",
+          "descLong": "When each shot of &Param1& (Support Skill) hits its first target, inflicts Tier 1 Lock and deals an additional <span style=\"color:#0abec5\">&Param2&</span> of ATK as AoE Ignis Skill DMG.\nWhen a target is already inflicted with Tier 1 Lock, the effect upgrades to Tier 2 Lock, dealing <span style=\"color:#0abec5\">&Param3&</span> of ATK as AoE Ignis Skill DMG.\nWhen a target is already inflicted with Tier 2 Lock, the effect upgrades to Tier 3 Lock, dealing <span style=\"color:#0abec5\">&Param4&</span> of ATK as AoE Ignis Skill DMG.",
+          "icons": [
+            "11401_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Blitz Assault"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "125.7%",
+                "144.6%",
+                "163.4%",
+                "220%",
+                "237.6%",
+                "255.2%",
+                "290.4%",
+                "305.4%",
+                "320.5%",
+                "350.7%",
+                "375.8%",
+                "401%",
+                "426.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "167.6%",
+                "192.7%",
+                "217.9%",
+                "293.3%",
+                "316.8%",
+                "340.3%",
+                "387.2%",
+                "407.3%",
+                "427.4%",
+                "467.6%",
+                "501.1%",
+                "534.6%",
+                "568.2%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "188.6%",
+                "216.9%",
+                "245.2%",
+                "330.1%",
+                "356.5%",
+                "382.9%",
+                "435.7%",
+                "458.3%",
+                "480.9%",
+                "526.2%",
+                "563.9%",
+                "601.7%",
+                "639.4%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511422,
+          "name": "Strike While the Iron is Hot",
+          "descShort": "Increases the &Param2& of the Support Skill.\nWhen Penetrating Bullet lands a Crit Hit, the Support Skill fires 1 additional shot.",
+          "descLong": "Increases the &Param2& of &Param1& (Support Skill) by <span style=\"color:#0abec5\">&Param3&</span>.\nWhen Penetrating Bullet lands a Crit Hit, &Param1& (Support Skill) fires 1 additional shot. This effect can be triggered <span style=\"color:#0abec5\">2</span> times per Support Skill cast.",
+          "icons": [
+            "11401_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Blitz Assault"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511423,
+          "name": "Combat Frenzy",
+          "descShort": "Increases the &Param2& dealt by &Param1& (Support Skill).\nEach time the Support Skill fires, shoots more Penetrating Bullets.",
+          "descLong": "Increases the &Param2& dealt by &Param1& (Support Skill) by <span style=\"color:#0abec5\">&Param3&</span>.\nEach time the Support Skill fires, shoots <span style=\"color:#0abec5\">2</span> additional Penetrating Bullets.",
+          "icons": [
+            "11401_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Blitz Assault"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511424,
+          "name": "Core Blast",
+          "descShort": "Increases the &Param2& of the Support Skill.\nWhen Penetrating Bullet deals DMG, it splits into many Small Penetrating Bullets that also deal DMG.",
+          "descLong": "Increases the &Param2& of &Param1& (Support Skill) by <span style=\"color:#0abec5\">&Param3&</span>.\nWhen Penetrating Bullet deals DMG, it splits into <span style=\"color:#0abec5\">12</span> Small Penetrating Bullets, dealing <span style=\"color:#0abec5\">&Param4&</span> of ATK as Ignis Skill DMG. It splits up to &Param5& times per Tumbling Shot.",
+          "icons": [
+            "11401_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Blitz Assault"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9%",
+                "10.3%",
+                "11.7%",
+                "15.7%",
+                "17%",
+                "18.2%",
+                "20.7%",
+                "21.8%",
+                "22.9%",
+                "25.1%",
+                "26.8%",
+                "28.6%",
+                "30.4%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511425,
+          "name": "Evil Eye Gaze",
+          "descShort": "Increases the &Param2& of the Support Skill.\nWhen casting the Support Skill, Evil Eye locks onto the target's current position, dealing AoE DMG over time.",
+          "descLong": "Increases the &Param2& of &Param1& (Support Skill) by <span style=\"color:#ec6d21\">&Param3&</span>.\nWhen casting the Support Skill, Evil Eye locks onto the target's current position, dealing <span style=\"color:#ec6d21\">&Param4&</span> of ATK as AoE Ignis Skill DMG every 0.4s for 8s.",
+          "icons": [
+            "11401_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Blitz Assault"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "17.5%",
+                "28.1%",
+                "38.6%",
+                "49.1%",
+                "59.6%",
+                "70.1%",
+                "80.7%",
+                "91.2%",
+                "101.7%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511426,
+          "name": "Excess Amplification",
+          "descShort": "Increases the &Param1& Chaton deals to targets inflicted with Lock.",
+          "descLong": "Increases the &Param1& Chaton deals to targets inflicted with Lock, increasing <span style=\"color:#ec6d21\">&Param2&</span> for each tier of Lock.",
+          "icons": [
+            "11401_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8.3%",
+                "13.3%",
+                "18.3%",
+                "23.3%",
+                "28.3%",
+                "33.3%",
+                "38.3%",
+                "43.3%",
+                "48.3%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511427,
+          "name": "Relentless Suppression",
+          "descShort": "While the Support Skill is active, increases the &Param2& dealt by Chaton to the current target over time.",
+          "descLong": "While &Param1& (Support Skill) is active, increases the &Param2& dealt by Chaton to the current target by <span style=\"color:#ec6d21\">&Param3&</span> per second, stacking up to &Param4& times.",
+          "icons": [
+            "11401_Potential_22_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Blitz Assault"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.7%",
+                "4.3%",
+                "6%",
+                "7.6%",
+                "9.2%",
+                "10.9%",
+                "12.5%",
+                "14.1%",
+                "15.8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511428,
+          "name": "One Stone Two Birds",
+          "descShort": "Increases Chaton's &Param2&.\nEach time the Support Skill fires, shoots additional Meow Bombs, dealing DMG.",
+          "descLong": "Increases Chaton's &Param2& by <span style=\"color:#ec6d21\">&Param3&</span>.\nEach time &Param1& (Support Skill) fires, shoots 2 additional Meow Bombs.\nThe bombs shoot forward in a straight line 3 times, dealing <span style=\"color:#ec6d21\">&Param4&</span> of ATK as AoE Ignis Skill DMG each time.",
+          "icons": [
+            "11401_Potential_28_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Blitz Assault"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "18.8%",
+                "30.1%",
+                "41.3%",
+                "52.6%",
+                "63.9%",
+                "75.2%",
+                "86.4%",
+                "97.7%",
+                "109%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511429,
+          "name": "Burnt Rifling",
+          "descShort": "When the Support Skill lands a Crit Hit, increases the &Param2& it deals.",
+          "descLong": "When &Param1& (Support Skill) lands a Crit Hit, increases the &Param2& it deals by <span style=\"color:#ec6d21\">&Param3&</span>, stacking up to &Param4& times.",
+          "icons": [
+            "11401_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Blitz Assault"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511430,
+          "name": "Minor Fling",
+          "descShort": "The Support Skill instantly eliminates normal targets with low HP.\nIncreases the &Param3& dealt to elite or boss targets with low HP.",
+          "descLong": "&Param1& (Support Skill) instantly eliminates normal targets with HP below &Param2&.\nIncreases the &Param3& dealt to elite or boss targets with HP below &Param5& by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "11401_Potential_30_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Blitz Assault"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "30%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "80%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "16.5%",
+                "26.4%",
+                "36.3%",
+                "46.2%",
+                "56.1%",
+                "66%",
+                "75.9%",
+                "85.8%",
+                "95.7%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511431,
+          "name": "Energy Overflow",
+          "descShort": "When Chaton's Energy is full, increases her &Param1&.",
+          "descLong": "When Chaton's Energy is full, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_22_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "24%",
+                "38.4%",
+                "52.8%",
+                "67.2%",
+                "81.6%",
+                "96%",
+                "110.4%",
+                "124.8%",
+                "139.2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511432,
+          "name": "Swift Assault",
+          "descShort": "While &Param1& (Support Skill) is active, increases Chaton's &Param2&.",
+          "descLong": "While &Param1& (Support Skill) is active, increases Chaton's &Param2& by <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Blitz Assault"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511433,
+          "name": "Burning Passion",
+          "descShort": "Increases the &Param1& of Ignis Trekkers in the squad.",
+          "descLong": "Increases the &Param1& of Ignis Trekkers in the squad by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511441,
+          "name": "Curse Fall",
+          "descShort": "The Ultimate and Dark Burst deal additional DMG to targets inflicted with Cat Eye Mark.",
+          "descLong": "&Param1& (Ultimate) and Dark Burst (while <span style=\"color:#6A90EB\">Evil Eye Unleashed</span> is active) deal an additional <span style=\"color:#ec6d21\">&Param2&</span> of ATK as Ignis Ultimate DMG to targets inflicted with Cat Eye Mark.",
+          "icons": [
+            "11401_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Dark Evil Eye"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "14%",
+                "22.4%",
+                "30.7%",
+                "39.1%",
+                "47.5%",
+                "55.9%",
+                "64.3%",
+                "72.6%",
+                "81%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511442,
+          "name": "Penetrating Bullet",
+          "descShort": "Increases the duration of <span style=\"color:#6A90EB\">Evil Eye Unleashed</span>.\nIncreases Chaton's &Param1&.\nAllows bullets fired by Dark Burst to penetrate targets.",
+          "descLong": "Increases the duration of <span style=\"color:#6A90EB\">Evil Eye Unleashed</span> to &Param3&s.\nIncreases Chaton's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.\nAllows bullets fired by Dark Burst to penetrate targets.",
+          "icons": [
+            "11401_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "43%",
+                "68%",
+                "94%",
+                "119%",
+                "145%",
+                "170%",
+                "196%",
+                "222%",
+                "247%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511443,
+          "name": "Doom's Echo",
+          "descShort": "Cat Eye Mark remains on the target after the Ultimate ends. Increases Chaton's &Param1& to targets inflicted with Cat Eye Mark.",
+          "descLong": "Cat Eye Mark remains on the target after the Ultimate ends. Increases Chaton's &Param1& to targets inflicted with Cat Eye Mark by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "11401_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG",
+                "Ignis DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 115,
       "name": "Firefly",
       "class": 2,
@@ -21986,7 +23535,7 @@
           "id": 513010,
           "name": "Hazy Curtain",
           "descShort": "The <span style=\"color:#6A90EB\">Advertising Doll</span> gains a shield. When the shield disappears, deals AoE DMG.",
-          "descLong": "The #Advertising Doll#4017# gains a shield equal to <span style=\"color:#ec6d21\">&Param1&</span> of its base HP for &Param2&s.\nWhen the shield disappears, the doll deals <span style=\"color:#ec6d21\">&Param3&</span> of ATK as AoE Aqua Minion DMG.",
+          "descLong": "The <span style=\"color:#6A90EB\">Advertising Doll</span> gains a shield equal to <span style=\"color:#ec6d21\">&Param1&</span> of its base HP for &Param2&s.\nWhen the shield disappears, the doll deals <span style=\"color:#ec6d21\">&Param3&</span> of ATK as AoE Aqua Minion DMG.",
           "icons": [
             "13001_Potential_10_A",
             "Potential_Round_B",
@@ -36650,8 +38199,8 @@
         {
           "id": 514708,
           "name": "Fallen Duet",
-          "descShort": "When casting the Ultimate, <span style=\"color:#6A90EB\">Demonic Boomboxes</span> play at the same time.",
-          "descLong": "When casting Melodic Seraphim (Ultimate), <span style=\"color:#6A90EB\">Demonic Boomboxes</span> play at the same time, dealing <span style=\"color:#ec6d21\">&Param1& x13</span> of ATK as Umbra Minion DMG in a large area.",
+          "descShort": "When casting the Ultimate, <span style=\"color:#6A90EB\">Demonic Boomboxes</span> plays at the same time.",
+          "descLong": "When casting Melodic Seraphim (Ultimate), <span style=\"color:#6A90EB\">Demonic Boomboxes</span> plays at the same time, dealing <span style=\"color:#ec6d21\">&Param1& x13</span> of ATK as Umbra Minion DMG in a large area.",
           "icons": [
             "14701_Potential_04_A",
             "Potential_Diamond_B",
@@ -36861,7 +38410,7 @@
           "id": 514713,
           "name": "Shadow Soundstrike",
           "descShort": "When triggering an <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>, increases ATK.",
-          "descLong": "When Caramel or #4016#Demonic Boombox## triggers an <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>, increases their &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "descLong": "When Caramel or <span style=\"color:#6A90EB\">Demonic Boombox</span> triggers an <span style=\"color:#6A90EB\">Umbra Mark: Gloom</span>, increases their &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
           "icons": [
             "Common_Potential_3_A",
             "Potential_Round_B",
@@ -53211,6 +54760,163 @@
       "bg": 4028
     },
     {
+      "id": 214029,
+      "name": "The Cat's Treasure",
+      "desc": "The Meow God said my treasure would appear in my favorite place.\nSo I searched every amusement park in the Monoliths.\nAnd finally... right here, I nabbed this tiny, squishy little thing!",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "The Cat's Treasure",
+          "desc": "When the Ignis Main Trekker casts a skill, increases own Skill DMG by <span style=\"color:#ec6d21\">&Param1&</span> for 9s and grants 1 stack of Dark Evil Eye for 9s, stacking up to 3 times.\nWhen the Ignis Main Trekker deals Skill DMG, 1/2/3 stacks of Dark Evil Eye increase Ignis Skill DMG taken by the target by <span style=\"color:#ec6d21\">&Param2&</span>/<span style=\"color:#ec6d21\">&Param3&</span>/<span style=\"color:#ec6d21\">&Param4&</span> for 9s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "25%",
+                "30%",
+                "35%",
+                "40%",
+                "45%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Meowth's Curse",
+          "desc": "Increases the squad's Ignis DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nEach stack of Dark Evil Eye additionally increases own Skill Crit DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "12%",
+                "18%",
+                "24%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "8%",
+                "10%",
+                "12%",
+                "14%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Doomfire",
+          "desc": "When Dark Evil Eye is at max stacks, increases own Ignis DMG by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "9%",
+                "18%",
+                "27%",
+                "36%",
+                "45%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4029
+    },
+    {
       "id": 214030,
       "name": "A Moment in the Afternoon",
       "desc": "The girl burst in with the afternoon sun,\nbringing with her the aroma of snacks.\nFries? Grilled fish? Or a loaf of fluffy, warm bread?\nYou had to grab something\nto enjoy this stolen moment of peace.",
@@ -56822,6 +58528,163 @@
         }
       ],
       "bg": 4052
+    },
+    {
+      "id": 214053,
+      "name": "Joyful Gathering",
+      "desc": "Whether after a nerve-wracking, narrow escape from death,\u000bor a candid, grudge‑shattering conversation,\u000bthere is always a joyful, open‑hearted gathering, where people share a meal together, finally letting go of the past.\u000bLooking at everything around her, she suddenly realizes this very moment is what is most worth cherishing.",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Joyful Gathering",
+          "desc": "When the Ignis Main Trekker casts a skill, increases own Skill DMG by <span style=\"color:#ec6d21\">&Param1&</span> for 12s and grants 1 stack of Dark Blessing for 12s, stacking up to 3 times.\nWhen the Ignis Main Trekker deals Skill DMG, 1/2/3 stacks of Dark Blessing grant a shield equal to <span style=\"color:#ec6d21\">&Param2&</span>/<span style=\"color:#ec6d21\">&Param3&</span>/<span style=\"color:#ec6d21\">&Param4&</span> of Base Max HP for 20s to self. This effect can be triggered once every 30s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "2.4%",
+                "2.8%",
+                "3.2%",
+                "3.6%",
+                "4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4%",
+                "4.8%",
+                "5.6%",
+                "6.4%",
+                "7.2%",
+                "8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Meowth's Triumph",
+          "desc": "Each stack of Dark Blessing additionally increases own Skill DMG by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1.5%",
+                "3%",
+                "4.5%",
+                "6%",
+                "7.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dark Ceremony",
+          "desc": "Increases the ATK of Ignis Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen Dark Blessing is at max stacks, increases own Ultimate DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "16%",
+                "24%",
+                "32%",
+                "40%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4053
     },
     {
       "id": 214054,

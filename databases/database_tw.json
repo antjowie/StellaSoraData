@@ -8823,6 +8823,1555 @@
       ]
     },
     {
+      "id": 114,
+      "name": "貓眼",
+      "class": 1,
+      "element": 2,
+      "rarity": 1,
+      "mainBuild1Name": "貓眼主控流派1",
+      "mainBuild1Desc": "透過丟出「彈球炸彈」，攻擊多個目標的流派。",
+      "mainBuild2Name": "貓眼主控流派2",
+      "mainBuild2Desc": "透過雷射標記目標，使目標持續受到傷害的流派。",
+      "supportBuild1Name": "貓眼援護流派1",
+      "supportBuild1Desc": "對單個目標持續造成高額傷害的流派。",
+      "supportBuild2Name": "貓眼援護流派2",
+      "supportBuild2Desc": "對群體目標造成範圍傷害的流派。",
+      "potentials": [
+        {
+          "id": 511401,
+          "name": "廣域爆破",
+          "descShort": "「彈球炸彈」每次落地時，額外造成範圍傷害。\n提升「彈球炸彈」造成的&Param2&。",
+          "descLong": "「彈球炸彈」每次落地時，額外造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍火系技能傷害。\n「彈球炸彈」造成的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。",
+          "icons": [
+            "11401_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "7.4%",
+                "8.5%",
+                "9.7%",
+                "13%",
+                "14%",
+                "15.1%",
+                "17.2%",
+                "18%",
+                "18.9%",
+                "20.7%",
+                "22.2%",
+                "23.7%",
+                "25.2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511402,
+          "name": "飽和投擲",
+          "descShort": "長按主控技時，貓眼投擲更多「彈球炸彈」。\n提升「彈球炸彈」造成的&Param2&。",
+          "descLong": "長按主控技「&Param1&」時，貓眼額外投擲<span style=\"color:#0abec5\">2</span>枚「彈球炸彈」。\n「彈球炸彈」造成的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。",
+          "icons": [
+            "11401_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "狙擊作戰"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511403,
+          "name": "喵神詛咒",
+          "descShort": "「暗黑標記」的傷害間隔縮短。\n提升貓眼對附帶「暗黑標記」的目標造成的&Param1&。",
+          "descLong": "「暗黑標記」的傷害間隔縮短<span style=\"color:#0abec5\">50%</span>。\n貓眼對附帶「暗黑標記」的目標造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>。",
+          "icons": [
+            "11401_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511404,
+          "name": "黑暗輪迴",
+          "descShort": "提升<span style=\"color:#6A90EB\">黑暗射線</span>造成的&Param2&。\n雷射命中附帶「暗黑標記」的目標時，提升「暗黑標記」的傷害。",
+          "descLong": "<span style=\"color:#6A90EB\">黑暗射線</span>造成的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。\n雷射命中附帶「暗黑標記」的目標時，強化「暗黑標記」，使「暗黑標記」造成的傷害倍率提升<span style=\"color:#0abec5\">&Param4&</span>，此效果可以疊加3次。",
+          "icons": [
+            "11401_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "85%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511405,
+          "name": "多重彈跳",
+          "descShort": "提升「彈球炸彈」的彈射次數。\n提升「彈球炸彈」造成傷害時的&Param1&。",
+          "descLong": "「彈球炸彈」的彈射次數提升1次。\n「彈球炸彈」造成傷害時的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "11401_Potential_05_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "28.5%",
+                "45.6%",
+                "62.7%",
+                "79.8%",
+                "96.9%",
+                "114%",
+                "131.1%",
+                "148.2%",
+                "165.3%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511406,
+          "name": "節約使用",
+          "descShort": "「彈球炸彈」的彈射次數用盡後會返回貓眼身邊，使貓眼獲得「火苗」。\n長按主控技時，消耗「火苗」提升貓眼&Param2&，並對目標造成額外傷害。",
+          "descLong": "「彈球炸彈」的彈射次數用盡後會返回貓眼身邊，使貓眼獲得「火苗」。\n長按主控技「&Param1&」時，貓眼會消耗「火苗」，自身&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒，並對目標擲出一顆「爆裂彈球」，造成攻擊力<span style=\"color:#ec6d21\">&Param5&</span>的範圍火系技能傷害。\n「爆裂彈球」不會彈射。",
+          "icons": [
+            "11401_Potential_06_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "狙擊作戰"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "11%",
+                "18%",
+                "25%",
+                "32%",
+                "38%",
+                "45%",
+                "52%",
+                "59%",
+                "66%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "154%",
+                "246%",
+                "338%",
+                "430%",
+                "522%",
+                "614%",
+                "706%",
+                "798%",
+                "890%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511407,
+          "name": "致命裁定",
+          "descShort": "提升「彈球炸彈」的&Param1&。\n「彈球炸彈」造成暴擊時，提升目標受到「彈球炸彈」造成的&Param3&。",
+          "descLong": "「彈球炸彈」的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。\n「彈球炸彈」造成暴擊時，使目標受到「彈球炸彈」造成的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param5&秒，可疊加&Param6&層。",
+          "icons": [
+            "11401_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "12%",
+                "17%",
+                "21%",
+                "26%",
+                "30%",
+                "35%",
+                "39%",
+                "44%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6.4%",
+                "10.2%",
+                "14.1%",
+                "17.9%",
+                "21.8%",
+                "25.6%",
+                "29.4%",
+                "33.3%",
+                "37.1%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511408,
+          "name": "黑暗烙印",
+          "descShort": "提升<span style=\"color:#6A90EB\">黑暗射線</span>造成的&Param1&。\n貓眼的普攻對附帶「暗黑標記」的目標造成傷害時，額外造成傷害。",
+          "descLong": "<span style=\"color:#6A90EB\">黑暗射線</span>造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。\n貓眼的普攻對附帶「暗黑標記」的目標造成傷害時，額外造成攻擊力<span style=\"color:#ec6d21\">&Param3&</span>的火系技能傷害，每秒可觸發1次。",
+          "icons": [
+            "11401_Potential_04_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "91%",
+                "146%",
+                "201%",
+                "255%",
+                "310%",
+                "365%",
+                "419%",
+                "474%",
+                "529%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511409,
+          "name": "幸運子彈",
+          "descShort": "提升<span style=\"color:#6A90EB\">黑暗射線</span>的&Param1&。\n當雷射造成暴擊時，重置主控技冷卻並提升<span style=\"color:#6A90EB\">黑暗射線</span>造成的&Param3&。",
+          "descLong": "<span style=\"color:#6A90EB\">黑暗射線</span>的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。\n當雷射造成暴擊時，重置主控技的冷卻，並使<span style=\"color:#6A90EB\">黑暗射線</span>造成的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param7&秒，此效果每&Param6&秒最多觸發1次。",
+          "icons": [
+            "11401_Potential_09_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "14%",
+                "23%",
+                "32%",
+                "40%",
+                "49%",
+                "58%",
+                "66%",
+                "75%",
+                "84%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "4%",
+                "6.4%",
+                "9%",
+                "11%",
+                "14%",
+                "16%",
+                "18%",
+                "21%",
+                "23%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511410,
+          "name": "獵殺標記",
+          "descShort": "當「暗黑標記」造成暴擊後，提升「暗黑標記」造成傷害時的&Param1&。",
+          "descLong": "當「暗黑標記」造成暴擊後，使「暗黑標記」造成傷害時的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "11401_Potential_03_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.4%",
+                "2.2%",
+                "3.1%",
+                "3.9%",
+                "4.8%",
+                "5.6%",
+                "6.4%",
+                "7.3%",
+                "8.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511411,
+          "name": "機動作戰",
+          "descShort": "提升貓眼閃避次數。\n貓眼施放主控技時，提升自身&Param2&。",
+          "descLong": "貓眼閃避次數增加1次。\n貓眼施放主控技「&Param1&」時，使自身的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒。",
+          "icons": [
+            "Common_Potential_21_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "狙擊作戰"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "14%",
+                "17%",
+                "21%",
+                "24%",
+                "28%",
+                "31%",
+                "35%",
+                "38%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511412,
+          "name": "優勢火力",
+          "descShort": "啟動貓眼普攻的連射模式，提升攻擊頻率。\n貓眼觸發印記時，提升自身&Param2&。",
+          "descLong": "啟動貓眼普攻「&Param1&」的連射模式，提升攻擊頻率。該效果在貓眼處於<span style=\"color:#6A90EB\">魔眼解放</span>狀態時，變為使貓眼的&Param6&提升&Param7&。\n貓眼觸發印記時，使自身&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒，可疊加&Param5&層。",
+          "icons": [
+            "Common_Potential_16_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "全自動扳機"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "攻擊速度"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "60%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.1%",
+                "3.4%",
+                "4.6%",
+                "5.9%",
+                "7.1%",
+                "8.4%",
+                "9.7%",
+                "10.9%",
+                "12.2%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511413,
+          "name": "強敵斷滅",
+          "descShort": "提升貓眼對目前生命值較高的目標造成的&Param2&。",
+          "descLong": "貓眼對目前生命值高於&Param1&的目標，造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "icons": [
+            "Common_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14%",
+                "23%",
+                "31%",
+                "40%",
+                "48%",
+                "57%",
+                "65%",
+                "74%",
+                "82%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511421,
+          "name": "奇襲作戰",
+          "descShort": "援護技每次射擊命中首個目標時，額外造成傷害。",
+          "descLong": "援護技「&Param1&」每次射擊命中首個目標時，附加「1階鎖定」，並額外造成攻擊力<span style=\"color:#0abec5\">&Param2&</span>的範圍火系技能傷害。\n當目標附帶「1階鎖定」時，強化為「2階鎖定」，造成攻擊力<span style=\"color:#0abec5\">&Param3&</span>的範圍火系技能傷害。\n當目標附帶「2階鎖定」時，強化為「3階鎖定」，造成攻擊力<span style=\"color:#0abec5\">&Param4&</span>的範圍火系技能傷害。",
+          "icons": [
+            "11401_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "快速突擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "125.7%",
+                "144.6%",
+                "163.4%",
+                "220%",
+                "237.6%",
+                "255.2%",
+                "290.4%",
+                "305.4%",
+                "320.5%",
+                "350.7%",
+                "375.8%",
+                "401%",
+                "426.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "167.6%",
+                "192.7%",
+                "217.9%",
+                "293.3%",
+                "316.8%",
+                "340.3%",
+                "387.2%",
+                "407.3%",
+                "427.4%",
+                "467.6%",
+                "501.1%",
+                "534.6%",
+                "568.2%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "188.6%",
+                "216.9%",
+                "245.2%",
+                "330.1%",
+                "356.5%",
+                "382.9%",
+                "435.7%",
+                "458.3%",
+                "480.9%",
+                "526.2%",
+                "563.9%",
+                "601.7%",
+                "639.4%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511422,
+          "name": "勝勢追擊",
+          "descShort": "提升援護技造成的&Param2&。\n當「貫穿彈」暴擊時，本次援護技額外射擊1次。",
+          "descLong": "援護技「&Param1&」造成的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。\n當「貫穿彈」暴擊時，本次援護技「&Param1&」額外射擊1次。該效果每次援護技最多觸發<span style=\"color:#0abec5\">2</span>次。",
+          "icons": [
+            "11401_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "快速突擊"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511423,
+          "name": "戀戰情緒",
+          "descShort": "援護技「&Param1&」造成的&Param2&。\n援護技每次射擊時，發射更多「貫穿彈」。",
+          "descLong": "援護技「&Param1&」造成的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。\n援護技每次射擊時，額外發射<span style=\"color:#0abec5\">2</span>顆「貫穿彈」。",
+          "icons": [
+            "11401_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "快速突擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511424,
+          "name": "中心開花",
+          "descShort": "提升援護技造成的&Param2&。\n當「貫穿彈」造成傷害時，更分裂為大量「小型貫穿彈」造成傷害。",
+          "descLong": "援護技「&Param1&」造成的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。\n「貫穿彈」造成傷害時，分裂為<span style=\"color:#0abec5\">12</span>顆「小型貫穿彈」，造成攻擊力<span style=\"color:#0abec5\">&Param4&</span>的火系技能傷害。每次翻滾射擊，最多分裂&Param5&次。",
+          "icons": [
+            "11401_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "快速突擊"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9%",
+                "10.3%",
+                "11.7%",
+                "15.7%",
+                "17%",
+                "18.2%",
+                "20.7%",
+                "21.8%",
+                "22.9%",
+                "25.1%",
+                "26.8%",
+                "28.6%",
+                "30.4%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511425,
+          "name": "魔眼鎖定",
+          "descShort": "提升援護技造成的&Param2&。\n施放援護技時，魔眼鎖定目標目前位置，持續造成範圍傷害。",
+          "descLong": "援護技「&Param1&」造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。\n施放援護技時，魔眼鎖定目標目前位置，每0.4秒造成攻擊力<span style=\"color:#ec6d21\">&Param4&</span>的範圍火系技能傷害，持續8秒。",
+          "icons": [
+            "11401_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "快速突擊"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "17.5%",
+                "28.1%",
+                "38.6%",
+                "49.1%",
+                "59.6%",
+                "70.1%",
+                "80.7%",
+                "91.2%",
+                "101.7%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511426,
+          "name": "超額增幅",
+          "descShort": "提升貓眼對附帶「鎖定」的目標造成的&Param1&。",
+          "descLong": "貓眼對附帶「鎖定」的目標造成的&Param1&提升，根據「鎖定」階段，每階提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "11401_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8.3%",
+                "13.3%",
+                "18.3%",
+                "23.3%",
+                "28.3%",
+                "33.3%",
+                "38.3%",
+                "43.3%",
+                "48.3%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511427,
+          "name": "持續壓制",
+          "descShort": "援護技期間，貓眼對目前目標造成的&Param2&隨時間提升。",
+          "descLong": "援護技「&Param1&」持續期間，貓眼對目前目標造成的&Param2&每秒提升<span style=\"color:#ec6d21\">&Param3&</span>，可疊加&Param4&層。",
+          "icons": [
+            "11401_Potential_22_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "快速突擊"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.7%",
+                "4.3%",
+                "6%",
+                "7.6%",
+                "9.2%",
+                "10.9%",
+                "12.5%",
+                "14.1%",
+                "15.8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511428,
+          "name": "一石二鳥",
+          "descShort": "提升貓眼的&Param2&。\n援護技每次射擊時，會額外發射「貓貓炸彈」，造成傷害。",
+          "descLong": "貓眼的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。\n援護技「&Param1&」每次射擊時，額外發射2顆「貓貓炸彈」。\n「貓貓炸彈」會向前直線彈射3次，每次造成攻擊力<span style=\"color:#ec6d21\">&Param4&</span>的範圍火系技能傷害。",
+          "icons": [
+            "11401_Potential_28_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "快速突擊"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "18.8%",
+                "30.1%",
+                "41.3%",
+                "52.6%",
+                "63.9%",
+                "75.2%",
+                "86.4%",
+                "97.7%",
+                "109%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511429,
+          "name": "灼熱膛線",
+          "descShort": "援護技每次造成暴擊時，提升本次援護技造成的&Param2&。",
+          "descLong": "援護技「&Param1&」每次造成暴擊時，本次援護技造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，可疊加&Param4&層。",
+          "icons": [
+            "11401_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "快速突擊"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511430,
+          "name": "不值一提",
+          "descShort": "援護技直接消滅目前生命值較低的普通目標。\n提升對目前生命值較低的菁英或首領目標造成的&Param3&。",
+          "descLong": "援護技「&Param1&」對目前生命值低於&Param2&的普通目標造成傷害時，直接消滅目標。\n對目前生命值低於&Param5&的菁英或首領目標造成傷害時，造成的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "11401_Potential_30_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "快速突擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "30%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "80%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "16.5%",
+                "26.4%",
+                "36.3%",
+                "46.2%",
+                "56.1%",
+                "66%",
+                "75.9%",
+                "85.8%",
+                "95.7%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511431,
+          "name": "能量充盈",
+          "descShort": "當貓眼的能量充滿時，提升貓眼的&Param1&。",
+          "descLong": "當貓眼的能量充滿時，貓眼的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "Common_Potential_22_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "24%",
+                "38.4%",
+                "52.8%",
+                "67.2%",
+                "81.6%",
+                "96%",
+                "110.4%",
+                "124.8%",
+                "139.2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511432,
+          "name": "快速強襲",
+          "descShort": "援護技「&Param1&」期間，提升貓眼的&Param2&。",
+          "descLong": "援護技「&Param1&」期間，貓眼的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "快速突擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511433,
+          "name": "熱情如火",
+          "descShort": "提升隊伍中火系角色的&Param1&。",
+          "descLong": "隊伍中火系角色的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511441,
+          "name": "詛咒降臨",
+          "descShort": "絕招與「黑暗爆發」對附帶「喵眼標記」的目標造成傷害時，會額外造成傷害。",
+          "descLong": "絕招「&Param1&」與<span style=\"color:#6A90EB\">魔眼解放</span>狀態下的「黑暗爆發」對附帶「喵眼標記」的目標造成傷害時，額外造成攻擊力<span style=\"color:#ec6d21\">&Param2&</span>的火系絕招傷害。",
+          "icons": [
+            "11401_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暗黑魔眼"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "14%",
+                "22.4%",
+                "30.7%",
+                "39.1%",
+                "47.5%",
+                "55.9%",
+                "64.3%",
+                "72.6%",
+                "81%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511442,
+          "name": "貫穿射擊",
+          "descShort": "提升<span style=\"color:#6A90EB\">魔眼解放</span>狀態的持續時間。\n提升貓眼的&Param1&。\n使「黑暗爆發」射出的子彈可穿透目標。",
+          "descLong": "<span style=\"color:#6A90EB\">魔眼解放</span>狀態的持續時間提升至&Param3&秒。\n貓眼的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。\n使「黑暗爆發」射出的子彈可穿透目標。",
+          "icons": [
+            "11401_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "43%",
+                "68%",
+                "94%",
+                "119%",
+                "145%",
+                "170%",
+                "196%",
+                "222%",
+                "247%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 511443,
+          "name": "災厄餘響",
+          "descShort": "「喵眼標記」在絕招結束後會繼續殘留在目標身上，提升貓眼對附帶「喵眼標記」的目標造成的&Param1&。",
+          "descLong": "「喵眼標記」在絕招結束後會繼續殘留在目標身上，貓眼對附帶「喵眼標記」的目標造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "11401_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害",
+                "火系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 115,
       "name": "火垂",
       "class": 2,
@@ -53197,6 +54746,163 @@
       "bg": 4028
     },
     {
+      "id": 214029,
+      "name": "貓之祕寶",
+      "desc": "喵喵神說，貓眼的珍寶會出現在她最喜歡的地方。\n於是，本貓眼大人找遍了星塔的所有遊樂場。\n終於…終於，在這裡抓到了這隻軟綿綿的小傢伙。",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "貓之祕寶",
+          "desc": "火系主控角色施放技能時，自身技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續9秒，並獲得1層「暗黑魔眼」，持續9秒，可疊加3層。\n火系主控角色造成技能傷害時，1/2/3層「暗黑魔眼」對目標附加：受到火系技能傷害提升<span style=\"color:#ec6d21\">&Param2&</span>/<span style=\"color:#ec6d21\">&Param3&</span>/<span style=\"color:#ec6d21\">&Param4&</span>，持續9秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "25%",
+                "30%",
+                "35%",
+                "40%",
+                "45%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "喵神詛咒",
+          "desc": "全隊火系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n每層「暗黑魔眼」獲得額外效果：使自身的技能暴擊傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "12%",
+                "18%",
+                "24%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "8%",
+                "10%",
+                "12%",
+                "14%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "滅世烈焰",
+          "desc": "「暗黑魔眼」滿層時，自身火系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "9%",
+                "18%",
+                "27%",
+                "36%",
+                "45%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4029
+    },
+    {
       "id": 214030,
       "name": "午後間隙",
       "desc": "少女踏著午後的日光闖入\n隨她一起入侵的還有點心的香氣\n薯條？烤魚？還是烤得鬆軟的麵包？\n你總得有個東西\n來填滿這個忙裡偷閒的空檔",
@@ -56808,6 +58514,163 @@
         }
       ],
       "bg": 4052
+    },
+    {
+      "id": 214053,
+      "name": "歡聚時刻",
+      "desc": "無論是在驚心動魄、死裡逃生的冒險之後，\u000b或是在推心置腹、前嫌盡釋的談話之後，\u000b總少不了一場敞開心扉的歡聚，讓人們在同桌共餐之間，徹底放下過往的芥蒂。\u000b望著眼前的人與事，才忽然意識到，最值得珍惜的，正是此時此刻。",
+      "element": 2,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "歡聚時刻",
+          "desc": "火系主控角色施放技能時，自身技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續12秒，並獲得1層「黑暗加護」，持續12秒，可疊加3層。\n火系主控角色造成技能傷害時，1/2/3層「黑暗加護」使自身獲得基礎最大生命值<span style=\"color:#ec6d21\">&Param2&</span>/<span style=\"color:#ec6d21\">&Param3&</span>/<span style=\"color:#ec6d21\">&Param4&</span>的護盾，持續20秒，此效果每30秒最多觸發1次。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "2.4%",
+                "2.8%",
+                "3.2%",
+                "3.6%",
+                "4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4%",
+                "4.8%",
+                "5.6%",
+                "6.4%",
+                "7.2%",
+                "8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "喵神凱旋",
+          "desc": "每層「黑暗加護」獲得額外效果：使自身的技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "1.5%",
+                "3%",
+                "4.5%",
+                "6%",
+                "7.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "黑暗慶典",
+          "desc": "隊伍中的火系角色攻擊力提升<span style=\"color:#ec6d21\">&Param1&</span>。\n「黑暗加護」滿層時，自身的絕招傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "16%",
+                "24%",
+                "32%",
+                "40%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90019,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4053
     },
     {
       "id": 214054,
