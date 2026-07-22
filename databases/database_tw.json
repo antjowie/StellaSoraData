@@ -3358,8 +3358,8 @@
         {
           "id": 510827,
           "name": "弱點校準",
-          "descShort": "施放援護技時，提升全隊對暈眩目標造成的技能傷害。",
-          "descLong": "施放援護技「外科手術」時，全隊對暈眩目標造成的技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒。",
+          "descShort": "施放援護技時，提升全隊對暈眩或破韌目標造成的技能傷害。",
+          "descLong": "施放援護技「外科手術」時，全隊對暈眩或破韌目標造成的技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒。",
           "icons": [
             "10801_Potential_21_A",
             "Potential_Round_B",
@@ -3482,8 +3482,8 @@
         {
           "id": 510830,
           "name": "落井下石",
-          "descShort": "提升援護技對晕眩目標造成的傷害。",
-          "descLong": "援護技「外科手術」對暈眩目標造成的技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "descShort": "提升援護技對晕眩或破韌目標造成的傷害。",
+          "descLong": "援護技「外科手術」對暈眩或破韌目標造成的技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
           "icons": [
             "10801_Potential_23_A",
             "Potential_Round_B",
@@ -15621,8 +15621,8 @@
         {
           "id": 511901,
           "name": "生長風暴",
-          "descShort": "花原造成多次普攻傷害後，額外造成範圍風系傷害。",
-          "descLong": "花原對目標造成<span style=\"color:#0abec5\">3</span>次普攻傷害後，額外造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍風系傷害。",
+          "descShort": "花原造成多次普攻傷害後，額外造成範圍風系普攻傷害。",
+          "descLong": "花原對目標造成<span style=\"color:#0abec5\">3</span>次普攻傷害後，額外造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍風系普攻傷害。",
           "icons": [
             "11901_Potential_01_A"
           ],
@@ -22076,15 +22076,15 @@
             {
               "idx": 1,
               "values": [
-                "8.8%",
-                "13.6%",
-                "19.2%",
+                "9%",
+                "14%",
+                "19%",
                 "24%",
-                "29.6%",
-                "34.4%",
+                "30%",
+                "34%",
                 "40%",
-                "44.8%",
-                "50.4%"
+                "45%",
+                "50%"
               ]
             },
             {
@@ -33227,7 +33227,7 @@
             "Potential_Diamond_B",
             "Potential_Diamond_A"
           ],
-          "rarity": 1,
+          "rarity": 2,
           "build": 1,
           "type": 2,
           "params": [
@@ -33277,7 +33277,7 @@
             "Potential_Triangle_B",
             "Potential_Triangle_A"
           ],
-          "rarity": 2,
+          "rarity": 1,
           "build": 1,
           "type": 2,
           "params": [
@@ -33513,7 +33513,7 @@
             "Potential_Diamond_B",
             "Potential_Diamond_A"
           ],
-          "rarity": 1,
+          "rarity": 2,
           "build": 3,
           "type": 2,
           "params": [
@@ -33601,7 +33601,7 @@
             "Potential_Round_B",
             "Potential_Round_A"
           ],
-          "rarity": 2,
+          "rarity": 1,
           "build": 3,
           "type": 2,
           "params": [
@@ -43511,15 +43511,15 @@
             {
               "idx": 2,
               "values": [
-                "24.2%",
-                "31.9%",
-                "39.6%",
-                "61.6%",
-                "68.2%",
-                "74.8%",
-                "89.1%",
-                "94.6%",
-                "101.2%"
+                "24%",
+                "32%",
+                "40%",
+                "62%",
+                "68%",
+                "75%",
+                "89%",
+                "95%",
+                "101%"
               ]
             },
             {
@@ -47084,6 +47084,1475 @@
           ]
         }
       ]
+    },
+    {
+      "id": 160,
+      "name": "沐夏薇洛",
+      "class": 3,
+      "element": 1,
+      "rarity": 1,
+      "mainBuild1Name": "薇洛主控流派1",
+      "mainBuild1Desc": "泡泡蛙持續增大，造成大範圍傷害的流派。",
+      "mainBuild2Name": "薇洛主控流派2",
+      "mainBuild2Desc": "透過泡泡蛙高頻彈跳，擴散聲波迴響的流派。",
+      "supportBuild1Name": "薇洛援護流派1",
+      "supportBuild1Desc": "以水柱射線發動攻擊，同時給目標附加減益的流派。",
+      "supportBuild2Name": "薇洛援護流派2",
+      "supportBuild2Desc": "能夠高速施放穿透音浪，同時提升全隊屬性的流派。",
+      "potentials": [
+        {
+          "id": 516001,
+          "name": "紛亂泡泡",
+          "descShort": "「泡泡機」模式下，附帶<span style=\"color:#6A90EB\">「泡沫標記」</span>的目標會產生可吸收泡泡，「泡泡蛙」吸收後體型變大並提升其造成的&Param1&。",
+          "descLong": "「泡泡機」模式下，附帶<span style=\"color:#6A90EB\">「泡沫標記」</span>的目標每隔一段時間會產生可吸收的泡泡。「泡泡蛙」每吸收1個泡泡，體型變大<span style=\"color:#0abec5\">10%</span>，同時「泡泡蛙」造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>，體型最多可變大<span style=\"color:#0abec5\">100%</span>。",
+          "icons": [
+            "16001_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516002,
+          "name": "流光微顫",
+          "descShort": "「泡泡機」模式下，「泡泡蛙」對周圍目標持續造成水系技能傷害，同時使目標&Param2&提升，可附加<span style=\"color:#6A90EB\">水系印記：水流</span>。",
+          "descLong": "「泡泡機」模式下，「泡泡蛙」每秒對周圍目標造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍水系技能傷害，同時使目標&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>，持續&Param4&秒，可疊加&Param5&層，可附加<span style=\"color:#6A90EB\">水系印記：水流</span>。",
+          "icons": [
+            "16001_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "受到的水系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "52.3%",
+                "60.2%",
+                "68.1%",
+                "91.6%",
+                "98.9%",
+                "106.3%",
+                "120.9%",
+                "127.2%",
+                "133.5%",
+                "146%",
+                "157%",
+                "167%",
+                "177%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516003,
+          "name": "律動光泡",
+          "descShort": "「擴音器」模式下，提升「泡泡蛙」彈跳頻率和造成的&Param1&。「泡泡蛙」每次彈跳，額外增加分貝值。",
+          "descLong": "「擴音器」模式下，「泡泡蛙」彈跳頻率提升<span style=\"color:#0abec5\">100%</span>。造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>。「泡泡蛙」，額外增加5分貝值。",
+          "icons": [
+            "16001_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "50%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516004,
+          "name": "七彩回彈",
+          "descShort": "「擴音器」模式下，「泡泡蛙」彈跳時，產生可傳播多次的<span style=\"color:#6A90EB\">迴響音波</span>，造成水系技能傷害，同時使目標受到的全屬性傷害增加，該傷害可附加<span style=\"color:#6A90EB\">水系印記：水流</span>。\n根據目前分貝值，提升<span style=\"color:#6A90EB\">迴響音波</span>的傷害範圍。",
+          "descLong": "「擴音器」模式下，「泡泡蛙」每次彈跳時，會產生可傳播<span style=\"color:#0abec5\">3</span>次的<span style=\"color:#6A90EB\">迴響音波</span>，造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的水系技能傷害，同時使目標受到的全屬性傷害增加<span style=\"color:#0abec5\">&Param3&</span>，持續&Param4&秒，可疊加&Param5&層。該傷害可附加<span style=\"color:#6A90EB\">水系印記：水流</span>。\n目前每<span style=\"color:#0abec5\">10</span>分貝值，<span style=\"color:#6A90EB\">迴響音波</span>的傷害範圍提升<span style=\"color:#0abec5\">5%</span>。",
+          "icons": [
+            "16001_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "14.5%",
+                "16.7%",
+                "18.9%",
+                "25.4%",
+                "27.4%",
+                "29.5%",
+                "33.5%",
+                "35.3%",
+                "37%",
+                "40%",
+                "43%",
+                "46%",
+                "49%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516005,
+          "name": "久懸不破",
+          "descShort": "薇洛和「泡泡蛙」對<span style=\"color:#6A90EB\">「泡沫標記」</span>目標造成傷害時，使目標&Param1&提升。",
+          "descLong": "薇洛和「泡泡蛙」對<span style=\"color:#6A90EB\">「泡沫標記」</span>的目標造成傷害時，使目標&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "16001_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "3.2%",
+                "4.4%",
+                "5.6%",
+                "6.8%",
+                "8%",
+                "9.2%",
+                "10.4%",
+                "11.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516006,
+          "name": "夢幻泡影",
+          "descShort": "隊友對附帶<span style=\"color:#6A90EB\">「泡沫標記」</span>的目標觸發<span style=\"color:#6A90EB\">水系印記</span>或附加<span style=\"color:#6A90EB\">水系印記：水流</span>時，提升全隊水系角色&Param1&。",
+          "descLong": "隊友對附帶<span style=\"color:#6A90EB\">「泡沫標記」</span>的目標觸發<span style=\"color:#6A90EB\">水系印記</span>或附加<span style=\"color:#6A90EB\">水系印記：水流</span>時，全隊水系角色&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "16001_Potential_02_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.6%",
+                "2.6%",
+                "3.6%",
+                "4.6%",
+                "5.6%",
+                "6.6%",
+                "7.6%",
+                "8.6%",
+                "9.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516007,
+          "name": "凝而不散",
+          "descShort": "「泡泡機」模式下，泡泡額外造成範圍水系技能傷害，可附加<span style=\"color:#6A90EB\">水系印記：水流</span>。\n提升全隊水系角色對<span style=\"color:#6A90EB\">「泡沫標記」</span>目標造成的&Param2&。",
+          "descLong": "「泡泡機」模式下，發射的泡泡額外造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的範圍水系技能傷害，可附加<span style=\"color:#6A90EB\">水系印記：水流</span>。\n全隊水系角色對附帶<span style=\"color:#6A90EB\">「泡沫標記」</span>的目標造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "icons": [
+            "16001_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "17.1%",
+                "27.4%",
+                "37.7%",
+                "47.9%",
+                "58.2%",
+                "68.5%",
+                "78.7%",
+                "89%",
+                "99.3%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4.6%",
+                "7.3%",
+                "10.1%",
+                "12.9%",
+                "15.6%",
+                "18.4%",
+                "21.2%",
+                "24%",
+                "26.7%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516008,
+          "name": "碎沫餘音",
+          "descShort": "<span style=\"color:#6A90EB\">迴響音波</span>造成傷害時，提升自身和非水系隊友&Param1&。",
+          "descLong": "<span style=\"color:#6A90EB\">迴響音波</span>造成傷害時，自身和非水系隊友&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "16001_Potential_04_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.3%",
+                "3.7%",
+                "5.1%",
+                "6.5%",
+                "7.9%",
+                "9.3%",
+                "10.7%",
+                "12.1%",
+                "13.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516009,
+          "name": "觸地即躍",
+          "descShort": "「泡泡蛙」每次彈跳時，提升全隊&Param1&，額外提升非水系隊友&Param5&。",
+          "descLong": "「泡泡蛙」每次彈跳時，全隊&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，非水系隊友&Param5&額外提升<span style=\"color:#ec6d21\">&Param6&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "16001_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.2%",
+                "2%",
+                "2.7%",
+                "3.5%",
+                "4.2%",
+                "5%",
+                "5.7%",
+                "6.5%",
+                "7.2%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "1.7%",
+                "2.8%",
+                "3.8%",
+                "4.9%",
+                "5.9%",
+                "7%",
+                "8%",
+                "9.1%",
+                "10.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516010,
+          "name": "搖曳浮光",
+          "descShort": "「泡泡蛙」每彈跳一定次數後，造成大範圍水系技能傷害，可附加<span style=\"color:#6A90EB\">水系印記：水流</span>，同時提升目標&Param2&。",
+          "descLong": "「泡泡蛙」每彈跳2次，造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的大範圍水系技能傷害，可附加<span style=\"color:#6A90EB\">水系印記：水流</span>，同時使目標&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒。",
+          "icons": [
+            "16001_Potential_03_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "21.9%",
+                "35%",
+                "48.1%",
+                "61.2%",
+                "74.3%",
+                "87.5%",
+                "100.6%",
+                "113.7%",
+                "126.8%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.1%",
+                "3.5%",
+                "4.8%",
+                "6.1%",
+                "7.4%",
+                "8.7%",
+                "10%",
+                "11.4%",
+                "12.7%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516011,
+          "name": "風吟碧岸",
+          "descShort": "提升閃避次數。薇洛閃避後，提升自身&Param1&。",
+          "descLong": "閃避次數提升1次。\n薇洛閃避後，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "Common_Potential_13_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516012,
+          "name": "逐浪聽風",
+          "descShort": "「泡泡蛙」造成傷害時，薇洛獲得護盾。",
+          "descLong": "「泡泡蛙」造成傷害時，薇洛獲得基礎攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的護盾，持續&Param2&秒，每10秒最多觸發一次。",
+          "icons": [
+            "Common_Potential_25_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "32.1%",
+                "51.5%",
+                "70.8%",
+                "90.1%",
+                "109.4%",
+                "128.7%",
+                "148.1%",
+                "167.4%",
+                "186.7%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516013,
+          "name": "雲泡乘風",
+          "descShort": "「泡泡蛙」持續時間延長，存在時提升全隊角色&Param1&。",
+          "descLong": "「泡泡蛙」持續時間延長3秒，且當「泡泡蛙」存在時，全隊角色&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516021,
+          "name": "水花飛濺",
+          "descShort": "<span style=\"color:#6A90EB\">「柔聲勸導」</span>可獲得<span style=\"color:#6A90EB\">「安全警告」</span>額外的屬性增益。薇洛每發動<span style=\"color:#0abec5\">10</span>次射擊，並且目前處於「柔聲勸導」狀態時，會發射水柱直線攻擊，造成水系技能傷害，提升分貝值，同時附加<span style=\"color:#6A90EB\">「微笑制裁」</span>和<span style=\"color:#6A90EB\">水系印記：水流</span>。",
+          "descLong": "<span style=\"color:#6A90EB\">「柔聲勸導」</span>可獲得<span style=\"color:#6A90EB\">「安全警告」</span>額外的屬性增益。薇洛每發動<span style=\"color:#0abec5\">10</span>次射擊，並且目前處於「柔聲勸導」狀態時，會發射水柱直線攻擊，造成攻擊力<span style=\"color:#0abec5\">&Param1&x3</span>的水系技能傷害，提升<span style=\"color:#0abec5\">30</span>分貝值，同時附加<span style=\"color:#6A90EB\">「微笑制裁」</span>和<span style=\"color:#6A90EB\">水系印記：水流</span>。",
+          "icons": [
+            "16001_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "427%",
+                "491%",
+                "555%",
+                "746%",
+                "806%",
+                "866%",
+                "985%",
+                "1036%",
+                "1088%",
+                "1190%",
+                "1275%",
+                "1361%",
+                "1446%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516022,
+          "name": "激流覆岸",
+          "descShort": "目前分貝值≥40時，立即消耗分貝值，發射旋轉水柱，造成大範圍水系技能傷害，同時附加<span style=\"color:#6A90EB\">「微笑制裁」</span>和<span style=\"color:#6A90EB\">水系印記：水流</span>。",
+          "descLong": "目前分貝值≥<span style=\"color:#0abec5\">40</span>時，會立即消耗<span style=\"color:#0abec5\">40</span>點分貝值，發射水柱進行旋轉攻擊，造成攻擊力<span style=\"color:#0abec5\">&Param1&x3</span>的大範圍水系技能傷害，同時附加<span style=\"color:#6A90EB\">「微笑制裁」</span>和<span style=\"color:#6A90EB\">水系印記：水流</span>。",
+          "icons": [
+            "16001_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "204%",
+                "235%",
+                "266%",
+                "358%",
+                "386%",
+                "415%",
+                "472%",
+                "497%",
+                "521%",
+                "570%",
+                "611%",
+                "652%",
+                "693%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516023,
+          "name": "音浪蕩漾",
+          "descShort": "援護技入場後的初始分貝值提升。分貝值滿時，提升全隊&Param1&，同時持續消耗分貝值高速發射泡泡。",
+          "descLong": "援護技「海上嬉鬧」入場時的初始分貝值為<span style=\"color:#0abec5\">70</span>。\n如果目前分貝值滿<span style=\"color:#0abec5\">100</span>，全隊&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>，持續&Param3&秒，同時持續消耗分貝值高速發射泡泡，直到分貝值為<span style=\"color:#0abec5\">50</span>時結束。",
+          "icons": [
+            "16001_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暴擊率"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516024,
+          "name": "浪鳴震耳",
+          "descShort": "提升射擊獲得的分貝值。\n<span style=\"color:#6A90EB\">「安全警告」</span>狀態下泡泡變為音浪，傷害倍率提升，同時使目標&Param2&提升。",
+          "descLong": "每次發動射擊獲得的分貝值從<span style=\"color:#0abec5\">2</span>提升到<span style=\"color:#0abec5\">4</span>。\n<span style=\"color:#6A90EB\">「安全警告」</span>狀態下，泡泡變為可穿透的音浪，傷害倍率提升<span style=\"color:#0abec5\">&Param1&</span>，使目標&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>，持續&Param4&秒，可疊加&Param5&層。",
+          "icons": [
+            "16001_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "受到的水系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "50%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.1%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "16"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516025,
+          "name": "勸誡依舊",
+          "descShort": "援護技入場時，跳入水中的傷害也會附加1層<span style=\"color:#6A90EB\">「微笑制裁」</span>。提升<span style=\"color:#6A90EB\">「微笑制裁」</span>層數上限，並額外提升目標&Param1&。",
+          "descLong": "援護技「海上嬉鬧」入場時，跳入水中的傷害也會附加1層<span style=\"color:#6A90EB\">「微笑制裁」</span>。<span style=\"color:#6A90EB\">「微笑制裁」</span>層數上限提升至<span style=\"color:#ec6d21\">&Param3&</span>層，並且每層額外提升目標&Param1&<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "16001_Potential_21_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.5%",
+                "0.8%",
+                "1.1%",
+                "1.4%",
+                "1.7%",
+                "2%",
+                "2.3%",
+                "2.6%",
+                "2.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516026,
+          "name": "海風低徊",
+          "descShort": "附帶<span style=\"color:#6A90EB\">「微笑制裁」</span>的目標觸發<span style=\"color:#6A90EB\">水系印記</span>時，立即再次附加一次<span style=\"color:#6A90EB\">水系印記：水流</span>，額外造成水系印記傷害，並根據<span style=\"color:#6A90EB\">「微笑制裁」</span>層數提升此次造成的&Param2&。",
+          "descLong": "附帶<span style=\"color:#6A90EB\">「微笑制裁」</span>的目標被觸發<span style=\"color:#6A90EB\">水系印記</span>時，立即再次附加一次<span style=\"color:#6A90EB\">水系印記：水流</span>，額外造成觸發者攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的水系印記傷害，並且每層<span style=\"color:#6A90EB\">「微笑制裁」</span>使此次造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，該效果每1秒最多觸發1次。",
+          "icons": [
+            "16001_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "印記傷害",
+                "印記傷害",
+                "印記傷害",
+                "印記傷害",
+                "印記傷害",
+                "印記傷害",
+                "印記傷害",
+                "印記傷害",
+                "印記傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "118%",
+                "189%",
+                "261%",
+                "332%",
+                "403%",
+                "474%",
+                "545%",
+                "616%",
+                "687%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.1%",
+                "3.4%",
+                "4.6%",
+                "5.9%",
+                "7.1%",
+                "8.4%",
+                "9.7%",
+                "10.9%",
+                "12.2%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516027,
+          "name": "海鳴不息",
+          "descShort": "<span style=\"color:#6A90EB\">「柔聲勸導」</span>狀態下，額外提升全隊&Param1&，且主控角色造成傷害時，額外提供分貝值。",
+          "descLong": "<span style=\"color:#6A90EB\">「柔聲勸導」</span>狀態下，全隊&Param1&額外提升<span style=\"color:#ec6d21\">&Param2&</span>，且主控角色造成傷害時，額外提供8分貝值，每5秒最多觸發一次。",
+          "icons": [
+            "16001_Potential_22_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19%",
+                "26%",
+                "33%",
+                "40%",
+                "47%",
+                "54%",
+                "61%",
+                "68%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516028,
+          "name": "巨浪吞城",
+          "descShort": "「泡泡浴場」面積持續增加。主控角色處於「泡泡浴場」內時，提升此角色&Param1&。",
+          "descLong": "「泡泡浴場」面積每秒增加5%，最多增加30%。主控角色處於「泡泡浴場」內時，此角色&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "16001_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害",
+                "水系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "18%",
+                "28%",
+                "39%",
+                "49%",
+                "60%",
+                "70%",
+                "81%",
+                "92%",
+                "102%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516029,
+          "name": "潮音漸歇",
+          "descShort": "消耗分貝值時，提升全隊&Param1&。",
+          "descLong": "每次消耗分貝值時，全隊&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，可疊加&Param3&層，持續&Param4&秒。",
+          "icons": [
+            "16001_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害",
+                "暴擊傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.6%",
+                "1%",
+                "1.3%",
+                "1.7%",
+                "2%",
+                "2.4%",
+                "2.8%",
+                "3.1%",
+                "3.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "16"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516030,
+          "name": "異色水泡",
+          "descShort": "薇洛每發動一定次數的射擊，處於「泡泡浴場」內的目標附近會產生1個藍色水泡，造成範圍水系技能傷害，同時提升全隊&Param2&。產生藍色水泡時，有機率變成紅色水泡，主控角色額外提升&Param6&。",
+          "descLong": "薇洛每發動8次射擊，處於「泡泡浴場」內的目標附近會產生1個藍色水泡，造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>範圍水系技能傷害，同時全隊&Param2&提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param8&秒。產生藍色水泡時，有50%機率變成紅色水泡，主控角色&Param6&額外提升<span style=\"color:#ec6d21\">&Param7&</span>，持續&Param8&秒。",
+          "icons": [
+            "16001_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "暴擊率",
+                "暴擊率",
+                "暴擊率",
+                "暴擊率",
+                "暴擊率",
+                "暴擊率",
+                "暴擊率",
+                "暴擊率",
+                "暴擊率"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "41%",
+                "65%",
+                "89%",
+                "114%",
+                "138%",
+                "163%",
+                "187%",
+                "211%",
+                "236%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "21%",
+                "22%",
+                "23%"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "9"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "19%",
+                "30%",
+                "41%",
+                "52%",
+                "63%",
+                "74%",
+                "85%",
+                "96%",
+                "107%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516031,
+          "name": "流彩為壁",
+          "descShort": "處於「泡泡浴場」內一段時間後，主控角色獲得護盾。",
+          "descLong": "處於「泡泡浴場」內的主控角色每5秒獲得一個薇洛基礎攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的護盾，持續&Param2&秒。",
+          "icons": [
+            "Common_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "45%",
+                "60%",
+                "75%",
+                "90%",
+                "105%",
+                "120%",
+                "135%",
+                "150%",
+                "165%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516032,
+          "name": "海色輕柔",
+          "descShort": "薇洛在場時，提升全隊&Param1&。",
+          "descLong": "薇洛在場時，全隊&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "17%",
+                "23%",
+                "29%",
+                "35%",
+                "42%",
+                "48%",
+                "54%",
+                "60%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516033,
+          "name": "風和浪暖",
+          "descShort": "隊伍中每有一個水系角色，提升全隊&Param1&。",
+          "descLong": "隊伍中每有一個水系角色，全隊&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>點。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "防禦穿透力",
+                "防禦穿透力",
+                "防禦穿透力",
+                "防禦穿透力",
+                "防禦穿透力",
+                "防禦穿透力",
+                "防禦穿透力",
+                "防禦穿透力",
+                "防禦穿透力"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.1",
+                "0.1",
+                "0.2",
+                "0.2",
+                "0.3",
+                "0.3",
+                "0.4",
+                "0.4",
+                "0.4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516041,
+          "name": "潮聲告誡",
+          "descShort": "&Param1&提升。施放絕招後，一段時間內額外獲得分貝值。",
+          "descLong": "絕招「沙灘警告」造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。\n施放絕招後，薇洛每1.5秒額外獲得3點分貝值，共可獲得30點分貝值。",
+          "icons": [
+            "16001_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "33%",
+                "53%",
+                "73%",
+                "93%",
+                "113%",
+                "133%",
+                "153%",
+                "173%",
+                "193%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516042,
+          "name": "晴灘管制",
+          "descShort": "施放絕招時，提升全隊&Param1&。",
+          "descLong": "施放絕招「沙灘警告」時，全隊&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "16001_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "17%",
+                "23%",
+                "29%",
+                "35%",
+                "42%",
+                "48%",
+                "54%",
+                "60%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516043,
+          "name": "海風執紀",
+          "descShort": "絕招造成傷害時，使目標&Param1&提升。",
+          "descLong": "絕招「沙灘警告」造成傷害時，使目標&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "16001_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害",
+                "受到的水系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.7%",
+                "4.3%",
+                "5.9%",
+                "7.6%",
+                "9.2%",
+                "10.8%",
+                "11.6%",
+                "12.4%",
+                "13.2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "discs": [
@@ -47562,6 +49031,251 @@
         }
       ],
       "bg": 2010
+    },
+    {
+      "id": 213001,
+      "name": "檸柚好奇",
+      "desc": "「洗衣房不是洗衣服的地方嗎？」\n「柳橙不是拿來吃的食物嗎？」\n「我們現在是在做什麼啊？」\n「不要嘮叨了，快看鏡頭吧——」\n「這可是時下最流行的拍照方式哦！」",
+      "element": 7,
+      "rarity": 2,
+      "skills": [
+        {
+          "name": "檸柚好奇",
+          "desc": "主控角色生命值提升<span style=\"color:#ec6d21\">&Param1&</span>。\n主控角色閃避時，全隊暴擊傷害提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "橙光流轉",
+          "desc": "主控角色施放技能時，援護角色技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒。\n主控角色施放絕招時，援護角色絕招傷害提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "6%",
+                "9%",
+                "12%",
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.2%",
+                "14.4%",
+                "21.6%",
+                "28.8%",
+                "36%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90013,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 3001
+    },
+    {
+      "id": 213002,
+      "name": "季節波形",
+      "desc": "春天夏天，花瓣飛舞。\n秋天冬天，陰雨綿綿。\n你眼中倒映的景色，\n隨著季節波動，\n我該如何讀懂。",
+      "element": 7,
+      "rarity": 2,
+      "skills": [
+        {
+          "name": "季節波形",
+          "desc": "援護角色攻擊力提升<span style=\"color:#ec6d21\">&Param1&</span>。\n援護角色在場時，主控角色造成的普攻傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "9.6%",
+                "11.2%",
+                "12.8%",
+                "14.4%",
+                "16%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "甜夢微醺",
+          "desc": "任意援護角色施放技能時，主控角色技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒。\n任意援護角色施放絕招時，主控角色絕招傷害提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "6%",
+                "9%",
+                "12%",
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.2%",
+                "14.4%",
+                "21.6%",
+                "28.8%",
+                "36%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 3002
     },
     {
       "id": 213003,
@@ -51223,7 +52937,7 @@
         },
         {
           "name": "決勝擊打",
-          "desc": "光系主控角色技能命中時，隊伍中的光系角色及其僕從攻擊力提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param3&秒。\n任意光系角色命中暈眩目標時，此效果額外提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param4&秒。",
+          "desc": "光系主控角色技能命中時，隊伍中的光系角色及其僕從攻擊力提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param3&秒。\n任意光系角色命中暈眩目標或使目標陷入破韌狀態時，此效果額外提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param4&秒。",
           "params": [
             {
               "idx": 1,
@@ -58828,6 +60542,382 @@
         }
       ],
       "bg": 4054
+    },
+    {
+      "id": 214055,
+      "name": "浮光掠影",
+      "desc": "陽光穿透澄澈的水面，\n冰涼的海水因而擁有了溫度。\n水中的少女仰望那一片光斑，\n波光粼粼的另一邊會是什麼呢？",
+      "element": 1,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "浮光掠影",
+          "desc": "全隊水系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n當水系輔助角色施放技能，或每在場5秒，將為全隊附加「潮絮」，持續&Param2&秒，可疊加&Param3&層。\n附帶「潮絮」的角色對目標附加<span style=\"color:#6A90EB\">水系印記</span>時，額外使目標受到水系技能傷害提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param5&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "24%",
+                "28%",
+                "32%",
+                "36%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "碧海回音",
+          "desc": "隊伍中水系角色暴擊傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n附帶「潮絮」的任意角色觸發<span style=\"color:#6A90EB\">水系印記</span>時，該目標受到水系普攻傷害提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "12%",
+                "16%",
+                "20%",
+                "24%",
+                "28%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "15%",
+                "20%",
+                "25%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "白沙映日",
+          "desc": "「潮絮」獲得額外效果：每層使自身水系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，水系輔助角色攻擊力每層額外提升<span style=\"color:#ec6d21\">&Param2&</span>。\n水系輔助角色施放絕招後，附帶的每層「潮絮」為自身獲得最大能量<span style=\"color:#ec6d21\">&Param3&</span>的能量，最多獲得<span style=\"color:#ec6d21\">&Param4&</span>點。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.5%",
+                "3%",
+                "4.5%",
+                "6%",
+                "7.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20",
+                "40",
+                "55",
+                "70",
+                "85"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4055
+    },
+    {
+      "id": 214056,
+      "name": "斑駁夏影",
+      "desc": "斑駁的樹影親吻少女的髮梢，\n目送她走入流動的清泉。\n林間的風循著蟲鳴而來，\n提醒她盛夏已悄然來臨。",
+      "element": 1,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "斑駁夏影",
+          "desc": "水系輔助角色施放技能時或每在場5秒，為全隊附加1層「漣音」：水系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒，可疊加&Param3&層。\n帶有「漣音」的角色觸發<span style=\"color:#6A90EB\">水系印记</span>時，該角色攻擊力提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param5&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.5%",
+                "3%",
+                "3.5%",
+                "4%",
+                "4.5%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "夏日私語",
+          "desc": "隊伍中水系角色的絕招傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n「漣音」獲得額外效果：    每層使自身水系傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "12%",
+                "18%",
+                "24%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "夏嶼輕歌",
+          "desc": "「漣音」滿層時，自身水系技能傷害額外提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4.5%",
+                "9%",
+                "13.5%",
+                "18%",
+                "22.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4056
     }
   ]
 }

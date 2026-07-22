@@ -3358,8 +3358,8 @@
         {
           "id": 510827,
           "name": "Weakness Mark",
-          "descShort": "When casting the Support Skill, increases the squad's Skill DMG to stunned targets.",
-          "descLong": "When casting Precision Strike (Support Skill), increases the squad's Skill DMG to stunned targets by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.",
+          "descShort": "When casting the Support Skill, increases the squad's Skill DMG to stunned or under Resilience Breaks targets.",
+          "descLong": "When casting Precision Strike (Support Skill), increases the squad's Skill DMG to stunned or under Resilience Breaks targets by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.",
           "icons": [
             "10801_Potential_21_A",
             "Potential_Round_B",
@@ -3482,8 +3482,8 @@
         {
           "id": 510830,
           "name": "Insult to Injury",
-          "descShort": "Increases the Support Skill's DMG dealt to stunned targets.",
-          "descLong": "Increases Precision Strike (Support Skill)'s Skill DMG dealt to stunned targets by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "descShort": "Increases the Support Skill's DMG dealt to stunned or under Resilience Breaks targets.",
+          "descLong": "Increases Precision Strike (Support Skill)'s Skill DMG dealt to stunned or under Resilience Breaks targets by <span style=\"color:#ec6d21\">&Param1&</span>.",
           "icons": [
             "10801_Potential_23_A",
             "Potential_Round_B",
@@ -15635,8 +15635,8 @@
         {
           "id": 511901,
           "name": "Growth Tempest",
-          "descShort": "After Nanoha deals multiple instances of Auto Attack DMG, deals additional AoE Ventus DMG.",
-          "descLong": "After Nanoha deals DMG with Auto Attacks <span style=\"color:#0abec5\">3</span> times, deals an additional <span style=\"color:#0abec5\">&Param1& of ATK</span> as AoE Ventus DMG.",
+          "descShort": "After Nanoha deals multiple instances of Auto Attack DMG, deals additional AoE Ventus Auto Attack DMG.",
+          "descLong": "After Nanoha deals DMG with Auto Attacks <span style=\"color:#0abec5\">3</span> times, deals an additional <span style=\"color:#0abec5\">&Param1& of ATK</span> as AoE Ventus Auto Attack DMG.",
           "icons": [
             "11901_Potential_01_A"
           ],
@@ -22090,15 +22090,15 @@
             {
               "idx": 1,
               "values": [
-                "8.8%",
-                "13.6%",
-                "19.2%",
+                "9%",
+                "14%",
+                "19%",
                 "24%",
-                "29.6%",
-                "34.4%",
+                "30%",
+                "34%",
                 "40%",
-                "44.8%",
-                "50.4%"
+                "45%",
+                "50%"
               ]
             },
             {
@@ -33241,7 +33241,7 @@
             "Potential_Diamond_B",
             "Potential_Diamond_A"
           ],
-          "rarity": 1,
+          "rarity": 2,
           "build": 1,
           "type": 2,
           "params": [
@@ -33291,7 +33291,7 @@
             "Potential_Triangle_B",
             "Potential_Triangle_A"
           ],
-          "rarity": 2,
+          "rarity": 1,
           "build": 1,
           "type": 2,
           "params": [
@@ -33527,7 +33527,7 @@
             "Potential_Diamond_B",
             "Potential_Diamond_A"
           ],
-          "rarity": 1,
+          "rarity": 2,
           "build": 3,
           "type": 2,
           "params": [
@@ -33615,7 +33615,7 @@
             "Potential_Round_B",
             "Potential_Round_A"
           ],
-          "rarity": 2,
+          "rarity": 1,
           "build": 3,
           "type": 2,
           "params": [
@@ -41285,7 +41285,7 @@
           "id": 515028,
           "name": "Skybreak Raid",
           "descShort": "When casting the Support Skill, deals additional DMG. While the Support Skill is active, deals additional DMG constantly.",
-          "descLong": "When casting &Param1& (Support Skill), deals an additional <span style=\"color:#ec6d21\">&Param2& of ATK</span> as AoE Lux Skill DMG. While infusing Lux energy, deals <span style=\"color:#ec6d21\">&Param3& of ATK</span> as AoE Lux Skill DMG constantly.",
+          "descLong": "When casting &Param1& (Support Skill), deals an additional <span style=\"color:#ec6d21\">&Param2& of ATK</span> as AoE Lux Skill DMG. While infusing light energy, deals <span style=\"color:#ec6d21\">&Param3& of ATK</span> as AoE Lux Skill DMG constantly.",
           "icons": [
             "15001_Potential_23_A",
             "Potential_Diamond_B",
@@ -43519,15 +43519,15 @@
             {
               "idx": 2,
               "values": [
-                "24.2%",
-                "31.9%",
-                "39.6%",
-                "61.6%",
-                "68.2%",
-                "74.8%",
-                "89.1%",
-                "94.6%",
-                "101.2%"
+                "24%",
+                "32%",
+                "40%",
+                "62%",
+                "68%",
+                "75%",
+                "89%",
+                "95%",
+                "101%"
               ]
             },
             {
@@ -44796,7 +44796,7 @@
           "id": 515812,
           "name": "Jazz of Rage",
           "descShort": "While transformed into Dame Laru, Snowish Laru's shots and &Param1& can trigger <span style=\"color:#6A90EB\">Ignis Mark</span> and inflict Conflagration.\nIncreases Snowish Laru's &Param3&.",
-          "descLong": "While transformed into Sir Laru, Snowish Laru's shots and &Param1& can trigger <span style=\"color:#6A90EB\">Ignis Mark</span> and inflict Conflagration, dealing &Param2& of ATK as Ignis Mark DMG.\nIncreases Snowish Laru's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "descLong": "While transformed into Dame Laru, Snowish Laru's shots and &Param1& can trigger <span style=\"color:#6A90EB\">Ignis Mark</span> and inflict Conflagration, dealing &Param2& of ATK as Ignis Mark DMG.\nIncreases Snowish Laru's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>.",
           "icons": [
             "Common_Potential_Fire_1_A",
             "Potential_Triangle_B",
@@ -47098,6 +47098,1475 @@
           ]
         }
       ]
+    },
+    {
+      "id": 160,
+      "name": "Suntide Willow",
+      "class": 3,
+      "element": 1,
+      "rarity": 1,
+      "mainBuild1Name": "Willow: Main Build 1",
+      "mainBuild1Desc": "A build centered on enlarging the Bubble Frog to deal massive AoE damage.",
+      "mainBuild2Name": "Willow: Main Build 2",
+      "mainBuild2Desc": "A build centered on rapid bounces from the Bubble Frog to unleash Echoing Soundwave.",
+      "supportBuild1Name": "Willow: Support Build 1",
+      "supportBuild1Desc": "A build that fires piercing water jets to strike enemies while inflicting powerful debuffs on targets.",
+      "supportBuild2Name": "Willow: Support Build 2",
+      "supportBuild2Desc": "A build rapidly unleashes piercing soundwaves while granting stats buffs to the squad.",
+      "potentials": [
+        {
+          "id": 516001,
+          "name": "Bubble Flurry",
+          "descShort": "In Bubble Machine mode, targets with <span style=\"color:#6A90EB\">Bubble Mark</span> generate absorbable bubbles. After absorbing them, Bubble Frog grows in size, and the &Param1& it deals increases.",
+          "descLong": "In Bubble Machine mode, targets with <span style=\"color:#6A90EB\">Bubble Mark</span> periodically generate absorbable bubbles. Each bubble absorbed by Bubble Frog enlarges it by <span style=\"color:#0abec5\">10%</span>, while also increasing the &Param1& dealt by Bubble Frog by <span style=\"color:#0abec5\">&Param2&</span>. It can grow up to <span style=\"color:#0abec5\">100%</span> in size.",
+          "icons": [
+            "16001_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516002,
+          "name": "Rippling Radiance",
+          "descShort": "In Bubble Machine mode, Bubble Frog deals Aqua Skill DMG to nearby targets over time while increasing their &Param2& and inflicting <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>.",
+          "descLong": "In Bubble Machine mode, Bubble Frog deals <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Aqua Skill DMG every second to nearby targets, while increasing their &Param2& by <span style=\"color:#0abec5\">&Param3&</span> for &Param4&s, stacking up to &Param5& times. Can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>.",
+          "icons": [
+            "16001_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Aqua DMG Taken"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "52.3%",
+                "60.2%",
+                "68.1%",
+                "91.6%",
+                "98.9%",
+                "106.3%",
+                "120.9%",
+                "127.2%",
+                "133.5%",
+                "146%",
+                "157%",
+                "167%",
+                "177%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516003,
+          "name": "Rhythmic Bubbles",
+          "descShort": "In Megaphone mode, increases Bubble Frog's bounce frequency and &Param1&. Each bounce grants additional Decibels.",
+          "descLong": "In Megaphone mode, increases Bubble Frog's bounce frequency by <span style=\"color:#0abec5\">100%</span> and &Param1& by <span style=\"color:#0abec5\">&Param2&</span>. Each bounce grants 5 additional Decibels.",
+          "icons": [
+            "16001_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "50%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516004,
+          "name": "Rainbow Rebound",
+          "descShort": "In Megaphone mode, Bubble Frog unleashes <span style=\"color:#6A90EB\">Echoing Soundwave</span> when bouncing, which can echo multiple times, dealing Aqua Skill DMG and increasing the target's DMG Taken of all Elements. This DMG can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>.\nThe Attack Range of <span style=\"color:#6A90EB\">Echoing Soundwave</span> increases based on the current Decibels.",
+          "descLong": "In Megaphone mode, each bounce of Bubble Frog unleashes <span style=\"color:#6A90EB\">Echoing Soundwave</span> that echo <span style=\"color:#0abec5\">3</span> times, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as Aqua Skill DMG and increasing the target's DMG Taken of all Elements by <span style=\"color:#0abec5\">&Param3&</span> for &Param4&s, stacking up to &Param5& times.\nThis DMG can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>. For every <span style=\"color:#0abec5\">10</span> current Decibels, increases the Attack Range of <span style=\"color:#6A90EB\">Echoing Soundwave</span> by <span style=\"color:#0abec5\">5%</span>.",
+          "icons": [
+            "16001_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "14.5%",
+                "16.7%",
+                "18.9%",
+                "25.4%",
+                "27.4%",
+                "29.5%",
+                "33.5%",
+                "35.3%",
+                "37%",
+                "40%",
+                "43%",
+                "46%",
+                "49%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516005,
+          "name": "Enduring Bubble",
+          "descShort": "When Willow and Bubble Frog deal DMG to targets with <span style=\"color:#6A90EB\">Bubble Mark</span>, increases the target's &Param1&.",
+          "descLong": "When Willow and Bubble Frog deal DMG to targets with <span style=\"color:#6A90EB\">Bubble Mark</span>, increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16001_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "3.2%",
+                "4.4%",
+                "5.6%",
+                "6.8%",
+                "8%",
+                "9.2%",
+                "10.4%",
+                "11.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516006,
+          "name": "Dreamlike Illusion",
+          "descShort": "When a squadmate triggers <span style=\"color:#6A90EB\">Aqua Mark</span> or inflicts <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span> on targets with <span style=\"color:#6A90EB\">Bubble Mark</span>,  increases all Aqua Trekkers' &Param1& in the squad.",
+          "descLong": "When a squadmate triggers <span style=\"color:#6A90EB\">Aqua Mark</span> or inflicts <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span> on targets with <span style=\"color:#6A90EB\">Bubble Mark</span>,  increases all Aqua Trekkers' &Param1& in the squad by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16001_Potential_02_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.6%",
+                "2.6%",
+                "3.6%",
+                "4.6%",
+                "5.6%",
+                "6.6%",
+                "7.6%",
+                "8.6%",
+                "9.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516007,
+          "name": "Clustered Foam",
+          "descShort": "In Bubble Machine mode, bubbles deal additional AoE Aqua Skill DMG. Can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>.\nIncreases the &Param2& dealt by all Aqua Trekkers against targets with <span style=\"color:#6A90EB\">Bubble Mark</span>.",
+          "descLong": "In Bubble Machine mode, bubbles deal an additional <span style=\"color:#ec6d21\">&Param1&</span> of ATK as AoE Aqua Skill DMG. Can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>.\nIncreases &Param2& dealt by all Aqua Trekkers against targets with the <span style=\"color:#6A90EB\">Bubble Mark</span> by <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "icons": [
+            "16001_Potential_02_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "17.1%",
+                "27.4%",
+                "37.7%",
+                "47.9%",
+                "58.2%",
+                "68.5%",
+                "78.7%",
+                "89%",
+                "99.3%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4.6%",
+                "7.3%",
+                "10.1%",
+                "12.9%",
+                "15.6%",
+                "18.4%",
+                "21.2%",
+                "24%",
+                "26.7%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516008,
+          "name": "Foam Echo",
+          "descShort": "When <span style=\"color:#6A90EB\">Echoing Soundwave</span> deal DMG, increases own and non-Aqua Squadmates' &Param1&.",
+          "descLong": "When <span style=\"color:#6A90EB\">Echoing Soundwave</span> deal DMG, increases own and non-Aqua Squadmates' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16001_Potential_04_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.3%",
+                "3.7%",
+                "5.1%",
+                "6.5%",
+                "7.9%",
+                "9.3%",
+                "10.7%",
+                "12.1%",
+                "13.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516009,
+          "name": "Touch 'n' Bounce",
+          "descShort": "Each time Bubble Frog bounces, increases the squad's &Param1&. Additionally, increases non-Aqua Squadmates' &Param5&.",
+          "descLong": "Each time Bubble Frog bounces, increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. Additionally, increases non-Aqua Squadmates' &Param5& by <span style=\"color:#ec6d21\">&Param6&</span>. This effect lasts &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16001_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.2%",
+                "2%",
+                "2.7%",
+                "3.5%",
+                "4.2%",
+                "5%",
+                "5.7%",
+                "6.5%",
+                "7.2%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "1.7%",
+                "2.8%",
+                "3.8%",
+                "4.9%",
+                "5.9%",
+                "7%",
+                "8%",
+                "9.1%",
+                "10.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516010,
+          "name": "Wavering Glow",
+          "descShort": "After bouncing a certain number of times, Bubble Frog deals Aqua Skill DMG in a large area. Can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, while increasing targets' &Param2&.",
+          "descLong": "Every 2 bounces, Bubble Frog deals <span style=\"color:#ec6d21\">&Param1&</span> of ATK as Aqua Skill DMG in a large area. Can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, while increasing targets' &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+          "icons": [
+            "16001_Potential_03_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "21.9%",
+                "35%",
+                "48.1%",
+                "61.2%",
+                "74.3%",
+                "87.5%",
+                "100.6%",
+                "113.7%",
+                "126.8%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.1%",
+                "3.5%",
+                "4.8%",
+                "6.1%",
+                "7.4%",
+                "8.7%",
+                "10%",
+                "11.4%",
+                "12.7%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516011,
+          "name": "Singing Shores",
+          "descShort": "Can dodge one more time. After Willow dodges, increases own &Param1&.",
+          "descLong": "Increases Dodge count by 1.\nAfter Willow dodges, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_13_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516012,
+          "name": "Ocean Wanderer",
+          "descShort": "When Bubble Frog deals DMG, Willow gains a shield.",
+          "descLong": "When Bubble Frog deals DMG, Willow gains a shield equal to <span style=\"color:#ec6d21\">&Param1&</span> of Base ATK for &Param2&s. This effect can only be triggered once every 10s.",
+          "icons": [
+            "Common_Potential_25_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "32.1%",
+                "51.5%",
+                "70.8%",
+                "90.1%",
+                "109.4%",
+                "128.7%",
+                "148.1%",
+                "167.4%",
+                "186.7%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516013,
+          "name": "Cumulus Drift",
+          "descShort": "Increases Bubble Frog duration, and while it is on the field, increases the squad's &Param1&.",
+          "descLong": "Increases Bubble Frog duration by 3s, and while it is on the field, increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516021,
+          "name": "Flying Droplets",
+          "descShort": "<span style=\"color:#6A90EB\">Gentle Warning</span> gains additional stat bonuses from <span style=\"color:#6A90EB\">Safety Alert</span>. For every <span style=\"color:#0abec5\">10</span> shots fired by Willow while under Gentle Warning, she fires a straight-line water column attack that deals Aqua Skill DMG and increases Decibels, while applying <span style=\"color:#6A90EB\">Smiling Sanction</span> and <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>.",
+          "descLong": "<span style=\"color:#6A90EB\">Gentle Warning</span> gains additional stat bonuses from <span style=\"color:#6A90EB\">Safety Alert</span>. For every <span style=\"color:#0abec5\">10</span> shots fired by Willow while under Gentle Warning, she fires a straight-line water column attack that deals <span style=\"color:#0abec5\">&Param1&x3</span> of ATK as Aqua Skill DMG and increases Decibels by <span style=\"color:#0abec5\">30</span>, inflicting <span style=\"color:#6A90EB\">Smiling Sanction</span> and <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>.",
+          "icons": [
+            "16001_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "427%",
+                "491%",
+                "555%",
+                "746%",
+                "806%",
+                "866%",
+                "985%",
+                "1036%",
+                "1088%",
+                "1190%",
+                "1275%",
+                "1361%",
+                "1446%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516022,
+          "name": "Flooding Shore",
+          "descShort": "When Decibels ≥40, consumes Decibels to fire a rotating water jet, dealing AoE Aqua Skill DMG and inflicting <span style=\"color:#6A90EB\">Smiling Sanction</span> and <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>.",
+          "descLong": "When Decibels ≥<span style=\"color:#0abec5\">40</span>, immediately consumes <span style=\"color:#0abec5\">40</span> Decibels to launch a rotating water jet attack, dealing <span style=\"color:#0abec5\">&Param1&x3</span> of ATK as AoE Aqua Skill DMG, inflicting <span style=\"color:#6A90EB\">Smiling Sanction</span> and <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>.",
+          "icons": [
+            "16001_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "204%",
+                "235%",
+                "266%",
+                "358%",
+                "386%",
+                "415%",
+                "472%",
+                "497%",
+                "521%",
+                "570%",
+                "611%",
+                "652%",
+                "693%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516023,
+          "name": "Rhythm Surge",
+          "descShort": "Increases initial Decibels upon entering the field. At full Decibels, increases the squad's &Param1&, while continuously consuming Decibels to rapidly fire bubbles.",
+          "descLong": "Initial Decibel upon entering the field equals <span style=\"color:#0abec5\">70</span>.\nAt <span style=\"color:#0abec5\">100</span> Decibels, increases the squad's &Param1& by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s, while consuming Decibels over time to rapidly fire bubbles until Decibels drop to <span style=\"color:#0abec5\">50</span>.",
+          "icons": [
+            "16001_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Crit Rate"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "14"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516024,
+          "name": "Thunderous Surf",
+          "descShort": "Increases Decibels gained from shots.\nWhile <span style=\"color:#6A90EB\">Safety Alert</span> is active, bubbles turn into sonic waves, increasing DMG multiplier and the target's &Param2&.",
+          "descLong": "Increases Decibels gained per shot from <span style=\"color:#0abec5\">2</span> to <span style=\"color:#0abec5\">4</span>.\nWhile <span style=\"color:#6A90EB\">Safety Alert</span> is active, bubbles turn into piercing sonic waves, increasing DMG multiplier by <span style=\"color:#0abec5\">&Param1&</span>, and increasing the target's &Param2& by <span style=\"color:#0abec5\">&Param3&</span> for &Param4&s, stacking up to &Param5& times.",
+          "icons": [
+            "16001_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Aqua DMG Taken"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "50%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.1%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "16"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516025,
+          "name": "Words Unchanged",
+          "descShort": "When entering with the Support Skill, the DMG from diving into the water also inflicts 1 stack of <span style=\"color:#6A90EB\">Smiling Sanction</span>. Increases the max stack limit of <span style=\"color:#6A90EB\">Smiling Sanction</span>, and additionally increases the target's &Param1&.",
+          "descLong": "When entering with Frolic in the Sea (Support Skill), the DMG from diving into the water also inflicts 1 stack of <span style=\"color:#6A90EB\">Smiling Sanction</span>. The max stack limit of <span style=\"color:#6A90EB\">Smiling Sanction</span> is increased to <span style=\"color:#ec6d21\">&Param3&</span> stacks, and each stack additionally increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "16001_Potential_21_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.5%",
+                "0.8%",
+                "1.1%",
+                "1.4%",
+                "1.7%",
+                "2%",
+                "2.3%",
+                "2.6%",
+                "2.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516026,
+          "name": "Hovering Gale",
+          "descShort": "When a target with <span style=\"color:#6A90EB\">Smiling Sanction</span> has <span style=\"color:#6A90EB\">Aqua Mark</span> triggered, this target is immediately inflicted with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span> again and receives additional Aqua Mark DMG. The &Param2& received this time is increased based on the stacks of <span style=\"color:#6A90EB\">Smiling Sanction</span>.",
+          "descLong": "When a target with <span style=\"color:#6A90EB\">Smiling Sanction</span> has <span style=\"color:#6A90EB\">Aqua Mark</span> triggered, this target is immediately inflicted with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span> again and receives an additional <span style=\"color:#ec6d21\">&Param1&</span> of ATK as Aqua Mark DMG. For each stack of <span style=\"color:#6A90EB\">Smiling Sanction</span> this target has, increases the &Param2& received this time by <span style=\"color:#ec6d21\">&Param3&</span>. This effect can only be triggered once every 1s.",
+          "icons": [
+            "16001_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG",
+                "Mark DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "118%",
+                "189%",
+                "261%",
+                "332%",
+                "403%",
+                "474%",
+                "545%",
+                "616%",
+                "687%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.1%",
+                "3.4%",
+                "4.6%",
+                "5.9%",
+                "7.1%",
+                "8.4%",
+                "9.7%",
+                "10.9%",
+                "12.2%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516027,
+          "name": "Eternal Tide",
+          "descShort": "While <span style=\"color:#6A90EB\">Gentle Warning</span> is active, additionally increases the squad's &Param1&, and the Main Trekker generates extra Decibels when dealing DMG.",
+          "descLong": "While <span style=\"color:#6A90EB\">Gentle Warning</span> is active, increases the squad's &Param1& by an additional <span style=\"color:#ec6d21\">&Param2&</span>; the Main Trekker generates 8 extra Decibels when dealing DMG. This effect can be triggered once every 5s.",
+          "icons": [
+            "16001_Potential_22_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19%",
+                "26%",
+                "33%",
+                "40%",
+                "47%",
+                "54%",
+                "61%",
+                "68%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516028,
+          "name": "Engulfing Tide",
+          "descShort": "Bubble Bath expands over time. When the Main Trekker is inside Bubble Bath, increases her &Param1&.",
+          "descLong": "Bubble Bath expands by 5% every second, up to 30%. When the Main Trekker is inside Bubble Bath, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "16001_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG",
+                "Aqua DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "18%",
+                "28%",
+                "39%",
+                "49%",
+                "60%",
+                "70%",
+                "81%",
+                "92%",
+                "102%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516029,
+          "name": "Receding Echoes",
+          "descShort": "Consuming Decibels increases the squad's &Param1&.",
+          "descLong": "Each time Decibels are consumed, increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param4&s, stacking up to &Param3& times.",
+          "icons": [
+            "16001_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG",
+                "Crit DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.6%",
+                "1%",
+                "1.3%",
+                "1.7%",
+                "2%",
+                "2.4%",
+                "2.8%",
+                "3.1%",
+                "3.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "16"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516030,
+          "name": "Prismatic Bubbles",
+          "descShort": "For every certain number of shots fired by Willow, a blue bubble is generated near targets inside Bubble Bath, dealing AoE Aqua Skill DMG, while increasing the squad's &Param2&. When a blue bubble is generated, there is a chance it turns into a red bubble, additionally increasing Main Trekker's &Param6&.",
+          "descLong": "For every 8 shots fired by Willow, a blue bubble is generated near targets inside Bubble Bath, dealing <span style=\"color:#ec6d21\">&Param1&</span> of ATK as AoE Aqua Skill DMG, while increasing the squad's &Param2& by <span style=\"color:#ec6d21\">&Param4&</span> for &Param8&s. When a blue bubble is generated, there is a 50% chance it turns into a red bubble, additionally increasing Main Trekker's &Param6& by <span style=\"color:#ec6d21\">&Param7&</span> for &Param8&s.",
+          "icons": [
+            "16001_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "41%",
+                "65%",
+                "89%",
+                "114%",
+                "138%",
+                "163%",
+                "187%",
+                "211%",
+                "236%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "21%",
+                "22%",
+                "23%"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "9"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "19%",
+                "30%",
+                "41%",
+                "52%",
+                "63%",
+                "74%",
+                "85%",
+                "96%",
+                "107%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516031,
+          "name": "Prismatic Barrier",
+          "descShort": "After staying in Bubble Bath for a period of time, the Main Trekker gains a shield.",
+          "descLong": "The Main Trekker inside Bubble Bath gains a shield equal to <span style=\"color:#ec6d21\">&Param1&</span> of Willow's Base ATK every 5s for &Param2&s.",
+          "icons": [
+            "Common_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "45%",
+                "60%",
+                "75%",
+                "90%",
+                "105%",
+                "120%",
+                "135%",
+                "150%",
+                "165%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516032,
+          "name": "Tender Seas",
+          "descShort": "When Willow is on the battlefield, increases the squad's &Param1&.",
+          "descLong": "When Willow is on the battlefield, increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "17%",
+                "23%",
+                "29%",
+                "35%",
+                "42%",
+                "48%",
+                "54%",
+                "60%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516033,
+          "name": "Balmy Surf",
+          "descShort": "Each Aqua Trekker in the squad increases the squad's &Param1&.",
+          "descLong": "Each Aqua Trekker in the squad increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "DEF PEN",
+                "DEF PEN",
+                "DEF PEN",
+                "DEF PEN",
+                "DEF PEN",
+                "DEF PEN",
+                "DEF PEN",
+                "DEF PEN",
+                "DEF PEN"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.1",
+                "0.1",
+                "0.2",
+                "0.2",
+                "0.3",
+                "0.3",
+                "0.4",
+                "0.4",
+                "0.4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516041,
+          "name": "Tidal Warning",
+          "descShort": "Increases &Param1&. After casting the Ultimate, generates additional Decibels for a period of time.",
+          "descLong": "Increases the &Param1& dealt by Beach Warning (Ultimate) by <span style=\"color:#ec6d21\">&Param2&</span>.\nAfter casting the Ultimate, Willow gains 3 additional Decibels every 1.5s, up to a total of 30 Decibels.",
+          "icons": [
+            "16001_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "33%",
+                "53%",
+                "73%",
+                "93%",
+                "113%",
+                "133%",
+                "153%",
+                "173%",
+                "193%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516042,
+          "name": "Shore Regulation",
+          "descShort": "When casting the Ultimate, increases the squad's &Param1&.",
+          "descLong": "When casting Beach Warning (Ultimate), increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "16001_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "17%",
+                "23%",
+                "29%",
+                "35%",
+                "42%",
+                "48%",
+                "54%",
+                "60%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516043,
+          "name": "Marine Justice",
+          "descShort": "When the Ultimate deals DMG, increases the target's &Param1&.",
+          "descLong": "When Beach Warning deals DMG, increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16001_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken",
+                "Aqua DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.7%",
+                "4.3%",
+                "5.9%",
+                "7.6%",
+                "9.2%",
+                "10.8%",
+                "11.6%",
+                "12.4%",
+                "13.2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "discs": [
@@ -47576,6 +49045,251 @@
         }
       ],
       "bg": 2010
+    },
+    {
+      "id": 213001,
+      "name": "Zesty Curiosity",
+      "desc": "\"Isn't a laundry room for washing clothes?\"\n\"Aren't oranges just for eating?\"\n\"What are we doing here?\"\n\"Stop chatting and look at the camera...\"\n\"This is the hottest photo trend right now!\"",
+      "element": 7,
+      "rarity": 2,
+      "skills": [
+        {
+          "name": "Zesty Curiosity",
+          "desc": "Increases the Main Trekker's HP by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen the Main Trekker dodges, increases the squad's Crit DMG by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Flowing Amber",
+          "desc": "When the Main Trekker casts a skill, increases Support Trekkers' Skill DMG by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.\nWhen the Main Trekker casts an Ultimate, increases Support Trekkers' Ultimate DMG by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "6%",
+                "9%",
+                "12%",
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.2%",
+                "14.4%",
+                "21.6%",
+                "28.8%",
+                "36%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90013,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 3001
+    },
+    {
+      "id": 213002,
+      "name": "Seasonal Waves",
+      "desc": "In spring and summer's embrace, petals dance in the air;\nin autumn and winter's chill, rain drizzles relentlessly.\nThe scenes mirrored in your eyes\nfluctuate with the changing seasons,\nhow am I supposed to understand them?",
+      "element": 7,
+      "rarity": 2,
+      "skills": [
+        {
+          "name": "Seasonal Waves",
+          "desc": "Increases Support Trekkers' ATK by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen Support Trekkers are on the battlefield, increases the Auto Attack DMG dealt by the Main Trekker by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "8%",
+                "9.6%",
+                "11.2%",
+                "12.8%",
+                "14.4%",
+                "16%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Drowsy Delights",
+          "desc": "When any Support Trekker casts a skill, increases the Main Trekker's Skill DMG by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.\nWhen any Support Character casts an Ultimate, increases Main Trekker's Ultimate DMG by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "6%",
+                "9%",
+                "12%",
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.2%",
+                "14.4%",
+                "21.6%",
+                "28.8%",
+                "36%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 3002
     },
     {
       "id": 213003,
@@ -51237,7 +52951,7 @@
         },
         {
           "name": "Decisive Strike",
-          "desc": "When a Lux Main Trekker hits a target, increases the ATK of Lux Trekkers in the squad and their Minions by <span style=\"color:#ec6d21\">&Param1&</span> for &Param3&s.\nWhen any Lux Trekker hits a stunned target, increases this effect by an additional <span style=\"color:#ec6d21\">&Param2&</span> for &Param4&s.",
+          "desc": "When a Lux Main Trekker hits a target with a skill, increases the ATK of Lux Trekkers in the squad and their Minions by <span style=\"color:#ec6d21\">&Param1&</span> for &Param3&s.\nWhen any Lux Trekker hits a stunned target or a target under Resilience Break, increases this effect by an additional <span style=\"color:#ec6d21\">&Param2&</span> for &Param4&s.",
           "params": [
             {
               "idx": 1,
@@ -52360,7 +54074,7 @@
     {
       "id": 214014,
       "name": "Sweet Times",
-      "desc": "We trekked, picked, and laughed with our friends, sharing sweet fruit that burst with juice in our mouths.",
+      "desc": "We trekked, picked, and laughed with our friends,\nsharing sweet fruit that burst with juice in our mouths.",
       "element": 3,
       "rarity": 1,
       "skills": [
@@ -54919,7 +56633,7 @@
     {
       "id": 214030,
       "name": "A Moment in the Afternoon",
-      "desc": "The girl burst in with the afternoon sun,\nbringing with her the aroma of snacks.\nFries? Grilled fish? Or a loaf of fluffy, warm bread?\nYou had to grab something\nto enjoy this stolen moment of peace.",
+      "desc": "The girl burst in with the afternoon sun,\nbringing with her the aroma of snacks.\nFries? Grilled fish? Or a loaf of fluffy, warm bread?\nYou got to grab something\nto enjoy this stolen moment of peace.",
       "element": 5,
       "rarity": 1,
       "skills": [
@@ -56657,7 +58371,7 @@
     {
       "id": 214042,
       "name": "Wine Warm, Lamps Alight",
-      "desc": "Midnight bells chime to welcome the Springseek Festival\u000bas fireworks set the night sky ablaze.\u000bAmid the revelry, the crowd wishes\u000bthat there is joy and peace for the days and years ahead.",
+      "desc": "Midnight bells chime to welcome the Springseek Festival\nas fireworks set the night sky ablaze.\nAmid the revelry, the crowd wishes\nthat there is joy and peace for the days and years ahead.",
       "element": 3,
       "rarity": 1,
       "skills": [
@@ -56979,7 +58693,7 @@
     {
       "id": 214044,
       "name": "Veiled Dawn of Spring",
-      "desc": "The drawn curtains create a cozy, warm retreat.\u000bHer smile is tender,\u000bbut the syringe in her hand glints chillingly.\u000b\"Don't be afraid. It will be over before you know it.\"",
+      "desc": "The drawn curtains create a cozy, warm retreat.\nHer smile is tender,\nbut the syringe in her hand glints chillingly.\n\"Don't be afraid. It will be over before you know it.\"",
       "element": 3,
       "rarity": 1,
       "skills": [
@@ -58842,6 +60556,382 @@
         }
       ],
       "bg": 4054
+    },
+    {
+      "id": 214055,
+      "name": "Fleeting Glimmers",
+      "desc": "Sunlight filters through the clear water,\nwarming the ocean with a gentle glow.\nA girl gazes up at the shimmering light—\nwhat lies beyond those ripples?",
+      "element": 1,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Fleeting Glimmers",
+          "desc": "Increases the squad's Aqua DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen an Aqua Support Trekker casts a skill or for every 5s they are on the field, grants Tide Weave to the squad for &Param2&s, stacking up to &Param3& times.\nWhen a Trekker with Tide Weave inflicts <span style=\"color:#6A90EB\">Aqua Mark</span> to a target, it additionally increases this target's Aqua Skill DMG Taken by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "20%",
+                "24%",
+                "28%",
+                "32%",
+                "36%",
+                "40%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Azure Echo",
+          "desc": "Increases the Crit DMG of Aqua Trekkers by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Trekker with Tide Weave triggers an <span style=\"color:#6A90EB\">Aqua Mark</span>, the target takes <span style=\"color:#ec6d21\">&Param2&</span> increased Aqua Auto Attack DMG for &Param3&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "12%",
+                "16%",
+                "20%",
+                "24%",
+                "28%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "15%",
+                "20%",
+                "25%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sun-Kissed Sands",
+          "desc": "Tide Weave gains an additional effect: Each stack increases own Aqua DMG by <span style=\"color:#ec6d21\">&Param1&</span>, and increases the ATK of Aqua Support Trekkers by an additional <span style=\"color:#ec6d21\">&Param2&</span> per stack.\nAfter an Aqua Support Trekker casts their Ultimate, each stack of Tide Weave they possess restores Energy equal to <span style=\"color:#ec6d21\">&Param3&</span> of their Max Energy, up to <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "1.5%",
+                "3%",
+                "4.5%",
+                "6%",
+                "7.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20",
+                "40",
+                "55",
+                "70",
+                "85"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4055
+    },
+    {
+      "id": 214056,
+      "name": "Dappled Sunlight",
+      "desc": "Broken patterns of light drift across her hair,\nas she steps into a flowing stream.\nThe forest wind follows the sound of insects,\nwhispering that midsummer has quietly arrived.",
+      "element": 1,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Dappled Sunlight",
+          "desc": "When an Aqua Support Trekker casts a Skill, or every 5s they are on the field, they grant 1 stack of Ripple Echo to the entire squad: Increases Aqua DMG by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, stacking up to &Param3& times.\nWhen a Trekker granted Ripple Echo triggers <span style=\"color:#6A90EB\">Aqua Mark</span>, increases this Trekker's ATK by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.5%",
+                "3%",
+                "3.5%",
+                "4%",
+                "4.5%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Summer Time Whispers",
+          "desc": "Increases the Ultimate DMG of Aqua Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.\nRipple Echo gains an additional effect: Each stack increases own Aqua DMG dealt by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "6%",
+                "12%",
+                "18%",
+                "24%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "2%",
+                "3%",
+                "4%",
+                "5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Summer Isle Song",
+          "desc": "When Ripple Echo is at max stacks, increases own Aqua Skill DMG by an additional <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4.5%",
+                "9%",
+                "13.5%",
+                "18%",
+                "22.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90018,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4056
     }
   ]
 }
