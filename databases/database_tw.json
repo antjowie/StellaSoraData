@@ -33227,7 +33227,7 @@
             "Potential_Diamond_B",
             "Potential_Diamond_A"
           ],
-          "rarity": 2,
+          "rarity": 1,
           "build": 1,
           "type": 2,
           "params": [
@@ -33277,7 +33277,7 @@
             "Potential_Triangle_B",
             "Potential_Triangle_A"
           ],
-          "rarity": 1,
+          "rarity": 2,
           "build": 1,
           "type": 2,
           "params": [
@@ -33513,7 +33513,7 @@
             "Potential_Diamond_B",
             "Potential_Diamond_A"
           ],
-          "rarity": 2,
+          "rarity": 1,
           "build": 3,
           "type": 2,
           "params": [
@@ -33601,7 +33601,7 @@
             "Potential_Round_B",
             "Potential_Round_A"
           ],
-          "rarity": 1,
+          "rarity": 2,
           "build": 3,
           "type": 2,
           "params": [
