@@ -44194,6 +44194,1568 @@
       ]
     },
     {
+      "id": 157,
+      "name": "카린",
+      "class": 1,
+      "element": 6,
+      "rarity": 1,
+      "mainBuild1Name": "카린 메인 유파 1",
+      "mainBuild1Desc": "상어 대장과 함께 사냥하며 피해를 강화하는 유파.",
+      "mainBuild2Name": "카린 메인 유파 2",
+      "mainBuild2Desc": "사냥 능력과 사냥 표식의 효과를 높여, 일반 공격을 강화하는 유파.",
+      "supportBuild1Name": "카린 지원 유파 1",
+      "supportBuild1Desc": "상어 대장이 더 큰 범위 피해를 입히고, 특수 효과를 부여하는 유파.",
+      "supportBuild2Name": "카린 지원 유파 2",
+      "supportBuild2Desc": "공격 단계를 높이고, 추가 폭파 효과를 부여하여 화력을 집중하는 유파.",
+      "potentials": [
+        {
+          "id": 515701,
+          "name": "포식자의 소용돌이",
+          "descShort": "「상어 대장」이 공격을 발동해 물고기떼 소용돌이를 일으켜 범위 피해를 입힌다. 카린이 <span style=\"color:#6A90EB\">어둠 작열</span>을 보유한 목표에게 입히는 &Param2& 증가한다.",
+          "descLong": "「상어 대장」이 공격을 발동해 물고기떼 소용돌이를 일으켜 공격력 <span style=\"color:#0abec5\">&Param1&x7</span>의 어둠 속성 범위 필살기 피해를 입히며 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동한다. 해당 효과는 &Param4&초마다 1회 발동할 수 있다. 카린이 <span style=\"color:#6A90EB\">어둠 작열</span>을 보유한 목표에게 입히는 &Param2& <span style=\"color:#0abec5\">&Param3&</span> 증가한다.",
+          "icons": [
+            "15701_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "필살기 치명타율"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "39%",
+                "44%",
+                "50%",
+                "68%",
+                "73%",
+                "78%",
+                "89%",
+                "94%",
+                "99%",
+                "108%",
+                "116%",
+                "123%",
+                "131%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515702,
+          "name": "상어 그림자의 습격",
+          "descShort": "카린이 메인 스킬을 시전한 후 「상어 대장」이 따라다닌다. 해당 기간 중 일정 시간마다 메인 목표에게 덮치며 공격해 범위 피해를 입힌다. \n카린의 &Param2& 증가한다.",
+          "descLong": "카린이 메인 스킬을 시전한 후 「상어 대장」이 따라다닌다. <span style=\"color:#0abec5\">8</span>초간 지속된다. 기간 중 「상어 대장」이 일정 시간마다 메인 목표에게 덮치며 공격해 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 어둠 속성 범위 필살기 피해를 입히며 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동한다. 카린의 &Param2& <span style=\"color:#0abec5\">&Param3&</span> 증가한다.",
+          "icons": [
+            "15701_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "필살기 치명타율"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "192%",
+                "221%",
+                "249%",
+                "336%",
+                "363%",
+                "389%",
+                "443%",
+                "466%",
+                "489%",
+                "535%",
+                "574%",
+                "612%",
+                "650%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "18%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515703,
+          "name": "곳곳에 흩어진 탄환",
+          "descShort": "카린이 <span style=\"color:#6A90EB\">사냥 표식</span>을 보유한 목표에게 일반 공격을 시전하면 낙하 사격을 발동한다. 카린이 목표에게 <span style=\"color:#6A90EB\">사냥 표식</span>을 부여하면 일정 시간 동안 더 많은 일반 공격 총알을 발사한다. 카린의 &Param2& &Param4& 증가한다.",
+          "descLong": "카린이 <span style=\"color:#6A90EB\">사냥 표식</span>을 보유한 목표에게 일반 공격을 시전하면, 낙하 사격 총알을 추가로 발사해 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 어둠 속성 범위 일반 공격 피해를 입힌다. 카린이 목표에게 <span style=\"color:#6A90EB\">사냥 표식</span>을 부여하면 즉시 버프 <span style=\"color:#0abec5\">3</span>스택을 획득한다. 이후 <span style=\"color:#0abec5\">2</span>초마다 <span style=\"color:#0abec5\">1</span>스택 감소한다. 버프 <span style=\"color:#0abec5\">1</span>스택마다 카린의 일반 공격이 발사하는 총알이 <span style=\"color:#0abec5\">1</span>개 증가한다. 필드에 <span style=\"color:#6A90EB\">사냥 표식</span>을 보유한 목표가 있으면, 카린의 &Param2& <span style=\"color:#0abec5\">&Param3&</span> 증가하고, &Param4& <span style=\"color:#0abec5\">&Param5&</span> 증가한다.",
+          "icons": [
+            "15701_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "공격"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "일반 공격 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "26%",
+                "30%",
+                "33%",
+                "45%",
+                "49%",
+                "52%",
+                "59%",
+                "63%",
+                "66%",
+                "72%",
+                "77%",
+                "82%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515704,
+          "name": "추적의 어둠 사슬",
+          "descShort": "<span style=\"color:#6A90EB\">사냥 표식</span>의 지속 시간이 연장된다. 카린과 <span style=\"color:#6A90EB\">사냥 표식</span>을 보유한 목표가 연결되는 동안 경로 상의 목표에게 지속적으로 피해를 입히고, 또한 카린의 <span style=\"color:#6A90EB\">사냥 능력</span>을 회복한다. 카린이 목표에게 <span style=\"color:#6A90EB\">사냥 표식</span>을 부여하면 자신의 &Param3& &Param5& 증가한다.",
+          "descLong": "<span style=\"color:#6A90EB\">사냥 표식</span>의 지속 시간이 <span style=\"color:#0abec5\">&Param1&</span>초 연장된다. 카린과 <span style=\"color:#6A90EB\">사냥 표식</span>을 보유한 목표가 연결되는 동안 <span style=\"color:#0abec5\">1</span>초마다 연결 경로 상의 목표에게 공격력 <span style=\"color:#0abec5\">&Param2&</span>의 어둠 속성 범위 일반 공격 피해를 입히고, 카린의 <span style=\"color:#6A90EB\">사냥 능력</span> <span style=\"color:#0abec5\">10</span>포인트를 회복한다. 해당 피해는 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동할 수 있다. 카린이 목표에게 <span style=\"color:#6A90EB\">사냥 표식</span>을 부여하면, 자신의 &Param3& <span style=\"color:#0abec5\">&Param4&</span> 증가하고, &Param5& <span style=\"color:#0abec5\">&Param6&</span> 증가한다. &Param7&초간 지속된다.",
+          "icons": [
+            "15701_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "공격"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "일반 공격 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "174%",
+                "200%",
+                "226%",
+                "304%",
+                "328%",
+                "353%",
+                "401%",
+                "422%",
+                "443%",
+                "485%",
+                "520%",
+                "554%",
+                "589%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515705,
+          "name": "솟구치는 거대한 파도",
+          "descShort": "카린이 필살기 피해를 여러 차례 입히면, 「상어 대장」의 꼬리 공격으로 범위 피해를 입힌다.",
+          "descLong": "카린이 필살기 피해를 누적 5회 입히면, 「상어 대장」의 꼬리 공격을 유도해 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 어둠 속성 범위 필살기 피해를 입히며 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동한다. 해당 효과는 &Param2&초마다 1회 발동할 수 있다. 카린의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
+          "icons": [
+            "15701_Potential_05_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "163%",
+                "261%",
+                "359%",
+                "457%",
+                "555%",
+                "652%",
+                "750%",
+                "848%",
+                "946%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "필살기 치명타율",
+                "필살기 치명타율",
+                "필살기 치명타율",
+                "필살기 치명타율",
+                "필살기 치명타율",
+                "필살기 치명타율",
+                "필살기 치명타율",
+                "필살기 치명타율",
+                "필살기 치명타율"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3.7%",
+                "6%",
+                "8.2%",
+                "10.5%",
+                "12.7%",
+                "15%",
+                "16%",
+                "17%",
+                "18%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515706,
+          "name": "두 개의 그림자",
+          "descShort": "「상어 대장」이 피해를 입히면 카린의 &Param1& 증가하고, 어둠 속성 밸런스 캐릭터의 &Param3& 증가한다.",
+          "descLong": "「상어 대장」이 피해를 입히면 카린의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가하고, 어둠 속성 밸런스 캐릭터의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다. &Param5&초간 지속된다.",
+          "icons": [
+            "Common_Potential_16_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해",
+                "필살기 치명타 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7.5%",
+                "12%",
+                "16.5%",
+                "21%",
+                "25.5%",
+                "30%",
+                "34%",
+                "38%",
+                "42%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "64%",
+                "68%",
+                "72%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515707,
+          "name": "추격 지시",
+          "descShort": "팀 전체가 어둠 속성 캐릭터일 경우, 「상어 대장」이 <span style=\"color:#6A90EB\">어둠 작열</span>을 보유한 목표에게 입히는 &Param1& 증가한다.",
+          "descLong": "팀 전체가 어둠 속성 캐릭터일 경우, 「상어 대장」이 <span style=\"color:#6A90EB\">어둠 작열</span>을 보유한 목표에게 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "Common_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5.2%",
+                "8.4%",
+                "11.5%",
+                "14.7%",
+                "17.8%",
+                "21%",
+                "22%",
+                "23%",
+                "24%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515708,
+          "name": "어둠 사슬의 폭발",
+          "descShort": "적 목표가 <span style=\"color:#6A90EB\">사냥 표식</span>을 잃으면 범위 피해를 받는다.",
+          "descLong": "적 목표가 <span style=\"color:#6A90EB\">사냥 표식</span>을 잃으면 카린 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 어둠 속성 범위 일반 공격 피해를 받으며, <span style=\"color:#6A90EB\">어둠 속성 표식</span>이 발동된다. 또한 카린의 &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가한다. &Param4&초간 지속된다.",
+          "icons": [
+            "15701_Potential_08_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "268%",
+                "429%",
+                "590%",
+                "751%",
+                "911%",
+                "1072%",
+                "1233%",
+                "1394%",
+                "1555%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "11.2%",
+                "18%",
+                "24.7%",
+                "31.5%",
+                "38.2%",
+                "45%",
+                "49%",
+                "52%",
+                "55%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515709,
+          "name": "고위험 목표",
+          "descShort": "팀 전체가 어둠 속성 캐릭터이면, 메인 스킬 「미끼에 걸린 자」 쿨타임 중 카린의 일반 공격이 <span style=\"color:#6A90EB\">어둠 작열</span>을 보유한 목표에게 입히는 &Param1& 증가한다.",
+          "descLong": "팀 전체가 어둠 속성 캐릭터이면, 메인 스킬 「미끼에 걸린 자」 쿨타임 중 카린의 일반 공격이 <span style=\"color:#6A90EB\">어둠 작열</span>을 보유한 목표에게 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "Common_Potential_4_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "42%",
+                "44%",
+                "45%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515710,
+          "name": "사냥 제압",
+          "descShort": "카린이 <span style=\"color:#6A90EB\">사냥 표식</span>을 보유한 목표에게 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동하면, 카린의 &Param1& 증가한다.",
+          "descLong": "카린이 <span style=\"color:#6A90EB\">사냥 표식</span>을 보유한 목표에게 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동하면, 카린의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "Common_Potential_Dark_1_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "22%",
+                "24%",
+                "26%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515711,
+          "name": "사기 충전",
+          "descShort": "카린이 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동하면 &Param1& 증가한다.",
+          "descLong": "카린이 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동하면 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "Common_Potential_10_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515712,
+          "name": "그림자 추적",
+          "descShort": "회피 횟수가 증가한다. 회피 시 카린의 &Param1& 증가한다.",
+          "descLong": "회피 횟수가 1회 증가한다. 회피 시 카린의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "icons": [
+            "Common_Potential_2_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515713,
+          "name": "조화로운 기세",
+          "descShort": "팀 내 어둠 속성 캐릭터가 카린의 &Param1& 증가시키고, 팀 전체 어둠 속성 캐릭터의 &Param3& 증가시킨다.",
+          "descLong": "팀 내 어둠 속성 캐릭터 1명마다 카린의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가하고, 팀 전체 어둠 속성 캐릭터의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
+          "icons": [
+            "Common_Potential_20_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3.2%",
+                "5.2%",
+                "7.1%",
+                "9.1%",
+                "11%",
+                "13%",
+                "14.9%",
+                "16.9%",
+                "18.8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3.2%",
+                "5.2%",
+                "7.1%",
+                "9.1%",
+                "11%",
+                "13%",
+                "14.9%",
+                "16.9%",
+                "18.8%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515721,
+          "name": "거대 상어의 잔상",
+          "descShort": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 연속으로 물어뜯어 <span style=\"color:#0abec5\">다중 피해</span>를 입힌다.",
+          "descLong": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 연속으로 물어뜯어, 대형 목표에게 <span style=\"color:#0abec5\">추가 횟수</span>의 피해를 입힌다.",
+          "icons": [
+            "15701_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": []
+        },
+        {
+          "id": 515722,
+          "name": "물어뜯은 흔적",
+          "descShort": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 피해를 입히면 이빨 자국을 생성하고, 이후 「상어 대장」의 피해로 이빨 자국을 폭발시켜 단일 피해를 입힌다.",
+          "descLong": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 피해를 입히면 이빨 자국을 생성한다. 1초간 지속된다. 「상어 대장」이 이빨 자국을 보유한 목표에게 피해를 입히면 이빨 자국을 폭발시켜 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 어둠 속성 단일 필살기 피해를 입히며, <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동한다.",
+          "icons": [
+            "15701_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "151%",
+                "174%",
+                "197%",
+                "265%",
+                "286%",
+                "307%",
+                "350%",
+                "368%",
+                "386%",
+                "422%",
+                "452%",
+                "483%",
+                "513%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515723,
+          "name": "성난 파도의 채찍질",
+          "descShort": "지원 스킬 「광폭한 바다의 파도」가 더 많은 사슬을 추가로 휘둘러 더 많은 피해를 입힌다.",
+          "descLong": "지원 스킬 「광폭한 바다의 파도」가 더 많은 사슬을 추가로 휘두른다. 추가로 휘두른 사슬이 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 어둠 속성 범위 스킬 피해를 입힌다.",
+          "icons": [
+            "15701_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "49%",
+                "56%",
+                "64%",
+                "86%",
+                "93%",
+                "100%",
+                "113%",
+                "119%",
+                "125%",
+                "137%",
+                "147%",
+                "156%",
+                "166%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515724,
+          "name": "암류의 충격",
+          "descShort": "지원 스킬 「광폭한 바다의 파도」가 사슬을 휘둘러 피해를 입히면, 폭파가 일어나 범위 피해를 입힌다.",
+          "descLong": "지원 스킬 「광폭한 바다의 파도」가 사슬을 휘둘러 피해를 입히면 폭파가 일어나 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 어둠 속성 범위 스킬 피해를 입히며 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동한다. 해당 효과는 휘두를 때마다 최대 <span style=\"color:#0abec5\">4</span>회 발동한다.",
+          "icons": [
+            "15701_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "106%",
+                "122%",
+                "137%",
+                "185%",
+                "200%",
+                "215%",
+                "244%",
+                "257%",
+                "269%",
+                "295%",
+                "316%",
+                "337%",
+                "358%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515725,
+          "name": "바다의 여진",
+          "descShort": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」 돌진 경로 위에 물방울 폭파가 일어나 범위 피해를 입힌다. \n「상어 대장」이 입히는 &Param2& 증가한다.",
+          "descLong": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」 돌진 경로 위에 물방울 폭파가 일어난다. 폭파마다 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 어둠 속성 범위 필살기 피해를 입히며 <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동한다. 「상어 대장」이 입히는 &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가한다.",
+          "icons": [
+            "15701_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "21%",
+                "34%",
+                "46%",
+                "59%",
+                "72%",
+                "84%",
+                "97%",
+                "110%",
+                "122%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515726,
+          "name": "협동 추격",
+          "descShort": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 피해를 입히면 카린의 &Param1& 증가한다.",
+          "descLong": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 피해를 입히면 카린의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "Common_Potential_5_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.5%",
+                "4%",
+                "5.5%",
+                "7%",
+                "8.5%",
+                "10%",
+                "11.5%",
+                "13%",
+                "14.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515727,
+          "name": "우위 제압",
+          "descShort": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 정예 이하 목표에게 입히는 &Param1& 증가한다.",
+          "descLong": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 정예 이하 목표에게 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "Common_Potential_4_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515728,
+          "name": "격동의 리듬",
+          "descShort": "지원 스킬 「광폭한 바다의 파도」가 사슬을 휘둘러 피해를 입히면 이번 스킬 후속의 사슬이 입히는 &Param1& 증가한다.",
+          "descLong": "지원 스킬 「광폭한 바다의 파도」가 사슬을 휘둘러 피해를 입히면 이번 스킬 후속의 사슬이 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "15701_Potential_24_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "3.3%",
+                "4.5%",
+                "5.8%",
+                "7%",
+                "8.3%",
+                "9.5%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515729,
+          "name": "파도를 거슬러",
+          "descShort": "지원 스킬 「광폭한 바다의 파도」가 사슬을 휘둘러 정예 이상 목표에게 입히는 &Param1& 증가한다.",
+          "descLong": "지원 스킬 「광폭한 바다의 파도」가 사슬을 휘둘러 정예 이상 목표에게 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "15701_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515730,
+          "name": "들끊는 암류",
+          "descShort": "어둠 속성 캐릭터가 메인 스킬 또는 지원 스킬 시전 시, 카린의 &Param1& 증가한다.",
+          "descLong": "어둠 속성 캐릭터가 메인 스킬 또는 지원 스킬 시전 시, 카린의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515731,
+          "name": "쑥스러운 격려",
+          "descShort": "팀 전체 어둠 속성 캐릭터의 &Param1& 증가한다.",
+          "descLong": "팀 전체 어둠 속성 캐릭터의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "Common_Potential_12_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515732,
+          "name": "경쟁심리",
+          "descShort": "지원 스킬 「광폭한 바다의 파도」 시전 시, 카린의 &Param1& 증가한다.",
+          "descLong": "지원 스킬 「광폭한 바다의 파도」 시전 시, 카린의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515733,
+          "name": "달빛에 물든 밤",
+          "descShort": "팀 내 어둠 속성 캐릭터가 카린의 &Param1& 증가시킨다.",
+          "descLong": "팀 전체 어둠 속성 캐릭터 1명마다 카린의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "Common_Potential_20_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6.4%",
+                "8.8%",
+                "11.2%",
+                "13.6%",
+                "16%",
+                "18.4%",
+                "20.8%",
+                "23.2%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515741,
+          "name": "불굴의 정신",
+          "descShort": "필살기 「분노한 상어의 습격」이 정예 이상 목표에게 입히는 &Param1& 증가한다. 카린의 &Param3& 증가한다.",
+          "descLong": "필살기 「분노한 상어의 습격」이 정예 이상 목표에게 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 카린의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
+          "icons": [
+            "15701_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해",
+                "어둠 속성 피해"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "44%",
+                "47%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515742,
+          "name": "외딴 바다의 투쟁",
+          "descShort": "필살기 「분노한 상어의 습격」 기간 중 지속적으로 물방울을 분출해 범위 피해를 입힌다. 카린의 &Param3& 증가한다.",
+          "descLong": "필살기 「분노한 상어의 습격」 기간 중 일정 시간마다 물방울 <span style=\"color:#ec6d21\">&Param1&</span>개를 분출한다. 각 물방울은 공격력 <span style=\"color:#ec6d21\">&Param2&</span>의 어둠 속성 범위 필살기 피해를 입히며, <span style=\"color:#6A90EB\">어둠 속성 표식</span>을 발동한다. 카린의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
+          "icons": [
+            "15701_Potential_42_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1",
+                "1",
+                "2",
+                "2",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "27%",
+                "43%",
+                "59%",
+                "75%",
+                "91%",
+                "107%",
+                "123%",
+                "139%",
+                "155%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "14.5%",
+                "23.2%",
+                "31.9%",
+                "40.6%",
+                "49.3%",
+                "58%",
+                "65%",
+                "70%",
+                "75%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515743,
+          "name": "자아 초월",
+          "descShort": "필살기 「분노한 상어의 습격」 시전 시, 카린의 &Param1& 증가한다.",
+          "descLong": "필살기 「분노한 상어의 습격」 시전 시, 카린의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다. 카린의 &Param4& <span style=\"color:#ec6d21\">&Param5&</span> 증가한다.",
+          "icons": [
+            "15701_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "17.5%",
+                "28%",
+                "38.5%",
+                "49%",
+                "59.5%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "30"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8.7%",
+                "14%",
+                "19.2%",
+                "24.5%",
+                "29.7%",
+                "35%",
+                "40%",
+                "45%",
+                "50%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 158,
       "name": "라루(이브)",
       "class": 2,
@@ -60920,6 +62482,363 @@
         }
       ],
       "bg": 4056
+    },
+    {
+      "id": 214057,
+      "name": "함께하는 항해",
+      "desc": "맑은 물결이 일렁이고, 바닷물이 살결을 간지럽힌다. \n온 세상이 함께 어우러져, 축제의 열기는 한창 무르익어 간다. \n친구와 함께 발맞추어, 선선한 바람을 타고 \n여름을 향해, 바다 너머 저편을 향해 나아간다.",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "함께하는 항해",
+          "desc": "어둠 속성 메인 캐릭터가 필살기 피해를 입힌 후, 자신이 「암조」를 획득한다. 15초간 지속되며, 최대 3스택 중첩된다. \n어둠 속성 메인 캐릭터가 일반 공격 피해를 입히면, 1/2/3스택의 「암조」가 목표의 받는 어둠 속성 일반 공격 피해를 각각 <span style=\"color:#ec6d21\">&Param1&</span>/<span style=\"color:#ec6d21\">&Param2&</span>/<span style=\"color:#ec6d21\">&Param3&</span> 증가시킨다. 10초간 지속된다. \n어둠 속성 메인 캐릭터가 필살기 피해를 입히면, 1/2/3스택의 「암조」가 목표의 받는 어둠 속성 필살기 피해를 각각 <span style=\"color:#ec6d21\">&Param4&</span>/<span style=\"color:#ec6d21\">&Param5&</span>/<span style=\"color:#ec6d21\">&Param6&</span> 증가시킨다. 10초간 지속된다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3%",
+                "3.6%",
+                "4.2%",
+                "4.8%",
+                "5.4%",
+                "6%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "9%",
+                "10.8%",
+                "12.6%",
+                "14.4%",
+                "16.2%",
+                "18%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "파도를 따라",
+          "desc": "팀 내 어둠 속성 캐릭터가 <span style=\"color:#6A90EB\">어둠 작열</span>을 보유한 목표에게 입히는 필살기 치명타 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. \n「암조」가 추가 효과를 획득해, 스택마다 자신의 필살기 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "20%",
+                "25%",
+                "30%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "홀로 나선 먼 바다",
+          "desc": "팀 내 어둠 속성 캐릭터가 정예 이상 목표에게 입히는 일반 공격 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4057
+    },
+    {
+      "id": 214058,
+      "name": "여름 행진곡",
+      "desc": "손가락을 꼽아보며 지나간 계절을 헤아리고, \n지나간 날의 씁쓸함은 가슴 깊이 묻어둔다. \n웃음소리와 함께 터져 나온 여름의 추억이여, \n부디 세월의 밀물과 썰물에 휩쓸려 사라지지 않기를.",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "여름 행진곡",
+          "desc": "어둠 속성 메인 캐릭터의 일반 공격과 필살기 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. \n어둠 속성 메인 캐릭터가 스킬을 시전하면, 자신이 「격랑」을 획득한다. &Param2&초간 지속되며, 최대 &Param3&스택 중첩된다. \n「격랑」을 보유한 캐릭터가 필살기 피해를 입히면, 팀 내 어둠 속성 캐릭터와 그 소환물이 입히는 어둠 속성 피해가 <span style=\"color:#ec6d21\">&Param4&</span> 증가한다. &Param5&초간 지속된다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7%",
+                "8.4%",
+                "9.8%",
+                "11.2%",
+                "12.6%",
+                "14%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "환희의 격랑",
+          "desc": "어둠 속성 메인 캐릭터가 표식을 발동해 <span style=\"color:#6A90EB\">어둠 작열</span> 효과를 입히면, 자신의 일반 공격 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. &Param2&초간 지속된다. \n「격랑」이 최대 스택을 달성하면, 팀 내 어둠 속성 캐릭터와 그 소환물이 입히는 어둠 속성 피해가 추가로 <span style=\"color:#ec6d21\">&Param3&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.5%",
+                "5%",
+                "7.5%",
+                "10%",
+                "12.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "식지 않는 열정",
+          "desc": "「격랑」이 추가 효과를 획득해, 스택마다 자신의 공격력이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4058
     }
   ]
 }

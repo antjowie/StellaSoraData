@@ -44180,6 +44180,1568 @@
       ]
     },
     {
+      "id": 157,
+      "name": "花鈴",
+      "class": 1,
+      "element": 6,
+      "rarity": 1,
+      "mainBuild1Name": "花鈴主控流派1",
+      "mainBuild1Desc": "與鯊老大合作狩獵，強化其傷害的流派。",
+      "mainBuild2Name": "花鈴主控流派2",
+      "mainBuild2Desc": "提升狩能與獵標的效果，強化普攻的流派。",
+      "supportBuild1Name": "花鈴援護流派1",
+      "supportBuild1Desc": "鯊老大造成更大範圍傷害並附加特殊效果的流派。",
+      "supportBuild2Name": "花鈴援護流派2",
+      "supportBuild2Desc": "提升攻擊段數，並附加額外爆炸效果的集中傷害流派。",
+      "potentials": [
+        {
+          "id": 515701,
+          "name": "獵群渦流",
+          "descShort": "「鯊老大」發動攻擊可引來魚群渦流造成範圍傷害。提升花鈴對附帶<span style=\"color:#6A90EB\">暗灼</span>的目標造成的&Param2&。",
+          "descLong": "「鯊老大」發動攻擊可引來魚群渦流，造成攻擊力<span style=\"color:#0abec5\">&Param1&×7</span>的範圍暗系絕招傷害並觸發<span style=\"color:#6A90EB\">暗系印記</span>。此效果每&Param4&秒可觸發1次。花鈴對附帶<span style=\"color:#6A90EB\">暗灼</span>的目標造成的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。",
+          "icons": [
+            "15701_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "絕招暴擊率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "39%",
+                "44%",
+                "50%",
+                "68%",
+                "73%",
+                "78%",
+                "89%",
+                "94%",
+                "99%",
+                "108%",
+                "116%",
+                "123%",
+                "131%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515702,
+          "name": "鯊影潛襲",
+          "descShort": "花鈴施放主控技後引來「鯊老大」跟隨，期間每隔一定時間對主控目標發動飛撲攻擊造成範圍傷害。提升花鈴的&Param2&。",
+          "descLong": "花鈴施放主控技後引來「鯊老大」跟隨，持續<span style=\"color:#0abec5\">8</span>秒時間。期間「鯊老大」每隔一定時間對主控目標發動飛撲攻擊，造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍暗系絕招傷害並觸發<span style=\"color:#6A90EB\">暗系印記</span>。花鈴的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。",
+          "icons": [
+            "15701_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "絕招暴擊率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "192%",
+                "221%",
+                "249%",
+                "336%",
+                "363%",
+                "389%",
+                "443%",
+                "466%",
+                "489%",
+                "535%",
+                "574%",
+                "612%",
+                "650%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "18%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515703,
+          "name": "獵彈散布",
+          "descShort": "花鈴對附帶<span style=\"color:#6A90EB\">獵標</span>的目標普攻時可發動吊射。花鈴對目標附加<span style=\"color:#6A90EB\">獵標</span>時，一定時間內可發射更多普攻子彈。提升花鈴的&Param2&和&Param4&。",
+          "descLong": "花鈴對附帶<span style=\"color:#6A90EB\">獵標</span>的目標普攻時，可額外發動吊射彈，造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍暗系普攻傷害。花鈴對目標附加<span style=\"color:#6A90EB\">獵標</span>時，立刻獲得<span style=\"color:#0abec5\">3</span>層增益，之後每<span style=\"color:#0abec5\">2</span>秒減少<span style=\"color:#0abec5\">1</span>層，每<span style=\"color:#0abec5\">1</span>層增益使花鈴普攻發射的子彈數量增加<span style=\"color:#0abec5\">1</span>枚。場中有附帶<span style=\"color:#6A90EB\">獵標</span>的目標時，花鈴的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>，&Param4&提升<span style=\"color:#0abec5\">&Param5&</span>。",
+          "icons": [
+            "15701_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "26%",
+                "30%",
+                "33%",
+                "45%",
+                "49%",
+                "52%",
+                "59%",
+                "63%",
+                "66%",
+                "72%",
+                "77%",
+                "82%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515704,
+          "name": "追獵暗鎖",
+          "descShort": "延長<span style=\"color:#6A90EB\">獵標</span>的持續時間。花鈴和附帶<span style=\"color:#6A90EB\">獵標</span>的目標相連期間，對路徑上的目標持續造成傷害，並恢復花鈴的<span style=\"color:#6A90EB\">狩能</span>點數。花鈴對目標附加<span style=\"color:#6A90EB\">獵標</span>時，提升自身的&Param3&和&Param5&。",
+          "descLong": "<span style=\"color:#6A90EB\">獵標</span>的持續時間延長<span style=\"color:#0abec5\">&Param1&</span>秒。花鈴和附帶<span style=\"color:#6A90EB\">獵標</span>的目標相連期間，每<span style=\"color:#0abec5\">1</span>秒對連接路徑上的目標造成攻擊力<span style=\"color:#0abec5\">&Param2&</span>範圍暗系普攻傷害，並恢復花鈴<span style=\"color:#0abec5\">10</span>點<span style=\"color:#6A90EB\">狩能</span>，該傷害可觸發<span style=\"color:#6A90EB\">暗系印記</span>花鈴對目標附加<span style=\"color:#6A90EB\">獵標</span>時，自身的&Param3&提升<span style=\"color:#0abec5\">&Param4&</span>，&Param5&提升<span style=\"color:#0abec5\">&Param6&</span>，持續&Param7&秒。",
+          "icons": [
+            "15701_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "174%",
+                "200%",
+                "226%",
+                "304%",
+                "328%",
+                "353%",
+                "401%",
+                "422%",
+                "443%",
+                "485%",
+                "520%",
+                "554%",
+                "589%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515705,
+          "name": "滔天巨浪",
+          "descShort": "花鈴造成多次絕招傷害時，引來「鯊老大」的尾擊造成範圍傷害。",
+          "descLong": "花鈴累計造成5次絕招傷害時，引來「鯊老大」的尾擊，造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的範圍暗系絕招傷害並觸發<span style=\"color:#6A90EB\">暗系印記</span>，該效果每&Param2&秒可觸發1次。花鈴的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "15701_Potential_05_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "163%",
+                "261%",
+                "359%",
+                "457%",
+                "555%",
+                "652%",
+                "750%",
+                "848%",
+                "946%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率",
+                "絕招暴擊率"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3.7%",
+                "6%",
+                "8.2%",
+                "10.5%",
+                "12.7%",
+                "15%",
+                "16%",
+                "17%",
+                "18%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515706,
+          "name": "雙影狩獵",
+          "descShort": "「鯊老大」造成傷害時，提升花鈴的&Param1&，暗系均衡角色的&Param3&。",
+          "descLong": "「鯊老大」造成傷害時，花鈴的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，暗系均衡角色的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param5&秒。",
+          "icons": [
+            "Common_Potential_16_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害",
+                "絕招暴擊傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7.5%",
+                "12%",
+                "16.5%",
+                "21%",
+                "25.5%",
+                "30%",
+                "34%",
+                "38%",
+                "42%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "64%",
+                "68%",
+                "72%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515707,
+          "name": "追獵指示",
+          "descShort": "全隊均為暗系角色時，提升「鯊老大」對附帶<span style=\"color:#6A90EB\">暗灼</span>的目標造成的&Param1&。",
+          "descLong": "全隊均為暗系角色時，「鯊老大」對附帶<span style=\"color:#6A90EB\">暗灼</span>的目標造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5.2%",
+                "8.4%",
+                "11.5%",
+                "14.7%",
+                "17.8%",
+                "21%",
+                "22%",
+                "23%",
+                "24%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515708,
+          "name": "暗鎖溢爆",
+          "descShort": "敵方目標失去<span style=\"color:#6A90EB\">獵標</span>時，造成範圍傷害。",
+          "descLong": "敵方目標失去<span style=\"color:#6A90EB\">獵標</span>時，造成花鈴攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的範圍暗系普攻傷害並觸發<span style=\"color:#6A90EB\">暗系印記</span>，同時花鈴的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒。",
+          "icons": [
+            "15701_Potential_08_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "268%",
+                "429%",
+                "590%",
+                "751%",
+                "911%",
+                "1072%",
+                "1233%",
+                "1394%",
+                "1555%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "11.2%",
+                "18%",
+                "24.7%",
+                "31.5%",
+                "38.2%",
+                "45%",
+                "49%",
+                "52%",
+                "55%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515709,
+          "name": "高危目標",
+          "descShort": "全隊都為暗系角色時，在主控技「願者上鉤」冷卻期間，提升花鈴的普攻對附帶<span style=\"color:#6A90EB\">暗灼</span>的目標造成的&Param1&。",
+          "descLong": "全隊都為暗系角色時，在主控技「願者上鉤」冷卻期間，花鈴的普攻對附帶<span style=\"color:#6A90EB\">暗灼</span>的目標造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_4_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "42%",
+                "44%",
+                "45%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515710,
+          "name": "狩獵壓制",
+          "descShort": "花鈴對附帶<span style=\"color:#6A90EB\">獵標</span>的目標觸發<span style=\"color:#6A90EB\">暗系印記</span>時，提升花鈴的&Param1&。",
+          "descLong": "花鈴對附帶<span style=\"color:#6A90EB\">獵標</span>的目標觸發<span style=\"color:#6A90EB\">暗系印記</span>時，花鈴的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "Common_Potential_Dark_1_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "22%",
+                "24%",
+                "26%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515711,
+          "name": "信心倍增",
+          "descShort": "花鈴觸發<span style=\"color:#6A90EB\">暗系印記</span>時，提升&Param1&。",
+          "descLong": "花鈴觸發<span style=\"color:#6A90EB\">暗系印記</span>時，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "Common_Potential_10_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515712,
+          "name": "獵影追蹤",
+          "descShort": "增加閃避技能次數。閃避時，提升花鈴的&Param1&。",
+          "descLong": "閃避技能次數增加1次。閃避時，花鈴的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "Common_Potential_2_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515713,
+          "name": "共鳴氣場",
+          "descShort": "隊伍中的暗系角色可提升花鈴的&Param1&，全隊暗系角色的&Param3&。",
+          "descLong": "隊伍中每1名暗系角色，使花鈴的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，全隊暗系角色的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "Common_Potential_20_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3.2%",
+                "5.2%",
+                "7.1%",
+                "9.1%",
+                "11%",
+                "13%",
+                "14.9%",
+                "16.9%",
+                "18.8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3.2%",
+                "5.2%",
+                "7.1%",
+                "9.1%",
+                "11%",
+                "13%",
+                "14.9%",
+                "16.9%",
+                "18.8%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515721,
+          "name": "巨鯊連影",
+          "descShort": "援護技「怒海翻騰」的「鯊老大」可連續撕咬造成<span style=\"color:#0abec5\">多次傷害</span>。",
+          "descLong": "援護技「怒海翻騰」的「鯊老大」可連續撕咬，對大型目標造成<span style=\"color:#0abec5\">額外次數</span>的傷害。",
+          "icons": [
+            "15701_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": []
+        },
+        {
+          "id": 515722,
+          "name": "獵咬暗痕",
+          "descShort": "援護技「怒海翻騰」的「鯊老大」造成傷害時會產生齒痕，後續「鯊老大」的傷害可引爆齒痕造成單體傷害。",
+          "descLong": "援護技「怒海翻騰」的「鯊老大」造成傷害時會產生齒痕，持續1秒。「鯊老大」對留有齒痕的目標造成傷害時，可引爆齒痕造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的單體暗系絕招傷害並觸發<span style=\"color:#6A90EB\">暗系印記</span>。",
+          "icons": [
+            "15701_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "151%",
+                "174%",
+                "197%",
+                "265%",
+                "286%",
+                "307%",
+                "350%",
+                "368%",
+                "386%",
+                "422%",
+                "452%",
+                "483%",
+                "513%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515723,
+          "name": "怒濤鞭策",
+          "descShort": "援護技「怒海翻騰」可額外揮舞更多鎖鏈造成更多傷害。",
+          "descLong": "援護技「怒海翻騰」可額外揮舞更多鎖鏈，額外揮動的鎖鏈造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的暗系範圍技能傷害。",
+          "icons": [
+            "15701_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "49%",
+                "56%",
+                "64%",
+                "86%",
+                "93%",
+                "100%",
+                "113%",
+                "119%",
+                "125%",
+                "137%",
+                "147%",
+                "156%",
+                "166%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515724,
+          "name": "暗流震爆",
+          "descShort": "援護技「怒海翻騰」揮舞鎖鏈造成傷害時，可產生爆炸造成範圍傷害。",
+          "descLong": "援護技「怒海翻騰」揮舞鎖鏈造成傷害時產生爆炸，造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的暗系範圍技能傷害並觸發<span style=\"color:#6A90EB\">暗系印記</span>。此效果每次揮動時最多觸發<span style=\"color:#0abec5\">4</span>次。",
+          "icons": [
+            "15701_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "106%",
+                "122%",
+                "137%",
+                "185%",
+                "200%",
+                "215%",
+                "244%",
+                "257%",
+                "269%",
+                "295%",
+                "316%",
+                "337%",
+                "358%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515725,
+          "name": "大海餘震",
+          "descShort": "援護技「怒海翻騰」的「鯊老大」衝鋒路徑上會引發水泡爆炸，造成範圍傷害。提升「鯊老大」造成的&Param2&。",
+          "descLong": "援護技「怒海翻騰」的「鯊老大」衝鋒路徑上會引發水泡爆炸，每次爆炸造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的暗系範圍絕招傷害並觸發<span style=\"color:#6A90EB\">暗系印記</span>。「鯊老大」造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "icons": [
+            "15701_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "21%",
+                "34%",
+                "46%",
+                "59%",
+                "72%",
+                "84%",
+                "97%",
+                "110%",
+                "122%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515726,
+          "name": "同獵追擊",
+          "descShort": "援護技「怒海翻騰」的「鯊老大」造成傷害時，提升花鈴的&Param1&。",
+          "descLong": "援護技「怒海翻騰」的「鯊老大」造成傷害時，花鈴的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "Common_Potential_5_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.5%",
+                "4%",
+                "5.5%",
+                "7%",
+                "8.5%",
+                "10%",
+                "11.5%",
+                "13%",
+                "14.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515727,
+          "name": "上位壓制",
+          "descShort": "提升援護技「怒海翻騰」的「鯊老大」對菁英以下目標造成的&Param1&。",
+          "descLong": "援護技「怒海翻騰」的「鯊老大」對菁英以下目標造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_4_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515728,
+          "name": "洶湧節奏",
+          "descShort": "援護技「怒海翻騰」揮舞鎖鏈造成傷害時，提升本次技能後續鎖鏈造成的&Param1&。",
+          "descLong": "援護技「怒海翻騰」揮舞鎖鏈造成傷害時，本次技能後續鎖鏈造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "15701_Potential_24_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "3.3%",
+                "4.5%",
+                "5.8%",
+                "7%",
+                "8.3%",
+                "9.5%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515729,
+          "name": "迎浪而上",
+          "descShort": "提升援護技「怒海翻騰」揮舞鎖鏈對菁英以上目標造成的&Param1&。",
+          "descLong": "援護技「怒海翻騰」揮舞鎖鏈對菁英以上目標造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "15701_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515730,
+          "name": "暗流翻湧",
+          "descShort": "任意暗系角色施放主控技或援護技時，提升花鈴的&Param1&。",
+          "descLong": "任意暗系角色施放主控技或援護技時，花鈴的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515731,
+          "name": "彆扭鼓舞",
+          "descShort": "提升全隊暗系角色的&Param1&。",
+          "descLong": "全隊暗系角色的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_12_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515732,
+          "name": "競爭心理",
+          "descShort": "施放援護技「怒海翻騰」時，提升花鈴的&Param1&。",
+          "descLong": "施放援護技「怒海翻騰」時，花鈴的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515733,
+          "name": "月夜同色",
+          "descShort": "隊伍中的暗系角色可提升花鈴的&Param1&。",
+          "descLong": "全隊每1名暗系角色，使花鈴的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_20_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6.4%",
+                "8.8%",
+                "11.2%",
+                "13.6%",
+                "16%",
+                "18.4%",
+                "20.8%",
+                "23.2%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515741,
+          "name": "不屈的精神",
+          "descShort": "提升絕招「狂鯊強襲」對菁英以上目標造成的&Param1&，提升花鈴的&Param3&。",
+          "descLong": "絕招「狂鯊強襲」對菁英以上目標造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，花鈴的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "15701_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害",
+                "暗系傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "44%",
+                "47%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515742,
+          "name": "絕海的鬥爭",
+          "descShort": "絕招「狂鯊強襲」期間可持續噴出水泡，造成範圍傷害。提升花鈴的&Param3&。",
+          "descLong": "絕招「狂鯊強襲」期間，每隔一段時間噴出<span style=\"color:#ec6d21\">&Param1&</span>個水泡，每個水泡造成攻擊力<span style=\"color:#ec6d21\">&Param2&</span>的範圍暗系絕招傷害並觸發<span style=\"color:#6A90EB\">暗系印記</span>。花鈴的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "15701_Potential_42_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1",
+                "1",
+                "2",
+                "2",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "27%",
+                "43%",
+                "59%",
+                "75%",
+                "91%",
+                "107%",
+                "123%",
+                "139%",
+                "155%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "14.5%",
+                "23.2%",
+                "31.9%",
+                "40.6%",
+                "49.3%",
+                "58%",
+                "65%",
+                "70%",
+                "75%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515743,
+          "name": "自我的超越",
+          "descShort": "施放絕招「狂鯊強襲」時，提升花鈴的&Param1&。",
+          "descLong": "施放絕招「狂鯊強襲」時，花鈴的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。花鈴的&Param4&提升<span style=\"color:#ec6d21\">&Param5&</span>。",
+          "icons": [
+            "15701_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "17.5%",
+                "28%",
+                "38.5%",
+                "49%",
+                "59.5%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "30"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8.7%",
+                "14%",
+                "19.2%",
+                "24.5%",
+                "29.7%",
+                "35%",
+                "40%",
+                "45%",
+                "50%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 158,
       "name": "聖夜菈露",
       "class": 2,
@@ -60918,6 +62480,363 @@
         }
       ],
       "bg": 4056
+    },
+    {
+      "id": 214057,
+      "name": "伴我航行",
+      "desc": "清波搖曳，海水親吻肌膚，\n萬籟共鳴，慶典氣氛正酣。\n攜友同行，乘於輕風之上，\n朝著夏日，朝著海的彼方。",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "伴我航行",
+          "desc": "暗系主控角色造成絕招傷害後，自身獲得「暗潮」，持續15秒，可疊加3層。\n暗系主控角色造成普攻傷害時，1/2/3層「暗潮」對目標附加：受到暗系普攻傷害提升<span style=\"color:#ec6d21\">&Param1&</span>/<span style=\"color:#ec6d21\">&Param2&</span>/<span style=\"color:#ec6d21\">&Param3&</span>，持續10秒。\n暗系主控角色造成絕招傷害時，1/2/3層「暗潮」對目標附加：受到暗系絕招傷害提升<span style=\"color:#ec6d21\">&Param4&</span>/<span style=\"color:#ec6d21\">&Param5&</span>/<span style=\"color:#ec6d21\">&Param6&</span>，持續10秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3%",
+                "3.6%",
+                "4.2%",
+                "4.8%",
+                "5.4%",
+                "6%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "9%",
+                "10.8%",
+                "12.6%",
+                "14.4%",
+                "16.2%",
+                "18%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "踏浪而行",
+          "desc": "隊伍中暗系角色對附帶<span style=\"color:#6A90EB\">暗灼</span>的目標造成的絕招暴擊傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n「暗潮」獲得額外效果：每層使自身絕招傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "20%",
+                "25%",
+                "30%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "獨自遠航",
+          "desc": "隊伍中的暗系角色對菁英以上目標造成的普攻傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4057
+    },
+    {
+      "id": 214058,
+      "name": "夏日進行曲",
+      "desc": "彎著手指細數過往的季節，\n將昨日的苦澀埋藏在心底。\n隨歡笑一同傾洩的夏日回憶啊，\n請不要隨著時間的潮水退去。",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "夏日進行曲",
+          "desc": "暗系主控角色普攻和絕招傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n暗系主控角色施放技能時，自身獲得「激浪」，持續&Param2&秒，可疊加&Param3&層。\n附帶「激浪」的角色造成絕招傷害時，隊伍中暗系角色及其僕從造成的暗系傷害提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param5&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7%",
+                "8.4%",
+                "9.8%",
+                "11.2%",
+                "12.6%",
+                "14%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "歡騰激浪",
+          "desc": "暗系主控角色觸發印記造成<span style=\"color:#6A90EB\">暗灼</span>效果時，自身普攻傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒。\n「激浪」滿層時，隊伍中暗系角色及其僕從造成的暗系傷害額外提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.5%",
+                "5%",
+                "7.5%",
+                "10%",
+                "12.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "熱情不減",
+          "desc": "「激浪」獲得額外效果：每層使自身的攻擊力提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4058
     }
   ]
 }

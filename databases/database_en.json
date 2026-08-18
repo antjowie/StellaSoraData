@@ -44188,6 +44188,1568 @@
       ]
     },
     {
+      "id": 157,
+      "name": "Karin",
+      "class": 1,
+      "element": 6,
+      "rarity": 1,
+      "mainBuild1Name": "Karin: Main Build 1",
+      "mainBuild1Desc": "A build focused on coordinated hunting with Boss Shark, boosting its DMG.",
+      "mainBuild2Name": "Karin: Main Build 2",
+      "mainBuild2Desc": "A build that boosts the effects of Hunting Energy & Hunter's Mark and enhances Auto Attacks.",
+      "supportBuild1Name": "Karin: Support Build 1",
+      "supportBuild1Desc": "A build that allows Boss Shark to deal DMG in a larger area and apply special effects.",
+      "supportBuild2Name": "Karin: Support Build 2",
+      "supportBuild2Desc": "A build that increases hit count and triggers bonus explosions.",
+      "potentials": [
+        {
+          "id": 515701,
+          "name": "Predator's Vortex",
+          "descShort": "Boss Shark's attacks summon a vortex of fish, dealing AoE DMG. Increases Karin's &Param2& against targets inflicted with <span style=\"color:#6A90EB\">Dark Burn</span>.",
+          "descLong": "Boss Shark's attacks summon a vortex of fish, dealing <span style=\"color:#0abec5\">&Param1& x7</span> of ATK as AoE Umbra Ultimate DMG and triggering <span style=\"color:#6A90EB\">Umbra Mark</span>. This effect can only be triggered once every &Param4&s. Increases Karin's &Param2& against targets inflicted with <span style=\"color:#6A90EB\">Dark Burn</span> by <span style=\"color:#0abec5\">&Param3&</span>.",
+          "icons": [
+            "15701_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Ultimate Crit Rate"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "39%",
+                "44%",
+                "50%",
+                "68%",
+                "73%",
+                "78%",
+                "89%",
+                "94%",
+                "99%",
+                "108%",
+                "116%",
+                "123%",
+                "131%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515702,
+          "name": "Shark Ambush",
+          "descShort": "After casting the Main Skill, Karin summons Boss Shark to follow her. During this time, Boss Shark periodically lunges at the Main Trekker's target, dealing AoE DMG.\nIncreases Karin's &Param2&.",
+          "descLong": "After casting the Main Skill, Karin summons Boss Shark to follow her for <span style=\"color:#0abec5\">8</span>s. During this time, Boss Shark periodically lunges at the Main Trekker's target, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Umbra Ultimate DMG and triggering <span style=\"color:#6A90EB\">Umbra Mark</span>. Increases Karin's &Param2& by <span style=\"color:#0abec5\">&Param3&</span>.",
+          "icons": [
+            "15701_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Ultimate Crit Rate"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "192%",
+                "221%",
+                "249%",
+                "336%",
+                "363%",
+                "389%",
+                "443%",
+                "466%",
+                "489%",
+                "535%",
+                "574%",
+                "612%",
+                "650%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "18%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515703,
+          "name": "Scatter Shot",
+          "descShort": "When Karin hits a target inflicted with <span style=\"color:#6A90EB\">Hunter's Mark</span> with Auto Attacks, she can fire lob shots. When Karin inflicts <span style=\"color:#6A90EB\">Hunter's Mark</span> on a target, she can fire more Auto Attack bullets for a certain duration. Increases Karin's &Param2& and &Param4&.",
+          "descLong": "When Karin hits a target inflicted with <span style=\"color:#6A90EB\">Hunter's Mark</span> with Auto Attacks, she can additionally fire lob shots, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Umbra Auto ATK DMG. When Karin inflicts <span style=\"color:#6A90EB\">Hunter's Mark</span> on a target, she instantly gains <span style=\"color:#0abec5\">3</span> buff stacks. After that, she loses <span style=\"color:#0abec5\">1</span> buff stack every <span style=\"color:#0abec5\">2</span>s. <span style=\"color:#0abec5\">Each</span> stack increases the number of bullets fired by Karin's Auto Attacks by <span style=\"color:#0abec5\">1</span>. When there is a target inflicted with <span style=\"color:#6A90EB\">Hunter's Mark</span> on the field, increases Karin's &Param2& by <span style=\"color:#0abec5\">&Param3&</span> and &Param4& by <span style=\"color:#0abec5\">&Param5&</span>.",
+          "icons": [
+            "15701_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "ATK"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "26%",
+                "30%",
+                "33%",
+                "45%",
+                "49%",
+                "52%",
+                "59%",
+                "63%",
+                "66%",
+                "72%",
+                "77%",
+                "82%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515704,
+          "name": "Hunting Dark Shackle",
+          "descShort": "Extends the duration of <span style=\"color:#6A90EB\">Hunter's Mark</span>. While Karin is linked to a target with <span style=\"color:#6A90EB\">Hunter's Mark</span>, she deals DMG over time to all targets along the link path and restores <span style=\"color:#6A90EB\">Hunting Energy</span>. When Karin inflicts <span style=\"color:#6A90EB\">Hunter's Mark</span> on a target, increases her &Param3& and &Param5&.",
+          "descLong": "Extends the duration of <span style=\"color:#6A90EB\">Hunter's Mark</span> by <span style=\"color:#0abec5\">&Param1&</span>s. While Karin is linked to a target inflicted with <span style=\"color:#6A90EB\">Hunter's Mark</span>, she deals <span style=\"color:#0abec5\">&Param2&</span> of ATK as AoE Umbra Auto ATK DMG to all targets along the link path and restores <span style=\"color:#0abec5\">10</span> <span style=\"color:#6A90EB\">Hunting Energy</span> <span style=\"color:#0abec5\">per second</span>, which can trigger <span style=\"color:#6A90EB\">Umbra Mark</span>. When Karin inflicts <span style=\"color:#6A90EB\">Hunter's Mark</span> on a target, increases her &Param3& by <span style=\"color:#0abec5\">&Param4&</span> and &Param5& by <span style=\"color:#0abec5\">&Param6&</span> for &Param7&s.",
+          "icons": [
+            "15701_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "ATK"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "174%",
+                "200%",
+                "226%",
+                "304%",
+                "328%",
+                "353%",
+                "401%",
+                "422%",
+                "443%",
+                "485%",
+                "520%",
+                "554%",
+                "589%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515705,
+          "name": "Crashing Wave",
+          "descShort": "After Karin deals Ultimate DMG several times, Boss Shark follows up with a tail strike that deals AoE DMG.",
+          "descLong": "After Karin deals Ultimate DMG 5 times, Boss Shark follows up with a tail strike, dealing <span style=\"color:#ec6d21\">&Param1&</span> of ATK as AoE Umbra Ultimate DMG  and triggering <span style=\"color:#6A90EB\">Umbra Mark</span>. This effect can only be triggered once every &Param2&s. Increases Karin's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "15701_Potential_05_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "163%",
+                "261%",
+                "359%",
+                "457%",
+                "555%",
+                "652%",
+                "750%",
+                "848%",
+                "946%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate",
+                "Ultimate Crit Rate"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3.7%",
+                "6%",
+                "8.2%",
+                "10.5%",
+                "12.7%",
+                "15%",
+                "16%",
+                "17%",
+                "18%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515706,
+          "name": "Twin Predator",
+          "descShort": "When Boss Shark deals DMG, increases Karin's &Param1& and the &Param3& of Umbra Versatile Trekkers.",
+          "descLong": "When Boss Shark deals DMG, increases Karin's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> and the &Param3& of Umbra Versatile Trekkers by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.",
+          "icons": [
+            "Common_Potential_16_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG",
+                "Ultimate Crit DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7.5%",
+                "12%",
+                "16.5%",
+                "21%",
+                "25.5%",
+                "30%",
+                "34%",
+                "38%",
+                "42%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "64%",
+                "68%",
+                "72%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515707,
+          "name": "Hunter's Command",
+          "descShort": "In an all-Umbra squad, increases the &Param1& dealt by Boss Shark to targets inflicted with <span style=\"color:#6A90EB\">Dark Burn</span>.",
+          "descLong": "In an all-Umbra squad, increases the &Param1& dealt by Boss Shark to targets inflicted with <span style=\"color:#6A90EB\">Dark Burn</span> by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5.2%",
+                "8.4%",
+                "11.5%",
+                "14.7%",
+                "17.8%",
+                "21%",
+                "22%",
+                "23%",
+                "24%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515708,
+          "name": "Dark Shackle Detonation",
+          "descShort": "When an enemy target loses <span style=\"color:#6A90EB\">Hunter's Mark</span>, deals AoE DMG.",
+          "descLong": "When an enemy target loses <span style=\"color:#6A90EB\">Hunter's Mark</span>, deals <span style=\"color:#ec6d21\">&Param1&</span> of Karin's ATK as AoE Umbra Auto ATK DMG and triggering <span style=\"color:#6A90EB\">Umbra Mark</span>. Increases Karin's &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+          "icons": [
+            "15701_Potential_08_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "268%",
+                "429%",
+                "590%",
+                "751%",
+                "911%",
+                "1072%",
+                "1233%",
+                "1394%",
+                "1555%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "11.2%",
+                "18%",
+                "24.7%",
+                "31.5%",
+                "38.2%",
+                "45%",
+                "49%",
+                "52%",
+                "55%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515709,
+          "name": "High-Threat Target",
+          "descShort": "In an all-Umbra squad, when Bait and Catch (Main Skill) is on cooldown, increases the &Param1& dealt by Karin's Auto Attacks to targets inflicted with <span style=\"color:#6A90EB\">Dark Burn</span>.",
+          "descLong": "In an all-Umbra squad, when Bait and Catch (Main Skill) is on cooldown, increases the &Param1& dealt by Karin's Auto Attacks to targets inflicted with <span style=\"color:#6A90EB\">Dark Burn</span> by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_4_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "42%",
+                "44%",
+                "45%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515710,
+          "name": "Hunting Suppression",
+          "descShort": "When Karin triggers <span style=\"color:#6A90EB\">Umbra Mark</span> on a target with <span style=\"color:#6A90EB\">Hunter's Mark</span>, increases her &Param1&.",
+          "descLong": "When Karin triggers <span style=\"color:#6A90EB\">Umbra Mark</span> on a target with <span style=\"color:#6A90EB\">Hunter's Mark</span>, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "Common_Potential_Dark_1_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "22%",
+                "24%",
+                "26%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515711,
+          "name": "Confidence Booster",
+          "descShort": "When Karin triggers an <span style=\"color:#6A90EB\">Umbra Mark</span>, increases &Param1&.",
+          "descLong": "When Karin triggers an <span style=\"color:#6A90EB\">Umbra Mark</span>, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "Common_Potential_10_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515712,
+          "name": "Pursuit of the Shadow",
+          "descShort": "Can dodge one more time. When dodging, increases Karin's &Param1&.",
+          "descLong": "Karin can dodge one more time. When dodging, increases Karin's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_2_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515713,
+          "name": "Aura of Unity",
+          "descShort": "Umbra Trekkers in the squad increase Karin's &Param1& and all Umbra Trekkers' &Param3&.",
+          "descLong": "Each Umbra Trekker in the squad increases Karin's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> and all Umbra Trekkers' &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "Common_Potential_20_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3.2%",
+                "5.2%",
+                "7.1%",
+                "9.1%",
+                "11%",
+                "13%",
+                "14.9%",
+                "16.9%",
+                "18.8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3.2%",
+                "5.2%",
+                "7.1%",
+                "9.1%",
+                "11%",
+                "13%",
+                "14.9%",
+                "16.9%",
+                "18.8%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515721,
+          "name": "Shark's Phantom",
+          "descShort": "Boss Shark summoned by Raging Sea (Support Skill) can repeatedly bite the target, dealing <span style=\"color:#0abec5\">multiple instances of DMG</span>.",
+          "descLong": "Boss Shark summoned by Raging Sea (Support Skill) can repeatedly bite the target, dealing <span style=\"color:#0abec5\">extra instances</span> of DMG to large targets.",
+          "icons": [
+            "15701_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": []
+        },
+        {
+          "id": 515722,
+          "name": "Dark Bite Mark",
+          "descShort": "Boss Shark summoned by Raging Sea (Support Skill) leaves bite marks when dealing DMG. Subsequent DMG from Boss Shark can detonate these bite marks, dealing single-target DMG.",
+          "descLong": "Boss Shark summoned by Raging Sea (Support Skill) leaves bite marks for 1s when dealing DMG. When Boss Shark deals DMG to a target with a bite mark, it detonates the bite mark, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as single-target Umbra Ultimate DMG and triggering <span style=\"color:#6A90EB\">Umbra Mark</span>.",
+          "icons": [
+            "15701_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "151%",
+                "174%",
+                "197%",
+                "265%",
+                "286%",
+                "307%",
+                "350%",
+                "368%",
+                "386%",
+                "422%",
+                "452%",
+                "483%",
+                "513%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515723,
+          "name": "Tidal Lash",
+          "descShort": "When casting Raging Sea (Support Skill), Karin can swing additional chains to deal more DMG.",
+          "descLong": "When casting Raging Sea (Support Skill), Karin can swing additional chains, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Umbra Skill DMG.",
+          "icons": [
+            "15701_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "49%",
+                "56%",
+                "64%",
+                "86%",
+                "93%",
+                "100%",
+                "113%",
+                "119%",
+                "125%",
+                "137%",
+                "147%",
+                "156%",
+                "166%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515724,
+          "name": "Undercurrent Blast",
+          "descShort": "When Karin swings the chain to deal DMG during Raging Sea (Support Skill), triggers explosions that deal AoE DMG.",
+          "descLong": "When Karin swings the chain to deal DMG during Raging Sea (Support Skill), triggers explosions that deal <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Umbra Skill DMG and triggering <span style=\"color:#6A90EB\">Umbra Mark</span>. This effect can be triggered up to <span style=\"color:#0abec5\">4</span> times per chain swing.",
+          "icons": [
+            "15701_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "106%",
+                "122%",
+                "137%",
+                "185%",
+                "200%",
+                "215%",
+                "244%",
+                "257%",
+                "269%",
+                "295%",
+                "316%",
+                "337%",
+                "358%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515725,
+          "name": "Ocean Aftershock",
+          "descShort": "Boss Shark summoned by Raging Sea (Support Skill) triggers bubble explosions along its charge path, dealing AoE DMG.\nIncreases the &Param2& dealt by Boss Shark.",
+          "descLong": "Boss Shark summoned by Raging Sea (Support Skill) triggers bubble explosions along its charge path, with each explosion dealing <span style=\"color:#ec6d21\">&Param1&</span> of ATK as AoE Umbra Ultimate DMG and triggering <span style=\"color:#6A90EB\">Umbra Mark</span>. Increases the &Param2& dealt by Boss Shark by <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "icons": [
+            "15701_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "21%",
+                "34%",
+                "46%",
+                "59%",
+                "72%",
+                "84%",
+                "97%",
+                "110%",
+                "122%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515726,
+          "name": "Pack Pursuit",
+          "descShort": "When Boss Shark summoned by Raging Sea (Support Skill) deals DMG, increases Karin's &Param1&.",
+          "descLong": "When Boss Shark from Raging Sea (Support Skill) deals DMG, increases Karin's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "Common_Potential_5_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.5%",
+                "4%",
+                "5.5%",
+                "7%",
+                "8.5%",
+                "10%",
+                "11.5%",
+                "13%",
+                "14.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515727,
+          "name": "Apex Dominance",
+          "descShort": "Increases the &Param1& dealt by Boss Shark summoned by Raging Sea (Support Skill) to elite or lower-tier targets.",
+          "descLong": "Increases the &Param1& dealt by Boss Shark summoned by Raging Sea (Support Skill) to elite or lower-tier targets by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_4_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515728,
+          "name": "Surging Rhythm",
+          "descShort": "When Karin swings the chain to deal DMG during Raging Sea (Support Skill), increases the &Param1& dealt by subsequent chain hits of this skill.",
+          "descLong": "When Karin swings the chain to deal DMG during Raging Sea (Support Skill), increases the &Param1& dealt by subsequent chain hits of this skill by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "15701_Potential_24_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "3.3%",
+                "4.5%",
+                "5.8%",
+                "7%",
+                "8.3%",
+                "9.5%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515729,
+          "name": "Against the Tide",
+          "descShort": "Increases the &Param1& dealt by chain swings during Raging Sea (Support Skill) to elite or higher-tier targets.",
+          "descLong": "Increases the &Param1& dealt by chain swings during Raging Sea (Support Skill) to elite or higher-tier targets by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "15701_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515730,
+          "name": "Undercurrent Surge",
+          "descShort": "When any Umbra Trekker casts a Main Skill or Support Skill, increases Karin's &Param1&.",
+          "descLong": "When any Umbra Trekker casts a Main Skill or Support Skill, increases Karin's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515731,
+          "name": "Awkward Inspiration",
+          "descShort": "Increases all Umbra Trekkers' &Param1&.",
+          "descLong": "Increases all Umbra Trekkers' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_12_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515732,
+          "name": "Competitive Spirit",
+          "descShort": "When casting Raging Sea (Support Skill), increases Karin's &Param1&.",
+          "descLong": "When casting Raging Sea (Support Skill), increases Karin's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515733,
+          "name": "Moonlit Bond",
+          "descShort": "Umbra Trekkers in the squad increase Karin's &Param1&.",
+          "descLong": "For each Umbra Trekker in the squad, increases Karin's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_20_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6.4%",
+                "8.8%",
+                "11.2%",
+                "13.6%",
+                "16%",
+                "18.4%",
+                "20.8%",
+                "23.2%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515741,
+          "name": "Unyielding Spirit",
+          "descShort": "Increases the &Param1& dealt by Shark Assault (Ultimate) to elite or higher-tier targets. Increases Karin's &Param3&.",
+          "descLong": "Increases the &Param1& dealt by Shark Assault (Ultimate) to elite or higher-tier targets by <span style=\"color:#ec6d21\">&Param2&</span>. Increases Karin's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "15701_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG",
+                "Umbra DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "44%",
+                "47%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515742,
+          "name": "Deep-Sea Conflict",
+          "descShort": "While Shark Assault (Ultimate) is active, continuously shoots bubbles to deal AoE DMG. Increases Karin's &Param3&.",
+          "descLong": "While Shark Assault (Ultimate) is active, shoots <span style=\"color:#ec6d21\">&Param1&</span> bubbles every once in a while, each bubble dealing <span style=\"color:#ec6d21\">&Param2&</span> of ATK as AoE Umbra Ultimate DMG and triggering <span style=\"color:#6A90EB\">Umbra Mark</span>. Increases Karin's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "15701_Potential_42_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1",
+                "1",
+                "2",
+                "2",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "27%",
+                "43%",
+                "59%",
+                "75%",
+                "91%",
+                "107%",
+                "123%",
+                "139%",
+                "155%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "14.5%",
+                "23.2%",
+                "31.9%",
+                "40.6%",
+                "49.3%",
+                "58%",
+                "65%",
+                "70%",
+                "75%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515743,
+          "name": "Self-Transcend",
+          "descShort": "When casting Shark Assault (Ultimate), increases Karin's &Param1&.",
+          "descLong": "When casting Shark Assault (Ultimate), increases Karin's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s. Increases Karin's &Param4& by <span style=\"color:#ec6d21\">&Param5&</span>.",
+          "icons": [
+            "15701_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "17.5%",
+                "28%",
+                "38.5%",
+                "49%",
+                "59.5%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "30"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8.7%",
+                "14%",
+                "19.2%",
+                "24.5%",
+                "29.7%",
+                "35%",
+                "40%",
+                "45%",
+                "50%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 158,
       "name": "Snowish Laru",
       "class": 2,
@@ -60932,6 +62494,363 @@
         }
       ],
       "bg": 4056
+    },
+    {
+      "id": 214057,
+      "name": "Ride the Waves With Me",
+      "desc": "The sea reaches for you with gentle waves.\nEvery sound joins the celebration in perfect harmony.\nWith friends by your side and the breeze beneath you,\nsail toward summer, toward the sea beyond the horizon.",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Ride the Waves with Me",
+          "desc": "The Umbra Main Trekker gains Dark Tide for 15s after dealing Ultimate DMG, stacking up to 3 times.\nWhen the Umbra Main Trekker deals Auto Attack DMG, 1/2/3 stacks of Dark Tide inflict the following on the target: increases Umbra Auto Attack DMG Taken by <span style=\"color:#ec6d21\">&Param1&</span>/<span style=\"color:#ec6d21\">&Param2&</span>/<span style=\"color:#ec6d21\">&Param3&</span> for 10s.\nWhen the Umbra Main Trekker deals Ultimate DMG, 1/2/3 stacks of Dark Tide inflict the following on the target: increases Umbra Ultimate DMG Taken by <span style=\"color:#ec6d21\">&Param4&</span>/<span style=\"color:#ec6d21\">&Param5&</span>/<span style=\"color:#ec6d21\">&Param6&</span> for 10s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3%",
+                "3.6%",
+                "4.2%",
+                "4.8%",
+                "5.4%",
+                "6%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "9%",
+                "10.8%",
+                "12.6%",
+                "14.4%",
+                "16.2%",
+                "18%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Wave Riding",
+          "desc": "Increases the Ultimate Crit DMG dealt by Umbra Trekkers in the squad to targets inflicted with <span style=\"color:#6A90EB\">Dark Burn</span> by <span style=\"color:#ec6d21\">&Param1&</span>.\nDark Tide gains an additional effect: Each stack increases own Ultimate DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "20%",
+                "25%",
+                "30%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Solo Voyage",
+          "desc": "Increases the Auto Attack DMG dealt by Umbra Trekkers in the squad to elite or higher-tier targets by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4057
+    },
+    {
+      "id": 214058,
+      "name": "Summer March",
+      "desc": "One by one, we count the seasons gone by,\nlaying yesterday's sorrows to rest.\nO summer memories, poured out with every burst of laughter,\nmay you never be carried away by the tides of time.",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Summer March",
+          "desc": "Increases the Umbra Main Trekker's Auto Attack and Ultimate DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nThe Umbra Main Trekker gains Surging Wave for &Param2&s when casting a skill, stacking up to &Param3& times.\nWhen a Trekker with Surging Wave deals Ultimate DMG, increases the Umbra DMG dealt by Umbra Trekkers in the squad and their Minions by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7%",
+                "8.4%",
+                "9.8%",
+                "11.2%",
+                "12.6%",
+                "14%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Joyful Wave",
+          "desc": "When the Umbra Main Trekker triggers a mark and inflicts <span style=\"color:#6A90EB\">Dark Burn</span> on a target, increases own Auto Attack DMG by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.\nWhen Surging Wave is at max stacks, increases the Umbra DMG dealt by Umbra Trekkers in the squad and their Minions by <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.5%",
+                "5%",
+                "7.5%",
+                "10%",
+                "12.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Undying Passion",
+          "desc": "Surging Wave gains an additional effect: Each stack increases own ATK by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4058
     }
   ]
 }

@@ -44194,6 +44194,1568 @@
       ]
     },
     {
+      "id": 157,
+      "name": "花铃",
+      "class": 1,
+      "element": 6,
+      "rarity": 1,
+      "mainBuild1Name": "花铃主控流派1",
+      "mainBuild1Desc": "与鲨老大协同狩猎，强化其伤害的流派。",
+      "mainBuild2Name": "花铃主控流派2",
+      "mainBuild2Desc": "提升狩能与猎标的效果，强化普攻的流派。",
+      "supportBuild1Name": "花铃援护流派1",
+      "supportBuild1Desc": "鲨老大造成更大范围伤害与附加特殊效果的流派。",
+      "supportBuild2Name": "花铃援护流派2",
+      "supportBuild2Desc": "提升攻击段数，并附加额外爆炸效果的集中伤害流派。",
+      "potentials": [
+        {
+          "id": 515701,
+          "name": "猎群涡流",
+          "descShort": "「鲨老大」发动攻击可引来鱼群涡流造成范围伤害。提升花铃对附带<span style=\"color:#6A90EB\">暗灼</span>的目标造成的&Param2&。",
+          "descLong": "「鲨老大」发动攻击可引来鱼群涡流，造成攻击力<span style=\"color:#0abec5\">&Param1&x7</span>的范围暗系绝招伤害并触发<span style=\"color:#6A90EB\">暗系印记</span>，该效果每&Param4&秒可触发1次。花铃对附带<span style=\"color:#6A90EB\">暗灼</span>的目标造成的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。",
+          "icons": [
+            "15701_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "绝招暴击率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "39%",
+                "44%",
+                "50%",
+                "68%",
+                "73%",
+                "78%",
+                "89%",
+                "94%",
+                "99%",
+                "108%",
+                "116%",
+                "123%",
+                "131%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.5"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515702,
+          "name": "鲨影潜袭",
+          "descShort": "花铃施放主控技后引来「鲨老大」跟随，期间每隔一定时间对主控目标发动飞扑攻击造成范围伤害。提升\n花铃的&Param2&。",
+          "descLong": "花铃施放主控技后引来「鲨老大」跟随，持续时间<span style=\"color:#0abec5\">8</span>秒。期间「鲨老大」每隔一定时间对主控目标发动飞扑攻击，造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围暗系绝招伤害并触发<span style=\"color:#6A90EB\">暗系印记</span>。花铃的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。",
+          "icons": [
+            "15701_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "绝招暴击率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "192%",
+                "221%",
+                "249%",
+                "336%",
+                "363%",
+                "389%",
+                "443%",
+                "466%",
+                "489%",
+                "535%",
+                "574%",
+                "612%",
+                "650%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "18%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515703,
+          "name": "猎弹散布",
+          "descShort": "花铃对附带<span style=\"color:#6A90EB\">猎标</span>的目标普攻时可发动吊射。花铃对目标附加<span style=\"color:#6A90EB\">猎标</span>时，一定时间内可发射更多普攻子弹。提升花铃的&Param2&和&Param4&。",
+          "descLong": "花铃对附带<span style=\"color:#6A90EB\">猎标</span>的目标普攻时，可额外发动吊射弹，造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围暗系普攻伤害。花铃对目标附加<span style=\"color:#6A90EB\">猎标</span>时，立刻获得<span style=\"color:#0abec5\">3</span>层增益，之后每<span style=\"color:#0abec5\">2</span>秒减少<span style=\"color:#0abec5\">1</span>层，每<span style=\"color:#0abec5\">1</span>层增益使花铃普攻发射的子弹数量增加<span style=\"color:#0abec5\">1</span>枚。场中有附带<span style=\"color:#6A90EB\">猎标</span>的目标时，花铃的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>，&Param4&提升<span style=\"color:#0abec5\">&Param5&</span>",
+          "icons": [
+            "15701_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "攻击"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "26%",
+                "30%",
+                "33%",
+                "45%",
+                "49%",
+                "52%",
+                "59%",
+                "63%",
+                "66%",
+                "72%",
+                "77%",
+                "82%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515704,
+          "name": "追猎暗锁",
+          "descShort": "延长<span style=\"color:#6A90EB\">猎标</span>的持续时间。花铃和附带<span style=\"color:#6A90EB\">猎标</span>的目标连线期间，对路径上的目标持续造成伤害，并回复花铃的<span style=\"color:#6A90EB\">狩能</span>点数。花铃对目标附加<span style=\"color:#6A90EB\">猎标</span>时，提升自身的&Param3&和&Param5&。",
+          "descLong": "<span style=\"color:#6A90EB\">猎标</span>的持续时间延长<span style=\"color:#0abec5\">&Param1&</span>秒。花铃和附带<span style=\"color:#6A90EB\">猎标</span>的目标连线期间，每<span style=\"color:#0abec5\">1</span>秒对连线路径上的目标造成攻击力<span style=\"color:#0abec5\">&Param2&</span>范围暗系普攻伤害，并回复花铃<span style=\"color:#0abec5\">10</span>点<span style=\"color:#6A90EB\">狩能</span>，该伤害可触发<span style=\"color:#6A90EB\">暗系印记</span>。花铃对目标附加<span style=\"color:#6A90EB\">猎标</span>时，自身的&Param3&提升<span style=\"color:#0abec5\">&Param4&</span>，&Param5&提升<span style=\"color:#0abec5\">&Param6&</span>，持续&Param7&秒。",
+          "icons": [
+            "15701_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "攻击"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "174%",
+                "200%",
+                "226%",
+                "304%",
+                "328%",
+                "353%",
+                "401%",
+                "422%",
+                "443%",
+                "485%",
+                "520%",
+                "554%",
+                "589%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515705,
+          "name": "滔天巨浪",
+          "descShort": "花铃造成多次绝招伤害时，引来「鲨老大」的尾击造成范围伤害。",
+          "descLong": "花铃累计造成5次绝招伤害时，引来「鲨老大」的尾击，造成攻击力<span style=\"color:#ec6d21\">&Param1&</span>的范围暗系绝招伤害并触发<span style=\"color:#6A90EB\">暗系印记</span>，该效果每&Param2&秒可触发1次。花铃的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>",
+          "icons": [
+            "15701_Potential_05_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "163%",
+                "261%",
+                "359%",
+                "457%",
+                "555%",
+                "652%",
+                "750%",
+                "848%",
+                "946%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "绝招暴击率",
+                "绝招暴击率",
+                "绝招暴击率",
+                "绝招暴击率",
+                "绝招暴击率",
+                "绝招暴击率",
+                "绝招暴击率",
+                "绝招暴击率",
+                "绝招暴击率"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3.7%",
+                "6%",
+                "8.2%",
+                "10.5%",
+                "12.7%",
+                "15%",
+                "16%",
+                "17%",
+                "18%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515706,
+          "name": "双影狩猎",
+          "descShort": "「鲨老大」造成伤害时，提升花铃的&Param1&，暗系均衡角色的&Param3&。",
+          "descLong": "「鲨老大」造成伤害时，花铃的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，暗系均衡角色的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持续&Param5&秒。",
+          "icons": [
+            "Common_Potential_16_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害",
+                "绝招暴击伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7.5%",
+                "12%",
+                "16.5%",
+                "21%",
+                "25.5%",
+                "30%",
+                "34%",
+                "38%",
+                "42%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "64%",
+                "68%",
+                "72%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515707,
+          "name": "追猎指示",
+          "descShort": "全队都为暗系角色时，提升「鲨老大」对附带<span style=\"color:#6A90EB\">暗灼</span>的目标造成的&Param1&。",
+          "descLong": "全队都为暗系角色时，「鲨老大」对附带<span style=\"color:#6A90EB\">暗灼</span>的目标造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5.2%",
+                "8.4%",
+                "11.5%",
+                "14.7%",
+                "17.8%",
+                "21%",
+                "22%",
+                "23%",
+                "24%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515708,
+          "name": "暗锁溢爆",
+          "descShort": "敌方目标失去<span style=\"color:#6A90EB\">猎标</span>时，造成范围伤害。",
+          "descLong": "敌方目标失去<span style=\"color:#6A90EB\">猎标</span>时，造成花铃攻击力<span style=\"color:#ec6d21\">&Param1&</span>的范围暗系普攻伤害并触发<span style=\"color:#6A90EB\">暗系印记</span>，同时花铃的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒.",
+          "icons": [
+            "15701_Potential_08_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "268%",
+                "429%",
+                "590%",
+                "751%",
+                "911%",
+                "1072%",
+                "1233%",
+                "1394%",
+                "1555%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "11.2%",
+                "18%",
+                "24.7%",
+                "31.5%",
+                "38.2%",
+                "45%",
+                "49%",
+                "52%",
+                "55%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515709,
+          "name": "高危目标",
+          "descShort": "全队都为暗系角色时，在主控技「愿者上钩」冷却期间，提升花铃的普攻对附带<span style=\"color:#6A90EB\">暗灼</span>的目标造成的&Param1&。",
+          "descLong": "全队都为暗系角色时，在主控技「愿者上钩」冷却期间，花铃的普攻对附带<span style=\"color:#6A90EB\">暗灼</span>的目标造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_4_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "42%",
+                "44%",
+                "45%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515710,
+          "name": "狩猎压制",
+          "descShort": "花铃对附带<span style=\"color:#6A90EB\">猎标</span>的目标触发<span style=\"color:#6A90EB\">暗系印记</span>时，提升花铃的&Param1&。",
+          "descLong": "花铃对附带<span style=\"color:#6A90EB\">猎标</span>的目标触发<span style=\"color:#6A90EB\">暗系印记</span>时，花铃的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "Common_Potential_Dark_1_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "22%",
+                "24%",
+                "26%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515711,
+          "name": "信心倍增",
+          "descShort": "花铃触发<span style=\"color:#6A90EB\">暗系印记</span>时，提升&Param1&。",
+          "descLong": "花铃触发<span style=\"color:#6A90EB\">暗系印记</span>时，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "Common_Potential_10_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6%",
+                "9.6%",
+                "13.2%",
+                "16.8%",
+                "20.4%",
+                "24%",
+                "27.6%",
+                "31.2%",
+                "34.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515712,
+          "name": "猎影追踪",
+          "descShort": "增加闪避技能次数。闪避时，提升花铃的&Param1&。",
+          "descLong": "闪避技能次数增加1次。闪避时，花铃的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "Common_Potential_2_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515713,
+          "name": "同谐气场",
+          "descShort": "队伍中的暗系角色可提升花铃的&Param1&，全队暗系角色的&Param3&。",
+          "descLong": "队伍中每1名暗系角色，使花铃的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，全队暗系角色的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "Common_Potential_20_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3.2%",
+                "5.2%",
+                "7.1%",
+                "9.1%",
+                "11%",
+                "13%",
+                "14.9%",
+                "16.9%",
+                "18.8%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3.2%",
+                "5.2%",
+                "7.1%",
+                "9.1%",
+                "11%",
+                "13%",
+                "14.9%",
+                "16.9%",
+                "18.8%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515721,
+          "name": "巨鲨连影",
+          "descShort": "援护技「怒海翻腾」的「鲨老大」可连续撕咬造成<span style=\"color:#0abec5\">多次伤害</span>。",
+          "descLong": "援护技「怒海翻腾」的「鲨老大」可连续撕咬，对大型目标造成<span style=\"color:#0abec5\">额外次数</span>的伤害。",
+          "icons": [
+            "15701_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": []
+        },
+        {
+          "id": 515722,
+          "name": "猎咬暗痕",
+          "descShort": "援护技「怒海翻腾」的「鲨老大」造成伤害时产生齿痕，后续「鲨老大」的伤害可引爆齿痕造成单体伤害。",
+          "descLong": "援护技「怒海翻腾」的「鲨老大」造成伤害时产生齿痕，持续1秒。「鲨老大」对存在齿痕的目标造成伤害时，可引爆齿痕造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的单体暗系绝招伤害并触发<span style=\"color:#6A90EB\">暗系印记</span>。",
+          "icons": [
+            "15701_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "151%",
+                "174%",
+                "197%",
+                "265%",
+                "286%",
+                "307%",
+                "350%",
+                "368%",
+                "386%",
+                "422%",
+                "452%",
+                "483%",
+                "513%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515723,
+          "name": "怒涛鞭策",
+          "descShort": "援护技「怒海翻腾」可额外挥舞更多锁链造成更多伤害。",
+          "descLong": "援护技「怒海翻腾」可额外挥舞更多锁链，额外挥动的锁链造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的暗系范围技能伤害。",
+          "icons": [
+            "15701_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "49%",
+                "56%",
+                "64%",
+                "86%",
+                "93%",
+                "100%",
+                "113%",
+                "119%",
+                "125%",
+                "137%",
+                "147%",
+                "156%",
+                "166%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515724,
+          "name": "暗流震爆",
+          "descShort": "援护技「怒海翻腾」挥舞锁链造成伤害时，可产生爆炸造成范围伤害。",
+          "descLong": "援护技「怒海翻腾」挥舞锁链造成伤害时产生爆炸，造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的暗系范围技能伤害并触发<span style=\"color:#6A90EB\">暗系印记</span>。该效果每次挥动时最多触发<span style=\"color:#0abec5\">4</span>次。",
+          "icons": [
+            "15701_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "106%",
+                "122%",
+                "137%",
+                "185%",
+                "200%",
+                "215%",
+                "244%",
+                "257%",
+                "269%",
+                "295%",
+                "316%",
+                "337%",
+                "358%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515725,
+          "name": "大海余震",
+          "descShort": "援护技「怒海翻腾」的「鲨老大」冲锋路径上会引发水泡爆炸造成范围伤害。提升\n「鲨老大」造成的&Param2&。",
+          "descLong": "援护技「怒海翻腾」的「鲨老大」冲锋路径上会引发水泡爆炸，每次爆炸造成攻击力<span style=\"color:#ec6d21\">&Param1&</span>的暗系范围绝招伤害并触发<span style=\"color:#6A90EB\">暗系印记</span>。「鲨老大」造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>",
+          "icons": [
+            "15701_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "21%",
+                "34%",
+                "46%",
+                "59%",
+                "72%",
+                "84%",
+                "97%",
+                "110%",
+                "122%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515726,
+          "name": "同猎追击",
+          "descShort": "援护技「怒海翻腾」的「鲨老大」造成伤害时，提升花铃的&Param1&。",
+          "descLong": "援护技「怒海翻腾」的「鲨老大」造成伤害时，花铃的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "Common_Potential_5_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.5%",
+                "4%",
+                "5.5%",
+                "7%",
+                "8.5%",
+                "10%",
+                "11.5%",
+                "13%",
+                "14.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515727,
+          "name": "上位压制",
+          "descShort": "提升援护技「怒海翻腾」的「鲨老大」对精英及以下目标造成的&Param1&。",
+          "descLong": "援护技「怒海翻腾」的「鲨老大」对精英及以下目标造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_4_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515728,
+          "name": "汹涌节奏",
+          "descShort": "援护技「怒海翻腾」挥舞锁链造成伤害时，提升本次技能后续锁链造成的&Param1&。",
+          "descLong": "援护技「怒海翻腾」挥舞锁链造成伤害时，本次技能后续锁链造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "15701_Potential_24_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2%",
+                "3.3%",
+                "4.5%",
+                "5.8%",
+                "7%",
+                "8.3%",
+                "9.5%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515729,
+          "name": "迎浪而上",
+          "descShort": "提升援护技「怒海翻腾」挥舞锁链对精英及以上目标造成的&Param1&。",
+          "descLong": "援护技「怒海翻腾」挥舞锁链对精英及以上目标造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "15701_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515730,
+          "name": "暗流翻涌",
+          "descShort": "任意暗系角色施放主控技或援护技时，提升花铃的&Param1&。",
+          "descLong": "任意暗系角色施放主控技或援护技时，花铃的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "12"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515731,
+          "name": "别扭鼓舞",
+          "descShort": "提升全队暗系角色的&Param1&。",
+          "descLong": "全队暗系角色的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_12_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515732,
+          "name": "竞争心理",
+          "descShort": "施放援护技「怒海翻腾」时，提升花铃的&Param1&。",
+          "descLong": "施放援护技「怒海翻腾」时，花铃的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515733,
+          "name": "月夜同色",
+          "descShort": "队伍中的暗系角色可提升花铃的&Param1&。",
+          "descLong": "全队每1名暗系角色，提升花铃的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_20_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6.4%",
+                "8.8%",
+                "11.2%",
+                "13.6%",
+                "16%",
+                "18.4%",
+                "20.8%",
+                "23.2%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515741,
+          "name": "不屈的精神",
+          "descShort": "提升绝招「狂鲨强袭」对精英及以上目标造成的&Param1&。提升花铃的&Param3&。",
+          "descLong": "绝招「狂鲨强袭」对精英及以上目标造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。花铃的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "15701_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害",
+                "暗系伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "44%",
+                "47%",
+                "50%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515742,
+          "name": "绝海的斗争",
+          "descShort": "绝招「狂鲨强袭」期间可持续喷出水泡，造成范围伤害。提升花铃的&Param3&。",
+          "descLong": "绝招「狂鲨强袭」期间，每隔一段时间喷出<span style=\"color:#ec6d21\">&Param1&</span>个水泡，每个水泡造成攻击力<span style=\"color:#ec6d21\">&Param2&</span>的范围暗系绝招伤害并触发<span style=\"color:#6A90EB\">暗系印记</span>。花铃的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "15701_Potential_42_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1",
+                "1",
+                "2",
+                "2",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "27%",
+                "43%",
+                "59%",
+                "75%",
+                "91%",
+                "107%",
+                "123%",
+                "139%",
+                "155%",
+                "0%",
+                "0%",
+                "0%",
+                "0%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "14.5%",
+                "23.2%",
+                "31.9%",
+                "40.6%",
+                "49.3%",
+                "58%",
+                "65%",
+                "70%",
+                "75%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 515743,
+          "name": "自我的超越",
+          "descShort": "施放绝招「狂鲨强袭」时，提升花铃的&Param1&。",
+          "descLong": "施放绝招「狂鲨强袭」时，花铃的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。花铃的&Param4&提升<span style=\"color:#ec6d21\">&Param5&</span>",
+          "icons": [
+            "15701_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "17.5%",
+                "28%",
+                "38.5%",
+                "49%",
+                "59.5%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "30"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "8.7%",
+                "14%",
+                "19.2%",
+                "24.5%",
+                "29.7%",
+                "35%",
+                "40%",
+                "45%",
+                "50%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 158,
       "name": "菈露（圣夜）",
       "class": 2,
@@ -60930,6 +62492,363 @@
         }
       ],
       "bg": 4056
+    },
+    {
+      "id": 214057,
+      "name": "伴我航行",
+      "desc": "清波摇曳，海水吻着肌肤，\n万籁共鸣，庆典气氛正热。\n携友同行，乘在轻风之上，\n向着夏日，向着海的彼方。",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "伴我航行",
+          "desc": "暗系主控角色造成绝招伤害后，自身获得「暗潮」，持续15秒，可叠加3层。\n暗系主控角色造成普攻伤害时，1/2/3层「暗潮」对目标附加：受到暗系普攻伤害提升<span style=\"color:#ec6d21\">&Param1&</span>/<span style=\"color:#ec6d21\">&Param2&</span>/<span style=\"color:#ec6d21\">&Param3&</span>，持续10秒。\n暗系主控角色造成绝招伤害时，1/2/3层「暗潮」对目标附加：受到暗系绝招伤害提升<span style=\"color:#ec6d21\">&Param4&</span>/<span style=\"color:#ec6d21\">&Param5&</span>/<span style=\"color:#ec6d21\">&Param6&</span>，持续10秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3%",
+                "3.6%",
+                "4.2%",
+                "4.8%",
+                "5.4%",
+                "6%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "6%",
+                "7.2%",
+                "8.4%",
+                "9.6%",
+                "10.8%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "9%",
+                "10.8%",
+                "12.6%",
+                "14.4%",
+                "16.2%",
+                "18%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "踏浪而行",
+          "desc": "队伍中暗系角色对附带<span style=\"color:#6A90EB\">暗灼</span>的目标造成的绝招暴击伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n「暗潮」获得额外效果：每层使自身绝招伤害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15%",
+                "20%",
+                "25%",
+                "30%",
+                "35%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "独自远航",
+          "desc": "队伍中暗系角色对精英及以上目标造成的普攻伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4057
+    },
+    {
+      "id": 214058,
+      "name": "夏日进行曲",
+      "desc": "掰着手指细数过往的季节，\n将昨日的苦涩埋藏在心底。\n随欢笑一同倾泄的夏日回忆啊，\n请不要随着时间的潮水退去。",
+      "element": 6,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "夏日进行曲",
+          "desc": "暗系主控角色普攻和绝招伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n暗系主控角色施放技能时，自身获得「激浪」，持续&Param2&秒，可叠加&Param3&层。\n附带「激浪」的角色造成绝招伤害时，队伍中暗系角色及其仆从造成的暗系伤害提升<span style=\"color:#ec6d21\">&Param4&</span>，持续&Param5&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7%",
+                "8.4%",
+                "9.8%",
+                "11.2%",
+                "12.6%",
+                "14%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "欢腾激浪",
+          "desc": "暗系主控角色触发印记造成<span style=\"color:#6A90EB\">暗灼</span>效果时，自身普攻伤害提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒。\n「激浪」满层时，队伍中暗系角色及其仆从造成的暗系伤害额外提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.5%",
+                "5%",
+                "7.5%",
+                "10%",
+                "12.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "热情不减",
+          "desc": "「激浪」获得额外效果：每层使自身攻击力提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90013,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90023,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4058
     }
   ]
 }
