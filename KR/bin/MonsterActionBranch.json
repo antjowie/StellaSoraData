@@ -7727,6 +7727,22 @@
     "TraceDuration": 10000,
     "Activate": true
   },
+  "509120201": {
+    "Id": 509120201,
+    "GroupId": 1,
+    "SkillId": 5091202,
+    "Priority": 1,
+    "Weight": 1,
+    "Rate": 10000,
+    "CD": 99990000,
+    "InitialCDPool": [
+      0
+    ],
+    "ReleaseDistance": 2000000,
+    "ReleaseAngle": 3600000,
+    "TraceDuration": 10000,
+    "Activate": true
+  },
   "509130101": {
     "Id": 509130101,
     "GroupId": 1,
@@ -7779,6 +7795,22 @@
     "Id": 509150101,
     "GroupId": 1,
     "SkillId": 5091501,
+    "Priority": 1,
+    "Weight": 1,
+    "Rate": 10000,
+    "CD": 99990000,
+    "InitialCDPool": [
+      0
+    ],
+    "ReleaseDistance": 2000000,
+    "ReleaseAngle": 3600000,
+    "TraceDuration": 10000,
+    "Activate": true
+  },
+  "509160101": {
+    "Id": 509160101,
+    "GroupId": 1,
+    "SkillId": 5091601,
     "Priority": 1,
     "Weight": 1,
     "Rate": 10000,
@@ -16755,7 +16787,7 @@
     "Priority": 10,
     "Weight": 1,
     "Rate": 10000,
-    "CD": 90000,
+    "CD": 60000,
     "InitialCDPool": [
       0,
       10000,
@@ -16774,7 +16806,7 @@
     "Priority": 8,
     "Weight": 1,
     "Rate": 10000,
-    "CD": 90000,
+    "CD": 60000,
     "InitialCDPool": [
       30000,
       40000
@@ -16791,7 +16823,7 @@
     "Priority": 8,
     "Weight": 1,
     "Rate": 10000,
-    "CD": 20000,
+    "CD": 10000,
     "InitialCDPool": [
       0
     ],
@@ -16913,6 +16945,22 @@
     "TraceDuration": 10000,
     "Activate": true
   },
+  "180210101": {
+    "Id": 180210101,
+    "GroupId": 1,
+    "SkillId": 1802101,
+    "Priority": 10,
+    "Weight": 1,
+    "Rate": 10000,
+    "CD": 50000,
+    "InitialCDPool": [
+      0
+    ],
+    "ReleaseDistance": 1000000,
+    "ReleaseAngle": 3600000,
+    "TraceDuration": 10000,
+    "Activate": true
+  },
   "999000100": {
     "Id": 999000100,
     "SkillId": 9990011,
@@ -16923,6 +16971,18 @@
     "ReleaseDistance": 990000,
     "ReleaseAngle": 3600000,
     "TraceDuration": 50000,
+    "Activate": true
+  },
+  "999000301": {
+    "Id": 999000301,
+    "GroupId": 1,
+    "SkillId": 9990021,
+    "Priority": 7,
+    "Weight": 1,
+    "Rate": 10000,
+    "ReleaseDistance": 9990000,
+    "ReleaseAngle": 3600000,
+    "TraceDuration": 150000,
     "Activate": true
   },
   "311020100": {
