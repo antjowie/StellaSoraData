@@ -44407,8 +44407,8 @@
         {
           "id": 515731,
           "name": "航海士の心得",
-          "descShort": "チーム全体の闇属性巡遊者の&Param1&が上昇する。",
-          "descLong": "チーム内の闇属性巡遊者の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。",
+          "descShort": "チーム全体の闇属性巡遊者の&Param1&が増加する。",
+          "descLong": "チーム内の闇属性巡遊者の&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
           "icons": [
             "Common_Potential_12_A",
             "Potential_Diamond_B",
@@ -44451,8 +44451,8 @@
         {
           "id": 515732,
           "name": "ライバル心",
-          "descShort": "支援スキル発動時、カリンの&Param1&が上昇する。",
-          "descLong": "カリンの支援スキル発動時、&Param3&秒間、カリンの&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>上昇する。",
+          "descShort": "支援スキル発動時、カリンの&Param1&が増加する。",
+          "descLong": "カリンの支援スキル発動時、&Param3&秒間、カリンの&Param1&が<span style=\"color:#ec6d21\">&Param2&</span>増加する。",
           "icons": [
             "Common_Potential_15_A",
             "Potential_Triangle_B",
