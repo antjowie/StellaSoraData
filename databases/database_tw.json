@@ -24653,8 +24653,8 @@
         {
           "id": 513202,
           "name": "街鬥藝術",
-          "descShort": "主控技觸發<span style=\"color:#6A90EB\">光系印記</span>後，強化「二壘安打」。",
-          "descLong": "主控技「&Param1&」觸發<span style=\"color:#6A90EB\">光系印記</span>時，「二壘安打」的傷害倍率提升<span style=\"color:#0abec5\">&Param2&</span>，傷害間隔時間縮短<span style=\"color:#0abec5\">30%</span>。",
+          "descShort": "主控技觸發<span style=\"color:#6A90EB\">光系印記</span>後，強化「二壘打」。",
+          "descLong": "主控技「&Param1&」觸發<span style=\"color:#6A90EB\">光系印記</span>後，「二壘打」的傷害倍率提升<span style=\"color:#0abec5\">&Param2&</span>，傷害間隔縮短<span style=\"color:#0abec5\">30%</span>。",
           "icons": [
             "13201_Potential_02_A"
           ],
@@ -29794,6 +29794,1565 @@
               "idx": 4,
               "values": [
                 "9"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "埃莉諾",
+      "class": 2,
+      "element": 4,
+      "rarity": 1,
+      "mainBuild1Name": "埃莉諾主控流派1",
+      "mainBuild1Desc": "透過持續恢復戰術儲能，高頻率施放強化後十字重斬的普攻流派。",
+      "mainBuild2Name": "埃莉諾主控流派2",
+      "mainBuild2Desc": "熟練操控哨兵，使其面對大量敵人造成大範圍傷害的技能流派。",
+      "supportBuild1Name": "埃莉諾援護流派1",
+      "supportBuild1Desc": "隨著跳躍下砸持續擴大傷害範圍並增加攻擊次數，即使大量敵人蜂擁而至，也能輕鬆應對。",
+      "supportBuild2Name": "埃莉諾援護流派2",
+      "supportBuild2Desc": "持續產生能長時間存在的哨兵，使其快速攻擊定點目標，對小範圍內的敵人造成集中傷害。",
+      "potentials": [
+        {
+          "id": 513701,
+          "name": "戰術協議：閾值",
+          "descShort": "提升「十字重斬」的攻擊次數和&Param1&。獲得<span style=\"color:#6A90EB\">戰術儲能</span>的冷卻縮短。",
+          "descLong": "「十字重斬」可額外攻擊1次。「十字重斬」造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>。「警戒」期間，埃莉諾普攻獲得<span style=\"color:#6A90EB\">戰術儲能</span>的冷卻時間縮短1秒。",
+          "icons": [
+            "13701_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513702,
+          "name": "戰術協議：爆破",
+          "descShort": "獲得或消耗<span style=\"color:#6A90EB\">戰術儲能</span>時發射1枚炸彈。「十字重斬」消耗的<span style=\"color:#6A90EB\">戰術儲能</span>降低。",
+          "descLong": "埃莉諾每次獲得或消耗<span style=\"color:#6A90EB\">戰術儲能</span>時，發射1枚炸彈造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍風系普攻傷害，可觸發<span style=\"color:#6A90EB\">風系印記</span>。「十字重斬」消耗的<span style=\"color:#6A90EB\">戰術儲能</span>降低4點。",
+          "icons": [
+            "13701_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "72%",
+                "83%",
+                "94%",
+                "126%",
+                "136%",
+                "146%",
+                "167%",
+                "175%",
+                "184%",
+                "201%",
+                "216%",
+                "230%",
+                "245%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513703,
+          "name": "戰術協議：超載",
+          "descShort": "「警戒」造成傷害的間隔縮短。施放「十字重斬」時，提升埃莉諾的&Param1&。",
+          "descLong": "「警戒」造成傷害的間隔縮短。施放「十字重斬」時，埃莉諾的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "13701_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "40%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513704,
+          "name": "戰術協議：協同",
+          "descShort": "「警戒」可額外造成範圍風系技能傷害。施放主控技時，提升埃莉諾的&Param2&。",
+          "descLong": "埃莉諾自身的「警戒」對目標累計造成2次傷害時，可額外造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍風系技能傷害。施放主控技「哨衛展開」時，埃莉諾的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>，持續&Param4&秒。",
+          "icons": [
+            "13701_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "193%",
+                "222%",
+                "252%",
+                "339%",
+                "366%",
+                "393%",
+                "447%",
+                "470%",
+                "493%",
+                "540%",
+                "578%",
+                "617%",
+                "656%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513705,
+          "name": "二重裂痕",
+          "descShort": "「十字重斬」可引發額外爆炸。提升「十字重斬」造成的&Param2&。",
+          "descLong": "「十字重斬」可引發額外爆炸，造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的範圍風系普攻傷害。「十字重斬」對菁英以上目標造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "icons": [
+            "13701_Potential_05_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "60%",
+                "96%",
+                "132%",
+                "168%",
+                "204%",
+                "240%",
+                "276%",
+                "312%",
+                "348%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.5%",
+                "12%",
+                "16.5%",
+                "21%",
+                "25.5%",
+                "30%",
+                "34.5%",
+                "39%",
+                "43.5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513706,
+          "name": "戰意激增",
+          "descShort": "施放「十字重斬」時，提升埃莉諾的&Param1&。",
+          "descLong": "施放「十字重斬」時，埃莉諾的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "13701_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13.5%",
+                "21.6%",
+                "29.7%",
+                "37.8%",
+                "45.9%",
+                "54%",
+                "56.7%",
+                "59.4%",
+                "62.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513707,
+          "name": "渦流增效",
+          "descShort": "普攻最後一擊可觸發<span style=\"color:#6A90EB\">風系印記</span>。「警戒」期間，提升埃莉諾的&Param1&。",
+          "descLong": "埃莉諾的普攻最後一擊可觸發<span style=\"color:#6A90EB\">風系印記</span>。「警戒」期間，埃莉諾的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13701_Potential_05_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513708,
+          "name": "廣域散射",
+          "descShort": "提升「警戒」的傷害範圍，提升「警戒」的&Param1&。",
+          "descLong": "「警戒」的傷害範圍提升。「警戒」造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13701_Potential_08_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "18%",
+                "28.8%",
+                "39.6%",
+                "50.4%",
+                "61.2%",
+                "72%",
+                "82.8%",
+                "93.6%",
+                "104.4%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513709,
+          "name": "區域感知",
+          "descShort": "施放主控技時，提升埃莉諾的&Param1&。",
+          "descLong": "施放主控技「哨衛展開」時，周圍每1名目標都會使埃莉諾的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "13701_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4.7%",
+                "7.5%",
+                "10.3%",
+                "13.1%",
+                "15.9%",
+                "18.7%",
+                "19.6%",
+                "20.6%",
+                "21.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513710,
+          "name": "連鎖回饋",
+          "descShort": "造成普攻傷害時，提升埃莉諾的&Param1&。",
+          "descLong": "埃莉諾造成普攻傷害時，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。此效果每1秒最多觸發1次。",
+          "icons": [
+            "13701_Potential_01_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "12.6%",
+                "13.2%",
+                "13.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513711,
+          "name": "殲滅脈衝",
+          "descShort": "絕招可觸發<span style=\"color:#6A90EB\">風系印記</span>。提升埃莉諾的&Param1&。",
+          "descLong": "絕招「火力覆蓋」可觸發<span style=\"color:#6A90EB\">風系印記</span>。埃莉諾的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "50.4%",
+                "52.8%",
+                "55.2%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513712,
+          "name": "閃爍序列",
+          "descShort": "閃避冷卻時間縮減。提升埃莉諾的&Param1&。",
+          "descLong": "閃避冷卻時間縮減25%。埃莉諾的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_2_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7.8%",
+                "12.5%",
+                "17.2%",
+                "21.8%",
+                "26.5%",
+                "31.2%",
+                "32.8%",
+                "34.3%",
+                "35.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513713,
+          "name": "風靈連結",
+          "descShort": "觸發<span style=\"color:#6A90EB\">風系印記</span>時，提升全隊風系角色的&Param1&。",
+          "descLong": "觸發<span style=\"color:#6A90EB\">風系印記</span>時，全隊風系角色的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513721,
+          "name": "連鎖引爆",
+          "descShort": "提升援護技的&Param1&。增加援護技引發的爆炸次數。",
+          "descLong": "援護技「武裝強襲」下砸爆炸的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>。援護技「武裝強襲」每次跳躍下砸時，引發的爆炸會比上一次增加1次，援護技結束時清除此效果。",
+          "icons": [
+            "13701_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能暴擊率"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513722,
+          "name": "震源擴張",
+          "descShort": "提升援護技的&Param3&。提升援護技的傷害範圍和&Param1&。",
+          "descLong": "援護技「武裝強襲」下砸爆炸的&Param3&提升<span style=\"color:#0abec5\">&Param4&</span>。隊伍中僅有1名輔助角色時，援護技「武裝強襲」每次跳躍下砸時，本次援護技下砸爆炸的傷害範圍提升，每次產生下砸爆炸，後續下砸爆炸造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>，可疊加9層。",
+          "icons": [
+            "13701_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "技能暴擊傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "傷害倍率"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "24%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513723,
+          "name": "機能續航",
+          "descShort": "提升<span style=\"color:#6A90EB\">哨兵</span>的&Param5&。每次產生<span style=\"color:#6A90EB\">哨兵</span>時，延長場中現有<span style=\"color:#6A90EB\">哨兵</span>的存在時間。援護技可提升<span style=\"color:#6A90EB\">哨兵</span>造成的&Param1&。",
+          "descLong": "<span style=\"color:#6A90EB\">哨兵</span>的&Param5&提升<span style=\"color:#0abec5\">&Param6&</span>。每次產生<span style=\"color:#6A90EB\">哨兵</span>時，延長場中現有<span style=\"color:#6A90EB\">哨兵</span>的存在時間。援護技「武裝強襲」每次跳躍下砸時，<span style=\"color:#6A90EB\">哨兵</span>造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "13701_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "傷害倍率"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "48%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513724,
+          "name": "集群速射",
+          "descShort": "<span style=\"color:#6A90EB\">哨兵</span>額外造成範圍風系普攻傷害。場中每1名<span style=\"color:#6A90EB\">哨兵</span>可使全場<span style=\"color:#6A90EB\">哨兵</span>的&Param2&提升。",
+          "descLong": "<span style=\"color:#6A90EB\">哨兵</span>的子彈對主控目標累計造成3次傷害時，額外造成攻擊力<span style=\"color:#0abec5\">&Param1&</span>的範圍風系普攻傷害，此效果每0.5秒可觸發1次。場中每1名<span style=\"color:#6A90EB\">哨兵</span>可使全場<span style=\"color:#6A90EB\">哨兵</span>的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。",
+          "icons": [
+            "13701_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "攻擊速度"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "117%",
+                "134%",
+                "152%",
+                "204%",
+                "220%",
+                "236%",
+                "269%",
+                "282%",
+                "296%",
+                "324%",
+                "347%",
+                "370%",
+                "394%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "33%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513725,
+          "name": "力場牽引",
+          "descShort": "提升援護技的&Param3&。提升援護技下砸爆炸的&Param1&。",
+          "descLong": "援護技「武裝強襲」下砸爆炸的&Param3&提升&Param4&，造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13701_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "技能暴擊率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "15%",
+                "20%",
+                "26%",
+                "31%",
+                "37%",
+                "43%",
+                "48%",
+                "54%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513726,
+          "name": "動力增壓",
+          "descShort": "援護技下砸爆炸造成傷害時，提升埃莉諾的&Param1&和風系先鋒主控角色的&Param5&。",
+          "descLong": "援護技「武裝強襲」下砸爆炸造成傷害時，埃莉諾的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。同時，風系先鋒主控角色的&Param5&提升<span style=\"color:#ec6d21\">&Param6&</span>，持續&Param7&秒，可疊加&Param8&層。",
+          "icons": [
+            "13701_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害",
+                "技能傷害"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害",
+                "技能暴擊傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.2%",
+                "4.4%",
+                "4.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "1.3%",
+                "2%",
+                "2.8%",
+                "3.5%",
+                "4.3%",
+                "5%",
+                "5.3%",
+                "5.5%",
+                "5.8%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513727,
+          "name": "破陣重擊",
+          "descShort": "提升援護技下砸爆炸造成的&Param1&和&Param3&。",
+          "descLong": "援護技「武裝強襲」下砸爆炸的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "13701_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率",
+                "傷害倍率"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4.7%",
+                "7.5%",
+                "10.4%",
+                "13.2%",
+                "16%",
+                "18.8%",
+                "19.8%",
+                "20.7%",
+                "21.6%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "84%",
+                "88%",
+                "92%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513728,
+          "name": "貫穿彈道",
+          "descShort": "提升<span style=\"color:#6A90EB\">哨兵</span>發射的子彈大小與<span style=\"color:#6A90EB\">哨兵</span>造成的&Param1&。",
+          "descLong": "<span style=\"color:#6A90EB\">哨兵</span>發射的子彈大小提升，可穿透目標。<span style=\"color:#6A90EB\">哨兵</span>對菁英以上目標造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13701_Potential_28_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "32%",
+                "50%",
+                "69%",
+                "88%",
+                "107%",
+                "126%",
+                "145%",
+                "164%",
+                "183%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513729,
+          "name": "壓制解析",
+          "descShort": "提升<span style=\"color:#6A90EB\">哨兵</span>造成的&Param1&。提升埃莉諾的&Param3&。",
+          "descLong": "<span style=\"color:#6A90EB\">哨兵</span>對主控目標造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。埃莉諾的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "13701_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14.4%",
+                "19.8%",
+                "25.2%",
+                "30.6%",
+                "36%",
+                "37.8%",
+                "39.6%",
+                "41.4%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "18%",
+                "28.8%",
+                "39.6%",
+                "50.4%",
+                "61.2%",
+                "72%",
+                "75.6%",
+                "79.2%",
+                "82.8%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513730,
+          "name": "精密校準",
+          "descShort": "提升<span style=\"color:#6A90EB\">哨兵</span>的&Param1&。<span style=\"color:#6A90EB\">哨兵</span>可提升風系先鋒主控角色的&Param3&。",
+          "descLong": "<span style=\"color:#6A90EB\">哨兵</span>的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。場中存在3名<span style=\"color:#6A90EB\">哨兵</span>可使風系先鋒主控角色的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持續10秒。",
+          "icons": [
+            "13701_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害",
+                "普攻傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10.5%",
+                "16.8%",
+                "23.1%",
+                "29.4%",
+                "35.7%",
+                "42%",
+                "44.1%",
+                "46.2%",
+                "48.3%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513731,
+          "name": "風靈諧振",
+          "descShort": "觸發<span style=\"color:#6A90EB\">風系印記</span>時，提升埃莉諾的&Param1&。",
+          "descLong": "全隊觸發<span style=\"color:#6A90EB\">風系印記</span>時，埃莉諾的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "84%",
+                "88%",
+                "92%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513732,
+          "name": "殲滅餘響",
+          "descShort": "絕招可附加<span style=\"color:#6A90EB\">風系印記：風息</span>。埃莉諾對目標造成傷害時，使目標的&Param1&提升。",
+          "descLong": "絕招「火力覆蓋」可附加<span style=\"color:#6A90EB\">風系印記：風息</span>。埃莉諾對目標造成傷害時，使目標的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害",
+                "受到的風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513733,
+          "name": "戰力增幅",
+          "descShort": "埃莉諾造成傷害時，提升全隊風系角色的&Param1&。",
+          "descLong": "埃莉諾造成傷害時，全隊風系角色的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.3%",
+                "2.1%",
+                "2.9%",
+                "3.6%",
+                "4.4%",
+                "5.2%",
+                "5.5%",
+                "5.7%",
+                "6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513741,
+          "name": "增援指令",
+          "descShort": "施放絕招時，提升埃莉諾的&Param1&。",
+          "descLong": "埃莉諾施放絕招「火力覆蓋」時，埃莉諾的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "16%",
+                "25.6%",
+                "35.2%",
+                "44.8%",
+                "54.4%",
+                "64%",
+                "67.2%",
+                "70.4%",
+                "73.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513742,
+          "name": "肅清指令",
+          "descShort": "提升埃莉諾的&Param5&。絕招對目標造成傷害時，提升絕招造成的&Param1&。",
+          "descLong": "埃莉諾的&Param5&提升<span style=\"color:#ec6d21\">&Param6&</span>。絕招「火力覆蓋」對目標造成傷害時，提升絕招對該目標造成的&Param1&<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害",
+                "風系傷害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "42%",
+                "44%",
+                "46%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.4%",
+                "3.8%",
+                "5.2%",
+                "6.7%",
+                "8.1%",
+                "9.5%",
+                "10%",
+                "10.5%",
+                "10.9%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513743,
+          "name": "集中指令",
+          "descShort": "提升埃莉諾的&Param5&。全隊風系角色施放主控技或援護技時，提升埃莉諾的&Param1&。",
+          "descLong": "埃莉諾的&Param5&提升<span style=\"color:#ec6d21\">&Param6&</span>。全隊風系角色施放主控技或援護技時，埃莉諾的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒，可疊加&Param4&層。",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊",
+                "攻擊"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害",
+                "絕招傷害"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "50.4%",
+                "52.8%",
+                "55.2%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.6%",
+                "2.6%",
+                "3.5%",
+                "4.5%",
+                "5.4%",
+                "6.4%",
+                "6.7%",
+                "7%",
+                "7.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
               ]
             }
           ]
@@ -35321,7 +36880,7 @@
           "id": 514407,
           "name": "逐浪幻鱗",
           "descShort": "「騰蛇」命中時，額外產生「騰蛇」。",
-          "descLong": "「騰蛇」命中時，額外產生「騰蛇」，造成攻擊力<span style=\"color:#fb8037\">&Param1&</span>的水系普攻傷害，此效果每3秒最多觸發3次，可觸發<span style=\"color:#6A90EB\">水系印記</span>。",
+          "descLong": "「騰蛇」命中時，額外產生「騰蛇」，造成攻擊力<span style=\"color:#fb8037\">&Param1&x2</span>的水系普攻傷害，此效果每3秒最多觸發3次，可觸發<span style=\"color:#6A90EB\">水系印記</span>。",
           "icons": [
             "14401_Potential_01_A",
             "Potential_Round_B",
@@ -49137,8 +50696,8 @@
         {
           "id": 516010,
           "name": "搖曳浮光",
-          "descShort": "「泡泡蛙」每彈跳一定次數後，造成大範圍水系技能傷害，可附加<span style=\"color:#6A90EB\">水系印記：水流</span>，同時提升目標&Param2&。",
-          "descLong": "「泡泡蛙」每彈跳2次，造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的大範圍水系技能傷害，可附加<span style=\"color:#6A90EB\">水系印記：水流</span>，同時使目標&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒。",
+          "descShort": "「泡泡蛙」每彈跳一定次數後，造成大範圍水系技能傷害，可附加<span style=\"color:#6A90EB\">水系印記：水流</span>，同時使目標受到的所有屬性傷害提升。",
+          "descLong": "「泡泡蛙」每彈跳2次，造成攻擊力<span style=\"color:#ec6d21\">&Param1&</span>的大範圍水系技能傷害，可附加<span style=\"color:#6A90EB\">水系印記：水流</span>，同时使目標受到的所有屬性傷害提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒，可疊加&Param6&層。",
           "icons": [
             "16001_Potential_03_A",
             "Potential_Round_B",
@@ -49148,20 +50707,6 @@
           "build": 2,
           "type": 1,
           "params": [
-            {
-              "idx": 2,
-              "values": [
-                "受到的水系傷害",
-                "受到的水系傷害",
-                "受到的水系傷害",
-                "受到的水系傷害",
-                "受到的水系傷害",
-                "受到的水系傷害",
-                "受到的水系傷害",
-                "受到的水系傷害",
-                "受到的水系傷害"
-              ]
-            },
             {
               "idx": 1,
               "values": [
@@ -49198,6 +50743,12 @@
               "idx": 4,
               "values": [
                 "5"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "4"
               ]
             }
           ]
@@ -62837,6 +64388,361 @@
         }
       ],
       "bg": 4058
+    },
+    {
+      "id": 214059,
+      "name": "飛吧，籠中鳥",
+      "desc": "籠中鳥高聲啼鳴，每一片羽毛都在陽光下熠熠生輝。\n牠駐足停留，牠按捺雀躍。\n鐵籠無法阻擋對明日的希望，\n總有一日，終將朝著夢想與自由的天空展翅翱翔——",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "飛吧，籠中鳥",
+          "desc": "風系均衡角色在場時，每秒為主控角色附加1層「希冀」，持續&Param1&秒，最多可疊加10層。\n附帶5層以上「希冀」的角色造成傷害時，使目標受到的風系技能傷害提升<span style=\"color:#ec6d21\">&Param2&</span>，持續&Param3&秒。\n附帶10層「希冀」的角色造成傷害時，額外使目標受到的風系普攻傷害提升<span style=\"color:#ec6d21\">&Param4&</span>，持續&Param5&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "夢想之翼",
+          "desc": "風系均衡角色造成的普攻和技能傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n「希冀」獲得額外效果：每層使自身技能暴擊傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.5%",
+                "2%",
+                "2.5%",
+                "3%",
+                "3.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "未來之聲",
+          "desc": "附帶「希冀」的角色觸發印記產生「氣旋」時，全隊風系普攻傷害提升<span style=\"color:#ec6d21\">&Param1&</span>，持續&Param2&秒。\n附帶「希冀」的角色觸發印記產生「綻放」時，全隊風系技能傷害提升<span style=\"color:#ec6d21\">&Param3&</span>，持續&Param4&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4059
+    },
+    {
+      "id": 214060,
+      "name": "榮耀時刻",
+      "desc": "心臟正怦怦跳著。\n台下的歡呼聲、留影機「喀嚓喀嚓」的聲響，\n照亮大廳的光芒，其間點綴著星辰般的璀璨。\n第一次受到人們如此期待，第一次看見那麼多雙認同的眼神——\n對她而言，最光榮的時刻，就是現在。",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "榮耀時刻",
+          "desc": "風系均衡角色造成普攻和技能傷害時，風系主控角色獲得1層「光榮」，持續&Param1&秒，可疊加&Param2&層。\n「光榮」層數達到10層時，隊伍中風系角色造成的風系傷害提升<span style=\"color:#ec6d21\">&Param3&</span>。\n「光榮」層數達到20層時，額外使隊伍中風系角色造成的普攻傷害提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "光輝道路",
+          "desc": "隊伍中風系角色攻擊力提升<span style=\"color:#ec6d21\">&Param1&</span>。\n「光榮」獲得額外效果：每層使自身的技能傷害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.1%",
+                "0.2%",
+                "0.3%",
+                "0.4%",
+                "0.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "遠大前程",
+          "desc": "「光榮」滿層時，隊伍中風系角色造成的風系傷害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4060
     }
   ]
 }

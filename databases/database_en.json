@@ -24668,7 +24668,7 @@
           "id": 513202,
           "name": "Clan Clash Artistry",
           "descShort": "When the Main Skill triggers a <span style=\"color:#6A90EB\">Lux Mark</span>, enhances Two Base Hit.",
-          "descLong": "When &Param1& (Main Skill) triggers a <span style=\"color:#6A90EB\">Lux Mark</span>, enhances Two Base Hit, increasing its DMG Multiplier by <span style=\"color:#0abec5\">&Param2&</span> and reducing its Attack Interval by <span style=\"color:#0abec5\">30%</span>.",
+          "descLong": "When &Param1& (Main Skill) triggers a <span style=\"color:#6A90EB\">Lux Mark</span>, enhances Two Base Hit's DMG Multiplier by <span style=\"color:#0abec5\">&Param2&</span> and reduces its Attack Interval by <span style=\"color:#0abec5\">30%</span>.",
           "icons": [
             "13201_Potential_02_A"
           ],
@@ -29808,6 +29808,1565 @@
               "idx": 4,
               "values": [
                 "9"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Eleanor",
+      "class": 2,
+      "element": 4,
+      "rarity": 1,
+      "mainBuild1Name": "Eleanor: Main Build 1",
+      "mainBuild1Desc": "An Auto Attack build that restores Tactical Energy over time to cast enhanced Cross Slash at high frequency.",
+      "mainBuild2Name": "Eleanor: Main Build 2",
+      "mainBuild2Desc": "A skill build that expertly controls sentries to deal DMG in a large area to hordes of enemies.",
+      "supportBuild1Name": "Eleanor: Support Build 1",
+      "supportBuild1Desc": "Increases the Attack Range and the number of attacks with each jump slam, making it easy to handle waves of enemies.",
+      "supportBuild2Name": "Eleanor: Support Build 2",
+      "supportBuild2Desc": "Summons long-lasting sentries to rapidly attack designated targets, dealing concentrated DMG to enemies in a small area.",
+      "potentials": [
+        {
+          "id": 513701,
+          "name": "Tactical Protocol: Threshold",
+          "descShort": "Increases the number of attacks and &Param1& of Cross Slash. Reduces the cooldown for gaining <span style=\"color:#6A90EB\">Tactical Energy</span>.",
+          "descLong": "Cross Slash can attack 1 additional time. Increases Cross Slash's &Param1& by <span style=\"color:#0abec5\">&Param2&</span>. While Vigil is active, reduces the cooldown for gaining <span style=\"color:#6A90EB\">Tactical Energy</span> for Eleanor's Auto Attacks by 1s.",
+          "icons": [
+            "13701_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513702,
+          "name": "Tactical Protocol: Detonation",
+          "descShort": "When <span style=\"color:#6A90EB\">Tactical Energy</span> is gained or consumed, fires 1 bomb. Reduces the <span style=\"color:#6A90EB\">Tactical Energy</span> consumed by Cross Slash.",
+          "descLong": "Whenever Eleanor gains or spends <span style=\"color:#6A90EB\">Tactical Energy</span>, fires 1 bomb that deals AoE Ventus Auto Attack DMG equal to <span style=\"color:#0abec5\">&Param1&</span> of ATK and can trigger <span style=\"color:#6A90EB\">Ventus Mark</span>. Reduces the <span style=\"color:#6A90EB\">Tactical Energy</span> consumed by Cross Slash by 4.",
+          "icons": [
+            "13701_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "72%",
+                "83%",
+                "94%",
+                "126%",
+                "136%",
+                "146%",
+                "167%",
+                "175%",
+                "184%",
+                "201%",
+                "216%",
+                "230%",
+                "245%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513703,
+          "name": "Tactical Protocol: Overload",
+          "descShort": "Reduces Vigil's Attack Interval. When casting Cross Slash, increases Eleanor's &Param1&.",
+          "descLong": "Reduces Vigil's Attack Interval. When casting Cross Slash, increases Eleanor's &Param1& by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "13701_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "40%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513704,
+          "name": "Tactical Protocol: Synergy",
+          "descShort": "Vigil can deal additional AoE Ventus Skill DMG. When casting the Main Skill, increases Eleanor's &Param2&.",
+          "descLong": "When Eleanor's Vigil deals DMG to a target 2 times, it can deal an additional <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Ventus Skill DMG. When casting Sentry Deployment (Main Skill), increases Eleanor's &Param2& by <span style=\"color:#0abec5\">&Param3&</span> for &Param4&s.",
+          "icons": [
+            "13701_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "193%",
+                "222%",
+                "252%",
+                "339%",
+                "366%",
+                "393%",
+                "447%",
+                "470%",
+                "493%",
+                "540%",
+                "578%",
+                "617%",
+                "656%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513705,
+          "name": "Double Rifts",
+          "descShort": "Cross Slash can trigger additional explosions. Increases Cross Slash's &Param2&.",
+          "descLong": "Cross Slash can trigger additional explosions, dealing AoE Ventus Auto Attack DMG equal to <span style=\"color:#ec6d21\">&Param1&</span> of ATK. Increases Cross Slash's &Param2& against elite or higher-tier targets by <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "icons": [
+            "13701_Potential_05_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "60%",
+                "96%",
+                "132%",
+                "168%",
+                "204%",
+                "240%",
+                "276%",
+                "312%",
+                "348%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.5%",
+                "12%",
+                "16.5%",
+                "21%",
+                "25.5%",
+                "30%",
+                "34.5%",
+                "39%",
+                "43.5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513706,
+          "name": "Battle Fury",
+          "descShort": "When casting Cross Slash, increases Eleanor's &Param1&.",
+          "descLong": "When casting Cross Slash, increases Eleanor's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "13701_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13.5%",
+                "21.6%",
+                "29.7%",
+                "37.8%",
+                "45.9%",
+                "54%",
+                "56.7%",
+                "59.4%",
+                "62.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513707,
+          "name": "Vortex Boost",
+          "descShort": "The last Auto Attack strike can trigger <span style=\"color:#6A90EB\">Ventus Mark</span>. During Vigil, increases Eleanor's &Param1&.",
+          "descLong": "The last Auto Attack strike can trigger <span style=\"color:#6A90EB\">Ventus Mark</span>. During Vigil, increases Eleanor's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "13701_Potential_05_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513708,
+          "name": "Area Volley",
+          "descShort": "Increases Vigil's Attack Range and its &Param1&.",
+          "descLong": "Increases Vigil's Attack Range and its &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "13701_Potential_08_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "18%",
+                "28.8%",
+                "39.6%",
+                "50.4%",
+                "61.2%",
+                "72%",
+                "82.8%",
+                "93.6%",
+                "104.4%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513709,
+          "name": "Zone Detection",
+          "descShort": "When casting the Main Skill, increases Eleanor's &Param1&.",
+          "descLong": "When casting Sentry Deployment (Main Skill), each target near Eleanor increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, up to &Param4& stacks.",
+          "icons": [
+            "13701_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4.7%",
+                "7.5%",
+                "10.3%",
+                "13.1%",
+                "15.9%",
+                "18.7%",
+                "19.6%",
+                "20.6%",
+                "21.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513710,
+          "name": "Chain Echo",
+          "descShort": "When Auto Attack DMG is dealt, increases Eleanor's &Param1&.",
+          "descLong": "When Eleanor deals Auto Attack DMG, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times. This effect can only be triggered once per sec.",
+          "icons": [
+            "13701_Potential_01_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "12.6%",
+                "13.2%",
+                "13.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513711,
+          "name": "Annihilation Pulse",
+          "descShort": "The Ultimate can trigger <span style=\"color:#6A90EB\">Ventus Mark</span>. Increases Eleanor's &Param1&.",
+          "descLong": "Firestorm (Ultimate) can trigger <span style=\"color:#6A90EB\">Ventus Mark</span>. Increases Eleanor's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "50.4%",
+                "52.8%",
+                "55.2%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513712,
+          "name": "Flicker Sequence",
+          "descShort": "Decreases Dodge cooldown. Increases Eleanor's &Param1&.",
+          "descLong": "Decreases Dodge cooldown by 25%. Increases Eleanor's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_2_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7.8%",
+                "12.5%",
+                "17.2%",
+                "21.8%",
+                "26.5%",
+                "31.2%",
+                "32.8%",
+                "34.3%",
+                "35.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513713,
+          "name": "Wind Bond",
+          "descShort": "When triggering <span style=\"color:#6A90EB\">Ventus Mark</span>, increases the &Param1& of all Ventus Trekkers in the squad.",
+          "descLong": "When triggering <span style=\"color:#6A90EB\">Ventus Mark</span>, increases the &Param1& of all Ventus Trekkers in the squad by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513721,
+          "name": "Chain Detonation",
+          "descShort": "Increases the Support Skill's &Param1& and the number of explosions.",
+          "descLong": "Increases the &Param1& of jump slam explosions from Armed Assault (Support Skill) by <span style=\"color:#0abec5\">&Param2&</span>. Increases the number of explosions of each jump slam by 1. Resets when the Support Skill ends.",
+          "icons": [
+            "13701_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill Crit Rate"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513722,
+          "name": "Seismic Spread",
+          "descShort": "Increases the Support Skill's &Param3&, Attack Range, and &Param1&.",
+          "descLong": "Increases the &Param3& of jump slam explosions from Armed Assault (Support Skill) by <span style=\"color:#0abec5\">&Param4&</span>. When there is only 1 Support Trekker in the squad, increases the Attack Range and &Param1& of each jump slam's explosion. After each explosion, increases &Param1& dealt by the following jump slam explosions by <span style=\"color:#0abec5\">&Param2&</span>, stacking up to 9 times.",
+          "icons": [
+            "13701_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Skill Crit DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "DMG multiplier"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "24%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513723,
+          "name": "Function Sustain",
+          "descShort": "Increases <span style=\"color:#6A90EB\">Sentries'</span> &Param5&. Each time a <span style=\"color:#6A90EB\">Sentry</span> is generated, extends the duration of all existing <span style=\"color:#6A90EB\">Sentries</span> on the field. The Support Skill can increase <span style=\"color:#6A90EB\">Sentries'</span> &Param1&.",
+          "descLong": "Increases <span style=\"color:#6A90EB\">Sentries'</span> &Param5& by <span style=\"color:#0abec5\">&Param6&</span>. Each time a <span style=\"color:#6A90EB\">Sentry</span> is generated, extends the duration of all existing <span style=\"color:#6A90EB\">Sentries</span> on the field. Each jump slam from Armed Assault (Support Skill) increases <span style=\"color:#6A90EB\">Sentries'</span> &Param1& by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "13701_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "DMG multiplier"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "48%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513724,
+          "name": "Cluster Barrage",
+          "descShort": "<span style=\"color:#6A90EB\">Sentries</span> deal additional AoE Ventus Auto Attack DMG. Each <span style=\"color:#6A90EB\">Sentry</span> on the field increases &Param2& of all <span style=\"color:#6A90EB\">Sentries</span> on the field.",
+          "descLong": "When <span style=\"color:#6A90EB\">Sentries'</span> bullets deal DMG to the Main Trekker's target 3 times, deals an additional <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Ventus Auto Attack DMG. This effect can be triggered once every 0.5s. Each <span style=\"color:#6A90EB\">Sentry</span> on the field increases &Param2& of all <span style=\"color:#6A90EB\">Sentries</span> on the field by <span style=\"color:#0abec5\">&Param3&</span>.",
+          "icons": [
+            "13701_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "ATK SPD"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "117%",
+                "134%",
+                "152%",
+                "204%",
+                "220%",
+                "236%",
+                "269%",
+                "282%",
+                "296%",
+                "324%",
+                "347%",
+                "370%",
+                "394%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "33%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513725,
+          "name": "Field Pull",
+          "descShort": "Increases the Support Skill's &Param3& and &Param1& of its jump slam explosions.",
+          "descLong": "Increases the &Param3& of jump slam explosions from Armed Assault (Support Skill) by &Param4& and their &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "13701_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Skill Crit Rate"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "15%",
+                "20%",
+                "26%",
+                "31%",
+                "37%",
+                "43%",
+                "48%",
+                "54%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513726,
+          "name": "Power Boost",
+          "descShort": "When jump slam explosions from the Support Skill deal DMG, increases Eleanor's &Param1& and the Ventus Vanguard Main Trekker's &Param5&.",
+          "descLong": "When jump slam explosions from Armed Assault (Support Skill) deal DMG, increases Eleanor's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times. Increases the Ventus Vanguard Main Trekker's &Param5& by <span style=\"color:#ec6d21\">&Param6&</span> for &Param7&s, stacking up to &Param8& times.",
+          "icons": [
+            "13701_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG",
+                "Skill DMG"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG",
+                "Skill Crit DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.2%",
+                "4.4%",
+                "4.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "1.3%",
+                "2%",
+                "2.8%",
+                "3.5%",
+                "4.3%",
+                "5%",
+                "5.3%",
+                "5.5%",
+                "5.8%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513727,
+          "name": "Shattering Blow",
+          "descShort": "Increases the &Param1& and &Param3& of jump slam explosions from the Support Skill.",
+          "descLong": "Increases the &Param1& of jump slam explosions from Armed Assault (Support Skill) by <span style=\"color:#ec6d21\">&Param2&</span> and &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "13701_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier",
+                "DMG multiplier"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4.7%",
+                "7.5%",
+                "10.4%",
+                "13.2%",
+                "16%",
+                "18.8%",
+                "19.8%",
+                "20.7%",
+                "21.6%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "84%",
+                "88%",
+                "92%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513728,
+          "name": "Piercing Trajectory",
+          "descShort": "Increases the size of bullets fired by <span style=\"color:#6A90EB\">Sentries</span>. Increases <span style=\"color:#6A90EB\">Sentries'</span> &Param1&.",
+          "descLong": "Increases the size of bullets fired by <span style=\"color:#6A90EB\">Sentries</span>, which can penetrate targets. Increases the &Param1& of <span style=\"color:#6A90EB\">Sentries</span> against elite or higher-tier targets by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "13701_Potential_28_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "32%",
+                "50%",
+                "69%",
+                "88%",
+                "107%",
+                "126%",
+                "145%",
+                "164%",
+                "183%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513729,
+          "name": "Suppression Analysis",
+          "descShort": "Increases <span style=\"color:#6A90EB\">Sentries'</span> &Param1& and Eleanor's &Param3&.",
+          "descLong": "Increases the &Param1& <span style=\"color:#6A90EB\">Sentries</span> deal to the Main Trekker's target by <span style=\"color:#ec6d21\">&Param2&</span> and Eleanor's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "icons": [
+            "13701_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14.4%",
+                "19.8%",
+                "25.2%",
+                "30.6%",
+                "36%",
+                "37.8%",
+                "39.6%",
+                "41.4%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "18%",
+                "28.8%",
+                "39.6%",
+                "50.4%",
+                "61.2%",
+                "72%",
+                "75.6%",
+                "79.2%",
+                "82.8%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513730,
+          "name": "Precision Calibration",
+          "descShort": "Increases <span style=\"color:#6A90EB\">Sentries'</span> &Param1&. <span style=\"color:#6A90EB\">Sentries</span> can increase the Ventus Vanguard Main Trekker's &Param3&.",
+          "descLong": "Increases <span style=\"color:#6A90EB\">Sentries'</span> &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. When there are 3 <span style=\"color:#6A90EB\">Sentries</span> on the field, increases the Ventus Vanguard Main Trekker's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span> for 10s.",
+          "icons": [
+            "13701_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10.5%",
+                "16.8%",
+                "23.1%",
+                "29.4%",
+                "35.7%",
+                "42%",
+                "44.1%",
+                "46.2%",
+                "48.3%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513731,
+          "name": "Wind Resonance",
+          "descShort": "When triggering <span style=\"color:#6A90EB\">Ventus Mark</span>, increases Eleanor's &Param1&.",
+          "descLong": "When any Trekker in the squad triggers <span style=\"color:#6A90EB\">Ventus Mark</span>, increases Eleanor's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "84%",
+                "88%",
+                "92%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513732,
+          "name": "Annihilation Echo",
+          "descShort": "The Ultimate can inflict <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>. When Eleanor deals DMG to a target, increases the target's &Param1&.",
+          "descLong": "Firestorm (Ultimate) can inflict <span style=\"color:#6A90EB\">Ventus Mark: Breeze</span>. When Eleanor deals DMG to a target, increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken",
+                "Ventus DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513733,
+          "name": "Power Amp",
+          "descShort": "When Eleanor deals DMG, increases the &Param1& of all Ventus Trekkers in the squad.",
+          "descLong": "When Eleanor deals DMG, increases the &Param1& of all Ventus Trekkers in the squad by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.3%",
+                "2.1%",
+                "2.9%",
+                "3.6%",
+                "4.4%",
+                "5.2%",
+                "5.5%",
+                "5.7%",
+                "6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513741,
+          "name": "Reinforcement Command",
+          "descShort": "When casting the Ultimate, increases Eleanor's &Param1&.",
+          "descLong": "When Eleanor casts Firestorm (Ultimate), increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "16%",
+                "25.6%",
+                "35.2%",
+                "44.8%",
+                "54.4%",
+                "64%",
+                "67.2%",
+                "70.4%",
+                "73.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513742,
+          "name": "Purge Command",
+          "descShort": "Increases Eleanor's &Param5&. When the Ultimate deals DMG to a target, increases the &Param1& it deals.",
+          "descLong": "Increases Eleanor's &Param5& by <span style=\"color:#ec6d21\">&Param6&</span>. When Firestorm (Ultimate) deals DMG to a target, increases the &Param1& it deals to the target by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG",
+                "Ventus DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "42%",
+                "44%",
+                "46%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.4%",
+                "3.8%",
+                "5.2%",
+                "6.7%",
+                "8.1%",
+                "9.5%",
+                "10%",
+                "10.5%",
+                "10.9%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513743,
+          "name": "Focus Command",
+          "descShort": "Increases Eleanor's &Param5&. When any Ventus Trekker in the squad casts a Main Skill or Support Skill, increases Eleanor's &Param1&.",
+          "descLong": "Increases Eleanor's &Param5& by <span style=\"color:#ec6d21\">&Param6&</span>. When any Ventus Trekker in the squad casts a Main Skill or Support Skill, increases Eleanor's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "50.4%",
+                "52.8%",
+                "55.2%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.6%",
+                "2.6%",
+                "3.5%",
+                "4.5%",
+                "5.4%",
+                "6.4%",
+                "6.7%",
+                "7%",
+                "7.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
               ]
             }
           ]
@@ -35335,7 +36894,7 @@
           "id": 514407,
           "name": "Aqueous Phantasm",
           "descShort": "When the Coiling Serpent hits a target, summons another Coiling Serpent.",
-          "descLong": "When the Coiling Serpent hits a target, summons another Coiling Serpent, dealing <span style=\"color:#fb8037\">&Param1& of ATK</span> as Aqua Auto Attack DMG. This effect can only be triggered 3 times every 3s. Can trigger <span style=\"color:#6A90EB\">Aqua Mark</span>.",
+          "descLong": "When the Coiling Serpent hits a target, summons another Coiling Serpent, dealing <span style=\"color:#fb8037\">&Param1&x2</span> of ATK as Aqua Auto Attack DMG. This effect can only be triggered 3 times every 3s. Can trigger <span style=\"color:#6A90EB\">Aqua Mark</span>.",
           "icons": [
             "14401_Potential_01_A",
             "Potential_Round_B",
@@ -62851,6 +64410,361 @@
         }
       ],
       "bg": 4058
+    },
+    {
+      "id": 214059,
+      "name": "Fly, O Caged Bird",
+      "desc": "The caged bird sings, its feathers shimmering in the sunlight.\nIt pauses, holding back its excitement.\nDespite the cage, its hope for tomorrow endures.\nOne day, it will spread its wings and soar toward its dreams and freedom.",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Fly, O Caged Bird",
+          "desc": "When a Ventus Versatile Trekker is on the battlefield, grants 1 stack of Starlit Hope on the Main Trekker for &Param1&s, stacking up to 10 times.\nWhen a Trekker with 5 stacks or more of Starlit Hope deals DMG, inflicts the following on the target: increases Ventus Skill DMG Taken by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.\nWhen a Trekker with 10 stacks of Starlit Hope deals DMG, additionally inflicts the following on the target: increases Ventus Auto Attack DMG Taken by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Wings of Dream",
+          "desc": "Increases Ventus Versatile Trekkers' Auto Attack DMG and Skill DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nStarlit Hope gains an additional effect: Each stack increases own Skill Crit DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.5%",
+                "2%",
+                "2.5%",
+                "3%",
+                "3.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Voice of the Future",
+          "desc": "When a Trekker with Starlit Hope triggers a Mark that inflicts Cyclone, increases the squad's Ventus Auto Attack DMG by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s.\nWhen a Trekker with Starlit Hope triggers a Mark that inflicts Blossom, increases the squad's Ventus Skill DMG by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4059
+    },
+    {
+      "id": 214060,
+      "name": "Moment of Glory",
+      "desc": "Her heart is pounding.\nThe cheers from the crowd, the shutter sound of photo capturers,\nand the lights illuminating the hall and sparkling like stars.\nFor the first time, people are here for her, looking at her with approval.\nThis is the most glorious moment of her life.",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Moment of Glory",
+          "desc": "When a Ventus Versatile Trekker deals Auto Attack and Skill DMG, the Ventus Main Trekker gains 1 stack of Glory for &Param1&s, stacking up to &Param2& times.\nAt 10 stacks, increases the Ventus DMG dealt by Ventus Trekkers in the squad by <span style=\"color:#ec6d21\">&Param3&</span>.\nAt 20 stacks, increases the Auto Attack DMG dealt by Ventus Trekkers in the squad by an additional <span style=\"color:#ec6d21\">&Param4&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Path of Radiance",
+          "desc": "Increases the ATK of Ventus Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.\nGlory gains an additional effect: Each stack increases own Skill DMG by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.1%",
+                "0.2%",
+                "0.3%",
+                "0.4%",
+                "0.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bright Prospects",
+          "desc": "When Glory is at max stacks, increases Ventus DMG dealt by Ventus Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4060
     }
   ]
 }

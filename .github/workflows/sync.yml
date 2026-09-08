@@ -38,6 +38,9 @@ jobs:
         with:
           bun-version: latest
 
+      - name: Install Playwright Chromium & Linux Dependencies
+        run: bunx playwright install --with-deps chromium
+
       # We only need runtime, but this action also does caching so should save time
       - name: Install .NET 9 Runtime
         uses: actions/setup-dotnet@v4

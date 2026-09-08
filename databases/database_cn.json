@@ -29815,6 +29815,1565 @@
       ]
     },
     {
+      "id": 137,
+      "name": "埃莉诺",
+      "class": 2,
+      "element": 4,
+      "rarity": 1,
+      "mainBuild1Name": "埃莉诺主控流派1",
+      "mainBuild1Desc": "通过持续恢复战术储能，高频释放强化后的十字重斩的普攻流派。",
+      "mainBuild2Name": "埃莉诺主控流派2",
+      "mainBuild2Desc": "娴熟地操控哨兵，使其面对海量敌人造成大范围伤害的技能流派。",
+      "supportBuild1Name": "埃莉诺援护流派1",
+      "supportBuild1Desc": "随着跳跃下砸而持续扩增伤害范围和攻击次数，面对海量敌人涌来，也可以轻松自如地应对。",
+      "supportBuild2Name": "埃莉诺援护流派2",
+      "supportBuild2Desc": "持续产生长时间存在的哨兵，使其快速攻击定点目标，对小范围内的敌人造成集中性伤害。",
+      "potentials": [
+        {
+          "id": 513701,
+          "name": "战术协议：阈值",
+          "descShort": "提升「十字重斩」的攻击次数和&Param1&。获得<span style=\"color:#6A90EB\">战术储能</span>的冷却缩短。",
+          "descLong": "「十字重斩」可额外攻击1次。「十字重斩」造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>。「警戒」期间，埃莉诺普攻获得<span style=\"color:#6A90EB\">战术储能</span>的冷却时间缩短1秒。",
+          "icons": [
+            "13701_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "风系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513702,
+          "name": "战术协议：爆破",
+          "descShort": "获得或消耗<span style=\"color:#6A90EB\">战术储能</span>时发射1枚炸弹。「十字重斩」消耗的<span style=\"color:#6A90EB\">战术储能</span>降低。",
+          "descLong": "埃莉诺每次获得或消耗<span style=\"color:#6A90EB\">战术储能</span>时，发射1枚炸弹造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围风系普攻伤害，可触发<span style=\"color:#6A90EB\">风系印记</span>。「十字重斩」消耗的<span style=\"color:#6A90EB\">战术储能</span>降低4点。",
+          "icons": [
+            "13701_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "72%",
+                "83%",
+                "94%",
+                "126%",
+                "136%",
+                "146%",
+                "167%",
+                "175%",
+                "184%",
+                "201%",
+                "216%",
+                "230%",
+                "245%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513703,
+          "name": "战术协议：过载",
+          "descShort": "「警戒」造成伤害的间隔缩短。施放「十字重斩」时，提升埃莉诺的&Param1&。",
+          "descLong": "「警戒」造成伤害的间隔缩短。施放「十字重斩」时，埃莉诺的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "13701_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "40%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513704,
+          "name": "战术协议：协同",
+          "descShort": "「警戒」可额外造成范围风系技能伤害。施放主控技时，提升埃莉诺的&Param2&。",
+          "descLong": "埃莉诺自身的「警戒」对目标累计造成2次伤害时，可额外造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围风系技能伤害。施放主控技「哨卫展开」时，埃莉诺的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>，持续&Param4&秒。",
+          "icons": [
+            "13701_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "风系伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "193%",
+                "222%",
+                "252%",
+                "339%",
+                "366%",
+                "393%",
+                "447%",
+                "470%",
+                "493%",
+                "540%",
+                "578%",
+                "617%",
+                "656%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513705,
+          "name": "二重裂痕",
+          "descShort": "「十字重斩」可引发额外爆炸。提升「十字重斩」造成的&Param2&。",
+          "descLong": "「十字重斩」可引发额外爆炸，造成攻击力<span style=\"color:#ec6d21\">&Param1&</span>的范围风系普攻伤害。「十字重斩」对精英及以上目标造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "icons": [
+            "13701_Potential_05_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "60%",
+                "96%",
+                "132%",
+                "168%",
+                "204%",
+                "240%",
+                "276%",
+                "312%",
+                "348%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.5%",
+                "12%",
+                "16.5%",
+                "21%",
+                "25.5%",
+                "30%",
+                "34.5%",
+                "39%",
+                "43.5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513706,
+          "name": "战意激增",
+          "descShort": "施放「十字重斩」时，提升埃莉诺的&Param1&。",
+          "descLong": "施放「十字重斩」时，埃莉诺的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "13701_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13.5%",
+                "21.6%",
+                "29.7%",
+                "37.8%",
+                "45.9%",
+                "54%",
+                "56.7%",
+                "59.4%",
+                "62.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513707,
+          "name": "涡流增效",
+          "descShort": "普攻最后一击可触发<span style=\"color:#6A90EB\">风系印记</span>。「警戒」期间，提升埃莉诺的&Param1&。",
+          "descLong": "埃莉诺的普攻最后一击可触发<span style=\"color:#6A90EB\">风系印记</span>。「警戒」期间，埃莉诺的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13701_Potential_05_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513708,
+          "name": "广域散射",
+          "descShort": "提升「警戒」的伤害范围，提升「警戒」的&Param1&。",
+          "descLong": "「警戒」的伤害范围提升。「警戒」造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13701_Potential_08_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "18%",
+                "28.8%",
+                "39.6%",
+                "50.4%",
+                "61.2%",
+                "72%",
+                "82.8%",
+                "93.6%",
+                "104.4%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513709,
+          "name": "区域感知",
+          "descShort": "施放主控技时，提升埃莉诺的&Param1&。",
+          "descLong": "施放主控技「哨卫展开」时，周围每1名目标都会使埃莉诺的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "13701_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4.7%",
+                "7.5%",
+                "10.3%",
+                "13.1%",
+                "15.9%",
+                "18.7%",
+                "19.6%",
+                "20.6%",
+                "21.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513710,
+          "name": "链路反馈",
+          "descShort": "造成普攻伤害时，提升埃莉诺&Param1&。",
+          "descLong": "埃莉诺造成普攻伤害时，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。该效果每1秒最多触发1次。",
+          "icons": [
+            "13701_Potential_01_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "12.6%",
+                "13.2%",
+                "13.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513711,
+          "name": "歼灭脉冲",
+          "descShort": "绝招可触发<span style=\"color:#6A90EB\">风系印记</span>。提升埃莉诺的&Param1&。",
+          "descLong": "绝招「火力覆盖」可触发<span style=\"color:#6A90EB\">风系印记</span>。埃莉诺的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "50.4%",
+                "52.8%",
+                "55.2%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513712,
+          "name": "闪烁序列",
+          "descShort": "闪避冷却时间缩减。提升埃莉诺的&Param1&。",
+          "descLong": "闪避冷却时间缩减25%。埃莉诺的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_2_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7.8%",
+                "12.5%",
+                "17.2%",
+                "21.8%",
+                "26.5%",
+                "31.2%",
+                "32.8%",
+                "34.3%",
+                "35.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513713,
+          "name": "风灵链接",
+          "descShort": "触发<span style=\"color:#6A90EB\">风系印记</span>时，提升全队风系角色的&Param1&。",
+          "descLong": "触发<span style=\"color:#6A90EB\">风系印记</span>时，全队风系角色的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513721,
+          "name": "连锁引爆",
+          "descShort": "提升援护技的&Param1&。提升援护技引发的爆炸次数。",
+          "descLong": "援护技「武装强袭」下砸爆炸的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>。援护技「武装强袭」每次跳跃下砸时，引发的爆炸会比上一次增加1次，援护技结束时清除该效果。",
+          "icons": [
+            "13701_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能暴击率"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513722,
+          "name": "震源扩张",
+          "descShort": "提升援护技的&Param3&。提升援护技的伤害范围和&Param1&。",
+          "descLong": "援护技「武装强袭」下砸爆炸的&Param3&提升<span style=\"color:#0abec5\">&Param4&</span>。队伍中仅有1名辅助角色时，援护技「武装强袭」每次跳跃下砸时，本次援护技下砸爆炸的伤害范围提升，每次产生下砸爆炸后，后续下砸爆炸造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>，可叠加9层。",
+          "icons": [
+            "13701_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "技能暴击伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "伤害倍率"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "24%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513723,
+          "name": "机能续航",
+          "descShort": "提升<span style=\"color:#6A90EB\">哨兵</span>的&Param5&。每次产生<span style=\"color:#6A90EB\">哨兵</span>时，延长场中已有<span style=\"color:#6A90EB\">哨兵</span>的存在时间。援护技可提升<span style=\"color:#6A90EB\">哨兵</span>造成的&Param1&。",
+          "descLong": "<span style=\"color:#6A90EB\">哨兵</span>的&Param5&提升<span style=\"color:#0abec5\">&Param6&</span>。每次产生<span style=\"color:#6A90EB\">哨兵</span>时，延长场中已有<span style=\"color:#6A90EB\">哨兵</span>的存在时间。援护技「武装强袭」每次跳跃下砸时，<span style=\"color:#6A90EB\">哨兵</span>造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "13701_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "攻击"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "伤害倍率"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "48%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513724,
+          "name": "集群速射",
+          "descShort": "<span style=\"color:#6A90EB\">哨兵</span>额外造成范围风系普攻伤害。场中每1名<span style=\"color:#6A90EB\">哨兵</span>可使全场<span style=\"color:#6A90EB\">哨兵</span>的&Param2&提升。",
+          "descLong": "<span style=\"color:#6A90EB\">哨兵</span>的子弹对主控目标累计造成3次伤害时，额外造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围风系普攻伤害，该效果每0.5秒可触发1次。场中每1名<span style=\"color:#6A90EB\">哨兵</span>可使全场<span style=\"color:#6A90EB\">哨兵</span>的&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。",
+          "icons": [
+            "13701_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "攻击速度"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "117%",
+                "134%",
+                "152%",
+                "204%",
+                "220%",
+                "236%",
+                "269%",
+                "282%",
+                "296%",
+                "324%",
+                "347%",
+                "370%",
+                "394%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "33%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513725,
+          "name": "力场牵引",
+          "descShort": "提升援护技的&Param3&。提升援护技下砸爆炸的&Param1&。",
+          "descLong": "援护技「武装强袭」下砸爆炸的&Param3&提升&Param4&，造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13701_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "技能暴击率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "15%",
+                "20%",
+                "26%",
+                "31%",
+                "37%",
+                "43%",
+                "48%",
+                "54%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513726,
+          "name": "动力增压",
+          "descShort": "援护技下砸爆炸造成伤害时，提升埃莉诺的&Param1&和风系先锋主控角色的&Param5&。",
+          "descLong": "援护技「武装强袭」下砸爆炸造成伤害时，埃莉诺的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。同时风系先锋主控角色的&Param5&提升<span style=\"color:#ec6d21\">&Param6&</span>，持续&Param7&秒，可叠加&Param8&层。",
+          "icons": [
+            "13701_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害",
+                "技能伤害"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害",
+                "技能暴击伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.2%",
+                "4.4%",
+                "4.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "1.3%",
+                "2%",
+                "2.8%",
+                "3.5%",
+                "4.3%",
+                "5%",
+                "5.3%",
+                "5.5%",
+                "5.8%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513727,
+          "name": "破阵重击",
+          "descShort": "提升援护技下砸爆炸造成的&Param1&和&Param3&。",
+          "descLong": "援护技「武装强袭」下砸爆炸造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "13701_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率",
+                "伤害倍率"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4.7%",
+                "7.5%",
+                "10.4%",
+                "13.2%",
+                "16%",
+                "18.8%",
+                "19.8%",
+                "20.7%",
+                "21.6%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "84%",
+                "88%",
+                "92%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513728,
+          "name": "贯穿弹道",
+          "descShort": "提升<span style=\"color:#6A90EB\">哨兵</span>发射的子弹大小。提升<span style=\"color:#6A90EB\">哨兵</span>造成的&Param1&。",
+          "descLong": "<span style=\"color:#6A90EB\">哨兵</span>发射的子弹大小提升，可穿透目标。<span style=\"color:#6A90EB\">哨兵</span>对精英及以上目标造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "13701_Potential_28_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "32%",
+                "50%",
+                "69%",
+                "88%",
+                "107%",
+                "126%",
+                "145%",
+                "164%",
+                "183%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513729,
+          "name": "压制解析",
+          "descShort": "提升<span style=\"color:#6A90EB\">哨兵</span>造成的&Param1&。提升埃莉诺的&Param3&。",
+          "descLong": "<span style=\"color:#6A90EB\">哨兵</span>对主控目标造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。埃莉诺的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "icons": [
+            "13701_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14.4%",
+                "19.8%",
+                "25.2%",
+                "30.6%",
+                "36%",
+                "37.8%",
+                "39.6%",
+                "41.4%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "18%",
+                "28.8%",
+                "39.6%",
+                "50.4%",
+                "61.2%",
+                "72%",
+                "75.6%",
+                "79.2%",
+                "82.8%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513730,
+          "name": "精密校准",
+          "descShort": "提升<span style=\"color:#6A90EB\">哨兵</span>的&Param1&。<span style=\"color:#6A90EB\">哨兵</span>可提升风系先锋主控角色的&Param3&。",
+          "descLong": "<span style=\"color:#6A90EB\">哨兵</span>的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。场中存在3名<span style=\"color:#6A90EB\">哨兵</span>可使风系先锋主控角色的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，持续10秒。",
+          "icons": [
+            "13701_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10.5%",
+                "16.8%",
+                "23.1%",
+                "29.4%",
+                "35.7%",
+                "42%",
+                "44.1%",
+                "46.2%",
+                "48.3%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513731,
+          "name": "风灵谐振",
+          "descShort": "触发<span style=\"color:#6A90EB\">风系印记</span>时，提升埃莉诺的&Param1&。",
+          "descLong": "全队触发<span style=\"color:#6A90EB\">风系印记</span>时，埃莉诺的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "84%",
+                "88%",
+                "92%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513732,
+          "name": "歼灭余响",
+          "descShort": "绝招可附加<span style=\"color:#6A90EB\">风系印记：风息</span>。埃莉诺对目标造成伤害时，使目标&Param1&提升。",
+          "descLong": "绝招「火力覆盖」可附加<span style=\"color:#6A90EB\">风系印记：风息</span>。埃莉诺对目标造成伤害时，使目标&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到风系伤害",
+                "受到风系伤害",
+                "受到风系伤害",
+                "受到风系伤害",
+                "受到风系伤害",
+                "受到风系伤害",
+                "受到风系伤害",
+                "受到风系伤害",
+                "受到风系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513733,
+          "name": "战力增幅",
+          "descShort": "埃莉诺造成伤害时，提升全队风系角色的&Param1&。",
+          "descLong": "埃莉诺造成伤害时，全队风系角色的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.3%",
+                "2.1%",
+                "2.9%",
+                "3.6%",
+                "4.4%",
+                "5.2%",
+                "5.5%",
+                "5.7%",
+                "6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513741,
+          "name": "增援指令",
+          "descShort": "施放绝招时，提升埃莉诺的&Param1&。",
+          "descLong": "埃莉诺施放绝招「火力覆盖」时，埃莉诺的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "16%",
+                "25.6%",
+                "35.2%",
+                "44.8%",
+                "54.4%",
+                "64%",
+                "67.2%",
+                "70.4%",
+                "73.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513742,
+          "name": "肃清指令",
+          "descShort": "提升埃莉诺的&Param5&。绝招对目标造成伤害时，提升绝招造成的&Param1&。",
+          "descLong": "埃莉诺的&Param5&提升<span style=\"color:#ec6d21\">&Param6&</span>。绝招「火力覆盖」对目标造成伤害时，提升绝招对该目标造成的&Param1&<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害",
+                "风系伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "42%",
+                "44%",
+                "46%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.4%",
+                "3.8%",
+                "5.2%",
+                "6.7%",
+                "8.1%",
+                "9.5%",
+                "10%",
+                "10.5%",
+                "10.9%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513743,
+          "name": "集中指令",
+          "descShort": "提升埃莉诺的&Param5&。全队风系角色施放主控技或援护技时，提升埃莉诺的&Param1&。",
+          "descLong": "埃莉诺的&Param5&提升<span style=\"color:#ec6d21\">&Param6&</span>。全队风系角色施放主控技或援护技时，埃莉诺的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "50.4%",
+                "52.8%",
+                "55.2%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.6%",
+                "2.6%",
+                "3.5%",
+                "4.5%",
+                "5.4%",
+                "6.4%",
+                "6.7%",
+                "7%",
+                "7.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 140,
       "name": "斯帕克拉",
       "class": 1,
@@ -35335,7 +36894,7 @@
           "id": 514407,
           "name": "逐浪幻鳞",
           "descShort": "「腾蛇」命中时，额外生成「腾蛇」。",
-          "descLong": "「腾蛇」命中时，额外生成「腾蛇」，造成攻击力<span style=\"color:#fb8037\">&Param1&</span>的水系普攻伤害，该效果每3秒最多触发3次，可触发<span style=\"color:#6A90EB\">水系印记</span>。",
+          "descLong": "「腾蛇」命中时，额外生成「腾蛇」，造成攻击力<span style=\"color:#fb8037\">&Param1&x2</span>的水系普攻伤害，该效果每3秒最多触发3次，可触发<span style=\"color:#6A90EB\">水系印记</span>。",
           "icons": [
             "14401_Potential_01_A",
             "Potential_Round_B",
@@ -62849,6 +64408,361 @@
         }
       ],
       "bg": 4058
+    },
+    {
+      "id": 214059,
+      "name": "飞吧，笼中鸟",
+      "desc": "笼中鸟高声啼鸣，它的每一片羽毛都在阳光下熠熠生辉。\n它驻足停留，它按捺雀跃。\n铁笼无法阻挡对明日的希望，\n总有一日，要向着梦想与自由的天空，展翅翱翔——",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "飞吧，笼中鸟",
+          "desc": "风系均衡角色在场时，每秒为主控角色附加1层「希冀」，持续&Param1&秒，可叠加10层。\n附带大于等于5层「希冀」的角色造成伤害时，对目标附加：受到风系技能伤害提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。\n附带10层「希冀」的角色造成伤害时，额外对目标附加：受到风系普攻伤害提升<span style=\"color:#ec6d21\">&Param4&</span>，持续&Param5&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "梦想之翼",
+          "desc": "风系均衡角色造成的普攻和技能伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n「希冀」获得额外效果：每层使自身技能暴击伤害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.5%",
+                "2%",
+                "2.5%",
+                "3%",
+                "3.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "未来之声",
+          "desc": "附带「希冀」的角色触发印记产生「气旋」时，全队风系普攻伤害提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒。\n附带「希冀」的角色触发印记产生「绽放」时，全队风系技能伤害提升<span style=\"color:#ec6d21\">&Param3&</span>，持续&Param4&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4059
+    },
+    {
+      "id": 214060,
+      "name": "荣誉时刻",
+      "desc": "心脏正在砰砰跳。\n台下的欢呼声，留影机“咔嚓咔嚓”的声响；\n照耀大厅的光芒，期间点缀着星辰般的闪亮。\n第一次被人们如此期待着，第一次看到那么多双认可的眼神——\n对她而言最光荣的时刻，就是现在。",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "荣誉时刻",
+          "desc": "风系均衡角色造成普攻和技能伤害时，风系主控角色获得1层「光荣」，持续&Param1&秒，可叠加&Param2&层。\n「光荣」层数达到10层时，队伍中风系角色造成的风系伤害提升<span style=\"color:#ec6d21\">&Param3&</span>。\n「光荣」层数达到20层时，额外使队伍中风系角色造成的普攻伤害提升<span style=\"color:#ec6d21\">&Param4&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "光辉道路",
+          "desc": "队伍中风系角色攻击力提升<span style=\"color:#ec6d21\">&Param1&</span>。\n「光荣」获得额外效果：每层使自身技能伤害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.1%",
+                "0.2%",
+                "0.3%",
+                "0.4%",
+                "0.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "远大前途",
+          "desc": "「光荣」满层时，队伍中风系角色造成的风系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4060
     }
   ]
 }

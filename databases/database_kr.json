@@ -29815,6 +29815,1565 @@
       ]
     },
     {
+      "id": 137,
+      "name": "엘레노어",
+      "class": 2,
+      "element": 4,
+      "rarity": 1,
+      "mainBuild1Name": "엘레노어 메인 유파 1",
+      "mainBuild1Desc": "전술 에너지를 지속적으로 회복해, 빠른 속도로 강화된 크로스 참격을 시전하는 일반 공격 유파.",
+      "mainBuild2Name": "엘레노어 메인 유파 2",
+      "mainBuild2Desc": "파수꾼을 능숙하게 조종해 수많은 적을 상대로 큰 범위의 피해를 입히는 스킬 유파.",
+      "supportBuild1Name": "엘레노어 지원 유파 1",
+      "supportBuild1Desc": "점프 후 찍어내리며 피해 범위와 공격 횟수가 지속적으로 확장되어, 수많은 적이 몰려와도 여유롭게 상대할 수 있는 유파.",
+      "supportBuild2Name": "엘레노어 지원 유파 2",
+      "supportBuild2Desc": "긴 시간 존재하는 파수꾼을 지속적으로 생성해 지정된 목표를 빠르게 공격하며, 작은 범위의 적에게 집중적인 피해를 입히는 유파.",
+      "potentials": [
+        {
+          "id": 513701,
+          "name": "전술 프로토콜: 임계",
+          "descShort": "「크로스 참격」의 공격 횟수와 &Param1& 증가한다. <span style=\"color:#6A90EB\">전술 에너지</span>의 쿨타임이 단축된다.",
+          "descLong": "「크로스 참격」이 추가로 1회 공격한다. 「크로스 참격」이 입히는 &Param1& <span style=\"color:#0abec5\">&Param2&</span> 증가한다. 「경계」 기간 중 엘레노어가 일반 공격을 통해 <span style=\"color:#6A90EB\">전술 에너지</span>를 획득하는 쿨타임이 1초 감소한다.",
+          "icons": [
+            "13701_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513702,
+          "name": "전술 프로토콜: 폭파",
+          "descShort": "<span style=\"color:#6A90EB\">전술 에너지</span>를 획득하거나 소모할 때, 폭탄을 1개 발사한다. 「크로스 참격」이 소모하는 <span style=\"color:#6A90EB\">전술 에너지</span>가 감소한다.",
+          "descLong": "엘레노어가 <span style=\"color:#6A90EB\">전술 에너지</span>를 획득하거나 소모할 때마다 폭탄 1개를 발사해 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 바람 속성 범위 일반 공격 피해를 입힌다. <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동할 수 있다. 「크로스 참격」이 소모하는 <span style=\"color:#6A90EB\">전술 에너지</span>가 4포인트 감소한다.",
+          "icons": [
+            "13701_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "72%",
+                "83%",
+                "94%",
+                "126%",
+                "136%",
+                "146%",
+                "167%",
+                "175%",
+                "184%",
+                "201%",
+                "216%",
+                "230%",
+                "245%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513703,
+          "name": "전술 프로토콜: 과부하",
+          "descShort": "「경계」가 피해를 입히는 간격이 단축된다. 「크로스 참격」을 시전할 때 엘레노어의 &Param1& 증가한다.",
+          "descLong": "「경계」가 피해를 입히는 간격이 단축된다. 「크로스 참격」을 시전할 때 엘레노어의 &Param1& <span style=\"color:#0abec5\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "icons": [
+            "13701_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "40%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513704,
+          "name": "전술 프로토콜: 협동",
+          "descShort": "「경계」가 바람 속성 범위 스킬 피해를 추가로 입힌다. 메인 스킬을 시전할 때, 엘레노어의 &Param2& 증가한다.",
+          "descLong": "엘레노어 자신의 「경계」가 목표에게 누적 2회 피해를 입히면, 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 바람 속성 범위 스킬 피해를 추가로 입힌다. 메인 스킬 「파수꾼 전개」를 시전하면, 엘레노어의 &Param2& <span style=\"color:#0abec5\">&Param3&</span> 증가한다. &Param4&초간 지속된다.",
+          "icons": [
+            "13701_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "193%",
+                "222%",
+                "252%",
+                "339%",
+                "366%",
+                "393%",
+                "447%",
+                "470%",
+                "493%",
+                "540%",
+                "578%",
+                "617%",
+                "656%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513705,
+          "name": "이중 균열",
+          "descShort": "「크로스 참격」이 추가 폭파를 일으킨다. 「크로스 참격」이 입히는 &Param2& 증가한다.",
+          "descLong": "「크로스 참격」이 추가 폭파를 일으켜, 공격력 <span style=\"color:#ec6d21\">&Param1&</span>의 바람 속성 범위 일반 공격 피해를 입힌다. 「크로스 참격」이 정예 이상 목표에게 입히는 &Param2& <span style=\"color:#ec6d21\">&Param3&</span> 증가한다.",
+          "icons": [
+            "13701_Potential_05_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "60%",
+                "96%",
+                "132%",
+                "168%",
+                "204%",
+                "240%",
+                "276%",
+                "312%",
+                "348%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.5%",
+                "12%",
+                "16.5%",
+                "21%",
+                "25.5%",
+                "30%",
+                "34.5%",
+                "39%",
+                "43.5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513706,
+          "name": "전의 급증",
+          "descShort": "「크로스 참격」을 시전할 때 엘레노어의 &Param1& 증가한다.",
+          "descLong": "「크로스 참격」을 시전할 때 엘레노어의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "icons": [
+            "13701_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13.5%",
+                "21.6%",
+                "29.7%",
+                "37.8%",
+                "45.9%",
+                "54%",
+                "56.7%",
+                "59.4%",
+                "62.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513707,
+          "name": "소용돌이 증폭",
+          "descShort": "일반 공격 최후의 일격이 <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동할 수 있다. 「경계」 기간 중, 엘레노어의 &Param1& 증가한다.",
+          "descLong": "엘레노어 일반 공격 최후의 일격이 <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동할 수 있다. 「경계」 기간 중, 엘레노어의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "13701_Potential_05_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513708,
+          "name": "광범위 산탄",
+          "descShort": "「경계」의 피해 범위가 증가하고, 「경계」의 &Param1& 증가한다.",
+          "descLong": "「경계」의 피해 범위가 증가한다. 「경계」가 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "13701_Potential_08_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "18%",
+                "28.8%",
+                "39.6%",
+                "50.4%",
+                "61.2%",
+                "72%",
+                "82.8%",
+                "93.6%",
+                "104.4%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513709,
+          "name": "구역 감지",
+          "descShort": "메인 스킬을 시전할 때 엘레노어의 &Param1& 증가한다.",
+          "descLong": "메인 스킬 「파수꾼 전개」를 시전할 때 주변 목표 1명마다 엘레노어의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "13701_Potential_03_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4.7%",
+                "7.5%",
+                "10.3%",
+                "13.1%",
+                "15.9%",
+                "18.7%",
+                "19.6%",
+                "20.6%",
+                "21.5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513710,
+          "name": "연결 피드백",
+          "descShort": "일반 공격 피해를 입힐 때, 엘레노어의 &Param1& 증가한다.",
+          "descLong": "엘레노어가 일반 공격 피해를 입히면, &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다. 해당 효과는 1초마다 최대 1회 발동한다.",
+          "icons": [
+            "13701_Potential_01_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "12.6%",
+                "13.2%",
+                "13.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513711,
+          "name": "섬멸 펄스",
+          "descShort": "필살기가 <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동할 수 있다. 엘레노어의 &Param1& 증가한다.",
+          "descLong": "필살기 「화력 지배」가 <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동할 수 있다. 엘레노어의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "50.4%",
+                "52.8%",
+                "55.2%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513712,
+          "name": "반짝임 서열",
+          "descShort": "회피 쿨타임이 단축된다. 엘레노어의 &Param1& 증가한다.",
+          "descLong": "회피 쿨타임이 25% 단축된다. 엘레노어의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "Common_Potential_2_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "7.8%",
+                "12.5%",
+                "17.2%",
+                "21.8%",
+                "26.5%",
+                "31.2%",
+                "32.8%",
+                "34.3%",
+                "35.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513713,
+          "name": "바람 정령의 연결",
+          "descShort": "<span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동하면, 팀 전체 바람 속성 캐릭터의 &Param1& 증가한다.",
+          "descLong": "<span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동하면, 팀 전체 바람 속성 캐릭터의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513721,
+          "name": "연쇄 폭발",
+          "descShort": "지원 스킬의 &Param1& 증가한다. 지원 스킬이 발동하는 폭파의 횟수가 증가한다.",
+          "descLong": "지원 스킬 「무장 습격」 찍어내리기 폭파의 &Param1& <span style=\"color:#0abec5\">&Param2&</span> 증가한다. 지원 스킬 「무장 습격」이 점프하여 찍어내릴 때 발생하는 폭파가 이전보다 1회 증가하며, 지원 스킬 종료 시 해당 효과가 제거된다.",
+          "icons": [
+            "13701_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "스킬 치명타율"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513722,
+          "name": "진원 확장",
+          "descShort": "지원 스킬의 &Param3& 증가한다. 지원 스킬의 피해 범위와 &Param1& 증가한다.",
+          "descLong": "지원 스킬 「무장 습격」 찍어내리기 폭파의 &Param3& <span style=\"color:#0abec5\">&Param4&</span> 증가한다. 팀 내에 서포터 캐릭터가 1명일 때, 지원 스킬 「무장 습격」이 점프하여 찍어내릴 때마다 이번 지원 스킬의 찍어내리기 폭파 피해 범위가 증가한다. 찍어내리기 폭파가 발생할 때마다, 이후 찍어내리기 폭파가 입히는 &Param1& <span style=\"color:#0abec5\">&Param2&</span> 증가한다. 최대 9스택 중첩된다.",
+          "icons": [
+            "13701_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "스킬 치명타 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "피해 배율"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "24%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513723,
+          "name": "기능 지속",
+          "descShort": "<span style=\"color:#6A90EB\">파수꾼</span>의 &Param5& 증가한다. <span style=\"color:#6A90EB\">파수꾼</span>이 생성될 때마다 필드에 존재하는 <span style=\"color:#6A90EB\">파수꾼</span>의 지속 시간이 연장된다. 지원 스킬이 <span style=\"color:#6A90EB\">파수꾼</span>이 입히는 &Param1& 증가시킬 수 있다.",
+          "descLong": "<span style=\"color:#6A90EB\">파수꾼</span>의 &Param5& <span style=\"color:#0abec5\">&Param6&</span> 증가한다. <span style=\"color:#6A90EB\">파수꾼</span>이 생성될 때마다 필드에 존재하는 <span style=\"color:#6A90EB\">파수꾼</span>의 지속 시간이 연장된다. 지원 스킬 「무장 습격」이 점프해 찍어내릴 때마다 <span style=\"color:#6A90EB\">파수꾼</span>이 입히는 &Param1& <span style=\"color:#0abec5\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "13701_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "공격"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "피해 배율"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "48%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13.8%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513724,
+          "name": "집중 속사",
+          "descShort": "<span style=\"color:#6A90EB\">파수꾼</span>이 바람 속성 범위 일반 공격 피해를 추가로 입힌다. 필드의 <span style=\"color:#6A90EB\">파수꾼</span> 1명마다 필드 전체 <span style=\"color:#6A90EB\">파수꾼</span>의 &Param2& 증가한다.",
+          "descLong": "<span style=\"color:#6A90EB\">파수꾼</span>의 총알이 메인 목표에게 누적 3회 피해를 입히면, 공격력 <span style=\"color:#0abec5\">&Param1&</span>의 바람 속성 범위 일반 공격 피해를 추가로 입힌다. 해당 효과는 0.5초마다 1회 발동할 수 있다. 필드의 <span style=\"color:#6A90EB\">파수꾼</span> 1명마다 필드 전체 <span style=\"color:#6A90EB\">파수꾼</span>의 &Param2& <span style=\"color:#0abec5\">&Param3&</span> 증가한다.",
+          "icons": [
+            "13701_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "공격 속도"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "117%",
+                "134%",
+                "152%",
+                "204%",
+                "220%",
+                "236%",
+                "269%",
+                "282%",
+                "296%",
+                "324%",
+                "347%",
+                "370%",
+                "394%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "33%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513725,
+          "name": "역장 견인",
+          "descShort": "지원 스킬의 &Param3& 증가한다. 지원 스킬 찍어내리기 폭파의 &Param1& 증가한다.",
+          "descLong": "지원 스킬 「무장 습격」 찍어내리기 폭파의 &Param3& &Param4& 증가하고, 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "13701_Potential_25_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "스킬 치명타율"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "15%",
+                "20%",
+                "26%",
+                "31%",
+                "37%",
+                "43%",
+                "48%",
+                "54%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513726,
+          "name": "동력 증압",
+          "descShort": "지원 스킬 찍어내리기 폭파가 피해를 입히면, 엘레노어의 &Param1& 바람 속성 딜러 메인 캐릭터의 &Param5& 증가한다.",
+          "descLong": "지원 스킬 「무장 습격」의 찍어내리기 폭파가 피해를 입히면, 엘레노어의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다. 동시에 바람 속성 딜러 메인 캐릭터의 &Param5& <span style=\"color:#ec6d21\">&Param6&</span> 증가한다. &Param7&초간 지속되며, 최대 &Param8&스택 중첩된다.",
+          "icons": [
+            "13701_Potential_21_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해",
+                "스킬 피해"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "스킬 치명타 피해",
+                "스킬 치명타 피해",
+                "스킬 치명타 피해",
+                "스킬 치명타 피해",
+                "스킬 치명타 피해",
+                "스킬 치명타 피해",
+                "스킬 치명타 피해",
+                "스킬 치명타 피해",
+                "스킬 치명타 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1%",
+                "1.6%",
+                "2.2%",
+                "2.8%",
+                "3.4%",
+                "4%",
+                "4.2%",
+                "4.4%",
+                "4.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "1.3%",
+                "2%",
+                "2.8%",
+                "3.5%",
+                "4.3%",
+                "5%",
+                "5.3%",
+                "5.5%",
+                "5.8%"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513727,
+          "name": "파괴적인 타격",
+          "descShort": "지원 스킬 찍어내리기 폭파가 입히는 &Param1& &Param3& 증가한다.",
+          "descLong": "지원 스킬 「무장 습격」의 찍어내리기 폭파가 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가하고, &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
+          "icons": [
+            "13701_Potential_21_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율",
+                "피해 배율"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4.7%",
+                "7.5%",
+                "10.4%",
+                "13.2%",
+                "16%",
+                "18.8%",
+                "19.8%",
+                "20.7%",
+                "21.6%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "84%",
+                "88%",
+                "92%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513728,
+          "name": "관통 탄도",
+          "descShort": "<span style=\"color:#6A90EB\">파수꾼</span>이 발사하는 총알 크기가 증가하고, <span style=\"color:#6A90EB\">파수꾼</span>이 입히는 &Param1& 증가한다.",
+          "descLong": "<span style=\"color:#6A90EB\">파수꾼</span>이 발사하는 총알 크기가 증가하고, 목표를 관통할 수 있다. <span style=\"color:#6A90EB\">파수꾼</span>이 정예 이상 목표에게 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "icons": [
+            "13701_Potential_28_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "32%",
+                "50%",
+                "69%",
+                "88%",
+                "107%",
+                "126%",
+                "145%",
+                "164%",
+                "183%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513729,
+          "name": "제압 분석",
+          "descShort": "<span style=\"color:#6A90EB\">파수꾼</span>이 입히는 &Param1& 증가하고, 엘레노어의 &Param3& 증가한다.",
+          "descLong": "<span style=\"color:#6A90EB\">파수꾼</span>이 메인 목표에게 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가하고, 엘레노어의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
+          "icons": [
+            "13701_Potential_23_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "14.4%",
+                "19.8%",
+                "25.2%",
+                "30.6%",
+                "36%",
+                "37.8%",
+                "39.6%",
+                "41.4%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "18%",
+                "28.8%",
+                "39.6%",
+                "50.4%",
+                "61.2%",
+                "72%",
+                "75.6%",
+                "79.2%",
+                "82.8%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513730,
+          "name": "정밀 영점 조절",
+          "descShort": "<span style=\"color:#6A90EB\">파수꾼</span>의 &Param1& 증가한다. <span style=\"color:#6A90EB\">파수꾼</span>이 바람 속성 딜러 메인 캐릭터의 &Param3& 증가시킬 수 있다.",
+          "descLong": "<span style=\"color:#6A90EB\">파수꾼</span>의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. 필드에 <span style=\"color:#6A90EB\">파수꾼</span> 3명이 존재하면 바람 속성 딜러 메인 캐릭터의 &Param3& <span style=\"color:#ec6d21\">&Param4&</span> 증가한다. 10초간 지속된다.",
+          "icons": [
+            "13701_Potential_23_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해",
+                "일반 공격 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10.5%",
+                "16.8%",
+                "23.1%",
+                "29.4%",
+                "35.7%",
+                "42%",
+                "44.1%",
+                "46.2%",
+                "48.3%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "63%",
+                "66%",
+                "69%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513731,
+          "name": "바람 정령의 공명",
+          "descShort": "<span style=\"color:#6A90EB\">바람 속성 표식</span>이 발동될 때, 엘레노어의 &Param1& 증가한다.",
+          "descLong": "팀 전체가 <span style=\"color:#6A90EB\">바람 속성 표식</span>을 발동하면, 엘레노어의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "icons": [
+            "Common_Potential_Wind_1_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "84%",
+                "88%",
+                "92%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513732,
+          "name": "섬멸의 잔향",
+          "descShort": "필살기가 <span style=\"color:#6A90EB\">바람 속성 표식: 풍식</span>을 부여할 수 있다. 엘레노어가 목표에게 피해를 입히면 목표의 &Param1& 증가한다.",
+          "descLong": "필살기 「화력 지배」가 <span style=\"color:#6A90EB\">바람 속성 표식: 풍식</span>을 부여할 수 있다. 엘레노어가 목표에게 피해를 입히면, 목표의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해",
+                "받는 바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29.1%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513733,
+          "name": "전투력 증폭",
+          "descShort": "엘레노어가 피해를 입히면, 팀 전체 바람 속성 캐릭터의 &Param1& 증가한다.",
+          "descLong": "엘레노어가 피해를 입히면, 팀 전체 바람 속성 캐릭터의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.3%",
+                "2.1%",
+                "2.9%",
+                "3.6%",
+                "4.4%",
+                "5.2%",
+                "5.5%",
+                "5.7%",
+                "6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513741,
+          "name": "증원 명령",
+          "descShort": "필살기를 시전할 때 엘레노어의 &Param1& 증가한다.",
+          "descLong": "필살기 「화력 지배」를 시전할 때, 엘레노어의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다.",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "16%",
+                "25.6%",
+                "35.2%",
+                "44.8%",
+                "54.4%",
+                "64%",
+                "67.2%",
+                "70.4%",
+                "73.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513742,
+          "name": "숙청 명령",
+          "descShort": "엘레노어의 &Param5& 증가한다. 필살기가 목표에게 피해를 입히면, 필살기가 입히는 &Param1& 증가한다.",
+          "descLong": "엘레노어의 &Param5& <span style=\"color:#ec6d21\">&Param6&</span> 증가한다. 필살기 「화력 지배」가 목표에게 피해를 입히면, 필살기가 해당 목표에게 입히는 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해",
+                "바람 속성 피해"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "42%",
+                "44%",
+                "46%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.4%",
+                "3.8%",
+                "5.2%",
+                "6.7%",
+                "8.1%",
+                "9.5%",
+                "10%",
+                "10.5%",
+                "10.9%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 513743,
+          "name": "집중 명령",
+          "descShort": "엘레노어의 &Param5& 증가한다. 팀 전체 바람 속성 캐릭터가 메인 스킬 또는 지원 스킬을 시전할 때 엘레노어의 &Param1& 증가한다.",
+          "descLong": "엘레노어의 &Param5& <span style=\"color:#ec6d21\">&Param6&</span> 증가한다. 팀 전체 바람 속성 캐릭터가 메인 스킬 또는 지원 스킬을 시전할 때, 엘레노어의 &Param1& <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "icons": [
+            "13701_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격",
+                "공격"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해",
+                "필살기 피해"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "50.4%",
+                "52.8%",
+                "55.2%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.6%",
+                "2.6%",
+                "3.5%",
+                "4.5%",
+                "5.4%",
+                "6.4%",
+                "6.7%",
+                "7%",
+                "7.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 140,
       "name": "스파클",
       "class": 1,
@@ -35335,7 +36894,7 @@
           "id": 514407,
           "name": "환상 비늘",
           "descShort": "「등사」 명중 시 「등사」를 추가로 생성한다.",
-          "descLong": "「등사」 명중 시, 「등사」를 추가로 생성해 공격력 <span style=\"color:#fb8037\">&Param1&</span>의 물 속성 일반 공격 피해를 입힌다. 해당 효과는 3초마다 최대 3회 발동하고, <span style=\"color:#6A90EB\">물 속성 표식</span>을 발동할 수 있다.",
+          "descLong": "「등사」 명중 시, 「등사」를 추가로 생성해 공격력 <span style=\"color:#fb8037\">&Param1&x2</span>의 물 속성 일반 공격 피해를 입힌다. 해당 효과는 3초마다 최대 3회 발동하고, <span style=\"color:#6A90EB\">물 속성 표식</span>을 발동할 수 있다.",
           "icons": [
             "14401_Potential_01_A",
             "Potential_Round_B",
@@ -62839,6 +64398,361 @@
         }
       ],
       "bg": 4058
+    },
+    {
+      "id": 214059,
+      "name": "날아라, 새장 속 새여",
+      "desc": "새장 속 새가 지저귀고, 그 깃털들이 햇살 아래 눈부시게 빛난다.\n새는 걸음을 멈추고, 설레는 마음을 누른다.\n철창은 내일에 대한 희망을 막을 수 없으니,\n언젠가는 꿈과 자유의 하늘을 향해 날개를 펼쳐 날아오르리라.",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "날아라, 새장 속 새여",
+          "desc": "바람 속성 밸런스 캐릭터가 필드에 있으면, 1초마다 메인 캐릭터에게 「희망」 1스택을 부여한다. &Param1&초간 지속되며, 최대 10스택 중첩된다. \n「희망」을 5스택 이상 보유한 캐릭터가 피해를 입히면 목표가 받는 바람 속성 스킬 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다. &Param3&초간 지속된다. \n「희망」을 10스택 보유한 캐릭터가 피해를 입히면, 목표가 받는 바람 속성 일반 공격 피해가 추가로 <span style=\"color:#ec6d21\">&Param4&</span> 증가한다. &Param5&초간 지속된다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "꿈의 날개",
+          "desc": "바람 속성 밸런스 캐릭터가 입히는 일반 공격과 스킬 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. \n「희망」이 추가 효과를 획득해, 1스택마다 자신의 스킬 치명타 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.5%",
+                "2%",
+                "2.5%",
+                "3%",
+                "3.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "미래의 소리",
+          "desc": "「희망」을 보유한 캐릭터가 표식을 발동해 「선풍」을 생성하면, 팀 전체 바람 속성 일반 공격 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. &Param2&초간 지속된다. \n「희망」을 보유한 캐릭터가 표식을 발동해 「만개」를 생성하면, 팀 전체 바람 속성 스킬 피해가 <span style=\"color:#ec6d21\">&Param3&</span> 증가한다. &Param4&초간 지속된다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7.5%",
+                "15%",
+                "22.5%",
+                "30%",
+                "37.5%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4059
+    },
+    {
+      "id": 214060,
+      "name": "영광의 순간",
+      "desc": "심장이 쿵쾅쿵쾅 뛴다.\n무대 아래의 환호성, 그리고 카메라의 찰칵거리는 소리.\n홀을 비추는 빛과 그사이를 장식하는 별빛 같은 반짝임.\n사람들의 기대에 가득 찬 눈빛을 보는 것도, 그토록 많은 인정의 눈빛을 본 것도 처음이다.\n그녀에게 있어 가장 영광스러운 순간은 바로 지금이다.",
+      "element": 4,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "영광의 순간",
+          "desc": "바람 속성 밸런스 캐릭터가 일반 공격과 스킬 피해를 입히면, 바람 속성 메인 캐릭터가 「영광」 1스택을 획득한다. &Param1&초간 지속되며, 최대 &Param2&스택 중첩된다. \n「영광」 10스택 달성 시, 팀 내 바람 속성 캐릭터가 입히는 바람 속성 피해가 <span style=\"color:#ec6d21\">&Param3&</span> 증가한다. \n「영광」 20스택 달성 시 팀 내 바람 속성 캐릭터가 입히는 일반 공격 피해가 추가로 <span style=\"color:#ec6d21\">&Param4&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5%",
+                "6%",
+                "7%",
+                "8%",
+                "9%",
+                "10%"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "빛의 길",
+          "desc": "팀 내 바람 속성 캐릭터의 공격력이 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다. \n「영광」이 추가 효과를 획득해, 1스택마다 자신의 스킬 피해가 <span style=\"color:#ec6d21\">&Param2&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2.4%",
+                "4.8%",
+                "7.2%",
+                "9.6%",
+                "12%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.1%",
+                "0.2%",
+                "0.3%",
+                "0.4%",
+                "0.5%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90017,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "원대한 앞길",
+          "desc": "「영광」 최대 스택 시 팀 내 바람 속성 캐릭터가 입히는 바람 속성 피해가 <span style=\"color:#ec6d21\">&Param1&</span> 증가한다.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90011,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90020,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4060
     }
   ]
 }
