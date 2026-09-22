@@ -50710,8 +50710,8 @@
         {
           "id": 516010,
           "name": "Wavering Glow",
-          "descShort": "After bouncing a certain number of times, Bubble Frog deals Aqua Skill DMG in a large area. Can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, while increasing targets' &Param2&.",
-          "descLong": "Every 2 bounces, Bubble Frog deals <span style=\"color:#ec6d21\">&Param1&</span> of ATK as Aqua Skill DMG in a large area. Can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, while increasing targets' &Param2& by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
+          "descShort": "After bouncing a certain number of times, Bubble Frog deals Aqua Skill DMG in a large area. Can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, while increasing the target's DMG Taken of all Elements.",
+          "descLong": "Every 2 bounces, Bubble Frog deals <span style=\"color:#ec6d21\">&Param1&</span> of ATK as Aqua Skill DMG in a large area. Can inflict <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span>, while increasing the target's DMG Taken of all Elements by <span style=\"color:#ec6d21\">&Param3&</span> for &Param4&s.",
           "icons": [
             "16001_Potential_03_A",
             "Potential_Round_B",
@@ -50721,20 +50721,6 @@
           "build": 2,
           "type": 1,
           "params": [
-            {
-              "idx": 2,
-              "values": [
-                "Aqua DMG Taken",
-                "Aqua DMG Taken",
-                "Aqua DMG Taken",
-                "Aqua DMG Taken",
-                "Aqua DMG Taken",
-                "Aqua DMG Taken",
-                "Aqua DMG Taken",
-                "Aqua DMG Taken",
-                "Aqua DMG Taken"
-              ]
-            },
             {
               "idx": 1,
               "values": [
@@ -51115,7 +51101,7 @@
           "id": 516026,
           "name": "Hovering Gale",
           "descShort": "When a target with <span style=\"color:#6A90EB\">Smiling Sanction</span> has <span style=\"color:#6A90EB\">Aqua Mark</span> triggered, this target is immediately inflicted with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span> again and receives additional Aqua Mark DMG. The &Param2& received this time is increased based on the stacks of <span style=\"color:#6A90EB\">Smiling Sanction</span>.",
-          "descLong": "When a target with <span style=\"color:#6A90EB\">Smiling Sanction</span> has <span style=\"color:#6A90EB\">Aqua Mark</span> triggered, this target is immediately inflicted with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span> again and receives an additional <span style=\"color:#ec6d21\">&Param1&</span> of ATK as Aqua Mark DMG. For each stack of <span style=\"color:#6A90EB\">Smiling Sanction</span> this target has, increases the &Param2& received this time by <span style=\"color:#ec6d21\">&Param3&</span>. This effect can only be triggered once every 1s.",
+          "descLong": "When a target with <span style=\"color:#6A90EB\">Smiling Sanction</span> has <span style=\"color:#6A90EB\">Aqua Mark</span> triggered, this target is immediately inflicted with <span style=\"color:#6A90EB\">Aqua Mark: Torrent</span> again and receives an additional <span style=\"color:#ec6d21\">&Param1&</span> of ATK as Aqua Mark DMG. For each stack of <span style=\"color:#6A90EB\">Smiling Sanction</span> this target has, increases the &Param2& received this time by <span style=\"color:#ec6d21\">&Param3&</span>. This effect can only be triggered once every &Param4&s.",
           "icons": [
             "16001_Potential_21_A",
             "Potential_Triangle_B",
@@ -51165,6 +51151,12 @@
                 "9.7%",
                 "10.9%",
                 "12.2%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "1.5"
               ]
             }
           ]
