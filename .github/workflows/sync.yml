@@ -38,6 +38,9 @@ jobs:
         with:
           bun-version: latest
 
+      - name: Install project dependencies
+        run: bun install
+
       - name: Install Playwright Chromium & Linux Dependencies
         run: bun x playwright install --with-deps chromium
 
@@ -48,9 +51,7 @@ jobs:
           dotnet-version: "9.0.x"
 
       - name: Run scripts
-        run: |
-          bun install
-          bun run generate
+        run: bun run generate
 
       - name: Push any changes
         run: |
