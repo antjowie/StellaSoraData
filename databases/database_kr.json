@@ -54044,8 +54044,8 @@
         {
           "id": 516225,
           "name": "심판의 일섬",
-          "descShort": "지원 스킬 「신뢰격·파」가 생성하는 「낙성」의 피해 범위가 증가한다. 「낙성」 생성 시 세이나의 &Param1& 증가한다.",
-          "descLong": "지원 스킬 「신뢰격·파」가 생성하는 「낙성」의 피해 범위가 증가한다. \n「낙성」 1회 생성 시마다 세이나의 &Param1& <span style=\"color:#fb8037\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
+          "descShort": "지원 스킬 「신뢰격·파」가 생성하는 「낙성」의 피해 범위가 증가한다. 「낙성」 생성 시 세이나(기원)의 &Param1& 증가한다.",
+          "descLong": "지원 스킬 「신뢰격·파」가 생성하는 「낙성」의 피해 범위가 증가한다. \n「낙성」 1회 생성 시마다 세이나(기원)의 &Param1& <span style=\"color:#fb8037\">&Param2&</span> 증가한다. &Param3&초간 지속되며, 최대 &Param4&스택 중첩된다.",
           "icons": [
             "Common_Potential_8_A",
             "Potential_Diamond_B",
@@ -54624,8 +54624,8 @@
         {
           "id": 516243,
           "name": "샛별",
-          "descShort": "세이나가 「극성」 상태일 때 자신의 &Param1& 추가로 증가한다. 동시에 일정 시간마다 SP를 회복한다.",
-          "descLong": "세이나가 「극성」 상태일 때 자신의 &Param1& <span style=\"color:#fb8037\">&Param2&</span> 추가로 증가한다. 동시에 &Param3&초마다 SP를 <span style=\"color:#fb8037\">&Param4&</span> 회복한다.",
+          "descShort": "세이나(기원)가 「극성」 상태일 때 자신의 &Param1& 추가로 증가한다. 동시에 일정 시간마다 SP를 회복한다.",
+          "descLong": "세이나(기원)가 「극성」 상태일 때 자신의 &Param1& <span style=\"color:#fb8037\">&Param2&</span> 추가로 증가한다. 동시에 &Param3&초마다 SP를 <span style=\"color:#fb8037\">&Param4&</span> 회복한다.",
           "icons": [
             "16201_Potential_43_A",
             "Potential_Round_B",
@@ -61932,7 +61932,7 @@
     {
       "id": 214024,
       "name": "하나, 둘, 셋, 점프!",
-      "desc": "한 가닥의 밧줄이\n햇살 내리쬐는 곳에서 뻗어 나가\n오랜 시간 잊혀진 유적지로 이어진다.\n밧줄을 움켜쥔 소녀가\n하늘에서 뛰어내린다.\n“……결국 보물이잖아?\n내가 가져가면 그만이지!”",
+      "desc": "한 가닥의 밧줄이\n햇살 내리쬐는 곳에서 뻗어 나가\n오랜 시간 잊힌 유적지로 이어진다.\n밧줄을 움켜쥔 소녀가\n하늘에서 뛰어내린다.\n“……결국 보물이잖아?\n내가 가져가면 그만이지!”",
       "element": 4,
       "rarity": 1,
       "skills": [
