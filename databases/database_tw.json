@@ -53212,7 +53212,7 @@
           "id": 516201,
           "name": "流光極閃",
           "descShort": "提升主控技「暴風閃·耀」的長劍攻擊次數，並發射多道「流光」攻擊目標。",
-          "descLong": "主控技「暴風閃·耀」的長劍攻擊次數提升<span style=\"color:#0abec5\">4</span>次，並發射<span style=\"color:#0abec5\">9</span>道「流光」，美到造成最大生命值<span style=\"color:#0abec5\">&Param1&</span>的光系技能傷害。",
+          "descLong": "主控技「暴風閃·耀」的長劍攻擊次數提升<span style=\"color:#0abec5\">4</span>次，並發射<span style=\"color:#0abec5\">9</span>道「流光」，每道造成最大生命值<span style=\"color:#0abec5\">&Param1&</span>的光系技能傷害。",
           "icons": [
             "16201_Potential_01_A"
           ],
