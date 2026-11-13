@@ -1895,7 +1895,7 @@
           "id": 510723,
           "name": "完美的回旋",
           "descShort": "「圣光之盾」会飞向主控角色并造成范围伤害，同时使附近目标受到技能伤害提升。",
-          "descLong": "「圣光之盾」会飞向主控角色后再弹射。\n「圣光之盾」命中主控角色时，造成缇莉娅攻击力<span style=\"color:#0abec5\">&Param2&</span>的范围光系技能伤害，并使附近目标受到技能伤害提升<span style=\"color:#0abec5\">&Param3&</span>，持续&Param4&秒，可叠加&Param5&层。",
+          "descLong": "「圣光之盾」会飞向主控角色后再弹射。\n「圣光之盾」命中主控角色时，产生「光击阵」：造成缇莉娅攻击力<span style=\"color:#0abec5\">&Param2&</span>的范围光系技能伤害，并使附近目标受到技能伤害提升<span style=\"color:#0abec5\">&Param3&</span>，持续&Param4&秒，可叠加&Param5&层。",
           "icons": [
             "10701_Potential_23_A"
           ],
@@ -2219,7 +2219,7 @@
           "id": 510730,
           "name": "破绽显露",
           "descShort": "「圣光之盾」对当前生命较低的目标额外造成范围伤害，并使其受到技能伤害提升。",
-          "descLong": "「圣光之盾」对当前生命低于<span style=\"color:#ec6d21\">&Param2&</span>的目标额外造成攻击力&Param3&的范围光系技能伤害，并使其受到技能伤害提升&Param4&，持续&Param5&秒，可叠加&Param6&层。\n该效果每&Param8&秒最多触发1次。",
+          "descLong": "「圣光之盾」命中当前生命低于<span style=\"color:#ec6d21\">&Param2&</span>的目标时，产生「光击阵」：造成缇莉娅攻击力&Param3&的范围光系技能伤害，并使其受到技能伤害提升&Param4&，持续&Param5&秒，可叠加&Param6&层。\n该效果每&Param8&秒最多触发1次。",
           "icons": [
             "10701_Potential_24_A",
             "Potential_Round_B",
@@ -53214,6 +53214,1589 @@
       ]
     },
     {
+      "id": 161,
+      "name": "优叶",
+      "class": 2,
+      "element": 3,
+      "rarity": 1,
+      "mainBuild1Name": "优叶主控流派1",
+      "mainBuild1Desc": "提升「资源标点」的获取效率，并通过消耗「资源标点」强化普通攻击的流派。",
+      "mainBuild2Name": "优叶主控流派2",
+      "mainBuild2Desc": "通过建立多个「观测点」协助优叶作战的流派。",
+      "supportBuild1Name": "优叶援护流派1",
+      "supportBuild1Desc": "通过延长「观测点」持续时间并强化「战术制图」来作战的流派。",
+      "supportBuild2Name": "优叶援护流派2",
+      "supportBuild2Desc": "通过强化「先导攻击」并多次叠加「标定印记」来造成伤害的流派。",
+      "potentials": [
+        {
+          "id": 516101,
+          "name": "结晶超频",
+          "descShort": "不再生成「观测点」。普攻时可消耗<span style=\"color:#6A90EB\">「资源标点」</span>使该次普攻的&Param2&提升。",
+          "descLong": "施放主控技能「晶脉勘定」后，不再生成「观测点」。优叶普攻造成伤害时，必定产生1个<span style=\"color:#6A90EB\">「资源标点」</span>。优叶普攻时可消耗3个<span style=\"color:#6A90EB\">「资源标点」</span>，发射「增幅结晶」造成攻击力<span style=\"color:#0abec5\">&Param3&</span>的地系普攻伤害，并使该次普攻的&Param2&提升<span style=\"color:#0abec5\">&Param1&</span>，可触发<span style=\"color:#6A90EB\">地系印记</span>。",
+          "icons": [
+            "16101_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "伤害倍率"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "119%",
+                "137%",
+                "155%",
+                "208%",
+                "225%",
+                "242%",
+                "275%",
+                "289%",
+                "304%",
+                "332%",
+                "356%",
+                "380%",
+                "404%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "50%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516102,
+          "name": "集束贯通",
+          "descShort": "普攻造成伤害时，额外产生<span style=\"color:#6A90EB\">「资源标点」</span>。普攻的&Param2&提升，可穿透目标。后续产生的<span style=\"color:#6A90EB\">「资源标点」</span>自动被吸收。",
+          "descLong": "优叶普攻造成伤害时，额外产生1个<span style=\"color:#6A90EB\">「资源标点」</span>。优叶普攻的&Param2&提升<span style=\"color:#0abec5\">&Param1&</span>，可穿透目标。后续产生的<span style=\"color:#6A90EB\">「资源标点」</span>自动被吸收。",
+          "icons": [
+            "16101_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "伤害倍率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "70%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516103,
+          "name": "阵地回响",
+          "descShort": "普攻造成伤害时，不再产生<span style=\"color:#6A90EB\">「资源标点」</span>。主控技冷却时间缩短。「观测点」持续时间延长。单个「观测点」每累计攻击3次后额外造成伤害。",
+          "descLong": "普攻造成伤害时，不再产生<span style=\"color:#6A90EB\">「资源标点」</span>。主控技冷却时间缩短<span style=\"color:#0abec5\">10</span>秒。「观测点」持续时间延长<span style=\"color:#0abec5\">20</span>秒。施放技能时，不消耗<span style=\"color:#6A90EB\">「资源标点」</span>直接生成1个「观测点」，该效果每20秒最多触发1次。单个「观测点」每累计攻击<span style=\"color:#0abec5\">3</span>次，施放1次波动，造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的范围地系普攻伤害。",
+          "icons": [
+            "16101_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "103%",
+                "118%",
+                "134%",
+                "180%",
+                "195%",
+                "209%",
+                "238%",
+                "250%",
+                "263%",
+                "287%",
+                "308%",
+                "328%",
+                "349%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516104,
+          "name": "阵地强袭",
+          "descShort": "「观测点」每秒对目标发射子弹，每3秒产生1个<span style=\"color:#6A90EB\">「资源标点」</span>。优叶每拾取1个<span style=\"color:#6A90EB\">「资源标点」</span>，「观测点」造成的&Param5&提升。",
+          "descLong": "「观测点」每秒对目标发射子弹，造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的地系普攻伤害。每3秒产生1个<span style=\"color:#6A90EB\">「资源标点」</span>。优叶每拾取1个<span style=\"color:#6A90EB\">「资源标点」</span>，「观测点」造成的&Param5&提升<span style=\"color:#0abec5\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "16101_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "伤害倍率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "32%",
+                "37%",
+                "42%",
+                "57%",
+                "61%",
+                "66%",
+                "75%",
+                "79%",
+                "83%",
+                "91%",
+                "97%",
+                "104%",
+                "110%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516105,
+          "name": "地伤增幅",
+          "descShort": "「增幅结晶」造成伤害时，使目标&Param1&提升。",
+          "descLong": "「增幅结晶」造成伤害时，使目标&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "16101_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.8%",
+                "1.3%",
+                "1.8%",
+                "2.2%",
+                "2.7%",
+                "3.2%",
+                "3.7%",
+                "4.2%",
+                "4.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516106,
+          "name": "地印共振",
+          "descShort": "「增幅结晶」触发<span style=\"color:#6A90EB\">地系印记</span>时，优叶&Param1&提升。",
+          "descLong": "「增幅结晶」触发<span style=\"color:#6A90EB\">地系印记</span>时，优叶&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "16101_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.5%",
+                "2.4%",
+                "3.3%",
+                "4.2%",
+                "5.1%",
+                "6%",
+                "6.9%",
+                "7.8%",
+                "8.7%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516107,
+          "name": "标点过载",
+          "descShort": "优叶&Param3&提升。发射「增幅结晶」时有概率不消耗<span style=\"color:#6A90EB\">「资源标点」</span>额外发射一颗「向量结晶」。每次发射「增幅结晶」消耗的<span style=\"color:#6A90EB\">「资源标点」</span>减少。",
+          "descLong": "优叶&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。发射「增幅结晶」时，有80%概率不消耗<span style=\"color:#6A90EB\">「资源标点」</span>额外发射1颗「向量结晶」，造成攻击力<span style=\"color:#ec6d21\">&Param2&</span>的地系普攻伤害。每次发射「增幅结晶」消耗的<span style=\"color:#6A90EB\">「资源标点」</span>减少1个。",
+          "icons": [
+            "16101_Potential_07_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10.9%",
+                "17.4%",
+                "23.9%",
+                "30.4%",
+                "36.9%",
+                "43.4%",
+                "49.9%",
+                "56.4%",
+                "62.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516108,
+          "name": "观测蚀域",
+          "descShort": "「观测点」范围内目标&Param1&提升。",
+          "descLong": "「观测点」范围内目标&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，可叠加&Param3&层。",
+          "icons": [
+            "16101_Potential_04_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.7%",
+                "4.3%",
+                "5.9%",
+                "7.6%",
+                "9.2%",
+                "10.8%",
+                "12.4%",
+                "14%",
+                "15.7%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516109,
+          "name": "测域增幅",
+          "descShort": "「观测点」造成伤害时，「观测点」的&Param1&提升。",
+          "descLong": "「观测点」造成伤害时，「观测点」的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "16101_Potential_04_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516110,
+          "name": "观测联阵",
+          "descShort": "「观测点」上限提升。场上每有1个「观测点」，「观测点」造成的&Param2&提升。",
+          "descLong": "可至多生成<span style=\"color:#ec6d21\">&Param1&</span>个「观测点」。每有1个「观测点」，「观测点」造成的&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "icons": [
+            "16101_Potential_10_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7%",
+                "11%",
+                "15%",
+                "19%",
+                "23%",
+                "27%",
+                "31%",
+                "35%",
+                "39%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516111,
+          "name": "机动增幅",
+          "descShort": "提升闪避次数。闪避时优叶&Param1&提升。",
+          "descLong": "优叶闪避次数提升1次。\n闪避时，优叶&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "Common_Potential_21_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "12%",
+                "16%",
+                "19%",
+                "22%",
+                "25%",
+                "28%",
+                "31%",
+                "34%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516112,
+          "name": "地印觉醒",
+          "descShort": "绝招「地形映射」可触发<span style=\"color:#6A90EB\">地系印记</span>。优叶施放绝招后&Param1&提升。",
+          "descLong": "绝招「地形映射」可触发<span style=\"color:#6A90EB\">地系印记</span>。施放绝招后，优叶&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "Common_Potential_Earth_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516113,
+          "name": "地脉协同",
+          "descShort": "队伍中每有1个地系角色，优叶&Param1&提升。",
+          "descLong": "队伍中每有1个地系角色，优叶&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516121,
+          "name": "战术联绘",
+          "descShort": "「观测点」持续时间延长，最多同时存在2个「观测点」。「战术制图」伤害间隔缩短。「战术制图」造成伤害可使目标&Param1&提升。",
+          "descLong": "「观测点」持续时间延长10秒，最多同时存在2个「观测点」。「战术制图」伤害间隔缩短，对同一目标每秒最多造成1次伤害。全队为地系角色时，「战术制图」造成伤害可使目标&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "16101_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到地系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6.7%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516122,
+          "name": "观测迭代",
+          "descShort": "优叶每施放1次援护技能「区域标绘」时，「观测点」进阶1次，使「战术制图」造成的&Param1&提升。",
+          "descLong": "优叶每施放1次援护技能「区域标绘」时，「观测点」进阶1次，使「战术制图」造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>，该效果不会消失，可叠加4次。",
+          "icons": [
+            "16101_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "伤害倍率"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "14%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516123,
+          "name": "先导标定",
+          "descShort": "提升「先导攻击」频率。「先导攻击」造成伤害时，使「先导攻击」和<span style=\"color:#6A90EB\">标定印记</span>造成的&Param1&提升。「观测点」消失时，对范围内目标附加1层<span style=\"color:#6A90EB\">标定印记</span>。",
+          "descLong": "「观测点」每秒向外发出1次「先导攻击」。「先导攻击」造成伤害时，使「先导攻击」和<span style=\"color:#6A90EB\">标定印记</span>造成的&Param1&提升<span style=\"color:#0abec5\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。「观测点」持续10秒后消失，并对范围内目标附加1层<span style=\"color:#6A90EB\">标定印记</span>。",
+          "icons": [
+            "16101_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "伤害倍率"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13.9%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516124,
+          "name": "标定引爆",
+          "descShort": "不再生成「战术制图」。「先导攻击」和<span style=\"color:#6A90EB\">标定印记</span>&Param2&提升。「先导攻击」造成伤害时，对目标附加1层<span style=\"color:#6A90EB\">标定印记</span>。<span style=\"color:#6A90EB\">标定印记</span>叠加至3层时，立即引爆。",
+          "descLong": "不再生成「战术制图」。「先导攻击」和<span style=\"color:#6A90EB\">标定印记</span>&Param2&提升<span style=\"color:#0abec5\">&Param3&</span>。「先导攻击」获得强化，造成攻击力<span style=\"color:#0abec5\">&Param1&</span>的地系普攻伤害。「先导攻击」造成伤害时，对目标附加1层<span style=\"color:#6A90EB\">标定印记</span>。<span style=\"color:#6A90EB\">标定印记</span>叠加至3层时，立即引爆。",
+          "icons": [
+            "16101_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "暴击率"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "282%",
+                "324%",
+                "366%",
+                "493%",
+                "532%",
+                "572%",
+                "651%",
+                "685%",
+                "718%",
+                "786%",
+                "842%",
+                "899%",
+                "955%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516125,
+          "name": "地伤增绘",
+          "descShort": "全队为地系角色时，生成「观测点」可使「战术制图」内目标&Param1&提升。",
+          "descLong": "全队为地系角色时，生成「观测点」可使「战术制图」范围内目标&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "16101_Potential_21_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到印记伤害",
+                "受到印记伤害",
+                "受到印记伤害",
+                "受到印记伤害",
+                "受到印记伤害",
+                "受到印记伤害",
+                "受到印记伤害",
+                "受到印记伤害",
+                "受到印记伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "66%",
+                "106%",
+                "146%",
+                "185%",
+                "225%",
+                "265%",
+                "305%",
+                "344%",
+                "384%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516126,
+          "name": "二阶增绘",
+          "descShort": "「观测点」在进阶2次后，「战术制图」造成的&Param1&提升。",
+          "descLong": "「观测点」在进阶2次后，「战术制图」造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "icons": [
+            "16101_Potential_22_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516127,
+          "name": "跃阶绘域",
+          "descShort": "优叶每次施放援护技能，「观测点」进阶2次。「战术制图」造成的&Param1&提升。",
+          "descLong": "优叶每施放1次援护技能「区域标绘」，「观测点」进阶2次。「战术制图」造成伤害时，「战术制图」造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "16101_Potential_27_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516128,
+          "name": "标定扩蚀",
+          "descShort": "「先导攻击」和<span style=\"color:#6A90EB\">标定印记</span>&Param3&提升，造成的&Param1&提升。目标受到主控先锋角色造成的伤害时，可额外附加1层<span style=\"color:#6A90EB\">标定印记</span>。",
+          "descLong": "「先导攻击」和<span style=\"color:#6A90EB\">标定印记</span>&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。附带<span style=\"color:#6A90EB\">标定印记</span>的目标受到主控先锋角色造成的伤害时，可额外附加1层<span style=\"color:#6A90EB\">标定印记</span>，该效果同一目标每秒最多触发1次。",
+          "icons": [
+            "16101_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "暴击率",
+                "暴击率",
+                "暴击率",
+                "暴击率",
+                "暴击率",
+                "暴击率",
+                "暴击率",
+                "暴击率",
+                "暴击率"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6%",
+                "10%",
+                "14%",
+                "18%",
+                "21%",
+                "25%",
+                "26%",
+                "27%",
+                "28%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13%",
+                "21%",
+                "29%",
+                "36%",
+                "44%",
+                "52%",
+                "60%",
+                "68%",
+                "75%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516129,
+          "name": "印记蚀刻",
+          "descShort": "全队为地系角色时，<span style=\"color:#6A90EB\">标定印记</span>造成伤害可使目标&Param1&提升。\n全队仅有1名地系角色时，<span style=\"color:#6A90EB\">标定印记</span>造成伤害可使全队&Param5&提升，并使目标&Param7&提升。",
+          "descLong": "全队为地系角色时，<span style=\"color:#6A90EB\">标定印记</span>造成伤害可使目标&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。\n全队仅有1名地系角色时，<span style=\"color:#6A90EB\">标定印记</span>造成伤害可使全队&Param5&提升<span style=\"color:#ec6d21\">&Param6&</span>，持续3秒，可叠加6层。并使目标&Param7&提升<span style=\"color:#ec6d21\">&Param8&</span>，持续3秒，可叠加6层。",
+          "icons": [
+            "16101_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害",
+                "受到地系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4.3%",
+                "6.9%",
+                "9.5%",
+                "12%",
+                "14.6%",
+                "17.2%",
+                "19.8%",
+                "22.4%",
+                "24.9%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "2.2%",
+                "3.5%",
+                "4.8%",
+                "6.2%",
+                "7.5%",
+                "8.8%",
+                "10.1%",
+                "11.4%",
+                "12.8%"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "4.3%",
+                "6.9%",
+                "9.5%",
+                "12%",
+                "14.6%",
+                "17.2%",
+                "19.8%",
+                "22.4%",
+                "24.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516130,
+          "name": "重标压制",
+          "descShort": "「先导攻击」和<span style=\"color:#6A90EB\">标定印记</span>造成的&Param1&提升，造成的&Param3&提升。「先导攻击」造成伤害时，对目标附加2层<span style=\"color:#6A90EB\">标定印记</span>。",
+          "descLong": "「先导攻击」和<span style=\"color:#6A90EB\">标定印记</span>造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，造成的&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>。强化后的「先导攻击」造成伤害时，对目标附加2层<span style=\"color:#6A90EB\">标定印记</span>。",
+          "icons": [
+            "16101_Potential_30_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "普攻暴击伤害",
+                "普攻暴击伤害",
+                "普攻暴击伤害",
+                "普攻暴击伤害",
+                "普攻暴击伤害",
+                "普攻暴击伤害",
+                "普攻暴击伤害",
+                "普攻暴击伤害",
+                "普攻暴击伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "7.5%",
+                "12%",
+                "16.5%",
+                "21%",
+                "25.5%",
+                "30%",
+                "31.5%",
+                "33%",
+                "34.5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516131,
+          "name": "地脉激活",
+          "descShort": "优叶附加<span style=\"color:#6A90EB\">地系印记：地脉</span>时，&Param1&提升。",
+          "descLong": "优叶附加<span style=\"color:#6A90EB\">地系印记：地脉</span>时，&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "icons": [
+            "Common_Potential_14_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6%",
+                "9%",
+                "11%",
+                "14%",
+                "16%",
+                "18%",
+                "21%",
+                "23%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516132,
+          "name": "厚土沉积",
+          "descShort": "绝招「地形映射」可附加<span style=\"color:#6A90EB\">地系印记：地脉</span>。绝招「地形映射」造成伤害时，优叶&Param1&提升。",
+          "descLong": "绝招「地形映射」可附加<span style=\"color:#6A90EB\">地系印记：地脉</span>。绝招「地形映射」造成伤害时，优叶&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "icons": [
+            "Common_Potential_Earth_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害",
+                "地系伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19%",
+                "26%",
+                "34%",
+                "41%",
+                "48%",
+                "55%",
+                "62%",
+                "70%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516133,
+          "name": "地源增幅",
+          "descShort": "全队为地系角色时，全队&Param1&提升。全队仅有1名地系角色时，全队&Param3&提升，优叶&Param5&额外提升。",
+          "descLong": "全队为地系角色时，全队&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>。\n全队仅有1名地系角色时，全队&Param3&提升<span style=\"color:#ec6d21\">&Param4&</span>，优叶&Param5&额外提升<span style=\"color:#ec6d21\">&Param6&</span>。",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "14%",
+                "22%",
+                "30%",
+                "39%",
+                "47%",
+                "55%",
+                "58%",
+                "60%",
+                "63%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516141,
+          "name": "绘域升势",
+          "descShort": "绝招「地形映射」造成伤害时，优叶&Param1&提升。",
+          "descLong": "绝招「地形映射」造成伤害时，优叶&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，最多叠加&Param4&层。",
+          "icons": [
+            "16101_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击",
+                "攻击"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6.4%",
+                "8.8%",
+                "11.2%",
+                "13.6%",
+                "16%",
+                "18.4%",
+                "20.8%",
+                "23.2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516142,
+          "name": "绘域轰击",
+          "descShort": "绝招「地形映射」造成的&Param1&提升，伤害间隔缩短。",
+          "descLong": "绝招「地形映射」造成的&Param1&提升<span style=\"color:#ec6d21\">&Param2&</span>，伤害间隔缩短。",
+          "icons": [
+            "16101_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害",
+                "绝招伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516143,
+          "name": "绘域协战",
+          "descShort": "绝招处于冷却或绝招能量未满时，全队地系先锋和均衡角色&Param4&提升。主控角色处于绝招「地形映射」范围内时，全队地系先锋和均衡角色&Param2&提升。",
+          "descLong": "绝招「地形映射」处于冷却或能量未满时，全队地系先锋和均衡角色&Param4&提升<span style=\"color:#ec6d21\">&Param5&</span>。主控角色处于绝招「地形映射」范围内时，全队地系先锋和均衡角色&Param2&提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "icons": [
+            "16101_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害",
+                "普攻伤害"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "13%",
+                "20%",
+                "28%",
+                "35%",
+                "43%",
+                "50%",
+                "58%",
+                "65%",
+                "73%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.5%",
+                "4%",
+                "5.5%",
+                "7%",
+                "8.5%",
+                "10%",
+                "11.5%",
+                "13%",
+                "14.5%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 162,
       "name": "尘沙（源初）",
       "class": 1,
@@ -53745,8 +55328,8 @@
         {
           "id": 516210,
           "name": "觉悟·断破",
-          "descShort": "施放特殊普攻「断罪天星坠」时，源初尘沙的绝招切换为巨剑形态。提升尘沙的巨剑攻击和「坠星」造成的&Param1&。",
-          "descLong": "施放特殊普攻「断罪天星坠」时，源初尘沙的绝招切换为巨剑形态。\n尘沙的巨剑攻击和「坠星」造成的&Param1&提升<span style=\"color:#fb8037\">&Param2&</span>点。",
+          "descShort": "施放特殊普攻「断罪天星坠」时，源初尘沙的绝招切换为巨剑形态。提升源初尘沙的巨剑攻击和「坠星」造成的&Param1&。",
+          "descLong": "施放特殊普攻「断罪天星坠」时，源初尘沙的绝招切换为巨剑形态。\n源初尘沙的巨剑攻击和「坠星」造成的&Param1&提升<span style=\"color:#fb8037\">&Param2&</span>点。",
           "icons": [
             "16201_Potential_03_A",
             "Potential_Round_B",
@@ -54044,8 +55627,8 @@
         {
           "id": 516225,
           "name": "裁光断",
-          "descShort": "提升援护技「迅雷击·破」产生「坠星」的伤害范围。产生「坠星」时，提升尘沙的&Param1&。",
-          "descLong": "援护技「迅雷击·破」产生「坠星」的伤害范围提升。\n每1次产生「坠星」时，尘沙的&Param1&提升<span style=\"color:#fb8037\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
+          "descShort": "提升援护技「迅雷击·破」产生「坠星」的伤害范围。产生「坠星」时，提升源初尘沙的&Param1&。",
+          "descLong": "援护技「迅雷击·破」产生「坠星」的伤害范围提升。\n每1次产生「坠星」时，源初尘沙的&Param1&提升<span style=\"color:#fb8037\">&Param2&</span>，持续&Param3&秒，可叠加&Param4&层。",
           "icons": [
             "Common_Potential_8_A",
             "Potential_Diamond_B",
@@ -54624,8 +56207,8 @@
         {
           "id": 516243,
           "name": "启明之星",
-          "descShort": "尘沙处于「极星」状态时，可额外提升自身的&Param1&，同时每隔一定时间回复能量。",
-          "descLong": "尘沙处于「极星」状态时，可额外提升自身的&Param1&<span style=\"color:#fb8037\">&Param2&</span>，同时每&Param3&秒回复<span style=\"color:#fb8037\">&Param4&</span>点能量。",
+          "descShort": "源初尘沙处于「极星」状态时，可额外提升自身的&Param1&，同时每隔一定时间回复能量。",
+          "descLong": "源初尘沙处于「极星」状态时，可额外提升自身的&Param1&<span style=\"color:#fb8037\">&Param2&</span>，同时每&Param3&秒回复<span style=\"color:#fb8037\">&Param4&</span>点能量。",
           "icons": [
             "16201_Potential_43_A",
             "Potential_Round_B",
@@ -68471,6 +70054,350 @@
         }
       ],
       "bg": 4067
+    },
+    {
+      "id": 214068,
+      "name": "帐幕下的酣梦",
+      "desc": "跨过高山，渡过远海。\u000b世界有尽头，而梦却无限。\u000b将梦想延伸，踏上通往未来的路。",
+      "element": 3,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "帐幕下的酣梦",
+          "desc": "队伍内地系角色印记伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n地系均衡角色造成伤害时，对目标附加「定标」：受到地系技能伤害提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。\n地系均衡角色对附带「定标」的目标造成普攻伤害时，附加额外效果：使目标受到普攻伤害提升<span style=\"color:#ec6d21\">&Param4&</span>，持续&Param5&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "30%",
+                "36%",
+                "42%",
+                "48%",
+                "54%",
+                "60%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "觅迹之击",
+          "desc": "全队地系伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n队伍内地系角色对附带「定标」的目标造成的普攻和技能伤害提升<span style=\"color:#ec6d21\">&Param2&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "20%",
+                "30%",
+                "40%",
+                "50%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "破浪远航",
+          "desc": "援护角色造成普攻伤害时，自身获得1层「巡途」：地系普攻伤害提升<span style=\"color:#ec6d21\">&Param1&</span>，持续&Param2&秒，可叠加5层。\n地系主控角色对附带「定标」的目标造成的技能伤害提升<span style=\"color:#ec6d21\">&Param3&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4068
+    },
+    {
+      "id": 214069,
+      "name": "紧急救援",
+      "desc": "汹涌的热浪扑面而来，\u000b窒息、压迫、恐惧，它们似是凝成了一只巨兽，\u000b带着吞噬一切的决绝紧紧追赶着所有人。\u000b面前的身影，隔绝出一片冷静的空间——\n别回头，只管往前看。",
+      "element": 3,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "紧急救援",
+          "desc": "地系援护角色普攻伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n地系均衡角色施放技能时，为主控角色附加「锚定」：地系伤害提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒，可叠加2层。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7.5%",
+                "9%",
+                "10.5%",
+                "12%",
+                "13.5%",
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.5%",
+                "3%",
+                "3.5%",
+                "4%",
+                "4.5%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "领域扫描",
+          "desc": "队伍中地系角色技能伤害提升<span style=\"color:#ec6d21\">&Param1&</span>。\n任意角色触发地系印记后，队伍中地系角色绝招伤害提升<span style=\"color:#ec6d21\">&Param2&</span>，持续&Param3&秒。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "6%",
+                "9%",
+                "12%",
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "无尽航界",
+          "desc": "「锚定」满层时，队伍内地系角色攻击力提升<span style=\"color:#ec6d21\">&Param1&</span>。",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4069
     }
   ]
 }

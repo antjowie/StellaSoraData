@@ -1895,7 +1895,7 @@
           "id": 510723,
           "name": "Perfect Spiral",
           "descShort": "Aegis of Light ricochets with the main Trekker and deals AoE DMG, while increasing the Skill DMG Taken by nearby targets.",
-          "descLong": "Aegis of Light shields the main Trekker and then ricochets.\nWhen it hits the main Trekker, deals <span style=\"color:#0abec5\">&Param2& of Tilia's ATK</span> as AoE Lux Skill DMG and increases the Skill DMG taken by nearby enemies by <span style=\"color:#0abec5\">&Param3&</span>, lasting for &Param4&s, up to &Param5& stacks.",
+          "descLong": "Aegis of Light shields the main Trekker and then ricochets.\nUpon hitting the main Trekker, it creates a Lightning Array: Deals <span style=\"color:#0abec5\">&Param2& of Tilia's ATK</span> as AoE Lux Skill DMG and increases the Skill DMG taken by nearby enemies by <span style=\"color:#0abec5\">&Param3&</span>, lasting for &Param4&s. Stacks up to &Param5& times.",
           "icons": [
             "10701_Potential_23_A"
           ],
@@ -2219,7 +2219,7 @@
           "id": 510730,
           "name": "Revealed Flaw",
           "descShort": "Aegis of Light deals additional AoE DMG to targets with low HP and increases the Skill DMG they take.",
-          "descLong": "Aegis of Light deals an additional &Param3& of ATK as AoE Lux Skill DMG to targets whose HP are below <span style=\"color:#ec6d21\">&Param2&</span>. Also increases the Skill DMG they take by &Param4& for &Param5&s, stacking up to &Param6& times.\nThis effect can only be triggered once every &Param8&s.",
+          "descLong": "When Aegis of Light hits a target with HP below <span style=\"color:#ec6d21\">&Param2&</span>, it creates a Lightning Array: Deals &Param3& of Tilia's ATK as AoE Lux Skill DMG and increases the Skill DMG they take by &Param4& for &Param5&s, stacking up to &Param6& times.\nThis effect can only be triggered once every &Param8&s.",
           "icons": [
             "10701_Potential_24_A",
             "Potential_Round_B",
@@ -2229,6 +2229,20 @@
           "build": 2,
           "type": 2,
           "params": [
+            {
+              "idx": 2,
+              "values": [
+                "35%",
+                "45%",
+                "55%",
+                "65%",
+                "75%",
+                "85%",
+                "95%",
+                "95%",
+                "95%"
+              ]
+            },
             {
               "idx": 3,
               "values": [
@@ -2245,20 +2259,6 @@
                 "21%",
                 "21.9%",
                 "22.8%"
-              ]
-            },
-            {
-              "idx": 2,
-              "values": [
-                "35%",
-                "45%",
-                "55%",
-                "65%",
-                "75%",
-                "85%",
-                "95%",
-                "95%",
-                "95%"
               ]
             },
             {
@@ -53208,6 +53208,1589 @@
       ]
     },
     {
+      "id": 161,
+      "name": "Leafia",
+      "class": 2,
+      "element": 3,
+      "rarity": 1,
+      "mainBuild1Name": "Leafia: Main Build 1",
+      "mainBuild1Desc": "A build that generates Resource Markers faster and consumes them to enhance Auto Attacks.",
+      "mainBuild2Name": "Leafia: Main Build 2",
+      "mainBuild2Desc": "A build that assists Leafia by establishing multiple Observation Points.",
+      "supportBuild1Name": "Leafia: Support Build 1",
+      "supportBuild1Desc": "A build that keeps Observation Points active longer and makes the most of Tactical Mapping.",
+      "supportBuild2Name": "Leafia: Support Build 2",
+      "supportBuild2Desc": "A build that enhances Vanguard Strike and stacks Calibration Marks to deal DMG.",
+      "potentials": [
+        {
+          "id": 516101,
+          "name": "Crystal Overclock",
+          "descShort": "No longer generates Observation Points. Auto Attacks can consume <span style=\"color:#6A90EB\">Resource Markers</span> to increase that attack's &Param2&.",
+          "descLong": "After casting Crystal Vein Survey (Main Skill), Observation Points are no longer generated. When Leafia's Auto Attack deals DMG, it always generates 1 Resource Marker. Leafia's Auto Attack can also consume 3 <span style=\"color:#6A90EB\">Resource Markers</span> to fire an Amplification Crystal, dealing <span style=\"color:#0abec5\">&Param3&</span> of ATK as Terra Auto Attack DMG, increasing that Auto Attack's &Param2& by <span style=\"color:#0abec5\">&Param1&</span>, and triggering <span style=\"color:#6A90EB\">Terra Mark</span>.",
+          "icons": [
+            "16101_Potential_01_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "DMG multiplier"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "119%",
+                "137%",
+                "155%",
+                "208%",
+                "225%",
+                "242%",
+                "275%",
+                "289%",
+                "304%",
+                "332%",
+                "356%",
+                "380%",
+                "404%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "50%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516102,
+          "name": "Focused Penetration",
+          "descShort": "Auto Attacks generate extra <span style=\"color:#6A90EB\">Resource Markers</span> when dealing DMG. Auto Attack's &Param2& is increased and pierces targets. Any new <span style=\"color:#6A90EB\">Resource Markers</span> are absorbed automatically.",
+          "descLong": "Leafia's Auto Attacks generate 1 extra Resource Marker when dealing DMG. Auto Attack's &Param2& is increased by <span style=\"color:#0abec5\">&Param1&</span> and pierces targets. Any new <span style=\"color:#6A90EB\">Resource Markers</span> are absorbed automatically.",
+          "icons": [
+            "16101_Potential_02_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "DMG multiplier"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "70%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516103,
+          "name": "Field Echo",
+          "descShort": "Auto Attacks no longer generate <span style=\"color:#6A90EB\">Resource Markers</span> when dealing DMG. Reduces Main Skill Cooldown and extends Observation Point duration. Each Observation Point deals additional DMG every 3 attacks.",
+          "descLong": "Auto Attacks no longer generate <span style=\"color:#6A90EB\">Resource Markers</span> when dealing DMG. Reduces Main Skill Cooldown by <span style=\"color:#0abec5\">10s</span> and extends Observation Point duration by <span style=\"color:#0abec5\">20s</span>. Casting a skill directly generates 1 Observation Point without consuming <span style=\"color:#6A90EB\">Resource Markers</span> (triggers once every 20s). Every <span style=\"color:#0abec5\">3</span> attacks, each Observation Point releases a wave that deals <span style=\"color:#0abec5\">&Param1&</span> of ATK as AoE Terra Auto Attack DMG.",
+          "icons": [
+            "16101_Potential_03_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "103%",
+                "118%",
+                "134%",
+                "180%",
+                "195%",
+                "209%",
+                "238%",
+                "250%",
+                "263%",
+                "287%",
+                "308%",
+                "328%",
+                "349%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516104,
+          "name": "Field Assault",
+          "descShort": "Observation Points fire bullets at targets every second, generating 1 Resource Marker every 3s. Every Resource Marker Leafia picks up increases Observation Point's &Param5&.",
+          "descLong": "Observation Points fire bullets at targets every second, dealing <span style=\"color:#0abec5\">&Param1&</span> of ATK as Terra Auto Attack DMG and generating 1 Resource Marker every 3s. Each Resource Marker Leafia picks up increases Observation Point's &Param5& by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16101_Potential_04_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 5,
+              "values": [
+                "DMG multiplier"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "32%",
+                "37%",
+                "42%",
+                "57%",
+                "61%",
+                "66%",
+                "75%",
+                "79%",
+                "83%",
+                "91%",
+                "97%",
+                "104%",
+                "110%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516105,
+          "name": "Terra DMG Amp",
+          "descShort": "When Amplification Crystals deal DMG, increases the targets' &Param1&.",
+          "descLong": "When Amplification Crystals deal DMG, increases the targets' &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16101_Potential_01_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "0.8%",
+                "1.3%",
+                "1.8%",
+                "2.2%",
+                "2.7%",
+                "3.2%",
+                "3.7%",
+                "4.2%",
+                "4.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516106,
+          "name": "Terra Mark Resonance",
+          "descShort": "When Amplification Crystals trigger a <span style=\"color:#6A90EB\">Terra Mark</span>, increases Leafia's &Param1&.",
+          "descLong": "When Amplification Crystals trigger a <span style=\"color:#6A90EB\">Terra Mark</span>, increases Leafia's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16101_Potential_01_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "1.5%",
+                "2.4%",
+                "3.3%",
+                "4.2%",
+                "5.1%",
+                "6%",
+                "6.9%",
+                "7.8%",
+                "8.7%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516107,
+          "name": "Marker Overload",
+          "descShort": "Increases Leafia's &Param3&. Firing Amplification Crystals has a chance to launch an extra Vector Crystal without using <span style=\"color:#6A90EB\">Resource Markers</span>. Firing Amplification Crystals costs less Resource Marker.",
+          "descLong": "Increases Leafia's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>. Firing Amplification Crystals has an 80% chance to launch an extra Vector Crystal without using <span style=\"color:#6A90EB\">Resource Markers</span>, dealing <span style=\"color:#ec6d21\">&Param2&</span> of ATK as Terra Auto Attack DMG. Firing Amplification Crystals costs 1 less Resource Marker.",
+          "icons": [
+            "16101_Potential_07_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 1,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "20%",
+                "32%",
+                "44%",
+                "56%",
+                "68%",
+                "80%",
+                "92%",
+                "104%",
+                "116%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10.9%",
+                "17.4%",
+                "23.9%",
+                "30.4%",
+                "36.9%",
+                "43.4%",
+                "49.9%",
+                "56.4%",
+                "62.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516108,
+          "name": "Obsidian Field",
+          "descShort": "Increases the &Param1& of targets within the Observation Point range.",
+          "descLong": "Increases the &Param1& of targets within the Observation Point range by <span style=\"color:#ec6d21\">&Param2&</span>, stacking up to &Param3& times.",
+          "icons": [
+            "16101_Potential_04_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.7%",
+                "4.3%",
+                "5.9%",
+                "7.6%",
+                "9.2%",
+                "10.8%",
+                "12.4%",
+                "14%",
+                "15.7%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516109,
+          "name": "Survey Field Amp",
+          "descShort": "When Observation Points deal DMG, increases their &Param1&.",
+          "descLong": "When Observation Points deal DMG, increases their &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16101_Potential_04_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "10"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516110,
+          "name": "Observer Array",
+          "descShort": "Increases max Observation Points. Each active Observation Point on the field increases its &Param2& dealt.",
+          "descLong": "Can generate up to <span style=\"color:#ec6d21\">&Param1& Observation Points. Each active Observation Point on the field increases its &Param2& dealt by <span style=\"color:#ec6d21\">&Param3&</span>.</span>",
+          "icons": [
+            "16101_Potential_10_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 1,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "7%",
+                "11%",
+                "15%",
+                "19%",
+                "23%",
+                "27%",
+                "31%",
+                "35%",
+                "39%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516111,
+          "name": "Mobility Amp",
+          "descShort": "Leafia can dodge one more time. Increases her &Param1& when dodging.",
+          "descLong": "Leafia can dodge one more time.\nWhen dodging, increases her &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_21_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "9%",
+                "12%",
+                "16%",
+                "19%",
+                "22%",
+                "25%",
+                "28%",
+                "31%",
+                "34%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516112,
+          "name": "Terra Mark Awakening",
+          "descShort": "Terrain Mapping (Ultimate) can trigger <span style=\"color:#6A90EB\">Terra Marks</span>. After casting the Ultimate, increases Leafia's &Param1&.",
+          "descLong": "Terrain Mapping (Ultimate) can trigger <span style=\"color:#6A90EB\">Terra Marks</span>. After casting the Ultimate, increases Leafia's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_Earth_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19.2%",
+                "26.4%",
+                "33.6%",
+                "40.8%",
+                "48%",
+                "55.2%",
+                "62.4%",
+                "69.6%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516113,
+          "name": "Earth Vein Synergy",
+          "descShort": "For each Terra Trekker on the squad, increases Leafia's &Param1&.",
+          "descLong": "For each Terra Trekker on the squad, increases Leafia's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "Common_Potential_11_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 1,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "8%",
+                "11%",
+                "14%",
+                "17%",
+                "20%",
+                "23%",
+                "26%",
+                "29%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516121,
+          "name": "Tactical Co-Draw",
+          "descShort": "Extends Observation Point duration. Up to 2 Observation Points can be present at the same time. Reduces Tactical Mapping's attack interval. When Tactical Mapping deals DMG, increases the target's &Param1&.",
+          "descLong": "Extends Observation Point duration by 10s. Up to 2 Observation Points can be present at the same time. Reduces Tactical Mapping's DMG dealing Interval and it can deal damage to the same target at most once per second. In an all-Terra squad, when Tactical Mapping deals DMG, increases the target's &Param1& by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16101_Potential_21_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "6.7%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516122,
+          "name": "Observer Iteration",
+          "descShort": "Each time Leafia casts Area Plotting (Support Skill), Observation Points tier up once, increasing Tactical Mapping's &Param1&.",
+          "descLong": "Each time Leafia casts Area Plotting (Support Skill), Observation Points tier up once, increasing Tactical Mapping's &Param1& by <span style=\"color:#0abec5\">&Param2&</span>. This effect is permanent and stacks up to 4 times.",
+          "icons": [
+            "16101_Potential_22_A"
+          ],
+          "rarity": 3,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "DMG multiplier"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "14%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516123,
+          "name": "Vanguard Calibration",
+          "descShort": "Increases the frequency of Vanguard Strike. When Vanguard Strike deals DMG, increases the &Param1& of both itself and <span style=\"color:#6A90EB\">Calibration Mark</span>. When an Observation Point expires, inflicts 1 stack of <span style=\"color:#6A90EB\">Calibration Mark</span> on targets within range.",
+          "descLong": "Observation Points launch 1 Vanguard Strike outward every second. When Vanguard Strike deals DMG, increases the &Param1& of both itself and <span style=\"color:#6A90EB\">Calibration Mark</span> by <span style=\"color:#0abec5\">&Param2&</span> for &Param3&s, stacking up to &Param4& times. Observation Points expire after 10s and inflict 1 stack of <span style=\"color:#6A90EB\">Calibration Mark</span> on targets within range.",
+          "icons": [
+            "16101_Potential_23_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "DMG multiplier"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13.9%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "4"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516124,
+          "name": "Calibration Detonation",
+          "descShort": "No longer generates Tactical Mapping. Increases the &Param2& of Vanguard Strike and <span style=\"color:#6A90EB\">Calibration Mark</span>. When Vanguard Strike deals DMG, inflicts 1 stack of <span style=\"color:#6A90EB\">Calibration Mark</span> on the target. At 3 stacks, <span style=\"color:#6A90EB\">Calibration Mark</span>, detonates immediately.",
+          "descLong": "No longer generates Tactical Mapping. Increases the &Param2& of Vanguard Strike and <span style=\"color:#6A90EB\">Calibration Mark</span> by <span style=\"color:#0abec5\">&Param3&</span>. Vanguard Strike is enhanced to deal <span style=\"color:#0abec5\">&Param1&</span> of ATK as Terra Auto Attack DMG. When Vanguard Strike deals DMG, inflicts 1 stack of <span style=\"color:#6A90EB\">Calibration Mark</span> on the target.  At 3 stacks, <span style=\"color:#6A90EB\">Calibration Mark</span>, detonates immediately.",
+          "icons": [
+            "16101_Potential_24_A"
+          ],
+          "rarity": 3,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 2,
+              "values": [
+                "Crit Rate"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20%"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "282%",
+                "324%",
+                "366%",
+                "493%",
+                "532%",
+                "572%",
+                "651%",
+                "685%",
+                "718%",
+                "786%",
+                "842%",
+                "899%",
+                "955%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516125,
+          "name": "Terra DMG Etching",
+          "descShort": "In an all-Terra squad, generating Observation Points increases the &Param1& of targets within Tactical Mapping.",
+          "descLong": "In an all-Terra squad, generating Observation Points increases the &Param1& of targets within Tactical Mapping by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "16101_Potential_21_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Mark DMG Taken",
+                "Mark DMG Taken",
+                "Mark DMG Taken",
+                "Mark DMG Taken",
+                "Mark DMG Taken",
+                "Mark DMG Taken",
+                "Mark DMG Taken",
+                "Mark DMG Taken",
+                "Mark DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "66%",
+                "106%",
+                "146%",
+                "185%",
+                "225%",
+                "265%",
+                "305%",
+                "344%",
+                "384%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516126,
+          "name": "Tier 2 Etching",
+          "descShort": "Once Observation Points tier up 2 times, increases Tactical Mapping's &Param1&.",
+          "descLong": "Once Observation Points tier up 2 times, increases Tactical Mapping's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.",
+          "icons": [
+            "16101_Potential_22_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516127,
+          "name": "Ascending Draw Zone",
+          "descShort": "Each time Leafia casts her Support skill, Observation Points tier up 2 times. Increases Tactical Mapping's &Param1&.",
+          "descLong": "Each time Leafia casts Area Plotting (Support Skill), Observation Points tier up 2 times. When Tactical Mapping deals DMG, increases its &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16101_Potential_27_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 1,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "3%",
+                "4.8%",
+                "6.6%",
+                "8.4%",
+                "10.2%",
+                "12%",
+                "13.8%",
+                "15.6%",
+                "17.4%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516128,
+          "name": "Calibration Expansion",
+          "descShort": "Increases the &Param3& and &Param1& of Vanguard Strike and <span style=\"color:#6A90EB\">Calibration Mark</span>. DMG dealt by the Main Vanguard Trekker inflicts 1 additional stack of <span style=\"color:#6A90EB\">Calibration Mark</span> on the target.",
+          "descLong": "Increases the &Param3& of Vanguard Strike and <span style=\"color:#6A90EB\">Calibration Mark</span> by <span style=\"color:#ec6d21\">&Param4&</span>, and their &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>. When a target with <span style=\"color:#6A90EB\">Calibration Mark</span> takes DMG from the Main Vanguard Trekker, inflicts 1 additional stack of <span style=\"color:#6A90EB\">Calibration Mark</span>. This effect can trigger once per second per target.",
+          "icons": [
+            "16101_Potential_23_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 3,
+              "values": [
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate",
+                "Crit Rate"
+              ]
+            },
+            {
+              "idx": 1,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "6%",
+                "10%",
+                "14%",
+                "18%",
+                "21%",
+                "25%",
+                "26%",
+                "27%",
+                "28%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "13%",
+                "21%",
+                "29%",
+                "36%",
+                "44%",
+                "52%",
+                "60%",
+                "68%",
+                "75%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516129,
+          "name": "Mark Etching",
+          "descShort": "In an all-Terra squad, <span style=\"color:#6A90EB\">Calibration Mark</span> DMG increases the target's &Param1&.\nIf there is only 1 Terra Trekker on the squad, <span style=\"color:#6A90EB\">Calibration Mark</span> DMG increases the squad's &Param5& and the target's &Param7&.",
+          "descLong": "In an all-Terra squad, <span style=\"color:#6A90EB\">Calibration Mark</span> DMG increases the target's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.\nIf there is only 1 Terra Trekker on the squad, <span style=\"color:#6A90EB\">Calibration Mark</span> DMG increases the squad's &Param5& by <span style=\"color:#ec6d21\">&Param6&</span> and the target's &Param7& by <span style=\"color:#ec6d21\">&Param8&</span> for 3s, stacking up to 6 times.",
+          "icons": [
+            "16101_Potential_24_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 7,
+              "values": [
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken",
+                "Terra DMG Taken"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4.3%",
+                "6.9%",
+                "9.5%",
+                "12%",
+                "14.6%",
+                "17.2%",
+                "19.8%",
+                "22.4%",
+                "24.9%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "2.2%",
+                "3.5%",
+                "4.8%",
+                "6.2%",
+                "7.5%",
+                "8.8%",
+                "10.1%",
+                "11.4%",
+                "12.8%"
+              ]
+            },
+            {
+              "idx": 8,
+              "values": [
+                "4.3%",
+                "6.9%",
+                "9.5%",
+                "12%",
+                "14.6%",
+                "17.2%",
+                "19.8%",
+                "22.4%",
+                "24.9%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516130,
+          "name": "Mark Suppression",
+          "descShort": "Increases the &Param1& and &Param3& of Vanguard Strike and <span style=\"color:#6A90EB\">Calibration Mark</span>. When Vanguard Strike deals DMG, inflicts 2 stacks of <span style=\"color:#6A90EB\">Calibration Mark</span>.",
+          "descLong": "Increases the &Param1& of Vanguard Strike and <span style=\"color:#6A90EB\">Calibration Mark</span> by <span style=\"color:#ec6d21\">&Param2&</span>, and their &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>. When enhanced Vanguard Strike deals DMD, inflicts 2 stacks of <span style=\"color:#6A90EB\">Calibration Mark</span> on the target.",
+          "icons": [
+            "16101_Potential_30_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 2,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "Auto Attack Crit DMG",
+                "Auto Attack Crit DMG",
+                "Auto Attack Crit DMG",
+                "Auto Attack Crit DMG",
+                "Auto Attack Crit DMG",
+                "Auto Attack Crit DMG",
+                "Auto Attack Crit DMG",
+                "Auto Attack Crit DMG",
+                "Auto Attack Crit DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "7.5%",
+                "12%",
+                "16.5%",
+                "21%",
+                "25.5%",
+                "30%",
+                "31.5%",
+                "33%",
+                "34.5%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516131,
+          "name": "Earth Vein Activation",
+          "descShort": "When Leafia inflicts <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>, increases &Param1&.",
+          "descLong": "When Leafia inflicts <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>, increases &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "Common_Potential_14_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6%",
+                "9%",
+                "11%",
+                "14%",
+                "16%",
+                "18%",
+                "21%",
+                "23%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516132,
+          "name": "Earthen Deposition",
+          "descShort": "Terrain Mapping (Ultimate) can inflict <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>. When Terrain Mapping deals DMG, increases Leafia's &Param1&.",
+          "descLong": "Terrain Mapping (Ultimate) can inflict <span style=\"color:#6A90EB\">Terra Mark: Earth Vein</span>. When Terrain Mapping deals DMG, increases Leafia's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "icons": [
+            "Common_Potential_Earth_1_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG",
+                "Terra DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "12%",
+                "19%",
+                "26%",
+                "34%",
+                "41%",
+                "48%",
+                "55%",
+                "62%",
+                "70%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516133,
+          "name": "Leyline Amp",
+          "descShort": "In an all-Terra squad, increases the squad's &Param1&. If there is only 1 Terra Trekker on the squad, increases the squad's &Param3& and gives Leafia an extra &Param5& boost.",
+          "descLong": "In an all-Terra squad, increases the squad's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span>.\nIf there is only 1 Terra Trekker on the squad, increases the squad's &Param3& by <span style=\"color:#ec6d21\">&Param4&</span> and increases Leafia's &Param5& by an additional <span style=\"color:#ec6d21\">&Param6&</span>.",
+          "icons": [
+            "Common_Potential_15_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 2,
+          "build": 3,
+          "type": 2,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "15%",
+                "24%",
+                "33%",
+                "42%",
+                "51%",
+                "60%",
+                "69%",
+                "78%",
+                "87%"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            },
+            {
+              "idx": 6,
+              "values": [
+                "14%",
+                "22%",
+                "30%",
+                "39%",
+                "47%",
+                "55%",
+                "58%",
+                "60%",
+                "63%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516141,
+          "name": "Draw Zone Ascension",
+          "descShort": "When Terrain Mapping (Ultimate) deals DMG, increases Leafia's &Param1&.",
+          "descLong": "When Terrain Mapping (Ultimate) deals DMG, increases Leafia's &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "icons": [
+            "16101_Potential_41_A",
+            "Potential_Diamond_B",
+            "Potential_Diamond_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK",
+                "ATK"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "4%",
+                "6.4%",
+                "8.8%",
+                "11.2%",
+                "13.6%",
+                "16%",
+                "18.4%",
+                "20.8%",
+                "23.2%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "20"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516142,
+          "name": "Draw Zone Bombardment",
+          "descShort": "Increases the &Param1& of Terrain Mapping (Ultimate) and reduces its attack interval.",
+          "descLong": "Increases the &Param1& of Terrain Mapping (Ultimate) by <span style=\"color:#ec6d21\">&Param2&</span> and reduces its attack interval.",
+          "icons": [
+            "16101_Potential_41_A",
+            "Potential_Triangle_B",
+            "Potential_Triangle_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG",
+                "Ultimate DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "16%",
+                "22%",
+                "28%",
+                "34%",
+                "40%",
+                "46%",
+                "52%",
+                "58%"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 516143,
+          "name": "Draw Zone Support",
+          "descShort": "When the Ultimate is on cooldown or its energy is not full, all Terra Vanguard and Versatile Trekkers in the team gain increased &Param4&. When the Main Trekker is within the impact range of Terrain Mapping (Ultimate), increases all Terra Vanguard and Versatile Trekkers on the squad's &Param2&.",
+          "descLong": "When the Terrain Mapping (Ultimate) is on cooldown or its energy is not full, all Terra Vanguard and Versatile Trekkers in the team gain <span style=\"color:#ec6d21\">&Param5&</span> increased &Param4&. When the Main Trekker is within the impact range of Terrain Mapping (Ultimate), increases all Terra Vanguard and Versatile Trekkers on the squad's &Param2& by <span style=\"color:#ec6d21\">&Param3&</span>.",
+          "icons": [
+            "16101_Potential_41_A",
+            "Potential_Round_B",
+            "Potential_Round_A"
+          ],
+          "rarity": 1,
+          "build": 3,
+          "type": 3,
+          "params": [
+            {
+              "idx": 4,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG",
+                "Auto Attack DMG"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "13%",
+                "20%",
+                "28%",
+                "35%",
+                "43%",
+                "50%",
+                "58%",
+                "65%",
+                "73%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "2.5%",
+                "4%",
+                "5.5%",
+                "7%",
+                "8.5%",
+                "10%",
+                "11.5%",
+                "13%",
+                "14.5%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 162,
       "name": "Firstlight Noya",
       "class": 1,
@@ -54619,7 +56202,7 @@
           "id": 516243,
           "name": "Guiding Star",
           "descShort": "While in the Starender state, Noya gains additional &Param1& and regularly restores Energy.",
-          "descLong": "While in the Starender state, Noya gains <span style=\"color:#fb8037\">&Param2&</span> additional &Param1& and restores <span style=\"color:#fb8037\">&Param4&</span> Energy every &Param3&s.",
+          "descLong": "While in the Starender state, Firstlight Noya gains <span style=\"color:#fb8037\">&Param2&</span> additional &Param1& and restores <span style=\"color:#fb8037\">&Param4&</span> Energy every &Param3&s.",
           "icons": [
             "16201_Potential_43_A",
             "Potential_Round_B",
@@ -68465,6 +70048,350 @@
         }
       ],
       "bg": 4067
+    },
+    {
+      "id": 214068,
+      "name": "Beneath Billowing Sails",
+      "desc": "Cross the mountains, sail across the far sea.\u000bThe world has an end, but dreams are boundless.\u000bLet dreams stretch onward, and set foot upon the road to the future.",
+      "element": 3,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Beneath Billowing Sails",
+          "desc": "Increases the Mark DMG of Terra Trekkers by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen a Versatile Terra Trekker deals DMG, inflicts Calibration on the target: Increases Terra Skill DMG taken by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.\nWhen a Versatile Terra Trekker deals Auto Attack DMG to a target inflicted with Calibration, inflicts an additional effect: Increases Auto Attack DMG taken by <span style=\"color:#ec6d21\">&Param4&</span> for &Param5&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "30%",
+                "36%",
+                "42%",
+                "48%",
+                "54%",
+                "60%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "12%",
+                "14%",
+                "16%",
+                "18%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            },
+            {
+              "idx": 4,
+              "values": [
+                "15%",
+                "18%",
+                "21%",
+                "24%",
+                "27%",
+                "30%"
+              ]
+            },
+            {
+              "idx": 5,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Tracker's Strike",
+          "desc": "Increases the squad's Terra DMG by <span style=\"color:#ec6d21\">&Param1&</span>.\nTerra Trekkers deal <span style=\"color:#ec6d21\">&Param2&</span> more Auto Attack and Skill DMG to targets inflicted with Calibration.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10%",
+                "20%",
+                "30%",
+                "40%",
+                "50%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90016,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Riding the Waves",
+          "desc": "When a Support Trekker deals Auto Attack DMG, they gain 1 stack of Voyage: increases Terra Auto Attack DMG by <span style=\"color:#ec6d21\">&Param1&</span> for &Param2&s, stacking up to 5 times.\nTerra Main Trekkers deal <span style=\"color:#ec6d21\">&Param3&</span> more Skill DMG to targets inflicted with Calibration.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "2%",
+                "4%",
+                "6%",
+                "8%",
+                "10%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90012,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4068
+    },
+    {
+      "id": 214069,
+      "name": "Emergency Evacuation",
+      "desc": "A surging heat wave crashes head-on,\u000bsuffocation, pressure, and fear seem to merge into a giant beast,\u000bchasing everyone with the resolve to devour everything.\u000bYet the figure ahead carves out a space of calm.\nDon't look back. Just keep looking forward.",
+      "element": 3,
+      "rarity": 1,
+      "skills": [
+        {
+          "name": "Emergency Evacuation",
+          "desc": "Increases the Auto Attack DMG of Support Terra Trekkers by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen a Versatile Terra Trekker casts a skill, inflicts Anchored on the Main Trekker: Increases Terra DMG by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to 2 times.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "7.5%",
+                "9%",
+                "10.5%",
+                "12%",
+                "13.5%",
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "2.5%",
+                "3%",
+                "3.5%",
+                "4%",
+                "4.5%",
+                "5%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Domain Scan",
+          "desc": "Increases the Skill DMG of Terra Trekkers in the squad by <span style=\"color:#ec6d21\">&Param1&</span>.\nWhen any Trekker triggers a Terra Mark, increases Terra Trekkers' Ultimate DMG by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "3%",
+                "6%",
+                "9%",
+                "12%",
+                "15%"
+              ]
+            },
+            {
+              "idx": 2,
+              "values": [
+                "5%",
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+              ]
+            },
+            {
+              "idx": 3,
+              "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                10,
+                25,
+                40,
+                55,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Endless Voyage",
+          "desc": "When Anchored is at max stacks, increases Terra Trekkers' ATK by <span style=\"color:#ec6d21\">&Param1&</span>.",
+          "params": [
+            {
+              "idx": 1,
+              "values": [
+                "4%",
+                "8%",
+                "12%",
+                "16%",
+                "20%"
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "id": 90015,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90016,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            },
+            {
+              "id": 90021,
+              "values": [
+                15,
+                30,
+                45,
+                60,
+                75
+              ]
+            }
+          ]
+        }
+      ],
+      "bg": 4069
     }
   ]
 }
