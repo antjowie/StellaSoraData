@@ -54102,7 +54102,7 @@
           "id": 516127,
           "name": "Ascending Draw Zone",
           "descShort": "Each time Leafia casts her Support skill, Observation Points tier up 2 times. Increases Tactical Mapping's &Param1&.",
-          "descLong": "Each time Leafia casts Area Plotting (Support Skill), Observation Points tier up 2 times. When Tactical Mapping deals DMG, increases its &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
+          "descLong": "Each time Leafia casts Area Plotting (Support Skill), Observation Points tier up 2 times when tiering up. When Tactical Mapping deals DMG, increases its &Param1& by <span style=\"color:#ec6d21\">&Param2&</span> for &Param3&s, stacking up to &Param4& times.",
           "icons": [
             "16101_Potential_27_A",
             "Potential_Round_B",
@@ -54342,7 +54342,7 @@
           "id": 516130,
           "name": "Mark Suppression",
           "descShort": "Increases the &Param1& and &Param3& of Vanguard Strike and <span style=\"color:#6A90EB\">Calibration Mark</span>. When Vanguard Strike deals DMG, inflicts 2 stacks of <span style=\"color:#6A90EB\">Calibration Mark</span>.",
-          "descLong": "Increases the &Param1& of Vanguard Strike and <span style=\"color:#6A90EB\">Calibration Mark</span> by <span style=\"color:#ec6d21\">&Param2&</span>, and their &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>. When enhanced Vanguard Strike deals DMD, inflicts 2 stacks of <span style=\"color:#6A90EB\">Calibration Mark</span> on the target.",
+          "descLong": "Increases the &Param1& of Vanguard Strike and <span style=\"color:#6A90EB\">Calibration Mark</span> by <span style=\"color:#ec6d21\">&Param2&</span>, and their &Param3& by <span style=\"color:#ec6d21\">&Param4&</span>. When enhanced Vanguard Strike deals DMG, inflicts 2 stacks of <span style=\"color:#6A90EB\">Calibration Mark</span> on the target.",
           "icons": [
             "16101_Potential_30_A",
             "Potential_Round_B",
